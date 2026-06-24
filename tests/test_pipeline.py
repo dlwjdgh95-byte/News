@@ -214,6 +214,30 @@ def test_sentiment_none_string():
     assert source_b._norm_sentiment("negative") == "negative"
 
 
+def test_prefilter_no_substring_false_positive():
+    # Surfaced by a live demo: "nfl" ⊂ "inflation" must NOT drop economic news.
+    arts = [
+        _a("Fed Holds Rates Steady Amid Inflation Concerns", "https://r.com/fed",
+           summary="The Fed kept its benchmark rate unchanged.", language="en", category="world"),
+        _a("NBA finals draw record viewers", "https://s.com/nba",  # real sports -> drop
+           summary="basketball", category="sports"),
+    ]
+    kept, dropped = prefilter.prefilter(arts)
+    titles = [k.title for k in kept]
+    assert "Fed Holds Rates Steady Amid Inflation Concerns" in titles, "inflation wrongly dropped"
+    assert dropped == 1 and not any("NBA" in t for t in titles), "real NBA story should drop"
+
+
+def test_conflict_not_masked_by_incidental_number():
+    # Surfaced by a live demo: shared "2" from "2분기" must not mask 10조 vs 12조.
+    t0 = datetime(2026, 6, 24, 1, 0, tzinfo=timezone.utc)
+    a = _a("삼성전자 2분기 영업이익 10조 전망", "https://e.com/10", published_at=t0)
+    b = _a("삼성전자 2분기 영업이익 12조 전망", "https://e.com/12", published_at=t0)
+    reps = dedup.deduplicate([a, b])
+    assert len(reps) == 2, "10조 vs 12조 must stay separate despite shared '2분기'"
+    assert any("conflicting-figures" in r.flags for r in reps)
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     passed = 0

@@ -138,6 +138,16 @@ def _numbers(entities: List[str]) -> set[str]:
     return {e for e in entities if any(c.isdigit() for c in e)}
 
 
+# A magnitude unit (조/억/원/%/달러…) makes a number "meaningful" for conflict
+# detection. Bare integers like a quarter ("2분기" -> "2") or a year must NOT
+# count, or an incidental shared "2" would mask a real 10조-vs-12조 conflict.
+_UNIT_RE = re.compile(r"(조|억|만|원|달러|%|％|bn|m|billion|million|trillion)$", re.I)
+
+
+def _unit_numbers(entities: List[str]) -> set[str]:
+    return {e for e in _numbers(entities) if _UNIT_RE.search(e)}
+
+
 _VERSION_WORDS = {"pro", "max", "ultra", "mini", "flash", "plus", "lite"}
 
 
@@ -186,9 +196,11 @@ def can_merge(a: Article, b: Article) -> tuple[bool, list[str]]:
     # Entity/version distinction.
     ents_a = a.key_entities or extract_key_entities(a.title)
     ents_b = b.key_entities or extract_key_entities(b.title)
-    nums_a, nums_b = _numbers(ents_a), _numbers(ents_b)
 
-    # Conflicting key figures => keep both, flag possible misinformation.
+    # Conflicting key figures => keep both, flag possible misinformation. Only
+    # unit-bearing figures count, so an incidental shared bare number (a quarter
+    # or year) can't mask a real magnitude conflict (e.g. 10조 vs 12조).
+    nums_a, nums_b = _unit_numbers(ents_a), _unit_numbers(ents_b)
     if nums_a and nums_b and not (nums_a & nums_b):
         return False, ["conflicting-figures"]
 

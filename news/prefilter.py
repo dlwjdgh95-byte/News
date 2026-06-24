@@ -37,15 +37,36 @@ _KEEP_OVERRIDE = [
     "lifestyle", "health", "travel", "food", "wellness", "housing", "real estate",
 ]
 
-_WORD = re.compile(r"[0-9a-z가-힣]+")
+def _compile(terms: List[str]):
+    """Build a matcher for a term list.
+
+    ASCII terms are matched with word boundaries so short tokens like "nfl",
+    "nba", "mlb", "m", "bn" can NOT match inside unrelated words (the classic
+    "nfl" ⊂ "inflation" bug that would drop economic news). CJK terms keep
+    substring matching, which is the desired behaviour for Korean compounds
+    (e.g. "연예" should match "연예인").
+    """
+    ascii_terms = sorted({t for t in terms if t.isascii()}, key=len, reverse=True)
+    cjk_terms = [t for t in terms if not t.isascii()]
+    ascii_re = None
+    if ascii_terms:
+        ascii_re = re.compile(r"\b(?:" + "|".join(re.escape(t) for t in ascii_terms) + r")\b")
+    return ascii_re, cjk_terms
+
+
+_EXCLUDE_RE, _EXCLUDE_CJK = _compile(_EXCLUDE)
+_KEEP_RE, _KEEP_CJK = _compile(_KEEP_OVERRIDE)
 
 
 def _hay(article: Article) -> str:
     return f"{article.title} {article.summary} {article.category}".lower()
 
 
-def _matches(hay: str, terms) -> bool:
-    return any(t in hay for t in terms)
+def _matches(hay: str, compiled) -> bool:
+    ascii_re, cjk_terms = compiled
+    if ascii_re is not None and ascii_re.search(hay):
+        return True
+    return any(t in hay for t in cjk_terms)
 
 
 def prefilter(articles: List[Article]) -> Tuple[List[Article], int]:
@@ -54,10 +75,10 @@ def prefilter(articles: List[Article]) -> Tuple[List[Article], int]:
     dropped = 0
     for a in articles:
         hay = _hay(a)
-        if _matches(hay, _KEEP_OVERRIDE):
+        if _matches(hay, (_KEEP_RE, _KEEP_CJK)):
             kept.append(a)
             continue
-        if _matches(hay, _EXCLUDE):
+        if _matches(hay, (_EXCLUDE_RE, _EXCLUDE_CJK)):
             dropped += 1
             continue
         kept.append(a)
