@@ -1,0 +1,6 @@
+# Core runtime dependency. Kept intentionally minimal so the system works
+# reliably on a freshly-cloned cloud container without a heavy install step.
+requests>=2.28
+
+# Optional: only used if present. The code degrades gracefully without them.
+#   feedparser  -> nicer RSS parsing (we fall back to stdlib xml.etree)

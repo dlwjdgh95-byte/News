@@ -1,0 +1,11 @@
+# Transient query cache (regenerated each run; never needs committing).
+cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local secrets — NEVER commit real secrets.
+.env

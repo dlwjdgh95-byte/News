@@ -1,0 +1,65 @@
+name: Daily News Briefing
+
+# 매일 한국시간 07:30 = 전날 22:30 UTC. 루틴은 UTC 기준이므로 cron은 "30 22 * * *".
+on:
+  schedule:
+    - cron: "30 22 * * *"
+  workflow_dispatch:        # 수동 "Run Now" 검증용
+    inputs:
+      mode:
+        description: "run mode"
+        type: choice
+        default: "send"
+        options: ["send", "dry-run", "fallback"]
+
+# state/, briefs/ 를 커밋하기 위한 쓰기 권한.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout (fresh clone each run; state lives in repo)
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run briefing
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          case "$MODE" in
+            dry-run)  python run.py --dry-run ;;
+            fallback) python run.py --fallback ;;
+            *)        python run.py ;;
+          esac
+
+      - name: Commit archive + sent-log
+        if: ${{ github.event.inputs.mode != 'dry-run' }}
+        run: |
+          git config user.name "news-briefing-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/ briefs/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: daily briefing $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No state/briefs changes to commit."
+          fi
