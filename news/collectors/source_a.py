@@ -71,23 +71,26 @@ def _collect_rss() -> List[Article]:
             continue
         category = _category_for_feed(feed_name, url)
         for entry in entries:
-            title = (entry.title or "").strip()
-            link = (entry.link or "").strip()
-            if not title or not link:
-                continue  # spec: skip empty title/url
-            articles.append(
-                Article(
-                    title=title,
-                    url=link,
-                    source_name=(entry.source_name or feed_name or "").strip(),
-                    source_tag=SOURCE_A,
-                    summary=strip_html(entry.summary),
-                    published_at=entry.published,
-                    category=category,
-                    language="",  # unknown — normalize stage detects it
-                    confidence=_AGGREGATOR_CONFIDENCE,
+            try:
+                title = (entry.title or "").strip()
+                link = (entry.link or "").strip()
+                if not title or not link:
+                    continue  # spec: skip empty title/url
+                articles.append(
+                    Article(
+                        title=title,
+                        url=link,
+                        source_name=(entry.source_name or feed_name or "").strip(),
+                        source_tag=SOURCE_A,
+                        summary=strip_html(entry.summary),
+                        published_at=entry.published,
+                        category=category,
+                        language="",  # unknown — normalize stage detects it
+                        confidence=_AGGREGATOR_CONFIDENCE,
+                    )
                 )
-            )
+            except Exception:  # noqa: BLE001 - one bad entry must not drop the feed
+                continue
     return articles
 
 

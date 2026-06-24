@@ -119,6 +119,101 @@ def test_telegram_split():
     assert len(chunks) > 1
 
 
+# --- New regression tests for the re-examination fixes --------------------
+def test_korean_entity_split():
+    # B3: same template, different subject (코스피 vs 코스닥) must stay separate.
+    t0 = datetime(2026, 6, 24, 1, 0, tzinfo=timezone.utc)
+    a = _a("코스피 외국인 순매수 전환", "https://k.com/1", published_at=t0)
+    b = _a("코스닥 외국인 순매수 전환", "https://k.com/2", published_at=t0)
+    reps = dedup.deduplicate([a, b])
+    assert len(reps) == 2, "코스피 != 코스닥"
+
+
+def test_korean_superset_still_merges():
+    # B3 sanity: one title is a superset of the other (no unique token on the
+    # shorter side) -> should still merge, dedup isn't fully disabled for Korean.
+    t0 = datetime(2026, 6, 24, 1, 0, tzinfo=timezone.utc)
+    a = _a("삼성전자 영업이익 사상 최대", "https://s.com/a?utm_source=x", published_at=t0)
+    b = _a("삼성전자 영업이익 사상 최대 기록", "https://s.com/a", published_at=t0)
+    reps = dedup.deduplicate([a, b])
+    assert len(reps) == 1, "near-identical Korean titles should still merge"
+
+
+def test_time_gap_no_cue_separates():
+    # B2: >=12h apart with no status cue is not "close publish time" -> separate.
+    t0 = datetime(2026, 6, 24, 1, 0, tzinfo=timezone.utc)
+    a = _a("환율 1400원 동향 보도", "https://t.com/1", published_at=t0)
+    b = _a("환율 1400원 동향 보도", "https://t.com/2", published_at=t0 + timedelta(hours=14))
+    reps = dedup.deduplicate([a, b])
+    assert len(reps) == 2, "14h apart, no cue: must not merge (시각 근접 아님)"
+
+
+def test_related_no_self_reference():
+    # B4: after a confidence swap the new representative's related[] must contain
+    # the OLD rep's url and never its own.
+    low = _a("Fed holds rates", "https://x.com/low?utm_source=t", confidence=0.4)
+    high = _a("Fed holds rates steady", "https://x.com/high", confidence=0.9)
+    reps = dedup.deduplicate([low, high])
+    assert len(reps) == 1
+    rep = reps[0]
+    assert rep.url == "https://x.com/high"
+    assert rep.url not in rep.related, "rep must not reference itself"
+    assert "https://x.com/low?utm_source=t" in rep.related
+
+
+def test_telegram_partial_send_no_fallback():
+    # B1: if ANY chunk delivered, _deliver must NOT raise (so no second send).
+    from news import pipeline, telegram
+    art = _a("뉴스", "https://n.com/1", confidence=0.8)
+    art.canonical_url = "https://n.com/1"
+    orig = telegram.send_message
+    try:
+        telegram.send_message = lambda *a, **k: telegram.SendResult(ok=False, sent=1, total=2)
+        result, _ = pipeline._deliver("text", "md", [art], send=True, persist=False)
+        assert result.any_sent and not result.ok
+    finally:
+        telegram.send_message = orig
+
+
+def test_telegram_nothing_sent_raises_for_fallback():
+    # B1: zero chunks delivered must raise so the caller can fall back.
+    from news import pipeline, telegram
+    art = _a("뉴스", "https://n.com/2", confidence=0.8)
+    orig = telegram.send_message
+    try:
+        telegram.send_message = lambda *a, **k: telegram.SendResult(ok=False, sent=0, total=2)
+        raised = False
+        try:
+            pipeline._deliver("text", "md", [art], send=True, persist=False)
+        except RuntimeError:
+            raised = True
+        assert raised, "no delivery must raise to trigger fallback"
+    finally:
+        telegram.send_message = orig
+
+
+def test_dry_run_does_not_persist_sent_log():
+    # C2: send=False must not mutate sent_log.
+    from news import pipeline, config
+    p = config.SENT_LOG_PATH
+    before = p.read_text(encoding="utf-8") if p.exists() else None
+    art = _a("뉴스", "https://n.com/3", confidence=0.9)
+    art.canonical_url = "https://n.com/3"
+    pipeline._deliver("text", "md", [art], send=False, persist=False)
+    after = p.read_text(encoding="utf-8") if p.exists() else None
+    assert before == after, "dry-run must not change sent_log"
+
+
+def test_sentiment_none_string():
+    # C3: literal "None"/null must normalise to None; valid labels pass through.
+    from news.collectors import source_b
+    assert source_b._norm_sentiment("None") is None
+    assert source_b._norm_sentiment("") is None
+    assert source_b._norm_sentiment(None) is None
+    assert source_b._norm_sentiment("Positive") == "positive"
+    assert source_b._norm_sentiment("negative") == "negative"
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     passed = 0

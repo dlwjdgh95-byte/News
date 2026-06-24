@@ -1,6 +1,11 @@
 # Transient query cache (regenerated each run; never needs committing).
 cache/
 
+# Hybrid runtime intermediates (per-run; prepare writes candidates, agent writes
+# selection). Not durable state — only state/sent_log.json is committed.
+state/candidates.json
+state/selection.json
+
 # Python
 __pycache__/
 *.pyc

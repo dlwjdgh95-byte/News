@@ -97,6 +97,28 @@ _STATUS_CUES = [
 ]
 
 
+# Ultra-common Korean news tokens that are NOT distinguishing entities. Kept
+# small on purpose — the symmetric-difference guard already cancels shared
+# tokens, so this only needs to suppress trivially-common standalone words.
+_KO_STOP = {
+    "속보", "단독", "종합", "영상", "포토", "사진", "기자", "오늘", "내일",
+    "관련", "예정", "전망", "발표", "공개", "결정",
+}
+_HANGUL_TOKEN_RE = re.compile(r"[가-힣]{2,}")
+
+
+def _korean_entities(title: str) -> set[str]:
+    """Distinguishing Korean tokens (length>=2 Hangul, minus stopwords).
+
+    Latin proper-noun matching ([A-Z]...) never fires on Korean, which left the
+    over-merge entity guard inert for the dominant language. These tokens feed a
+    symmetric-difference check so two Korean stories that share a template but
+    differ in their key subject (e.g. 코스피 vs 코스닥) stay separate.
+    """
+    return {t for t in _HANGUL_TOKEN_RE.findall(title)
+            if t not in _STOP and t not in _KO_STOP}
+
+
 def extract_key_entities(title: str) -> List[str]:
     ents = set()
     for m in _PROPER_RE.findall(title):
@@ -107,6 +129,8 @@ def extract_key_entities(title: str) -> List[str]:
         norm = m.replace(" ", "").lower()
         if any(ch.isdigit() for ch in norm):
             ents.add(norm)
+    # Korean distinguishing tokens (proper-noun-ish subjects).
+    ents.update(_korean_entities(title))
     return sorted(ents)
 
 
@@ -180,11 +204,20 @@ def can_merge(a: Article, b: Article) -> tuple[bool, list[str]]:
     if names_a and names_b and not (names_a & names_b):
         return False, flags
 
-    # All guards passed: similar title + close/compatible time + entity overlap.
+    # Korean distinguishing-token guard: if each title carries a unique
+    # Korean subject token the other lacks (e.g. 코스피 vs 코스닥), they concern
+    # different subjects despite the high title overlap -> keep separate.
+    ko_a = _korean_entities(a.original_title or a.title)
+    ko_b = _korean_entities(b.original_title or b.title)
+    if (ko_a - ko_b) and (ko_b - ko_a):
+        return False, flags
+
+    # Required merge condition per spec: title similarity AND CLOSE publish time
+    # (발행 시각 근접). If we cannot confirm closeness, do NOT merge — when in
+    # doubt, keep separate.
     if gap is None or gap < config.TIME_SPLIT_HOURS:
         return True, flags
-    # Far apart but no status cue and entities overlap -> still merge cautiously.
-    return True, flags
+    return False, flags
 
 
 # --------------------------------------------------------------------------
@@ -206,13 +239,17 @@ def deduplicate(articles: List[Article]) -> List[Article]:
                 for f in flags:
                     if f not in rep.flags:
                         rep.flags.append(f)
-                rep.related.append(art.url)
                 # Keep the higher-confidence article as representative.
                 if art.confidence > rep.confidence:
-                    art.related = rep.related + art.related
+                    # New rep inherits the old rep's related[] plus the old rep
+                    # itself, never referencing itself.
+                    merged_related = [rep.url] + rep.related + art.related
+                    art.related = [u for u in dict.fromkeys(merged_related) if u != art.url]
                     art.flags = list(dict.fromkeys(art.flags + rep.flags))
                     art.cluster_id = rep.cluster_id
                     reps[reps.index(rep)] = art
+                else:
+                    rep.related.append(art.url)
                 placed = True
                 break
             else:

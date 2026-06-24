@@ -67,9 +67,14 @@ def _parse_newsdata_date(raw: str) -> Optional[datetime]:
 
 
 def _norm_sentiment(raw: object) -> Optional[str]:
+    # NewsData may send the literal string "None" (or null) when sentiment was
+    # not computed — normalise all of these to None explicitly so market mood
+    # only ever counts the three valid labels.
     if not isinstance(raw, str):
         return None
     s = raw.strip().lower()
+    if s in ("", "none", "null", "n/a", "unknown"):
+        return None
     return s if s in _VALID_SENTIMENTS else None
 
 
@@ -186,7 +191,10 @@ def _collect_guardian() -> List[Article]:
             "page-size": config.FALLBACK_ITEMS,
             "order-by": "newest",
         }
-        data = http.get_json("https://content.guardianapis.com/search", params=params)
+        try:
+            data = http.get_json("https://content.guardianapis.com/search", params=params)
+        except Exception:  # noqa: BLE001 - a Guardian error must not block RSS fallback
+            data = None
         if not isinstance(data, dict):
             continue
         response = data.get("response")

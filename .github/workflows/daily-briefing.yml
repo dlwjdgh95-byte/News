@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: daily-briefing
-  cancel-in-progress: false
+  cancel-in-progress: true   # never let two runs race to push state
 
 jobs:
   briefing:
@@ -57,9 +57,20 @@ jobs:
           git config user.name "news-briefing-bot"
           git config user.email "actions@users.noreply.github.com"
           git add state/ briefs/ || true
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: daily briefing $(date -u +%Y-%m-%d)"
-            git push
-          else
+          if git diff --cached --quiet; then
             echo "No state/briefs changes to commit."
+            exit 0
           fi
+          git commit -m "chore: daily briefing $(date -u +%Y-%m-%d)"
+          # Rebase onto the latest remote tip of THIS branch (not a hardcoded
+          # main) and retry the push with backoff to survive transient races.
+          branch="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase --autostash origin "$branch" && git push origin "HEAD:$branch"; then
+              echo "Pushed state on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying..."
+            sleep $((2 ** attempt))
+          done
+          echo "::warning::Failed to push briefing state after retries."
