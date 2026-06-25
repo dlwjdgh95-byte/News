@@ -195,6 +195,19 @@ def _apply_agent_selection(candidates: List[Article]) -> Optional[List[Article]]
     return select._apply_caps(ordered_ids, candidates, MAX_ITEMS)
 
 
+def _load_agent_events() -> List[str]:
+    """Read the optional 'events' list the lead agent may write into
+    selection.json for the '오늘 주목할 이벤트' section."""
+    if not SELECTION_PATH.exists():
+        return []
+    try:
+        data = json.loads(SELECTION_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    events = data.get("events") or []
+    return [str(e).strip() for e in events if str(e).strip()]
+
+
 def run_finalize(send: bool = True, persist: bool = True) -> dict:
     """Render + deliver + archive using candidates.json and (if present) the
     agent's selection.json. Falls back to autonomous select+summarize when the
@@ -207,12 +220,14 @@ def run_finalize(send: bool = True, persist: bool = True) -> dict:
 
     selected = _apply_agent_selection(candidates)
     method = "agent"
+    events = _load_agent_events()
     if selected is None:
         selected, sel_method = select.select(candidates, max_items=MAX_ITEMS)
         summarize.summarize(selected)
         method = f"autonomous:{sel_method}"
 
-    telegram_text, markdown, stats = render.render_briefing(selected, failed_sources=failed)
+    telegram_text, markdown, stats = render.render_briefing(
+        selected, failed_sources=failed, events=events)
     result, brief_path = _deliver(telegram_text, markdown, selected, send=send, persist=persist)
     return {"mode": "finalize", "selection": method, "failed_sources": failed,
             "brief_path": brief_path, "delivered": f"{result.sent}/{result.total}", **stats}

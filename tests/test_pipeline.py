@@ -238,6 +238,34 @@ def test_conflict_not_masked_by_incidental_number():
     assert any("conflicting-figures" in r.flags for r in reps)
 
 
+def test_events_from_agent_list():
+    # Agent-supplied events take priority and render verbatim.
+    a = _a("아무 뉴스", "https://n.com/e1", confidence=0.8)
+    a.one_liner = "요약"; a.evidence = "근거"
+    tg, md, stats = render.render_briefing(
+        [a], events=["美 5월 CPI 발표", "FOMC 회의"])
+    assert "🗓 오늘 주목할 이벤트" in tg
+    assert "· 美 5월 CPI 발표" in tg and "· FOMC 회의" in tg
+
+
+def test_events_deterministic_fallback():
+    # No agent events -> derive from titles carrying a forward-looking cue.
+    a = _a("삼성전자 2분기 실적 발표 예정", "https://n.com/e2", confidence=0.8)
+    a.one_liner = "요약"; a.evidence = "근거"
+    b = _a("코스피 어제 2% 상승 마감", "https://n.com/e3", confidence=0.8)
+    b.one_liner = "요약"; b.evidence = "근거"
+    tg, md, stats = render.render_briefing([a, b])  # events=None
+    assert "· 삼성전자 2분기 실적 발표 예정" in tg
+    assert "어제 2% 상승" not in tg.split("주목할 이벤트")[1]  # past news not an event
+
+
+def test_events_empty_placeholder():
+    a = _a("특별한 일정 없는 뉴스", "https://n.com/e4", confidence=0.8)
+    a.one_liner = "요약"; a.evidence = "근거"
+    tg, md, stats = render.render_briefing([a])
+    assert "예정된 주요 일정이 식별되지 않았습니다" in tg
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     passed = 0

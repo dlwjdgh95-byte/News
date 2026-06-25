@@ -23,6 +23,36 @@ KST = timezone(timedelta(hours=9))
 
 PUSH_CONFIDENCE_MIN = 0.45  # below this => archive only
 
+# Forward-looking schedule cues for the "오늘 주목할 이벤트" section. We only want
+# items that point at something *upcoming*, not reports of past events, so the
+# cues are deliberately future-oriented.
+# Kept deliberately specific: ambiguous words like "마감"(시장 마감) or "회의"
+# produce false positives on past news, so they are excluded.
+_EVENT_CUES = (
+    "예정", "앞두고", "예고", "개최", "열린다", "열려", "내일", "이번 주", "이번주",
+    "다음 주", "다음주", "만기", "시한", "데드라인", "표결", "투표", "청문회",
+    "fomc", "금통위", "연설",
+)
+_MAX_EVENTS = 5
+
+
+def extract_events(articles: List["Article"]) -> List[str]:
+    """Best-effort deterministic events: pick articles whose title signals an
+    upcoming event. Used when the lead agent did not supply an events list."""
+    out: List[str] = []
+    seen = set()
+    for a in articles:
+        hay = a.title.lower()
+        if any(cue in hay for cue in _EVENT_CUES):
+            title = a.title.strip()
+            if title and title not in seen:
+                seen.add(title)
+                out.append(title)
+        if len(out) >= _MAX_EVENTS:
+            break
+    return out
+
+
 
 def market_mood(economy: List[Article]) -> str:
     """One-line market mood from NewsData sentiment, when available."""
@@ -80,7 +110,8 @@ def _section(title: str, arts: List[Article], *, source_failed: bool = False) ->
 
 
 def render_briefing(selected: List[Article], *, now: datetime | None = None,
-                    failed_sources: List[str] | None = None) -> Tuple[str, str, dict]:
+                    failed_sources: List[str] | None = None,
+                    events: List[str] | None = None) -> Tuple[str, str, dict]:
     """Return (telegram_text, markdown_archive, stats).
 
     telegram_text contains only push-worthy items; markdown_archive contains
@@ -119,8 +150,15 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
     tg += _section("🪙 크립토 (보조)", push_c, source_failed=SOURCE_C in failed_sources)
     tg.append("")
 
+    # Events: prefer the lead agent's curated list; else derive deterministically.
+    event_lines = [str(e).strip() for e in (events or []) if str(e).strip()]
+    if not event_lines:
+        event_lines = extract_events(selected)
     tg.append("🗓 오늘 주목할 이벤트")
-    tg.append("· 일정 데이터 소스 미연동 — 추후 보강 예정")
+    if event_lines:
+        tg += [f"· {e}" for e in event_lines[:_MAX_EVENTS]]
+    else:
+        tg.append("· 예정된 주요 일정이 식별되지 않았습니다.")
 
     if failed_sources:
         tg.append("")

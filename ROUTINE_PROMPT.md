@@ -65,11 +65,16 @@
    - 미근거 단정(likely/clearly/will definitely 등 출처에 귀속 안 되는 표현)은 flags에
      "unsourced-claim" 추가. 기존 flags(conflicting-figures 등)는 유지.
    - 신뢰도: 근거가 약하면 confidence를 낮춰라(파이썬이 낮은 confidence는 push에서 제외, 아카이브).
+   - 오늘 주목할 이벤트: 후보에서 *앞으로 예정된* 일정(경제지표 발표·FOMC/금통위·기업 실적 발표·
+     옵션/선물 만기·주요 연설·표결 등)을 식별해 events 목록(최대 5개, 짧은 한국어 한 줄)으로 정리하라.
+     예정된 일정이 없으면 events는 빈 배열로 둔다(파이썬이 제목에서 자동 추출로 보강).
 
 3) 결과를 `state/selection.json`에 아래 형식으로 저장하라(id는 candidates의 id, 중요도 순):
    {"selected":[{"id":0,"title":"한국어 제목","one_liner":"한줄요약",
      "why_it_matters":"왜 중요한지","tags":["태그"],"confidence":0.82,
-     "evidence":"인용 구절 + 출처","flags":[]}], "market_mood":"시장 분위기 한 줄(선택)"}
+     "evidence":"인용 구절 + 출처","flags":[]}],
+    "events":["美 5월 CPI 발표(21:30 KST)","삼성전자 2분기 잠정실적 발표"],
+    "market_mood":"시장 분위기 한 줄(선택)"}
 
 4) `python run.py --finalize` 실행. 출력의 "delivered"가 0/N이면(전송 실패) `python run.py --fallback`
    실행. selection.json이 없거나 비면 finalize가 자동으로 휴리스틱 선별로 대체한다.
