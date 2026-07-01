@@ -61,6 +61,7 @@ class Article:
     # Structured summary fields (filled by the summarize stage)
     one_liner: str = ""                          # 한줄요약
     why_it_matters: str = ""                     # 왜 중요한지
+    implications: str = ""                        # 2차 영향·함의 (누구에게/무엇을 지켜볼지)
     tags: List[str] = field(default_factory=list)
     evidence: str = ""                           # 근거: 인용 구절 + 출처
     flags: List[str] = field(default_factory=list)  # e.g. ["unsourced-claim", "conflicting-figures"]

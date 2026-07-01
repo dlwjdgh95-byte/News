@@ -266,6 +266,35 @@ def test_events_empty_placeholder():
     assert "예정된 주요 일정이 식별되지 않았습니다" in tg
 
 
+def test_insight_sections_render():
+    a = _a("경제 뉴스", "https://n.com/i1", source_tag=SOURCE_B, confidence=0.8)
+    a.one_liner = "요약"; a.evidence = "근거"
+    tg, md, stats = render.render_briefing(
+        [a],
+        top_insight=["금리 동결 + 유가 급등 → 물가 재점화 우려", "증시 상단 제한"],
+        whats_changed=["비트코인 어제 6.2만 → 오늘 6.0만"],
+        themes=["통화정책 — 동결 장기화", "에너지 — 유가 변동성"])
+    assert "오늘의 관전 포인트" in tg
+    assert "· 금리 동결 + 유가 급등 → 물가 재점화 우려" in tg
+    assert "어제 대비 달라진 점" in tg and "비트코인 어제 6.2만" in tg
+    assert "핵심 테마" in tg and "통화정책 — 동결 장기화" in tg
+
+
+def test_implications_render():
+    a = _a("삼성전자 실적", "https://n.com/i2", source_tag=SOURCE_B, confidence=0.8)
+    a.one_liner = "요약"; a.why_it_matters = "반도체 가늠자"; a.evidence = "근거"
+    a.implications = "장비주·소부장에 파급, 잠정실적일 주가 변동 주시"
+    tg, md, stats = render.render_briefing([a])
+    assert "▸ 함의: 장비주·소부장에 파급" in tg
+
+
+def test_insight_absent_when_not_provided():
+    a = _a("뉴스", "https://n.com/i3", confidence=0.8)
+    a.one_liner = "요약"; a.evidence = "근거"
+    tg, md, stats = render.render_briefing([a])
+    assert "관전 포인트" not in tg and "핵심 테마" not in tg
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     passed = 0

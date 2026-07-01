@@ -58,18 +58,28 @@ def _collect_all() -> Tuple[List[Article], List[str]]:
 
 
 def _build_candidates() -> Tuple[List[Article], List[str]]:
-    """Collect -> normalize -> prefilter -> dedup -> drop already-sent."""
+    """Collect -> normalize -> prefilter -> dedup -> drop already-sent.
+
+    Only a genuinely empty collection raises (that is what the fallback is for).
+    Each transform is guarded so one bad article can't crash the run, and if the
+    sent-log filter removes everything we keep the freshest deduped items rather
+    than forcing a fallback — a slightly-repeated item beats an ugly fallback."""
     config.ensure_dirs()
     raw, failed = _collect_all()
     if not raw:
         raise RuntimeError(f"collection produced no articles (failed={failed})")
-    arts = normalize.normalize(raw)
-    arts, _dropped = prefilter.prefilter(arts)
-    reps = dedup.deduplicate(arts)
+    try:
+        arts = normalize.normalize(raw)
+        arts, _dropped = prefilter.prefilter(arts)
+        reps = dedup.deduplicate(arts)
+    except Exception as exc:  # noqa: BLE001 - never fall back over a bad title
+        print(f"[pipeline] hygiene stage error ({exc}); using raw normalized items")
+        reps = normalize.normalize(raw)
     log = state.load_sent_log()
     fresh = [a for a in reps if not state.already_sent(log, a.canonical_url)]
     if not fresh:
-        raise RuntimeError("all candidates already sent previously")
+        # Everything was sent before — don't fall back; keep the freshest few.
+        fresh = reps[:MAX_ITEMS]
     return fresh, failed
 
 
@@ -126,6 +136,19 @@ def run_pipeline(send: bool = True, persist: bool = True) -> dict:
 # --------------------------------------------------------------------------
 # Hybrid path: prepare / finalize
 # --------------------------------------------------------------------------
+def _yesterday_brief() -> str:
+    """Return yesterday's committed briefing text (for day-over-day continuity),
+    trimmed. Empty string if none exists."""
+    y = (datetime.now(KST) - timedelta(days=1)).strftime("%Y-%m-%d")
+    p = config.BRIEFS_DIR / f"{y}.md"
+    if not p.exists():
+        return ""
+    try:
+        return p.read_text(encoding="utf-8")[:4000]
+    except OSError:
+        return ""
+
+
 def run_prepare() -> dict:
     """Build the candidate pool and write state/candidates.json for the lead
     agent to select + summarise."""
@@ -136,6 +159,7 @@ def run_prepare() -> dict:
         "diversity_caps": {"per_source": config.MAX_PER_SOURCE,
                            "per_cluster": config.MAX_PER_CLUSTER},
         "max_items": MAX_ITEMS,
+        "yesterday_brief": _yesterday_brief(),
         "candidates": [{"id": i, **a.to_dict()} for i, a in enumerate(fresh)],
     }
     config.ensure_dirs()
@@ -177,6 +201,7 @@ def _apply_agent_selection(candidates: List[Article]) -> Optional[List[Article]]
             continue
         a.one_liner = (item.get("one_liner") or "").strip()
         a.why_it_matters = (item.get("why_it_matters") or "").strip()
+        a.implications = (item.get("implications") or "").strip()
         a.tags = [str(t) for t in (item.get("tags") or [])][:5]
         try:
             a.confidence = max(0.0, min(1.0, float(item.get("confidence", a.confidence))))
@@ -195,17 +220,29 @@ def _apply_agent_selection(candidates: List[Article]) -> Optional[List[Article]]
     return select._apply_caps(ordered_ids, candidates, MAX_ITEMS)
 
 
-def _load_agent_events() -> List[str]:
-    """Read the optional 'events' list the lead agent may write into
-    selection.json for the '오늘 주목할 이벤트' section."""
+def _str_list(v) -> List[str]:
+    if isinstance(v, str):
+        v = [v]
+    return [str(x).strip() for x in (v or []) if str(x).strip()]
+
+
+def _load_agent_meta() -> dict:
+    """Read the optional briefing-level fields the lead agent may add to
+    selection.json: events, top_insight (관전 포인트), whats_changed (연속성),
+    themes (핵심 테마)."""
+    empty = {"events": [], "top_insight": [], "whats_changed": [], "themes": []}
     if not SELECTION_PATH.exists():
-        return []
+        return empty
     try:
         data = json.loads(SELECTION_PATH.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        return []
-    events = data.get("events") or []
-    return [str(e).strip() for e in events if str(e).strip()]
+        return empty
+    return {
+        "events": _str_list(data.get("events")),
+        "top_insight": _str_list(data.get("top_insight")),
+        "whats_changed": _str_list(data.get("whats_changed")),
+        "themes": _str_list(data.get("themes")),
+    }
 
 
 def run_finalize(send: bool = True, persist: bool = True) -> dict:
@@ -220,14 +257,16 @@ def run_finalize(send: bool = True, persist: bool = True) -> dict:
 
     selected = _apply_agent_selection(candidates)
     method = "agent"
-    events = _load_agent_events()
+    meta = _load_agent_meta()
     if selected is None:
         selected, sel_method = select.select(candidates, max_items=MAX_ITEMS)
         summarize.summarize(selected)
         method = f"autonomous:{sel_method}"
 
     telegram_text, markdown, stats = render.render_briefing(
-        selected, failed_sources=failed, events=events)
+        selected, failed_sources=failed, events=meta["events"],
+        top_insight=meta["top_insight"], whats_changed=meta["whats_changed"],
+        themes=meta["themes"])
     result, brief_path = _deliver(telegram_text, markdown, selected, send=send, persist=persist)
     return {"mode": "finalize", "selection": method, "failed_sources": failed,
             "brief_path": brief_path, "delivered": f"{result.sent}/{result.total}", **stats}

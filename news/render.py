@@ -116,6 +116,8 @@ def _fmt_article(a: Article, idx: int) -> str:
         lines.append(_esc(a.one_liner))
     if a.why_it_matters:
         lines.append(f"💡 <i>{_esc(a.why_it_matters)}</i>")
+    if a.implications:
+        lines.append(f"▸ 함의: {_esc(a.implications)}")
     meta = []
     if a.tags:
         meta.append(" ".join("#" + _esc(t) for t in a.tags))
@@ -144,9 +146,16 @@ def _section(header: str, arts: List[Article], *, source_failed: bool = False) -
     return out
 
 
+def _bullets(items, cap: int) -> List[str]:
+    return [f"· {_esc(str(x).strip())}" for x in (items or []) if str(x).strip()][:cap]
+
+
 def render_briefing(selected: List[Article], *, now: datetime | None = None,
                     failed_sources: List[str] | None = None,
-                    events: List[str] | None = None) -> Tuple[str, str, dict]:
+                    events: List[str] | None = None,
+                    top_insight: List[str] | None = None,
+                    whats_changed: List[str] | None = None,
+                    themes: List[str] | None = None) -> Tuple[str, str, dict]:
     """Return (telegram_text, markdown_archive, stats).
 
     telegram_text contains only push-worthy items; markdown_archive contains
@@ -169,6 +178,26 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
     headlines = [f"{_CIRCLED[i]} {_esc(a.one_liner or a.title)}" for i, a in enumerate(head_pool)]
 
     tg: List[str] = [f"📅 <b>오늘의 뉴스 브리핑</b>", _esc(date_str), ""]
+
+    # --- Insight blocks (agent-generated) ---------------------------------
+    insight_lines = _bullets(top_insight, 3)
+    if insight_lines:
+        tg.append("🔭 <b>오늘의 관전 포인트</b>")
+        tg += insight_lines
+        tg.append("")
+
+    changed_lines = _bullets(whats_changed, 4)
+    if changed_lines:
+        tg.append("🔁 <b>어제 대비 달라진 점</b>")
+        tg += changed_lines
+        tg.append("")
+
+    theme_lines = _bullets(themes, 3)
+    if theme_lines:
+        tg.append("🧭 <b>오늘의 핵심 테마</b>")
+        tg += theme_lines
+        tg.append("")
+
     tg.append("📌 <b>오늘의 헤드라인</b>")
     tg += headlines if headlines else ["· 핵심 헤드라인 없음"]
     tg.append("")

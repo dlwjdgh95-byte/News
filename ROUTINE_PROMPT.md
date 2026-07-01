@@ -51,10 +51,11 @@
    `pip install -r requirements.txt` 실행.
 
 1) `python run.py --prepare` 실행하고 출력 JSON을 확인하라.
-   - "mode"가 "prepare-failed"이거나 candidates가 0이면 → `python run.py --fallback` 실행 후 종료.
-   - 성공이면 `state/candidates.json`을 읽어라. 각 후보 필드: id, title, original_title,
-     summary(스니펫), source_name, source_tag(A/B/C), language, category, sentiment,
-     confidence, cluster_id, key_entities, flags, url.
+   - "mode"가 "prepare-failed"이면(수집 자체 실패) → `python run.py --fallback` 실행 후 종료.
+   - 그 외에는 반드시 진행하라(빈 폴백으로 새지 말 것). `state/candidates.json`을 읽어라. 후보 필드:
+     id, title, original_title, summary(스니펫), source_name, source_tag(A/B/C), language,
+     category, sentiment, confidence, cluster_id, key_entities, flags, url.
+   - candidates.json에는 `yesterday_brief`(어제 브리핑 전문)도 들어 있다 — 연속성 인사이트에 활용하라.
 
 2) 후보 풀 전체를 한 번에 검토해 최종 기사를 최대 max_items(기본 14)건 선별하고 각각 요약하라.
    - 다양성 캡: 한 매체(source_name)당 최대 2건, 한 클러스터(cluster_id)당 최대 2건.
@@ -62,17 +63,25 @@
    - 근거 강제: 제공된 title + summary 스니펫만 인용하라. 스니펫 범위를 넘는 추론 금지.
    - 번역: language가 ko가 아니면 title에 한국어 번역 제목을 넣어라(파이썬이 "번역 (원문: 원제)"로
      병기). original_title은 보존됨.
-   - 미근거 단정(likely/clearly/will definitely 등 출처에 귀속 안 되는 표현)은 flags에
-     "unsourced-claim" 추가. 기존 flags(conflicting-figures 등)는 유지.
-   - 신뢰도: 근거가 약하면 confidence를 낮춰라(파이썬이 낮은 confidence는 push에서 제외, 아카이브).
-   - 오늘 주목할 이벤트: 후보에서 *앞으로 예정된* 일정(경제지표 발표·FOMC/금통위·기업 실적 발표·
-     옵션/선물 만기·주요 연설·표결 등)을 식별해 events 목록(최대 5개, 짧은 한국어 한 줄)으로 정리하라.
-     예정된 일정이 없으면 events는 빈 배열로 둔다(파이썬이 제목에서 자동 추출로 보강).
+   - 미근거 단정(likely/clearly/will definitely 등)은 flags에 "unsourced-claim" 추가. 기존 flags 유지.
+   - 신뢰도: 근거가 약하면 confidence를 낮춰라(낮은 confidence는 push 제외, 아카이브).
+   - implications(2차 영향·함의): 각 기사에 "누구에게 어떤 영향인지 / 무엇을 지켜봐야 하는지"를 한 줄로.
+   - events: *앞으로 예정된* 일정(지표·FOMC/금통위·실적·만기·표결 등)을 최대 5개 한 줄로. 없으면 [].
+
+   그리고 **개별 요약을 넘어 맥락을 잇는 인사이트**를 아래 브리핑 레벨 필드로 생성하라:
+   - top_insight(오늘의 관전 포인트, 2~3줄): 개별 기사 요약이 아니라 여러 기사를 엮은 종합 해석.
+     예: "금리 동결 + 유가 급등 + 환율 1,540원 → 물가 재점화 우려가 증시 상단을 누르는 구도."
+   - whats_changed(어제 대비, 최대 4줄): `yesterday_brief`와 비교해 전개·수치 변화만.
+     예: "비트코인: 어제 6.2만 → 오늘 6.0만, 스트래티지 매각 발표가 트리거." (어제 자료 없으면 [])
+   - themes(오늘의 핵심 테마, 최대 3개): 기사들을 관통하는 테마를 "테마 — 한 줄"로 묶어라.
 
 3) 결과를 `state/selection.json`에 아래 형식으로 저장하라(id는 candidates의 id, 중요도 순):
    {"selected":[{"id":0,"title":"한국어 제목","one_liner":"한줄요약",
-     "why_it_matters":"왜 중요한지","tags":["태그"],"confidence":0.82,
-     "evidence":"인용 구절 + 출처","flags":[]}],
+     "why_it_matters":"왜 중요한지","implications":"2차 영향·함의","tags":["태그"],
+     "confidence":0.82,"evidence":"인용 구절 + 출처","flags":[]}],
+    "top_insight":["관전 포인트 1","관전 포인트 2"],
+    "whats_changed":["어제 대비 변화 1"],
+    "themes":["테마1 — 한 줄","테마2 — 한 줄","테마3 — 한 줄"],
     "events":["美 5월 CPI 발표(21:30 KST)","삼성전자 2분기 잠정실적 발표"],
     "market_mood":"시장 분위기 한 줄(선택)"}
 
