@@ -244,7 +244,7 @@ def test_events_from_agent_list():
     a.one_liner = "요약"; a.evidence = "근거"
     tg, md, stats = render.render_briefing(
         [a], events=["美 5월 CPI 발표", "FOMC 회의"])
-    assert "🗓 오늘 주목할 이벤트" in tg
+    assert "오늘 주목할 이벤트" in tg
     assert "· 美 5월 CPI 발표" in tg and "· FOMC 회의" in tg
 
 

@@ -88,5 +88,6 @@ def run_fallback(send: bool = True, sent_log: Optional[dict] = None) -> str:
     msg = build_fallback_message(sent_log=sent_log)
     if send:
         from . import telegram
-        telegram.send_message(msg)
+        # Fallback is plain text (raw titles/URLs) — send without HTML parsing.
+        telegram.send_message(msg, parse_mode=None)
     return msg

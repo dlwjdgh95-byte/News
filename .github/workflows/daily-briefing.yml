@@ -1,9 +1,9 @@
 name: Daily News Briefing
 
-# 매일 한국시간 07:30 = 전날 22:30 UTC. 루틴은 UTC 기준이므로 cron은 "30 22 * * *".
+# 매일 한국시간 06:00 = 전날 21:00 UTC. 루틴은 UTC 기준이므로 cron은 "0 21 * * *".
 on:
   schedule:
-    - cron: "30 22 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch:        # 수동 "Run Now" 검증용
     inputs:
       mode:

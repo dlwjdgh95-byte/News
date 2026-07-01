@@ -84,10 +84,14 @@ def _post_chunk(url: str, payload: dict, retries: int = 3) -> bool:
     return False
 
 
-def send_message(text: str, *, disable_preview: bool = True) -> SendResult:
+def send_message(text: str, *, disable_preview: bool = True,
+                 parse_mode: str | None = "HTML") -> SendResult:
     """Send a (possibly long) message, splitting into chunks. Each chunk is
     retried independently. Returns a SendResult so callers can distinguish
-    'nothing sent' from 'partially sent' (which must NOT trigger a re-send)."""
+    'nothing sent' from 'partially sent' (which must NOT trigger a re-send).
+
+    parse_mode defaults to HTML (the briefing is rendered with <b>/<a> tags);
+    pass parse_mode=None for plain text (e.g. the fallback message)."""
     missing = config.missing_required_secrets()
     if missing:
         print(f"[telegram] missing secrets: {', '.join(missing)}; message not sent")
@@ -102,6 +106,8 @@ def send_message(text: str, *, disable_preview: bool = True) -> SendResult:
             "text": chunk,
             "disable_web_page_preview": disable_preview,
         }
+        if parse_mode:
+            payload["parse_mode"] = parse_mode
         if _post_chunk(url, payload):
             sent += 1
         else:
