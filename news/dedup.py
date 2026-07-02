@@ -273,3 +273,99 @@ def deduplicate(articles: List[Article]) -> List[Article]:
             art.cluster_id = len(reps)
             reps.append(art)
     return reps
+
+
+# --------------------------------------------------------------------------
+# Consolidated synthesis (입체 읽기)
+# --------------------------------------------------------------------------
+# De-dup deliberately keeps same-subject articles that report *conflicting
+# figures* (e.g. 삼성 영업이익 10조 vs 12조) as separate items so no number is
+# silently dropped. That safety is correct, but it fragments one story across
+# two briefing entries. Synthesis re-couples exactly those pairs: it collapses
+# them into ONE entry that surfaces every source's figure side by side, so the
+# reader gets a multi-dimensional view instead of two competing bullets.
+#
+# This runs AFTER select (so it operates on the final shortlist) and is separate
+# from deduplicate() — the over-merge guards and their tests stay untouched.
+
+def _same_subject_conflict(a: Article, b: Article) -> bool:
+    """True iff a and b are the same story reported with conflicting figures.
+
+    Requires: high title overlap, close publish time, a shared non-numeric
+    subject, and conflicting unit-bearing numbers. Deliberately narrow — this is
+    the ONE case where keeping two entries hurts readability without adding
+    information, so it is the only case we consolidate."""
+    if jaccard(_tokens(a.title), _tokens(b.title)) < config.JACCARD_TITLE_THRESHOLD:
+        return False
+    gap = _time_gap_hours(a, b)
+    if gap is not None and gap >= config.TIME_SPLIT_HOURS:
+        return False  # far apart => could be a follow-up snapshot, not one story
+
+    ents_a = a.key_entities or extract_key_entities(a.title)
+    ents_b = b.key_entities or extract_key_entities(b.title)
+
+    # Must actually carry conflicting unit figures — otherwise dedup would have
+    # merged them already and there is nothing to synthesise.
+    nums_a, nums_b = _unit_numbers(ents_a), _unit_numbers(ents_b)
+    if not (nums_a and nums_b and not (nums_a & nums_b)):
+        return False
+
+    # Same subject: distinct Korean subject tokens on BOTH sides mean different
+    # subjects (코스피 vs 코스닥) — do not consolidate those.
+    ko_a = _korean_entities(a.original_title or a.title)
+    ko_b = _korean_entities(b.original_title or b.title)
+    if (ko_a - ko_b) and (ko_b - ko_a):
+        return False
+
+    names_a = {e for e in ents_a if not any(c.isdigit() for c in e)}
+    names_b = {e for e in ents_b if not any(c.isdigit() for c in e)}
+    return bool(ko_a & ko_b) or bool(names_a & names_b)
+
+
+def _synthesis_point(a: Article) -> str:
+    """A compact 'source: figures' line for one viewpoint in a consolidated
+    entry, e.g. '이데일리: 10조'. Falls back to the source name alone."""
+    figs = sorted(_unit_numbers(a.key_entities or extract_key_entities(a.title)))
+    src = (a.source_name or "출처").strip()
+    return f"{src}: {', '.join(figs)}" if figs else src
+
+
+def synthesize(articles: List[Article]) -> List[Article]:
+    """Consolidate same-subject / conflicting-figure representatives into single
+    entries whose ``synthesis_points`` list every source's figure. Order is
+    preserved; consolidated secondaries are folded into the primary's
+    ``related`` and dropped from the returned list."""
+    consumed: set[int] = set()
+    out: List[Article] = []
+    for i, primary in enumerate(articles):
+        if i in consumed:
+            continue
+        group = [primary]
+        for j in range(i + 1, len(articles)):
+            if j in consumed:
+                continue
+            if _same_subject_conflict(primary, articles[j]):
+                group.append(articles[j])
+                consumed.add(j)
+        if len(group) == 1:
+            out.append(primary)
+            continue
+        # Highest-confidence article leads the consolidated entry.
+        group.sort(key=lambda a: a.confidence, reverse=True)
+        head, rest = group[0], group[1:]
+        points = [_synthesis_point(head)]
+        for other in rest:
+            p = _synthesis_point(other)
+            if p and p not in points:
+                points.append(p)
+            for u in [other.url, *other.related]:
+                if u and u != head.url and u not in head.related:
+                    head.related.append(u)
+            for f in other.flags:
+                if f and f not in head.flags:
+                    head.flags.append(f)
+        head.synthesis_points = points
+        if "conflicting-figures" not in head.flags:
+            head.flags.append("conflicting-figures")
+        out.append(head)
+    return out

@@ -295,6 +295,86 @@ def test_insight_absent_when_not_provided():
     assert "관전 포인트" not in tg and "핵심 테마" not in tg
 
 
+# --- Newsletter content-structure improvements ----------------------------
+def test_redundant_one_liner_suppressed():
+    # A: within an article block, a one-liner that merely restates the headline
+    # must not be repeated under it (the top digest line is a separate feature).
+    assert render._restates_title(
+        "외국인 순매수에 코스피가 2% 상승 마감했다.", "코스피 2% 상승 마감…외국인 순매수")
+    a = _a("코스피 2% 상승 마감…외국인 순매수", "https://n.com/r1", confidence=0.8)
+    a.one_liner = "외국인 순매수에 코스피가 2% 상승 마감했다."
+    block = render._fmt_article(a, 1)
+    assert "코스피 2% 상승 마감…외국인 순매수" in block
+    assert "외국인 순매수에 코스피가 2% 상승 마감했다." not in block
+
+
+def test_distinct_one_liner_kept():
+    # A sanity: a one-liner that adds new facts must survive.
+    assert not render._restates_title(
+        "반도체 업황 회복으로 시장 기대치를 20% 웃돌았다.", "삼성전자 2분기 실적 발표")
+    a = _a("삼성전자 2분기 실적 발표", "https://n.com/r2", confidence=0.8)
+    a.one_liner = "반도체 업황 회복으로 시장 기대치를 20% 웃돌았다."
+    block = render._fmt_article(a, 1)
+    assert "반도체 업황 회복으로 시장 기대치를 20% 웃돌았다." in block
+
+
+def test_translation_tail_ignored_in_redundancy():
+    # A: the "(원문: …)" tail must not defeat the redundancy check.
+    assert render._restates_title(
+        "美 연준, 금리 동결 결정", "美 연준, 금리 동결 결정 (원문: Fed Holds Rates Steady)")
+
+
+def test_why_it_matters_labelled():
+    # C: the "왜 중요한가" line is an explicit, labelled Smart-Brevity block.
+    a = _a("연준 금리 동결", "https://n.com/w1", source_tag=SOURCE_B, confidence=0.8)
+    a.one_liner = "연준이 기준금리를 5.5%로 유지했다."
+    a.why_it_matters = "차입 비용이 당분간 높게 유지된다."
+    a.evidence = "근거"
+    tg, md, stats = render.render_briefing([a])
+    assert "💡 <b>왜 중요한가</b>: <i>차입 비용이 당분간 높게 유지된다.</i>" in tg
+
+
+def test_synthesis_consolidates_conflicting_figures():
+    # B: same-subject articles with conflicting figures collapse into ONE entry
+    # that surfaces every source's figure (입체 읽기), while dedup still splits them.
+    t0 = datetime(2026, 6, 24, 1, 0, tzinfo=timezone.utc)
+    a = _a("삼성전자 2분기 영업이익 10조 전망", "https://e.com/10",
+           source_name="이데일리", published_at=t0, confidence=0.7)
+    b = _a("삼성전자 2분기 영업이익 12조 전망", "https://e.com/12",
+           source_name="뉴시스", published_at=t0, confidence=0.6)
+    reps = dedup.deduplicate([a, b])
+    assert len(reps) == 2  # safety: dedup never over-merges conflicting figures
+    merged = dedup.synthesize(reps)
+    assert len(merged) == 1, "synthesis should consolidate the two viewpoints"
+    head = merged[0]
+    assert "conflicting-figures" in head.flags
+    assert any("10조" in p for p in head.synthesis_points)
+    assert any("12조" in p for p in head.synthesis_points)
+    assert any("이데일리" in p for p in head.synthesis_points)
+    assert any("뉴시스" in p for p in head.synthesis_points)
+    assert "https://e.com/12" in head.related  # secondary folded into related
+
+
+def test_synthesis_leaves_distinct_subjects_alone():
+    # B sanity: different subjects (코스피 vs 코스닥) must NOT be consolidated.
+    t0 = datetime(2026, 6, 24, 1, 0, tzinfo=timezone.utc)
+    a = _a("코스피 외국인 순매수 3000억", "https://k.com/1", published_at=t0)
+    b = _a("코스닥 외국인 순매도 1500억", "https://k.com/2", published_at=t0)
+    reps = dedup.deduplicate([a, b])
+    merged = dedup.synthesize(reps)
+    assert len(merged) == 2
+
+
+def test_synthesis_points_render():
+    a = _a("삼성전자 2분기 영업이익 전망", "https://e.com/s", source_tag=SOURCE_B, confidence=0.8)
+    a.one_liner = "증권가 전망이 엇갈린다."
+    a.evidence = "근거"
+    a.synthesis_points = ["이데일리: 10조", "뉴시스: 12조"]
+    tg, md, stats = render.render_briefing([a])
+    assert "🔀 <b>종합</b>" in tg
+    assert "이데일리: 10조" in tg and "뉴시스: 12조" in tg
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     passed = 0

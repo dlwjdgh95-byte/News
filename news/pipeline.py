@@ -119,6 +119,8 @@ def run_pipeline(send: bool = True, persist: bool = True) -> dict:
     run() can switch to the fallback path."""
     fresh, failed = _build_candidates()
     selected, sel_method = select.select(fresh, max_items=MAX_ITEMS)
+    # Consolidate same-subject conflicting-figure items into one entry (입체 읽기).
+    selected = dedup.synthesize(selected)
     sum_method = summarize.summarize(selected)
     telegram_text, markdown, stats = render.render_briefing(selected, failed_sources=failed)
     result, brief_path = _deliver(telegram_text, markdown, selected, send=send, persist=persist)
@@ -260,8 +262,11 @@ def run_finalize(send: bool = True, persist: bool = True) -> dict:
     meta = _load_agent_meta()
     if selected is None:
         selected, sel_method = select.select(candidates, max_items=MAX_ITEMS)
+        selected = dedup.synthesize(selected)
         summarize.summarize(selected)
         method = f"autonomous:{sel_method}"
+    else:
+        selected = dedup.synthesize(selected)
 
     telegram_text, markdown, stats = render.render_briefing(
         selected, failed_sources=failed, events=meta["events"],

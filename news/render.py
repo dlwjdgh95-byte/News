@@ -44,6 +44,47 @@ def _html_to_md(s: str) -> str:
 
 PUSH_CONFIDENCE_MIN = 0.45  # below this => archive only
 
+# When the one-line summary just restates the headline, showing both splits the
+# reader's attention and adds fatigue (Litmus/Wix email guidance). We drop the
+# redundant restatement and keep the headline as the single anchor.
+_WORD_RE = re.compile(r"[0-9a-z가-힣]+")
+
+
+def _char_bigrams(s: str) -> set:
+    """Character bigrams of the content characters. Character-level comparison is
+    robust to Korean agglutination (순매수 vs 순매수에, 코스피 vs 코스피가) that
+    defeats naive word-token overlap."""
+    chars = "".join(_WORD_RE.findall(s.lower()))
+    return {chars[i:i + 2] for i in range(len(chars) - 1)}
+
+
+def _word_tokens(s: str) -> set:
+    return {t for t in _WORD_RE.findall(s.lower()) if len(t) > 1}
+
+
+def _jaccard(a: set, b: set) -> float:
+    return len(a & b) / len(a | b) if (a or b) else 0.0
+
+
+def _restates_title(one_liner: str, title: str) -> bool:
+    """True if the one-liner adds nothing over the headline (near-identical).
+
+    Uses character-bigram similarity (Korean-agglutination safe) with a length
+    guard: a substantially longer one-liner is assumed to add new facts even if
+    it echoes the headline, so it is kept."""
+    ol, ttl = one_liner.strip(), title.strip()
+    if not ol:
+        return True
+    if not ttl:
+        return False
+    # Compare against the translated headline only (ignore the "(원문: …)" tail).
+    ttl = re.sub(r"\s*\(원문:.*\)$", "", ttl).strip()
+    if ol in ttl or ttl in ol:
+        return True
+    if _jaccard(_char_bigrams(ttl), _char_bigrams(ol)) >= 0.55:
+        return True
+    return _jaccard(_word_tokens(ttl), _word_tokens(ol)) >= 0.7
+
 # Forward-looking schedule cues for the "오늘 주목할 이벤트" section. We only want
 # items that point at something *upcoming*, not reports of past events, so the
 # cues are deliberately future-oriented.
@@ -112,10 +153,16 @@ def _fmt_article(a: Article, idx: int) -> str:
     else:
         head = f"<b>{idx}. {title}</b>"
     lines = [head]
-    if a.one_liner:
+    if a.one_liner and not _restates_title(a.one_liner, a.title):
         lines.append(_esc(a.one_liner))
+    # Consolidated synthesis: same-subject figures from multiple outlets, so the
+    # reader sees the full picture (e.g. 10조 vs 12조) in one place.
+    if a.synthesis_points:
+        lines.append("🔀 <b>종합</b>")
+        lines += [f"　· {_esc(p)}" for p in a.synthesis_points]
+    # Axios "Smart Brevity" — an explicit, labelled "why it matters" line.
     if a.why_it_matters:
-        lines.append(f"💡 <i>{_esc(a.why_it_matters)}</i>")
+        lines.append(f"💡 <b>왜 중요한가</b>: <i>{_esc(a.why_it_matters)}</i>")
     if a.implications:
         lines.append(f"▸ 함의: {_esc(a.implications)}")
     meta = []
