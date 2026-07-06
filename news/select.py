@@ -11,6 +11,7 @@ If the LLM is unavailable/fails, fall back to a deterministic heuristic
 
 from __future__ import annotations
 
+import json
 from collections import defaultdict
 from datetime import datetime, timezone
 from typing import List
@@ -28,26 +29,24 @@ _SELECT_SYSTEM = (
 
 
 def _candidate_payload(articles: List[Article]) -> str:
-    lines = []
-    for i, a in enumerate(articles):
-        pub = a.published_at.isoformat() if a.published_at else "?"
-        lines.append(
-            f'{{"id": {i}, "source_tag": "{a.source_tag}", "source": "{a.source_name}", '
-            f'"title": {a.title!r}, "category": "{a.category}", "sentiment": "{a.sentiment}", '
-            f'"published": "{pub}", "confidence": {a.confidence:.2f}}}'
-        )
-    return "[\n" + ",\n".join(lines) + "\n]"
+    """Compact, snippet-free rows (selection needs titles only). age_h is hours
+    since publication — far fewer tokens than full ISO timestamps."""
+    rows = [json.dumps(a.to_llm_dict(i, snippet_chars=None),
+                       ensure_ascii=False, separators=(",", ":"))
+            for i, a in enumerate(articles)]
+    return "[\n" + ",\n".join(rows) + "\n]"
 
 
 def _llm_select(articles: List[Article], max_items: int) -> List[int] | None:
     user = (
         f"후보 기사 풀(총 {len(articles)}건). 최대 {max_items}건을 선별하세요.\n"
-        f"매체당 최대 {config.MAX_PER_SOURCE}건, 주제 클러스터당 최대 {config.MAX_PER_CLUSTER}건.\n"
-        f"경제·시사·국제·크립토의 균형을 맞추세요.\n\n"
+        f"매체(source)당 최대 {config.MAX_PER_SOURCE}건, cluster_id당 최대 {config.MAX_PER_CLUSTER}건.\n"
+        f"경제·시사·국제·크립토의 균형을 맞추세요. age_h는 발행 후 경과 시간(시간 단위).\n\n"
         f"{_candidate_payload(articles)}\n\n"
         '출력 형식: {"selected": [기사 id 목록(중요도 순)]}'
     )
-    result = llm.complete_json(_SELECT_SYSTEM, user)
+    # Output is just an id list — cap generation tightly.
+    result = llm.complete_json(_SELECT_SYSTEM, user, max_tokens=512)
     if not result or "selected" not in result:
         return None
     ids = []
