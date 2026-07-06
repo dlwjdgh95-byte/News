@@ -80,9 +80,59 @@ class Article:
 
     # --- (de)serialisation helpers ---------------------------------------
     def to_dict(self) -> dict:
-        d = dataclasses.asdict(self)
+        """Sparse dict for machine state: fields still at their defaults are
+        omitted entirely (``from_dict`` restores them), so serialised pipeline
+        state doesn't carry a dozen empty strings/lists per article."""
+        d = {}
+        for f in dataclasses.fields(self):
+            v = getattr(self, f.name)
+            if f.default is not dataclasses.MISSING and v == f.default:
+                continue
+            if f.default_factory is not dataclasses.MISSING and v == f.default_factory():
+                continue
+            d[f.name] = v
+        # __post_init__ re-derives original_title from title when omitted.
+        if self.original_title == self.title:
+            d.pop("original_title", None)
         if self.published_at is not None:
             d["published_at"] = self.published_at.astimezone(timezone.utc).isoformat()
+        return d
+
+    def to_llm_dict(self, idx: int, *, snippet_chars: int | None = 400) -> dict:
+        """Compact view for LLM/agent prompts. Only fields that inform
+        selection/summarisation are included; URLs (Google News links run to
+        hundreds of characters), related[] and key_entities are deliberately
+        excluded — the model refers to articles by ``id`` only. Empty fields
+        are omitted. ``snippet_chars=None`` drops the snippet (selection needs
+        titles only)."""
+        d = {
+            "id": idx,
+            "tag": self.source_tag,
+            "source": self.source_name,
+            "title": self.title,
+            "confidence": round(self.confidence, 2),
+        }
+        if self.original_title and self.original_title != self.title:
+            d["original_title"] = self.original_title
+        if self.language:
+            d["lang"] = self.language
+        if self.category:
+            d["category"] = self.category
+        if self.sentiment:
+            d["sentiment"] = self.sentiment
+        if snippet_chars:
+            snippet = self.summary[:snippet_chars].strip()
+            if snippet:
+                d["snippet"] = snippet
+        if self.published_at is not None:
+            age_h = (datetime.now(timezone.utc) - self.published_at).total_seconds() / 3600.0
+            d["age_h"] = max(0, round(age_h, 1))
+        if self.cluster_id is not None:
+            d["cluster_id"] = self.cluster_id
+        if self.flags:
+            d["flags"] = self.flags
+        if self.related:
+            d["related_count"] = len(self.related)
         return d
 
     @classmethod

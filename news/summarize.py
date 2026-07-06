@@ -21,7 +21,7 @@ from __future__ import annotations
 import json
 from typing import List
 
-from . import llm
+from . import config, llm
 from .model import Article
 
 _SUM_SYSTEM = (
@@ -35,28 +35,21 @@ _SUM_SYSTEM = (
 
 
 def _payload(articles: List[Article]) -> str:
-    rows = []
-    for i, a in enumerate(articles):
-        rows.append({
-            "id": i,
-            "source_tag": a.source_tag,
-            "source": a.source_name,
-            "language": a.language,
-            "original_title": a.original_title or a.title,
-            "snippet": a.summary[:600],
-            "category": a.category,
-            "sentiment": a.sentiment,
-            "confidence": round(a.confidence, 2),
-            "existing_flags": a.flags,
-        })
-    return json.dumps(rows, ensure_ascii=False, indent=1)
+    """Compact one-row-per-article JSON: empty fields and URLs are omitted
+    (see Article.to_llm_dict) and snippets truncated — the model only ever
+    reasons over title + snippet anyway."""
+    rows = [json.dumps(a.to_llm_dict(i, snippet_chars=config.SNIPPET_CHARS),
+                       ensure_ascii=False, separators=(",", ":"))
+            for i, a in enumerate(articles)]
+    return "[\n" + ",\n".join(rows) + "\n]"
 
 
 def _llm_summarize(articles: List[Article]) -> bool:
     user = (
-        f"{len(articles)}건의 기사를 구조화하세요.\n\n{_payload(articles)}\n\n"
+        f"{len(articles)}건의 기사를 구조화하세요. 각 행: id/source/title(+원문이 다르면 "
+        f"original_title)/snippet/기존 flags.\n\n{_payload(articles)}\n\n"
         '각 기사에 대해 다음 JSON을 출력하세요:\n'
-        '{"items": [{"id": 0, "title": "한국어 제목(번역 시 원문 보존은 original_title 사용)", '
+        '{"items": [{"id": 0, "title": "한국어 제목(원문 보존은 파이썬이 처리)", '
         '"one_liner": "한줄요약", "why_it_matters": "왜 중요한지", "tags": ["태그"], '
         '"confidence": 0.0~1.0, "evidence": "인용한 원문 구절 + 출처", '
         '"flags": ["unsourced-claim 등"]}]}'

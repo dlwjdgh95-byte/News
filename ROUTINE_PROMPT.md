@@ -52,16 +52,18 @@
 
 1) `python run.py --prepare` 실행하고 출력 JSON을 확인하라.
    - "mode"가 "prepare-failed"이면(수집 자체 실패) → `python run.py --fallback` 실행 후 종료.
-   - 그 외에는 반드시 진행하라(빈 폴백으로 새지 말 것). `state/candidates.json`을 읽어라. 후보 필드:
-     id, title, original_title, summary(스니펫), source_name, source_tag(A/B/C), language,
-     category, sentiment, confidence, cluster_id, key_entities, flags, url.
-   - candidates.json에는 `yesterday_brief`(어제 브리핑 전문)도 들어 있다 — 연속성 인사이트에 활용하라.
+   - 그 외에는 반드시 진행하라(빈 폴백으로 새지 말 것). `state/candidates.json`만 읽어라
+     (`state/pool.json`은 머신 전용 — 읽지 말 것; 다른 레포 파일 탐색도 불필요). 후보 필드:
+     id, tag(A/B/C), source, title, confidence + 있을 때만 original_title, lang, category,
+     sentiment, snippet, age_h(발행 후 경과 시간), cluster_id, flags, related_count.
+   - candidates.json에는 `yesterday_digest`(어제 브리핑 링크 제거 다이제스트)도 들어 있다 —
+     연속성 인사이트에 활용하라.
 
 2) 후보 풀 전체를 한 번에 검토해 최종 기사를 최대 max_items(기본 14)건 선별하고 각각 요약하라.
-   - 다양성 캡: 한 매체(source_name)당 최대 2건, 한 클러스터(cluster_id)당 최대 2건.
+   - 다양성 캡: 한 매체(source)당 최대 2건, 한 클러스터(cluster_id)당 최대 2건.
    - 균형: 경제·시사/국제·크립토를 고루. 연예·스포츠는 이미 제외됨.
-   - 근거 강제: 제공된 title + summary 스니펫만 인용하라. 스니펫 범위를 넘는 추론 금지.
-   - 번역: language가 ko가 아니면 title에 한국어 번역 제목을 넣어라(파이썬이 "번역 (원문: 원제)"로
+   - 근거 강제: 제공된 title + snippet만 인용하라. 스니펫 범위를 넘는 추론 금지.
+   - 번역: lang이 ko가 아니면 title에 한국어 번역 제목을 넣어라(파이썬이 "번역 (원문: 원제)"로
      병기). original_title은 보존됨.
    - 미근거 단정(likely/clearly/will definitely 등)은 flags에 "unsourced-claim" 추가. 기존 flags 유지.
    - 신뢰도: 근거가 약하면 confidence를 낮춰라(낮은 confidence는 push 제외, 아카이브).
@@ -71,7 +73,7 @@
    그리고 **개별 요약을 넘어 맥락을 잇는 인사이트**를 아래 브리핑 레벨 필드로 생성하라:
    - top_insight(오늘의 관전 포인트, 2~3줄): 개별 기사 요약이 아니라 여러 기사를 엮은 종합 해석.
      예: "금리 동결 + 유가 급등 + 환율 1,540원 → 물가 재점화 우려가 증시 상단을 누르는 구도."
-   - whats_changed(어제 대비, 최대 4줄): `yesterday_brief`와 비교해 전개·수치 변화만.
+   - whats_changed(어제 대비, 최대 4줄): `yesterday_digest`와 비교해 전개·수치 변화만.
      예: "비트코인: 어제 6.2만 → 오늘 6.0만, 스트래티지 매각 발표가 트리거." (어제 자료 없으면 [])
    - themes(오늘의 핵심 테마, 최대 3개): 기사들을 관통하는 테마를 "테마 — 한 줄"로 묶어라.
 

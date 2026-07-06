@@ -22,6 +22,7 @@ runs only when nothing was delivered.
 from __future__ import annotations
 
 import json
+import re
 import traceback
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FTimeout
 from datetime import datetime, timezone, timedelta
@@ -32,7 +33,11 @@ from .model import Article, SOURCE_A, SOURCE_B, SOURCE_C
 
 KST = timezone(timedelta(hours=9))
 COLLECT_TIMEOUT = 90  # seconds per source
+# Agent-facing candidate view (slim, no URLs) vs full machine state. The lead
+# agent reads candidates.json into its context, so that file is kept lean;
+# pool.json round-trips the complete Articles for --finalize.
 CANDIDATES_PATH = config.STATE_DIR / "candidates.json"
+POOL_PATH = config.STATE_DIR / "pool.json"
 SELECTION_PATH = config.STATE_DIR / "selection.json"
 MAX_ITEMS = 14
 
@@ -80,7 +85,27 @@ def _build_candidates() -> Tuple[List[Article], List[str]]:
     if not fresh:
         # Everything was sent before — don't fall back; keep the freshest few.
         fresh = reps[:MAX_ITEMS]
-    return fresh, failed
+    return _cap_pool(fresh, config.MAX_CANDIDATES), failed
+
+
+def _cap_pool(arts: List[Article], cap: int) -> List[Article]:
+    """Bound the candidate pool that reaches the LLM/agent. Within each source
+    tag articles are kept in heuristic (confidence+recency) order, then tags are
+    drained round-robin so no tag can crowd out the others."""
+    if len(arts) <= cap:
+        return arts
+    order = select._heuristic_order(arts)
+    by_tag: dict[str, List[Article]] = {SOURCE_A: [], SOURCE_B: [], SOURCE_C: []}
+    for i in order:
+        by_tag[arts[i].source_tag].append(arts[i])
+    queues = [q for q in (by_tag[SOURCE_A], by_tag[SOURCE_B], by_tag[SOURCE_C]) if q]
+    out: List[Article] = []
+    while len(out) < cap and queues:
+        for q in queues:
+            if q and len(out) < cap:
+                out.append(q.pop(0))
+        queues = [q for q in queues if q]
+    return out
 
 
 def _deliver(telegram_text: str, markdown: str, selected: List[Article],
@@ -136,41 +161,75 @@ def run_pipeline(send: bool = True, persist: bool = True) -> dict:
 # --------------------------------------------------------------------------
 # Hybrid path: prepare / finalize
 # --------------------------------------------------------------------------
-def _yesterday_brief() -> str:
-    """Return yesterday's committed briefing text (for day-over-day continuity),
-    trimmed. Empty string if none exists."""
+_MD_LINK_RE = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+_HTML_A_RE = re.compile(r'<a href="[^"]*">(.*?)</a>')
+
+
+def _digest_text(text: str, limit: int) -> str:
+    """Squeeze a briefing into a continuity digest: drop the archive section,
+    strip link URLs (Google News links run to hundreds of chars each) and
+    collapse blank lines. Pure so it is testable."""
+    text = text.split("## 아카이브", 1)[0]
+    text = _MD_LINK_RE.sub(r"\1", text)
+    text = _HTML_A_RE.sub(r"\1", text)
+    lines = [ln.rstrip() for ln in text.splitlines()]
+    text = "\n".join(ln for ln in lines if ln)
+    return text[:limit]
+
+
+def _yesterday_digest() -> str:
+    """Yesterday's committed briefing as a link-free digest (for day-over-day
+    continuity). Empty string if none exists."""
     y = (datetime.now(KST) - timedelta(days=1)).strftime("%Y-%m-%d")
     p = config.BRIEFS_DIR / f"{y}.md"
     if not p.exists():
         return ""
     try:
-        return p.read_text(encoding="utf-8")[:4000]
+        return _digest_text(p.read_text(encoding="utf-8"), config.YESTERDAY_DIGEST_CHARS)
     except OSError:
         return ""
 
 
+def _dump_agent_view(payload: dict) -> str:
+    """Compact JSON with one candidate per line — no indentation overhead, but
+    still diffable/readable line by line for the agent."""
+    cands = payload.pop("candidates")
+    head = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    rows = ",\n  ".join(json.dumps(c, ensure_ascii=False, separators=(",", ":"))
+                        for c in cands)
+    return head[:-1] + ',"candidates":[\n  ' + rows + "\n]}"
+
+
 def run_prepare() -> dict:
-    """Build the candidate pool and write state/candidates.json for the lead
-    agent to select + summarise."""
+    """Build the candidate pool. Writes two files:
+    - state/candidates.json — slim agent view (no URLs, truncated snippets),
+      the only file the lead agent should read;
+    - state/pool.json — full Articles for --finalize to round-trip."""
     fresh, failed = _build_candidates()
-    payload = {
+    agent_view = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "failed_sources": failed,
         "diversity_caps": {"per_source": config.MAX_PER_SOURCE,
                            "per_cluster": config.MAX_PER_CLUSTER},
         "max_items": MAX_ITEMS,
-        "yesterday_brief": _yesterday_brief(),
+        "yesterday_digest": _yesterday_digest(),
+        "candidates": [a.to_llm_dict(i, snippet_chars=config.SNIPPET_CHARS)
+                       for i, a in enumerate(fresh)],
+    }
+    machine = {
+        "failed_sources": failed,
         "candidates": [{"id": i, **a.to_dict()} for i, a in enumerate(fresh)],
     }
     config.ensure_dirs()
-    CANDIDATES_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2),
-                               encoding="utf-8")
+    CANDIDATES_PATH.write_text(_dump_agent_view(agent_view), encoding="utf-8")
+    POOL_PATH.write_text(json.dumps(machine, ensure_ascii=False,
+                                    separators=(",", ":")), encoding="utf-8")
     return {"mode": "prepare", "candidates": len(fresh), "failed_sources": failed,
             "path": str(CANDIDATES_PATH)}
 
 
 def _load_candidates() -> Tuple[List[Article], List[str]]:
-    data = json.loads(CANDIDATES_PATH.read_text(encoding="utf-8"))
+    data = json.loads(POOL_PATH.read_text(encoding="utf-8"))
     arts = [Article.from_dict(c) for c in data.get("candidates", [])]
     return arts, data.get("failed_sources", [])
 
@@ -249,8 +308,8 @@ def run_finalize(send: bool = True, persist: bool = True) -> dict:
     """Render + deliver + archive using candidates.json and (if present) the
     agent's selection.json. Falls back to autonomous select+summarize when the
     agent did not provide a selection."""
-    if not CANDIDATES_PATH.exists():
-        raise RuntimeError("state/candidates.json missing; run --prepare first")
+    if not POOL_PATH.exists():
+        raise RuntimeError("state/pool.json missing; run --prepare first")
     candidates, failed = _load_candidates()
     if not candidates:
         raise RuntimeError("no candidates to finalize")

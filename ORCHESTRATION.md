@@ -9,7 +9,9 @@
 ```
 [Python] run.py --prepare
    → 수집(A·B·C 병렬) → 정규화 → 사전필터 → 다단계 중복제거 → 발송이력 대조
-   → state/candidates.json  작성
+   → 풀 캡(MAX_CANDIDATES, 태그 균형) 적용
+   → state/candidates.json  (에이전트용 슬림 뷰: URL 없음, 스니펫 절단)
+   → state/pool.json        (머신용 전체 상태: --finalize가 사용)
         │
 [리드 에이전트 / 구독 모델]  candidates.json 1패스 선별+요약
    → state/selection.json  작성
@@ -17,6 +19,11 @@
 [Python] run.py --finalize
    → 다양성 캡 재적용 → 구조화 렌더 → 텔레그램 발송(4096 분할) → 아카이브 → sent_log 기록
 ```
+
+**토큰 절약 설계:** 에이전트가 읽는 candidates.json에는 선별·요약에 필요한 필드만 남긴다.
+수백 자짜리 Google News URL(`url`/`canonical_url`/`related`)과 `key_entities`, 빈 필드는
+제외되고, 선택은 `id`로만 한다. URL 복원·발송은 pool.json을 읽는 `--finalize`가 처리한다.
+어제 브리핑도 전문 대신 링크 제거 다이제스트(`yesterday_digest`)로 제공된다.
 어느 단계든 실패/타임아웃/빈 결과면 `run.py --fallback`(결정론적 폴백)으로 최소 브리핑 보장.
 
 ## 리드 에이전트 절차 (예약 세션 프롬프트에 넣을 내용)
@@ -24,15 +31,16 @@
 1. **준비:** `python run.py --prepare` 실행.
    - 결과 JSON의 `"mode"`가 `"prepare-failed"`이거나 후보가 0이면 → `python run.py --fallback`
      실행 후 종료.
-   - 성공이면 `state/candidates.json`을 읽는다. 각 후보: `id, title, original_title, summary(snippet),
-     source_name, source_tag(A/B/C), language, category, sentiment, confidence, cluster_id,
-     key_entities, flags, url, canonical_url`.
+   - 성공이면 `state/candidates.json`(만)을 읽는다. 각 후보: `id, tag(A/B/C), source, title,
+     confidence` + 있을 때만 `original_title(원문이 title과 다를 때), lang, category, sentiment,
+     snippet, age_h(발행 후 경과 시간), cluster_id, flags, related_count`.
+     (`state/pool.json`은 머신 전용 — 읽지 말 것.)
 
 2. **선별 + 요약 (단일 추론 패스, 구독 모델):**
    후보 풀 전체를 한 번에 검토하여 최종 기사(최대 `max_items`, 기본 14)를 선별하고 각 기사를 요약한다.
    - **다양성 캡:** 한 매체당 최대 `diversity_caps.per_source`(2), 한 클러스터(`cluster_id`)당 최대
      `diversity_caps.per_cluster`(2). (파이썬 `--finalize`가 안전망으로 재강제하지만, 에이전트가 1차로 지킬 것.)
-   - **근거 강제:** 제공된 `title` + `summary` 스니펫만 인용. 스니펫 범위를 넘는 추론 금지.
+   - **근거 강제:** 제공된 `title` + `snippet`만 인용. 스니펫 범위를 넘는 추론 금지.
      본문이 없으면 제목+요약 한도 내에서만.
    - **번역:** 한국어가 아닌 기사는 `title`에 한국어 번역 제목을 넣는다(파이썬이 원문을 괄호 병기:
      `번역 (원문: Original)`). `original_title`은 보존됨.

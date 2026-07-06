@@ -295,6 +295,71 @@ def test_insight_absent_when_not_provided():
     assert "관전 포인트" not in tg and "핵심 테마" not in tg
 
 
+# --- Token-diet regression tests -------------------------------------------
+def test_to_dict_sparse_roundtrip():
+    a = _a("뉴스 제목", "https://n.com/t1")
+    d = a.to_dict()
+    # Default-valued fields must be omitted from serialized state.
+    for absent in ("one_liner", "why_it_matters", "implications", "tags",
+                   "evidence", "flags", "related", "sentiment", "cluster_id",
+                   "original_title", "canonical_url", "published_at"):
+        assert absent not in d, f"{absent} should be omitted when default"
+    b = Article.from_dict(d)
+    assert b.title == a.title and b.url == a.url
+    assert b.original_title == a.title and b.confidence == a.confidence
+
+
+def test_llm_dict_excludes_urls_and_truncates():
+    a = _a("제목", "https://news.google.com/rss/articles/" + "C" * 500,
+           summary="가" * 1000, confidence=0.7)
+    a.canonical_url = "https://x.com/c"
+    a.related = ["https://y.com/1", "https://y.com/2"]
+    a.key_entities = ["제목"]
+    d = a.to_llm_dict(3, snippet_chars=400)
+    assert d["id"] == 3
+    for absent in ("url", "canonical_url", "related", "key_entities"):
+        assert absent not in d
+    assert d["related_count"] == 2
+    assert len(d["snippet"]) <= 400
+    d2 = a.to_llm_dict(0, snippet_chars=None)
+    assert "snippet" not in d2, "selection payload must be snippet-free"
+
+
+def test_cap_pool_bounded_and_balanced():
+    from news import pipeline
+    arts = ([_a(f"시사 {i}", f"https://a.com/{i}", source_tag=SOURCE_A) for i in range(30)]
+            + [_a(f"경제 {i}", f"https://b.com/{i}", source_tag=SOURCE_B) for i in range(30)]
+            + [_a(f"크립토 {i}", f"https://c.com/{i}", source_tag=SOURCE_C) for i in range(30)])
+    capped = pipeline._cap_pool(arts, 12)
+    assert len(capped) == 12
+    tags = {a.source_tag for a in capped}
+    assert tags == {SOURCE_A, SOURCE_B, SOURCE_C}, "no tag may be crowded out"
+    assert pipeline._cap_pool(arts[:5], 12) == arts[:5], "under-cap pool untouched"
+
+
+def test_digest_strips_links_and_archive():
+    from news import pipeline
+    text = ("# 브리핑\n\n**1. [제목입니다](https://news.google.com/rss/articles/"
+            + "X" * 300 + ")**\n한 줄 요약\n\n\n---\n## 아카이브 (미발송)\n비밀 항목\n")
+    digest = pipeline._digest_text(text, 1500)
+    assert "제목입니다" in digest and "한 줄 요약" in digest
+    assert "news.google.com" not in digest, "link URLs must be stripped"
+    assert "비밀 항목" not in digest, "archive section must be dropped"
+    assert "\n\n" not in digest, "blank lines collapsed"
+
+
+def test_agent_view_dump_is_valid_compact_json():
+    import json
+    from news import pipeline
+    payload = {"max_items": 14, "yesterday_digest": "요약",
+               "candidates": [_a("t1", "https://n.com/1").to_llm_dict(0),
+                              _a("t2", "https://n.com/2").to_llm_dict(1)]}
+    out = pipeline._dump_agent_view(dict(payload, candidates=list(payload["candidates"])))
+    parsed = json.loads(out)
+    assert parsed["max_items"] == 14 and len(parsed["candidates"]) == 2
+    assert "  " not in out.replace("\n  ", "\n"), "no indentation overhead"
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     passed = 0
