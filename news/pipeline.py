@@ -4,19 +4,26 @@ Two ways to run the intelligence (selection + summary) step:
 
   * Autonomous (run_pipeline): collect -> normalize -> prefilter -> dedup ->
     drop-sent -> select (1 LLM call + caps) -> summarize (1 LLM call) -> render
-    -> Telegram -> archive. Used by the GitHub Actions / API-key path.
+    -> archive. Used by the GitHub Actions path.
 
   * Hybrid (run_prepare + run_finalize): `run_prepare` does everything up to the
     candidate pool and writes state/candidates.json; a lead agent (subscription
     model) writes state/selection.json with the single-pass selection+summary;
-    `run_finalize` renders, delivers and archives. See ORCHESTRATION.md.
+    `run_finalize` renders and archives. See ORCHESTRATION.md.
 
 Any failure / timeout / empty result switches to the deterministic fallback so a
-minimal briefing always arrives at 07:30 KST.
+minimal briefing always exists for the day.
 
-Double-send safety (B1): if Telegram delivers ANY chunk of the main briefing we
-do NOT trigger the fallback (which would send a second message). The fallback
-runs only when nothing was delivered.
+Output is two files per day in briefs/:
+  · <date>.md   — markdown archive, read by invest-wiki's collect_news.py
+  · <date>.json — page IR, copied into Miner as briefing/data/news/<date>.json
+                  by the integrated routine and rendered as the report page's
+                  first tab
+
+There is no Telegram delivery here any more (2026-08-15). The old double-send
+guard went with it: nothing is delivered, so a partial delivery can no longer
+race the fallback. Failure *alerts* still go to Telegram, but they live in
+Miner's invest-wiki/scripts/notify.py, not in this repo.
 """
 
 from __future__ import annotations
@@ -108,52 +115,61 @@ def _cap_pool(arts: List[Article], cap: int) -> List[Article]:
     return out
 
 
-def _deliver(telegram_text: str, markdown: str, selected: List[Article],
-             *, send: bool, persist: bool):
-    """Send the briefing and archive. Raises only when NOTHING was delivered
-    (so the caller can fall back). Partial/full delivery never falls back."""
-    if send:
-        from . import telegram
-        result = telegram.send_message(telegram_text)
-        if not result.any_sent:
-            raise RuntimeError("telegram delivery failed entirely")
-    else:
-        from .telegram import SendResult
-        result = SendResult(ok=True, sent=0, total=0)
+def _deliver(ir: dict, markdown: str, selected: List[Article], *, persist: bool):
+    """Archive the briefing as markdown (for invest-wiki ingest) and as page IR
+    (for the Miner report page). Returns (brief_path, ir_path).
 
+    There is no delivery step to fail any more, so this no longer raises on a
+    transport problem — only a genuinely unwritable disk gets here, and that
+    should surface, not silently fall back to a second briefing.
+
+    ``persist=False`` (--dry-run) writes nothing at all. The archive write used
+    to happen even under --dry-run, which left the working tree dirty after
+    every dry run; with the IR file added that would now be two stray files."""
     now = datetime.now(KST)
-    brief_path = config.BRIEFS_DIR / f"{now.strftime('%Y-%m-%d')}.md"
-    brief_path.write_text(markdown, encoding="utf-8")
+    date_str = now.strftime("%Y-%m-%d")
+    brief_path = config.BRIEFS_DIR / f"{date_str}.md"
+    ir_path = config.BRIEFS_DIR / f"{date_str}.json"
 
-    # Record only what we actually pushed, and only when we really delivered.
-    if send and persist:
-        log = state.load_sent_log()
-        pushed_urls = [a.canonical_url for a in selected
-                       if a.confidence >= render.PUSH_CONFIDENCE_MIN]
-        state.record_sent(log, pushed_urls, now)
-        state.prune_sent_log(log)
-        state.save_sent_log(log)
-    return result, str(brief_path)
+    if not persist:
+        return "(dry-run)", "(dry-run)"
+
+    brief_path.write_text(markdown, encoding="utf-8")
+    ir_path.write_text(json.dumps(ir, ensure_ascii=False, indent=2) + "\n",
+                       encoding="utf-8")
+
+    # sent_log is misnamed for what it now does: it stops *re-selection*, not
+    # re-sending. Yesterday's articles must not be picked again today, so it is
+    # recorded on every persisted run — the old `send and persist` gate would
+    # now never fire and every day would re-surface the same stories.
+    log = state.load_sent_log()
+    pushed_urls = [a.canonical_url for a in selected
+                   if a.confidence >= render.PUSH_CONFIDENCE_MIN]
+    state.record_sent(log, pushed_urls, now)
+    state.prune_sent_log(log)
+    state.save_sent_log(log)
+    return str(brief_path), str(ir_path)
 
 
 # --------------------------------------------------------------------------
 # Autonomous path
 # --------------------------------------------------------------------------
-def run_pipeline(send: bool = True, persist: bool = True) -> dict:
+def run_pipeline(persist: bool = True) -> dict:
     """Execute the full autonomous pipeline. Raises on unrecoverable failure so
     run() can switch to the fallback path."""
     fresh, failed = _build_candidates()
     selected, sel_method = select.select(fresh, max_items=MAX_ITEMS)
     sum_method = summarize.summarize(selected)
-    telegram_text, markdown, stats = render.render_briefing(selected, failed_sources=failed)
-    result, brief_path = _deliver(telegram_text, markdown, selected, send=send, persist=persist)
+    _tg, markdown, stats = render.render_briefing(selected, failed_sources=failed)
+    ir = render.render_ir(selected, failed_sources=failed)
+    brief_path, ir_path = _deliver(ir, markdown, selected, persist=persist)
     return {
         "mode": "main",
         "selection": sel_method,
         "summary": sum_method,
         "failed_sources": failed,
         "brief_path": brief_path,
-        "delivered": f"{result.sent}/{result.total}",
+        "ir_path": ir_path,
         **stats,
     }
 
@@ -304,10 +320,10 @@ def _load_agent_meta() -> dict:
     }
 
 
-def run_finalize(send: bool = True, persist: bool = True) -> dict:
-    """Render + deliver + archive using candidates.json and (if present) the
-    agent's selection.json. Falls back to autonomous select+summarize when the
-    agent did not provide a selection."""
+def run_finalize(persist: bool = True) -> dict:
+    """Render + archive using candidates.json and (if present) the agent's
+    selection.json. Falls back to autonomous select+summarize when the agent
+    did not provide a selection."""
     if not POOL_PATH.exists():
         raise RuntimeError("state/pool.json missing; run --prepare first")
     candidates, failed = _load_candidates()
@@ -322,47 +338,64 @@ def run_finalize(send: bool = True, persist: bool = True) -> dict:
         summarize.summarize(selected)
         method = f"autonomous:{sel_method}"
 
-    telegram_text, markdown, stats = render.render_briefing(
+    _tg, markdown, stats = render.render_briefing(
         selected, failed_sources=failed, events=meta["events"],
         top_insight=meta["top_insight"], whats_changed=meta["whats_changed"],
         themes=meta["themes"])
-    result, brief_path = _deliver(telegram_text, markdown, selected, send=send, persist=persist)
+    ir = render.render_ir(
+        selected, failed_sources=failed, events=meta["events"],
+        top_insight=meta["top_insight"], whats_changed=meta["whats_changed"],
+        themes=meta["themes"])
+    brief_path, ir_path = _deliver(ir, markdown, selected, persist=persist)
     return {"mode": "finalize", "selection": method, "failed_sources": failed,
-            "brief_path": brief_path, "delivered": f"{result.sent}/{result.total}", **stats}
+            "brief_path": brief_path, "ir_path": ir_path, **stats}
 
 
 # --------------------------------------------------------------------------
 # Top-level with fallback
 # --------------------------------------------------------------------------
-def _run_fallback(reason: str, send: bool) -> dict:
+def run_fallback_path(reason: str, persist: bool = True) -> dict:
+    """Deterministic fallback: gather headlines, archive them as markdown and
+    page IR. ``persist=False`` (--dry-run) builds everything but writes nothing."""
     print(f"[pipeline] main path failed: {reason}")
     from . import fallback
-    # Skip anything already pushed previously, to avoid re-sending stale items.
+    # Skip anything selected previously, so a fallback after a good run does not
+    # resurface stale headlines.
     sent = state.load_sent_log()
-    msg = fallback.run_fallback(send=send, sent_log=sent)
+    msg, items = fallback.run_fallback(sent_log=sent)
+    now = datetime.now(KST)
+    date_str = now.strftime("%Y-%m-%d")
+    if not persist:
+        return {"mode": "fallback", "reason": reason, "message_len": len(msg),
+                "persisted": False, "items": len(items)}
     try:
         config.ensure_dirs()
-        now = datetime.now(KST)
-        (config.BRIEFS_DIR / f"{now.strftime('%Y-%m-%d')}.md").write_text(
-            f"# 뉴스 브리핑 (폴백) — {now.strftime('%Y-%m-%d')}\n\n{msg}\n", encoding="utf-8")
+        (config.BRIEFS_DIR / f"{date_str}.md").write_text(
+            f"# 뉴스 브리핑 (폴백) — {date_str}\n\n{msg}\n", encoding="utf-8")
+        # The page must say "this is a fallback day" rather than look like a
+        # thin normal day, so the IR carries the degraded flag explicitly.
+        ir = render.fallback_ir(items, now=now, reason=reason)
+        (config.BRIEFS_DIR / f"{date_str}.json").write_text(
+            json.dumps(ir, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     except OSError:
         pass
-    return {"mode": "fallback", "reason": reason, "message_len": len(msg)}
+    return {"mode": "fallback", "reason": reason, "message_len": len(msg),
+            "persisted": True, "items": len(items)}
 
 
-def run(send: bool = True, persist: bool = True) -> dict:
+def run(persist: bool = True) -> dict:
     """Autonomous run with automatic deterministic fallback."""
     try:
-        return run_pipeline(send=send, persist=persist)
+        return run_pipeline(persist=persist)
     except Exception as exc:  # noqa: BLE001 - fallback must catch everything
         traceback.print_exc()
-        return _run_fallback(str(exc), send)
+        return run_fallback_path(str(exc), persist=persist)
 
 
-def run_finalize_safe(send: bool = True, persist: bool = True) -> dict:
+def run_finalize_safe(persist: bool = True) -> dict:
     """Hybrid finalize with automatic deterministic fallback."""
     try:
-        return run_finalize(send=send, persist=persist)
+        return run_finalize(persist=persist)
     except Exception as exc:  # noqa: BLE001
         traceback.print_exc()
-        return _run_fallback(str(exc), send)
+        return run_fallback_path(str(exc), persist=persist)

@@ -18,13 +18,11 @@ CACHE_DIR = REPO_ROOT / "cache"
 SENT_LOG_PATH = STATE_DIR / "sent_log.json"
 
 # --- Secrets (env only) ----------------------------------------------------
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+# No Telegram credentials any more: the briefing is delivered as a report page,
+# and the surviving failure alerts live in Miner's invest-wiki/scripts/notify.py.
 NEWSDATA_API_KEY = os.environ.get("NEWSDATA_API_KEY", "")
 GUARDIAN_API_KEY = os.environ.get("GUARDIAN_API_KEY", "")  # optional quality boost
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-
-# Telegram bot identity (for documentation/sanity only): @realneeewsbot
 
 # --- LLM settings ----------------------------------------------------------
 # Use a stable, subscribed model to avoid free-tier 429 rate limits.
@@ -32,8 +30,6 @@ ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 ANTHROPIC_BASE_URL = os.environ.get("ANTHROPIC_API_BASE", "https://api.anthropic.com")
 
 # --- Behaviour knobs -------------------------------------------------------
-TELEGRAM_MAX_CHARS = 4096
-
 # NewsData.io credit discipline: ~3 requests/day, ~30 items total.
 NEWSDATA_MAX_REQUESTS = int(os.environ.get("NEWSDATA_MAX_REQUESTS", "3"))
 NEWSDATA_PAGE_SIZE = int(os.environ.get("NEWSDATA_PAGE_SIZE", "10"))
@@ -60,16 +56,6 @@ FALLBACK_ITEMS = 10
 HTTP_TIMEOUT = float(os.environ.get("NEWS_HTTP_TIMEOUT", "15"))
 HTTP_RETRIES = 3
 USER_AGENT = "DailyNewsBriefing/1.0 (+https://github.com/dlwjdgh95-byte/news)"
-
-
-def missing_required_secrets() -> list[str]:
-    """Secrets required even for the deterministic fallback to deliver."""
-    missing = []
-    if not TELEGRAM_BOT_TOKEN:
-        missing.append("TELEGRAM_BOT_TOKEN")
-    if not TELEGRAM_CHAT_ID:
-        missing.append("TELEGRAM_CHAT_ID")
-    return missing
 
 
 def ensure_dirs() -> None:

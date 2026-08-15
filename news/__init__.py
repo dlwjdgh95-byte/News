@@ -13,7 +13,6 @@ Package layout:
   select      - single-call LLM selection with diversity caps
   summarize   - single-call structured summary with evidence
   render      - Korean briefing formatting
-  telegram    - delivery with 4096-char splitting
   fallback    - deterministic minimal path (no LLM)
   pipeline    - orchestration with automatic fallback
 """

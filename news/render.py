@@ -250,3 +250,107 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
         "failed_sources": failed_sources,
     }
     return telegram_text, markdown, stats
+
+
+# ---------------------------------------------------------------------------
+# Report-page IR
+# ---------------------------------------------------------------------------
+# The briefing used to end at Telegram. It now ends at a static report page in
+# the Miner repo, so alongside the Telegram text and the markdown archive we
+# emit a channel-neutral dict. Only push-worthy items go in: the page shows
+# what the briefing would have pushed, and the low-confidence remainder stays
+# in the markdown archive where invest-wiki's collect_news.py already reads it.
+IR_SCHEMA = 1
+
+
+def _ir_item(a: Article) -> dict:
+    """One article as page IR. Empty optional fields are dropped so the
+    committed JSON stays diffable and small."""
+    item = {
+        "title": a.title,
+        "source": a.source_name,
+        "url": a.url,
+        "one_liner": a.one_liner,
+        "why_it_matters": a.why_it_matters,
+        "confidence": round(a.confidence, 3),
+    }
+    if a.original_title and a.original_title != a.title:
+        item["original_title"] = a.original_title
+    for key, value in (("implications", a.implications), ("tags", a.tags),
+                       ("flags", a.flags)):
+        if value:
+            item[key] = value
+    return item
+
+
+def render_ir(selected: List[Article], *, now: datetime | None = None,
+              failed_sources: List[str] | None = None,
+              events: List[str] | None = None,
+              top_insight: List[str] | None = None,
+              whats_changed: List[str] | None = None,
+              themes: List[str] | None = None) -> dict:
+    """Return the report-page IR for the same selection render_briefing gets.
+
+    ``synthesis`` is deliberately absent — the integrated routine adds it to
+    this file later, after invest-wiki ingest. The renderer skips the section
+    when the key is missing, which is the normal state right after this runs.
+    """
+    now = (now or datetime.now(KST)).astimezone(KST)
+    by_tag = {SOURCE_A: [], SOURCE_B: [], SOURCE_C: []}
+    for a in selected:
+        by_tag.get(a.source_tag, by_tag[SOURCE_A]).append(a)
+
+    push: List[Article] = []
+    archived = 0
+    for tag in (SOURCE_A, SOURCE_B, SOURCE_C):
+        p, arch = _split_push_archive(by_tag[tag])
+        push.extend(p)
+        archived += len(arch)
+
+    return {
+        "schema": IR_SCHEMA,
+        "date": now.strftime("%Y-%m-%d"),
+        "slot": "am" if now.hour < 12 else "pm",
+        "generated_at": now.isoformat(),
+        "top_insight": _str_cap(top_insight, 3),
+        "whats_changed": _str_cap(whats_changed, 4),
+        "themes": _str_cap(themes, 3),
+        "market_mood": market_mood(by_tag[SOURCE_A]),
+        "events": _str_cap(events or extract_events(selected), _MAX_EVENTS),
+        "items": [_ir_item(a) for a in push],
+        "archived_count": archived,
+        "failed_sources": failed_sources or [],
+    }
+
+
+def _str_cap(items, cap: int) -> List[str]:
+    return [str(x).strip() for x in (items or []) if str(x).strip()][:cap]
+
+
+def fallback_ir(items: List[Article], *, now: datetime | None = None,
+                reason: str = "") -> dict:
+    """Page IR for a fallback day — headlines only, no summaries.
+
+    ``degraded`` is what the page keys off: a fallback day has no one_liner,
+    no why_it_matters and no insight blocks, and rendering it as a normal (but
+    oddly empty) briefing would misrepresent the day as quiet rather than
+    broken."""
+    now = (now or datetime.now(KST)).astimezone(KST)
+    return {
+        "schema": IR_SCHEMA,
+        "date": now.strftime("%Y-%m-%d"),
+        "slot": "am" if now.hour < 12 else "pm",
+        "generated_at": now.isoformat(),
+        "degraded": True,
+        "degraded_reason": reason,
+        "top_insight": [],
+        "whats_changed": [],
+        "themes": [],
+        "market_mood": "",
+        "events": [],
+        "items": [{"title": a.title, "source": a.source_name, "url": a.url,
+                   "one_liner": "", "why_it_matters": "",
+                   "confidence": round(a.confidence, 3)} for a in items],
+        "archived_count": 0,
+        "failed_sources": [],
+    }

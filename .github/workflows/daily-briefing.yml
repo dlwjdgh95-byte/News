@@ -1,5 +1,9 @@
 name: Daily News Briefing
 
+# 결정론적 백업 경로. 통합 루틴(Miner/invest-wiki/ROUTINE_PROMPT.md)이 누락된 날에도
+# briefs/<date>.{md,json}이 남도록 보장한다. 발송은 하지 않는다 — 2026-08-15부터
+# 브리핑의 전달 경로는 텔레그램이 아니라 Miner의 리포트 페이지다.
+#
 # 매일 한국시간 06:00 = 전날 21:00 UTC. 루틴은 UTC 기준이므로 cron은 "0 21 * * *".
 on:
   schedule:
@@ -9,8 +13,8 @@ on:
       mode:
         description: "run mode"
         type: choice
-        default: "send"
-        options: ["send", "dry-run", "fallback"]
+        default: "archive"
+        options: ["archive", "dry-run", "fallback"]
 
 # state/, briefs/ 를 커밋하기 위한 쓰기 권한.
 permissions:
@@ -38,8 +42,6 @@ jobs:
 
       - name: Run briefing
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -51,6 +53,9 @@ jobs:
             *)        python run.py ;;
           esac
 
+      # briefs/<date>.json is the report-page IR. This backup path does NOT push
+      # it to Miner — on a day when only this workflow runs, the report page's
+      # news tab is empty by design (see docs/superpowers/specs in Miner).
       - name: Commit archive + sent-log
         if: ${{ github.event.inputs.mode != 'dry-run' }}
         run: |
