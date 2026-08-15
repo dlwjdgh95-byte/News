@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "date": "2026-08-16",
+  "slot": "am",
+  "generated_at": "2026-08-16T03:14:20.782979+09:00",
+  "top_insight": [
+    "미-이란 경제전쟁과 고유가가 맞물리며 중동발 지정학 리스크가 재부각되는 가운데, 이스라엘-레바논 공습까지 겹쳐 리스크 프리미엄이 다층적으로 쌓이고 있다.",
+    "AI 밸류에이션 논쟁이 앤트로픽 IPO 전망치와 코어위브 실적을 계기로 다시 불붙었다 — 성장성과 고평가 우려가 팽팽히 맞서는 국면.",
+    "크립토 시장은 전체 시총이 작년 고점 대비 반토막난 채 조정 국면이 이어지는 동시에, 기관(폴 튜더 존스 등)은 비트코인 ETF 노출을 늘리는 이중적 신호를 보이고 있다."
+  ],
+  "whats_changed": [
+    "어제(8/15)도 뉴스 수집 자체가 실패해 폴백 모드(헤드라인만 전달)였던 만큼 정량적 전일 대비는 제한적이다.",
+    "다만 어제 헤드라인의 美-이란 긴장·국제유가 상승·크립토 UBS ETF 이슈는 오늘도 핵심 소재로 이어졌다."
+  ],
+  "themes": [
+    "미-이란·중동 지정학 리스크 — 유가·안전자산 변동성 확대 국면",
+    "AI 밸류에이션 논쟁 — 앤트로픽 IPO 전망·코어위브 실적을 두고 성장 vs 고평가 시각차",
+    "크립토 이중신호 — 전체 시총은 조정 지속, 기관(폴 튜더 존스 등)은 비트코인ETF 노출 확대"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "美-이란 '치킨게임' 본격화…경제 제재 대 고유가 대치",
+      "source": "ytn.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yOGFIbUl5TVBPLUlRUmJBd2tlTWNjZ0kzMVFZakFLVFFfYmFyMFhQVHM0NTNHRXZFLTA2dXoxLS0xbXhlT05KU1ZTXzJzWWRYY2tRZTFFbURqVUZ0X1E?oc=5",
+      "one_liner": "미국이 이란에 전례없는 고강도 경제제재를 예고하며 압박하자 이란은 고유가로 맞서는 양상",
+      "why_it_matters": "미-이란 갈등이 국제유가·에너지 시장 변동성을 키우는 핵심 변수로 부상",
+      "confidence": 0.6,
+      "original_title": "\"미국·이란 치킨 게임 본격화...경제 압박 vs 고유가\" - ytn.co.kr",
+      "implications": "국제유가 상방 압력 지속 시 인플레이션 재점화 우려 — 원자재·에너지주, 항공·해운 비용 부담 지켜볼 필요",
+      "tags": [
+        "미국",
+        "이란",
+        "유가",
+        "지정학"
+      ]
+    },
+    {
+      "title": "휴대용 게임기 시장, D램 품귀 대란에 타격 우려",
+      "source": "IGN Korea",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaDNDczc0ZzBXMGNReE9FQThybnF1a2lNQXhnUGQ1N0FHTVFBTFZFVDZfcHZVYkJtaTlzWEMyWGp6S2NLd3hvX0xFVmZCU3B6LTNMV21ucjRHazZBQzhEVC1jVUdvLUpyNk9vdnNhaXdNSjctbE9ZbE1Ec2xCdEVyVGIxa3VTeTRSaXpybGtuc09UNmhuMGVCa2xLYndsODVWVS1uc0lDLTVLeEZBTENqazB1UmJNYnlHQXFLeHFsVEtmM08teHhEYzVrcGlVVUU?oc=5",
+      "one_liner": "메모리(D램) 공급 부족 심화가 휴대용 게임기 등 소비자 전자제품 원가·공급에 부담",
+      "why_it_matters": "AI 서버향 수요 급증으로 촉발된 메모리 반도체 품귀가 소비자 가전 전반으로 확산되는 정황",
+      "confidence": 0.55,
+      "original_title": "휴대용 게임기를 사랑하지만 RAM 대란이 시장의 숨통을 끊을까 두렵다 - IGN Korea",
+      "implications": "삼성전자·SK하이닉스 등 메모리 반도체 업체엔 우호적(가격 상승), 세트업체(게임기·가전)엔 원가 부담 — 메모리 슈퍼사이클 논의와 연결",
+      "tags": [
+        "반도체",
+        "D램",
+        "메모리",
+        "공급망"
+      ]
+    },
+    {
+      "title": "이스라엘, 레바논 공습…9명 사망 '6월 휴전 이후 최다'",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQNDJmeVF6ek9DR0hvR3NiZ0lkdlVUV2p1MUdZMzdJQjloZWEzN2VPRUI1SllCLXN3bnAtTDhiMVFRZjduU0dRQzVESFZrYUtzMFg1eUNjemdEVUpwMTNSRGRBOXlhQ1E?oc=5",
+      "one_liner": "이스라엘의 레바논 남부 공습으로 9명이 사망, 6월 휴전 이후 최대 인명피해",
+      "why_it_matters": "이스라엘-레바논(헤즈볼라) 간 6월 휴전 체제의 균열 신호 — 중동 지정학 리스크 재부각",
+      "confidence": 0.6,
+      "original_title": "이스라엘 공격에 레바논서 9명 사망...\"6월 휴전 이후 최다\" - 연합뉴스TV",
+      "implications": "중동 리스크 프리미엄 확대 시 유가·안전자산(금) 변동성 확대 가능 — 美-이란 갈등(같은 브리핑 내)과 함께 지정학 리스크 복합 관찰 필요",
+      "tags": [
+        "이스라엘",
+        "레바논",
+        "중동",
+        "지정학"
+      ]
+    },
+    {
+      "title": "이재명 대통령, 광복절 경축사서 남북평화·한일관계 청사진 제시",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RczJ6dWVkNzlpQkRGWXg5TmllVGNiMzBVbDJoMVZaRXhNVndVTW00cHRGWDNoUVlPd0FZa3NhWUZObzJ4VnQ4UjBvMWVXbS1aRHFFX0x3elRiQjQ?oc=5",
+      "one_liner": "이 대통령이 광복절 경축사에서 '새로운 광복'을 언급하며 전쟁을 끝내기 위한 남북 당사자 간 논의 시작을 제안",
+      "why_it_matters": "한반도 정세·대북 정책 방향에 대한 정부 공식 입장 표명 — 남북관계·한일관계 시장 민감도",
+      "confidence": 0.6,
+      "original_title": "이 대통령, 남북평화·한일관계 청사진…“새로운 광복 필요, 전쟁 끝낼 당사자 간 논의 시작” - KBS 뉴스",
+      "implications": "지정학 리스크('코리아 디스카운트') 완화 기대와 남북관계 실질 진전 여부는 별개 — 후속 남북 반응 지켜볼 필요",
+      "tags": [
+        "광복절",
+        "남북관계",
+        "한일관계",
+        "정치"
+      ]
+    },
+    {
+      "title": "김민석, 민주 전당대회 호남 경선 57.5% 득표 과반승",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkYmpMQ3lud3pZRlZZdGwtNm5vcl9pZGR0a1BIU0pYV0RZWjFaWTJIZ0NjYmcyYXU1Mlc2VFFhc2lKOGMzTmNYZG4yc1BuMWhsRkc3eHExUTFwOUw3bVhyUENUblVqWnNpYmRjLXloeWZZNmhq?oc=5",
+      "one_liner": "여당 민주당 전당대회 호남권 경선에서 김민석 후보가 57.5% 득표로 과반 승리, 정청래와 누적 격차 14%p로 확대",
+      "why_it_matters": "집권여당 지도부 구성 방향을 좌우하는 전당대회 결과 — 향후 정책·입법 드라이브 동력에 영향",
+      "confidence": 0.6,
+      "original_title": "김민석, 민주 전당대회 호남권 경선서 57.5% 득표 과반승 - 한겨레",
+      "implications": "여당 내 세력 재편이 국정운영 동력·정책 우선순위에 영향 — 정치 불확실성 완화 여부 주시",
+      "tags": [
+        "민주당",
+        "전당대회",
+        "국내정치"
+      ]
+    },
+    {
+      "title": "경남 가뭄에 전국 소방차 총동원…나흘간 3만5000t 급수 지원",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcDI4cVZNY05BaVVJQ2JycUxjbzUzSXJ3R25HSlI0VWIxbGh6NDZsRHRTbkRKbWlDQzA2dGw2X3dCLXdOdmZHUTB5ekdNWlB5ZlZDTVlQN243MDRKc09JUEZXVHJkQ0JLeHE2MVdDME8zX0VyTHRkTVl2cE1UNWFDeDdOMlczV2ZmclIzMi1TLVE?oc=5",
+      "one_liner": "경남 지역 극심한 가뭄에 전국 소방차가 총동원돼 나흘간 약 3만5000톤의 용수를 공급",
+      "why_it_matters": "이상기후로 인한 국내 물 부족 사태 심화 — 농업·지역경제 피해 우려",
+      "confidence": 0.6,
+      "original_title": "경남 가뭄에 전국 소방차 총동원…나흘간 3만5000t 공급 - 조선일보",
+      "implications": "가뭄 장기화 시 농산물 가격(농축수산물 물가) 상방 압력 가능성 — 정부 가뭄 대응단 신설 등 정책 대응 지속 관찰",
+      "tags": [
+        "가뭄",
+        "기후",
+        "국내"
+      ]
+    },
+    {
+      "title": "지오서버 제로데이 공개 직후 공격자 활동 급증…수백 건 공격 시도 포착",
+      "source": "데일리시큐",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BTmtvWVduUFNUaXVZU2FpUE1uUFpyeTJsWkY0d2JqaTVnWUdFTGlZX3lmWENLVU9tcHF2c2Rsa29HUkp6ajFndTJRR3RJU2ptZEhsMkZBZU5TcHEwS09vUklDaG9jbzh2TG5IZg?oc=5",
+      "one_liner": "지리정보 서버 소프트웨어 '지오서버'의 제로데이 취약점이 공개된 직후 공격 시도가 수백 건 포착됨",
+      "why_it_matters": "공공·기업 인프라에 널리 쓰이는 오픈소스 소프트웨어 취약점 악용 확산 — 보안 대응 시급성",
+      "confidence": 0.6,
+      "original_title": "지오서버 제로데이 공개 직후 공격자 움직였다…수백 건 공격 탐색 포착 - 데일리시큐",
+      "implications": "관련 시스템 운영 기관은 긴급 패치 필요 — 사이버보안 관련 기업·솔루션 수요 부각 가능",
+      "tags": [
+        "보안",
+        "제로데이",
+        "사이버공격"
+      ]
+    },
+    {
+      "title": "앤트로픽 IPO 밸류에이션, 2028년 매출 1900억~2000억달러 전망에 달려 (원문: Anthropic IPO valuation hinges on $190-200b 2028 revenue forecast: Sources)",
+      "source": "tbsnews_net",
+      "url": "https://www.tbsnews.net/worldbiz/usa/anthropic-ipo-valuation-hinges-190-200b-2028-revenue-forecast-sources-1515356",
+      "one_liner": "앤트로픽이 2028년 매출 약 1900억~2000억 달러를 전망 중이라는 복수 소식통 보도",
+      "why_it_matters": "AI 대형 스타트업의 IPO 밸류에이션 산정 기준이 되는 첫 구체적 장기 매출 전망치",
+      "confidence": 0.7,
+      "original_title": "Anthropic IPO valuation hinges on $190-200b 2028 revenue forecast: Sources",
+      "implications": "AI 섹터 밸류에이션 논쟁 재점화 가능 — 상장 시 비교 대상 될 빅테크·AI인프라주 밸류에이션에 참고지표",
+      "tags": [
+        "Anthropic",
+        "AI",
+        "IPO",
+        "밸류에이션"
+      ]
+    },
+    {
+      "title": "코어위브, 2분기 실적 호조·1040억달러 수주잔고에도 매수·매도 논쟁 격화 (원문: CoreWeave Stock Buy or Sell Debate Intensifies in 2026 After Q2 Beat and $104 Billion Backlog)",
+      "source": "ibtimes",
+      "url": "https://www.ibtimes.com.au/coreweave-ai-infrastructure-growth-investor-debate-1874063",
+      "one_liner": "코어위브의 2분기 실적 서프라이즈와 대규모 백로그에도 밸류에이션 고평가 논쟁 지속",
+      "why_it_matters": "AI 인프라 투자 랠리의 지속가능성을 둘러싼 시장 견해차를 보여주는 사례",
+      "confidence": 0.65,
+      "original_title": "CoreWeave Stock Buy or Sell Debate Intensifies in 2026 After Q2 Beat and $104 Billion Backlog",
+      "implications": "AI 데이터센터·GPU 임대 관련주 밸류에이션 조정 리스크 vs 성장 지속 기대 팽팽 — 실적 시즌 이후 변동성 주시",
+      "tags": [
+        "CoreWeave",
+        "AI인프라",
+        "실적"
+      ]
+    },
+    {
+      "title": "2026년 크립토 시장 조정…자금은 규제된 플레이어로 이동 (원문: Crypto Market Correction 2026: Why Capital Is Moving Toward Regulated Players)",
+      "source": "techbullion",
+      "url": "https://techbullion.com/crypto-market-correction-2026-why-capital-is-moving-toward-regulated-players/",
+      "one_liner": "7월 일부 반등에도 크립토 총 시가총액은 작년 10월 고점 대비 약 50% 낮은 2.26조달러 수준",
+      "why_it_matters": "투기적 프로젝트에서 규제받는 크립토 사업자로 자금 이동이 뚜렷해지는 구조 변화 신호",
+      "confidence": 0.6,
+      "original_title": "Crypto Market Correction 2026: Why Capital Is Moving Toward Regulated Players",
+      "implications": "규제 준수 크립토 플랫폼·상장 크립토 관련주 상대적 강세 가능성, 비주류 알트코인 자금 유출 지속 우려",
+      "tags": [
+        "크립토",
+        "시장구조",
+        "규제"
+      ]
+    },
+    {
+      "title": "美 CFPB, 소비자 불만 서사 공개 데이터베이스에서 삭제 추진 (원문: Trump CFPB Plans to Remove Consumer Complaint Narratives From Public Database)",
+      "source": "headtopics",
+      "url": "https://us.headtopics.com/news/trump-cfpb-plans-to-remove-consumer-complaint-narratives-86646378",
+      "one_liner": "트럼프 행정부의 소비자금융보호국(CFPB)이 소비자 불만 서술·시각화 자료 공개를 중단하겠다고 발표",
+      "why_it_matters": "금융소비자 보호 감시 체계 약화 우려 — 금융사에 대한 공개 감시 축소",
+      "confidence": 0.65,
+      "original_title": "Trump CFPB Plans to Remove Consumer Complaint Narratives From Public Database",
+      "implications": "금융권 규제 완화 기조 지속 신호 — 은행·소비자금융 관련주에는 규제 리스크 완화 요인, 소비자 보호 측면은 후퇴",
+      "tags": [
+        "미국",
+        "CFPB",
+        "금융규제"
+      ]
+    },
+    {
+      "title": "'비트코인 100만 달러' 장밋빛 전망, 15조 달러 자본 격차는 외면 — 회의론",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxNS0xxbzFNUE1qcWM5eF9PUGVwZUxaRUJUNTNWb1RnWHVzbUN5UnI4a0xTTDhBMG1rVnJYQkxIVXdqc2trN0NUeWR3dldFM2FDT1FKa3Y2U1h6SXU2Q2pWZHhEMUF5U3FwUU1DMm5KSTA1SF8yNHVfVzhYMVJadzYtRWZjY3I2M1praUtOT0xhRV9lM2JDcGVKNWZscXBrYjJQRUk4SHFKcmNrVFZxSlZKb0ZqOHNvc3pXdVRKdFMwOGZtcUN6R3dwYVR6NHVCTFUzcE9nSWpCQWE2TkV5UmVhWXVTeVMwOXlSeVBwdnB3aXpMYUJjUlJEcmNRRHF1RnI0RWpicVN4bWhnYWEwVnViTEtPQnZITXNiQXJ5QUxBZ0FVN0dOdm5zYmloYjBjTFk1eWZoeUpqQzhQNzc4QVhzY3FXbHlqZWV3bmpjTHpaWWhVTE5JNFVIYXJJbzFCbXpwU0xLOVhKTmVRV2ZodVdKeWlIMklGbHkzbnlPZ3FoM2lfRDJXdVFUeGVlRVA?oc=5",
+      "one_liner": "비트코인 100만 달러 도달을 낙관하는 전망들이 실제 자본 유입 규모와의 큰 격차를 간과하고 있다는 비판적 시각",
+      "why_it_matters": "낙관적 크립토 가격 전망에 대한 반대 논거 — 시장 내 견해차 존재를 보여줌",
+      "confidence": 0.5,
+      "original_title": "\"비트코인 100만 달러\" 장밋빛 전망, 15조 달러 자본 격차는 외면하고 있다 - Yellow.com",
+      "implications": "비트코인 초강세 시나리오에 대한 검증되지 않은 낙관론 경계 필요 — 자금 유입 데이터 추적이 관건",
+      "tags": [
+        "비트코인",
+        "크립토",
+        "가격전망"
+      ]
+    },
+    {
+      "title": "폴 튜더 존스 운용사, 1년간 매도 후 블랙록 비트코인ETF 지분 확대 (원문: Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling",
+      "one_liner": "폴 튜더 존스의 투자회사가 콜옵션은 줄이고 블랙록 비트코인ETF(IBIT) 관련 포지션은 재확대",
+      "why_it_matters": "유명 매크로 헤지펀드의 비트코인 ETF 포지션 변화는 기관 심리 가늠자로 주목받음",
+      "confidence": 0.55,
+      "original_title": "Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
+      "implications": "콜옵션 축소는 단기 상방 베팅 완화, 지분 재확대는 중장기 보유 지속 신호로 해석 가능 — 기관 자금 흐름 지속 관찰",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "기관투자"
+      ]
+    },
+    {
+      "title": "로봇업체 유니트리 상장 추진…하이퍼리퀴드 트레이더들 IPO가 대비 4배 상승 베팅 (원문: Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price",
+      "one_liner": "로봇업체 유니트리의 기업공개(IPO)를 앞두고 크립토 파생거래소 하이퍼리퀴드 트레이더들이 IPO가 대비 약 4배 높은 밸류에이션(약 380억달러)에 베팅",
+      "why_it_matters": "탈중앙화 파생거래 플랫폼에서 비상장주 사전 가격형성이 이뤄지는 사례 — 크립토와 실물 IPO 시장의 접점",
+      "confidence": 0.55,
+      "original_title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
+      "implications": "레버리지 베팅이 몰릴 경우 상장 후 변동성 확대 리스크 — 로보틱스 기업 밸류에이션 과열 여부 주시",
+      "tags": [
+        "유니트리",
+        "로봇",
+        "IPO",
+        "하이퍼리퀴드"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
