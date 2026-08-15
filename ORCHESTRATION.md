@@ -22,14 +22,24 @@
    → state/selection.json  작성
         │
 [Python] run.py --finalize
-   → 다양성 캡 재적용 → 구조화 렌더 → 텔레그램 발송(4096 분할) → 아카이브 → sent_log 기록
+   → 다양성 캡 재적용 → 구조화 렌더 → 아카이브 2종 → sent_log 기록
+        │
+        ├─ briefs/<date>.md    (invest-wiki collect_news.py가 읽는 ingest 소스)
+        └─ briefs/<date>.json  (리포트 페이지 IR — 루틴이 Miner로 복사)
 ```
+
+**전달 경로 (2026-08-15 변경):** 텔레그램 발송은 없어졌다. 브리핑은 Miner 레포의 정적
+리포트 페이지 첫 탭(`뉴스`)으로 나간다. 루틴이 `briefs/<date>.json`을
+`Miner/briefing/data/news/<date>.json`으로 복사·커밋하면 `render_html.py`가 렌더한다.
+장애 알림만 텔레그램에 남아 있고, 그 코드는 이 레포가 아니라
+`Miner/invest-wiki/scripts/notify.py`에 있다.
 
 **토큰 절약 설계:** 에이전트가 읽는 candidates.json에는 선별·요약에 필요한 필드만 남긴다.
 수백 자짜리 Google News URL(`url`/`canonical_url`/`related`)과 `key_entities`, 빈 필드는
 제외되고, 선택은 `id`로만 한다. URL 복원·발송은 pool.json을 읽는 `--finalize`가 처리한다.
 어제 브리핑도 전문 대신 링크 제거 다이제스트(`yesterday_digest`)로 제공된다.
 어느 단계든 실패/타임아웃/빈 결과면 `run.py --fallback`(결정론적 폴백)으로 최소 브리핑 보장.
+폴백 IR은 `degraded: true`로 표시돼 페이지가 "조용한 날"이 아니라 "고장난 날"로 렌더한다.
 
 ## 리드 에이전트 절차 (예약 세션 프롬프트에 넣을 내용)
 
@@ -66,21 +76,25 @@
    ```
    `id`는 candidates.json의 후보 id. 중요도 순으로 나열.
 
-4. **확정 발송:** `python run.py --finalize` 실행. 텔레그램 발송·아카이브·sent_log 기록까지 수행.
-   - `selection.json`이 없거나 비면 `--finalize`가 자동으로 휴리스틱 선별+요약으로 대체(여전히 발송됨).
-   - 텔레그램이 **한 청크라도** 전송되면 폴백을 트리거하지 않는다(이중 발송 방지). 전송 0건일 때만
-     `--finalize`가 내부적으로 폴백 경로로 전환.
+4. **확정 아카이브:** `python run.py --finalize` 실행. `briefs/<date>.md`·`briefs/<date>.json`
+   기록과 sent_log 갱신까지 수행.
+   - `selection.json`이 없거나 비면 `--finalize`가 자동으로 휴리스틱 선별+요약으로 대체.
+   - 발송 단계가 없어졌으므로 이중 발송 방지 장치도 함께 사라졌다. 폴백은 수집·렌더가
+     실제로 실패했을 때만 돈다.
 
 ## 시크릿
-예약 세션 환경에 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`(필수), 필요 시 `NEWSDATA_API_KEY`,
-`GUARDIAN_API_KEY`를 주입한다. 하이브리드에서는 선별·요약을 **구독 모델(세션 내 추론)**이 하므로
-`ANTHROPIC_API_KEY`는 불필요하다.
+예약 세션 환경에 필요 시 `NEWSDATA_API_KEY`, `GUARDIAN_API_KEY`를 주입한다. 텔레그램
+시크릿은 이 레포에서 더 이상 쓰지 않는다(발송 제거). 하이브리드에서는 선별·요약을
+**구독 모델(세션 내 추론)**이 하므로 `ANTHROPIC_API_KEY`도 불필요하다.
 
 ## 백업 스케줄러
-`/.github/workflows/daily-briefing.yml`(cron `30 22 * * *`)은 자율 일체형 경로(`python run.py`)를
-실행하는 **결정론적 백업**이다. 예약 세션이 누락되어도 GitHub Actions가 최소 브리핑을 보장한다.
-둘을 동시에 켤 경우 `sent_log` 덕분에 같은 기사를 양쪽에서 중복 발송하지 않는다(단, 발송 시각이
-겹치지 않도록 한쪽을 약간 앞/뒤로 두는 것을 권장).
+`/.github/workflows/daily-briefing.yml`은 자율 일체형 경로(`python run.py`)를 실행하는
+**결정론적 백업**이다. 예약 세션이 누락되어도 `briefs/<date>.{md,json}`이 남는다.
+둘을 동시에 켤 경우 `sent_log` 덕분에 같은 기사를 양쪽에서 중복 선별하지 않는다.
+
+**단, 이 백업 경로는 Miner로 push하지 않는다.** 루틴이 누락돼 이 워크플로만 도는 날은
+리포트 페이지의 뉴스 탭이 비어 있다(설계상 의도 — News가 Miner 쓰기 권한을 갖지 않게
+하기 위한 선택). 그날 뉴스를 페이지에 올리려면 루틴을 수동 재실행한다.
 
 ## 스펙 매핑
 - "읽기전용 서브에이전트 A·B·C": 결정론·정시 보장을 위해 런타임 수집은 파이썬 collector 모듈

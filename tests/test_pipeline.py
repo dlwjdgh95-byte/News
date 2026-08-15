@@ -9,6 +9,8 @@ import os
 import sys
 from datetime import datetime, timezone, timedelta
 
+import pytest
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from news.model import Article, SOURCE_A, SOURCE_B, SOURCE_C
@@ -19,6 +21,22 @@ def _a(title, url, **kw):
     kw.setdefault("source_name", "Test")
     kw.setdefault("source_tag", SOURCE_A)
     return Article(title=title, url=url, **kw)
+
+
+@pytest.fixture
+def isolated_paths(tmp_path, monkeypatch):
+    """Redirect every path _deliver writes to a temp dir.
+
+    These tests used to write into the real briefs/ and state/sent_log.json,
+    leaving the working tree dirty after a test run. The archive write is the
+    behaviour under test, so it can't be disabled — it has to be relocated."""
+    from news import config
+    briefs = tmp_path / "briefs"
+    briefs.mkdir()
+    monkeypatch.setattr(config, "BRIEFS_DIR", briefs)
+    monkeypatch.setattr(config, "SENT_LOG_PATH", tmp_path / "sent_log.json")
+    monkeypatch.setattr(config, "STATE_DIR", tmp_path)
+    return tmp_path
 
 
 def test_canonical_url_strips_tracking():
@@ -111,12 +129,45 @@ def test_translation_format():
     assert a.title == "美 연준, 금리 동결 결정 (원문: Fed Holds Rates Steady)"
 
 
-def test_telegram_split():
-    from news import telegram
-    big = "\n\n".join(f"섹션 {i}: " + "가" * 1000 for i in range(10))
-    chunks = telegram.split_message(big, limit=4096)
-    assert all(len(c) <= 4096 for c in chunks)
-    assert len(chunks) > 1
+def test_render_ir_shape():
+    # The report page reads this dict; its shape is the contract with Miner's
+    # briefing/scripts/news_data.py.
+    art = _a("한국어 제목", "https://n.com/ir", confidence=0.9,
+             source_name="로이터", original_title="Original Title")
+    art.one_liner = "한줄요약"
+    art.why_it_matters = "왜 중요한지"
+    ir = render.render_ir([art], top_insight=["관전 포인트"], themes=["테마 — 한 줄"])
+    assert ir["schema"] == render.IR_SCHEMA
+    assert ir["items"][0]["title"] == "한국어 제목"
+    assert ir["items"][0]["original_title"] == "Original Title"
+    assert ir["top_insight"] == ["관전 포인트"]
+    # synthesis is added later by the routine, never by this repo.
+    assert "synthesis" not in ir
+
+
+def test_render_ir_drops_low_confidence():
+    # Below PUSH_CONFIDENCE_MIN stays in the markdown archive, off the page.
+    hi = _a("실을 기사", "https://n.com/hi", confidence=0.9)
+    lo = _a("아카이브행", "https://n.com/lo", confidence=0.1)
+    ir = render.render_ir([hi, lo])
+    assert [i["title"] for i in ir["items"]] == ["실을 기사"]
+    assert ir["archived_count"] == 1
+
+
+def test_render_ir_empty_optional_fields_omitted():
+    # Committed JSON is diffed daily; empty keys would be noise.
+    art = _a("제목", "https://n.com/plain", confidence=0.8)
+    item = render.render_ir([art])["items"][0]
+    assert "tags" not in item and "flags" not in item and "implications" not in item
+    assert "original_title" not in item
+
+
+def test_fallback_ir_is_marked_degraded():
+    # A broken day must not render as a quiet day.
+    art = _a("헤드라인만", "https://n.com/fb", confidence=0.5)
+    ir = render.fallback_ir([art], reason="collection failed")
+    assert ir["degraded"] is True and ir["degraded_reason"] == "collection failed"
+    assert ir["items"][0]["one_liner"] == ""
 
 
 # --- New regression tests for the re-examination fixes --------------------
@@ -161,47 +212,57 @@ def test_related_no_self_reference():
     assert "https://x.com/low?utm_source=t" in rep.related
 
 
-def test_telegram_partial_send_no_fallback():
-    # B1: if ANY chunk delivered, _deliver must NOT raise (so no second send).
-    from news import pipeline, telegram
+def test_deliver_writes_both_archives(isolated_paths):
+    # md feeds invest-wiki ingest, json feeds the report page. Both, every day.
+    import json as _json
+    from news import pipeline, config
     art = _a("뉴스", "https://n.com/1", confidence=0.8)
     art.canonical_url = "https://n.com/1"
-    orig = telegram.send_message
-    try:
-        telegram.send_message = lambda *a, **k: telegram.SendResult(ok=False, sent=1, total=2)
-        result, _ = pipeline._deliver("text", "md", [art], send=True, persist=False)
-        assert result.any_sent and not result.ok
-    finally:
-        telegram.send_message = orig
+    ir = render.render_ir([art])
+    brief_path, ir_path = pipeline._deliver(ir, "# md", [art], persist=True)
+    assert brief_path.endswith(".md") and ir_path.endswith(".json")
+    from pathlib import Path
+    assert Path(brief_path).read_text(encoding="utf-8") == "# md"
+    assert _json.loads(Path(ir_path).read_text(encoding="utf-8"))["schema"] == render.IR_SCHEMA
 
 
-def test_telegram_nothing_sent_raises_for_fallback():
-    # B1: zero chunks delivered must raise so the caller can fall back.
-    from news import pipeline, telegram
-    art = _a("뉴스", "https://n.com/2", confidence=0.8)
-    orig = telegram.send_message
-    try:
-        telegram.send_message = lambda *a, **k: telegram.SendResult(ok=False, sent=0, total=2)
-        raised = False
-        try:
-            pipeline._deliver("text", "md", [art], send=True, persist=False)
-        except RuntimeError:
-            raised = True
-        assert raised, "no delivery must raise to trigger fallback"
-    finally:
-        telegram.send_message = orig
-
-
-def test_dry_run_does_not_persist_sent_log():
-    # C2: send=False must not mutate sent_log.
+def test_dry_run_writes_nothing(isolated_paths):
+    # --dry-run used to still write briefs/<date>.md, leaving the tree dirty.
     from news import pipeline, config
-    p = config.SENT_LOG_PATH
-    before = p.read_text(encoding="utf-8") if p.exists() else None
+    art = _a("뉴스", "https://n.com/dry", confidence=0.8)
+    art.canonical_url = "https://n.com/dry"
+    pipeline._deliver(render.render_ir([art]), "# md", [art], persist=False)
+    assert list(config.BRIEFS_DIR.iterdir()) == [], "dry-run must not write archives"
+
+
+def test_dry_run_does_not_persist_sent_log(isolated_paths):
+    # C2: persist=False must not mutate sent_log. Seed it first — comparing two
+    # absent files would pass no matter what _deliver did.
+    from news import pipeline, state
+    seeded = state.load_sent_log()
+    state.record_sent(seeded, ["https://n.com/seed"], datetime.now(timezone.utc))
+    state.save_sent_log(seeded)
+    from news import config
+    before = config.SENT_LOG_PATH.read_text(encoding="utf-8")
+
     art = _a("뉴스", "https://n.com/3", confidence=0.9)
     art.canonical_url = "https://n.com/3"
-    pipeline._deliver("text", "md", [art], send=False, persist=False)
-    after = p.read_text(encoding="utf-8") if p.exists() else None
-    assert before == after, "dry-run must not change sent_log"
+    pipeline._deliver(render.render_ir([art]), "md", [art], persist=False)
+
+    assert config.SENT_LOG_PATH.read_text(encoding="utf-8") == before, \
+        "dry-run must not change sent_log"
+    assert not state.already_sent(state.load_sent_log(), "https://n.com/3")
+
+
+def test_persist_records_sent_log_without_any_delivery(isolated_paths):
+    # Regression: sent_log used to be gated on `send and persist`. With delivery
+    # gone that gate would never fire and every day would re-select yesterday's
+    # stories. persist alone must record.
+    from news import pipeline, state
+    art = _a("뉴스", "https://n.com/persist-check", confidence=0.9)
+    art.canonical_url = "https://n.com/persist-check"
+    pipeline._deliver(render.render_ir([art]), "md", [art], persist=True)
+    assert state.already_sent(state.load_sent_log(), "https://n.com/persist-check")
 
 
 def test_sentiment_none_string():

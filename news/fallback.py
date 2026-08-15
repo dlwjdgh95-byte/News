@@ -68,7 +68,13 @@ def _fmt(a: Article) -> str:
 
 
 def build_fallback_message(now: datetime | None = None,
-                           sent_log: Optional[dict] = None) -> str:
+                           sent_log: Optional[dict] = None,
+                           collected: Optional[List[Article]] = None) -> str:
+    """Build the fallback briefing text.
+
+    Pass ``collected`` to also receive the gathered articles (appended in
+    render order) — the report page needs them structured, and re-gathering
+    just to get objects instead of a string would double the feed fetches."""
     now = now or datetime.now(KST)
     date_str = now.astimezone(KST).strftime("%Y-%m-%d (%a)")
 
@@ -89,6 +95,8 @@ def build_fallback_message(now: datetime | None = None,
         else:
             any_items = True
             lines.extend(_fmt(a) for a in items)
+            if collected is not None:
+                collected.extend(items)
         lines.append("")
 
     if not any_items:
@@ -96,13 +104,15 @@ def build_fallback_message(now: datetime | None = None,
     return "\n".join(lines).strip()
 
 
-def run_fallback(send: bool = True, sent_log: Optional[dict] = None) -> str:
-    """Build and (optionally) send the fallback briefing. Returns the message.
+def run_fallback(sent_log: Optional[dict] = None) -> tuple[str, List[Article]]:
+    """Build the fallback briefing. Returns (message, articles).
 
-    ``sent_log`` (if given) is used to drop items already pushed previously, so a
-    fallback after a successful prior run does not re-send stale headlines."""
-    msg = build_fallback_message(sent_log=sent_log)
-    if send:
-        from . import telegram
-        telegram.send_message(msg)  # HTML-formatted
-    return msg
+    The articles come back alongside the message because the report page needs
+    them structured — it can't parse the HTML string the Telegram path used to
+    consume. Nothing is delivered here any more; the caller archives both forms.
+
+    ``sent_log`` (if given) drops items already selected previously, so a
+    fallback after a successful prior run does not resurface stale headlines."""
+    items: List[Article] = []
+    msg = build_fallback_message(sent_log=sent_log, collected=items)
+    return msg, items
