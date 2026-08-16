@@ -1,0 +1,239 @@
+{
+  "schema": 1,
+  "date": "2026-08-17",
+  "slot": "am",
+  "generated_at": "2026-08-17T03:15:19.005011+09:00",
+  "top_insight": [
+    "어제 '고강도 경제제재 예고'였던 미·이란 대치가 하루 만에 영토·현상금 같은 상징 수사로 옮겨붙었다. 호르무즈에 이어 홍해까지 봉쇄가 거론되고, 미국의 전쟁 목표는 '비핵화'에서 '유가 안정'으로 축소된다는 관측까지 나왔다 — 지정학 리스크가 유가·해운이라는 가격 경로로 좁혀지는 국면이다.",
+    "그 부담은 미국 안에서도 드러난다. 링컨함이 작전 250일을 넘긴 채 중동에 추가 전개되며 서태평양 전력 공백 우려가 나왔고, FT 여론조사에서는 유권자 다수가 트럼프 집권 후 형편이 나빠졌다며 중간선거를 앞두고 민주당이 44% 대 39%로 앞섰다. 군사·정치 양쪽에서 장기전을 감당할 여력이 줄고 있다는 신호다.",
+    "위험자산 쪽은 조용히 빠지고 있다. 비트코인 현물 ETF가 사흘 연속 순유출(IBIT 5,551만 달러)이고 XRP는 1달러선을 내줬다. 반면 스트래티지의 STRC는 올랐고 크립토 업계에서는 시가총액 순위 대신 사용량·수익구조로 종목을 보자는 말이 나온다 — 유입이 끊긴 구간에서 선별이 시작되는 전형적인 모습이다."
+  ],
+  "whats_changed": [
+    "미·이란: 어제 '美, 다음주 고강도 경제제재 예고'였는데, 오늘은 트럼프가 호르무즈 해협을 美영토로 선언하겠다고 했고 이란군 총사령관은 미군 사살·생포 시 3만 달러 포상금을 내걸었다 — 제재 예고에서 상호 도발로 수위가 올라갔다.",
+    "봉쇄 범위: 어제는 호르무즈 봉쇄였는데 오늘은 '호르무즈 이어 홍해도 봉쇄?'로 주변국 확전 관측이 붙었다.",
+    "남부 강우: 어제 전남 무안·경남 남해 호우경보 수준이었던 것이 오늘은 남부 250mm 누적에 산사태 위기경보 '주의' 격상, 경남 150mm 추가 예보로 커졌다.",
+    "새로 등장: 어제 다이제스트에 없던 미 항모 전력 공백 우려(링컨함 작전 250일 초과·태평양 항모 차출)가 오늘 이란전 장기화의 부작용으로 올라왔다."
+  ],
+  "themes": [
+    "미·이란 대치의 가격화 — 제재·수사 단계를 지나 호르무즈·홍해 봉쇄와 유가 안정이라는 실물 경로로 좁혀지고 있다.",
+    "장기전 비용 청구서 — 항모 전력 공백과 '형편이 나빠졌다'는 유권자 여론이 동시에 미국의 지속 가능성에 질문을 던진다.",
+    "크립토 자금 이탈과 선별 — ETF 사흘 연속 순유출·XRP 1달러 붕괴 속에서 시총 순위 대신 펀더멘털로 갈아타는 흐름이 나타난다."
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "더불어민주당 새 지도부 최종 선출 (8/17, 국민여론조사 30% 반영)",
+    "레딧(Reddit) S&P 500 지수 편입",
+    "美 클래리티(CLARITY) 법안 — 스테이블코인 수익 허용 쟁점 처리",
+    "11월 美 중간선거",
+    "美 대이란 고강도 경제제재 시행 여부"
+  ],
+  "items": [
+    {
+      "title": "트럼프 \"호르무즈 해협, 조만간 美영토로 선언\"… 이란 \"망상, 계속 봉쇄\"",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jOHBJa2tnaU1RSlUwTnVfOVZXTGlUWEhzX0V4Yk9TWjBtUjdwV3FXOHBTbG4yMThDMjJyN240Skdxb3R5Qi1kSERvd3JiaGF6NGQxdU5SUzNGaVZLWjZ2NDZ2QmsyVjQ4SGdadmZxeDRHRVnSAWZBVV95cUxNOFRiWXBBRXU2d0VUclQzNlZBSkdwWFJpcTc5Q1BweVR1Q2MxblBhbjNIMkJGbGN5UFFYc09tWUV3NGVWc0VhWENfNkRuSm00Z0N3dXA3RE5hb0JTT045NjlyaTZOOVE?oc=5",
+      "one_liner": "트럼프가 호르무즈 해협을 미국 영토로 선언하겠다고 했고 이란은 이를 망상이라 일축하며 봉쇄를 이어가겠다고 맞섰다.",
+      "why_it_matters": "세계 원유 물동량이 지나는 해협의 통제권을 놓고 양측이 물러서지 않으면서, 미·이란 대치가 군사 국면에서 해상 물류·유가 국면으로 옮겨가고 있다.",
+      "confidence": 0.8,
+      "original_title": "트럼프 “호르무즈 해협, 조만간 美영토로 선언”… 이란 “망상, 계속 봉쇄” - 동아일보",
+      "implications": "원유·해운 노선에 노출된 기업과 수입물가에 영향 — 호르무즈에 이어 홍해도 봉쇄로 번지는지, 그리고 미국의 전쟁 목표가 '비핵화'에서 '유가 안정'으로 실제 축소되는지를 지켜볼 것.",
+      "tags": [
+        "국제",
+        "에너지",
+        "지정학"
+      ]
+    },
+    {
+      "title": "김민석-정청래 8.4%P差… 오늘 당대표 결정",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBOMTJxd1NHN0o2Q0RXTkFoeVc2X3JxM2c5ZzkwRnBvVFZ2X00ySUhweHRHNXBfZDhJSllLQ20tQjlJY0FFamtlOFlxdHJybXgyeFlUTFNZSUVEMDJPczFpc1NGVkJ0UzhNaFM1MFFLRTg3aktYNDhj0gFmQVVfeXFMTXJXU3FGWGltbU5HSXhqQVhvXzE0VkJDM0ZtMXcwSm44LWVCWUxVTE1kbmdvTjQ4SEFGdlEyMmE4Tl9nUFVfYUZNNWplVnVZYWEzY2J5LW5PNFZSNWV6YUxDSExZV19R?oc=5",
+      "one_liner": "더불어민주당 새 지도부가 17일 최종 선출되며, 김민석 후보가 8.4%p 차로 전체 1위를 지킨 채 마지막 국민여론조사(30%)를 남겨두고 있다.",
+      "why_it_matters": "집권당 대표가 누가 되느냐에 따라 향후 입법·예산 우선순위가 갈리는데, 당심에서는 격차가 벌어졌지만 국민여론조사 30%가 막판 변수로 남아 결과가 확정되지 않았다.",
+      "confidence": 0.82,
+      "original_title": "김민석-정청래 8.4%P差… 오늘 당대표 결정 - 동아일보",
+      "implications": "정책 수혜·규제 업종을 보는 투자자에게 영향 — 17일 최종 발표에서 국민여론조사가 당심 격차를 뒤집는지를 지켜볼 것.",
+      "tags": [
+        "국내정치",
+        "정책"
+      ]
+    },
+    {
+      "title": "이란군 총사령관 \"미군 사살·생포하면 3만달러 포상금\"",
+      "source": "연합뉴스 한민족센터",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Dbm9vS0c1azNYd19ueUxuRm9HbWFMaHhuSHhMQTRlOVZBWXdwU012NUtUNi1iZVlJUjdQRGRWZ1Q1eDhTMjBGSXZSVzA2S2xxNTNVelgtNmtEWWZoZHI2UXNuQnBsQkdyYk9xdmljQjU5bFo3?oc=5",
+      "one_liner": "이란군 총사령관이 미군을 사살하거나 생포하면 3만 달러의 포상금을 주겠다고 공개적으로 밝혔다.",
+      "why_it_matters": "국가 군 수뇌부가 적국 병력에 현상금을 내거는 방식은 교전 수위를 제도화하는 신호로, 협상보다 장기 대치 쪽에 무게가 실린다는 뜻이다.",
+      "confidence": 0.6,
+      "original_title": "이란군 총사령관 \"미군 사살·생포하면 3만달러 포상금\" - 연합뉴스 한민족센터",
+      "implications": "중동 주둔·통항 리스크에 민감한 자산에 영향 — 이 발언이 실제 정책으로 이어지는지, 미국 측 대응 수위가 어떻게 나오는지를 지켜볼 것.",
+      "tags": [
+        "국제",
+        "지정학"
+      ]
+    },
+    {
+      "title": "美 중부사령관, 승조원 '투신 시도' 논란 링컨함 방문",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsZlo5N0xzYzBSSGg3ZUFtQ3ZJb0FaeERCcEVFSGdQUVRvdlJLZ1h6NTFhUXBubEhJcTAzaTY4MVk0S3pDSHVTT0pvR1NvcHFUVzR5d2ZWd2RZZHZqNnlZN0FSTEJYQ28?oc=5",
+      "one_liner": "미 중부사령관이 승조원 투신 시도 논란이 인 링컨함을 방문했고, 작전 250일을 넘긴 이 항모의 피로 누적과 중동 추가 전개로 대중국 억지력 공백 우려가 제기됐다.",
+      "why_it_matters": "이란전이 길어지면서 태평양 전력까지 중동으로 차출되고 있어, 미국의 군사 자원이 두 전선을 동시에 감당하지 못한다는 점이 드러나고 있다.",
+      "confidence": 0.78,
+      "original_title": "美 중부사령관, 승조원 ’투신 시도’ 논란 링컨함 방문 - 연합뉴스TV",
+      "implications": "동아시아 안보 프리미엄에 노출된 자산에 영향 — 서태평양 전력 공백이 얼마나 오래 이어지는지, 항모 정비·보급 차질이 추가로 보고되는지를 지켜볼 것.",
+      "tags": [
+        "국제",
+        "안보"
+      ]
+    },
+    {
+      "title": "콜롬비아 지진…아기는 32시간 버텼지만 엄마는 끝내 시신으로",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05ZzJ4MzlNUy10eVNpMTByY1BGMGpwSG41ODZLYWpyUmZsNEdUMlNWM19FX1FySXRZbHdLUVF2NUFsTXM4aXh6RHJfRW5mTHJWTDJKZFlmSkJyWDTSAWBBVV95cUxOUFY5eGhZcnU4WEpha19ETXNrOWJQbi1CcERyZDZOeHdPdzVCNlJ3U0hpVWhHTU8zSkJ6NWZWcUhCbnlyeHQwZG5fOWx6RVFEYWpLZXpmMUZsdGhxSmw0T3U?oc=5",
+      "one_liner": "콜롬비아 강진으로 사망 290명·부상 4000명을 넘어섰고, 콜롬비아 대통령은 미국에 관세 유예를 요청했다.",
+      "why_it_matters": "대규모 인명 피해에 더해 피해국이 곧바로 통상 조치 완화를 요청하면서, 재난이 곧 통상 협상 카드로 이어지는 국면이다.",
+      "confidence": 0.8,
+      "original_title": "콜롬비아 지진…아기는 32시간 버텼지만 엄마는 끝내 시신으로 - 연합뉴스",
+      "implications": "커피·원자재 등 콜롬비아 수출 품목과 중남미 노출 자산에 영향 — 미국이 관세 유예에 응하는지, 사상자 집계가 더 늘어나는지를 지켜볼 것.",
+      "tags": [
+        "국제",
+        "재난",
+        "통상"
+      ]
+    },
+    {
+      "title": "경남 등 남부 '호우특보'‥오전까지 강한 비",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13cXdPWmpYV1YwX2dmR2dQTzFFMjZMSFFOcEZ2ZU5BWE5PX2FEcER3NE83TE9ZWTgxaEZMb3JKbEw2el9mbmhmV0dvWldFZTRLeU9EUjZLVUZfTXkzVUt6NWg0bEZ6cE1meDRyaFVxa2ZkMjZBWkpN0gF3QVVfeXFMUFBxRzQxVFVOYXBQVFhFblhNeUlSUENram5VQlRMRDNtUlNQa0tkdXJxZ01acHUyU3NZZnFqbWdoTll5UWVOUml4dWJ0V3d3dU5UR3FYMHRZTUJQUUhFbEY4eGFhOGxlSEZLNkNFNFd0V0FicmtmUVU?oc=5",
+      "one_liner": "남부지방에 오늘까지 250mm 폭우가 내려 산사태 위기경보가 '주의'로 격상됐고, 내일까지 경남에 150mm가 더 예보됐다.",
+      "why_it_matters": "가뭄을 겪던 지역에 단비가 됐지만 동시에 침수·산사태 피해가 잇따라, 같은 비가 농업엔 호재이고 시설·물류엔 악재로 갈리고 있다.",
+      "confidence": 0.8,
+      "original_title": "경남 등 남부 '호우특보'‥오전까지 강한 비 - MBC 뉴스",
+      "implications": "남부 생산·물류 거점을 둔 기업과 농산물 가격에 영향 — 경남 추가 강수 150mm가 실제로 내리는지, 시설 피해 집계가 더 늘어나는지를 지켜볼 것.",
+      "tags": [
+        "국내",
+        "재해",
+        "농업"
+      ]
+    },
+    {
+      "title": "레딧, S&P 500 지수 편입 (원문: Reddit to join the influential and closely tracked S&P 500 index) (원문: Reddit to join the influential and closely tracked S&P 500 index)",
+      "source": "onenews_co_nz",
+      "url": "https://www.1news.co.nz/2026/08/16/reddit-to-join-the-influential-and-closely-tracked-sp-500-index/",
+      "one_liner": "레딧이 미국 증시 전반의 건전성을 재는 대표 지수인 S&P 500에 편입된다.",
+      "why_it_matters": "S&P 500 편입은 지수를 추종하는 패시브 자금의 기계적 매수를 부르는 이벤트여서, 개별 기업 성과와 별개로 수급이 바뀐다.",
+      "confidence": 0.75,
+      "original_title": "Reddit to join the influential and closely tracked S&P 500 index",
+      "implications": "S&P 500 추종 ETF·인덱스 펀드 보유자에게 영향 — 편입 시점 전후 수급 변화와 지수에서 빠지는 종목이 무엇인지를 지켜볼 것.",
+      "tags": [
+        "미국증시",
+        "지수"
+      ]
+    },
+    {
+      "title": "美 유권자 다수 \"트럼프 집권 후 형편 나빠졌다\" 여론조사 (원문: Most US voters say they are worse off under Trump: poll) (원문: Most US voters say they are worse off under Trump: poll)",
+      "source": "tribune_pk",
+      "url": "https://tribune.com.pk/story/2624203/most-us-voters-say-they-are-worse-off-under-trump-poll",
+      "one_liner": "파이낸셜타임스 여론조사에서 미국 유권자 다수가 트럼프 집권 이후 형편이 나빠졌다고 답했고, 11월 중간선거를 앞두고 민주당이 44% 대 39%로 공화당에 앞섰다.",
+      "why_it_matters": "체감 경기가 정권 지지율로 직결되는 국면이라, 중간선거 결과에 따라 관세·재정 기조가 바뀔 여지가 생긴다.",
+      "confidence": 0.78,
+      "original_title": "Most US voters say they are worse off under Trump: poll",
+      "implications": "미국 정책 방향에 민감한 수출·관세 노출 업종에 영향 — 11월 중간선거까지 이 5%p 격차가 유지되는지, 체감 경기 지표가 반등하는지를 지켜볼 것.",
+      "tags": [
+        "미국정치",
+        "경기",
+        "선거"
+      ]
+    },
+    {
+      "title": "\"차별점 아니다\": 니틴 카마스가 보는 AI 내세운 피칭이 스타트업 투자유치를 해치는 이유 (원문: 'Not A Differentiator': Why Nithin Kamath Thinks AI-Led Pitches Are Hurting Startups' Funding Chances) (원문: 'Not A Differentiator': Why Nithin Kamath Thinks AI-Led Pitches Are Hurting Startups' Funding Chances)",
+      "source": "ndtvprofit",
+      "url": "https://www.ndtvprofit.com/markets/not-a-differentiator-why-nithin-kamath-thinks-ai-led-pitches-are-hurting-startups-funding-chances-11916408",
+      "one_liner": "제로다 창업자 니틴 카마스는 인공지능이 이제 경쟁우위가 아니라 '기본 요건(table stakes)'이 됐다고 창업자들이 인식해야 한다고 말했다.",
+      "why_it_matters": "AI를 붙이는 것만으로 밸류에이션을 받던 국면이 끝나가고 있다는 현장 투자자의 진단으로, 자금 조달 서사가 기술 보유에서 실제 수익 구조로 옮겨가고 있다.",
+      "confidence": 0.7,
+      "original_title": "'Not A Differentiator': Why Nithin Kamath Thinks AI-Led Pitches Are Hurting Startups' Funding Chances",
+      "implications": "AI 테마로 프리미엄을 받던 비상장·상장 기업에 영향 — 앞으로의 펀딩 라운드에서 AI 서사 대신 무엇이 차별점으로 제시되는지를 지켜볼 것.",
+      "tags": [
+        "AI",
+        "벤처투자"
+      ]
+    },
+    {
+      "title": "비트코인 현물 ETF 사흘 연속 순유출, IBIT서만 5,551만 달러 빠졌다",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3dm1SVHdUaUNYMk1Lb201OFhMNXZOM01zRnJqX0VQMGlDSHlHOUxzeXF3YklBS0NEd1o5eTMwTXA2SHVtUklUWW5Lbm92US03N3Y5eG1n?oc=5",
+      "one_liner": "비트코인 현물 ETF에서 사흘 연속 자금이 순유출됐고, 블랙록 IBIT 한 곳에서만 5,551만 달러가 빠져나갔다.",
+      "why_it_matters": "현물 ETF는 제도권 자금의 유입 창구여서, 연속 순유출은 가격보다 먼저 기관 수요의 온도를 보여준다.",
+      "confidence": 0.65,
+      "original_title": "비트코인 현물 ETF 사흘 연속 순유출, IBIT서만 5,551만 달러 빠졌다 - 위키트리",
+      "implications": "비트코인·크립토 관련 자산 보유자에게 영향 — 순유출이 나흘째로 이어지는지, IBIT 외 다른 ETF에서도 같은 흐름이 나오는지를 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "ETF",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "스트래티지(MSTR), 비트코인 47%↓·STRC 9%↑...하락장에도 '버티기' 성공",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE42ZFItU2VSeFVZNllCMUhoMXNNblZTT0s2ZktmRDdzek1oTDZLeXpTWTFoTTZseV9ZRGpmd2Z6SzhXV1I2NGEtR0pB?oc=5",
+      "one_liner": "비트코인이 47% 하락하는 동안 스트래티지(MSTR)의 STRC는 9% 올라, 하락장에서 버티기에 성공했다고 보도됐다.",
+      "why_it_matters": "비트코인을 대량 보유한 기업의 주가·우선주가 기초자산과 반대로 움직인 사례로, 크립토 대리 노출 수단이 실제로 어떻게 작동하는지를 보여준다.",
+      "confidence": 0.6,
+      "original_title": "스트래티지(MSTR), 비트코인 47%↓·STRC 9%↑...하락장에도 '버티기' 성공 - 코인리더스",
+      "implications": "비트코인을 간접 보유하려는 투자자에게 영향 — 이 괴리가 계속 유지되는지, 하락이 길어질 때 자금 조달 구조가 버티는지를 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "비트코인",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "XRP, 1달러 붕괴...브랜트 \"즉시 비트코인(BTC)으로 바꾸겠다\"",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE40UWtOdS1WNWFYLVJ1OUEwQll0STF2NFNYa2g0cTI2dUc5clRBVHczbVM4a3pXWnlQV0hzMTZwMmNXdkkxNWMyU1RR?oc=5",
+      "one_liner": "XRP가 1달러선을 무너뜨렸고, 트레이더 피터 브랜트는 즉시 비트코인으로 갈아타겠다고 밝혔다.",
+      "why_it_matters": "심리적 지지선인 1달러가 깨지면서 알트코인에서 비트코인으로 자금이 회귀하는 국면이 뚜렷해지고 있다.",
+      "confidence": 0.6,
+      "original_title": "XRP, 1달러 붕괴...브랜트 \"즉시 비트코인(BTC)으로 바꾸겠다\" - 코인리더스",
+      "implications": "알트코인 비중이 큰 포트폴리오에 영향 — 1달러 회복 여부와 비트코인 도미넌스가 함께 오르는지를 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "XRP",
+        "알트코인"
+      ]
+    },
+    {
+      "title": "스테이블코인 수익률 두고 은행 vs 암호화폐 정면충돌…클래리티 법안 최대 위기",
+      "source": "데일리비즈온",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LTzB3bUZyR1VpT2JwdlNWQWhkT1FYTUxiVXVFTmc4dG5ZYWk1dW40ODJzdmhueE9GSDJUMGdFU0ZpTlRZSTR0UzRhbGJrV1FqLXFZbVRpT2JHRy0xUVVWQ1BYNlIxN25iei0wTA?oc=5",
+      "one_liner": "스테이블코인에 수익(이자)을 붙일 수 있느냐를 두고 은행권과 암호화폐 업계가 정면으로 충돌하면서 클래리티 법안이 최대 위기를 맞았다는 보도다.",
+      "why_it_matters": "스테이블코인 수익 허용 여부는 예금이 은행 밖으로 나가느냐를 가르는 쟁점이라, 크립토 규제 입법의 향방을 좌우한다.",
+      "confidence": 0.55,
+      "original_title": "[D-BIZ 암호화폐 뉴스] 스테이블코인 수익률 두고 은행 vs 암호화폐 정면충돌…클래리티 법안 최대 위기 - 데일리비즈온",
+      "implications": "스테이블코인 발행사와 은행주 모두에 영향 — 클래리티 법안이 이 쟁점을 어떻게 처리하고 표결까지 가는지를 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "규제",
+        "스테이블코인"
+      ]
+    },
+    {
+      "title": "암호화폐 지갑 세이프팔, 고객 약 4만 명 주문정보 유출 (원문: Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info) (원문: Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+      "one_liner": "암호화폐 지갑 세이프팔에서 고객 약 4만 명의 주문 상세 정보가 유출됐으나, 개인키·시드구문·자산은 모두 안전하다고 밝혔다.",
+      "why_it_matters": "자산 자체는 지켜졌더라도 주문 내역과 개인정보가 새면 보유자를 겨냥한 표적 피싱의 재료가 되기 때문에, 2차 피해 경로가 열린다.",
+      "confidence": 0.75,
+      "original_title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+      "implications": "하드웨어 지갑 사용자에게 영향 — 유출 정보를 이용한 사칭·피싱 시도가 실제로 늘어나는지, 규제기관 조사로 이어지는지를 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "보안",
+        "개인정보"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
