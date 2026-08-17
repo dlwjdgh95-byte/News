@@ -2,251 +2,165 @@
   "schema": 1,
   "date": "2026-08-18",
   "slot": "am",
-  "generated_at": "2026-08-18T03:14:23.033850+09:00",
-  "top_insight": [
-    "오늘 뉴스의 축은 '압박의 이전'이다. 미·이란 60일 협상이 빈손으로 끝나자 트럼프는 이란에 항복을 요구하고 중재국 오만까지 폭격 대상으로 올렸으며, 같은 입으로 한국에는 이란 비핵화 참여를 요구하면서 한미연합훈련 축소를 지시했다. 중동 리스크가 유가 채널만이 아니라 한미동맹 채널로도 한국에 들어오는 구조다.",
-    "시장은 이 긴장을 교과서대로 읽지 않았다. 비트코인은 2% 올라 6만4000달러를 넘었고 금도 올랐는데 미 증시는 흔들렸다. 위험자산·안전자산 구분선이 자산군이 아니라 유동성 경로를 따라 그어지는 국면일 수 있고, 프라이빗크레딧 스트레스가 2017년 이후 최고라는 보도가 그 경로의 취약점을 가리킨다.",
-    "AI는 오늘 세 갈래로 동시에 나타났다. CFTC가 AI 연산능력 선물을 검토하고(CME 10월), 비트코인 채굴사가 4953억원 GPU 계약으로 11% 뛰고, 스타트업 밸류에이션이 6개월에 두 배로 뛴다. 연산이 원자재처럼 가격 곡선을 갖게 되면 지금의 AI 자본지출 논쟁도 처음으로 헤지 가능한 형태를 얻는다."
-  ],
-  "whats_changed": [
-    "링컨함: 어제는 미 중부사령관이 '정신건강 문제'를 인정한 단계였는데, 오늘은 승조원 투신 시도까지 거론되며 '바다 위 감옥'으로 보도됐다.",
-    "이란: 어제 트럼프의 '이란 비핵화' 언급과 한국 역할 요구가 오늘 60일 협상 결렬 확정, 백기 항복 요구, 오만 폭격 위협으로 한 단계 올라섰다.",
-    "부동산: 어제 보유세 인상의 역효과(매물 감소·월세 상승) 논쟁이었다면, 오늘은 용산어린이정원 청년주택 활용 검토로 정부 카드가 수요 억제에서 공급 쪽으로 옮겨갔다.",
-    "코스피: 어제 브리핑을 채웠던 코스피 상승세·외인 귀환 기대 기사가 오늘 후보 풀에는 없다. 새 재료가 아니라 보도가 끊긴 것이므로 추세 판단의 근거로 쓰지 말 것."
-  ],
-  "themes": [
-    "중동 압박 국면 — 협상 만료 후 미국의 요구가 이란을 넘어 오만·한국으로 확산됐다.",
-    "AI의 상품화 — 연산능력이 선물 계약·채굴사 설비 전환·1차 시장 밸류에이션으로 동시에 가격을 매기기 시작했다.",
-    "규제의 지연 — SEC 자금조달 프레임워크와 GENIUS·클래리티법 일정이 밀리며 가상자산 제도화가 의회 시간표에 묶였다."
-  ],
+  "generated_at": "2026-08-18T06:14:17.597045+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
   "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
-  "events": [
-    "미 CFTC의 AI 컴퓨트 선물 공개 의견 수렴 — CME는 10월 출시 검토",
-    "미 의회 클래리티법(Clarity Act) 처리 여부 — 9월",
-    "스테이블코인 GENIUS법 시행 — 2027년 1월 예정",
-    "미·이란 '60일 협상' 만료 이후 후속 조치 — 오만 관련 발언 포함",
-    "슈타이어 모터스 2026 회계연도 수정 가이던스 세부 공시"
-  ],
+  "events": [],
   "items": [
     {
-      "title": "트럼프, '60일 협상' 만료된 이란에 \"백기 항복\" 요구…오만엔 \"폭격\" 위협",
-      "source": "한겨레",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HVFNlTjRrZ1VDdjByNUdJM0RaSVRoWlJhWFhDLTduV20wd3k0aG1DVmswRVpwR1ZhUnlrLXBHSkExQ3VPTUdmelBnT0NyWHFIYUlPU0JvX2JEOGI4Q2hiRG5SNGlLUl9qTGZXa1lScw?oc=5",
-      "one_liner": "미·이란 60일 협상이 빈손으로 끝나고 트럼프가 이란에 항복을 요구하며 중재국 오만까지 폭격하겠다고 경고했다.",
-      "why_it_matters": "중동 최대 산유 지대와 호르무즈 해협을 낀 갈등이 협상 국면에서 압박 국면으로 넘어갔다. 원유·해상운임·안전자산 가격의 방향을 좌우하는 변수다.",
-      "confidence": 0.75,
-      "original_title": "트럼프, ‘60일 종전 만료’ 이란에 “백기 항복” 요구…오만엔 “폭격” 위협 - 한겨레",
-      "implications": "정유·해운·방산 업종과 유가 연동 자산을 보는 투자자는 오만·호르무즈 관련 후속 발언과 실제 군사 행동 여부를 지켜볼 것.",
-      "tags": [
-        "중동",
-        "이란",
-        "지정학",
-        "유가"
-      ]
-    },
-    {
-      "title": "트럼프, 한미연합훈련 대폭 축소 지시…\"이 대통령은 이란 비핵화 참여 거부\"",
-      "source": "VOA 한국어 홈페이지",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeWMyMm9GazFlNUxXdWd3cTgzQXJYYjdTeEVlS3ZnM3Y2amlnZm5aMHlPd3UwMTgyZFJQQ0pBZ0tmd1E0M1VpV3Jfbk9IZFVpaXpNbDNaYjQyWWRsdlVXdThqWkhSTkFyeEFfSTRGc2x0cVNmaWpseTlOcnBNT1dqNdIBgwFBVV95cUxPYThCQWtyTXNLSUliQTRJSF9CdDlzMWF1OTdxZXZUU25vMy1HMzBfaUxCVnRMZURjZDVMS3JBS3NuVXRrVzBzUU9ZYkxjS3YzSUJjVmc2WmV5RXFwMG9tdERMZmVfVk5OU0M5cXhNTWo2bjF4T1BmcGxUdTNJT3ZPRVZyZw?oc=5",
-      "one_liner": "트럼프가 한미연합훈련 축소를 지시했다고 밝히며 한국에 이란 비핵화 관련 역할 확대를 요구했고, 미 공화당에서도 훈련 축소 비판이 나왔다.",
-      "why_it_matters": "한미동맹 운용과 한국의 중동 개입 여부가 동시에 흔들리는 사안이다. 코리아 디스카운트와 방산·조선 수주 환경에 직접 닿는다.",
-      "confidence": 0.72,
-      "original_title": "미국의 전문가들 “트럼프 ‘이란 비핵화’ 언급…‘한국 역할 확대’ 요구” - VOA 한국어 홈페이지",
-      "implications": "한국 자산을 든 투자자는 UFS 축소의 실제 범위, 정부의 호르무즈 관련 후속 입장, 북한의 반응을 지켜볼 것.",
-      "tags": [
-        "한미동맹",
-        "이란",
-        "국방",
-        "한국"
-      ]
-    },
-    {
-      "title": "우크라는 '드론' 러시아는 '미사일'…역대 최대 규모 공방",
-      "source": "서울신문",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd1ppbXBNTlowa19XcnRTdVlNT1lZM19Ob2RscFc0QU5zV21hRnItaXV1TzdMYmZ3YndfelZFQXh0d2pBNkwxNXhBWHJGMXJSM21DZGlmamxTZkgxaThNOGRKUXJuRkp5SDhDdlNfWko5OGhnX1MzR0RzZ0ljQm5BVA?oc=5",
-      "one_liner": "우크라이나가 러시아에 드론 600대를 보내고 러시아는 드론·탄도미사일로 응수하며 공중전이 역대 최대 규모로 격화됐다.",
-      "why_it_matters": "전쟁 종결 기대가 아니라 확전 쪽으로 지표가 움직였다. 유럽 에너지·곡물·방산 수요의 전제가 바뀌는 국면이다.",
-      "confidence": 0.72,
-      "original_title": "우크라는 ‘드론’ 러는 ‘미사일’… 역대 최대 공방 - 서울신문",
-      "implications": "방산·에너지 익스포저를 가진 투자자는 러시아 정유·수출 인프라 피격 여부와 유럽 재무장 예산 발표를 지켜볼 것.",
-      "tags": [
-        "우크라이나",
-        "러시아",
-        "지정학",
-        "방산"
-      ]
-    },
-    {
-      "title": "'닥치고 공급' 공론화…정부, 용산어린이정원 '청년 주택 활용' 여론조사 검토",
-      "source": "한겨레",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NNUEtTVI1bU53UGhhbXFvM1JMNjlFVVZzY1BKTWF5eTFNUTQyLTcxRkIxQlV5ZTZWX2tqRE4xcGFJX3RIeVB2b2tBNWd0UW1YaFJjQkc2SzJLZ1c5RjFiWHVIeWJ1alpVekdN?oc=5",
-      "one_liner": "정부가 용산어린이정원 부지를 청년 주택으로 쓰는 방안의 여론조사를 검토하자 야당은 \"공급 쇼\"라고 반발했다.",
-      "why_it_matters": "세제(보유세)로 수요를 누르던 부동산 대책이 상징적 국유지 공급 카드로 옮겨가는 신호다. 건설·리츠와 서울 주택 수급 전망에 닿는다.",
+      "title": "미국·이란 MOU 만료에도 협상 교착...국제 유가 상승 - ytn.co.kr",
+      "source": "ytn.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IUV9pcVVac1gzWFlNU2ZBa3ZaeEVMMXlzcDU2cm5MMXhuYkwtczlSN3NsTmZZTE83R0dHa3FxN0o0MmYxZi13b3ZVbndkcDJTVnFKNlBJdG0wZXBfREE?oc=5",
+      "one_liner": "미국·이란 MOU 만료에도 협상 교착...국제 유가 상승 ytn.co.kr [뉴욕증시] 이란 긴장 고조 속 이틀 연속 하락…마이크론, 1000달러 탈환 v.daum.net [속보]뉴욕증시, 미·이란 갈등 지속·유가 급등에 하락 마감 문화일보 [뉴욕증시] 투심 짓누르는 30년물 국채금리…",
+      "why_it_matters": "",
       "confidence": 0.6,
-      "original_title": "‘닥치고 공급’ 공론화…정부, 용산어린이정원 ‘청년 주택 활용’ 여론조사 검토 - 한겨레",
-      "implications": "부동산·건설 관련 자산을 보는 투자자는 여론조사 실시 여부와 실제 공급 물량·시기 발표를 지켜볼 것.",
       "tags": [
-        "부동산",
-        "주택공급",
-        "정책",
-        "한국"
+        "general"
       ]
     },
     {
-      "title": "승조원 투신 시도까지…'바다 위 감옥' 된 링컨함",
-      "source": "chosun.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdDBfUWJ4U05YQ3pkNUFTNG11RzdaUDlicFBFNTJMbVRlOVVMaFduVWduU2tWeC1XS0V0ZlFOT25xdVdyZWhYekVJZlNpRFZyMFowc0tZZkVEbDR0cjBNM2o5ZnRrNFBXX2VOM3NCNkhFbTlsbFMwSGhkWm9nalotWVRlRVA?oc=5",
-      "one_liner": "장기 중동 배치가 이어진 미 항모 링컨함에서 승조원 투신 시도가 있었다는 보도가 나왔다.",
-      "why_it_matters": "미군의 중동 전력 유지 비용이 장비가 아니라 인력에서 한계에 부딪히고 있다는 신호다. 이란 압박의 지속 가능성을 가늠하는 재료다.",
-      "confidence": 0.55,
-      "original_title": "승조원 투신 시도까지… ‘바다 위 감옥’ 된 링컨함 - chosun.com",
-      "implications": "중동 리스크를 보는 투자자는 링컨함 교대·귀환 일정과 대체 항모 전개 여부를 지켜볼 것.",
-      "tags": [
-        "미군",
-        "중동",
-        "항공모함"
-      ]
-    },
-    {
-      "title": "위스퍼, 시리즈B 2억8000만달러 유치…기업가치 6개월 만에 20억달러",
-      "source": "위키트리",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLSE5zTGl4MjRfd0ZjaHg3anpKXzQxNHlwTDZmRGlsUXl4dnFDbno2ZFpkV2pwS1Q5T0lIUzRST3Y1akFJYkN4d0tfbERETXlSYXhjWjdB?oc=5",
-      "one_liner": "위스퍼가 시리즈B로 2억8000만달러를 유치하며 기업가치가 6개월 만에 20억달러로 뛰었다.",
-      "why_it_matters": "AI 스타트업 밸류에이션이 반년 단위로 재평가되는 속도가 유지되고 있다. 1차 시장의 자금 유입이 아직 식지 않았다는 신호다.",
-      "confidence": 0.58,
-      "original_title": "위스퍼, 시리즈B 2억8000만달러 유치…기업가치 6개월 만에 20억달러로 껑충 - 위키트리",
-      "implications": "AI 테마에 노출된 투자자는 후속 라운드 밸류에이션이 같은 속도를 유지하는지, 매출 대비 배수가 어디서 멈추는지를 지켜볼 것.",
-      "tags": [
-        "AI",
-        "스타트업",
-        "벤처투자"
-      ]
-    },
-    {
-      "title": "슈타이어 모터스, 2026 회계연도 가이던스 하향·2027 중기 전망 철회 (원문: EQS-Adhoc: Steyr Motors AG revises guidance for fiscal year 2026 and withdraws medium-term outlook for 2027)",
-      "source": "finanzen_at",
-      "url": "https://www.finanzen.at/nachrichten/aktien/eqs-adhoc-steyr-motors-ag-revises-guidance-for-fiscal-year-2026-and-withdraws-medium-term-outlook-for-2027-1036464431",
-      "one_liner": "방산용 엔진을 만드는 슈타이어 모터스가 2026 회계연도 가이던스를 수정하고 2027년 중기 전망은 아예 철회한다고 내부정보 공시했다.",
-      "why_it_matters": "유럽 재무장 수혜주로 묶이던 방산 부품사가 전망을 거둬들였다. 수주 기대와 실제 실적 사이의 간극을 보여주는 사례다.",
-      "confidence": 0.8,
-      "original_title": "EQS-Adhoc: Steyr Motors AG revises guidance for fiscal year 2026 and withdraws medium-term outlook for 2027",
-      "implications": "유럽 방산 밸류체인에 노출된 투자자는 하향 폭과 사유, 동종 부품사의 후속 공시를 지켜볼 것.",
-      "tags": [
-        "방산",
-        "유럽",
-        "실적",
-        "가이던스"
-      ]
-    },
-    {
-      "title": "가격 수용자에서 가격 결정자로…인도 상품 파생상품 시장의 전환 (원문: Price taker to price setter: India’s commodity derivatives market)",
-      "source": "thehindu",
-      "url": "https://www.thehindu.com/business/price-taker-to-price-setter-indias-commodity-derivatives-market/article71355056.ece",
-      "one_liner": "인도가 글로벌 상품 파생상품에서 가격 수용자에서 가격 결정자로 옮겨가며 시장 깊이와 유동성을 키우고 있다는 분석이다.",
-      "why_it_matters": "원자재 가격 형성의 무게중심이 서구 거래소 밖으로 분산되는 흐름이다. 아시아 실수요가 벤치마크를 만들기 시작한다는 뜻이다.",
-      "confidence": 0.55,
-      "original_title": "Price taker to price setter: India’s commodity derivatives market",
-      "implications": "원자재에 노출된 투자자는 인도 거래소의 거래량·미결제약정 증가와 신규 상장 품목을 지켜볼 것.",
-      "tags": [
-        "인도",
-        "원자재",
-        "파생상품"
-      ]
-    },
-    {
-      "title": "비트코인 6만4000달러 돌파…금 상승·미 증시는 이란 발언에 흔들 (원문: Bitcoin hits $64K as gold gains while oil shakes off Trump Oman threat)",
-      "source": "Cointelegraph.com News",
-      "url": "https://cointelegraph.com/markets/bitcoin-hits-64k-as-gold-gains-while-oil-shakes-off-trump-oman-threat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "one_liner": "비트코인이 하루 2% 올라 6만4000달러를 넘었고 금은 상승, 미 증시는 미·이란 발언에 흔들렸으며 유가는 트럼프의 오만 위협을 소화했다.",
-      "why_it_matters": "지정학 긴장 국면에서 비트코인이 금과 같은 방향으로 움직이고 주식은 반대로 갔다. 위험자산·안전자산 분류가 다시 시험받는 자리다.",
-      "confidence": 0.78,
-      "original_title": "Bitcoin hits $64K as gold gains while oil shakes off Trump Oman threat",
-      "implications": "암호자산 보유자는 이 동조가 며칠 이어지는지, 아니면 주식과 다시 붙는지를 지켜볼 것.",
-      "tags": [
-        "비트코인",
-        "금",
-        "유가",
-        "지정학"
-      ]
-    },
-    {
-      "title": "美 CFTC, AI 컴퓨트 선물 계약 의견 수렴…CME는 10월 출시 검토 (원문: CFTC seeks public input on AI compute futures contracts as CME eyes October launch)",
-      "source": "Cointelegraph.com News",
-      "url": "https://cointelegraph.com/news/cftc-ai-compute-futures-cme-october-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "one_liner": "CFTC가 AI 연산능력을 기초자산으로 하는 선물 계약에 대해 공개 의견을 받기 시작했고 CME는 10월 출시를 보고 있다.",
-      "why_it_matters": "GPU 연산이 원자재처럼 헤지·거래되는 시장이 열린다는 뜻이다. AI 인프라 비용이 처음으로 가격 곡선을 갖게 된다.",
-      "confidence": 0.75,
-      "original_title": "CFTC seeks public input on AI compute futures contracts as CME eyes October launch",
-      "implications": "AI 인프라·데이터센터 관련 자산을 보는 투자자는 CFTC 의견 수렴 결과와 CME의 실제 상장 일정을 지켜볼 것.",
-      "tags": [
-        "AI",
-        "파생상품",
-        "규제",
-        "CFTC"
-      ]
-    },
-    {
-      "title": "월가 반발에 SEC 가상자산 자금조달 프레임워크 제동 (원문: Wall Street Pushback Halts SEC's Crypto Fundraising Framework, Sources Say)",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/375779/wall-street-pushback-halts-sec-crypto-fundraising-framework",
-      "one_liner": "SEC가 \"예상치 못한 일정 문제\"를 이유로 가상자산 자금조달 프레임워크를 미뤘으나, 소식통은 월가 단체 SIFMA의 법적 위협과 9월 클래리티법 처리 관망을 이유로 지목했다.",
-      "why_it_matters": "가상자산 발행 규제의 방향을 규제기관이 아니라 전통 금융 로비와 의회 일정이 정하고 있다는 신호다.",
-      "confidence": 0.72,
-      "original_title": "Wall Street Pushback Halts SEC's Crypto Fundraising Framework, Sources Say",
-      "implications": "가상자산 발행·상장 구조에 노출된 투자자는 9월 클래리티법 처리 여부를 지켜볼 것.",
-      "tags": [
-        "SEC",
-        "규제",
-        "가상자산",
-        "월가"
-      ]
-    },
-    {
-      "title": "스트래티지, 비트코인은 안 팔고 MSTR 지분 매각으로 3억3370만달러 조달",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPMEtTaGJrQjU3dFFaQTloclNkenBLNkZJZEtZWEc4ZUdyeTU4cF9tcjNKbGJSUHplNmdSYmFEMzNZck03Tl9WN2M5OVF6elZPc2hJN3ljdDl4QmpwWGluYllhMkdyTEhpdWVjRXVkUURqZXdHaUlncXBJM2FGZEQtRi0tMFUyUHB6S3Q5dFN0aW85Y3h5VTlnQmdUajRIQ2RKOXdERUtpS2hXTDFZM1lKTTYySl9wSVZiLWV3eTAyX1Z3SU5HQmZacGNxTUdDZG13WWtTUG9MSE5HNEhKZnQyXzFYM01oeC1kNFRlVHB2R2NkcloyOE96NWVaWUxMSEpuelB2d1NxNVlvMUR2dVhUZDFBQlpObTR5N1ZsNTlRempMTXpzTTh0TkdVOXlaNlBpVlA0clRnQkdGTURCWFp3ZXFqTHA0VWdiVzB6NkVrZDdjR3pzcl9KQ1JPWFJ5cmkyRTRrUnU1Y1dZTXM?oc=5",
-      "one_liner": "스트래티지가 보유 비트코인 매도는 멈춘 채 MSTR 주식 매각으로 3억3370만달러를 조달했다.",
-      "why_it_matters": "비트코인 보유 기업이 현금을 만드는 통로가 코인 매도에서 주식 희석으로 옮겨갔다. 주가가 조달 능력의 담보 역할을 한다는 구조가 드러난다.",
+      "title": "용산어린이정원 밑에, 일제 강제동원 심장부…“‘기억의 장소’ 꼭 남겨야” - 한겨레",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yR0Fhd0dlX193S083aWFYcUgxM0E0Um9BaHVFd3prUkVmelJPTFhOQUZQampDeWRvUDBLV2RhZ2dwMURFRVVtMmlDYWNvb2pkY28tUmY2bktBNVY5Z3EyVTFuWkRGcExtVy11QTZ0QUN6UQ?oc=5",
+      "one_liner": "용산어린이정원 밑에, 일제 강제동원 심장부…“‘기억의 장소’ 꼭 남겨야” 한겨레 “공원 안에 주택 건설 이해 안돼… 세계 대도시 정책 방향에 역행” v.daum.net 김윤덕·오세훈 오는 20일 회동…용산공원 주택공급 '분수령' 연합뉴스 국힘 \"정부 용산공원 개발, 부동산 정책 실패 국",
+      "why_it_matters": "",
       "confidence": 0.6,
-      "original_title": "비트코인 매도 멈춘 채…스트래티지, MSTR 지분 매각으로 3억3,370만달러 조달 - Yellow.com",
-      "implications": "비트코인 보유 상장사에 노출된 투자자는 주가 하락 시 이 조달 통로가 계속 열려 있는지를 지켜볼 것.",
       "tags": [
-        "비트코인",
-        "스트래티지",
-        "MSTR",
-        "자금조달"
+        "nation"
       ]
     },
     {
-      "title": "비트코인 채굴사 하이브 디지털, 4953억원 AI GPU 계약에 주가 11% 급등",
-      "source": "위키트리",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LcWJhY2JnSWJsRWtxQ0k4akE0UG92Sk15WFY4WWdmcWp4VmNuaDBldnFVNzZOTS1YbHZfSHlkWVE5b0E3ZkZoa3VuOUpPd2ZrbDFaYkdB?oc=5",
-      "one_liner": "비트코인 채굴 기업 하이브 디지털이 4953억원 규모 AI GPU 계약을 맺었다는 소식에 주가가 11% 올랐다.",
-      "why_it_matters": "채굴 설비와 전력 계약을 가진 회사가 AI 연산 임대업으로 갈아타는 흐름이다. 채굴사 밸류에이션의 기준이 해시레이트에서 GPU 가동률로 바뀌고 있다.",
-      "confidence": 0.58,
-      "original_title": "비트코인 채굴사 하이브 디지털, 4953억원 AI GPU 계약에 주가 11% 급등 - 위키트리",
-      "implications": "채굴주를 보는 투자자는 계약 상대방과 매출 인식 시점, 전력 확보 조건을 지켜볼 것.",
+      "title": "[사이테크+] \"우리은하, 123억년 전에도 대규모 은하 병합 겪었다\" - 매일경제 마켓",
+      "source": "매일경제 마켓",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aTWdvQ1VSRHh0NndMbnI4Y1IzdmpkZEhLQWlSV1VwdkVfUnVEY2RwOHRCcEh6YUtNMlY0aUtod2ozWE95c0ZBVXpfc0JjLVg0UlE?oc=5",
+      "one_liner": "[사이테크+] \"우리은하, 123억년 전에도 대규모 은하 병합 겪었다\" 매일경제 마켓",
+      "why_it_matters": "",
+      "confidence": 0.6,
       "tags": [
-        "비트코인",
-        "채굴",
-        "AI",
-        "GPU"
+        "general"
       ]
     },
     {
-      "title": "미국 프라이빗크레딧 스트레스 2017년 이후 최고…비트코인에 영향?",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHSmI2VHJzMDNiczQ2V0FXYXZTMUNwaDR6cmhibTZWSHFicHFGamFaVUF3ZG9WY0d0U0E1VE5UdWRVSThiNDNDV2lFLXBEMWJBQm5UWUM4dm5vcG5jbjUtZ2Fwd3hTNEwtS2MxYWdrZnlVR19Nb1Y3YQ?oc=5",
-      "one_liner": "미국 프라이빗크레딧 시장의 스트레스가 2017년 이후 가장 높은 수준이라는 보도가 나왔고, 비트코인과의 연결 여부는 물음표로 남았다.",
-      "why_it_matters": "은행 규제 밖에서 커진 사모 대출이 신용 사이클의 약한 고리로 지목되는 중이다. 유동성이 조이면 위험자산 전반이 먼저 반응한다.",
-      "confidence": 0.5,
-      "original_title": "미국 프라이빗크레딧 스트레스 2017년 최고…비트코인 영향? - BeInCrypto",
-      "implications": "위험자산 비중이 높은 투자자는 프라이빗크레딧 부실률 지표와 관련 BDC·사모 대출 펀드 공시를 지켜볼 것. 비트코인과의 인과는 아직 확인되지 않았다.",
+      "title": "[단독]윤한홍, 외교부에서 공관 자료 제출받아…윤석열 관저 이전 관여 정황 - 한겨레",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5vUVBOZUhvZGx4NHlUZ0RhaUQ3MS1sT05TZ0xhalZ1V2EzSDBwVGtQTUxOdF90VTloRkt3VVctT0FkcEdqZV9Edk55VVVLR3FyYnFteTNrdE43WUxEMTRUNHl2U2tSR1NVRGxITVEtZE9Ldw?oc=5",
+      "one_liner": "[단독]윤한홍, 외교부에서 공관 자료 제출받아…윤석열 관저 이전 관여 정황 한겨레",
+      "why_it_matters": "",
+      "confidence": 0.6,
       "tags": [
-        "프라이빗크레딧",
-        "신용",
-        "유동성",
-        "비트코인"
+        "politics"
+      ]
+    },
+    {
+      "title": "트럼프 \"종전 MOU 연장 없다…호르무즈 영토 선언 마음에 들어\" - 연합뉴스TV",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMM3pYNHRQQUE4bHdGZE9LVTl0ZVNYN0pIck40RnU3S2FlU2xKajQwMEoxaEVvTE53VTByRnY1UEQ5b01rdTFOTTk4ejVtc25aMFdQTS13NkswX2stX1FDZEtNWjVJTHc?oc=5",
+      "one_liner": "트럼프 \"종전 MOU 연장 없다…호르무즈 영토 선언 마음에 들어\" 연합뉴스TV 트럼프 \"오만 방해시 폭격…호르무즈 美영토 선언 마음에 든다\"(종합) v.daum.net 조건 꼬리물기에 불신만 남았다… 60일 핵협상 사실상 무산 - 머니투데이 머니투데이 트럼프 \"MOU 연장 없다...호르",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "title": "시진핑, 4연임 결정 1년앞 ‘장쩌민 100주년’ 띄우기 - 동아일보",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCMmFiQS11TDZfamxsd19hNGJsVWJiWlhFd05lZzhUbV9VOFJoWlh5RWIwUnFDci0waXNUYWRPZkJTRmNkWVNZU1licmtZa3ViQ0JDemFuQ2w4cUxFbnNpOUM5ajJpSkJ6THR1RGJISm8xWVnSAWZBVV95cUxOU0ZXVUJaTUlLQjVsaEtwSHIyeDdxMEtYZUpqRmwyUG5hcFdsQlZKd0xyQ1FKcTNiX0JlVUtSX0dMM2s0bjA2Z3dZTUtuM3g0T0RVZVE3d3Z3dU5ZQjkzblVxZEJIdEE?oc=5",
+      "one_liner": "시진핑, 4연임 결정 1년앞 ‘장쩌민 100주년’ 띄우기 동아일보 시진핑, 톈안먼 언급하며 \"장쩌민, 당중앙의 정확한 결정 집행\"(종합) 연합뉴스 장쩌민 100주년에 中 원로들 집결…후진타오 불참 v.daum.net 시진핑 “장쩌민, ‘대만 독립’ 반대 투쟁 힘있게 전개” KBS 뉴스 ",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "title": "중간선거 다급한 트럼프, 다시 ‘김정은과 대화 카드’ - 동아일보",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQUk0xbzBSaFdnb3NzQXRlenZWeGdfSV9jUFZYeUVnOW4yR0tyQXFUa281SDk5NkNlVUZXRW55X0FrSnhPQzlZbzR4bEc3am1wNEh3U3BlbDl0SDN1em1BM1h3dzlxM1JTc2J6QW5ndTYtTDTSAWZBVV95cUxNaVBDaG93aGlKRGFuNmhWOHhtUHNZRHZTVWl3QU1CMnRNeVJwSFdqc0dUSU1VN2JDWWRmV3R2alJVb01fcHlxenoyaXpkclR0MVZNc2swUVJTbC1Lc20ydTBpNGFTa1E?oc=5",
+      "one_liner": "중간선거 다급한 트럼프, 다시 ‘김정은과 대화 카드’ 동아일보 美국방부, 트럼프 '한미훈련 축소' 지시에 \"적극 이행 노력\"(종합) v.daum.net 미국 여당 상원 의원도 한미 훈련 축소 비판 ytn.co.kr 트럼프 \"韓과 연합훈련 대폭 축소 지시…李대통령 이란 비핵화 참여 거부\"",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "title": "트럼프 \"김정은, 북미대화 요청에 응답\"…시점·내용은 함구(종합) - 연합뉴스",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Zb0FmNjVIdl9ZX3dCdTBESG5KM2dKOXRuZGxvYlBHeFFoYThrUUltVjF3NnpXMHAwSVJrU3ltV1BkSm5wdmJFaHY2UElZekRNeUJwRjN4SEJ6M03SAWBBVV95cUxPZ2MwRG1hQ3JKdEc0c0FPM1BXMjJTR0tBNno2c1hSRVhHMHVBZ0hXLXJxTVBLWHVlV3lpUlVudjBSTklyLU9FcVdZMWhoVDZyVHlOX1drMHJsQVpsUWs1V0U?oc=5",
+      "one_liner": "트럼프 \"김정은, 북미대화 요청에 응답\"…시점·내용은 함구(종합) 연합뉴스 美국방부, 트럼프 '한미훈련 축소' 지시에 \"적극 이행 노력\"(종합) v.daum.net 미국 여당 상원 의원도 한미 훈련 축소 비판 ytn.co.kr 트럼프 \"韓과 연합훈련 대폭 축소 지시…李대통령 이란 비핵화",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "nation"
+      ]
+    },
+    {
+      "title": "베네수 이어 콜롬비아까지…남미 '대지진 공포' 확산 - 연합뉴스",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90ajktR1kxMFRQY1gxb2ZqTExNd09ETF9PZFRPVUI0ZTBielZwNHNBZnRKTFFCYkNjOG10ekFvNmhSS21icGU4TWVUcVRDc2pkRzFCYTN3TUlIRDjSAWBBVV95cUxOeTZSM3cyWWdyTnhneVkxV0JoRkZQUC1IeHI3eGZtb21ZVTg0LXhoeGYyVk5BamNTMlpxMExBbW1hMnkwd1dmenVPSTFfM3hDemlMeHREZzBFZEd6dkhGc2c?oc=5",
+      "one_liner": "베네수 이어 콜롬비아까지…남미 '대지진 공포' 확산 연합뉴스 또 흔들린 ‘불의 고리’… 올해 7.0 이상 강진 9건중 6건 두달새 집중 v.daum.net 베네수 이어 콜롬비아까지…남미 ‘대지진 공포’ 확산 KBS 뉴스 콜롬비아 지진…아기는 32시간 버텼지만 엄마는 끝내 시신으로 연합뉴",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "title": "[속보]뉴욕증시, 미·이란 갈등 지속·유가 급등에 하락 마감 - 문화일보",
+      "source": "문화일보",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IaTlCdkotalU3cjBSQUZyTzhSYWU0V1R3Z2t5bFpYdklOOTNlSld3VlJQbnFPYXNvTGZlVGcwUWpOd1g2T1JLajNtZHR2WWha?oc=5",
+      "one_liner": "[속보]뉴욕증시, 미·이란 갈등 지속·유가 급등에 하락 마감 문화일보",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "title": "[뉴욕증시] 투심 짓누르는 30년물 국채금리…약세 마감 - 연합인포맥스",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ETlFocjNlUkJBclNnbnpCaE1BZ1hMOW9zS1VCaE85bjFkbnlBeGw1dGVIWkE0UDZ4OFVMODc0R2ZjQTY2Mk9wMU8zYzU5b2VqeldSRDlKQ2dpUnVLVm5aWWJ2dXIxQ1R3N1Iyai1aRjk?oc=5",
+      "one_liner": "[뉴욕증시] 투심 짓누르는 30년물 국채금리…약세 마감 연합인포맥스",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "title": "뉴욕증시, 국제유가 상승에 일제히 하락…다우 0.5%↓ - KBS 뉴스",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15Rko2dms1QnctVWFMWnhQUklOazZKZVZMMWI0cUZJZmtTaW56c2phUFVCVXZNY1pDOGVnWUF3cjh1ZDJoY1g5SENCR2xIUlFjOFVSTElKendPdkE?oc=5",
+      "one_liner": "뉴욕증시, 국제유가 상승에 일제히 하락…다우 0.5%↓ KBS 뉴스",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "title": "[뉴욕증시-1보] 투심에 부담되는 美 국채금리 흐름…약세 마감 - 연합인포맥스",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sNUxYbWFEMXNVV3RLd0dfX0lTWWhvQnVHMW9qYS1sVzNMWnByOXozb2ZOaGI5eGxZSXhWeWVILVIxdFdCSVpOekotRld5TDBWREVWck0tcG8yajFhY1lXTUlMRTMtalUzRG1Ba19GQWvSAXRBVV95cUxOVUMtTW5rNGE0MHp0c3pQdmRYNGoxZ0hrenNVRVJDSVJsUF9ybzg1TTZ2b1o3WDJ5UnlIai1lcG5sdlMyeU8ybkRJOTA0V0pJcjQwY3l2N2NncmxfYUsyWlJoSWZfejZjd0lOUUcwWWE0Y2VQeQ?oc=5",
+      "one_liner": "[뉴욕증시-1보] 투심에 부담되는 美 국채금리 흐름…약세 마감 연합인포맥스",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "title": "[속보]'휴전 연장 없다'…뉴욕증시 일제히 하락 마감 - 아시아경제",
+      "source": "아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDUm1oN28zMTBkVjJZV3VUTXA4aXBUc0VjR21aN3B5NF9zQXdIRXJjZWVFTmVCT2pna3lYQkVmSXR3dHpQNlp3djh5S1pJQ2JzSUgwTzFtTzJXVEpad1NsMA?oc=5",
+      "one_liner": "[속보]'휴전 연장 없다'…뉴욕증시 일제히 하락 마감 아시아경제",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "business"
       ]
     }
   ],
