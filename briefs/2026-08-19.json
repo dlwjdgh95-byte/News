@@ -1,0 +1,239 @@
+{
+  "schema": 1,
+  "date": "2026-08-19",
+  "slot": "am",
+  "generated_at": "2026-08-19T03:14:13.118280+09:00",
+  "top_insight": [
+    "중동發 유가와 재정發 장기금리가 오늘은 같은 방향으로 주가를 눌렀다. 어제까지는 '협상 교착'이었는데 트럼프가 대화의 존재 자체를 부인했고, 원유시장은 이걸 단발 리스크가 아니라 장기화 시나리오로 가격에 넣기 시작했다.",
+    "동시에 미·영·일 장기 국채금리가 함께 뛰었다. 유가와 금리가 같이 오르면 주식은 이익 전망과 할인율 양쪽에서 깎인다 — 필라델피아 반도체 지수 5.44% 하락이 그 계산이 이미 돌고 있다는 표시다.",
+    "크립토는 정반대로 조용하다. 변동성은 사이클 저점인데 ETF는 순유입으로 돌아섰고 고래는 60일간 29억달러를 쌓았다. 가격이 안 움직이는 게 관심이 식어서인지 물량이 잠겨서인지, 두 신호는 아직 같은 답을 가리키지 않는다."
+  ],
+  "whats_changed": [
+    "어제의 '미·이란 MOU 만료·협상 교착'이 오늘은 트럼프의 '대화 없음' 선언으로 굳었고, 호르무즈를 미국 영토로 표시한 지도까지 공개됐다.",
+    "어제 뉴욕증시를 눌렀던 30년물 금리 이야기가 오늘은 미·영·일 장기채 동반 급등으로 번졌다 — 미 40조달러 부채에 일본 재정 우려가 얹혔다.",
+    "국제유가가 90달러를 넘었고, 어제 '이틀 연속 하락'이던 뉴욕증시가 오늘도 내려 다우 0.5% 하락으로 마감했다.",
+    "한미연합연습 UFS가 트럼프 지시 하루 만에 절반으로 축소돼, 어제 브리핑에 없던 안보 변수가 새로 붙었다."
+  ],
+  "themes": [
+    "유가·금리 동시 상승 — 주식 밸류에이션을 양쪽에서 누른다",
+    "동맹 재조정 — 훈련 축소와 항모 부재가 역내 안보 공백 논의를 키운다",
+    "조용한 비트코인 — 변동성은 사이클 저점인데 자금은 되돌아오는 엇갈림"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "한미연합연습 UFS 1부(방어) 이번 주 종료 — 후속 일정 축소 여부"
+  ],
+  "items": [
+    {
+      "title": "트럼프 \"이란과 진행 중인 대화도, 예정된 것도 없다…대이란 봉쇄 유효\"",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3TkJIdlRYQXdtMVJrWlpaSUliNWktZVgxZE5kTTNpVXM3bmFKNG1pNlUzYy1QVlFrekUyWkZEUkg1VElteUJjVnNoaFNHSHZSYm1kNW5EdnNHZ9IBX0FVX3lxTFBjYUdFSHV2TUZ4VHh4dU5idFM3alhOWGRiVVE2cDEyakh3TnVFWG42NWZxZWpZSlk4cEI3cWp5MC16S182YUEzSWZrX0xHR3RMeDZFanZXSzlldFhua0RV?oc=5",
+      "one_liner": "트럼프가 이란과 진행 중이거나 예정된 대화가 없다고 못박고 대이란 봉쇄가 여전히 유효하다고 밝혔다.",
+      "why_it_matters": "어제까지 시장을 움직인 건 '협상 교착'이었는데, 오늘은 최고 결정권자가 대화의 존재 자체를 부인했다. 호르무즈를 미국 영토로 표시한 지도까지 공개되면서 협상 기대에 걸려 있던 유가·주가 전제가 흔들렸다.",
+      "confidence": 0.78,
+      "original_title": "트럼프 “이란과 진행 중인 대화도, 예정된 것도 없다…대이란 봉쇄 유효” - 경향신문",
+      "implications": "정유·해운·항공 원가와 중동 노선 운항에 영향 / 호르무즈 통항 상황과 봉쇄가 실제 집행되는지를 지켜볼 것.",
+      "tags": [
+        "중동",
+        "유가",
+        "트럼프",
+        "지정학"
+      ]
+    },
+    {
+      "title": "미 40조달러 부채·일 재정 우려…글로벌 장기채 금리 급등",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jTHlrS2NNcElsaE5PZHU0RE1WZGpzc09GZUcxNUNiM2VUZFNqb2lyU1l0ZjVlYXpVenJLQTBLdDB5UFV5TUozdlZ6aWV4eUIzaVJJUVFFMENZbWc?oc=5",
+      "one_liner": "미국 40조달러 부채와 일본 재정 우려가 겹치며 미·영·일 장기 국채금리가 동반 급등했다.",
+      "why_it_matters": "한 나라의 재정 문제가 아니라 주요국 장기물이 동시에 밀리는 국면이면, 모든 자산의 할인율 전제가 같이 올라간다. 필라델피아 반도체 지수가 5.44% 빠진 건 그 계산이 이미 돌고 있다는 표시다.",
+      "confidence": 0.8,
+      "original_title": "미 40조달러 부채·일 재정 우려…글로벌 장기채 금리 급등 - KBS 뉴스",
+      "implications": "장기채 보유자·주택금융·고PER 성장주에 영향 / 미 30년물 금리와 일본 초장기물 입찰 결과를 지켜볼 것.",
+      "tags": [
+        "국채금리",
+        "재정",
+        "반도체"
+      ]
+    },
+    {
+      "title": "뉴욕 증시, 중동 협상 기대감 약해지며 동반 하락세",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vQmdiY0QwdzZZRm9wRTh5RjRGMmhydDF4b3VhbXd0dTVzNnR3Qmh4X2p0d0k4Yy1LamQ5aG4tUkFLZGEtQ3IteFNTaWtYNTIxWEFYblc2b3haVDl1clE?oc=5",
+      "one_liner": "중동 협상 기대가 약해지며 뉴욕증시가 일제히 내렸고 다우는 0.5% 하락, 국제유가는 90달러를 넘었다.",
+      "why_it_matters": "유가와 국채금리가 같은 방향으로 오르는 조합은 주식에 이익 전망과 할인율 양쪽으로 압박이 들어온다는 뜻이다. 유럽증시도 대부분 하락해 같은 압력이 지역을 가리지 않았다.",
+      "confidence": 0.8,
+      "original_title": "뉴욕 증시, 중동 협상 기대감 약해지며 동반 하락세 - YTN",
+      "implications": "고밸류 성장주·금리민감 업종에 영향 / 유가가 90달러대에 눌러앉는지와 국채금리 방향을 지켜볼 것.",
+      "tags": [
+        "뉴욕증시",
+        "유가",
+        "금리"
+      ]
+    },
+    {
+      "title": "트럼프 한마디에…한미연합훈련 일정 절반으로 단축",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xX2VSb28zMF93bkExVlB6WHh5dUc4c2JrSFlkRHhaLXBqTHVhdTJVaFczTlVZQXBEMTZLczJQY3U4OGxwOFd6eXNIZXVfS3ZRRVF2TG9pVGEwQk14SFBUSUVuU2s1aGJa?oc=5",
+      "one_liner": "트럼프 지시 하루 만에 한미연합연습 UFS가 절반으로 줄었고, 한·미가 따로 훈련하는 방식으로 바뀌었다.",
+      "why_it_matters": "훈련 일정 조정을 넘어 동맹 운용 방식이 바뀌는 신호다. 미 하원 소위에서 여야가 '트럼프 탓/한국 탓'으로 갈린 것도 이게 단발 결정이 아니라는 뜻이다.",
+      "confidence": 0.75,
+      "original_title": "트럼프 한마디에…한미연합훈련 일정 절반으로 단축 - 한겨레",
+      "implications": "방산·안보 정책과 원화 리스크 프리미엄에 영향 / 이번 주 종료되는 1부 이후 후속 일정이 어떻게 발표되는지를 지켜볼 것.",
+      "tags": [
+        "한미동맹",
+        "안보",
+        "트럼프"
+      ]
+    },
+    {
+      "title": "항공모함 부재에…美언론 \"태평양 안보 공백 현실화\" 우려",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52U2dtd0F5LUx6ODB5YWhONWpjOURmcEVELWVTeDAtWU5QZE4zanYyWi1xcElZQWdnRlZlelJKS2lQaDhXc194aE1iczZDcl9VVEJlbzRoSC0zUkJ2THhXWEI2OHZGZDg?oc=5",
+      "one_liner": "미 항모 부재와 한미훈련 축소가 겹치며 태평양 안보 공백이 현실화한다는 우려가 미국 언론에서 제기됐다.",
+      "why_it_matters": "같은 방향의 문제 제기가 한국이 아니라 미국 내부에서 나왔다는 점이 다르다. 다만 트럼프는 링컨호 장기배치 논란을 '가짜 뉴스'라고 반박해 사실관계가 아직 한쪽으로 정리되지 않았다.",
+      "confidence": 0.62,
+      "original_title": "항공모함 부재에…美언론, ’태평양 안보 공백 현실화’ 우려 제기 - 연합뉴스TV",
+      "implications": "역내 지정학 리스크 프리미엄에 영향 / 링컨호 배치에 대한 백악관 설명과 항모 재배치 일정을 지켜볼 것.",
+      "tags": [
+        "안보",
+        "태평양",
+        "미국"
+      ]
+    },
+    {
+      "title": "조희대, 청와대와 조율 없이 손봉기 대법관 임명제청…여권 격앙",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wWDdyQXlGNC1OckZlS0UyRmJVWGdNSExueG1xaHNPbkVERnEwR0s0T2lVWV9DNGRQRTRZOFVwb21iNl96dUh2dTZCZFpCcFdtbXdlRnE3ZzQ0RGdzampLV3BheGY1QnJoM3JJc3phckI2QQ?oc=5",
+      "one_liner": "조희대 대법원장이 청와대와 조율 없이 서면으로 대법관을 제청하자 여권에서 탄핵 검토까지 거론됐다.",
+      "why_it_matters": "대통령 면담 관례를 깬 제청이라 인사 하나가 아니라 사법부와 청와대의 관계 자체가 쟁점이 됐다. 노태악 후임에 대한 합의도 없었던 것으로 전해진다.",
+      "confidence": 0.75,
+      "original_title": "조희대, 청과 조율 안된 손봉기 대법관 임명제청…‘대통령 패싱’에 여권 격앙 - 한겨레",
+      "implications": "정치 일정·입법 속도에 영향 / 임명 절차가 그대로 진행되는지와 국회 대응을 지켜볼 것.",
+      "tags": [
+        "사법부",
+        "정치"
+      ]
+    },
+    {
+      "title": "정성호 법무부 장관 사직서 제출…청와대 수리 방침",
+      "source": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TdTJjZ2ZqUEo0bjM5THREYVM0RHdKY2k0dm9NcWU2cmdkTm1vMkVidG5JZm9MdVhlYmlEYms5UGNBUU56REdUNFhoZEN2a0gyVTd0WlJrUjZRaWvSAWBBVV95cUxPN2p1X2VWVlBhMHBSaU1OOHhVMkwwQklnbFVRSnN6WjNTWmFnUjV3bGFuNkpGWHRRVWdMcWdleWhVMmVDaWpiM2p1VEZLVnN6Zk1wNng3YkViYzRJMExFQTg?oc=5",
+      "one_liner": "정성호 법무부 장관이 사직서를 냈고 청와대가 수리 방침을 정한 가운데 후임으로 박균택·이건태 의원이 거론된다.",
+      "why_it_matters": "사법체계 재편이 진행 중인 국면에서 주무 부처 수장이 비게 됐다. 정 장관은 \"정부가 형사사법제도의 소유자가 아니\"라며 무한 책임을 말했는데, 그 발언과 사퇴가 같은 날 나왔다.",
+      "confidence": 0.75,
+      "original_title": "정성호 \"정부, 형사사법제도 소유자 아냐…무한 책임져야\"(종합) - yna.co.kr",
+      "implications": "형사사법·검찰 관련 입법 일정에 영향 / 후임 인선 발표 시점과 인물을 지켜볼 것.",
+      "tags": [
+        "정치",
+        "법무부",
+        "사법개혁"
+      ]
+    },
+    {
+      "title": "장기연체채권 소각 논쟁…NPL사 상위 15곳 중 4곳만 새도약기금 참여",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX1dZWURCc0lRSW9kZk90eHZ2N0lEVTlIQXRtLXd1d3p0ekxpaGg1Wkk2UGdJVE5VbTBrT21pRTJlUU5qdFE1LU1nWTdRNHVIbUI3R1lXX2lRWUdDWU9JZjlXWDFBU1ZKSDlSMUVrS3E3TUNER05LZXVBUjVWenR1ekF3?oc=5",
+      "one_liner": "정부 주도 장기연체채권 소각을 두고 도덕적 해이 논란이 붙은 가운데, NPL사 상위 15곳 중 4곳만 새도약기금에 참여했다.",
+      "why_it_matters": "찬반보다 참여율이 더 많은 걸 말해준다. 정책이 설계대로 굴러가려면 채권을 들고 있는 쪽이 들어와야 하는데 4/15에 그쳤다.",
+      "confidence": 0.7,
+      "original_title": "[선우정 칼럼] 이재명 정부부터 빚을 줄여라 - 조선일보",
+      "implications": "카드·캐피탈·NPL 업권 실적과 부실채권 가격에 영향 / 새도약기금 참여율이 이후 얼마나 올라오는지를 지켜볼 것.",
+      "tags": [
+        "가계부채",
+        "정책",
+        "금융"
+      ]
+    },
+    {
+      "title": "원유시장, 호르무즈 사태 장기화를 가격에 반영하기 시작 (원문: Oil market starts pricing in a prolonged Hormuz crisis)",
+      "source": "reuters_com",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/oil-market-starts-pricing-prolonged-hormuz-crisis-2026-08-18/",
+      "one_liner": "원유시장이 호르무즈 사태를 단발 이벤트가 아니라 길어지는 국면으로 보고 가격에 넣기 시작했다는 로이터 보도.",
+      "why_it_matters": "단기 리스크 프리미엄과 장기화 시나리오는 값이 붙는 자리가 다르다. 후자가 곡선에 들어오면 유가 레벨 자체가 재설정되고, 각국 물가 경로 전제도 따라 바뀐다.",
+      "confidence": 0.6,
+      "original_title": "Oil market starts pricing in a prolonged Hormuz crisis",
+      "implications": "정유·해운·항공 원가와 인플레이션 전망에 영향 / 원유 선물 기간구조가 어떻게 바뀌는지를 지켜볼 것.",
+      "tags": [
+        "원유",
+        "호르무즈",
+        "중동"
+      ]
+    },
+    {
+      "title": "테라파워 나트륨 원자로 착공…한국 원전산업에 새 상업적 역할 (원문: TerraPower’s Natrium Project Opens New Commercial Role for South Korea’s Nuclear Industry)",
+      "source": "energynews_biz",
+      "url": "https://energynews.biz/terrapowers-natrium-project-opens-new-commercial-role-for-south-koreas-nuclear-industry/",
+      "one_liner": "테라파워가 나트륨 차세대 원자로의 가장 중요한 문턱인 '착공'을 넘으면서, 한국 원전산업이 이 회사의 상업 전략에 더 깊이 들어가게 됐다.",
+      "why_it_matters": "설계·MOU 단계에 머무르던 차세대 원자로 협력이 실물 건설로 넘어간 사례다. 밸류체인에 실제 발주가 붙는 시점이 이때부터다.",
+      "confidence": 0.65,
+      "original_title": "TerraPower’s Natrium Project Opens New Commercial Role for South Korea’s Nuclear Industry",
+      "implications": "원전 기자재·건설·설계 업체에 영향 / 착공 이후 한국 기업에 배정되는 물량이 어떻게 공개되는지를 지켜볼 것.",
+      "tags": [
+        "원전",
+        "SMR",
+        "한국"
+      ]
+    },
+    {
+      "title": "조용해진 비트코인…트레이더들은 '5배·10배'를 좇아 떠났다 (원문: Bitcoin has gone quiet as traders chase ‘5x or 10x’ payoffs elsewhere)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/08/18/bitcoin-has-gone-quiet-as-traders-chase-5x-or-10x-payoffs-elsewhere",
+      "one_liner": "비트코인 변동성이 사이클 저점까지 눌리면서, 그 변동성으로 먹고살던 트레이더들이 위험 선호를 다른 곳으로 옮겼다.",
+      "why_it_matters": "변동성 소멸은 매수도 매도도 이기지 못하는 줄다리기 상태라는 뜻이고, 거래로 먹는 참여자에게는 시장을 떠날 이유가 된다.",
+      "confidence": 0.7,
+      "original_title": "Bitcoin has gone quiet as traders chase ‘5x or 10x’ payoffs elsewhere",
+      "implications": "거래대금에 의존하는 거래소·채굴 사업 수익에 영향 / 변동성 지표가 언제 반등하는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "변동성",
+        "크립토"
+      ]
+    },
+    {
+      "title": "비트코인 ETF, 3일 연속 순유출 끊고 2억9700만달러 순유입",
+      "source": "블록미디어",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CMG1BVWF1dU5wNHJ1cEZzdXh1ckwtMDRhOFdidHVRbk9Uc0RidXVYN2x5bk5ZS3NKMmZnNS1wQXhGOE5yODE1dWZtSzlYMGxMQ2ZWRmlBNHc?oc=5",
+      "one_liner": "비트코인 ETF가 사흘간 이어진 순유출을 끊고 2억9700만달러 순유입으로 돌아섰다.",
+      "why_it_matters": "'트레이더가 떠났다'는 서사와 자금 흐름의 방향이 어긋난다. 떠난 쪽과 들어오는 쪽이 같은 참여자가 아니라는 뜻일 수 있다.",
+      "confidence": 0.62,
+      "original_title": "비트코인 ETF, 3일 연속 순유출 끊고 2억9700만달러 반등 - 블록미디어",
+      "implications": "ETF 자금이 가격 하단을 받치는지 판단할 근거 / 순유입이 며칠 이어지는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "자금흐름"
+      ]
+    },
+    {
+      "title": "비트코인 고래, 매수 전환…60일간 29억달러 이상 축적",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rWHQzMW5vVUxaOHNsQ0gzVHFaZXktRGJzaTNkanNFRFFpck5sRUk3WEc0Rl9FYjRyX2paX0s2U2JZNzhPM252X1V5UWg1cDJD?oc=5",
+      "one_liner": "비트코인 고래 지갑이 매수로 돌아서 60일 동안 29억달러 넘게 쌓았다.",
+      "why_it_matters": "소매 관심은 식었는데 대형 지갑은 담고 있다면, 조용한 가격이 관심 소멸이 아니라 물량 이동일 수 있다.",
+      "confidence": 0.58,
+      "original_title": "비트코인(BTC) 고래, 매수 전환…60일간 29억달러 이상 축적 - 블루밍비트",
+      "implications": "유통 물량 축소 여부 판단에 영향 / 고래 축적이 계속되는지, 가격 반등 시 되파는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "온체인"
+      ]
+    },
+    {
+      "title": "비트코인 지갑 제조사 비트박스 \"AI가 펌웨어에서 심각한 결함 찾아냈다\" (원문: Bitcoin Wallet Maker BitBox Says AI Found Severe Flaws in Firmware)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/375886/bitcoin-wallet-bitbox-ai-severe-flaws-firmware",
+      "one_liner": "스위스 하드웨어 지갑 업체 비트박스가 프런티어 AI 모델의 도움으로 심각한 버그 2건을 찾았고, 구버전 펌웨어를 쓰면 노출된다고 경고했다.",
+      "why_it_matters": "AI가 보안 감사에 실제로 쓰여 결과를 낸 사례이면서, 자가수탁 사용자에게는 지금 당장 할 일이 생겼다는 얘기다.",
+      "confidence": 0.7,
+      "original_title": "Bitcoin Wallet Maker BitBox Says AI Found Severe Flaws in Firmware",
+      "implications": "하드웨어 지갑 사용자는 펌웨어 갱신 필요 / 다른 지갑 벤더가 같은 방식의 감사 결과를 내놓는지를 지켜볼 것.",
+      "tags": [
+        "보안",
+        "크립토",
+        "AI"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
