@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "date": "2026-08-21",
+  "slot": "am",
+  "generated_at": "2026-08-21T03:13:24.505735+09:00",
+  "top_insight": [
+    "오늘 브리핑을 관통하는 것은 미 재무부다. 어제 뉴욕증시를 밀어올린 '기습 바이백'이 하루 만에 비트코인 급등의 동인으로 지목됐고(코인리더스·블루밍비트), 부채 40조 달러 돌파 기사도 결국 그 부채를 굴리는 방식 이야기로 이어진다(Cointelegraph). 개별 조치가 아니라 베센트 재무장관의 개입 성향 자체가 기사거리가 됐다는 점(NDTV)이 이번 주의 변화다.",
+    "다만 같은 재료를 두고 해석이 갈린다. '근본 해법이 아니다'라는 경고와 '18만 달러 조기 도달' 전망이 같은 날 나왔고, 목표가는 7만2천 달러부터 100만 달러까지 흩어져 있다. 방향에 대한 합의가 아니라 재료 하나에 대한 과잉 반응으로 읽는 편이 안전하다.",
+    "지정학은 이란 축으로 다시 모였다. 베센트가 24일 제재 발표를 예고하며 우방국에 편을 고르라고 압박했고(연합뉴스), 이란 혁명수비대는 걸프 국가에 미군 지원 시 작전 대상으로 삼겠다고 경고했다(KBS). 여기에 후티의 아람코·나즈란공항 공격 주장(동아일보)이 겹쳐 원유 생산과 홍해 항로가 동시에 걸린 상태다."
+  ],
+  "whats_changed": [
+    "어제 '기습 바이백'은 뉴욕증시 강세 마감의 재료였는데, 오늘은 비트코인 급등의 동인으로 옮겨 붙었다(코인리더스·블루밍비트).",
+    "중동 축이 어제 네타냐후의 시리아 공습 해명에서 오늘 미국의 대이란 제재 압박과 이란 혁명수비대의 맞대응 경고로 이동했다. 베센트 발표 날짜가 24일로 특정됐다.",
+    "어제 가계빚 2000조 돌파가 국내 부채 이슈였다면, 오늘은 미 국가부채 40조 달러 돌파가 같은 자리를 차지했다(Cointelegraph)."
+  ],
+  "themes": [
+    "재무부 개입 — 바이백 하나가 증시에서 크립토로 건너뛰며 위험자산 전반을 밀어올렸고, 개입 성향 자체가 뉴스가 됐다.",
+    "이란 압박의 양방향 — 24일 제재 예고와 혁명수비대의 걸프 경고, 후티의 아람코 공격 주장이 원유·항로를 동시에 건드린다.",
+    "숫자 불일치 — 북핵 보유량(57개 vs 80~120개), 키이우 사상자(12명·16명·40여명 사상), 비트코인 목표가(7.2만~100만 달러)가 같은 날 갈렸다."
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 베센트 재무장관 대이란 제재 발표 예고 (8월 24일)",
+    "대미투자 1호 안건 발표 예정 (9월 중)"
+  ],
+  "items": [
+    {
+      "title": "美 \"우리편이냐 맞설거냐\"…'이란경제 붕괴' 동맹 동참 압박(종합)",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VMU9HN21oUVRrY2tXRDJxM1BncE9Sck5pZlpIcGxybndrQW82LU9Oc0NCNVpuSDVOZDJsVjlYNy1nZ1dyY0J5b1VhWDF1MDBOTVk1dTZlTjZyWWPSAWBBVV95cUxQckpWSXVLSTVVSER6eU1RWVVydXBFcTQxOV8xUFJNZ20yMGVjVE04bVY1bU1Ra0FLRVEtYWI3RVE4ZGJ2VnNINXJyM2RzTmdTeXFNejVncnV0WWFvTXFiaG0?oc=5",
+      "one_liner": "베센트 미 재무장관이 24일 대이란 제재를 발표하겠다며 우방국에 미국 편에 설지 맞설지 선택하라고 압박했고, 이란은 이를 '경제 테러'로 규정했다.",
+      "why_it_matters": "제재의 대상이 이란만이 아니라 이란과 거래하는 제3국까지 넓어질 수 있다는 신호다. 발표 날짜가 24일로 못박혀 있어 시장이 반응할 시점도 정해졌다.",
+      "confidence": 0.75,
+      "original_title": "美 \"우리편이냐 맞설거냐\"…'이란경제 붕괴' 동맹 동참 압박(종합) - 연합뉴스",
+      "implications": "이란산 원유를 사는 아시아 정유·해운업체와 중동 익스포저가 있는 국내 기업 / 24일 제재 발표의 실제 범위가 이란 본토에 그치는지 세컨더리 제재까지 가는지를 지켜볼 것.",
+      "tags": [
+        "이란",
+        "미국",
+        "제재",
+        "지정학"
+      ]
+    },
+    {
+      "title": "예멘 후티 \"사우디 나즈란공항·아람코 시설 공격\"",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zMUxHR3FNQkZmaVA4dnZXUkZZSC1EUkt3dlMtWWV4NTlzb0R1TWc0M08yM1V4ZS15eUwya0k5VFdOMVU5R3c2VGlEV3dmZVVfTTNZVHpjWTVJNkZmMGljNldtN0xzaHd1Z3A0TG9lSENMclnSAWZBVV95cUxOaUV1cXVQNUZ6Y1EzR0xuOS1oX1Fnel9VUndadkw3LWUwQXRtalh3c21TUnpVQmVjQXA2N3pzTnpvbzhZNHBXb2FoOGFJZU5CcVoxcldJT09MeHE4MXlEa0x0YW56VFE?oc=5",
+      "one_liner": "예멘 후티 반군이 사우디 남부 나즈란 공항과 아람코 석유시설을 드론으로 공격했다고 주장했고, 예멘 정부는 후티가 바브엘만데브 연안 장악을 노린다고 경고했다.",
+      "why_it_matters": "아람코 시설과 홍해 입구 항로가 동시에 거론됐다. 원유 생산과 운송 두 축이 같이 걸린다.",
+      "confidence": 0.7,
+      "original_title": "예멘 후티 “사우디 나즈란공항·아람코 시설 공격” - 동아일보",
+      "implications": "정유·해운·항공 업종과 유가 연동 자산 / 아람코가 실제 생산 차질을 인정하는지, 바브엘만데브 통항 보험료가 오르는지를 지켜볼 것.",
+      "tags": [
+        "예멘",
+        "후티",
+        "사우디",
+        "아람코",
+        "원유"
+      ]
+    },
+    {
+      "title": "이란 혁명수비대 \"새 전쟁 발발시 더 파괴적 무기 사용할 것\"",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nZ1dGRDNuTVRyRFZnRVo0ZFZ1RkV6eEVOVEZob3l2bVVrODRIN1o5bUE3UFU2eHFtOWdYMGxEQnBhQTB0RWlzWkZoN3U5YmV6VEFVLWhpdzVEZEk?oc=5",
+      "one_liner": "이란 혁명수비대가 미국과 전쟁이 재개되면 더 파괴적인 무기를 쓰겠다고 경고하고, 걸프 국가들에는 미군을 지원하면 작전 대상으로 간주하겠다고 통보했다.",
+      "why_it_matters": "제재 압박(위 연합뉴스 기사)에 대한 이란 쪽 답이 군사 위협으로 나왔다. 걸프 국가를 끌어들이겠다는 예고까지 붙었다.",
+      "confidence": 0.7,
+      "original_title": "이란 혁명수비대 “새 전쟁 발발시 더 파괴적 무기 사용할 것” - KBS 뉴스",
+      "implications": "걸프 지역 주둔·주재 기업과 역내 항로 / 걸프 국가들이 미군 지원 수위를 조정하는지, 나토가 실제 배치를 바꾸는지를 지켜볼 것.",
+      "tags": [
+        "이란",
+        "혁명수비대",
+        "중동",
+        "지정학"
+      ]
+    },
+    {
+      "title": "대미투자 1호 9월 중 발표…\"상당 부분 진전\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PcWtaYTdfb2l0VkN6OUU1bU5wUmtkUWQ1YWNDM0t2REZnaEsxWU10T3U1TWRzZFh6S2Z0ZlBXSzktQUIwWEdHQTNHdE1QTmlnUHhWVk9ES0lfMmI4RVBvZVF1Qk1WdXM?oc=5",
+      "one_liner": "대미 투자 1호 안건을 9월 중 발표한다는 방침이 나왔고, 협의가 상당 부분 진전됐다는 설명이 붙었다.",
+      "why_it_matters": "한미 통상 합의의 실물 이행이 처음으로 날짜를 갖게 됐다. 발표 대상 업종이 어디냐에 따라 수혜가 갈린다.",
+      "confidence": 0.5,
+      "original_title": "대미투자 1호 9월 중 발표…\"상당 부분 진전\" - 연합뉴스TV",
+      "implications": "대미 투자 대상으로 거론되는 반도체·배터리·조선 업종 / 9월 발표에서 투자 주체와 금액이 실제로 공개되는지를 지켜볼 것.",
+      "tags": [
+        "한미통상",
+        "대미투자",
+        "한국경제"
+      ]
+    },
+    {
+      "title": "[단독] 청, '조희대 서면제청' 손봉기 판사 '반려' 유력 검토",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9teDZ6Y0FPeUtsRWdzZUYzUU4wb19RT0JkU2NqZjdEUVA0QkZKNFM2dWZHS2dEWHdES0dpeEVvbHkxWEtIaGJzQUY4U2NvT05SMEJLVXF4QlJLRnY3ZVRIMEFGODc0M3BFdUdF?oc=5",
+      "one_liner": "청와대가 조희대 대법원장의 서면 제청으로 올라온 손봉기 판사 건을 반려하는 쪽으로 유력하게 검토 중이라는 단독 보도가 나왔고, 청와대는 \"헌정사 초유의 일방통보\"라는 첫 입장을 냈다.",
+      "why_it_matters": "임명제청권을 두고 청와대와 대법원장이 정면으로 부딪히는 국면이다. 여당에서는 사퇴·탄핵 언급까지 나왔다.",
+      "confidence": 0.62,
+      "original_title": "[단독] 청, ‘조희대 서면제청’ 손봉기 판사 ‘반려’ 유력 검토 - 한겨레",
+      "implications": "사법·정치 리스크에 민감한 정책 일정 전반 / 반려가 실제로 이뤄지는지, 여당의 탄핵 추진이 '신중' 기조를 유지하는지를 지켜볼 것.",
+      "tags": [
+        "사법부",
+        "청와대",
+        "조희대",
+        "국내정치"
+      ]
+    },
+    {
+      "title": "[뉴스분석] 트럼프 \"북 핵무기 57개 보유\"…'비핵화' 빼고 김정은 만나나",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VYkZJMGVjSVdJWXUxNzlnZkNVOV9uRkhMR2Z5cEZqSl80N1NXN1dwRnQ3VnpNdXY4TmpfTGl2SGdtRnE2ODZpQUF5OWx6MEhCM1BZaXFpZGFRQVR3Z1ZvYm1qR3dfUFBOV2NjN2NfTFE1cnlu?oc=5",
+      "one_liner": "트럼프가 북한이 핵무기 57개를 보유했다고 언급하면서 비핵화를 빼고 김정은을 만나는 시나리오가 거론됐고, 같은 사안에서 안규백 국방장관은 80~120개로 추정한다며 정부 수치를 처음 공개했다.",
+      "why_it_matters": "11월 북미회담 추진이 거론되는 국면에서 '비핵화'라는 전제가 빠질 수 있다는 관측이다. 한국이 협상 테이블에서 빠질 가능성도 함께 제기됐다.",
+      "confidence": 0.65,
+      "original_title": "[뉴스분석] 트럼프 “북 핵무기 57개 보유”…‘비핵화’ 빼고 김정은 만나나 - 한겨레",
+      "implications": "한반도 지정학 리스크에 연동된 방산·환율 / 11월 회담이 실제로 잡히는지, 의제에 비핵화가 들어가는지를 지켜볼 것.",
+      "tags": [
+        "북한",
+        "트럼프",
+        "북미회담",
+        "한반도"
+      ]
+    },
+    {
+      "title": "러시아의 '미사일·드론' 일제 공격…키이우 지역 최소 '16명 사망'",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZRXhTeEt4UzZlNFc5U2taeE9IREhkOTlHWkNBQlN4SllTWTg3X3hLeUh1SnpmekpfRnhrWGVGcjVHZEw4VlhYS3IweFBWcENSYUN4OGlvaGRYVTU1NjlPM0VKd1VPYk9KekhDMlhyd0ZmNjQxX3NGSdIBe0FVX3lxTFB1elBhU3oxWjZIcVc2eTZkOVBVdXVPbVhFd2pwRjNfX2ZZOThXVGtkX3BBbDdxV083dlVfZ3VjdjM5d285c1JOM0J0RTNKXzdNLUQ5bGF0TzVDQm9CSmpIcFVjeUZIUGN5RmtkczNvWFdWXzRLTlNRMXVoRQ?oc=5",
+      "one_liner": "러시아가 키이우 지역에 탄도미사일과 드론을 집중 투입해 최소 16명이 숨졌고, 우크라이나 방공망이 탄도미사일을 한 발도 요격하지 못했다는 보도가 나왔다.",
+      "why_it_matters": "요격 실패가 사실이라면 방공 소모전의 균형이 한쪽으로 기울었다는 뜻이다. 사상자 수치는 매체마다 12명·16명·40여명 사상으로 갈린다.",
+      "confidence": 0.6,
+      "original_title": "러시아의 ‘미사일·드론’ 일제 공격…키이우 지역 최소 ‘16명 사망’ - VOA 한국어 홈페이지",
+      "implications": "유럽 에너지·방산과 곡물 수출 항로 / 우크라이나 방공 요격률에 대한 후속 확인과 추가 방공 지원 논의를 지켜볼 것.",
+      "tags": [
+        "러시아",
+        "우크라이나",
+        "전쟁",
+        "방공"
+      ]
+    },
+    {
+      "title": "러 용병 그룹에 금광 내줬다가… 중아공 '피묻은 금'의 비극",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSjc3UkNwSEJfZEt2cGtTSkJKTFUwYXhaamFvdEgxX3ZORmI3Ymk0dE03WEcxV1AzZE9GLUpXbU52OG1mZGdQemdoNmZaZ3hFdENoYmlGLVVWaG1uWFc4MngxMlBvWjFrUDdYaEpaZ09oUXZocUc1QlBEYmJjQ183N0FuNTJRVkYtcnNBaFZZSXdHaUhCWUpGd3UzNUhpUQ?oc=5",
+      "one_liner": "중앙아프리카공화국에서 금광이 붕괴해 최소 100명이 숨진 것으로 전해졌고, 러시아 용병 그룹에 금광 채굴권을 넘긴 배경이 함께 지적됐다.",
+      "why_it_matters": "자원 채굴권이 안보 대가로 넘어간 구조가 인명 피해로 드러난 사례다. 아프리카 광물 공급망의 통제 주체가 누구인지를 다시 묻게 한다.",
+      "confidence": 0.68,
+      "original_title": "러 용병 그룹에 금광 내줬다가… 중아공 ‘피묻은 금’의 비극 - 조선일보",
+      "implications": "귀금속 공급망과 아프리카 자원 익스포저 / 사망자 최종 집계와 채굴권 계약 구조에 대한 후속 보도를 지켜볼 것.",
+      "tags": [
+        "중앙아프리카공화국",
+        "금",
+        "자원",
+        "러시아용병"
+      ]
+    },
+    {
+      "title": "베센트, 수십 년 만에 가장 개입주의적인 재무장관이 되다 (원문: Bessent Becomes Most Interventionist Treasury Chief In Decades) (원문: Bessent Becomes Most Interventionist Treasury Chief In Decades)",
+      "source": "ndtv",
+      "url": "https://www.ndtvprofit.com/world/scott-bessent-becomes-most-interventionist-treasury-chief-in-decades-11934318",
+      "one_liner": "미 재무장관 베센트가 최근 수십 년 사이 시장에 가장 적극적으로 개입하는 재무장관이라는 평가를 받고 있다.",
+      "why_it_matters": "국채 바이백 같은 개별 조치가 일회성 대응이 아니라 이 재무부의 기본 성향으로 읽히기 시작했다는 뜻이다. 개입이 반복될 것을 전제로 채권시장 가격이 매겨진다.",
+      "confidence": 0.62,
+      "original_title": "Bessent Becomes Most Interventionist Treasury Chief In Decades",
+      "implications": "미 국채·달러 보유자와 금리에 민감한 자산 전반 / 다음 분기 국채 발행·바이백 계획 발표가 위기 대응이 아니라 정례 도구로 쓰이는지 지켜볼 것.",
+      "tags": [
+        "미국",
+        "재무부",
+        "국채",
+        "베센트"
+      ]
+    },
+    {
+      "title": "RBI 의사록의 예상 밖 매파 기조에 인도 국채 약세 (원문: RBI's surprisingly hawkish tone in policy minutes weighs on Indian bonds) (원문: RBI's surprisingly hawkish tone in policy minutes weighs on Indian bonds)",
+      "source": "brecorder",
+      "url": "https://www.brecorder.com/news/40435732/rbis-surprisingly-hawkish-tone-in-policy-minutes-weighs-on-indian-bonds",
+      "one_liner": "인도 중앙은행 의사록이 물가 위험이 현실화하면 금리를 올릴 수 있다는 신호를 내면서 인도 국채가 매도 압력을 받았고, 지표물 6.94% 2036년물 금리는 전일 6.8170%에서 6.8382%로 올랐다.",
+      "why_it_matters": "미국 재무부가 유동성을 푸는 쪽으로 움직이는 것과 반대 방향의 신호가 신흥국에서 나왔다. 완화 일변도가 아니라는 확인이다.",
+      "confidence": 0.8,
+      "original_title": "RBI's surprisingly hawkish tone in policy minutes weighs on Indian bonds",
+      "implications": "인도 채권·신흥국 채권 펀드 보유자 / 다음 RBI 회의까지 인도 물가 지표가 의사록의 우려를 뒷받침하는지를 지켜볼 것.",
+      "tags": [
+        "인도",
+        "RBI",
+        "채권",
+        "금리"
+      ]
+    },
+    {
+      "title": "비트코인(BTC), 미 국채 바이백 효과로 급등...\"근본해법 아니다\" 경고",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5tbmlycjN3eDRsSjl6R0lDRzVvUWJCWlFDcjZqQnZzeEtZMnAwQV9fazFXYThHUVd1NEhvSG1UeFIzY1BuX2lKbEpR?oc=5",
+      "one_liner": "미 재무부의 국채 바이백이 비트코인 급등의 동인으로 지목됐지만, 동시에 근본적인 해법은 아니라는 경고가 함께 나왔다.",
+      "why_it_matters": "어제 뉴욕증시를 밀어올린 '기습 바이백'이 하루 만에 위험자산 전반, 특히 크립토로 번졌다는 이야기다. 유동성 조치 하나가 자산군을 건너뛰며 퍼지는 경로를 보여준다.",
+      "confidence": 0.5,
+      "original_title": "비트코인(BTC), 미 국채 바이백 효과로 급등...\"근본해법 아니다\" 경고 - 코인리더스",
+      "implications": "비트코인·위험자산 보유자 / 바이백이 멈추거나 규모가 줄었을 때 이 상승분이 그대로 되돌아오는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "국채",
+        "유동성"
+      ]
+    },
+    {
+      "title": "미 부채 40조 달러 돌파, 비트코인에 무슨 의미인지 논쟁 촉발 (원문: US debt tops $40T stoking debate on what it means for Bitcoin) (원문: US debt tops $40T stoking debate on what it means for Bitcoin)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-surges-after-us-debt-crosses-40t?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "미국 국가부채가 40조 달러를 넘어섰고, 애널리스트들은 이 이정표가 비트코인의 장기 논거를 강화할 수 있다고 보면서도 단기 동인은 국채 금리·달러 강세·유동성이라고 짚었다.",
+      "why_it_matters": "부채 규모 자체보다, 그 부채를 굴리기 위한 재무부의 시장 개입(바이백)이 지금 자산가격을 움직이고 있다는 점에서 앞의 두 기사와 같은 줄기다.",
+      "confidence": 0.65,
+      "original_title": "US debt tops $40T stoking debate on what it means for Bitcoin",
+      "implications": "장기채 투자자와 크립토 보유자 / 단기 동인으로 지목된 국채 금리·달러 지수가 부채 서사와 같은 방향으로 움직이는지 어긋나는지를 지켜볼 것.",
+      "tags": [
+        "미국부채",
+        "비트코인",
+        "국채금리",
+        "달러"
+      ]
+    },
+    {
+      "title": "시세 급등에도 '비트코인 100만 달러' 낙관론은 경계",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TM0pYaDNFdk1DSW50TlVwMlhSdVZMRGt6a3ozSWRXQUU1d2dwcm5TYzMtOXdscjJDSlQ5Z2dnamRVXzl5a3J6cm5hc1FOZzZ5am5kc1U0czNCQVFNa3VQNVF4ci1zLUpEd1E0RA?oc=5",
+      "one_liner": "비트코인 시세가 급등하는 와중에도 100만 달러라는 낙관론에는 경계가 필요하다는 지적이 나왔다.",
+      "why_it_matters": "오늘 크립토 헤드라인이 7만2천 달러 돌파부터 18만·30만~40만·100만 달러까지 제각각인 상황에서, 목표가의 스펙트럼 자체가 넓다는 것이 정보다.",
+      "confidence": 0.45,
+      "original_title": "시세 급등에도 '비트코인 100만 달러' 낙관론은 경계 - 경향게임스",
+      "implications": "비트코인 보유자 / 목표가 제시자가 근거로 드는 유동성 조건이 실제로 유지되는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "밸류에이션",
+        "경계"
+      ]
+    }
+  ],
+  "archived_count": 1,
+  "failed_sources": []
+}
