@@ -2,246 +2,102 @@
   "schema": 1,
   "date": "2026-08-22",
   "slot": "am",
-  "generated_at": "2026-08-22T03:14:37.122000+09:00",
-  "top_insight": [
-    "어제 무너졌던 국채는 오늘 반등이 아니라 멈춤이었다. 그런데 같은 날 비트코인은 7만9000달러, 현물 ETF는 5월 이후 최대인 6억600만 달러 유입. '국채를 계속 사줄 사람이 있느냐'는 질문에 자금이 정면으로 답하는 대신 옆으로 걸어가고 있다.",
-    "이번 코인 랠리엔 제도가 붙었다. 클래리티법 압박·SEC의 첫 자금조달 프레임워크·CFTC의 자체 규칙 경고가 하루에 겹쳤고, 국내 가상자산주는 13% 올랐다. 가격만 오르던 국면과는 구분해서 볼 지점이다.",
-    "재정 스트레스는 미국만의 일이 아니다. 영국은 취임 첫 달 재무장관이 예상 밖 적자를 받아들었고, 일본은 금리 종착점이 회의 일정과 위원 임기라는 절차 변수에 걸렸다."
-  ],
-  "whats_changed": [
-    "국채: 어제 '바이백 약발 하루 만에 소멸, 다우 1.3% 하락' → 오늘 보합권 등락. 되돌림이 아니라 멈춤이고, 베선트는 '더 많은 정책수단'이라고만 했다.",
-    "비트코인: 어제 7만 달러 회복 → 오늘 7만9000달러대. 스트래티지 보유분이 3개월 만에 평가이익으로 돌아섰다.",
-    "어제 없던 축 둘 — 달리오가 '채권 줄이고 금·비트코인'을 명시했고, 워싱턴에서 클래리티법·SEC·CFTC가 같은 날 움직였다.",
-    "적자 이슈가 미국 밖으로 번졌다. 영국 7월 차입 18억 파운드로 균형 예상을 빗나갔다."
-  ],
-  "themes": [
-    "국채 신뢰의 공백 — 반등이 아니라 숨 고르기, 그사이 자금은 옆으로",
-    "제도가 붙은 코인 랠리 — ETF 유입과 규제 정비가 같은 날 겹쳤다",
-    "적자는 미국만의 일이 아니다 — 영국 7월 적자, 일본 금리 종착점"
-  ],
+  "generated_at": "2026-08-22T06:11:58.914734+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
   "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
-  "events": [
-    "일본은행 내년 7월 금융정책결정회의 — 매파 위원 2인 임기 만료 직전 표결",
-    "美 클래리티(Clarity)법 처리 여부 — 지연 시 CFTC 자체 규칙 제정 예고",
-    "SEC 첫 가상자산 자금조달 프레임워크 후속 절차",
-    "영국 가을 예산안 — 7월 적자 이후 세입·지출 방향"
-  ],
+  "events": [],
   "items": [
     {
-      "title": "美 국채가, 보합권 등락…'베선트 풋' 이후 숨 고르기",
-      "source": "연합인포맥스",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUal9oTHE4SXBGOW5zR2hRVnQ4LUxZU0hybjg3OGxYU0JocTVHcWhzZy1lWTFvZkJzTmc1akEtbGtGRDRPdS00QzduUmNSbnVPVFNsMHR2SlZiNkhpdU9OVzM1Z0szRVJJMkhqZzJINks?oc=5",
-      "one_liner": "전날 튀어올랐던 미 국채금리가 보합권에서 오르내리며 숨을 골랐다.",
-      "why_it_matters": "어제 브리핑의 '바이백 약발 하루 만에 소멸, 다우 1.3% 하락'이 되돌려진 게 아니라 멈춘 것이다. 베선트 재무장관은 '더 많은 정책수단이 있다'고 했지만 무엇을 언제 쓸지는 나오지 않았다.",
-      "confidence": 0.72,
-      "original_title": "美 국채가, 보합권 등락…'베선트 풋' 이후 숨 고르기 - 연합인포맥스",
-      "implications": "채권형 펀드·장기채 ETF 보유자에게 영향. 재무부가 바이백 말고 어떤 카드를 실제로 꺼내는지를 볼 것.",
-      "tags": [
-        "미국채",
-        "금리",
-        "재무부",
-        "베선트"
-      ]
-    },
-    {
-      "title": "엘니뇨發 가뭄 중남미 강타…파나마 운하까지 말라간다",
-      "source": "조선일보",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSEZPcXdGVFhqSGlhQl9mNTFGVURISkdlSTI3d3g3bjFqU0tDZzVwcHRjTDJ4aUpQeHkzZVJqSTBBQ2s3cGRXOGdvQUVrSV9aYWZFSXZITnpqVG55SEx0T0pfYUFxeFcyS3VWVTljUjBoenlLWUYyUUs0QzRudmVidTdoRVJHYTA3MC0wVDFYRWNzWFpBaUFaeE5ad2wydw?oc=5",
-      "one_liner": "엘니뇨성 가뭄으로 파나마 운하 통항량이 하루 32척으로 줄면서 글로벌 물류 부담이 커지고 있다.",
-      "why_it_matters": "운임과 납기가 기상에 걸리는 구간이다. 영국 기상청은 올해 태평양 엘니뇨를 사상 최강으로 경고했고, 2027년이 가장 더운 해가 될 수 있다는 전망도 함께 나왔다.",
-      "confidence": 0.7,
-      "original_title": "엘니뇨發 가뭄 중남미 강타… 파나마 운하까지 말라간다 - 조선일보",
-      "implications": "해운·물류주와 원자재 수입 기업에 영향. 통항 예약 경매가와 대체 항로 운임 차이를 볼 것.",
-      "tags": [
-        "엘니뇨",
-        "파나마운하",
-        "물류"
-      ]
-    },
-    {
-      "title": "삼성전자 DX노조 \"전사 성과 기반으로 공통재원 마련해 배분해야\"",
-      "source": "KBC광주방송",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Sa184MEFGLUxFVzZOeGk0VTBQbklER2xnWU03MGJSWjFBN19NckZZb2tkZ0NQWXlMWXk3VzFMTVY3SkFvYVdEN25VejVuMU9MSlBJam9UWmtWUmVwV0dZWXNB?oc=5",
-      "one_liner": "삼성전자 완제품(DX) 부문 노조가 전사 성과를 바탕으로 공통재원을 만들어 나누자며 서초사옥 앞 집회를 열었다.",
-      "why_it_matters": "반도체는 억대 성과급인데 완제품은 600만 원이라는 격차가 거리 집회로 터졌다. 실적 호조와 별개로 인건비 구조와 사기 문제가 붙는다.",
-      "confidence": 0.65,
-      "original_title": "삼성전자 DX노조 \"전사 성과 기반으로 공통재원 마련해 배분해야\" - KBC광주방송",
-      "implications": "삼성전자 주주와 협력사에 영향. 사측이 공통재원 방식을 받는지, 성과급 산정 기준을 손대는지 볼 것.",
-      "tags": [
-        "삼성전자",
-        "성과급",
-        "노조"
-      ]
-    },
-    {
-      "title": "이 대통령, 집중호우 피해 거제·통영 특별재난지역 선포",
-      "source": "한겨레",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VNUsyWGxTcTNEX3NJbEc0WExoNlhwTHByajQwN1FvR1I5NTZPSlNoVU5vMUkzNWM0ZVhOZXpRSkM4S3R6eTlqbDhlcjFKVFphU0V6S3cyVDdTcVBkWWZBQUFWc0xuemdLYzZF?oc=5",
-      "one_liner": "8월 15~18일 집중호우 피해를 입은 거제·통영이 특별재난지역으로 우선 선포됐다.",
-      "why_it_matters": "거제에서만 침수 차량 1700여 대, 손해 145억 원으로 추산된다. 선포되면 복구비 국비 지원 비율이 올라간다.",
-      "confidence": 0.75,
-      "original_title": "이 대통령, 집중호우 피해 거제·통영 특별재난지역 선포 - 한겨레",
-      "implications": "경남 지역 소상공인과 손해보험사에 영향. 추가 선포 지역과 복구 예산 규모를 볼 것.",
-      "tags": [
-        "특별재난지역",
-        "집중호우",
-        "경남"
-      ]
-    },
-    {
-      "title": "튀르키예, 네타냐후 체포 영장…인터폴 적색수배 요청",
-      "source": "파이낸셜뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VZWtBWVNvclRIc1BuWHB2QndDVVZBWlNtdmpaTG9hM2dqTUVuYzVNWWNqYVJWM1dmTXhPR2pxOThNNlVkZzNzdHUxUnhKSk5IUUVrSTczYThvdw?oc=5",
-      "one_liner": "튀르키예가 네타냐후 이스라엘 총리에게 집단학살 혐의로 체포영장을 발부하고 인터폴에 적색수배를 요청했다.",
-      "why_it_matters": "아사드 실각 이후 시리아의 힘의 공백을 두고 이스라엘과 튀르키예 사이 전운이 높아진 상황에서 나온 조치다.",
-      "confidence": 0.7,
-      "original_title": "튀르키예, 네타냐후 체포 영장…인터폴 적색수배 요청 - 파이낸셜뉴스",
-      "implications": "중동 익스포저가 있는 에너지·방산 자산 보유자에게 영향. 인터폴이 요청을 수리하는지, 나토 내부에서 어떤 반응이 나오는지 볼 것.",
-      "tags": [
-        "튀르키예",
-        "이스라엘",
-        "중동"
-      ]
-    },
-    {
-      "title": "러 드론, 젤렌스키 고향 쇼핑센터 2차례 공격…6명 사망·96명 부상",
-      "source": "gukjenews.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40a003QXBSRFlLRU9VeU92SFI1R015ZmlVZi1xcjZOYnlfYXBhVWhmcDN1eFluUVJzQmt5dUdycDZWY1o0MnI3WE9oTUFBUXhsYXdZV2pyd0dwLTJjMUdlZGp1bXY0X21XWDUwNHpR?oc=5",
-      "one_liner": "러시아 드론이 젤렌스키 대통령의 고향 쇼핑센터를 두 차례 공격해 6명이 숨지고 96명이 다쳤으며, 키이우에서도 탄도미사일 공격으로 12명이 사망했다.",
-      "why_it_matters": "우크라이나가 이번 탄도미사일 공격에서 단 한 발도 요격하지 못했다는 보도가 함께 나왔다. 방공 소진은 곧바로 전선 밖 도시 피해로 이어진다.",
-      "confidence": 0.7,
-      "original_title": "[속보] 젤렌스키, 러시아의 쇼핑센터 공격 \"냉소적\" 비난 - gukjenews.com",
-      "implications": "유럽 에너지·곡물 가격과 방산주에 영향. 요격탄 추가 지원 논의가 실제 물량으로 이어지는지 볼 것.",
-      "tags": [
-        "우크라이나",
-        "러시아",
-        "방산"
-      ]
-    },
-    {
-      "title": "달력의 날짜 하나가 일본은행 금리 종착점을 가를 수 있다 (원문: A date on the calendar could shape the BOJ's endgame on interest rates)",
-      "source": "reuters_com",
-      "url": "https://www.reuters.com/world/asia-pacific/date-calendar-could-shape-bojs-endgame-interest-rates-2026-08-21/",
-      "one_liner": "일본은행이 내년 7월 정책회의를 매파 성향 위원 두 명의 5년 임기 만료 직전에 배치해, 이들이 마지막으로 표결할 수 있게 됐다.",
-      "why_it_matters": "일본 금리의 최종 수준이 경제지표가 아니라 회의 일정과 임기라는 절차 변수에 걸려 있다는 지적이다.",
-      "confidence": 0.75,
-      "original_title": "A date on the calendar could shape the BOJ's endgame on interest rates",
-      "implications": "엔화·일본 주식·엔 캐리 자금에 노출된 투자자에게 영향. 내년 7월 회의 전까지 두 위원의 발언 톤이 유지되는지 볼 것.",
-      "tags": [
-        "일본은행",
-        "금리",
-        "엔화"
-      ]
-    },
-    {
-      "title": "힐리 英 재무장관, 취임 첫 달에 예상 밖 재정적자 (원문: Healey oversees unexpected deficit in first month as Chancellor)",
-      "source": "cityam",
-      "url": "https://www.cityam.com/healey-oversees-unexpected-deficit-in-first-month-as-chancellor/",
-      "one_liner": "영국 7월 공공부문 차입이 18억 파운드로 나와, 수지 균형을 예상했던 시장 전망을 벗어났다.",
-      "why_it_matters": "국채 수요를 걱정하는 나라가 미국만이 아니라는 신호다. 새 재무장관이 받아든 첫 달 숫자가 예상을 빗나갔다.",
-      "confidence": 0.75,
-      "original_title": "Healey oversees unexpected deficit in first month as Chancellor",
-      "implications": "영국 국채·파운드 노출 자산 보유자에게 영향. 가을 예산안에서 세입 확대와 지출 삭감 중 어느 쪽을 택하는지 볼 것.",
-      "tags": [
-        "영국",
-        "재정적자",
-        "국채"
-      ]
-    },
-    {
-      "title": "레이 달리오 \"美 부채 위기 임박…채권 줄이고 금·비트코인 사야\"",
-      "source": "블루밍비트",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVaWxtUzV0eU5JYTloRl9BMjExNm04aDZPcFVHRk5xa1VBWHdHbEtHbkdjVkVUNTktbXN0S1ZqZnBHcFlTakZMZURQLWhJcVFL?oc=5",
-      "one_liner": "레이 달리오가 미국 부채 위기가 임박했다며 채권 비중을 줄이고 금과 비트코인을 늘리라고 말했다.",
-      "why_it_matters": "'국채를 누가 계속 사줄 것인가'라는 질문에 대형 운용자가 대안을 직접 지목했다. 다만 제공된 자료가 제목뿐이라 발언 시점과 맥락은 확인되지 않는다.",
-      "confidence": 0.5,
-      "original_title": "레이 달리오 \"美 부채 위기 임박…채권 줄이고 금·비트코인(BTC) 사야\" - 블루밍비트",
-      "implications": "채권·금·비트코인을 함께 담은 자산배분 투자자에게 영향. 발언의 원문이 어디인지, 어느 시계열을 말한 건지 확인할 것.",
-      "tags": [
-        "레이달리오",
-        "미국부채",
-        "금",
-        "비트코인"
-      ]
-    },
-    {
-      "title": "비트코인 7만9000달러 질주…스트래티지 3개월 만에 수익권",
-      "source": "블록미디어",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BbTBqYUZuQ1hVZ3J0RGtURFpHUHpRcWdKbkRyZTV5ZUJPRnJaWGt2TnRiTngyWjVsZzZvaFBrMmJ2Q0kyLUV6UVJSNTdLWmxpVC1tZ3dRNFg?oc=5",
-      "one_liner": "비트코인이 7만9000달러대로 오르며 스트래티지의 보유분이 3개월 만에 평가이익 구간으로 돌아섰다.",
-      "why_it_matters": "어제 7만 달러 회복을 보도한 지 하루 만이다. 비트코인을 재무제표에 얹은 기업의 손익이 코인 가격에 그대로 연동된다는 점이 다시 드러났다.",
+      "title": "인류는 왜 자꾸 달(月)에 구멍을 낼까 - 이투데이",
+      "source": "이투데이",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oWW5PN21SQzdOY0Uwcmw4YWh1YXhFal9wUGRaM3ZRRkhrRnktVVNnNU9BUW1hamQ4T290OXA1NktNZXd0a3NSd3dqSTVHam5nbjRGZg?oc=5",
+      "one_liner": "인류는 왜 자꾸 달(月)에 구멍을 낼까 이투데이 [월드 플러스] 스페이스X 로켓 잔해가 만든 달 충돌구 사진 공개 v.daum.net 달에 쓰레기 4톤 던진 스페이스X…우주 쓰레기 급증 '경고' 네이트 [포토] 스페이스X 로켓이 달에 남긴 흔적, 자세히 봤더니 지디넷코리아 한국 다누리가",
+      "why_it_matters": "",
       "confidence": 0.6,
-      "original_title": "비트코인 7만9000달러 질주…스트래티지 3개월 만에 수익권 - 블록미디어",
-      "implications": "코인을 직접 든 사람보다 '비트코인 대리 주식'을 든 사람에게 영향이 크다. 가격이 평균 매입가 부근으로 되돌아올 때 이 기업들의 자금조달 조건이 어떻게 바뀌는지 볼 것.",
       "tags": [
-        "비트코인",
-        "스트래티지",
-        "가상자산"
+        "general"
       ]
     },
     {
-      "title": "美 비트코인 현물 ETF, 5월 이후 최대 하루 유입…블랙록이 83% 가져갔다 (원문: Bitcoin ETFs Just Had Their Biggest Day Since May—BlackRock Took 83% of It)",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/376211/bitcoin-etfs-biggest-day-since-may",
-      "one_liner": "미국 비트코인 현물 ETF에 목요일 하루 6억600만 달러가 들어와 5월 이후 최대 유입을 기록했고, 그중 83%가 블랙록 몫이었다.",
-      "why_it_matters": "이번 랠리를 개인 매수가 아니라 ETF 창구가 받쳤다는 뜻이다. 한 운용사 쏠림은 유입이 꺾일 때의 되돌림도 한 곳에서 나온다는 의미이기도 하다.",
-      "confidence": 0.8,
-      "original_title": "Bitcoin ETFs Just Had Their Biggest Day Since May—BlackRock Took 83% of It",
-      "implications": "비트코인 ETF와 관련주 보유자에게 영향. 알트코인 펀드로의 유입이 이어지는지, 블랙록 편중이 완화되는지 볼 것.",
+      "title": "\"국회의사당 밀면 용적률 500%, 아파트 1.5만채\"…'닥공' 역제안 화제 - 뉴스1",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJUndpaTI2UXhZZ2ZfamZCblpmbXRuN1RzZUxpMEFXRGxOYUZaRzVqUVJWME5LRGF6V2xzWEt2eU14R0VLeVVrM0NuTEtlNXJGY2NIdkVlUjdCeTTSAWBBVV95cUxPRnNXbU8zWDk0LWVWVzJ5TmlZR2VlNF92THFyS3NyZ0owWnJva3hGWm1DZ05YQjlVTDVxRW9lOTYzQTVicHVzc0VPdF84eDZOYS1xZ3dxUzhQREFTTmJBdk8?oc=5",
+      "one_liner": "\"국회의사당 밀면 용적률 500%, 아파트 1.5만채\"…'닥공' 역제안 화제 뉴스1 용산공원에 집 짓는다면 어디?…'훼손지' 후보 따져보니 - 머니투데이 머니투데이 오세훈 “용산공원, 훼손 부지 아닌 ‘공원 예정지’···호도 말아야” 경향신문 [박용준의 어부바] 찐녹지만 남기고 다 청년",
+      "why_it_matters": "",
+      "confidence": 0.6,
       "tags": [
-        "비트코인ETF",
-        "블랙록",
-        "자금유입"
+        "nation"
       ]
     },
     {
-      "title": "재무부의 '사실상 QE' 국채 바이백이 비트코인을 밀어올렸다 (원문: Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher)",
-      "source": "Cointelegraph.com News",
-      "url": "https://cointelegraph.com/news/crypto-biz-treasurys-not-qe-playbook-sends-bitcoin-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "one_liner": "재무부 국채 바이백이 'not-QE' 트레이드로 읽히며 비트코인이 올랐고, 메타플래닛은 미국 진출을, 사이퍼펑크는 3300만 달러 지캐시 채굴 투자를 발표했다.",
-      "why_it_matters": "국채 시장 이벤트와 코인 가격이 같은 서사로 묶였다. 어제 주식에는 악재였던 재정 이슈가 코인에는 재료가 되는 갈림이 이어지고 있다.",
-      "confidence": 0.65,
-      "original_title": "Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher",
-      "implications": "매크로와 코인을 함께 보는 투자자에게 영향. 바이백이 실제 유동성 공급인지, 만기 구성 조정에 그치는지 구분해서 볼 것.",
+      "title": "러, 젤렌스키 고향 쇼핑몰 공습…최소 15명 사망·130명 부상 - 연합뉴스TV",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lMUtta3pWcXZtODJ3YjU2amdZaW9idm1mTXBSTGhORnd0WDF4ZE9HMEJFekJCaVNhSnJ4X2ZhYXRSWjdPN1R3aHR5TzB0a1V0XzFFRnpXS2RRZUtuNFF0Z2ZqWXhnVDg?oc=5",
+      "one_liner": "러, 젤렌스키 고향 쇼핑몰 공습…최소 15명 사망·130명 부상 연합뉴스TV 러, 젤렌스키 고향 쇼핑몰 공습…15명 사망 130명 부상 v.daum.net 러 드론, 우크라 쇼핑센터 2차례 타격…15명 사망·130명 부상(종합) 뉴스1 \"전부 지옥에 떨어져 타죽었으면\"...민간인 노린 ",
+      "why_it_matters": "",
+      "confidence": 0.6,
       "tags": [
-        "국채바이백",
-        "비트코인",
-        "메타플래닛",
-        "지캐시"
+        "world"
       ]
     },
     {
-      "title": "워싱턴이 코인에 올인…트럼프는 클래리티법 압박, SEC는 첫 자금조달 틀, CFTC는 경고 (원문: Washington Goes All-In on Crypto: Trump Pushes Clarity, SEC Rules, and CFTC Warnings)",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
-      "one_liner": "트럼프 대통령이 업계 경영진에게 '제대로 된 버전'의 클래리티법 통과를 촉구했고, CFTC는 법안이 막히면 자체 규칙을 쓰겠다고 경고했으며, SEC는 첫 가상자산 자금조달 프레임워크를 앞당겨 내놨다.",
-      "why_it_matters": "가격 랠리와 같은 날 제도 정비가 세 갈래로 움직였다. 규제 불확실성이 줄면 기관 자금의 진입 문턱이 낮아진다.",
-      "confidence": 0.78,
-      "original_title": "Washington Goes All-In on Crypto: Trump Pushes Clarity, SEC Rules, and CFTC Warnings",
-      "implications": "가상자산 거래소·발행사 관련 주식 보유자에게 영향. 클래리티법이 실제 표결까지 가는지, 막힐 경우 CFTC 규칙이 무엇을 담는지 볼 것.",
+      "title": "소니의 신작 게임 '벤드'는 2027년에 공식 공개될 가능성이 있다. - GameGPU",
+      "source": "GameGPU",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb3VmZ1JRN2JPRU5UZWUzdVQtZEZpSkhjaDRoeThYVmVqUmMtZDY1YUpldlhxVnFLcS1rTmx0dkpZY2haTTltZzd6dlVtR3NnTERGczNEM2czekdad1IzODJEZ01hZzFuSXc3VmFHMWx2TTZxeW9MZzAxdEkyeVAwVmM3MzY3dmIxQTJtUVJGeENnMHJfUzg5MGc5X0s5Yy1FbmEzRmhGMA?oc=5",
+      "one_liner": "소니의 신작 게임 '벤드'는 2027년에 공식 공개될 가능성이 있다. GameGPU",
+      "why_it_matters": "",
+      "confidence": 0.6,
       "tags": [
-        "클래리티법",
-        "SEC",
-        "CFTC",
-        "가상자산규제"
+        "general"
       ]
     },
     {
-      "title": "가상자산株, 비트코인 급등·가상자산 법안 기대에 주가 13%↑",
-      "source": "마켓인",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9PcEdobUktWUE4c0NpR0dIMVJISmV0NzMxY0VsOWxtR2VIdk8ybnUwQWRqaFhFNTR1TWFsMGp5dk1ERGpBZEhuZEhqTEQtbVZlbm5VZkEtUVgxeHVuZFBlVm5pSzFVUXJQTVRJc3ljUmh6RmM?oc=5",
-      "one_liner": "비트코인 급등과 가상자산 법안 기대가 겹치며 국내 가상자산 관련주가 13% 올랐다.",
-      "why_it_matters": "미국의 가격·규제 재료가 국내 증시로 곧장 넘어왔다. 다만 제공된 자료가 제목뿐이라 어떤 종목군의 13%인지는 확인되지 않는다.",
-      "confidence": 0.55,
-      "original_title": "가상자산株, 비트코인 급등·가상자산 법안 기대에 주가 13%↑ - 마켓인",
-      "implications": "국내 가상자산 관련주 보유자에게 영향. 상승이 실적이 아니라 기대에 기대고 있는 만큼, 법안 일정이 밀릴 때의 되돌림 폭을 볼 것.",
+      "title": "[단독] 김건희, 디올 옷 받고 패션회사 홍보 ‘인증샷’…업체 대표 “큰 은혜” - 한겨레",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xSzFwQVNNNlR2UkdMLXNVZWpkU0xyX21hcjkzc194TjB4ZkMtQXVkUTFrWHBXak10Zm0xZEtIWnBpUmlYUlJXNjZVbWY1THVwS0RfdFN2WjRBZng5Q3YycXlRSGtobjJHaVg0MVFOWUJoQQ?oc=5",
+      "one_liner": "[단독] 김건희, 디올 옷 받고 패션회사 홍보 ‘인증샷’…업체 대표 “큰 은혜” 한겨레 홍장원-조성현 등 무혐의 뒤집은 종합특검… 공은 법원으로 v.daum.net 종합특검, '관저 예산 전용' 추경호 불입건·김완섭 기소유예(종합) 연합뉴스 대통령 관저 감사는 어떻게 좌절됐나...유병호",
+      "why_it_matters": "",
+      "confidence": 0.6,
       "tags": [
-        "가상자산주",
-        "국내증시",
-        "비트코인"
+        "nation"
+      ]
+    },
+    {
+      "title": "[한국은 지금] 한국 100조 규모 ‘미래대응기금’ 신설 - VOA 한국어 홈페이지",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11REN4bFZ4YklPU2d6ZHliam9zUDlRRHluRXMyaVg5enNIcGdfaEFXRVhFZjluc2kxVUg2RzMtdW52Ym9QUWMxRmwyMS1pSHVzN3J4ckN0MUxTOWdtdW16QkxNdlRVeFXSAWpBVV95cUxNOHpKb2dyRzRYYUtFaUkzc00xWi1wdXotTFpqR01ITWZDVEdqeGNzLUFKb044TzZ3WTMtMXFHX2x6OW84VG5LMnVLNkp0UUFkdVlJUmtaZDNxMHBDRWlTNWJNaXA5WTlFczJn?oc=5",
+      "one_liner": "[한국은 지금] 한국 100조 규모 ‘미래대응기금’ 신설 VOA 한국어 홈페이지 미래대응기금 신설, 청년·성장동력·지방·교육에 선제적으로 투자 대한민국 정책브리핑 전례없는 세수에 “일단 쓰고보자”… 20%는 국회의결 없이 운용 문화일보 55년 만에 ‘연동제’ 폐지…교육계 강력 반발 v.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "title": "美인태사령부, 올해 北미사일 도발 성명서 ‘규탄-불법’ 표현 뺐다 - 동아일보",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rRDNSVkplRXBKbmRnNmFXam5aTDBuTHNEZTdkR0t2ekVSYVdqbGZHN2N4VXE2NDZXT1F6NXItTTZoaTBuVWhpbXpWb2d5X2xnQVNER2VJNmFzOUVRN05uNFBfaFd5RS04S3N2T0ZPdDZCN2I1dE1F0gFmQVVfeXFMTTdCQ0lnM2RmM0lWcDhPMnRSYTVKSzhLcndrMm5HanF3UkZEWkhlV2p0WTJ0VVlZNU9RSkp3ZXQ4bmhWWmRqMHl1RWJtQmUxWGx0RlBHaVRqTy1CWnUwdVlvNTk1d09R?oc=5",
+      "one_liner": "美인태사령부, 올해 北미사일 도발 성명서 ‘규탄-불법’ 표현 뺐다 동아일보 \"즉각적 위협 아냐\"…'주한미군 철수' 꺼내나 v.daum.net 북한 잇단 단거리 미사일 발사…보도는 침묵, 왜? KBS 뉴스 방사포 과시·담화로 비난 ‘韓패싱’ 노골화… ‘더 큰 양보’ 노리는 北, 美에 ‘몸",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "title": "[뉴욕증시] 국채 바이백 후폭풍 속 저가 매수…상승 마감 - 연합인포맥스",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wWHpXdGZmSmpHME9fa09aN2p3bVp3T0JDU1ZjRUFUcmEwbHdESUluRXI4bXB6MTY3MDhUblJNU2Mzb1NKbDFNYlVsOEhaNC1ueWZLbFR2WXhENDBpV29ySl9tTHBHQVNGZTgySERWSEw?oc=5",
+      "one_liner": "[뉴욕증시] 국채 바이백 후폭풍 속 저가 매수…상승 마감 연합인포맥스",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "tags": [
+        "business"
       ]
     }
   ],
-  "archived_count": 0,
+  "archived_count": 6,
   "failed_sources": []
 }
