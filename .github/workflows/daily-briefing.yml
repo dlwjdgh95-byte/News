@@ -4,6 +4,9 @@ name: Daily News Briefing
 # briefs/<date>.{md,json}이 남도록 보장한다. 발송은 하지 않는다 — 2026-08-15부터
 # 브리핑의 전달 경로는 텔레그램이 아니라 Miner의 리포트 페이지다.
 #
+# **루틴이 이미 돈 날은 건너뛴다** (아래 guard 스텝). 2026-08-23 이전에는 조건 없이
+# 돌아서, 루틴이 큐레이션한 판을 매일 3시간 뒤 이 워크플로의 판으로 덮어쓰고 있었다.
+#
 # 매일 한국시간 06:00 = 전날 21:00 UTC. 루틴은 UTC 기준이므로 cron은 "0 21 * * *".
 on:
   schedule:
@@ -40,7 +43,25 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # 이 워크플로는 "통합 루틴이 누락된 날"의 백업이다. 그런데 조건 없이 돌면
+      # 루틴이 03:00에 만든 판을 3시간 뒤 덮어쓴다 — 2026-08-18~22 닷새 내내
+      # main에 남은 브리핑이 전부 이 워크플로의 06:1x 생성분이었다.
+      # run.py는 KST 날짜로 briefs/<date>.md를 쓰므로, 그 파일이 이미 있으면
+      # 루틴이 돈 것이고 백업은 할 일이 없다.
+      # 수동 실행(workflow_dispatch)은 검증용이라 이 가드를 타지 않는다.
+      - name: Skip when the integrated routine already produced today's brief
+        id: guard
+        run: |
+          KST_DATE="$(TZ=Asia/Seoul date +%F)"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "briefs/${KST_DATE}.md" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "briefs/${KST_DATE}.md 이미 존재 — 통합 루틴이 돌았다. 백업 경로를 건너뛴다."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run briefing
+        if: steps.guard.outputs.skip != 'true'
         env:
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
@@ -57,7 +78,7 @@ jobs:
       # it to Miner — on a day when only this workflow runs, the report page's
       # news tab is empty by design (see docs/superpowers/specs in Miner).
       - name: Commit archive + sent-log
-        if: ${{ github.event.inputs.mode != 'dry-run' }}
+        if: ${{ steps.guard.outputs.skip != 'true' && github.event.inputs.mode != 'dry-run' }}
         run: |
           git config user.name "news-briefing-bot"
           git config user.email "actions@users.noreply.github.com"
