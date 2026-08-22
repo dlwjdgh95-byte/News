@@ -2,113 +2,253 @@
   "schema": 1,
   "date": "2026-08-23",
   "slot": "am",
-  "generated_at": "2026-08-23T06:10:00.120885+09:00",
-  "top_insight": [],
-  "whats_changed": [],
-  "themes": [],
+  "generated_at": "2026-08-23T03:11:51.576295+09:00",
+  "top_insight": [
+    "이번 주 시장을 끌고 간 축은 채권이다. 금리가 내려앉자 비트코인이 3년여 만의 최대 주간 상승(약 23%)을 냈고 ETF로는 하루 7,500BTC가 들어왔다. 어제 브리핑을 채웠던 '국채 바이백 후폭풍'이 하루 만에 위험자산 쪽 연료로 읽히는 셈이다.",
+    "같은 주에 반대 방향 신호도 나왔다. 캐나다가 대미 협상을 중단하고 철강·낙농품에 보복관세를 걸면서, 50% 관세를 앞둔 북미 공급망이 다시 불확실해졌다. 금리는 완화 쪽, 관세는 강화 쪽으로 동시에 움직이는 국면이다.",
+    "국내에서는 그 유동성이 부동산으로 흐르지 않았다. 보유세 강화 이후 강남·서초는 2주째 마이너스인데 서울 외곽은 오히려 올랐다 — 돈이 시장을 떠난 게 아니라 세 부담이 낮은 쪽으로 옮겨 앉은 모양이다."
+  ],
+  "whats_changed": [
+    "어제 '국채 바이백 후폭풍 속 저가 매수'로 마감했던 흐름이 오늘은 자산군을 건너갔다 — 채권 금리 하락이 ETF 자금 유입을 거쳐 비트코인 주간 +23%로 나타났다.",
+    "러-우 공습의 표적이 바뀌었다. 어제는 젤렌스키 고향 쇼핑몰(15명 사망)이었고, 오늘은 우크라 드론이 러시아 2위 온라인몰 물류센터를 때려 운영을 멈춰 세웠다.",
+    "캐나다의 대미 관세 대응이 '위협' 단계에서 '협상 중단 + 보복관세 품목 지정' 단계로 넘어갔다."
+  ],
+  "themes": [
+    "금리 하락과 위험자산 — 채권 금리가 내려가자 비트코인·ETF로 자금이 몰렸다",
+    "관세 재점화 — 캐나다가 대미 협상을 끊고 철강·낙농품에 맞불을 놨다",
+    "AI가 만든 인프라 리스크 — 웹의 3분의 1이 AI 문장이고, 비트코인 코드도 AI 취약점 탐색의 표적이 됐다"
+  ],
   "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
-  "events": [],
+  "events": [
+    "美, 캐나다산 제품에 50% 관세 부과 예정 (원문: 'the US prepares to impose 50 percent tariffs on Canadian goods')",
+    "BitMart 구조조정 상세 로드맵 공개 예정 (9월 9일)",
+    "일본 정부 예산요구 확정 — 사상 첫 130조엔 돌파 전망 (4년 연속 최대)",
+    "인도 Nifty 주간 구간 8월 24~28일, 24,365 저항선 시험"
+  ],
   "items": [
     {
-      "title": "임신 17주 배 속에 12㎏ 자궁근종…임신 중 수술 괜찮을까? - 네이트",
-      "source": "네이트",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aS3RtZE91Z0pxX21wX2VDRzkwaHl1b1J4VkFGR0ZkRGdIVHJ2MVZ4alpjeGdhR2s2Z2o3djlYRW5jaU5EWjEtY0hmcFpCRmRYNHcw?oc=5",
-      "one_liner": "임신 17주 배 속에 12㎏ 자궁근종…임신 중 수술 괜찮을까? 네이트",
-      "why_it_matters": "",
-      "confidence": 0.6,
-      "tags": [
-        "general"
-      ]
-    },
-    {
-      "title": "용산공원 안 건드려도 1.9만가구?…'대체부지' 모두 더해보니 - 뉴스1",
-      "source": "뉴스1",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnekhfdGZlVkxVZmJvYVpubTJYMXAtSDlBSDdpZi1WRGQ0QUh4bm9tdWZFU1d2bHRSZHduVVFuNUlWdkc4MnA1Vm83Y2VNRmhNQ3phcEZoeGExa3fSAWBBVV95cUxNa2NJNG5xWWFDMS1sZ1V4UGVRRHh3akNQUzBRZmZaZXFUREEtUW9KSnVJR29pWU9mRXlvRmp3LWxNNFR3N1BPNjU0YlVhOEFCZERQNmhqV2k3M2JySDFOVG0?oc=5",
-      "one_liner": "용산공원 안 건드려도 1.9만가구?…'대체부지' 모두 더해보니 뉴스1 ‘부동산 공급 논의’ 김영배·오세훈 오찬…노웅래 2심 무죄 공방도 KBS 뉴스 '용산공원은 안 돼'…오세훈 시장이 대신 찍은 곳은? v.daum.net [정치]오세훈 만난 민주, 주택공급 두고 평행선...미래대응기금 ",
-      "why_it_matters": "",
-      "confidence": 0.6,
-      "tags": [
-        "general"
-      ]
-    },
-    {
-      "title": "“손목에 前여친 이니셜 타투 그대로” 최홍만, 오래 만난 승무원 여친 언급 (‘전참시’)[종합] - 매일경제",
-      "source": "매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MWjRnMm9SWk5WaGh1dGNIRC1GbVJ5SVA0MkZsTkcweVZrR2l3emZYckhOd29sNFF4ZElpWUxhaFg4dV9CRWROaGJpSWRKaDhzYWwwY1czOUxpbHR5dVlQWkJjOGJJdw?oc=5",
-      "one_liner": "“손목에 前여친 이니셜 타투 그대로” 최홍만, 오래 만난 승무원 여친 언급 (‘전참시’)[종합] 매일경제",
-      "why_it_matters": "",
-      "confidence": 0.6,
-      "tags": [
-        "general"
-      ]
-    },
-    {
-      "title": "‘숏컷 위장’ 터파크 女탈의실 불법촬영…20대 남성 검거 - 연합뉴스TV",
-      "source": "연합뉴스TV",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ibGVGUUFGQ2FFYXR2ZUhDR1E1c0YyM2hqM2k3TE02VHg5ZWxkT1pmZmJDWXVrdWxEMFBpNk9NV29YR3A0MTk4N3dqcVp1YWdRN0haNGxwa0MxZDdJbmhnRVZUWmI3LTg?oc=5",
-      "one_liner": "‘숏컷 위장’ 터파크 女탈의실 불법촬영…20대 남성 검거 연합뉴스TV 가발 쓰고 女탈의실 들어가 불법촬영…도주한 20대, 22일 만에 검거 주간조선 '숏컷 위장' 캐리비안 베이 女탈의실 불법촬영 20대 남성 체포(종합) 연합뉴스 캐리비안베이 여자탈의실 불법촬영 20대 남성 검거 동아일보",
-      "why_it_matters": "",
-      "confidence": 0.6,
-      "tags": [
-        "nation"
-      ]
-    },
-    {
-      "title": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과 - 연합뉴스",
+      "title": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과",
       "source": "연합뉴스",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Wdnh0emJGNnYtY1lsWVZNS29SX0sxTzYtVFZuUGE3UXlhT3BJQzZJQi03aGRnX3hHaEZBdnZQSjA5djJTb2J6WGw2Nl9ZcHUxbDhEMEV2bndWUzDSAWBBVV95cUxNSjhIaTN4N1d3bGtTNS1XN0RlLXB6UG5XT1VwcTZzQ0pXRU9HREVpTG1kMW9kc05LVkxNY3ZqbFhVTU5EM2w5akZ3aDBCemNUc01KNWFVOHBUel9iaXU0d2Y?oc=5",
-      "one_liner": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과 연합뉴스 캐나다 총리, 미국에 보복관세 '맞불'…다음 달 8일부터 철강·낙농품 등에 부과 v.daum.net 미 무역대표, 캐나다와 무역협상 결렬에 “캐나다보복에 대응조치” KBS 뉴스 캐나다 \"美 철강·유제품·종이 등에 '달",
-      "why_it_matters": "",
-      "confidence": 0.6,
+      "one_liner": "캐나다가 철강과 낙농품 등을 보복관세 대상으로 지목했다.",
+      "why_it_matters": "보복 품목이 특정됐다는 건 협상 결렬이 선언에서 실행으로 넘어갔다는 뜻이다. 철강은 관세 분쟁에서 가장 먼저 걸리는 품목이기도 하다.",
+      "confidence": 0.55,
+      "original_title": "캐나다 총리, 美에 보복관세 '맞불'…철강·낙농품 등에 부과 - 연합뉴스",
+      "implications": "철강 교역 가격과 낙농 수입가에 영향 — 다른 교역국이 같은 방식으로 따라붙는지가 다음 관전 포인트.",
       "tags": [
-        "world"
+        "관세",
+        "철강",
+        "캐나다"
       ]
     },
     {
-      "title": "'AI 반도체 슈퍼위크'…코스피 '주주환원 약발' 계속되나 - 연합뉴스",
-      "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41LW5CR0hKYm1scnZtVUVhSXcxTnNhRVVGUnNGRTFsLVRUYmE5THRPa2FaMWg0Q3dNT0tQOUlybi1Cd2JCY0lZWlBYLTlRODAwMy1kVGszTmRHWVnSAWBBVV95cUxPdWdobWRYZldldld3SkdBd3RiOGdPWERVc2ZhZGg5TWRTaHZiQjh1aW5rZE9MZnhJSXhCR09qVnlzS0RlQ19MeElGdnhibEJEdlMxQWhFTnluQVFDTmY5aEk?oc=5",
-      "one_liner": "'AI 반도체 슈퍼위크'…코스피 '주주환원 약발' 계속되나 연합뉴스",
-      "why_it_matters": "",
-      "confidence": 0.6,
+      "title": "세금 부담에 강남·서초 아파트값 2주째 마이너스…서울 외곽은 더 올라",
+      "source": "더구루",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xS29fZ1VucXBTcGV5SXVlNXZ3aE9tT0lTU1dVWndMcGtCZ0loaGVPSVphbXl3bmtqUnpYZXpqajh5TDlrZWl1a1ZmeDBxR1hJRXZ3eEJZZVB5c3BLZjI4aDlIYw?oc=5",
+      "one_liner": "보유세 강화 이후 강남·서초는 2주 연속 하락, 서울 외곽은 상승했다.",
+      "why_it_matters": "세제 개편이 시장 전체를 누르는 대신 가격대별로 갈라놓고 있다. 초고가 구간에서 재건축 매물이 늘고 호가가 내려가는 흐름이 실제 거래로 확인되는 중이다.",
+      "confidence": 0.75,
+      "original_title": "세금 부담에 강남·서초 아파트값 2주째 마이너스…서울 외곽은 더 올라 - 더구루",
+      "implications": "고가 주택 보유자와 재건축 단지 투자자가 직접 영향권 — 외곽 상승이 '풍선효과'로 굳는지, 전체 거래량이 함께 줄어드는지를 볼 것.",
       "tags": [
-        "business"
+        "부동산",
+        "보유세",
+        "세제개편",
+        "서울"
       ]
     },
     {
-      "title": "(주간증시전망)엔비디아·잭슨홀 주목…코스피 2차 반등 '기로' - 뉴스토마토",
-      "source": "뉴스토마토",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZT0ZhQ1BxQ1BYbXVkbThLd1JsTllJVUNRZzljSkd3SmdRQWxLc2RfUXhWV0JoVVNMS2JURUV2UWZmSjNMRldIU2UzN2V0TlpRdlBua3JhUEpYVUdYdEpB?oc=5",
-      "one_liner": "(주간증시전망)엔비디아·잭슨홀 주목…코스피 2차 반등 '기로' 뉴스토마토",
-      "why_it_matters": "",
-      "confidence": 0.6,
+      "title": "우크라 드론 공격에 러시아 2위 온라인몰 물류센터 타격…운영 중단",
+      "source": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdnZPWHpEdzdYU2g1VVh2dDBaTWI3U0o3czM1WmdBMUdhdnVwVEJ6M3ZUeDNlamFwVENnZklNeFhLRmF2RGZsalRQWUY0LTFkRUNkWXZkTUhwNWZTN2dhdnpJZUttbl8xakpGRWU1UEdTa21lVHpwOXBCUU9kTjk2QnVOTW9XR19lWXl4cFc5ZEZXa1h3TGxRZ1ppQ3VCd9IBsgFBVV95cUxQVVFUMzNwYVBvb3FhaEhjNEwzYV9nOS1LYWpKNGFZby1XbHE2QzNSNzlYMzdGQ2p3ZnFlTUdnRE1HaTUwRG9UYUVBS0lkdWVQM1NVb2xCaHJXRjFpTmtZWmVyT2NRa0laZUhxWHFzWkItVFdLZ0xnWnJiVWQ1MUoxMS1pXzRWRE1fdkFjd0YyNkVoYUltQkhOaWJBa0VjLWtreDVPR0R4a0NhX0xmcHVZenln?oc=5",
+      "one_liner": "우크라이나 드론이 러시아 2위 온라인몰 물류센터를 때려 운영이 멈췄다.",
+      "why_it_matters": "군사 시설이 아닌 민간 물류 인프라가 표적이 됐다. 어제 쇼핑몰 피격에 이어 양측의 타격 대상이 경제 시설로 확대되는 흐름이다.",
+      "confidence": 0.75,
+      "original_title": "우크라 드론 공격에 러시아 2위 온라인몰 물류센터 타격… 운영 중단 - 조선비즈 - Chosunbiz",
+      "implications": "러시아 소비·물류 부문과 에너지·곡물 수출 경로가 영향권 — 타격 대상이 항만·정유로 넓어지는지 지켜볼 것.",
       "tags": [
-        "business"
+        "러시아",
+        "우크라이나",
+        "드론",
+        "물류"
       ]
     },
     {
-      "title": "기준금리 전망 '혼조'…\"7·8월 연속 인상\" vs \"숨 고르기\" - 매일경제 마켓",
-      "source": "매일경제 마켓",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KcUFCYWNzQ3VRVEJtS1pnYXlyakpHdXFaM0ZmbENMejRaSG1xQWJobS1mNERJVi1FSE9BSzRJMWZER0lkM1AxVFFsTUJpVmxLd0E?oc=5",
-      "one_liner": "기준금리 전망 '혼조'…\"7·8월 연속 인상\" vs \"숨 고르기\" 매일경제 마켓 Google 뉴스에서 헤드라인 및 의견 더보기",
-      "why_it_matters": "",
-      "confidence": 0.6,
+      "title": "미 연방법원, '75개국 이민 비자 중단'에 제동…백악관 침묵",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NX0tocVpOMDF1dFdCXzdKaEhXc2ZqZHREOU9hV05zSHByZnZDOGh4ZXotclN5cTU0TzhEVDV3MnY0Smhvd2Y2enVPX0dGdHZHM2lxUUdYckxRcml1LTJUZ3htVUtmeHFNM1RPN0hiUQ?oc=5",
+      "one_liner": "미 연방법원이 75개국 비자 발급 중단 조치를 \"명백한 위법\"으로 보고 무효화했다.",
+      "why_it_matters": "행정명령이 법원에서 잇따라 막히는 패턴이다. 인력 이동에 의존하는 산업에는 정책 불확실성 자체가 비용이다.",
+      "confidence": 0.8,
+      "original_title": "미 연방법원, ‘75개국 이민 비자 중단’ 제동…백악관 침묵 - 한겨레",
+      "implications": "미국 취업·유학 비자를 준비하는 개인과 해외 인력을 쓰는 기업이 영향권 — 항소 여부와 백악관 대응을 지켜볼 것.",
       "tags": [
-        "business"
+        "미국",
+        "이민",
+        "비자",
+        "사법"
       ]
     },
     {
-      "title": "“연말까지 더 내린다”…1300원대 진입한 환율, 전망도 줄하향 - v.daum.net",
-      "source": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfWHdfNEcyNXZoWG5YY1NVNVhOdWNNaWpZbjdIMGY3QkNQMjcyR0ZKWGFUNEt5alZTcWFFZlN6d3JmRUt3VDJMa2ZSdUlFeHM?oc=5",
-      "one_liner": "“연말까지 더 내린다”…1300원대 진입한 환율, 전망도 줄하향 v.daum.net",
-      "why_it_matters": "",
-      "confidence": 0.6,
+      "title": "북한, 일 최대 방위비 편성 추진에 \"침략전쟁 준비…철저히 반격\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yZE1leHh3Z194MHoxcEVWZmpTUFp2emx6azJTalM3R0E4am1JTGhBNTR6QzY1dmgyNTF0TXBlcHpzNnk1ODc2SFByV3d5XzRNSVA3cVRDaE5hNnlLTDVBMnZpYVJyMFUw?oc=5",
+      "one_liner": "일본 예산요구가 사상 첫 130조엔 돌파 전망인 가운데 북한이 강하게 반발했다.",
+      "why_it_matters": "일본 정부가 방산기업에 직접 출자를 검토한다는 대목이 핵심이다. 방위비가 재정 항목을 넘어 산업정책으로 넘어가고 있다.",
+      "confidence": 0.75,
+      "original_title": "북한, 일 최대 방위비 편성 추진에 “침략전쟁 준비…철저히 반격” - 한겨레",
+      "implications": "일본 방산주와 역내 방산 공급망이 영향권 — 실제 예산 확정안과 직접 출자 방식이 구체화되는 시점을 볼 것.",
       "tags": [
-        "business"
+        "일본",
+        "방위비",
+        "북한",
+        "방산"
+      ]
+    },
+    {
+      "title": "미-캐나다 무역협상 중단…카니 총리 \"트럼프 50% 관세에 1달러당 1달러로 맞대응\" (원문: US-Canada trade negotiations suspended, Carney vows dollar-for-dollar retaliation against Trump's 50% tariffs) (원문: US-Canada trade negotiations suspended, Carney vows dollar-for-dollar retaliation against Trump's 50% tariffs)",
+      "source": "headtopics",
+      "url": "https://us.headtopics.com/news/us-canada-trade-negotiations-suspended-carney-vows-86892483",
+      "one_liner": "캐나다가 미국과의 무역협상을 중단하고 동등 규모 보복관세를 예고했다.",
+      "why_it_matters": "북미 최대 교역 축이 협상 테이블에서 내려왔다. 50% 관세가 실제로 부과되면 철강·에너지·자동차 부품 공급망 원가가 즉시 재계산된다.",
+      "confidence": 0.8,
+      "original_title": "US-Canada trade negotiations suspended, Carney vows dollar-for-dollar retaliation against Trump's 50% tariffs",
+      "implications": "북미 공급망에 물린 수출기업과 원자재 수입업체가 영향권 — 관세 발효일과 캐나다 보복 품목 목록이 확정되는 시점을 지켜볼 것.",
+      "tags": [
+        "관세",
+        "무역분쟁",
+        "캐나다",
+        "미국"
+      ]
+    },
+    {
+      "title": "채권시장이 힘을 과시하는 이유, 그리고 모두가 신경 써야 하는 이유 (원문: Why the bond market is flexing its muscles, and why everyone needs to care) (원문: Why the bond market is flexing its muscles, and why everyone needs to care)",
+      "source": "abcnews",
+      "url": "https://abcnews.com/Business/wireStory/bond-market-flexing-muscles-care-135859215",
+      "one_liner": "채권시장이 정치권을 움직이는 몇 안 되는 힘으로 다시 부각됐다.",
+      "why_it_matters": "재정·정책 결정이 국채 금리에 즉각 반응하는 국면에서는 채권시장이 사실상 정책의 제약 조건 역할을 한다.",
+      "confidence": 0.6,
+      "original_title": "Why the bond market is flexing its muscles, and why everyone needs to care",
+      "implications": "국채 금리에 연동되는 대출·주택담보·기업 조달 비용 전반이 영향권 — 장기물 금리 방향과 국채 발행 계획을 함께 볼 것.",
+      "tags": [
+        "채권",
+        "국채금리",
+        "매크로"
+      ]
+    },
+    {
+      "title": "비트코인, 채권 금리 하락·ETF 자금 유입에 3년 만의 최대 주간 상승 (원문: Bitcoin Set For Biggest Weekly Gain In 3 Years As Bond Yields Fall, ETF Inflows Surge) (원문: Bitcoin Set For Biggest Weekly Gain In 3 Years As Bond Yields Fall, ETF Inflows Surge)",
+      "source": "freepressjournal",
+      "url": "https://www.freepressjournal.in/business/nclt-admits-reliance-entertainment-studios-into-insolvency-over-1194-crore-film-financing-default",
+      "one_liner": "비트코인이 주간 약 23% 오르며 3년여 만의 최고 주간 성과를 향하고 있다.",
+      "why_it_matters": "금리 하락이 위험자산으로 자금을 밀어내는 전형적 경로가 크립토에서 먼저, 그리고 크게 나타났다. 숏 스퀴즈가 상승 폭을 키운 점은 되돌림 위험도 함께 키운다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin Set For Biggest Weekly Gain In 3 Years As Bond Yields Fall, ETF Inflows Surge",
+      "implications": "크립토 보유자와 관련 ETF 투자자가 직접 영향권 — 금리가 반등할 때 이 상승분이 얼마나 유지되는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "금리",
+        "크립토"
+      ]
+    },
+    {
+      "title": "XRP 21% 급등, 수개월 횡보 구간 상단 돌파 (원문: XRP Price USD Surges 21% as Breakout Ignites Fresh Rally – Can XRP Hit $2 Next?) (원문: XRP Price USD Surges 21% as Breakout Ignites Fresh Rally – Can XRP Hit $2 Next?)",
+      "source": "coinpedia",
+      "url": "https://coinpedia.org/price-analysis/xrp-price-surges-21-as-breakout-ignites-fresh-rally-can-xrp-hit-2-next/",
+      "one_liner": "XRP가 21% 오르며 몇 달간 이어진 압축 구간을 위로 벗어났다.",
+      "why_it_matters": "비트코인 랠리가 알트코인으로 번지는지를 보는 지표다. 다만 기사에 붙은 목표가는 근거가 제시되지 않았다.",
+      "confidence": 0.45,
+      "original_title": "XRP Price USD Surges 21% as Breakout Ignites Fresh Rally – Can XRP Hit $2 Next?",
+      "implications": "알트코인 보유자가 영향권 — 상승이 비트코인 도미넌스 하락을 동반하는지 확인할 것.",
+      "tags": [
+        "XRP",
+        "알트코인",
+        "크립토"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "비트코인 7만9000달러 돌파, ETF 하루 7500BTC 매수에 현물 수요 랠리 이끈다",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKb1lZVmt4Zk16UWdQbnNXeTlXM0docUFLSEhwZnZNNzhtanlabHpzaUtnRlo5R2pSc2ZaQURkYldMV3U0SzZVY29mUUdHRHBMWDM0aW1n?oc=5",
+      "one_liner": "비트코인이 7만9000달러를 넘었고 ETF의 하루 매수가 7500BTC로 집계됐다.",
+      "why_it_matters": "가격보다 수급 숫자가 중요하다 — 하루 신규 채굴량을 크게 웃도는 ETF 매수는 현물 수요가 공급을 압도하고 있다는 신호로 읽힌다.",
+      "confidence": 0.5,
+      "original_title": "비트코인 7만9000달러 돌파, ETF 하루 7500BTC 매수에 현물 수요 랠리 이끈다 - 위키트리",
+      "implications": "ETF를 통해 간접 노출된 투자자가 영향권 — 유입이 멈추는 날 가격이 어떻게 반응하는지가 이 논리의 시험대.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "수급"
+      ]
+    },
+    {
+      "title": "\"토큰화 주식, 월가 1960년대 '페이퍼 크라이시스' 반복 위험\" — Fairmint CEO (원문: Tokenized stocks risk repeating Wall Street's 1960s 'paper crisis,' Fairmint CEO says) (원문: Tokenized stocks risk repeating Wall Street’s 1960s ‘paper crisis,’ Fairmint CEO says)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
+      "one_liner": "표준이 갈라진 채 확산되는 토큰화 주식이 1960년대 결제 마비를 재현할 수 있다는 경고가 나왔다.",
+      "why_it_matters": "토큰화는 결제 효율을 명분으로 밀리는데, 정작 시스템이 파편화되면 효율이 아니라 정산 실패가 남는다는 지적이다. 규제 논의의 방향을 가늠할 수 있다.",
+      "confidence": 0.7,
+      "original_title": "Tokenized stocks risk repeating Wall Street’s 1960s ‘paper crisis,’ Fairmint CEO says",
+      "implications": "토큰화 증권 상품을 검토하는 기관과 거래소가 영향권 — 표준화 논의가 규제기관 차원으로 올라오는지 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "증권",
+        "규제",
+        "크립토"
+      ]
+    },
+    {
+      "title": "폐쇄 발표했던 거래소 BitMart, 부분 재개와 채권자 변제 검토 (원문: Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown) (원문: Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
+      "one_liner": "BitMart가 구조조정 자문사를 선임하고 9월 9일까지 로드맵을 내놓기로 했다.",
+      "why_it_matters": "거래소 폐쇄가 곧 자산 소멸은 아니라는 사례다. 채권자 변제 구조가 어떻게 짜이는지가 이후 유사 사례의 기준선이 된다.",
+      "confidence": 0.75,
+      "original_title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "implications": "BitMart에 자산이 묶인 이용자가 직접 영향권 — 9월 9일 로드맵 공개가 확인 시점.",
+      "tags": [
+        "거래소",
+        "BitMart",
+        "구조조정",
+        "크립토"
+      ]
+    },
+    {
+      "title": "ChatGPT 이후 웹의 3분의 1이 AI가 쓴 글 — 퓨리서치 조사 (원문: A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds) (원문: A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376271/chatgpt-web-ai-written-pew",
+      "one_liner": "퓨리서치가 약 50만 웹페이지를 검사해 3분의 1에서 AI 작성 흔적을 찾았다.",
+      "why_it_matters": "검색·데이터 수집으로 만들어지는 모든 지표의 원재료가 바뀌고 있다는 뜻이다. .com 도메인에 집중됐다는 점은 상업적 콘텐츠부터 대체되고 있음을 시사한다.",
+      "confidence": 0.75,
+      "original_title": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds",
+      "implications": "콘텐츠·광고·검색 사업 모델이 영향권 — AI 탐지기의 오탐률 자체가 논쟁거리라, 후속 검증 연구를 함께 볼 것.",
+      "tags": [
+        "AI",
+        "콘텐츠",
+        "퓨리서치"
+      ]
+    },
+    {
+      "title": "AI가 비트코인 소프트웨어를 표적으로 만들었다…맞서는 개발자 그룹 (원문: AI Has Made Bitcoin Software a Target—This Group Is Fighting Back) (원문: AI Has Made Bitcoin Software a Target—This Group Is Fighting Back)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
+      "one_liner": "20여 명의 개발자 그룹이 AI로 찾아낼 수 있는 취약점을 선제 점검하고 있다.",
+      "why_it_matters": "저렴하고 강력한 모델이 공격자 쪽 탐색 비용을 먼저 낮췄다는 진단이다. 오픈소스 금융 인프라 전반에 같은 논리가 적용된다.",
+      "confidence": 0.65,
+      "original_title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
+      "implications": "비트코인 노드 운영자와 오픈소스 금융 인프라 이용자가 영향권 — 실제 취약점 공개(CVE)가 늘어나는지 추적할 것.",
+      "tags": [
+        "비트코인",
+        "보안",
+        "AI",
+        "오픈소스"
       ]
     }
   ],
-  "archived_count": 5,
+  "archived_count": 0,
   "failed_sources": []
 }
