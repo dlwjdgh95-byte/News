@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "date": "2026-08-25",
+  "slot": "am",
+  "generated_at": "2026-08-25T03:18:39.642807+09:00",
+  "top_insight": [
+    "비트코인이 어제의 '8만 달러 시험'을 실제로 넘겼는데, 같은 날 ETF 자료가 그 상승의 내용물을 보여준다 — 지난주 ETF 잔고가 230억 달러 늘었지만 그중 신규 자금은 26억뿐이고 나머지는 이미 갖고 있던 코인의 평가익이다. 가격이 올라서 잔고가 커진 것이지 돈이 새로 들어와서 오른 게 아니다.",
+    "레버리지 쪽 신호는 그 위에 얹힌다. 하루 숏 청산이 2.2억 달러를 넘었고 지캐시 선물 미결제약정은 18억 달러로 거의 두 배가 됐다. 신규 현금은 얇고 파생 포지션은 두꺼운 조합이라 되감김이 시작되면 속도가 붙는 구조다.",
+    "주식 쪽은 반대로 판단을 미루는 국면이다. 엔비디아 실적·잭슨홀·기준금리 결정이 같은 주에 몰리면서 미국 지수 선물도, 코스피 8천선도 그 결과를 기다리는 자리에 섰다."
+  ],
+  "whats_changed": [
+    "비트코인이 어제의 '5월 이후 최고치·8만 달러 시험'에서 오늘 실제 8만 달러 돌파로 넘어갔고, 24시간 숏 청산이 2.2억 달러를 넘었다.",
+    "호르무즈 압박이 수위 인상에서 대상 특정으로 바뀌었다 — 이란이 한국 장금상선 소유 유조선을 포함해 45척을 규정 위반으로 지목했다.",
+    "우크라이나 지원 논쟁의 초점이 어제의 요격미사일 지원 경로에서 오늘은 한국에 최신형 패트리엇을 직접 요구하는 단계와 43조원 재정 부족으로 옮겨갔다.",
+    "어제 재료였던 국채 바이백·커브 컨트롤 기대는 오늘 후보 풀에서 사라졌고, 대신 엔비디아 실적과 잭슨홀이 그 자리를 차지했다."
+  ],
+  "themes": [
+    "8만 달러의 내용물 — ETF 잔고 230억 증가분 중 신규 자금은 26억, 나머지는 평가익이다",
+    "실적 전야의 정지 — 엔비디아·잭슨홀·기준금리가 같은 주에 겹쳐 미국 지수도 코스피도 숨을 고른다",
+    "호르무즈에 한국 이름이 붙었다 — 이란이 장금상선 유조선을 45척 명단에 올렸다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "엔비디아 실적 발표",
+    "잭슨홀 심포지엄",
+    "미국 PCE 물가 발표",
+    "기준금리 결정"
+  ],
+  "items": [
+    {
+      "title": "엔비디아 실적 앞두고 반도체·AI 동반 하락…코스피는 8천선 가늠",
+      "source": "초이스스탁US",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ONGdyRDR6SW1FUVVsM2l2QUZLcGNCZmZYQ0NWRHNHZzVKeWtnQjYyWWJ2amFTNWVzZVluVm5sSEVhalplME13VFV2bXBqR2ZIOWJ2M1N0NVJ3Wk5YSEVmUGQ0d3lFdlk?oc=5",
+      "one_liner": "엔비디아 실적 발표를 앞두고 시에나가 5% 급락하는 등 반도체·AI 업종이 함께 내렸고, 국내에서는 코스피 8천선 회복 여부가 걸린 재료로 읽혔다.",
+      "why_it_matters": "실적 하나가 미국 반도체 업종과 코스피 지수 방향을 동시에 쥐고 있다. 'AI 투자 과열' 우려를 잠재울지가 관전 지점으로 제시된다.",
+      "confidence": 0.72,
+      "original_title": "시에나, 엔비디아 실적 앞두고 5% 급락..반도체·AI 업종 동반 하락 - 초이스스탁US",
+      "implications": "반도체·AI 비중이 큰 포트폴리오에 직접 영향. 엔비디아 실적과 잭슨홀, 기준금리 결정이 겹치는 일정을 지켜볼 것.",
+      "tags": [
+        "엔비디아",
+        "반도체",
+        "코스피"
+      ]
+    },
+    {
+      "title": "이란 \"한국 장금상선 소유 유조선 등 45척 호르무즈 규정 위반\"",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zbHdydENWSW9pTDl1Y0NmN053WFVIMzFlWWlhNXhIbHIzYnVlMG56UlBQVlRnMDBCdEpFOW1yM09kQ2hja3JoMnFha3RCRlliVThDQ0hWUEV3VWtWYTN1NmJ2ai10R1RKbHgweG1JeGJ5QmZV0gF0QVVfeXFMTlptTjdsVVFvM1l6Zk9ONzlYQVFHR3NQTDc5b2JndURoS3dNS1hBcE10d0VNM0dQeDV5eW5BUHAtcDRBcEpQakRhSGc0clpxbmtZTUJyVlk5aFAyYW1adHdMNUZybF96RVBQQUxLeWpLcE9oQlQ?oc=5",
+      "one_liner": "이란이 한국 장금상선이 소유한 유조선을 포함해 45척을 호르무즈 해협 규정 위반으로 지목했다.",
+      "why_it_matters": "호르무즈 압박이 일반적인 수위 인상 단계를 지나 특정 선박 명단으로 넘어갔고, 그 명단에 한국 선사가 들어갔다.",
+      "confidence": 0.6,
+      "original_title": "이란 \"한국 장금상선 소유 유조선 등 45척 호르무즈 규정 위반\" - MBC 뉴스",
+      "implications": "해운·정유·에너지 수입에 직접 영향. 지목된 선박에 실제 조치가 따르는지, 보험·운임이 어떻게 반응하는지를 지켜볼 것.",
+      "tags": [
+        "호르무즈",
+        "이란",
+        "해운"
+      ]
+    },
+    {
+      "title": "러시아 \"전쟁에 기름 붓는다\" 영국 \"불 누가 질렀는데\"…우크라, 한국에 패트리엇 요구",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xUlZ3ZXVFdmNrQVVxTE5PSlNpNVNxbVFEaXplR1hfbHpEd3QyWXJLZGJCczRxN2p6Z3VTYnJDQmdXbXN1eTBENE01ZklUVW85emhRS1lSSVhubmfSAWBBVV95cUxPT3pjVk8tbHF1cDJOZWxjZkR0TTRSOE41d2RfZjV6MWt1LVJ1cjFqT2xtZzhsWlZ1bnh1eW1TZFZjdFo4QXlURExiRGFmbTRoT3pMQ2xydDVvRjh2UVBha0M?oc=5",
+      "one_liner": "우크라이나 지원을 놓고 러시아와 영국이 설전을 벌인 가운데, 우크라이나가 한국에 최신형 패트리엇을 지목해 지원을 요구했고 정부는 난색을 보였다. 젤렌스키는 43조원이 부족하다고 밝혔다.",
+      "why_it_matters": "지원 논쟁이 서방 내부 조율에서 한국을 직접 겨냥한 요구로 넘어왔다. 펜스는 한국산 요격미사일을 미국에 제공해 우크라이나에 배치하는 방안을 제안했다.",
+      "confidence": 0.68,
+      "original_title": "러 \"전쟁에 기름 붓는다\"…영국 \"불 누가 질렀는데\"(종합) - 연합뉴스",
+      "implications": "방산 수출과 한·미 협의에 영향. 정부의 최종 입장과 '의지의 연합'이 43조원 격차를 어떻게 메우는지를 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "방산",
+        "국제"
+      ]
+    },
+    {
+      "title": "여당의 '비거주 1주택' 수정 요청에 정부는 고심, 강경파는 반발",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS1dnM0p0TjZab1A2SU9iS09BQUtPU0tTbmdTd1JETjFPdDhHODV6MGpyYUlPc0hWeEhnMUJ1a2hJWExWY2pQOFdobnhpRU1hQXdfUEZiZ2lZal82c1NTQ0JoUzRDTGF2UmVRT0tMcjQ1c0l5b2NsbmdWMmpVY3Q2VTVHa3BzUTVOclIwTVVB?oc=5",
+      "one_liner": "여당이 '비거주 1주택' 관련 수정을 요청했고 정부는 고심 중이며 당내 강경파는 반발하고 있다.",
+      "why_it_matters": "부동산 세제의 적용 범위를 놓고 여당 내부에서 이견이 갈렸다. 정부 결정에 따라 실거주하지 않는 1주택자의 부담이 달라진다.",
+      "confidence": 0.58,
+      "original_title": "與의 ‘비거주 1주택’ 수정 요청에… 정부는 고심, 강경파는 반발 - 조선일보",
+      "implications": "비거주 1주택 보유자에게 직접 영향. 정부가 수정 요청을 받아들이는지, 최종 법안 문구가 어떻게 나오는지를 지켜볼 것.",
+      "tags": [
+        "부동산",
+        "세제",
+        "정책"
+      ]
+    },
+    {
+      "title": "트럼프 사위 쿠슈너, '차기 하원의장 가능성' 민주 원내대표와 비밀 회동",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JODJBUXI4aGFRMlRsWnQ4OUtjbWxXbjNHWTlWVlhHclhUbWJMbG9VRW1HbHZGdmFsb1lMaXo2TkdSUE1qTjI1TFRoR1FocC1MMEdxWDZfcWF6YTRuRkpMYzNsMkFjazJsa0puSDdaYw?oc=5",
+      "one_liner": "쿠슈너가 차기 하원의장이 될 가능성이 거론되는 민주당 원내대표와 회동했고, 백악관이 중간선거 패배를 염두에 둔 것이라는 해석이 나왔다.",
+      "why_it_matters": "중간선거 결과를 전제로 한 사전 접촉이라는 해석이다. 공화당은 '패싱'이라며 의미를 축소했다.",
+      "confidence": 0.65,
+      "original_title": "트럼프 사위, ‘차기 하원의장 가능성’ 민주 원내대표와 비밀 회동 - 한겨레",
+      "implications": "미국 정책 연속성에 베팅한 자산에 영향. 중간선거 이후 의회 구성 시나리오가 어떻게 반영되는지를 지켜볼 것.",
+      "tags": [
+        "미국정치",
+        "중간선거"
+      ]
+    },
+    {
+      "title": "엔비디아와 워시, 로테이션 한복판의 증시를 시험대에 올린다 (원문: Nvidia and Warsh Will Test a Stock Market That's in Mid-Rotation) (원문: Nvidia and Warsh Will Test a Stock Market That’s in Mid-Rotation - Bloomberg.com)",
+      "source": "google",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVjZkNXFDX1ZPQklPTnlSejBqQnBpb0sxN0VrVXlPVFRSUjFqa283bXRibUE5VDhGU2V5SnVTQk5yc3lpNHZmdHp5UjUwalFIcUZPcDJNU0ZFVERIZ25TNHk5UUV3VVVGOEh4c3o4WC04OG1BOVItSGpXRVFLRko1ZkVkWWxOYVdqcUR3Wnh6WGJwQ0pPNlo3V0ZXUkgtLWRjR0pBR05JNUdtRnRIT19WUXotZkpMZw?oc=5",
+      "one_liner": "엔비디아 실적과 이란 제재가 시장을 긴장시킨 가운데, 다우·S&P500·나스닥 선물이 잭슨홀을 앞두고 하락 출발할 것으로 전망됐다.",
+      "why_it_matters": "AI 거래, 통화정책, 이란 제재가 같은 주에 겹쳤다. 업종 간 자금이 이동하는 로테이션 국면이라 개별 재료가 지수 전체를 흔들 여지가 크다.",
+      "confidence": 0.7,
+      "original_title": "Nvidia and Warsh Will Test a Stock Market That’s in Mid-Rotation - Bloomberg.com",
+      "implications": "미국 지수 추종 자산 보유자에게 영향. 엔비디아 실적 반응이 AI 업종에 국한되는지 지수 전반으로 번지는지를 지켜볼 것.",
+      "tags": [
+        "미국증시",
+        "잭슨홀",
+        "AI"
+      ]
+    },
+    {
+      "title": "비트코인 8만 달러 돌파, 24시간 숏 청산 2억 2천만 달러 넘어 (원문: Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M) (원문: Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인이 5월 이후 처음으로 8만 달러를 넘었고, 하루 숏 청산 규모가 2억 2천만 달러를 넘어섰다.",
+      "why_it_matters": "어제까지 '8만 달러 시험' 단계였던 것이 실제 돌파로 넘어갔다. 다만 분석은 이 가격을 유지해야 약세장 논제를 시험할 수 있다고 본다.",
+      "confidence": 0.82,
+      "original_title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
+      "implications": "숏 포지션 보유자와 파생 레버리지 이용자에게 직접 영향. 8만 달러 위에서의 체류 시간과 추가 청산 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "크립토",
+        "청산"
+      ]
+    },
+    {
+      "title": "비트코인·이더리움 ETF 지난주 230억 달러 늘었지만 신규 자금은 26억 달러뿐 (원문: Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money) (원문: Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376349/bitcoin-ethereum-etfs-23-billion-aum-inflows",
+      "one_liner": "비트코인·이더리움 ETF가 10월 이후 최대 주간 유입을 기록했지만, 증가액 대부분은 기존 보유 코인의 평가액 상승분이었다.",
+      "why_it_matters": "가격 상승을 '신규 자금 유입'으로 읽는 해석과 실제 자금 흐름 사이의 간극을 보여준다. 230억 중 26억만이 새로 들어온 돈이다.",
+      "confidence": 0.85,
+      "original_title": "Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money",
+      "implications": "ETF 유입액을 수요 지표로 쓰는 투자자에게 영향. 다음 주 순유입에서 평가익과 신규 자금이 어떤 비율로 갈리는지 지켜볼 것.",
+      "tags": [
+        "ETF",
+        "비트코인",
+        "이더리움",
+        "자금흐름"
+      ]
+    },
+    {
+      "title": "스트라이브, 비트코인 1,110개 8,150만 달러에 추가 매입…보유량 2만 1천 개 돌파 (원문: Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%) (원문: Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인 재무전략 기업 스트라이브가 개당 평균 73,409달러에 1,110개를 사들여 총 21,356개를 보유하게 됐고, 나스닥 상장 주식은 11% 넘게 올랐다.",
+      "why_it_matters": "평균 매입가 73,409달러는 현재 8만 달러 선 아래다. 기업 재무제표에 비트코인을 담는 모델이 가격 상승 국면에서 주가로 어떻게 전이되는지 보여주는 사례다.",
+      "confidence": 0.85,
+      "original_title": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
+      "implications": "비트코인 트레저리 기업 주식 보유자에게 직접 영향. 추가 매입 자금 조달 방식과 평균 단가 대비 가격 괴리를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "기업매집",
+        "스트라이브"
+      ]
+    },
+    {
+      "title": "코인베이스, Base 네트워크에 토큰화 주식 출시…주식의 블록체인 이전 경쟁에 합류 (원문: Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain) (원문: Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain",
+      "one_liner": "코인베이스가 애플·엔비디아·메타·알파벳의 토큰화 버전을 아부다비에서 만든 새 규제 체계 아래 발행하며 시작했다.",
+      "why_it_matters": "거래소가 크립토 자산이 아니라 미국 대형주를 블록체인 위에 올린다. 발행 근거지를 아부다비로 잡은 점이 규제 경로를 보여준다.",
+      "confidence": 0.8,
+      "original_title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
+      "implications": "기존 증권 인프라(예탁·청산) 사업자와 해외 투자자에게 영향. 어느 관할이 이 발행을 받아들이는지, 유동성이 실제로 붙는지를 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "코인베이스",
+        "증권"
+      ]
+    },
+    {
+      "title": "지캐시 8년 만의 최고가…선물 베팅 거의 두 배로 (원문: Zcash Hits Eight-Year High as Futures Bets Nearly Double) (원문: Zcash Hits Eight-Year High as Futures Bets Nearly Double)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376372/zcash-eight-year-high-price-futures-bets",
+      "one_liner": "ZEC가 880달러를 넘어섰고 무기한 선물 미결제약정이 18억 달러까지 늘었다.",
+      "why_it_matters": "비트코인 상승이 개별 알트코인의 레버리지 확대로 번지는 국면이다. 미결제약정이 두 배 가까이 늘었다는 것은 가격 상승분에 파생 포지션이 얹혔다는 뜻이다.",
+      "confidence": 0.78,
+      "original_title": "Zcash Hits Eight-Year High as Futures Bets Nearly Double",
+      "implications": "알트코인 파생 참여자에게 영향. 미결제약정이 이 수준에서 유지되는지, 청산으로 되감기는지를 지켜볼 것.",
+      "tags": [
+        "알트코인",
+        "지캐시",
+        "파생"
+      ]
+    },
+    {
+      "title": "트럼프 \"비트코인 추가매입 논의했다\"…구체 시점·조달방식은 밝히지 않아",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DVE5EdHExbDRvbHh3eWxqN2VNMnY5T3FMN252NGt0bTgzUVdSTDh1N0VvdDkxNnBiUGxsdWwyLVJyYjhkRXhET3NQY3V6MDdBUm53cld3?oc=5",
+      "one_liner": "트럼프가 비트코인 추가 매입을 논의했다고 말했지만, 언제 얼마를 어떻게 조달할지는 밝히지 않았다.",
+      "why_it_matters": "국가 차원의 비트코인 매입 언급 자체가 재료이지만, 구체적 내용이 빠져 있어 실행 여부를 판단할 근거가 없다.",
+      "confidence": 0.5,
+      "original_title": "트럼프 “비트코인 추가매입 논의했다”면서도 구체 시점·조달방식은 밝히지 않았다 - 위키트리",
+      "implications": "비트코인 보유자에게 심리적 영향. 실제 예산·조달 방식이 담긴 후속 문서가 나오는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "정책",
+        "미국"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
