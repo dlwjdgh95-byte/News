@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "date": "2026-08-26",
+  "slot": "am",
+  "generated_at": "2026-08-26T03:14:12.329005+09:00",
+  "top_insight": [
+    "금이 3개월 최고를 찍고 비트코인이 8만 달러 위를 밟은 것을 하나로 묶는 것은 크립토 재료가 아니라 약해진 달러와 내려간 금리다(Decrypt). 비트코인과 금의 상관도가 5년 만에 가장 높다는 집계(데일리비즈온)가 그 해석과 같은 방향이다 — 두 자산을 나눠 담아도 지금은 같은 베팅일 수 있다.",
+    "그런데 같은 화요일 FX 데스크에서는 달러가 되돌아섰다. 이란 제재 확대와 국채 바이백 재개 움직임을 함께 저울질한 결과라는 것이 로이터의 설명인데, 바이백은 어제 후보 풀에서 사라졌다가 오늘 다시 가격 재료로 돌아온 항목이다. 금과 비트코인을 밀어올린 조건이 하루 사이에 반대로 돌 수 있는 자리다.",
+    "상승의 내용물은 어제 방향으로 더 갔다. 비트코인은 주간 24% 올라 크립토 전체를 앞질렀고(도미넌스 상승) ETF는 6일 연속 유입인데, 정작 가격은 8만1천 달러 50주선에서 막혔다. 그 위에 스트래티지 이야기가 얹힌다 — 연 17억6천만 달러 의무를 자본시장 접근으로 감당하는 구조라 코인이 빠지기 전에 조달 창구가 먼저 조여든다."
+  ],
+  "whats_changed": [
+    "어제 8만 달러를 넘긴 비트코인이 오늘은 8만1천 달러 50주선 저항에 막혔다. ETF는 6일 연속 유입이고 금과의 상관도는 5년 최고로 올라섰다.",
+    "어제 후보 풀에서 사라졌던 국채 바이백이 오늘 다시 달러 가격 재료로 돌아왔다 — 이란 제재 확대와 함께 저울질되며 화요일 달러가 되돌아섰다.",
+    "관세 전선이 이란·호르무즈에서 북미로 옮겨붙었다. 캐나다가 철강·가구·의류에 50%, 총 200억 달러 규모 보복 관세를 물렸고 미·캐나다 협상은 결렬됐다.",
+    "우크라이나 축의 초점이 어제의 패트리엇 지원 요구에서 전장 기술로 넘어갔다 — 러시아가 자율 살상 AI 드론을 처음 투입했다."
+  ],
+  "themes": [
+    "매크로 한 축 — 약한 달러와 내린 금리가 금과 비트코인을 같이 밀었고, 둘의 상관도는 5년 최고다",
+    "가격보다 조달 — 스트래티지의 위험은 코인 폭락이 아니라 연 17억6천만 달러를 감당할 자본시장 접근이다",
+    "관세가 캐나다로 — 중동 제재와 별개로 북미 통상 전선이 200억 달러 보복으로 열렸다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "트럼프, 캐나다 국경까지 도발…\"온타리오호→아메리카호 변경 검토\"",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVE9KY3BRQ29ZNzdiaUJmdEJxMkx0ODIwLUhqVXI2Z2tZd3E5VTBNU1Y0S0RYNEFhMTNBckJTVF9EU29oQlRSc1VPYWMzSmdnbGlPTkFfSzdrRTlVclQtWlB3U2JoZTdYc2hmbkQxZ19MZXB5dEJjSnBlM3U1b21jUHdkRGE?oc=5",
+      "one_liner": "트럼프 대통령이 온타리오호 명칭을 아메리카호로 바꾸는 방안을 검토한다고 밝힌 가운데, 캐나다는 철강·가구·의류에 50%를 물리는 총 200억 달러 규모 보복 관세로 맞섰고 양국 협상은 결렬됐다.",
+      "why_it_matters": "관세 전선이 이란·호르무즈에서 북미로 옮겨붙었다. 쟁점이 관세를 넘어 주권 문제로 번지면서 협상 복원 난도가 올라갔다.",
+      "confidence": 0.78,
+      "original_title": "트럼프, 캐나다 국경까지 도발... \"온타리오호→아메리카호 변경 검토\" - 조선일보",
+      "implications": "북미 공급망에 걸친 철강·가구·의류 수출입 기업이 영향권 — 보복 관세 발효 시점과 품목 범위가 확대되는지 지켜볼 것.",
+      "tags": [
+        "관세",
+        "캐나다",
+        "미국",
+        "통상분쟁"
+      ]
+    },
+    {
+      "title": "트럼프 \"김정은 관계 고려해 미한훈련 축소 지시\" 재확인",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwWTRmUWlla1U3ZmdGdV9CdjZGNVJmZElmbjFXeHBGYnNVZTl4YkF5VHVRVFFHNDl6N2NhMlRlZWdFUG51VjhjLVVzVnlZVFJ1cnpyZjI1NHpLSFR0aWhabDUzbDNUWHlydlZsT0djNzBhbXV0MUJ6TU50WmQxM0HSAYIBQVVfeXFMT28yQ0xVQ3ZxWU9SVXJsOVAzMlRIYU1jN3ktNTdlb0NEVVdha05Kek9LdTdPUnFYTmlTTXFNT1FkSEd3ZzdlQ2RfNk9PWmhMNlVxalo5NEFNeFpvMW9ta0I0UTVmR1lNQ2xqVTR1cEVmQm1MTUdLQVdSN3pZNzZMbXlzdw?oc=5",
+      "one_liner": "트럼프 대통령이 김정은과의 관계를 고려해 한미 연합훈련 축소를 지시했다고 SNS에 다시 올렸고, 실제로 훈련 기간이 단축된 가운데 대북 메시지 성격인지가 주목받고 있다.",
+      "why_it_matters": "훈련 일정이라는 군사 변수가 북미 대화 신호로 쓰이는 국면이다. 같은 글에서 이 대통령을 비판한 대목이 겹치면서 한미 조율 문제로도 번졌다.",
+      "confidence": 0.75,
+      "original_title": "트럼프 “김정은 관계 고려해 미한훈련 축소 지시” 재확인… 훈련 실제 단축 속 대북 메시지 여부 주목 - VOA 한국어 홈페이지",
+      "implications": "한반도 지정학 리스크를 가격에 반영하는 쪽이 영향권 — 축소된 훈련에 북측이 어떤 형태로 응답하는지 지켜볼 것.",
+      "tags": [
+        "한미훈련",
+        "북한",
+        "트럼프",
+        "지정학"
+      ]
+    },
+    {
+      "title": "러시아, 우크라이나 전쟁에 '자율 살상 AI 드론' 첫 투입",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWm9aUVgzZGpWdmNZd3pQSjVmQWRLTGl0Vm5BejdEWDl0U1Ewb0otTmRKV2N3NWhKcUlpLTYzalBIOXpIQnVkVHM0alJWSUlFdDFGUmxoREFsbE0wcEhuUnFXWHkyVEZJbzBLMTd6ckwxeVVWd1J6LWlWdWU3NEZzTjA1aXVXWDRJeVNNMk5xNXBKTWpIS2xET29rQlozZw?oc=5",
+      "one_liner": "러시아가 우크라이나 전쟁에서 자율 살상 AI 드론을 처음 투입했다. 같은 날 우크라이나는 독립기념일 열병식에 병사 대신 드론·로봇 부대를 세웠다.",
+      "why_it_matters": "우크라이나 축의 초점이 어제의 지원 요구에서 전장 기술 자체로 옮겨갔다. 자율 무기가 실전에 들어오면 방산 수요의 품목 구성도 따라 바뀐다.",
+      "confidence": 0.65,
+      "original_title": "러는 우크라 전쟁에 ‘자율 살상 AI 드론’ 첫 투입 - 조선일보",
+      "implications": "방산·무인기·AI 반도체 수요를 보는 쪽이 영향권 — 자율 무기 규범 논의가 어떤 형태로 시작되는지 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "드론",
+        "AI",
+        "방산"
+      ]
+    },
+    {
+      "title": "이스라엘 국방, 시리아 완충지대 방문…\"군대 철수 안 해\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qek9Hc2lJaUlVNnhXbU53M0pRNk9GYW9ydmt0QWRIaFBiLVd4eVRCampCdTM4bmdPbktCVWp5UzNfVWtXcHhJeEZHcTBCc19kT1FGWFNFWE1DQTjSAWBBVV95cUxPSGd4RzhOcDBwRmVWSHdfRTNaMktxdVh5dWlUR1pfQkotaE5oamlkUFNETVkzeVNOaGc0MUlTdG5QSHNsWENwTXMxal9RY2UzUm05aWctME1tb3BJNzBPZGU?oc=5",
+      "one_liner": "이스라엘 국방장관이 시리아 완충지대를 찾아 철군은 없다고 못박았다. 동시에 미국 중재로 시리아·이스라엘 고위급 회담이 열리고 시리아 외무장관과 모사드 국장이 요르단에서 만나 안보 협상이 재개됐다.",
+      "why_it_matters": "현장에서는 주둔을 굳히면서 협상 테이블은 여는 이중 국면이다. 중동 리스크가 호르무즈 해상에서 시리아 접경으로 축을 하나 더 늘렸다.",
+      "confidence": 0.7,
+      "original_title": "이스라엘 국방, 시리아 완충지대 방문…\"군대 철수 안 해\" - 연합뉴스",
+      "implications": "중동 에너지·해운 리스크를 보는 쪽이 영향권 — 협상 재개가 실제 병력 배치 변화로 이어지는지 지켜볼 것.",
+      "tags": [
+        "이스라엘",
+        "시리아",
+        "중동",
+        "지정학"
+      ]
+    },
+    {
+      "title": "이 대통령 \"다른 점 찾으면 원수, 같은 점 찾으면 형제\"…여당 지도부와 만찬",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZVEl2YXRiUUVoNHpTaEhEZTExNE9SZ3VkcmREU0lHa3FaUWNoV01ES0R1SGh1cm9fa3M3cEI1SVNsV1djWVNFZ0M3d2Vpa1pVaDZlNkNseThRcjNKWlZld3RoQTZXcEpCRUE2ZkR2azBmQmh4?oc=5",
+      "one_liner": "이 대통령이 여당 지도부와의 만찬에서 당정청을 공동운명체로 규정하며 원팀을 주문했고, 김민석 대표는 여당답게 일하겠다고 답했다.",
+      "why_it_matters": "정책 추진 속도를 좌우하는 당정 관계 정리 자리다. 예산·입법 일정이 걸린 시기에 조율 신호가 어디까지 가는지가 관전 포인트다.",
+      "confidence": 0.72,
+      "original_title": "이 대통령 “다른 점 찾으면 원수, 같은 점 찾으면 형제”…여 지도부와 만찬 - 한겨레",
+      "implications": "정책 수혜·규제 업종을 보는 쪽이 영향권 — 원팀 주문이 실제 입법 일정 단축으로 나타나는지 지켜볼 것.",
+      "tags": [
+        "국내정치",
+        "당정",
+        "정책"
+      ]
+    },
+    {
+      "title": "달러 소폭 상승…시장은 이란 제재와 국채 바이백을 저울질했다 (원문: Dollar inches up as markets weigh Iran sanctions, Treasury buybacks)",
+      "source": "lufkindailynews",
+      "url": "https://lufkindailynews.com/news_reuters/business/dollar-inches-up-as-markets-weigh-iran-sanctions-treasury-buybacks/article_d7bb0ace-2acd-599e-a30f-0023f8ee0a76.html",
+      "one_liner": "화요일 미 달러가 일부 힘을 되찾았다. 투자자들이 워싱턴의 대이란 제재 확대와 압력을 덜기 위한 국채 바이백 재개 움직임을 함께 읽어낸 결과다.",
+      "why_it_matters": "같은 날 금과 비트코인을 밀어올린 조건이 '약한 달러'였는데, FX 데스크에서는 그 달러가 되돌아섰다. 어제 후보 풀에서 사라졌던 국채 바이백 재료가 다시 가격에 들어온 자리이기도 하다.",
+      "confidence": 0.8,
+      "original_title": "Dollar inches up as markets weigh Iran sanctions, Treasury buybacks",
+      "implications": "달러 표시 원자재·크립토를 보는 쪽이 영향권 — 제재 헤드라인과 바이백 실행 규모 중 어느 쪽이 달러를 끌고 가는지 지켜볼 것.",
+      "tags": [
+        "달러",
+        "이란제재",
+        "국채",
+        "매크로"
+      ]
+    },
+    {
+      "title": "인도, 설탕 재고 15일치만 남자 수입 허용…축제 시즌 물가 변수 (원문: Left with stock for 15 days of sugar consumption, govt allows import, how it may impact upcoming festivals)",
+      "source": "dnaindia",
+      "url": "https://www.dnaindia.com/india/report-left-with-stock-for-15-days-of-sugar-consumption-govt-allows-import-how-it-may-impact-upcoming-festivals-3219171",
+      "one_liner": "인도 정부가 설탕 재고가 15일 소비분만 남은 상황에서 수입을 허용했다. 축제 시즌을 앞두고 설탕 가격이 급등하자 공급을 늘리고 사재기를 잡기 위한 조치다.",
+      "why_it_matters": "세계 최대 설탕 소비국이 수입으로 돌아서면 국제 설탕 수급의 방향이 바뀐다. 식료품 물가가 정책 대응을 부르는 전형적인 경로이기도 하다.",
+      "confidence": 0.72,
+      "original_title": "Left with stock for 15 days of sugar consumption, govt allows import, how it may impact upcoming festivals",
+      "implications": "설탕·식품 원자재를 다루는 쪽이 영향권 — 수입 허용 물량과 국제 설탕 가격 반응을 지켜볼 것.",
+      "tags": [
+        "인도",
+        "설탕",
+        "원자재",
+        "물가"
+      ]
+    },
+    {
+      "title": "페덱스, 델리 공항에 1억5천만 달러 통합 항공화물 허브 건설 (원문: FedEx to build integrated air cargo hub at Delhi airport with $150 million investment)",
+      "source": "socialnews",
+      "url": "https://www.socialnews.xyz/2026/08/25/fedex-to-build-integrated-air-cargo-hub-at-delhi-airport-with-150-million-investment/",
+      "one_liner": "페덱스가 화요일 인디라 간디 국제공항 GMR 카고시티에 약 1억5천만 달러를 들여 통합 항공화물 허브를 짓겠다고 발표했다.",
+      "why_it_matters": "글로벌 물류 기업이 인도 항공화물 거점에 투자한다는 것은 그 노선의 물동량 전망을 길게 본다는 신호다.",
+      "confidence": 0.75,
+      "original_title": "FedEx to build integrated air cargo hub at Delhi airport with $150 million investment",
+      "implications": "항공화물·물류 업종을 보는 쪽이 영향권 — 인도발 국제 화물 노선이 실제로 늘어나는지 지켜볼 것.",
+      "tags": [
+        "페덱스",
+        "인도",
+        "물류",
+        "항공화물"
+      ]
+    },
+    {
+      "title": "금값 3개월 최고…비트코인은 8만 달러를 시험했다 (원문: Gold Hits Three-Month High as Bitcoin Tests $80,000)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376489/gold-price-three-month-high-bitcoin",
+      "one_liner": "약해진 달러와 내려간 금리가 금 수요를 밀어올려 금이 8월 랠리를 이어갔고, 비트코인은 5월 이후 처음으로 8만 달러 위를 잠시 밟았다.",
+      "why_it_matters": "금과 비트코인을 같은 날 같은 방향으로 민 것이 크립토 고유 재료가 아니라 달러 약세·금리 하락이라는 매크로 한 축이다. 자산군이 달라도 조건이 하나면 되돌림도 같이 온다.",
+      "confidence": 0.8,
+      "original_title": "Gold Hits Three-Month High as Bitcoin Tests $80,000",
+      "implications": "달러·금리에 노출된 자산을 함께 들고 있는 쪽이 영향권 — 두 포지션이 분산이 아니라 같은 베팅일 수 있는지 지켜볼 것.",
+      "tags": [
+        "금",
+        "비트코인",
+        "달러",
+        "금리"
+      ]
+    },
+    {
+      "title": "비트코인, 50주선 저항으로 8만1천 달러서 상승 제한…ETF 6일 연속 유입·금과 상관도 5년 최고",
+      "source": "데일리비즈온",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yTTBPNTNHMHg4dklkNTRNRFdOcmcwMEtuZDE2NURoNlVJRzdCY05ybEdwQl9GVktqYTc4eXlOcC1xYy1FMXdaVjU3eWFmaWM5LTZ1aWlLVlc3UElMTVRoaGdpUzZMUjdOV2Z2cw?oc=5",
+      "one_liner": "비트코인이 8만1천 달러 부근에서 50주 이동평균선 저항에 막혀 상승이 제한됐다. 같은 기간 ETF는 6일 연속 자금이 들어왔고, 금과의 상관도는 5년 만에 가장 높아졌다.",
+      "why_it_matters": "어제 8만 달러 돌파가 오늘은 '어디서 막히는가'의 문제로 바뀌었다. 금과의 상관도가 5년 최고라는 집계는 이번 상승이 크립토 서사보다 매크로 서사에 얹혀 있다는 쪽을 가리킨다.",
+      "confidence": 0.58,
+      "original_title": "[D-BIZ 암호화폐 뉴스] 비트코인, 50주선 저항으로 8만1천달러서 상승 제한…ETF 6일 연속 유입·금과 상관도 5년 최고 - 데일리비즈온",
+      "implications": "비트코인을 분산 자산으로 담은 쪽이 영향권 — 금과 같이 움직이는 구간에서는 분산 효과가 줄어든다는 점을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "기술적저항",
+        "금"
+      ]
+    },
+    {
+      "title": "비트코인 랠리가 크립토 시장 전체를 앞지르고 있다 (원문: Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376446/bitcoins-price-rally-outrunning-market",
+      "one_liner": "비트코인이 이번 주 약 24% 오르는 동안 크립토 시장 전체는 그보다 덜 올랐고, 그 격차가 비트코인 시장 점유율(도미넌스) 상승으로 나타났다.",
+      "why_it_matters": "돈이 크립토 전반으로 퍼지는 국면이 아니라 비트코인 한 종목으로 모이는 국면이라는 뜻이다. 어제 확인된 '신규 자금은 얇다'는 그림과 방향이 같다.",
+      "confidence": 0.78,
+      "original_title": "Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why",
+      "implications": "알트코인 비중이 큰 쪽이 영향권 — 도미넌스가 계속 오르는 동안 알트 수익률이 지수에 뒤처지는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "도미넌스",
+        "알트코인"
+      ]
+    },
+    {
+      "title": "660억 달러 비트코인 기계 스트래티지, 관건은 코인 가격이 아니라 자본시장 (원문: Strategy’s $66B Bitcoin machine hinges on capital markets, not BTC price: Report)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "보고서에 따르면 스트래티지의 최대 위험은 비트코인 폭락이 아니라, 연 17억6천만 달러의 의무를 감당하게 해주는 자본시장 접근을 잃는 것이다.",
+      "why_it_matters": "비트코인 보유 기업의 취약점이 자산 가격이 아니라 조달 창구에 있다는 지적이다. 가격이 버텨도 발행 창구가 닫히면 문제가 먼저 온다.",
+      "confidence": 0.72,
+      "original_title": "Strategy’s $66B Bitcoin machine hinges on capital markets, not BTC price: Report",
+      "implications": "비트코인 재무전략 기업 주식을 보는 쪽이 영향권 — 코인 가격보다 신주·전환사채 발행 조건이 어떻게 바뀌는지 지켜볼 것.",
+      "tags": [
+        "스트래티지",
+        "비트코인",
+        "자본조달",
+        "기업재무"
+      ]
+    },
+    {
+      "title": "비트와이즈, 코인베이스와 자가수탁형 토큰화 주식 포트폴리오 출시 (원문: Bitwise launches self-custodied tokenized stock portfolios with Coinbase)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/bitwise-launches-self-custodied-tokenized-stock-portfolios-with-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트와이즈의 새 포트폴리오는 코인베이스의 토큰화 주식을 자동으로 리밸런싱하면서, 자격을 갖춘 비미국 투자자가 자산을 자기 지갑에 그대로 보관할 수 있게 한다.",
+      "why_it_matters": "주식이라는 기초자산을 증권사 계좌가 아니라 개인 지갑에 두는 상품이다. 토큰화 주식이 실험 단계를 넘어 운용 상품 형태로 넘어오는 신호다.",
+      "confidence": 0.78,
+      "original_title": "Bitwise launches self-custodied tokenized stock portfolios with Coinbase",
+      "implications": "증권·수탁 업계가 영향권 — 자가수탁 구조에 각국 규제 당국이 어떤 판단을 내리는지 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "비트와이즈",
+        "코인베이스",
+        "자가수탁"
+      ]
+    },
+    {
+      "title": "레이어제로, 크립토·토큰화 시장용 거래 인프라 공개…ZRO 급등 (원문: LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges",
+      "one_liner": "레이어제로가 자사 Zero 블록체인 위에서 돌아가는 크립토·토큰화 시장용 거래 인프라를 내놨다. 시타델 증권이 뒤를 받치고 DTCC와 ICE가 기관용 활용 방안을 살피고 있다.",
+      "why_it_matters": "시타델 증권·DTCC·ICE라는 이름이 붙었다는 것은 기존 청산·거래소 인프라 쪽이 토큰화 레일을 직접 검토하는 단계라는 뜻이다.",
+      "confidence": 0.72,
+      "original_title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
+      "implications": "거래소·청산기관·시장조성 업계가 영향권 — 검토가 실제 도입으로 넘어가는지, 어느 자산군부터인지 지켜볼 것.",
+      "tags": [
+        "레이어제로",
+        "토큰화",
+        "시장인프라",
+        "기관"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
