@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "date": "2026-08-28",
+  "slot": "am",
+  "generated_at": "2026-08-28T03:17:12.006998+09:00",
+  "top_insight": [
+    "오늘 시장을 움직인 축은 하나다. 엔비디아 2분기 실적이 예상을 40억 달러가량 웃돌자 미국 증시와 비트코인이 같이 올랐고, 같은 회사의 칩이 어디로 흘러갔는지를 두고 미국이 싱가포르 물류사를 조사하며, 허깅페이스 인수설까지 붙었다. 한 기업의 실적·공급망·인수설이 반도체·암호화폐·물류 규제를 동시에 흔든다.",
+    "중동은 어제와 반대 방향으로 갔다. 시장이 기대하던 호르무즈 개방 협상은 백악관이 '이란과 아무 대화가 없다'고 못 박으면서 전제가 사라졌고, 동맹국들은 해협에 기뢰가 남아 있다며 개방 주장 자체에 의문을 달았다. 3거래일 이어진 유가 하락은 이 대치가 얼마나 가느냐에 달렸다.",
+    "국내는 갈라지는 쪽이다. 서울 아파트값은 중랑·성북이 뛰는 동안 강남·서초가 3주째 내렸고, 여당은 정기국회를 앞두고 노선 다툼이 공개 충돌로 번졌다."
+  ],
+  "whats_changed": [
+    "호르무즈: 어제는 '이란-오만 개방 협상 어디까지'였는데, 오늘 백악관이 이란과 아무런 대화가 없다고 밝히며 협상 프레임 자체가 사라졌다. 동맹국들은 기뢰 잔존을 이유로 개방 주장에도 의문을 달았다.",
+    "엔비디아: 어제는 '엔비디아發 훈풍'에 코스피가 7000선 회복을 시도하는 기대 단계였는데, 오늘은 2분기 실적이 예상을 약 40억 달러 상회한 것으로 확인됐고 비트코인이 8만1천 달러를 겨냥했다.",
+    "우크라이나: 어제 '푸틴 전술핵 카드 만지작' 보도 수준이었던 것이, 오늘은 9개 도시 수 시간 공습과 쇼핑몰 피격·최소 16명 사망으로 실제 확전이 됐다.",
+    "반도체 공급망: 어제 한미관계 의제가 '9월 유엔총회·대미투자 발표'였다면, 오늘 SK하이닉스가 인디애나 HBM4E 양산 계획을 구체적 목표 시점과 함께 내놨다."
+  ],
+  "themes": [
+    "엔비디아가 지표가 됐다 — 실적·공급망 조사·인수설이 증시·암호화폐·물류 규제를 한꺼번에 움직인다",
+    "중동은 협상이 아니라 대치로 — 백악관이 대화 자체를 부인하면서 유가 하락의 전제가 흔들렸다",
+    "정책이 아니라 지역이 가격을 가른다 — 서울 중저가는 오르고 강남·서초는 3주째 내렸다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "잭슨홀 심포지엄 진행 — 40년 만에 처음 결제·금융인프라가 중심 의제",
+    "락스타, GTA 6 첫 공식 게임플레이 공개",
+    "인테사 산파올로 분기 실적 발표 — 9월 3일(목), 주당 0.958달러·매출 79.56억 달러 전망",
+    "SK하이닉스 미 인디애나 패키징팹 HBM4E 양산 목표 — 2029년 3분기",
+    "채텀하우스 2027 글로벌 무역 컨퍼런스 — 2027년 3월 17~18일"
+  ],
+  "items": [
+    {
+      "title": "SK하이닉스, 인디애나서 연 수십만 장 '메이드 인 USA' HBM 만든다",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIaldiWG52QllvdGIyQmEtU0ZyYzZUdlFya1BZaHFXN2loSFlRUzNpYm4tTHFUY1FKbDJIcGl6LW53bjAtS05GN0hyaFRieG9tbE9xd05wTF9tNEk?oc=5",
+      "one_liner": "SK하이닉스가 미국 인디애나 패키징팹에서 HBM4E를 양산해 한·미 통합 생산 체제를 짜겠다고 밝혔다.",
+      "why_it_matters": "HBM은 AI 가속기의 병목 부품인데, 그 후공정이 한국 밖으로 나가는 첫 대형 사례다. 관세·공급망 안보 요구에 메모리 업체가 어떻게 대응하는지 보여주는 기준점이 된다.",
+      "confidence": 0.7,
+      "original_title": "SK하이닉스, 인디애나서 年수십만장 ‘메이드인 USA’ HBM 만든다 - KBS 뉴스",
+      "implications": "국내 후공정 협력사와 인디애나 현지 인력·전력 인프라를 지켜볼 것. 2029년 3분기 양산 목표까지의 중간 마일스톤이 실제로 지켜지는지가 관건이다.",
+      "tags": [
+        "반도체",
+        "HBM",
+        "SK하이닉스",
+        "한미"
+      ]
+    },
+    {
+      "title": "백악관 \"미·이란 협상 없어\"…카타르는 중동 긴장 완화 중재",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44bWhjMHhYZ0xyLUU4VGFZQ2k5NGpPUVpkMExZUExvY3BhaWF6U1ZEdGJEaGtmcUJaaGtoSm9yN09xQXZhZl81aFRmVGhndWNJR0RycURySEJtcm5GODVMa1pndkR0Z3Z2WTA3VtIBb0FVX3lxTE50b3dTdk5sQXRuYmo5Z3dmVF8tdGhfVldTV0UxaHlrQVJvY0VFMVkwc2FQRnNnSWdJaEZuZFZ1R0VUMjhaUHY2cGxrOHNzZWgtR091VXBjN1RacnRBUlpjbHdPb3NHNlVVMFhQUXAwOA?oc=5",
+      "one_liner": "백악관이 이란과 현재 아무런 대화가 없고 호르무즈 해협은 개방 상태라고 밝혔지만, 미국 동맹국들은 기뢰가 남아 있다며 이 주장에 의문을 표했다.",
+      "why_it_matters": "어제까지 시장이 기대하던 '호르무즈 개방 협상'의 전제가 흔들렸다. 원유 수송로의 실제 안전 여부를 두고 미국과 동맹국의 설명이 갈린다는 점이 더 중요하다.",
+      "confidence": 0.68,
+      "original_title": "백악관 “미·이란 협상 없어”…카타르, 중동 긴장 완화 노력 - VOA 한국어 홈페이지",
+      "implications": "유가와 해상 운임·전쟁보험료를 함께 볼 것. 협상 부재가 길어지면 최근 3거래일 이어진 유가 하락이 되돌려질 수 있다.",
+      "tags": [
+        "중동",
+        "호르무즈",
+        "이란",
+        "유가"
+      ]
+    },
+    {
+      "title": "러시아, 우크라이나 9개 도시 수 시간 공습…쇼핑몰 피격·민간인 사망",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZWl4UzB1cVFfNm1DWXcwYjNRSHNrSHc1SUJSMXdnQlJmV1JocDREbTc5eFFRcl8zeURXb1Rkem1OdXlTUGZqZkpMbzNmNDNMYTRxZXQ2M1FFYUxkYm5RWnRyTUUtZWlodVBycW5Qb2RGUdIBdEFVX3lxTE1nY1VtWGVMdG5sMVRmUmF2ZnlVc19fWTkzTHM0b0QyVmMyUndIVlFlMlZ3SmdlaVhRVGF6NnAwckIwNWJFaFhscFhaNG5TVy1UdGpqUmxFRWJhR0QteEduY3djeDdFT2RicElsbGRhZm5aUVJN?oc=5",
+      "one_liner": "러시아가 우크라이나 9개 도시를 수 시간에 걸쳐 공습해 쇼핑몰이 피격되고 최소 16명이 숨졌다고 보도됐다.",
+      "why_it_matters": "'전쟁이 끝난다'는 미국 측 발언과 실제 전선 상황이 정반대로 벌어지고 있다. 전술핵 사용 가능성까지 거론되는 단계로 보도 수위가 올라갔다.",
+      "confidence": 0.62,
+      "original_title": "러시아, 우크라이나 9개 도시 수 시간 공습…쇼핑몰 피격·민간인 사망 - VOA 한국어 홈페이지",
+      "implications": "유럽 천연가스·곡물 가격과 방산주를 지켜볼 것. 러시아가 협상 무의미로 판단했다는 관측이 사실이면 휴전 기대에 기댄 포지션이 먼저 되돌려진다.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "지정학"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "러, 영·프의 장거리 미사일 제조기술 우크라 지원에 \"보복 대상 될 것\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KNjBNSnlaaHgzblNSd3JrUnVTTlE3MXMzUXdGc2drSVhFcy1EWGNVQ1ZodnFfckpSWDhtb1l4YWVYVEV1TlVBSzh5Ykd0dFNEQklOa1o1NzZoZnNz?oc=5",
+      "one_liner": "러시아가 영국·프랑스의 장거리 미사일 기술 지원을 두고 해당 국가를 표적 삼겠다고 경고했고, '의지의 연합'은 첫 합동 군사훈련을 예고했다.",
+      "why_it_matters": "전쟁 당사국 밖으로 위협이 확장되는 국면이다. 영국이 우크라이나 전쟁 데이터를 군사 AI 학습에 쓰겠다고 한 것도 같은 흐름에 있다.",
+      "confidence": 0.6,
+      "original_title": "러, 영·프의 장거리 미사일 제조기술 우크라 지원에 \"보복 대상 될 것\" - 뉴스핌",
+      "implications": "유럽 방산 예산과 나토 회원국 발주를 지켜볼 것. 이탈리아의 SAMP/T 제공처럼 방공 시스템 이전이 이어지면 관련 업체 수주가 늘어난다.",
+      "tags": [
+        "러시아",
+        "유럽",
+        "방산",
+        "지정학"
+      ]
+    },
+    {
+      "title": "중랑·성북 아파트값 뛰고, 강남·서초는 3주째 하락",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QOWo1LUgyZ3IwNVVzanM5ejNZbW1ycXdOd3V0dkNDTDdpNzdKRENGQlVnWUpaMlFsRmkyMG1uMXVSOGV2dnFaZm1MVFlqM3NIU3VEODJ1c2gyUloxbXlYNU1jUi1hT3Z6dnRXdGM4MDNpd3RTWGfSAWZBVV95cUxQNVQ2ZjJHOW5Lc1dIaUVlT2NMU25NeUFza2JNS3Axa0VUZEpaSElnc2RpUmEtNzJPRlNDM012cjVST2lJYUd4UmVYQTNrTlNDNFFoRWwzTmp2S3Q3UTVvSzlkdUcxUWc?oc=5",
+      "one_liner": "서울 중저가 아파트가 강세를 보이는 사이 강남·서초는 3주 연속 내렸고, 경기 영통·동탄도 오름폭을 키웠다.",
+      "why_it_matters": "규제와 세제 개편의 효과가 지역별로 정반대로 나타나고 있다. 상급지가 조정받는 동안 중저가 단지로 수요가 옮겨가는 전형적인 풍선 패턴이다.",
+      "confidence": 0.65,
+      "original_title": "중랑-성북 아파트값 뛰고, 강남-서초는 3주째 하락 - 동아일보",
+      "implications": "노·도·강과 경기 남부의 신고가 거래 빈도를 지켜볼 것. 상승이 중저가로만 몰리면 가계대출 규제 강도가 다시 논의될 수 있다.",
+      "tags": [
+        "부동산",
+        "서울아파트",
+        "가계부채"
+      ]
+    },
+    {
+      "title": "신규댐 7곳 추진 여부 확정…5곳 짓고 2곳은 대안 추진",
+      "source": "대한민국 정책브리핑",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1URGZmaEdBSXhJZDVqNGdzcnFCZ0JHOU1kOEFmWC16LW1DNEVLYnZQemRJLWR4bnMzZGk1UjVNaEVaMHFZTW5aX2ZaY2NpTXdta0hKVnk3azZhUGNpYkQwUjFsUGwxRFlKTGRXVg?oc=5",
+      "one_liner": "정부가 기후대응댐 후보 14곳 중 5곳만 건설하기로 결론 내리고, 거제 고현천댐과 울산 회야댐 수문 설치 등 세부 사업을 확정했다.",
+      "why_it_matters": "수년간 표류하던 기후대응댐 계획이 실제 발주 단계로 넘어갔다. 회야댐 수문에만 950억 원이 배정되는 등 규모가 구체화됐다.",
+      "confidence": 0.66,
+      "original_title": "신규댐 7곳 추진여부 확정…5곳 짓고 2곳은 대안 추진 - 대한민국 정책브리핑",
+      "implications": "토목·수처리 관련 중소 건설사 수주를 지켜볼 것. 청양 지천댐처럼 주민 찬반이 갈리는 곳은 착공 일정이 밀릴 수 있다.",
+      "tags": [
+        "인프라",
+        "건설",
+        "정책",
+        "기후"
+      ]
+    },
+    {
+      "title": "김민석 \"정청래 '중도는 없다'론자\"…정청래 \"마이크 독재\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZLVduRUpTUnJGN3ZTRVhsUElZLXFXbktzOFZoRkk1bklHaGw5Nm93R0M4UnNkRHZwX05aanVDMXdMZFBubUc4QXJYODFHdFVCc21UbW1zZjZIN291RUFuTEwzaGR3cnZPb0xMLVF6WHB2Szlu?oc=5",
+      "one_liner": "여당 워크숍에서 김민석이 민생·실용·확장을 노선으로 제시하며 정청래를 여러 차례 거론했고, 정청래는 논리 전개의 도구로 쓰였다며 유감을 표했다.",
+      "why_it_matters": "정기국회를 앞두고 여당 내 노선 갈등이 공개 충돌로 번졌다. 입법 우선순위가 어디로 갈지 정해지는 국면이라 예산·규제 법안 일정에 직접 영향을 준다.",
+      "confidence": 0.6,
+      "original_title": "김민석 “정청래 ‘중도는 없다’론자”…정청래 “마이크 독재” - 한겨레",
+      "implications": "정기국회 입법 목록과 여야 예산 협상 일정을 지켜볼 것. 노선 다툼이 길어지면 계류 중인 경제 법안 처리가 밀린다.",
+      "tags": [
+        "국내정치",
+        "정기국회",
+        "입법"
+      ]
+    },
+    {
+      "title": "엔비디아 칩 밀수 의혹 미국 조사에 싱가포르 아펙스 로지스틱스 '전면 협조' (원문: Singapore-based Apex Logistics 'fully cooperating' in US probe into alleged smuggling of Nvidia chips) (원문: Singapore-based Apex Logistics ‘fully cooperating’ in US probe into alleged smuggling of Nvidia chips)",
+      "source": "businesstimes",
+      "url": "https://www.businesstimes.com.sg/startups-tech/technology/singapore-based-apex-logistics-fully-cooperating-us-probe-alleged-smuggling-nvidia-chips",
+      "one_liner": "미국이 슈퍼마이크로 제조 시스템의 운송 여부를 두고 싱가포르 물류기업 아펙스 로지스틱스를 조사 중이고, 회사는 전면 협조 방침을 밝혔다.",
+      "why_it_matters": "AI 반도체 수출통제가 칩 제조사가 아니라 물류·환적 단계로 확대되고 있다. 트럼프 행정부가 환적(transhipment) 단속 수위를 올리는 흐름과 맞물린다.",
+      "confidence": 0.7,
+      "original_title": "Singapore-based Apex Logistics ‘fully cooperating’ in US probe into alleged smuggling of Nvidia chips",
+      "implications": "동남아 물류 허브를 경유하는 서버·GPU 화물의 통관 지연 가능성을 지켜볼 것. 아시아 물류·항공화물 기업의 컴플라이언스 비용이 올라갈 수 있다.",
+      "tags": [
+        "수출통제",
+        "엔비디아",
+        "물류",
+        "싱가포르"
+      ]
+    },
+    {
+      "title": "태국 7월 수출 전년비 21.6% 증가…공장 생산 회복에 전망치 상회 (원문: Thai July exports rise 21.6% y/y, beating forecast as factory output rises) (원문: Thai July exports rise 21.6% y/y, beating forecast as factory output rises)",
+      "source": "brecorder",
+      "url": "https://www.brecorder.com/news/40436646/thai-july-exports-rise-216-yy-beating-forecast-as-factory-output-rises",
+      "one_liner": "태국의 7월 통관 기준 수출이 전년 대비 21.6% 늘어 로이터 폴 전망치 17.75%를 웃돌았고, 수입은 36.7% 증가했다.",
+      "why_it_matters": "두 달 연속 20%대 수출 증가는 아세안 제조업 사이클이 살아 있다는 신호다. 수입이 수출보다 더 빠르게 늘어난 점은 재고 축적이나 원자재 투입이 앞서고 있음을 시사한다.",
+      "confidence": 0.72,
+      "original_title": "Thai July exports rise 21.6% y/y, beating forecast as factory output rises",
+      "implications": "한국의 대아세안 중간재 수출과 함께 볼 것. 수입 급증이 무역수지를 압박하면 바트화 방향이 갈릴 수 있다.",
+      "tags": [
+        "아세안",
+        "수출",
+        "무역",
+        "태국"
+      ]
+    },
+    {
+      "title": "QNB그룹·마스터카드, 시리아에서 세계 최초 국제 카드 결제 성사 (원문: QNB Group, Mastercard enable world's first international card payment in Syria) (원문: QNB Group, Mastercard enable world’s first international card payment in Syria)",
+      "source": "thepeninsulaqatar",
+      "url": "https://thepeninsulaqatar.com/article/27/08/2026/qnb-group-mastercard-enable-worlds-first-international-card-payment-in-syria",
+      "one_liner": "카타르 QNB그룹이 마스터카드와 함께 시리아에서 처음으로 국제 카드 결제를 끝에서 끝까지 완결시켰다.",
+      "why_it_matters": "제재로 끊겨 있던 시리아가 국제 결제망에 다시 연결되는 첫 실물 사례다. 결제 배관이 열리는 순서는 보통 자본 유입 순서와 같다.",
+      "confidence": 0.68,
+      "original_title": "QNB Group, Mastercard enable world’s first international card payment in Syria",
+      "implications": "중동 재건 관련 발주와 걸프 자본의 시리아 진출을 지켜볼 것. 제재 완화가 어디까지 적용되는지가 다음 확인 지점이다.",
+      "tags": [
+        "중동",
+        "시리아",
+        "결제",
+        "제재"
+      ]
+    },
+    {
+      "title": "엔비디아 실적 서프라이즈에 비트코인 8만1천 달러 조준 (원문: Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets) (원문: Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-eyes-81k-as-nvidia-earnings-beat-boosts-risk-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "엔비디아 2분기 실적이 시장 예상을 약 40억 달러 웃돌면서 미국 증시와 암호화폐가 함께 올랐다.",
+      "why_it_matters": "한 종목의 실적이 위험자산 전체의 방향을 정하는 국면이 계속되고 있다. 비트코인이 주식과 같은 방향으로 움직인다는 건 독립 자산이라기보다 유동성·위험선호의 파생물로 거래되고 있다는 뜻이다.",
+      "confidence": 0.72,
+      "original_title": "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
+      "implications": "AI 자본지출에 노출된 반도체·전력·데이터센터 종목과 비트코인의 상관계수를 함께 볼 것. 엔비디아 가이던스가 꺾이는 날 두 자산이 같이 빠질 위험이 있다.",
+      "tags": [
+        "엔비디아",
+        "실적",
+        "비트코인",
+        "위험자산"
+      ]
+    },
+    {
+      "title": "잭슨홀 개막, 40년 만에 처음 결제·금융인프라가 의제 (원문: Bitcoin Eyes Major Resistance as Jackson Hole Kicks Off With Unusual Fed Agenda) (원문: Bitcoin Eyes Major Resistance as Jackson Hole Kicks Off With Unusual Fed Agenda)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376737/bitcoin-resistance-jackson-hole-fed-agenda",
+      "one_liner": "비트코인이 8만 달러 위를 지키는 가운데, 잭슨홀 심포지엄이 40년 만에 처음으로 결제와 금융 인프라를 중심 주제로 열렸다.",
+      "why_it_matters": "연준의 연례 학술 무대가 금리·물가가 아니라 결제 배관을 다룬다는 건 통화정책의 관심축이 이동했다는 신호다. 스테이블코인·토큰화 논의가 규제 문서로 넘어가는 경로이기도 하다.",
+      "confidence": 0.6,
+      "original_title": "Bitcoin Eyes Major Resistance as Jackson Hole Kicks Off With Unusual Fed Agenda",
+      "implications": "심포지엄에서 나올 결제·인프라 관련 발언과 후속 실무 문서를 지켜볼 것. 결제 사업자·수탁 인프라 쪽이 금리 전망보다 먼저 반응할 수 있다.",
+      "tags": [
+        "연준",
+        "잭슨홀",
+        "결제인프라",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "GTA 6 유출자, 락스타 게임플레이 공개 몇 시간 전 자기 밈코인 전량 매도 (원문: GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal) (원문: GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal",
+      "one_liner": "미공개 GTA 6 영상을 9일간 흘려 시가총액 2500만 달러까지 띄운 밈코인의 발행자가, 락스타의 첫 공식 게임플레이 공개 몇 시간 전에 보유분을 팔아치웠다.",
+      "why_it_matters": "정보 우위를 쥔 사람이 토큰을 발행하고 정보 소진 직전에 빠지는 구조가 그대로 재현됐다. 밈코인 시장에 남아 있는 구조적 취약점을 보여준다.",
+      "confidence": 0.62,
+      "original_title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+      "implications": "유출·루머에 연동된 토큰의 발행자 지갑 움직임을 지켜볼 것. 규제당국이 밈코인 내부자 거래를 어떻게 다루는지가 다음 쟁점이다.",
+      "tags": [
+        "암호화폐",
+        "밈코인",
+        "시장조작"
+      ]
+    }
+  ],
+  "archived_count": 1,
+  "failed_sources": []
+}
