@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "date": "2026-08-29",
+  "slot": "am",
+  "generated_at": "2026-08-29T03:13:52.941643+09:00",
+  "top_insight": [
+    "오늘 시장의 축은 워시 연준의장의 첫 잭슨홀 연설이다. 물가지표를 더 우려한다며 추가 긴축을 시사했고, 연설 전 관망하던 아시아 증시·외환·채권은 방향을 잡지 못한 채 원/달러가 1,380원에 육박했으며 비트코인은 8만 달러 돌파에 실패하고 7만8,400달러로 밀렸다.",
+    "호르무즈는 하루 만에 뒤집혔다. 어제 백악관이 이란과의 대화 자체를 부인하고 동맹국들이 기뢰 잔존을 주장하던 자리에, 오늘은 미 중부사령부의 '기뢰 완전 제거·항로 개방' 발표와 이란-오만의 통항 관리·수익 배분 합의가 들어왔다. 3거래일 이어진 유가 하락에 근거가 붙은 셈인데, 정작 이란 안에서는 새 제재 이후 주유소 앞에 1km 줄이 섰다.",
+    "AI가 통화정책과 신용시장 양쪽에 동시에 들어왔다. 워시는 연설 한 절을 AI에 할애했고, 불리시는 GPU를 담보로 한 대출에 1억 달러 스테이블코인 유동성을 댄다. 같은 날 시드니 건설사의 23억 달러 부채난이 사모신용을 때렸다 — 담보가 아파트든 GPU든 차환 비용이 안 내려가면 같은 자리가 아프다."
+  ],
+  "whats_changed": [
+    "호르무즈: 어제는 백악관이 이란과 아무 대화가 없다고 못 박고 동맹국들이 기뢰 잔존을 근거로 개방 주장에 의문을 달았는데, 오늘은 미 중부사령부가 기뢰를 완전히 제거했고 통항이 탄력을 받고 있다고 발표했다. 로이터는 이란과 오만이 통항 관리와 수익 배분에 합의했다고 전했다.",
+    "비트코인: 어제 8만1천 달러를 겨냥하던 흐름이 오늘 워시 연설 뒤 7만8,400달러로 내려앉았다. 8만 달러 돌파를 결정적으로 만들지 못했다.",
+    "장을 움직인 주체: 어제는 엔비디아 실적 하나가 증시·암호화폐·물류 규제를 동시에 흔들었는데, 오늘은 그 랠리 뒤 아시아가 관망으로 돌아서고 연준 의장의 말이 축을 가져갔다.",
+    "반도체: 어제 SK하이닉스의 인디애나 HBM4E 양산 계획이 나왔다면, 오늘은 그 발표를 부른 압박의 정체가 드러났다 — 미국이 칩이 들어간 완제품까지 관세 대상으로 넓히는 방안을 검토 중이다."
+  ],
+  "themes": [
+    "매파 워시 — 첫 잭슨홀에서 물가 우려와 추가 긴축을 꺼내며 9월 완화 기대를 되돌렸다",
+    "호르무즈는 열리고 이란은 조인다 — 항로 개방과 국내 연료 사재기가 같은 날 나왔다",
+    "담보가 된 GPU — AI 설비 자금이 스테이블코인 대출로 넘어가는 동안 사모신용은 부동산에서 먼저 금이 갔다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "9월 FOMC 금리 결정 — 워시 의장이 잭슨홀에서 힌트를 주지 않아 시장은 이 회의를 기다린다",
+    "슈왑의 솔라나·아발란체·체인링크 거래 지원 개시 — 출시일 미정",
+    "미 반도체 관세 확대안 — 칩 탑재 완제품 부과 여부 검토 중"
+  ],
+  "items": [
+    {
+      "title": "워시 연준의장 \"美 물가지표 더욱 우려\"…추가 긴축 시사",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RUlRtLWNCZ3lxaE12b2FERUFTbUVyckpta1Z1d0d4N3ZXTDdTQXlpZWFjY0pRdzRwbUZSTnZiV0N0Q3puV0x4ckF1bHpUQ2RiZVlfYk0xcjNuaEU?oc=5",
+      "one_liner": "워시 연준의장이 잭슨홀 첫 연설에서 물가지표 우려를 밝히며 추가 긴축 가능성을 시사했다.",
+      "why_it_matters": "9월 금리 경로의 기준점이다. 완화를 기대하던 자산 가격이 전제부터 다시 짜야 한다.",
+      "confidence": 0.78,
+      "original_title": "워시 연준의장 “美 물가지표 더욱 우려”…추가 긴축 시사 - KBS 뉴스",
+      "implications": "달러 강세·원화 약세 압력 — 원/달러 1,380원 선 재접근 여부와 국내 금리 민감 업종을 지켜볼 것.",
+      "tags": [
+        "연준",
+        "금리",
+        "잭슨홀",
+        "환율"
+      ]
+    },
+    {
+      "title": "미 중부사령부 \"호르무즈 해협 이란 기뢰 완전 제거…항로 개방\"",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fSmZNb0tpRnhCSWRJTE93TlNPUWN4MWgwLUpycGowVkhGWmROcENITnVrVVJGNTN3OTlpZHItTnF1em1CN0w5ZmtWUXl4MnFn0gFTQVVfeXFMT2UtN1c2MG1NcUJaUVNkX1RVcEFuNVczOHVuWlkyRHMtcVhrc3EzWE9Cc2hYWi1UZTZzSFVHOVR2TXk0TVZ3NDQtRUlPTGZpWlAxekk?oc=5",
+      "one_liner": "미 중부사령부가 호르무즈 해협의 이란 기뢰를 완전히 제거했고 통항이 점차 탄력을 받고 있다고 밝혔다.",
+      "why_it_matters": "유가에 얹혀 있던 봉쇄 프리미엄의 근거가 사라진다. 3거래일 이어진 유가 하락의 배경이다.",
+      "confidence": 0.72,
+      "original_title": "미 중부사령부 \"호르무즈 해협 이란 기뢰 완전 제거…항로 개방\" - VOA 한국어 홈페이지",
+      "implications": "해운 보험료·유조선 운임이 실제로 내려가는지 — 항로 개방 발표와 실제 통항량의 시차를 볼 것.",
+      "tags": [
+        "호르무즈",
+        "유가",
+        "이란",
+        "해운"
+      ]
+    },
+    {
+      "title": "\"테헤란 주유소 앞 1km 대기 줄…미국 새 제재 이후 '사재기'\"",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qSzJlZVl2SW5nemdTWlFxQXJBeXhtY1N0Q18wUnFJNXliV3ZLcG1vMTVIc1pzUlppY2FTZkJJdkNOWEtwdmszbVZGZUFVV1c4MG1qWGo0QzRuWG5kNFYyTDhPRDdneXdHMEJ3b2NJSTQyd0NS0gF0QVVfeXFMTVE3TV9kTWJqaGQtTEc2WExoSW1vYmtoSlVPSmpKbWNzNHhqejJzYVk2RjU2eU9VOVdMRG5TbEdoR3A2aUk0M1BoQVA5WU1EZERPemhyY2VXMzh5WjZPanF1Qi1qdjA0S0k3OTBFTTAzb0ZXaUc?oc=5",
+      "one_liner": "미국의 새 제재 이후 테헤란 주유소 앞에 1km 대기 줄이 생겼고, 이란 최고지도자는 '저항 경제'를 강조하며 사회 결속 저해 행위 엄단을 예고했다.",
+      "why_it_matters": "산유국 내부의 연료 사재기는 제재가 실물로 물렸다는 신호다. 해협은 열려도 이란 경제는 조여지고 있다.",
+      "confidence": 0.65,
+      "original_title": "\"테헤란 주유소 앞 1km 대기 줄‥미국 새 제재 이후 '사재기'\" - MBC 뉴스",
+      "implications": "G20의 대이란 제재 공조가 중국 반발로 갈라지는지 — 제재 이행률이 유가의 다음 변수다.",
+      "tags": [
+        "이란",
+        "제재",
+        "유가",
+        "G20"
+      ]
+    },
+    {
+      "title": "더 세지는 美 반도체 관세… \"칩 들어간 제품도 부과 검토\"",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdV9vdVhmWWQ3Q041cGowSm1PbkVaUWVpeUR0N01nNENibWFUMGxmckNsMWtiNkozcDF3OGliTXFzWlEyQ1JfNnpmQkpKS1N5b1UzOHlnVFBMUjBMbmpRVlZVaXZNckM4R0ZZR0t6R1haMGFybHZKUWRWb2lqNXY5T1dwNA?oc=5",
+      "one_liner": "미국이 반도체 자체를 넘어 칩이 들어간 완제품에도 관세를 물리는 방안을 검토 중이다.",
+      "why_it_matters": "관세 대상이 부품에서 제품으로 넓어지면 가전·자동차·서버까지 한꺼번에 걸린다. SK하이닉스의 미국 생산 발표가 나온 배경이기도 하다.",
+      "confidence": 0.7,
+      "original_title": "더 세지는 美 반도체 관세… \"칩 들어간 제품도 부과 검토\" - 조선일보",
+      "implications": "대미 투자 발표가 관세 면제 협상 카드로 쓰이는지 — 한국 완성품 수출기업의 원가 전가 여력을 볼 것.",
+      "tags": [
+        "반도체",
+        "관세",
+        "SK하이닉스",
+        "무역"
+      ]
+    },
+    {
+      "title": "\"러, 우크라 유명 보드카 공장 때렸다…최대 400만병 증발\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YanVOTThXZFVuWmlOLUtsbWVBVXo2TWJaSE9sS3hLM0tESGNUNEFzaUV2Z1dZTUZHeXJnRVBxS3RaSzBYTFNXTkJoczlZcXFqTGpPQXFVdGlCSDDSAWBBVV95cUxQVFJIX0hhODhCLTE4dTMxUUVnaXpkbG5BX1U4SG9aZTVhS2lYS3lEc0RVLXBWdGpVRG5TRzh0cUNFRklQTWlvaDMyX2o0RzFOZllMb0FNSDl3NWZDcTVGNDc?oc=5",
+      "one_liner": "러시아가 우크라이나 전역을 대규모 공습하면서 유명 보드카 공장과 물류창고가 피격돼 최대 400만 병이 사라졌고, 영국에는 보복을 경고했다.",
+      "why_it_matters": "타격 대상이 군사시설에서 수출 산업과 물류로 옮겨갔다. 확전 국면이 어제보다 한 칸 더 나갔다.",
+      "confidence": 0.7,
+      "original_title": "\"러, 우크라 유명 보드카 공장 때렸다…최대 400만병 증발\" - 연합뉴스",
+      "implications": "우크라이나 농식품·주류 수출 물량과 유럽 물류 보험료 — 영국 대상 보복 경고가 실행되는지 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "공습",
+        "물류"
+      ]
+    },
+    {
+      "title": "북한군 또 군사분계선 넘었다…'무장 상태였나' 묻자 합참이 한 말",
+      "source": "매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhanluTF8zUTl5eVdYOVplRTlVcUJHMWdEUDZjLThIcXNXUTBNUGZSQzhTV2R0Wk9JN0JrX3hYMTZ1M2VUUVlYQnZjZ29hdXE0eV9zYWt3?oc=5",
+      "one_liner": "동부전선에서 북한군이 군사분계선을 다시 넘어 군이 경고사격했고, 합참은 순찰 중 비의도적 행동으로 추정한다고 밝혔다.",
+      "why_it_matters": "이달만 수차례 반복된 월선이다. 우발 충돌 가능성이 한국물 리스크 프리미엄에 얹히는 지점이다.",
+      "confidence": 0.68,
+      "original_title": "북한군 또 군사분계선 넘었다…‘무장 상태였나’ 묻자 합참이 한 말 - 매일경제",
+      "implications": "월선 빈도와 무장 여부 — 불모지화 작업이 끝나는 시점까지 반복되는지 볼 것.",
+      "tags": [
+        "북한",
+        "군사분계선",
+        "안보"
+      ]
+    },
+    {
+      "title": "미 대형 로펌 \"북한 위장취업 적발 뒤에도 법적 위험…급여 지급·해고 신중해야\"",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVEhWS21HT3RTdUd6WUk5ZVA0NVU5MnNlSGpJV3EzSG5pOWpEQ0xnYzVlWlNwa0R5NXpoVktoTFVCbTZybFhCNUdsWVNITGF6MnVDQmlYNnJBY2lpZ3lPanRJNVhSRnotdVdpbTRfdzNQU3VEb040cXNVeDBZVDNqZFdmUng2RkpscmlvTtIBjwFBVV95cUxPRXIzYVdOU2dCZjl0NGlvNHVqaldTU3NKc185VFhoNW5oc3BrVjlKMURiQXI4azg0eV81RHNBVEFHdHFRYTZpRzFJellqVXZYMHhHX2VRUFpWS05TZWhDTU00M1JsaThXMVc5VmlTMnVKOE5JR2g5UkJIRXpnYjFvb3dqQ1ZEQjVmQmtuRXdwaw?oc=5",
+      "one_liner": "북한 IT 인력의 위장취업이 IT를 넘어 의료·금융·영업 분야로 번졌고, 적발한 기업도 급여 지급과 해고 처리에서 제재법 위험을 진다.",
+      "why_it_matters": "인사 절차가 곧 제재 리스크가 됐다. 해외법인을 둔 국내 전자·IT 기업이 직접 노출된다.",
+      "confidence": 0.65,
+      "original_title": "미 대형 로펌 “북한 위장취업 적발 뒤에도 법적 위험…급여 지급·해고 신중해야” - VOA 한국어 홈페이지",
+      "implications": "기업 채용·용역 검증 절차 강화 비용 — 국내 기업 해외법인의 원격 인력 계약을 볼 것.",
+      "tags": [
+        "북한",
+        "제재",
+        "고용",
+        "보안"
+      ]
+    },
+    {
+      "title": "아시아 증시 관망, 외환·채권도 숨죽인 채 워시 연설 대기 (원문: Shares Cautious, FX and Bonds Hold Breath Ahead of Warsh) (원문: Shares Cautious, FX and Bonds Hold Breath Ahead of Warsh)",
+      "source": "gurutrade",
+      "url": "https://www.gurutrade.com/news/shares-cautious-fx-and-bonds-hold-breath-ahead-of-warsh-1787905586.html",
+      "one_liner": "엔비디아發 기술주 랠리 뒤 아시아 증시가 관망세로 돌아섰고, 유가는 주간 기준 하락으로 향했다.",
+      "why_it_matters": "연설 전 시장이 어느 쪽으로도 베팅하지 않았다는 뜻이다. 매파 결과가 나온 만큼 되돌림 폭이 커질 수 있다.",
+      "confidence": 0.7,
+      "original_title": "Shares Cautious, FX and Bonds Hold Breath Ahead of Warsh",
+      "implications": "포지션이 비어 있던 자리에 매도가 들어오는지 — 아시아 개장 후 첫 두 시간의 방향성을 볼 것.",
+      "tags": [
+        "아시아증시",
+        "유가",
+        "채권",
+        "호르무즈"
+      ]
+    },
+    {
+      "title": "시드니 최대 건설사의 23억 달러 부채난, 사모신용을 때리다 (원문: Top Sydney builder's US$2.3 billion debt woes hit private credit) (원문: Top Sydney builder’s US$2.3 billion debt woes hit private credit)",
+      "source": "businesstimes",
+      "url": "https://www.businesstimes.com.sg/property/top-sydney-builders-us2-3-billion-debt-woes-hit-private-credit",
+      "one_liner": "시드니 최대 건설사가 기존 채권자를 포함한 대주단에서 신규 자본 조달을 모색 중이라고 소식통이 전했다.",
+      "why_it_matters": "사모신용의 첫 균열이 부동산 개발에서 나오고 있다. 금리가 안 내려가는 국면이면 차환 비용이 그대로 남는다.",
+      "confidence": 0.65,
+      "original_title": "Top Sydney builder’s US$2.3 billion debt woes hit private credit",
+      "implications": "호주 사모신용 펀드의 상각 규모 — 같은 구조를 쓰는 다른 지역 개발사 차환 일정을 볼 것.",
+      "tags": [
+        "사모신용",
+        "부동산",
+        "호주",
+        "차환"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "워시 연준의장, AI를 \"역사의 변곡점\"으로 규정 — 잭슨홀 연설 4대 발언 (원문: Fed Chair Warsh Calls AI a 'Hinge Point in History'—4 Key Things He Said) (원문: Fed Chair Warsh Calls AI a 'Hinge Point in History'—4 Key Things He Said)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376821/fed-chair-warsh-ai-hinge-point-4-key-things",
+      "one_liner": "워시 의장이 잭슨홀 연설에서 한 절을 통째로 AI가 경제에 미치는 무게에 할애했다.",
+      "why_it_matters": "연준이 AI를 물가·생산성 판단의 변수로 공식 편입했다는 신호다. 통화정책 논의의 축이 하나 늘었다.",
+      "confidence": 0.7,
+      "original_title": "Fed Chair Warsh Calls AI a 'Hinge Point in History'—4 Key Things He Said",
+      "implications": "AI 설비투자 사이클이 인플레 판단에 어떻게 반영되는지 — 다음 FOMC 성명의 생산성 문구를 볼 것.",
+      "tags": [
+        "연준",
+        "AI",
+        "잭슨홀",
+        "생산성"
+      ]
+    },
+    {
+      "title": "비트코인 7만8,400달러로 하락 — 워시 연준의장이 물가 둔화 지표를 평가절하 (원문: Bitcoin dips to $78.4K as Fed's Warsh downplays softer inflation prints) (원문: Bitcoin dips to $78.4K as Fed’s Warsh downplays softer inflation prints)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-dips-fed-warsh-dismisses-recent-low-inflation-prints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인이 8만 달러를 결정적으로 뚫지 못하고 7만8,400달러까지 밀렸다.",
+      "why_it_matters": "암호화폐가 여전히 금리 기대에 직결돼 움직인다는 확인이다. 어제의 8만1천 달러 시도가 하루 만에 뒤집혔다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin dips to $78.4K as Fed’s Warsh downplays softer inflation prints",
+      "implications": "8만 달러 저항이 굳어지는지 — 9월 FOMC까지 이 레인지를 지키는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "연준",
+        "금리"
+      ]
+    },
+    {
+      "title": "솔라나 디스인플레이션 안건, 극적으로 간발의 차 가결 (원문: Solana vote to double disinflation passes by a hair in dramatic finish) (원문: Solana vote to double disinflation passes by a hair in dramatic finish)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
+      "one_liner": "솔라나 첫 네트워크 전체 투표가 막판까지 가서, 크라켄과 갤럭시 연계 검증인들이 편을 바꾼 끝에 디스인플레이션 안건이 간신히 통과했다.",
+      "why_it_matters": "SOL 신규 발행이 줄어든다. 검증인 투표가 통화정책처럼 작동한 첫 사례이기도 하다.",
+      "confidence": 0.72,
+      "original_title": "Solana vote to double disinflation passes by a hair in dramatic finish",
+      "implications": "발행량 감소가 스테이킹 수익률과 검증인 경제성에 미치는 영향 — 별도 수수료 소각안은 부결됐다.",
+      "tags": [
+        "솔라나",
+        "거버넌스",
+        "토크노믹스"
+      ]
+    },
+    {
+      "title": "찰스 슈왑, 비트코인·이더리움 넘어 암호화폐 거래 확대 (원문: Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum) (원문: Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376819/charles-schwab-crypto-trading-bitcoin-ethereum-solana",
+      "one_liner": "슈왑이 솔라나·아발란체·체인링크로 거래 대상을 넓히지만, 세 토큰의 출시일은 밝히지 않았다.",
+      "why_it_matters": "대형 브로커의 취급 종목이 늘면 기관·퇴직계좌 자금의 접근 경로가 넓어진다.",
+      "confidence": 0.7,
+      "original_title": "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum",
+      "implications": "출시일 발표 시점과 경쟁 브로커의 대응 — 알트코인 유동성이 규제권 안으로 들어오는 속도를 볼 것.",
+      "tags": [
+        "슈왑",
+        "암호화폐",
+        "솔라나",
+        "기관자금"
+      ]
+    },
+    {
+      "title": "불리시, GPU 담보 대출용으로 USD.AI에 1억 달러 스테이블코인 공급 (원문: Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending) (원문: Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/bullish-provides-usdai-100m-stablecoin-facility-gpu-backed-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "기관용 암호화폐 거래소 불리시가 AI 컴퓨팅 인프라를 담보로 한 대출을 지원하기 위해 1억 달러 규모 스테이블코인 유동성을 댄다.",
+      "why_it_matters": "GPU가 담보 자산이 됐다. AI 설비 붐의 자금 조달이 은행 밖 스테이블코인 시장으로 넘어가는 경로다.",
+      "confidence": 0.7,
+      "original_title": "Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending",
+      "implications": "GPU 담보 가치 산정과 감가상각 — AI 사이클이 꺾일 때 이 대출들이 어떻게 되는지가 새 리스크 축이다.",
+      "tags": [
+        "스테이블코인",
+        "AI",
+        "GPU",
+        "사모신용"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
