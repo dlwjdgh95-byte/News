@@ -1,0 +1,249 @@
+{
+  "schema": 1,
+  "date": "2026-09-01",
+  "slot": "am",
+  "generated_at": "2026-09-01T07:38:49.870406+09:00",
+  "top_insight": [
+    "이란 얘기가 하루 만에 말에서 가격으로 넘어갔다. 베선트가 이란 경제 붕괴 가능성과 중국 없이도 가능한 제재를 말하고, 호르무즈 유조선 기뢰 피격을 두고 미국과 이란이 진실공방을 벌이는 사이, 인도 증시는 미·이란 긴장을 이유로 센섹스 307포인트를 내줬다. 발언과 공방과 지수가 같은 날 한 줄에 꿰였다.",
+    "금리에서는 압박과 신호가 정반대로 갔다. 트럼프는 금리가 너무 높다며 연준 의장에게 인하를 재차 요구했지만, 워시가 잭슨홀에서 \"금융여건을 긴축적이라고 표현하기는 어렵다\"고 말한 뒤 달러는 전방위로 강해졌고 JP모건은 뉴욕 증시 강세론을 철회했다. 시장이 반응한 쪽은 대통령이 아니었다.",
+    "크립토에서는 기업 금고가 같은 날 두 번 샀다. 스트래티지가 두 달 만에 3억6,970만 달러를, 스트라이브가 평균 7만9,431달러에 1억4,300만 달러어치를 집어넣었다. 그런데 차트에는 3년 만의 데드크로스가 찍혔다. 사는 쪽과 지표가 어긋난 자리다."
+  ],
+  "whats_changed": [
+    "스트래티지: 어제는 세일러가 두 달 만의 재매수를 시사한 단계였는데, 오늘은 3억6,970만 달러를 실제로 집행한 것으로 보도됐다.",
+    "석유 리스크의 진원지가 바뀌었다. 어제는 베네수엘라 원유로 전략비축유를 채우는 이야기였고, 오늘은 이란 제재와 호르무즈 기뢰 공방이다. 미국이 매수자로 들어오는 그림에서 공급이 막히는 그림으로 넘어갔다.",
+    "금리: 어제는 애널리스트 목표주가가 갈렸다는 이야기였다면, 오늘은 트럼프의 인하 압박과 워시의 매파 발언이 정면으로 부딪쳤다.",
+    "비트코인: 어제는 금요일 저점에서의 반등이었는데, 오늘은 3년 만의 데드크로스가 형성됐다는 진단과 기업 금고의 재매수가 같이 붙었다."
+  ],
+  "themes": [
+    "이란 리스크가 말에서 가격으로 — 제재 발언과 호르무즈 공방이 인도 증시까지 내렸다",
+    "엇갈린 금리 — 트럼프는 인하를 요구하고 시장은 워시의 매파 발언에 움직였다",
+    "기업 금고가 다시 샀다 — 스트래티지·스트라이브의 매수가 데드크로스와 같은 날 나왔다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "RBNZ 뉴질랜드 기준금리 결정",
+    "G20 재무장관회의 (의장국 미국, 이란 경제고립 동참 압박)"
+  ],
+  "items": [
+    {
+      "title": "베선트 \"이란 경제 수주~수개월 내 붕괴 가능…중국 도움 없이도 제재 가능\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95cE02VGZqNzhweFJwNE1YT3pTSHp1NG1VTHVwNnRTLUNzTzhvdmFUU1ZGZHhDM1lnNDg4ejFfSkFSaE9KTENwOU5rTGttX1NsVFZjbnFYWXc2a3NQMFlGSE00TXJYSjIxOS0xVXRIRQ?oc=5",
+      "one_liner": "미 재무장관 베선트가 이란 경제는 수주에서 수개월 안에 붕괴할 수 있고 중국의 협조 없이도 제재가 가능하다고 말했다.",
+      "why_it_matters": "G20 재무장관회의가 열리는 자리에서 의장국 미국이 '이란 경제고립' 동참을 압박하는 중에 나온 발언이다. 제재가 수사에서 집행으로 넘어가는지 가늠할 대목이다.",
+      "confidence": 0.8,
+      "original_title": "베선트 “이란 경제 수주~수개월 내 붕괴 가능…중국 도움 없이도 제재 가능” - 한겨레",
+      "implications": "중동 결제망에 걸린 은행·정유·해운이 먼저 영향을 받는다. UAE와 이집트 은행 긴급 점검처럼 돈줄 차단이 어디까지 번지는지 지켜볼 것.",
+      "tags": [
+        "이란",
+        "제재",
+        "G20",
+        "미국"
+      ]
+    },
+    {
+      "title": "호르무즈 해협 유조선 기뢰 피격은 거짓?…美-이란 진실공방",
+      "source": "노컷뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ldTh0THFQVks0VktyVjJCaEppMTYtZko0Q25CdHcyMU9JaWl1bWlJZHpuQUpLZHFUTGNBU2JLVzBBMjFPeTJ5X29hejV3QTUzakE?oc=5",
+      "one_liner": "호르무즈 해협에서 유조선이 기뢰에 피격됐다는 주장을 놓고 미국과 이란이 사실 여부를 두고 맞서고 있다.",
+      "why_it_matters": "호르무즈는 세계 원유 수송의 병목이라 사건의 진위 자체가 유가에 붙는 프리미엄을 좌우한다. 베선트의 제재 발언과 같은 날 나왔다.",
+      "confidence": 0.55,
+      "original_title": "호르무즈 해협 유조선 기뢰 피격은 거짓?…美-이란 진실공방 - 노컷뉴스",
+      "implications": "유가·해상운임·전쟁보험료에 걸린다. 어느 쪽 주장이 확인되는지, 통항 제한으로 번지는지 지켜볼 것.",
+      "tags": [
+        "호르무즈",
+        "이란",
+        "유가"
+      ]
+    },
+    {
+      "title": "트럼프 \"美금리 너무 높아\"…연준의장에 재차 인하 압박",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jWEF4UVZJRC11WUpQVTZoNWxVWE1SbEg0Wmh5by1na0o3N01WWno3RzBnd0JNNHlRM2YwZDB5OGlwRHhOSnlkWnlyN3p4SjF4dnNKTGp1T3dHa2tHZndrZzRRRzc0MUE?oc=5",
+      "one_liner": "트럼프 대통령이 미국 금리가 너무 높다며 연준 의장에게 다시 인하를 요구했고, 같은 묶음의 보도들은 미국·일본·유럽이 오히려 금리인상 신호를 켰다고 전했다.",
+      "why_it_matters": "정치적 압박과 중앙은행들이 보내는 방향이 반대로 갈리는 국면이다. 연준 독립성과 다음 결정의 무게가 함께 걸린다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 \"美금리 너무 높아\"…연준의장에 재차 인하 압박 - 연합뉴스TV",
+      "implications": "금리에 민감한 자산 전반이 대상이다. JP모건이 강세론을 철회하며 '워시 매파 발언에 단기 중립'으로 돌아선 대목을 함께 볼 것.",
+      "tags": [
+        "연준",
+        "금리",
+        "트럼프",
+        "워시"
+      ]
+    },
+    {
+      "title": "시진핑·푸틴 정상회담…\"세계 다극화·전략적 협력 강화\"",
+      "source": "hankyung.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zYWF6QzRERExEUDJDdURZWG00WjZyQzFnY3ZBcEppc2g5VHduVGJiR2I1b2luQUx5THgwNzZSQ21tSGpXS0lxaTBrNUFiQlAzUy1odjZ2Wm1BZw?oc=5",
+      "one_liner": "시진핑 주석과 푸틴 대통령이 3개월 만에 다시 만나 세계 다극화와 전략적 협력 강화를 내세웠고, 북극항로와 AI 기술 협력도 언급했다.",
+      "why_it_matters": "미국이 G20에서 이란 제재 동참을 압박하는 것과 같은 주에 나온 반대편 신호다. 제재 전선이 어디서 새는지 보여준다.",
+      "confidence": 0.7,
+      "original_title": "시진핑·푸틴, 정상회담…\"세계 다극화·전략적 협력 강화\" - hankyung.com",
+      "implications": "에너지 수송로와 기술 수출 통제에 걸린다. 북극항로 협력이 실제 물동량으로 이어지는지 지켜볼 것.",
+      "tags": [
+        "중국",
+        "러시아",
+        "지정학",
+        "다극화"
+      ]
+    },
+    {
+      "title": "마이크로소프트 아웃룩·익스체인지 온라인 인증 오류로 장애…팀즈·원드라이브까지 번져",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UTzYtZzhJQ1BxMDZ3UzRUOFdOZV8yRnV4NmZBcW4waklNbVdDVklOMWtCY2FCaENmY0pRZ3l6a3dCMnZJcmgtWDRncHJORDhkbWNMazd3?oc=5",
+      "one_liner": "마이크로소프트 아웃룩과 익스체인지 온라인에서 인증 오류로 장애가 났고 팀즈와 원드라이브까지 영향을 받았다.",
+      "why_it_matters": "인증 한 곳이 무너지자 업무용 서비스가 줄줄이 멈췄다. 클라우드 집중의 비용이 그대로 드러난 사례다.",
+      "confidence": 0.55,
+      "original_title": "마이크로소프트 아웃룩·익스체인지 온라인 인증 오류로 장애, 팀즈·원드라이브까지 번졌다 - 위키트리",
+      "implications": "마이크로소프트 365에 업무를 얹어둔 기업이 대상이다. 복구 시간과 원인 공지가 어떻게 나오는지 볼 것.",
+      "tags": [
+        "마이크로소프트",
+        "클라우드",
+        "장애"
+      ]
+    },
+    {
+      "title": "센섹스 307포인트 내린 76,957.27 마감…美·이란 긴장에 니프티도 95포인트 하락 (원문: Sensex drops 307.24 points to settle at 76,957.27, Nifty falls 95.25 points as US-Iran tensions escalate)",
+      "source": "indiatvnews",
+      "url": "https://www.indiatvnews.com/business/markets/sensex-drops-307-24-points-to-settle-at-76-957-27-nifty-falls-95-25-points-as-us-iran-tensions-escalate-2026-08-31-1052868",
+      "one_liner": "미국과 이란의 긴장이 고조되면서 인도 증시가 하락 마감해 센섹스는 0.40% 내린 76,957.27, 니프티는 0.39% 내린 24,080.40으로 끝났다.",
+      "why_it_matters": "이란 리스크가 발언 단계를 지나 아시아 신흥국 지수 가격에 실제로 찍힌 첫 수치다.",
+      "confidence": 0.82,
+      "original_title": "Sensex drops 307.24 points to settle at 76,957.27, Nifty falls 95.25 points as US-Iran tensions escalate",
+      "implications": "원유를 수입해 쓰는 인도가 중동 리스크에 먼저 반응하는 구조다. 유가와 인도 지수가 같이 움직이기 시작하는지 볼 것.",
+      "tags": [
+        "인도증시",
+        "이란",
+        "신흥국"
+      ]
+    },
+    {
+      "title": "워시 매파 발언에 뉴질랜드 달러 되밀림…시선은 RBNZ 결정으로 (원문: NZD/USD pulls back on hawkish Warsh; focus turns to RBNZ decision) (원문: NZD/USD pulls back on hawkish Warsh; focus turns to RBNZ decision)",
+      "source": "forexlive",
+      "url": "https://investinglive.com/forex/nzd-usd-pulls-back-on-hawkish-warsh-focus-turns-to-rbnz-decision/",
+      "one_liner": "워시 연준 의장이 잭슨홀에서 \"광범위한 금융여건을 긴축적이라고 표현하기는 어렵다\"고 말한 뒤 금요일 달러가 전방위로 강해졌고, 시장은 이를 완화된 금융여건에 대한 견제로 읽었다.",
+      "why_it_matters": "앞 기사의 인하 압박과 정면으로 부딪치는 실제 정책 신호다. 시장은 대통령의 요구가 아니라 이 문장에 반응했다.",
+      "confidence": 0.8,
+      "original_title": "NZD/USD pulls back on hawkish Warsh; focus turns to RBNZ decision",
+      "implications": "달러 강세에 노출된 신흥국 통화와 원자재가 먼저 눌린다. 다음 분기점은 RBNZ 금리 결정이다.",
+      "tags": [
+        "워시",
+        "달러",
+        "RBNZ",
+        "잭슨홀"
+      ]
+    },
+    {
+      "title": "레인저 에너지, STEP 에너지의 미국 코일드튜빙 자산 인수 (원문: Ranger Energy Services to Acquire STEP Energy Services' U.S. Coiled Tubing Assets) (원문: Ranger Energy Services to Acquire STEP Energy Services’ U.S. Coiled Tubing Assets)",
+      "source": "financialpost",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ranger-energy-services-to-acquire-step-energy-services-u-s-coiled-tubing-assets",
+      "one_liner": "레인저 에너지 서비스가 STEP 에너지 서비스의 미국 코일드튜빙 자산을 인수하기로 합의해 미국 육상 시장에서 두 번째로 큰 코일드튜빙 사업자가 된다.",
+      "why_it_matters": "중동 리스크로 유가 얘기가 도는 날, 미국 유전 서비스 쪽에서는 통합이 진행되고 있다는 신호다.",
+      "confidence": 0.8,
+      "original_title": "Ranger Energy Services to Acquire STEP Energy Services’ U.S. Coiled Tubing Assets",
+      "implications": "미국 육상 유전 서비스의 가격 결정력이 대상이다. 통합이 시추 단가에 반영되는지 볼 것.",
+      "tags": [
+        "에너지",
+        "M&A",
+        "미국"
+      ]
+    },
+    {
+      "title": "비트코인 팔던 스트래티지의 반전…두 달 만에 3억6,970만 달러 베팅",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1zaXBQSVVJRjdUYm5mRVMwcDhFNlZfTkFwSUdOTmZhNUdYNmJYVEpfOEEyaW1FaXM2OFUyOUpDRVlEdUNINl9yOGhB?oc=5",
+      "one_liner": "비트코인을 팔아오던 스트래티지가 두 달 만에 3억6,970만 달러 규모로 다시 매수에 나섰다.",
+      "why_it_matters": "어제 브리핑에서는 세일러가 재매수를 시사한 단계였는데, 오늘 실제 집행 규모가 숫자로 나왔다.",
+      "confidence": 0.6,
+      "original_title": "비트코인 팔던 스트래티지의 반전…두 달 만에 3억6,970만달러 베팅 - 코인리더스",
+      "implications": "기업 금고 수요에 기대는 비트코인 수급이 대상이다. 일회성 베팅인지 적립 재개인지 다음 공시에서 갈린다.",
+      "tags": [
+        "비트코인",
+        "스트래티지",
+        "기업금고"
+      ]
+    },
+    {
+      "title": "스트라이브, 비트코인 1억4,300만 달러어치 추가 매수…기업 금고 매수 재개 (원문: Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In) (원문: Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376992/strive-adds-143-million-bitcoin",
+      "one_liner": "나스닥 상장 자산운용사 스트라이브가 코인당 평균 7만9,431달러에 비트코인을 사들여 보유량을 23,156 BTC로 늘렸다.",
+      "why_it_matters": "스트래티지와 같은 날 나온 두 번째 기업 매수다. 개별 회사 사정이 아니라 흐름으로 읽히는 이유가 여기 있다.",
+      "confidence": 0.82,
+      "original_title": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
+      "implications": "평균 매입단가 7만9,431달러가 이 회사의 손익분기 기준선이 된다. 기업 금고 매수가 이어지는지 볼 것.",
+      "tags": [
+        "비트코인",
+        "스트라이브",
+        "기업금고"
+      ]
+    },
+    {
+      "title": "북한 해커, 하이퍼리퀴드서 수천만 달러 이동…트럼프는 이 플랫폼 미국 유치 추진 (원문: North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform) (원문: North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/08/31/north-korean-hackers-are-moving-tens-of-millions-on-hyperliquid-as-trump-pushes-to-onshore-the-crypto-platform",
+      "one_liner": "코인데스크가 확인한 블록체인 데이터에서 북한 라자루스 그룹과 연결된 지갑들이 최근 3주 동안에만 하이퍼리퀴드에서 3천만 달러 넘는 비트코인을 팔았다.",
+      "why_it_matters": "트럼프가 이 플랫폼을 미국으로 들여오려는 시점과 겹친다. 자금세탁 통로 문제가 규제 논의로 곧장 넘어갈 소지가 있다.",
+      "confidence": 0.8,
+      "original_title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
+      "implications": "탈중앙 파생 거래소의 규제 리스크가 대상이다. 온쇼어링 논의에 제재 준수 조건이 붙는지 지켜볼 것.",
+      "tags": [
+        "하이퍼리퀴드",
+        "라자루스",
+        "규제",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "비트코인 3년 만에 데드크로스…\"폭락이 아니라 바닥 막바지 신호\"",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE55c0Y3dzBKNVI2dnpLd3RHemJUTzg3b0VYWEd0cXE2b0RWRVhYQjBkaV9fRnM1U0Y0Wi14cTA5dFVGQ1pMUEZwbmp3?oc=5",
+      "one_liner": "비트코인 차트에 3년 만에 데드크로스가 만들어졌고, 이를 폭락 신호가 아니라 바닥 국면의 막바지 신호로 보는 해석이 함께 나왔다.",
+      "why_it_matters": "기업 금고가 다시 사들인 날, 기술적 지표는 반대쪽을 가리켰다. 오늘 크립토의 긴장이 여기 있다.",
+      "confidence": 0.45,
+      "original_title": "비트코인(BTC), 3년 만에 데드크로스 형성...\"폭락이 아니라 바닥 막바지 시그널\" - 코인리더스",
+      "implications": "단기 추세를 지표로 보는 자금이 대상이다. '바닥 막바지'라는 해석은 근거가 제시되지 않았으니 그대로 받지 말 것.",
+      "tags": [
+        "비트코인",
+        "기술적분석"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "여론 반발에 텍사스, 플록 감시 시스템 예산 중단 (원문: As Public Fury Mounts, Texas Pulls the Plug on Flock Surveillance Funding) (원문: As Public Fury Mounts, Texas Pulls the Plug on Flock Surveillance Funding)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376999/texas-bans-flock-surveillance-funding",
+      "one_liner": "그레그 애벗 텍사스 주지사가 프라이버시 우려와 경찰의 오용 논란이 커지자 주 기관들에 AI 번호판 판독기 비용 지불을 중단하라고 지시했다.",
+      "why_it_matters": "AI 감시 장비를 공공이 사는 흐름이 여론에 막혀 되돌아간 사례다. 다른 주 계약에도 선례가 된다.",
+      "confidence": 0.78,
+      "original_title": "As Public Fury Mounts, Texas Pulls the Plug on Flock Surveillance Funding",
+      "implications": "번호판 판독기와 공공 감시 장비 납품사가 대상이다. 다른 주가 텍사스를 따라가는지 지켜볼 것.",
+      "tags": [
+        "AI",
+        "감시",
+        "규제",
+        "미국"
+      ]
+    },
+    {
+      "title": "비트코인 트레저리 2막…'존버' 대신 '파생상품' 탑재",
+      "source": "네이트",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Dd3JCYU9FZ0ZGTkxOU3dMZDZRZHRtWnpBR3VtTElrbnJpdDFwNzkxQUxpOWpaZGY1MWtHemt6SVhOWVEyazRhRmU1UkFpVF95RkdB?oc=5",
+      "one_liner": "비트코인을 쌓아두기만 하던 기업 금고 모델이 파생상품을 얹는 쪽으로 옮겨가고 있다는 진단이 나왔다.",
+      "why_it_matters": "같은 날 스트래티지와 스트라이브가 다시 사들인 배경을 설명하는 틀이다. 보유 방식이 바뀌면 위험 성격도 바뀐다.",
+      "confidence": 0.5,
+      "original_title": "비트코인 트레저리 2막…'존버' 대신 '파생상품' 탑재 [크립토인사이트] - 네이트",
+      "implications": "상장사 비트코인 보유 구조가 대상이다. 파생상품이 붙으면 가격 하락 때 강제 청산 경로가 생기는지 확인할 것.",
+      "tags": [
+        "비트코인",
+        "기업금고",
+        "파생상품"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
