@@ -1,0 +1,252 @@
+{
+  "schema": 1,
+  "date": "2026-09-03",
+  "slot": "am",
+  "generated_at": "2026-09-03T03:13:28.109129+09:00",
+  "top_insight": [
+    "유가를 놓고 반대 방향의 두 힘이 같은 날 부딪쳤다. 이란 쪽에서는 미국의 유조선 폭격에 이란이 미군 기지 보복으로 맞받으며 브렌트유가 95달러를 넘었는데, 같은 날 미 에너지장관은 베네수엘라 원유 생산을 두 배로 늘리겠다고 했다. 공급 차단 위협과 공급 확대 약속이 한 시장에 동시에 들어온 셈이다.",
+    "금리 방향은 대서양을 사이에 두고 갈라졌다. 어제 미국은 구인 727만 건으로 노동시장이 식는 지표를 냈는데, 오늘 ECB 나겔은 시장이 9월 인상 확률을 95% 넘게 본다고 했고 영국 장기 차입비용은 1998년 이후 최고를 찍었다. 유가가 오르는 국면이라 인플레이션 쪽 압력은 유럽에서 먼저 값이 매겨지는 모양새다.",
+    "위험자산은 그 채권 매도세를 그대로 받았다. 비트코인 온체인 실수요 지표가 다시 마이너스로 돌아서며 7만7000달러 밑으로 밀렸는데, 기사가 원인으로 지목한 것이 '광범위한 채권·주식 매도세'다. 중동 긴장이 커지는 국면인데도 금이 6거래일 만에 10% 가까이 빠진 것 역시 같은 창에서 벌어진 일이다."
+  ],
+  "whats_changed": [
+    "이란: 어제는 미국의 이틀 만의 두 번째 공습이었는데, 오늘은 이란이 미군 기지 보복과 유조선 드론 공격으로 맞받았다. 일방적 타격에서 상호 공방으로 넘어갔고 브렌트유는 95달러를 돌파했다.",
+    "이란 경제: 어제 협상단장의 원유 수출 차단 '경고'가 오늘은 의회 의장의 '다른 모든 국가 수출도 차단' 발언으로 올라갔고, 리알화는 달러당 220만 리알로 사상 최저를 다시 썼다.",
+    "금리: 어제는 미국 구인 727만 건으로 노동시장 냉각이었는데, 오늘은 ECB 9월 인상 확률 95% 초과와 영국 장기 차입비용 28년 최고가 나왔다. 방향이 미국과 유럽으로 갈라졌다.",
+    "비트코인: 어제는 온체인 지표가 10개월 만에 강세 영역에 들어갔다는 진단이었는데, 오늘은 같은 계열 지표가 다시 마이너스로 돌아섰고 가격은 7만7000달러 아래로 내려갔다."
+  ],
+  "themes": [
+    "유가의 줄다리기 — 이란발 공급 차단 위협과 베네수엘라발 공급 확대 발언이 같은 날 맞부딪쳤다",
+    "갈라진 금리 — 미국은 노동시장 냉각, 유럽은 9월 인상 확률 95%, 영국은 28년 만의 장기금리 최고",
+    "되돌아온 비트코인 약세 신호 — 온체인 실수요 마이너스 전환과 장기 보유자 매도 증가가 '약세장 끝' 진단과 정면으로 갈렸다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "한국 정부 중앙행정기관 지방 이전 계획 발표 (9월 3일)",
+    "ECB 9월 통화정책회의 금리 결정 — 시장은 인상 확률 95% 이상 반영",
+    "영국 10월 예산안 — 장기 차입비용 28년 최고 국면에서 발표"
+  ],
+  "items": [
+    {
+      "title": "美·이란 공방 격화에 유가 출렁…브렌트유 95달러 육박",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBlWm1YaUtmVlR2OGxEV0tESHRnbl8wNnhGck5XS1BUMWdHZWVfSk81WjI0RUNfXzNkbjBEWUtUY2liVXR2UmIxdk9vUUpWVTJtTHhndU1JUXVmcmI2?oc=5",
+      "one_liner": "미국의 이란 유조선 폭격과 이란의 미군 기지 보복이 맞물리며 브렌트유가 95달러를 넘었고 뉴욕증시는 하락했다.",
+      "why_it_matters": "어제까지는 미국의 일방적 공습이었는데 오늘은 이란이 드론 공격과 기지 보복으로 맞받았다. 유가가 발언이 아니라 실제 타격에 반응하는 국면이 하루 더 이어졌다.",
+      "confidence": 0.82,
+      "original_title": "美·이란 공방 격화에 유가 출렁…브렌트유 95달러 육박 - 뉴스핌",
+      "implications": "원유·정유·항공 원가에 직접 영향 — 브렌트 95달러선이 지지되는지, 호르무즈 통항이 실제로 제한되는지를 지켜볼 일이다.",
+      "tags": [
+        "이란",
+        "유가",
+        "지정학",
+        "증시"
+      ]
+    },
+    {
+      "title": "이란 리알화 폭락 지속 또 사상 최저…달러당 220만 리알",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xZGNpbXFjYTJacDRlS0M3eG5qWXVtS0hZazVBOWNkUzBsVWlPdUh5Umowd2hvSDAzdmNFbUotVUhlbG9MdkhDSlVOb1k0SmZlbmgtdklwM0FnUHPSAWBBVV95cUxPV1BKaF9MN3JfdEVUdFR2SThzbDBtU0dHclFQaU44T0IwNDFZWS15dUJYTHJCLXZBVUFFa1JwWElEaVpUeWJsN1dILVV3S2Z4MVJTNFZ6YlVscVNqQ2diQ04?oc=5",
+      "one_liner": "이란 리알화가 달러당 220만 리알로 사상 최저를 다시 썼고, 이란 의회 의장은 석유 수출길이 막히면 다른 모든 국가의 수출도 막겠다고 했다.",
+      "why_it_matters": "군사 충돌과 별개로 이란 경제가 통화 쪽에서 먼저 무너지고 있다는 신호다. 미 재무장관이 이란 경제의 몇 주·몇 달 내 붕괴 가능성을 말한 것과 같은 방향이다.",
+      "confidence": 0.8,
+      "original_title": "이란 리알화 폭락 지속 또 사상 최저…달러당 220만 리알 - 연합뉴스",
+      "implications": "이란이 협상 대신 봉쇄 카드를 꺼낼 유인이 커진다 — 호르무즈 통항 제한 발언이 실제 조치로 옮겨가는지 확인이 필요하다.",
+      "tags": [
+        "이란",
+        "환율",
+        "제재",
+        "호르무즈"
+      ]
+    },
+    {
+      "title": "美 에너지장관 \"베네수엘라 원유 생산 2배로\"…유가 하락 압력 커지나",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQdlRsUlJZYjExT1Nxd2dUb1pPd1hoVmdMeE1tVUtBbHhfMjByNllxdkhaZnk0MTVvMTFocVlJUGFKOExRRHgxS3Njb0FERjN1MjJadFZIQkJxR0p1?oc=5",
+      "one_liner": "미 에너지장관이 베네수엘라 원유 생산을 두 배로 늘리겠다고 밝혔고, 셰브런은 현지에 70억 달러 투자 계약을 맺었다.",
+      "why_it_matters": "이란발 공급 차단 위협과 정반대 방향의 공급 재료가 같은 날 나왔다. 미국이 중동 리스크의 유가 충격을 서반구 공급으로 상쇄하려는 구도로 읽힌다.",
+      "confidence": 0.75,
+      "original_title": "美 에너지장관 \"베네수엘라 원유 생산 2배로\"…유가 하락 압력 커지나 - 뉴스핌",
+      "implications": "중동 프리미엄이 얼마나 상쇄될지가 관건 — 다만 미 매체가 '650억 배럴은 없다'며 매장량 전제를 정면 비판한 만큼 실행 속도를 확인해야 한다.",
+      "tags": [
+        "유가",
+        "베네수엘라",
+        "에너지",
+        "셰브런"
+      ]
+    },
+    {
+      "title": "이 대통령, 부동산 세제 후퇴 주장에 \"극히 일부 가지고 헐뜯어…강남 집값 급락 원인도 봐라\"",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aZDYtX0pLRHBGSjh0cXpSekhKWmVuSW5pVVRnQUdEbE54d2FwLW5KOTA5UmhJSkVCemVNci1PcG9CZDVkYnVzRlprWmJwTF9GbDN5UXd0cHdZd9IBX0FVX3lxTFBVbWJmckhUV3hQZ2RHQ3EtSmxVNjFqbUl4SnFMdjUzYWYxeWxtc0dpNjVTaG5ZYXdfOXNtbVhwZGZUdEhyTFNkcV9BQzVOVW9EZ054TzJPOGFNb0VNWUhr?oc=5",
+      "one_liner": "이재명 대통령이 부동산 세제가 후퇴했다는 주장에 반박하며 강남 집값 급락 원인을 함께 보라고 말했다.",
+      "why_it_matters": "보유세 부담이 실제로 줄어든 단지가 나오면서 세제 방향을 둘러싼 공방이 커졌다. 종부세를 되돌리는 문제로 논의가 옮겨가고 있다.",
+      "confidence": 0.72,
+      "original_title": "이 대통령, 부동산 세제 후퇴 주장에 “극히 일부 가지고 헐뜯어…강남 집값 급락 원인도 봐라” - 경향신문",
+      "implications": "주택 보유자와 강남권 거래에 직접 영향 — 세제 개편이 실제 법안으로 어떻게 정리되는지가 확인점이다.",
+      "tags": [
+        "부동산",
+        "종부세",
+        "정책",
+        "한국"
+      ]
+    },
+    {
+      "title": "정부, 오늘 중앙행정기관 지방 이전 계획 발표",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tVTkzRXNMdm1Gdjh3aFo3ckl2Qk1BcFhyeTRrWVo4MnZtU1psSFN1dXFtLWJ0UXU2Zmxwc3N2ME1tM1IyaklpYnJqQ2R0VGFVNVRyZTdrYjVTS0k?oc=5",
+      "one_liner": "정부가 3일 중앙행정기관 지방 이전 계획을 발표한다.",
+      "why_it_matters": "금융위와 성평등부 등 어느 기관이 대상에 들어가는지에 따라 이전 지역 부동산과 관련 산업이 움직인다. 공공기관 통폐합 논의와도 맞물려 있다.",
+      "confidence": 0.7,
+      "original_title": "정부, 오늘 중앙행정기관 지방 이전 계획 발표 - KBS 뉴스",
+      "implications": "이전 대상 지역 부동산과 해당 부처 소관 업계에 영향 — 발표된 기관 명단과 이전 시기를 먼저 확인해야 한다.",
+      "tags": [
+        "한국",
+        "정책",
+        "공공기관",
+        "부동산"
+      ]
+    },
+    {
+      "title": "영국 10년물 차입비용 또 최고치…채권 매도세 이어져 (원문: UK 10-year borrowing costs hit fresh highs as bond market sell-off continues – business live - The Guardian)",
+      "source": "google",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbFhzOXlmTk0zYmpocE5jb0VyQUF3WjdINGdHWDZQSFBhZWRMeXZnTE1GS1lVSzMwbGpkTnhfNWVQRFh5VEtEbGYtN1pmNFFLMG5iU29IenI0ZGxUdUhhMFgzUjFLQ3MzcHRrd1l3eGRnZFdsVHBEaEFQemRwQnJvQld1N1ZPV2JHWXlwWExKZURQekxINU1YTHdWTVpwdEJad045bHJwZGJ6MHJjcVFlMU14eHpJQUxHWWlUZFlsaHF3ZGpNOXc?oc=5",
+      "one_liner": "영국 10년물 차입비용이 새 고점을 찍었고, 장기 차입비용은 1998년 이후 28년 만의 최고 수준까지 올랐다.",
+      "why_it_matters": "10월 예산안을 앞두고 국채 시장이 먼저 재정에 값을 매기고 있다. 한 나라의 재정 신뢰가 금리로 되돌아오는 전형적인 경로다.",
+      "confidence": 0.8,
+      "original_title": "UK 10-year borrowing costs hit fresh highs as bond market sell-off continues – business live - The Guardian",
+      "implications": "영국 재정·부동산·파운드에 직접 영향 — 10월 예산안 내용과 장기물 금리가 어디서 멈추는지를 지켜볼 일이다.",
+      "tags": [
+        "영국",
+        "국채",
+        "금리",
+        "재정"
+      ]
+    },
+    {
+      "title": "ECB 나겔 \"시장은 9월 금리 인상 확률을 95% 넘게 본다\" (원문: ECB's Nagel: Markets see over 95% probability of a September rate hike)",
+      "source": "fxstreet",
+      "url": "https://www.fxstreet.com/news/ecbs-nagel-markets-see-over-95-probability-of-a-september-rate-hike-202609020608",
+      "one_liner": "ECB 정책위원 요아힘 나겔이 시장은 9월 금리 인상 확률을 95% 이상으로 보고 있다고 말했다.",
+      "why_it_matters": "어제 미국은 구인 727만 건으로 노동시장 냉각 지표가 나왔는데, 유럽은 인상 쪽으로 거의 굳어졌다. 대서양 양쪽의 금리 방향이 갈라진다.",
+      "confidence": 0.8,
+      "original_title": "ECB's Nagel: Markets see over 95% probability of a September rate hike",
+      "implications": "유로·달러 환율과 유럽 채권에 직접 영향 — 9월 ECB 회의에서 실제 인상이 나오는지가 확인점이다.",
+      "tags": [
+        "ECB",
+        "금리",
+        "유럽",
+        "환율"
+      ]
+    },
+    {
+      "title": "금, 6거래일 만에 10% 가까이 급락 (원문: Gold Crashes Nearly 10% in 6 Sessions: What’s Next for Traders?)",
+      "source": "investing_us",
+      "url": "https://www.investing.com/analysis/gold-crashes-nearly-10-in-6-sessions-whats-next-for-traders-200686944",
+      "one_liner": "금 가격이 6거래일 만에 10% 가까이 떨어졌다.",
+      "why_it_matters": "중동 긴장이 고조되는 국면인데 안전자산으로 꼽히는 금이 오히려 급락했다. 지정학 프리미엄보다 다른 힘이 크게 작동했다는 뜻이다.",
+      "confidence": 0.6,
+      "original_title": "Gold Crashes Nearly 10% in 6 Sessions: What’s Next for Traders?",
+      "implications": "금 보유 비중을 둔 자산배분에 직접 영향 — 달러지수와 미 10년물 금리가 같은 창에서 어떻게 움직였는지 함께 봐야 한다.",
+      "tags": [
+        "금",
+        "원자재",
+        "안전자산"
+      ]
+    },
+    {
+      "title": "최태원 SK 회장, 키오시아와 일본 협력 저울질…낸드 경쟁 판돈 커진다 (원문: SK chief’s Kioxia overture raises stakes in NAND race)",
+      "source": "koreaherald",
+      "url": "https://www.koreaherald.com/article/10860491",
+      "one_liner": "최태원 SK그룹 회장이 낸드플래시 업체 키오시아와 함께 일본에 반도체 공장을 짓는 방안을 검토하고 있다고 밝혔다.",
+      "why_it_matters": "경쟁사였던 키오시아와의 공동 생산을 '하나의 선택지'로 공개했다. 낸드 시장의 경쟁 구도가 협력 쪽으로 재편될 수 있는 발언이다.",
+      "confidence": 0.78,
+      "original_title": "SK chief’s Kioxia overture raises stakes in NAND race",
+      "implications": "SK하이닉스와 국내 반도체 공급망에 영향 — 공동 생산이 실제 계약으로 넘어가는지, 공급망 조율과 공동 R&D가 먼저 오는지가 순서 문제다.",
+      "tags": [
+        "SK하이닉스",
+        "반도체",
+        "낸드",
+        "일본"
+      ]
+    },
+    {
+      "title": "비트코인 온체인 실수요 지표 마이너스 전환…7만7000달러 아래로 (원문: Bitcoin’s apparent demand turns negative as price struggles with $77K)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoins-apparent-demand-turns-negative-price-struggles-with-77k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인의 온체인 수요 지표 중 하나가 8월의 짧은 반등 뒤 다시 마이너스로 돌아섰고, 가격은 채권·주식 동반 매도세 속에 7만7000달러 밑으로 내려갔다.",
+      "why_it_matters": "어제 브리핑에서 온체인 지표가 10개월 만에 강세 영역에 들어갔다는 진단이 나왔는데, 하루 만에 반대 방향 신호가 붙었다.",
+      "confidence": 0.8,
+      "original_title": "Bitcoin’s apparent demand turns negative as price struggles with $77K",
+      "implications": "크립토 보유자에게 직접 영향 — 이 지표가 마이너스에 머무는지, 아니면 8월처럼 짧게 스쳤다 돌아오는지가 갈림길이다.",
+      "tags": [
+        "비트코인",
+        "온체인",
+        "크립토"
+      ]
+    },
+    {
+      "title": "\"8월 비트코인 7만8500달러 마감으로 약세장 끝났다\" 애널리스트 에릭 크라운의 진단",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPc1hjMThJZ182Smt4Y3VJYzdjLXJybElOUVlySnNRTFF2b08wbjRCWUZFS1NsWl9QZUN2Z0dGcS1LR0JfNk9QdTE1X3Z1Z3NoWDd5R3k1QkhCUzN6ZWZhV29yVGVQSXh2ZmwzeklGYUJsTUxzZWpmMXNvTTRSUnpMdjBSR21rQmlvY2ZxaGtkNDFTWE9PbmxwZ3NTaEItVHJnbEE3Uko2VnVuRnA1LWJhOUVWSjRQaE5zT0NpS3VlUHpPcmt5TzVZSldBX0RCcWxPblFLa2d2MF9hNm9TVm5sOE5SRUk4blpaZGFGUExaTWVkeklhTHZrZDRXMGM4N3ExSk9ULUtVMFdqX0R2alN2Umdxd252V1UzbV9UMk9qUFByVVRuRmloZktWUno2YTJ2alVzQktFR1J2LVFwUkdIUkx5aUxCOGktVkRUbHRrOThPYk4xTUExMU12V2pxbnhoZjgyM0hRQWFXRlhURkpTR1AyMlNGWV9vY0VPLUIyd3FVZDBDSm5zLXNCaVlPbVdlc1pwN3VtdTgxaVF5ejdRZTF5LVdDS2tMcHA2UWh2S1c2WHZSZ1pYV0QybWYzZjgzRXBmcmlGNXc?oc=5",
+      "one_liner": "애널리스트 에릭 크라운이 비트코인의 8월 7만8500달러 마감을 근거로 약세장이 끝났다고 진단했다.",
+      "why_it_matters": "같은 날 온체인 실수요 지표는 마이너스로 돌아섰다. 월봉 마감 하나로 국면 전환을 선언하는 쪽과 흐름 지표로 반박하는 쪽이 정면으로 갈렸다.",
+      "confidence": 0.5,
+      "original_title": "\"8월 비트코인 7만8,500달러 마감으로 약세장 끝났다\" 애널리스트 에릭 크라운의 진단 - Yellow.com",
+      "implications": "방향이 갈린 진단이 함께 나오는 구간에서는 한쪽만 인용하기 쉽다 — 9월 봉이 그 마감선 위에서 유지되는지를 확인점으로 삼을 만하다.",
+      "tags": [
+        "비트코인",
+        "크립토",
+        "전망"
+      ]
+    },
+    {
+      "title": "비트코인, '바트 심슨' 패턴 떴다…장기 보유자 매도 61.5% 증가",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9VMWx1Mnp4NzJVTHVwenRuenEtZU8wUGs2NmFqQksxVGxoVEVxS1VGNFRkTWRTbDJKdENTeUR2TnJzZU5tQ254ZnlR?oc=5",
+      "one_liner": "비트코인 차트에 이른바 '바트 심슨' 패턴이 나타났고 장기 보유자 매도가 61.5% 늘었다는 진단이 나왔다.",
+      "why_it_matters": "장기 보유자 매도 증가는 온체인 실수요 마이너스 전환과 같은 방향의 신호다. 가격 지표와 보유자 행동이 함께 약세를 가리킨다.",
+      "confidence": 0.55,
+      "original_title": "비트코인(BTC), '바트 심슨' 패턴 떴다...장기 보유자 매도 61.5%↑ - 코인리더스",
+      "implications": "크립토 보유자에게 직접 영향 — 장기 보유자 물량이 계속 나오는지가 다음 확인점이다.",
+      "tags": [
+        "비트코인",
+        "온체인",
+        "크립토"
+      ]
+    },
+    {
+      "title": "G20, 디지털 자산 혁신의 '명확한 경로' 필요성 언급 (원문: G20 members tout ‘clear pathways’ for digital asset innovation)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/g20-members-clear-pathways-digital-asset-innovation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "미국이 의장국을 맡은 G20에서 디지털 자산이 광범위한 경제 성장을 뒷받침할 수 있다고 인정하고 국경 간 결제 개선을 요구했다.",
+      "why_it_matters": "규제 논의가 개별국 단위를 넘어 다자 협의체 문서로 올라갔다. 가격 뉴스보다 느리지만 제도 쪽 방향을 보여주는 축이다.",
+      "confidence": 0.75,
+      "original_title": "G20 members tout ‘clear pathways’ for digital asset innovation",
+      "implications": "스테이블코인·국경 간 결제 사업자에게 영향 — 실제 권고문의 문구와 각국 이행 일정이 뒤따르는지를 지켜볼 일이다.",
+      "tags": [
+        "G20",
+        "규제",
+        "디지털자산",
+        "크립토"
+      ]
+    },
+    {
+      "title": "오픈AI 아스트라, '심각' 등급 해킹 능력을 가진 첫 AI 모델로 분류 (원문: OpenAI's Astra Becomes Its First AI Model With 'Critical' Hacking Abilities)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377180/openai-astra-first-ai-model-critical-hacking",
+      "one_liner": "공개되지 않은 오픈AI 모델 아스트라가 제로데이 취약점을 찾아 사람 개입 없이 익스플로잇으로 엮을 수 있으며, 소수 테스터에게만 접근이 열린다.",
+      "why_it_matters": "모델이 취약점 발견부터 공격 코드 연결까지 한 번에 해내는 단계에 왔다는 개발사 자체 분류다. 보안 비용의 전제가 바뀌는 지점이다.",
+      "confidence": 0.75,
+      "original_title": "OpenAI's Astra Becomes Its First AI Model With 'Critical' Hacking Abilities",
+      "implications": "보안 업계와 소프트웨어를 운영하는 모든 조직에 영향 — 접근 범위가 소수 테스터에서 어떻게 확대되는지, 방어 쪽에 같은 능력이 언제 열리는지를 지켜볼 일이다.",
+      "tags": [
+        "AI",
+        "오픈AI",
+        "보안",
+        "기술"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
