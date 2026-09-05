@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "date": "2026-09-06",
+  "slot": "am",
+  "generated_at": "2026-09-06T03:43:50.185236+09:00",
+  "top_insight": [
+    "어제 브리핑이 '8만 달러 아래로 되밀렸다'고 적은 그 하락은 3분짜리였다. 오늘 나온 후속 보도는 8월 고용 서프라이즈 직후 비트코인이 3분 만에 1600달러 빠졌다고 전한다. 같은 주에 시장이 연준 시나리오를 두 번 뒤집었고, 그 반영이 이제 분 단위로 끝난다 — 지금 가격을 움직이는 축은 온체인 수요가 아니라 지표 발표 시각이다.",
+    "가격이 흔들리는 동안 규제 논거의 무게중심이 옮겨갔다. 한국은행 연구는 바이낸스에서 현지 통화와 짝지은 거래의 매수 압력이 그 통화의 절하와 같이 움직인다고 본다. 어제까지는 국법은행 인가·CLARITY 반대 진영 이탈처럼 통로를 넓히는 소식만 쌓였는데, 여기 처음으로 통화주권이라는 반대 방향 논거가 붙었다.",
+    "관세가 동맹을 겨눈다. 캐나다 총리가 미국을 향해 '전쟁'을 선언하며 협상이 결렬됐고, 재개 조건으로 자동차·철강 경쟁력이 명시됐다. 어제 한국 압박이 반도체 관세에서 방산으로 넓어졌다면, 오늘은 같은 방식이 국경을 맞댄 이웃에게 반복됐다."
+  ],
+  "whats_changed": [
+    "우크라이나: 어제는 러시아가 키이우 SBU 본부를 처음 직접 타격했다는 소식이었는데, 오늘은 푸틴이 美 특사단 방문에 맞춰 72시간 공습 중단을 지시했고 러·우가 상호 수도 공격을 멈췄다.",
+    "비트코인: 어제 '8만 달러 하회'로만 적힌 하락에 오늘 시간 해상도가 붙었다 — 고용지표 발표 직후 3분 만에 1600달러.",
+    "관세: 어제 표적은 한국(반도체 관세·방산)이었는데, 오늘은 캐나다가 '전쟁' 선언과 함께 협상 결렬로 갔다.",
+    "크립토 규제: 어제까지는 제도권 편입 소식만 사흘 연속 쌓였는데, 오늘 한국은행이 스테이블코인의 환율 부작용이라는 반대편 논거를 내놨다."
+  ],
+  "themes": [
+    "분 단위로 좁아진 지표 반응 — 8월 고용 발표 직후 비트코인이 3분에 1600달러 빠졌다",
+    "관세가 동맹을 겨눈다 — 캐나다가 '전쟁'을 선언하며 미·캐 협상이 결렬됐다",
+    "스테이블코인 논쟁의 축 이동 — 소비자 보호에서 통화주권으로"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 특사단 키이우 방문 — 푸틴이 지시한 72시간 공습 중단 기한 만료",
+    "EIA·IEA·OPEC 월간 원유 보고서 발표 (코메르츠방크가 호르무즈 불확실성과 함께 지목)",
+    "중국 무역지표 발표 (동일 보고서와 함께 브렌트유 변수로 언급)",
+    "브로드컴 4분기 실적 발표 — 가이던스가 함의한 AI 반도체 매출 217억 달러 확인 여부"
+  ],
+  "items": [
+    {
+      "title": "푸틴, 트럼프 특사 만난다…키이우 공습 72시간 중단",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14THB1TnJ3aklXcF9QdExHbEFoYWp0T09OR1RUR3J0REV4TEdQeTZ6blFXQ2U5STZmcWpMOEZ0TUdxbzYzaDhDOGlqQllydFpfM3E4MGp1ckRlVmpnN3JCQ0R5TzhMWnc?oc=5",
+      "one_liner": "푸틴이 미국 특사단 방문에 맞춰 키이우 공습을 사흘간 멈추라고 지시했고, 러·우가 상호 수도 공격을 중단했다.",
+      "why_it_matters": "양측이 동시에 상대 수도 타격을 멈춘 것은 협상 테이블이 실제로 차려졌다는 첫 물리적 신호다. 특사단은 이번 주말 모스크바와 키이우를 연달아 도는 일정이다.",
+      "confidence": 0.72,
+      "original_title": "푸틴, 트럼프 특사 만난다…\"키이우 공습 사흘간 중단\" - 연합뉴스TV",
+      "implications": "유럽 에너지·방산 익스포저를 든 쪽 — 72시간이 지난 뒤 공습이 재개되는지, 아니면 중단이 연장되는지가 협상 진척의 첫 눈금이다.",
+      "tags": [
+        "러시아-우크라이나",
+        "지정학",
+        "협상"
+      ]
+    },
+    {
+      "title": "트럼프 관세 폭탄에 캐나다 \"전쟁이다\"…미·캐 무역협상 결렬",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNSnVFeU80NVdjeEhvdENBaFZtMzBFSEJOWURhSW5NRk5VWDVNQ3ZBYkphajd5NldYZ2xuLTFRYjZQUUF5V2kydmU2TEpjLWthNGVqakRUUDBkbWs?oc=5",
+      "one_liner": "캐나다 카니 총리가 미국을 향해 '전쟁'을 선언했고, 미·캐 무역협상은 결렬돼 책임 공방으로 넘어갔다.",
+      "why_it_matters": "관세가 적대국이 아니라 국경을 맞댄 동맹을 겨눌 때 공급망은 재배치가 아니라 절단으로 반응한다. 카니는 협상 재개 조건으로 자동차·철강 경쟁력을 못박았다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 관세 폭탄에…캐나다 “전쟁이다” - KBS 뉴스",
+      "implications": "북미 공급망에 걸린 한국 부품사 — 스니펫은 한온시스템을 '캐나다 관세' 변수로 짚는다. 카니가 조건으로 건 자동차·철강 문구가 실제 품목 리스트로 옮겨앉는지 보라.",
+      "tags": [
+        "관세",
+        "무역",
+        "캐나다",
+        "자동차"
+      ]
+    },
+    {
+      "title": "WSJ \"시간은 이란 편 아니다\"…산유국들, 호르무즈 우회 송유관에 사활",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHQ0NNSzlsU2tYaGpoSUIzQTh2dndqY1h3UHdWejdxcXZKcGNUc0MxREZRcVhHYUoyZGpUUUhPY0FXRG5iT1pwZkZPQTdHSVVkc0ljUDRTR21FNzVrX3c?oc=5",
+      "one_liner": "WSJ가 산유국들이 호르무즈 해협을 건너뛰는 송유관 확보에 매달리고 있다고 전했다.",
+      "why_it_matters": "봉쇄 위협에 대한 대응이 군사에서 물류로 옮겨가면 유가에 붙는 리스크 프리미엄의 반감기가 짧아진다. \"호르무즈 막히면 수출 제로\"라는 표현이 그 절박함의 크기다.",
+      "confidence": 0.62,
+      "original_title": "WSJ \"시간은 이란 편 아냐...산유국들, 우회로 찾아\" - YTN",
+      "implications": "에너지·해운 익스포저 — 코메르츠방크는 EIA·IEA·OPEC 보고서와 중국 무역지표 발표를 앞두고 호르무즈 흐름의 불확실성을 경고했다. 그 세 보고서가 우회 물량을 어떻게 반영하는지가 확인점.",
+      "tags": [
+        "원유",
+        "호르무즈",
+        "중동",
+        "공급망"
+      ]
+    },
+    {
+      "title": "FBI, 코로나 기원 수사 확대…파우치·노벨상 수상자도 대상",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05RVFPLVB3N1dwTDNwVHB0dmtGMUFxZGxMSzBfU2xiYm9RYndudkJsZmFOekQ0NHY1anVfS3BLSktoT2l2WmNQNVNpRDkydjBweHM4WGRWUXdac1HSAWBBVV95cUxNWUUyM2p0b3hHWTF0S2FKbC10N2llOEdaUWRHWWFSckVMX3drNzhuV2xJUGhwSHpfRk4tVkR4dWh4c2dNaWFLR1EwblhVTFFNSFlHRkFlYThUUi1jREpybmk?oc=5",
+      "one_liner": "FBI가 코로나19 기원 수사를 확대하면서 앤서니 파우치와 노벨상 수상자까지 대상에 올렸다고 연합뉴스가 전했다.",
+      "why_it_matters": "감염병 기원 규명이 학술 논쟁에서 형사 수사로 넘어가면 미·중 관계와 미국 연구자금 정책 양쪽에 파장이 온다.",
+      "confidence": 0.52,
+      "original_title": "\"FBI '코로나 기원' 수사 확대…파우치·노벨상 수상자도 대상\" - 연합뉴스",
+      "implications": "바이오·연구 인프라 익스포저 — 제공된 것은 제목뿐이라 수사 범위·혐의 성격은 확인되지 않았다. 공식 발표문이 나오는지가 먼저다.",
+      "tags": [
+        "FBI",
+        "코로나19",
+        "미중관계"
+      ]
+    },
+    {
+      "title": "\"브로드컴, 시장이 틀렸다\" — 4분기 가이던스는 매출 93% 성장을 함의 (원문: Broadcom: The Market Has It Wrong)",
+      "source": "seekingalpha",
+      "url": "https://seekingalpha.com/article/4943290-broadcom-the-market-has-it-wrong",
+      "one_liner": "브로드컴의 4분기 가이던스가 매출 93% 성장을, AI 반도체 매출은 217억 달러로 전년 대비 236% 증가를 함의한다는 애널리스트 분석이다.",
+      "why_it_matters": "AI 반도체 수요를 개별 기업의 가이던스 숫자로 확인할 수 있는 몇 안 되는 창구다. 다만 이 글은 실적 공시가 아니라 'strong buy 상향' 논거를 펴는 시킹알파 기고문이다.",
+      "confidence": 0.45,
+      "original_title": "Broadcom: The Market Has It Wrong",
+      "implications": "AI 반도체 밸류체인 — 검증점은 하나다. 실제 4분기 실적에서 AI 반도체 매출 217억 달러가 확인되는가.",
+      "tags": [
+        "브로드컴",
+        "AI반도체",
+        "실적"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "캔터 피츠제럴드, 울트라제닉스 목표주가 103달러→33달러로 인하 (원문: Cantor Fitzgerald Lowers Ultragenyx Pharmaceutical (NASDAQ:RARE) Price Target to $33.00)",
+      "source": "americanbankingnews",
+      "url": "https://www.americanbankingnews.com/2026/09/05/cantor-fitzgerald-lowers-ultragenyx-pharmaceutical-nasdaqrare-price-target-to-33-00.html",
+      "one_liner": "캔터 피츠제럴드가 울트라제닉스 목표주가를 103달러에서 33달러로 낮췄지만 '비중확대' 의견은 유지했다.",
+      "why_it_matters": "목표주가를 3분의 1로 자르면서 투자의견을 그대로 두는 건 회사 전망이 아니라 주가가 이미 무너졌다는 뜻이다. 새 목표가조차 115.69% 상승 여력을 가리킨다.",
+      "confidence": 0.58,
+      "original_title": "Cantor Fitzgerald Lowers Ultragenyx Pharmaceutical (NASDAQ:RARE) Price Target to $33.00",
+      "implications": "바이오텍 익스포저 — 무엇이 주가를 그 수준까지 끌어내렸는지(임상·규제 이벤트)는 이 스니펫에 없다. 원인 확인이 먼저다.",
+      "tags": [
+        "울트라제닉스",
+        "바이오텍",
+        "목표주가"
+      ]
+    },
+    {
+      "title": "EU, 도시들의 에어비앤비식 단기임대 단속을 돕는다 (원문: EU to help cities clamp down on tourist rentals)",
+      "source": "thelocal_it",
+      "url": "https://www.thelocal.it/20260905/eu-to-help-cities-clamp-down-on-tourist-rentals",
+      "one_liner": "EU가 집값 상승에 대응해 유럽 도시들이 에어비앤비 같은 단기임대를 억제할 수 있게 돕는 규칙을 내놓을 예정이라고, AFP가 계획안을 보고 전했다.",
+      "why_it_matters": "주거비 상승의 원인을 관광 수요로 지목하는 정책이 개별 도시·회원국 단위를 넘어 EU 차원으로 올라섰다.",
+      "confidence": 0.65,
+      "original_title": "EU to help cities clamp down on tourist rentals",
+      "implications": "숙박 플랫폼·유럽 부동산 익스포저 — 갈림길은 하나다. 규칙이 도시에 규제 '권한'을 주는가, '의무'를 지우는가.",
+      "tags": [
+        "EU",
+        "단기임대",
+        "주택",
+        "규제"
+      ]
+    },
+    {
+      "title": "한국은행 연구 \"달러 스테이블코인이 현지 통화를 끌어내릴 수 있다\" (원문: Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+      "one_liner": "바이낸스에서 현지 통화와 짝지어진 거래의 매수 압력이 그 통화의 절하와 상관관계를 보인다는 한국은행 연구 결과다.",
+      "why_it_matters": "마켓메이커가 포지션을 맞추는 과정이 경로라는 설명이다. 스테이블코인이 결제 수단을 넘어 환율 채널로 작동한다면, 규제 논거가 소비자 보호에서 통화주권으로 옮겨간다.",
+      "confidence": 0.68,
+      "original_title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+      "implications": "원화·신흥국 통화 익스포저 — 국내 거래소의 원화·스테이블코인 페어 거래량과 원화 약세가 같은 방향으로 움직이는지가 이 연구를 실측할 자리다.",
+      "tags": [
+        "스테이블코인",
+        "한국은행",
+        "환율",
+        "규제"
+      ]
+    },
+    {
+      "title": "비트코인, 8월 고용 서프라이즈에 8만 달러 붕괴…3분 만에 1600달러 급락",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hRUtwMHFRbW5lMFpBZUI0bVNrSWJkWmlEbncxdVZjdzFqU1BaSExzdHE2RGRRbnFTbVlCcnZzdldvR2hPMm13ZjBUS3d3clpYRlBUMzBB?oc=5",
+      "one_liner": "8월 고용지표 서프라이즈 직후 비트코인이 3분 만에 1600달러 빠지며 8만 달러 선을 내줬다.",
+      "why_it_matters": "어제 브리핑이 '8만 달러 아래로 되밀렸다'고만 적었던 하락에 시간 해상도가 붙었다. 하루치 조정이 아니라 발표 직후 3분에 몰린 움직임이었다.",
+      "confidence": 0.6,
+      "original_title": "비트코인, 8월 고용지표 서프라이즈에 8만달러 붕괴…3분 만에 1600달러 급락 - 위키트리",
+      "implications": "비트코인 보유자 — 유동성이 얇은 구간에서 지표 발표 순간의 슬리피지가 커진다. 다음 미국 지표 발표 시각 전후의 호가 두께를 보라.",
+      "tags": [
+        "비트코인",
+        "고용지표",
+        "연준"
+      ]
+    },
+    {
+      "title": "가상자산 시총 2조7800억 달러…비트코인 점유율 57.6%",
+      "source": "CBC뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BaDN0NFI1T0N6bnp5cmlBaTJybzZfN0hqNUxDTnJMMFlhSTl3ZkRlZ29lR3JfWmtsbnZnT19Xb1BlOS1TMXNPdE1tNnRmMHlrT05fNTVqeFUycUdyOENFRnNJZkZfWHlB?oc=5",
+      "one_liner": "전체 가상자산 시가총액은 2조7800억 달러, 비트코인 도미넌스는 57.6%로 집계됐다.",
+      "why_it_matters": "가격이 흔들린 날의 도미넌스는 자금이 시장을 떠났는지, 알트에서 비트코인으로 옮겨앉았는지를 가른다.",
+      "confidence": 0.48,
+      "original_title": "가상자산 시총 2조7800억달러 비트코인 점유율 57.6% - CBC뉴스",
+      "implications": "크립토 배분을 든 쪽 — 이 두 숫자만으로는 방향을 못 가린다. 다음 며칠 도미넌스가 57.6%에서 어느 쪽으로 움직이는지가 판별선이다.",
+      "tags": [
+        "비트코인",
+        "도미넌스",
+        "시가총액"
+      ]
+    },
+    {
+      "title": "120달러를 300만 달러로 불린 초기 비트코인 지갑이 깨어났다 (원문: Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377510/ancient-bitcoin-wallet-3-million-wakes-up",
+      "one_liner": "10년 넘게 잠자던 지갑 최소 네 개가 8월 29일~9월 4일 사이 합계 1570만 달러를 옮겼고, 그중 한 묶음은 코인베이스로 들어갔다.",
+      "why_it_matters": "거래소로 향한 오래된 코인은 잠재 매도 물량이다. 기사는 매도 가능성을 '~로 보인다' 수준으로만 표현했지, 확인된 매도는 아니다.",
+      "confidence": 0.55,
+      "original_title": "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up",
+      "implications": "비트코인 보유자 — 8만 달러가 깨진 주에 겹친 움직임이라는 점이 걸린다. 이 물량이 실제 체결로 이어졌는지는 거래소 유입 대비 유출 잔고로만 확인된다.",
+      "tags": [
+        "비트코인",
+        "온체인",
+        "공급"
+      ]
+    },
+    {
+      "title": "엘살바도르 대통령 \"비트코인 준비금, 민간 사업자에 양도한 적 없어\"",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mcjZaQjdFX1BpbDJPS1pabWREOXhsU21IYW1pbzJ0eGVlQy1VQk1VZTdZWVlQQ3NuRnZCWFVqRWNIS25UR1U5cHJiLXpMT2V0?oc=5",
+      "one_liner": "엘살바도르 대통령이 국가 비트코인 준비금을 민간 사업자에게 넘겼다는 의혹을 부인했다.",
+      "why_it_matters": "국가가 보유한 비트코인의 커스터디가 어디에 있는지는, 다른 나라가 같은 정책을 검토할 때 참고하는 선례가 된다.",
+      "confidence": 0.48,
+      "original_title": "엘살바도르 대통령 \"비트코인 준비금, 민간 사업자에 양도한 적 없어\" - 블루밍비트",
+      "implications": "국가 보유 비트코인을 근거로 삼는 논의 — 부인만 있고 검증 자료는 제시되지 않았다. 온체인 주소 공개 여부가 확인점.",
+      "tags": [
+        "엘살바도르",
+        "비트코인",
+        "국가준비금"
+      ]
+    },
+    {
+      "title": "AI가 350년 묵은 수학 난제를 풀었다…역대 최장 증명 (원문: AI Just Solved a 350-Year-Old Math Problem By Writing the Longest Proof Ever)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377491/ai-solved-350-year-old-math-problem",
+      "one_liner": "앤트로픽은 클로드가 11일 동안 페르마의 마지막 정리를 컴퓨터가 스스로 검증할 수 있는 1300만 줄 코드로 옮겼다고 밝혔다.",
+      "why_it_matters": "형식 검증된 증명은 사람의 신뢰를 요구하지 않는다. AI 산출물의 검증 가능성이 논쟁에서 실측으로 넘어간 사례다.",
+      "confidence": 0.6,
+      "original_title": "AI Just Solved a 350-Year-Old Math Problem By Writing the Longest Proof Ever",
+      "implications": "AI 인프라·소프트웨어 익스포저 — 11일치 추론을 요구하는 작업이 상업적으로 반복 가능한지, 즉 추론 비용 곡선이 다음 질문이다.",
+      "tags": [
+        "AI",
+        "형식검증",
+        "앤트로픽"
+      ]
+    },
+    {
+      "title": "비트코인은 타이밍보다 사서 버티는 쪽이 쉽게 이긴다 (원문: Why crypto experts say buying and holding bitcoin easily beats trying to time the market)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "one_liner": "2010~2026년 비트코인 가격을 분석하니 연간 수익의 대부분이 1년 중 아주 짧은 구간에 몰려 있었다.",
+      "why_it_matters": "오늘 같은 장에서 이 분석이 뜻하는 바는 분명하다. 3분에 1600달러가 빠지는 변동성을 피해 다니는 대가가 그 짧은 구간을 놓치는 것일 수 있다.",
+      "confidence": 0.52,
+      "original_title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "implications": "크립토 배분을 든 쪽 — 기사는 분석 결과만 제시했지 어느 구간인지는 스니펫에 없다. 원문의 연도별 분포가 확인 대상.",
+      "tags": [
+        "비트코인",
+        "시장타이밍",
+        "장기투자"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
