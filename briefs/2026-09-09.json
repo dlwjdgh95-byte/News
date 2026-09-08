@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "date": "2026-09-09",
+  "slot": "am",
+  "generated_at": "2026-09-09T03:43:46.729662+09:00",
+  "top_insight": [
+    "중동이 두 방향에서 동시에 시장을 눌렀다. 후티의 사우디 남부 정유시설 타격으로 미 국채가 급변동했고 미국 원유는 3개월 최고치를 찍었는데, 걸프 원유 수출이 반토막 났는데도 브렌트유는 100달러 아래에 머문다는 점이 시장의 퍼즐이다. 한국은 청와대가 호르무즈 기여 방안 검토를 확인하고 마크롱과 항행 자유 공조를 약속하면서, 이 분쟁의 관찰자에서 당사자 후보로 옮겨가고 있고 이란은 이미 경고를 보냈다.",
+    "비트코인은 현물 ETF에 1월 이후 최대인 하루 6억4300만달러가 들어왔는데도 미 증시와 함께 밀려 7만8300달러 지지선을 시험 중이다. 기관 자금 유입과 가격의 괴리는 결국 11일 미국 CPI가 정리한다. 강한 8월 고용에도 달러가 잠잠했던 것은 시장이 물가 하나만 보고 있다는 뜻이다.",
+    "국내는 2분기 명목 GDP 성장률이 47년 만의 최고를 기록해 1인당 국민소득 4만달러가 유력해졌지만, 반도체·원화 강세가 만든 숫자와 체감소득의 온도 차, 물가 관리 압박이 함께 커진다. 코스피는 장 초반 7045.79로 출발해 7000을 회복했다."
+  ],
+  "whats_changed": [
+    "중동: 어제는 레바논 전선(이스라엘 공습 12명 사망)과 중동 크립토 수요 3배가 핵심이었는데, 오늘은 후티의 사우디 남부 4개 도시 정유시설 타격(70여 명 부상, 미 국채 급변동)과 청와대의 '호르무즈 파병 검토 중' 확인, 이란의 대한국 경고가 더해졌다.",
+    "우크라이나: 어제는 특사가 3자회담 조율 등 '실질적 진전'을 말했지만 젤렌스키는 러시아가 협상을 고려하지 않는다고 했는데, 오늘은 트럼프·푸틴이 1시간 직접 통화했고 러시아가 '건설적·솔직'이라 평가했으며 젤렌스키도 미 특사의 '아주 좋은 아이디어'를 언급해 톤이 낙관 쪽으로 기울었다.",
+    "비트코인: 어제는 8만달러 돌파 실패 뒤 7만9천달러 일시 회복과 코인셰어스의 '금리 경로 트레이딩' 해석이었는데, 오늘은 현물 ETF 하루 6억4300만달러 순유입(1월 이후 최대)이 확인된 동시에 가격은 미 증시·유가와 함께 밀려 7만8300달러 지지선 테스트로 내려왔다.",
+    "코스피: 어제 '7천피 턱밑'이었는데, 오늘은 장 초반 7045.79로 출발해 7000을 회복한 뒤 강보합이다."
+  ],
+  "themes": [
+    "중동 리스크의 두 얼굴 — 후티 사우디 정유시설 타격·미국 원유 3개월 최고 vs 걸프 수출 반토막에도 브렌트 100달러 아래",
+    "한국의 호르무즈 당사자화 — 청와대 파병 검토 확인·마크롱과 항행 자유 공조·이란의 경고",
+    "모든 길은 11일 CPI로 — 강한 고용에도 달러 잠잠, BTC ETF 최대 유입에도 지지선 테스트"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 8월 CPI 발표(9/11) — 9월 FOMC 인상·동결 확률의 결정 변수",
+    "美 공화당 사상 첫 중간선거 전당대회 개막(9/9)",
+    "미국의 11월 호르무즈 파병 요청(국민일보 보도)에 대한 한국 정부 결정 시점"
+  ],
+  "items": [
+    {
+      "title": "청와대 \"호르무즈 파병 검토 중, 결정된 건 없어…이란에도 설명\"…국방부는 UAE 조사단 파견",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LX252U0FQbTloYjNVcmVXeFEyVHB2R0VNdUcwUExfU1pmRlF6VTR4amhPQ1UxRHY5N2NGODlIYWFYeVNlMW9xRlRGb1F1RkQ2dDQ1ekJ6TGxRcEE?oc=5",
+      "one_liner": "청와대가 호르무즈 기여 방안을 검토 중이며 결정된 것은 없다는 입장 그대로라고 밝히고 이란에도 이를 설명했다고 했다. 국방부는 상황 파악을 위해 UAE에 조사단을 보냈고, 국민일보는 미국이 11월 파병을 요청했다고 단독 보도했다.",
+      "why_it_matters": "한국이 중동 분쟁의 군사적 당사자가 될 수 있는 분기점이다. 이란은 한국에 호르무즈 군사 개입 시 심각한 결과가 있을 것이라고 경고했다.",
+      "confidence": 0.7,
+      "original_title": "청와대 “호르무즈 파병 검토 중, 결정된 건 없단 입장 그대로…이란에도 설명” - KBS 뉴스",
+      "implications": "원유 수입선·해운·방산주에 영향. '국민 공감대 기반 구체화' 시점, 미국의 11월 요청 시한, 이란의 후속 대응을 지켜볼 것.",
+      "tags": [
+        "호르무즈",
+        "한국 외교",
+        "이란",
+        "중동"
+      ]
+    },
+    {
+      "title": "후티, 사우디 남부 4개 도시 정유시설 대규모 공격…70여 명 부상, 아람코 피격에 美 국채 급변동",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IRjlvRE01dTVFQTJYdml6NUtHM0lmLWxMT0RhZFhUa21LbGJaYi1wQ0MyMV9xdjJUV3NTUWhrVHhBWnpYb0c1ZDNnbU9kNkdxZ2ZWS0NDdUo0RHNNcVpkNmRCS3FjWDNuWTR6U3ZVaDlCUVJw0gF3QVVfeXFMTWc1YUFLZ2RVcmVlVWtDakx3dy0zZFpjSUtjMW9ZelJtTGh6cFFXaEIxbUxfRTFoem9RSlFxNV8tQnZDbWthZ2VjNEtQTFJtZm9zWXJiYXBwcU1IWTFPNWRWS0Y5RzZBbnlBWlYydEpXX1BmZ0IzQUk?oc=5",
+      "one_liner": "후티 반군이 사우디 남부 4개 도시의 정유시설 등을 타격해 70여 명이 부상했다. 아람코 피격 소식에 미 국채 가격은 급변동한 뒤 상승했고, 예멘 정부군은 12년 만에 수도 사나 탈환전을 선언했다.",
+      "why_it_matters": "이란 전선과 별개로 바브엘만데브 해협을 둘러싼 사우디-후티 충돌이 전면전 수준으로 번지며 사우디 석유 인프라가 직접 타격을 받았다.",
+      "confidence": 0.7,
+      "original_title": "후티, 사우디 석유시설에 대규모 공격…수십 명 부상 - VOA 한국어 홈페이지",
+      "implications": "원유·정제마진·미 국채 변동성 확대. 아람코 피해 규모와 사우디의 대응, 바브엘만데브 해협 통항 차질을 지켜볼 것.",
+      "tags": [
+        "후티",
+        "사우디",
+        "원유",
+        "미 국채"
+      ]
+    },
+    {
+      "title": "트럼프·푸틴 1시간 통화…러 \"건설적이고 솔직한 대화\", 미·러·우크라 3자회담 재개 가능성",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iMzlTYUVYMVFCeF9ocUdodjhuSk5XYlZtQWtqdmZDa2wyU0g5ZUFOMnBJR0FNcWZ0ZVNsbW56WGowa0Vsb1JOb1R2Q3VrNUYyM3FLbEF5LTFjaThOQVVOanNEZVItMzQ?oc=5",
+      "one_liner": "트럼프와 푸틴이 1시간 통화해 우크라이나 종전과 미러 관계 복원을 논의했고, 러시아는 이를 '건설적이고 솔직한 대화'라고 평가하며 3자회담 재개 가능성을 언급했다. 젤렌스키는 미 특사들이 종전 관련 '아주 좋은 아이디어'를 제시했다고 말했다.",
+      "why_it_matters": "어제 특사단 조율 단계였던 종전 협상이 정상 간 직접 통화로 격상됐다.",
+      "confidence": 0.7,
+      "original_title": "트럼프·푸틴 1시간 통화…러 \"건설적이고 솔직한 대화\" - 연합뉴스TV",
+      "implications": "유럽 방산·에너지·곡물 가격과 러시아 제재 완화 기대에 영향. 3자회담 일정이 실제로 잡히는지, 우크라이나 측 반응이 유지되는지 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "트럼프",
+        "종전 협상"
+      ]
+    },
+    {
+      "title": "2분기 명목 GDP 성장률 47년 만에 최고…1인당 국민소득 4만달러 돌파 유력",
+      "source": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9vWm9jSksxeVRwMVVCWHVTaDN3TGxnNEttNk9QbjFFOXlTdDU5UEs4Q2p6cXBqRHZsVHAzcXhrU2FJejB0MDhUZDNmWjJaZUE?oc=5",
+      "one_liner": "2분기 명목 GDP 성장률이 47년 만에 최고를 기록해 1인당 GNI 4만달러 돌파가 유력해졌다. 돌파하면 인구 5000만 이상 국가 중 6번째다. 반도체 호황과 원화 강세가 배경이지만 체감소득과는 온도 차가 있고, 동아일보 사설은 물가 관리 고삐를 조일 때라고 지적했다.",
+      "why_it_matters": "한국 경제의 명목 규모가 반도체와 환율에 힘입어 한 계단 올라섰지만, 청년들이 '천원 매점'에 몰린다는 보도가 병존한다.",
+      "confidence": 0.7,
+      "original_title": "“국민소득 4만달러 유력”…돌파 땐 인구 5000만 이상 국가 중 6번째 - v.daum.net",
+      "implications": "한은의 물가 대응 부담 증가와 원화 강세 지속 여부. 3분기 물가 지표와 청년층 체감경기 괴리를 지켜볼 것.",
+      "tags": [
+        "한국 경제",
+        "GDP",
+        "국민소득",
+        "반도체"
+      ]
+    },
+    {
+      "title": "이 대통령, 마크롱과 정상회담 \"호르무즈 항행 자유 위해 긴밀히 공조\"…청와대 \"파병으로 규정하면 안 돼\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rUEdITTdMMTc5WVlJZnhBalltd2hudFpvOWlmRjQ3TkdtRUphNUczbGlsRDN0XzJDb1hHbUp4NGJ5R2Q2eXRDOWQ2TEVzUDBveVRscjMzVEFJTDBwdzMzR0RNa1hrZFZ0SWxN?oc=5",
+      "one_liner": "이재명 대통령이 마크롱 대통령과 정상회담을 갖고 호르무즈 항행 자유를 위해 긴밀히 공조하기로 했고, 원자력 등 협력을 심화하기로 했다. 청와대는 호르무즈 논의를 파병으로 규정해선 안 된다고 선을 그었다.",
+      "why_it_matters": "호르무즈 대응이 한미 양자 사안을 넘어 한-프랑스 공조 틀로 넓어졌다.",
+      "confidence": 0.65,
+      "original_title": "이 대통령, 마크롱과 정상회담 “호르무즈 항행 자유 위해 긴밀히 공조” - 한겨레",
+      "implications": "원전 수출·방산 협력에 영향. '파병'과 '항행 자유 기여'의 경계를 정부가 어떻게 정의하는지 지켜볼 것.",
+      "tags": [
+        "한-프랑스",
+        "호르무즈",
+        "원자력",
+        "정상회담"
+      ]
+    },
+    {
+      "title": "美 중간선거 유세전 본격화…민주 우세 속 공화당 '트럼프 딜레마'",
+      "source": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFZk9ndFdKM0pjU2RXMDRTNEVldHJTeWpnY19Lak91ck52NlZNMjF3bHlhcUQtQVBPZ09mLXdvcC1LcW56bFpQZDcxSk9NZlBUTmYyTjl1MkQ1aFnSAWBBVV95cUxPWFFIUHpTWndlR2dfeUJqVDY1QWJXV19yN2c1bWM5Nm1UdVJmUHJ0Vk4tUzdmVXRnaEllRXE4bUwwSlBqN0h0NVIzS3JPd3NvN3FNd0J5QjlQMmFibXR0QXA?oc=5",
+      "one_liner": "미국 중간선거 유세전이 본격화됐다. 공화당은 9일 사상 첫 중간선거 전당대회를 열어 결집과 투표율 제고를 꾀하지만, 경합지 공화 후보들은 트럼프의 지원 유세를 원치 않으며 하원을 뺏기고 상원도 장담 못 한다는 평가가 나온다.",
+      "why_it_matters": "의회 구도가 바뀌면 관세·재정·크립토 입법 환경이 달라진다.",
+      "confidence": 0.6,
+      "original_title": "美중간선거 유세전 본격화…민주 우세속 공화 수성 가능할까 - yna.co.kr",
+      "implications": "관세·감세 정책의 지속성에 영향. 9일 공화 전당대회와 경합지 여론조사 흐름을 지켜볼 것.",
+      "tags": [
+        "미국 중간선거",
+        "트럼프",
+        "공화당"
+      ]
+    },
+    {
+      "title": "미·이란 충돌에 걸프 원유 수출 반토막…그런데 브렌트유는 왜 100달러 아래인가 (원문: US-Iran Tensions Cut Gulf Oil Flows In Half, So Why Is Brent Crude Below $100?)",
+      "source": "abplive",
+      "url": "https://news.abplive.com/business/us-iran-tensions-hit-oil-flow-brent-crude-under-100-explained-1865715",
+      "one_liner": "미·이란 교전이 다시 불붙고 호르무즈 통항이 어려운 가운데, 서아시아 원유 수출은 분쟁 시작 7개월 만에 하루 약 1800만배럴에서 1100만배럴로 줄었다. 그런데도 브렌트유는 이달 반등에도 100달러 아래에 머물고 있다.",
+      "why_it_matters": "공급 충격의 규모에 비해 유가 반응이 제한적이라는 점이 지금 에너지 시장의 핵심 퍼즐이다.",
+      "confidence": 0.65,
+      "original_title": "US-Iran Tensions Cut Gulf Oil Flows In Half, So Why Is Brent Crude Below $100?",
+      "implications": "정유·해운·항공에 영향. 재고와 대체 공급이 어디까지 완충하는지, 후티의 사우디 타격 이후 브렌트 100달러 돌파 여부를 지켜볼 것.",
+      "tags": [
+        "원유",
+        "브렌트유",
+        "호르무즈",
+        "이란"
+      ]
+    },
+    {
+      "title": "8월 美 고용 서프라이즈에도 달러 반응은 잠잠…시장은 11일 CPI 대기 (원문: Muted reaction to a very strong NFP)",
+      "source": "fxstreet",
+      "url": "https://www.fxstreet.com/analysis/muted-reaction-to-a-very-strong-nfp-202609080637",
+      "one_liner": "9월 4일 발표된 8월 미국 고용지표가 최근 몇 달의 약화 추세를 깨고 예상보다 훨씬 강했지만, 달러의 초기 움직임은 제한적이었다. 트레이더들은 9월 11일 물가지표를 기다리고 있다.",
+      "why_it_matters": "고용이 강해도 연준 경로를 가르는 변수는 물가라는 점을 시장이 확인해 줬다.",
+      "confidence": 0.65,
+      "original_title": "Muted reaction to a very strong NFP",
+      "implications": "11일 CPI가 9월 FOMC 인상·동결 확률을 좌우한다. 달러·미 국채·비트코인이 모두 이 지표 하나에 걸려 있다.",
+      "tags": [
+        "미국 고용",
+        "달러",
+        "CPI",
+        "연준"
+      ]
+    },
+    {
+      "title": "중국 8월 철광석 수입 전월 대비 0.4% 증가…태풍으로 7월 통관 지연되며 예상 밖 증가 (원문: China August iron-ore imports beat expectations as typhoons delay July customs clearance)",
+      "source": "miningweekly",
+      "url": "https://www.miningweekly.com/article/china-august-iron-ore-imports-beat-expectations-as-typhoons-delay-july-customs-clearance-2026-09-08",
+      "one_liner": "중국의 8월 철광석 수입이 1억854만톤으로 전월 대비 0.4%, 전년 대비 3.1% 늘었다. 감소를 예상한 분석가들과 달리, 7월 잇단 태풍으로 항만 하역과 통관이 지연된 물량이 8월로 밀린 영향이다.",
+      "why_it_matters": "세계 최대 철광석 소비국의 수입 증가가 수요 회복이 아니라 통관 이월 효과라는 점을 짚어야 한다.",
+      "confidence": 0.65,
+      "original_title": "China August iron-ore imports beat expectations as typhoons delay July customs clearance",
+      "implications": "철광석 가격과 호주·브라질 광산주, 국내 철강주에 영향. 9월 수입이 다시 줄어드는지로 실수요를 판단할 것.",
+      "tags": [
+        "중국",
+        "철광석",
+        "원자재",
+        "철강"
+      ]
+    },
+    {
+      "title": "비트코인 현물 ETF 하루 6억4300만달러 순유입…1월 이후 최대",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qbFB2UjNxMzNtMUtRMnpCdnQ4ZzBtWHMxMjE5bXFDck1jaG9XUklaZFd0WkY2SjVWdzJwZjM5YWw2bndvME56dXV4dTlJWUtM?oc=5",
+      "one_liner": "비트코인 현물 ETF에 하루 6억4300만달러가 순유입돼 1월 이후 최대 규모를 기록했다.",
+      "why_it_matters": "8만달러 저항에 막힌 가격과 달리 기관 자금은 대규모로 들어오고 있다.",
+      "confidence": 0.6,
+      "original_title": "비트코인(BTC) 현물 ETF, 하루 6억4300만달러 순유입…1월 이후 최대 - 블루밍비트",
+      "implications": "ETF 자금 유입과 가격의 괴리가 어느 쪽으로 해소되는지(돌파 또는 유입 둔화) 주목. 이번 주 CPI 이후 유입 지속 여부.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "기관 자금"
+      ]
+    },
+    {
+      "title": "비트코인, 미 증시와 동반 하락…미국 원유 3개월 최고에 7만8300달러 지지선 시험 (원문: Bitcoin faces key support test at $78.3K as US crude oil hits three-month high)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "화요일 뉴욕 개장과 함께 비트코인이 미국 주식과 동반 하락했다. 미국 원유가 3개월 최고치를 찍은 가운데 분석가들은 7만8300달러 지지선이 지켜져야 한다고 경고했다.",
+      "why_it_matters": "유가 상승이 물가·금리 부담 경로로 위험자산 전반을 눌렀고, 비트코인은 ETF 대량 유입에도 지지선을 시험 중이다.",
+      "confidence": 0.65,
+      "original_title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
+      "implications": "7만8300달러 이탈 여부와 유가, 11일 CPI가 변수. 지지선 붕괴 시 레버리지 포지션 청산 확대 가능.",
+      "tags": [
+        "비트코인",
+        "유가",
+        "위험자산"
+      ]
+    },
+    {
+      "title": "비자, 스테이블코인 카드 사업에 온체인 대출 결합…네트워크 스테이블코인 결제액 전년 대비 약 200% 급증 (원문: Visa brings onchain credit to its growing stablecoin card business)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/visa-stablecoin-blockchain-lending-payment-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비자가 VisaNet 정산 데이터와 블록체인 대출을 결합해 핀테크·스테이블코인 연계 카드 프로그램의 운전자금 조달을 지원한다. 비자 네트워크의 스테이블코인 결제 규모는 전년 대비 약 200% 늘었다.",
+      "why_it_matters": "결제 대기업이 스테이블코인을 정산 수단을 넘어 신용 인프라로 확장하고 있다.",
+      "confidence": 0.65,
+      "original_title": "Visa brings onchain credit to its growing stablecoin card business",
+      "implications": "스테이블코인 발행사·온체인 대출 프로토콜에 영향. 어떤 온체인 대출 상대방을 쓰는지와 규제 당국 반응을 지켜볼 것.",
+      "tags": [
+        "비자",
+        "스테이블코인",
+        "온체인 대출",
+        "결제"
+      ]
+    },
+    {
+      "title": "크로노스, 1억1100만달러 디파이 해킹 되돌리려 2시간치 거래 삭제…919만달러는 미회수 (원문: Cronos Erased Two Hours of Transactions to Reverse $111 Million DeFi Exploit)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377686/cronos-erased-two-hours-transactions-defi-exploit",
+      "one_liner": "크로노스 체인이 1억1100만달러 규모 디파이 익스플로잇을 되돌리기 위해 2시간 분량의 거래를 롤백했다. 공격 거래뿐 아니라 정상 거래도 함께 되돌려졌으며, 크로노스에 따르면 919만달러는 여전히 회수되지 않았다.",
+      "why_it_matters": "체인 운영 주체가 거래 이력을 되돌린 사례로, 최종성과 탈중앙성에 대한 논란을 부른다.",
+      "confidence": 0.65,
+      "original_title": "Cronos Erased Two Hours of Transactions to Reverse $111 Million DeFi Exploit",
+      "implications": "CRO·크로노스 생태계 신뢰도와 거래소 상장 자산의 롤백 리스크. 정상 거래 피해자 보상 여부를 지켜볼 것.",
+      "tags": [
+        "크로노스",
+        "디파이",
+        "해킹",
+        "롤백"
+      ]
+    },
+    {
+      "title": "서클, 해외 결제업체 타자페이 4억달러에 인수 합의",
+      "source": "데일리비즈온",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5adzRhZlJpWmhoWU5DaFJic2xvUWV3Snp1RW5JNFNZcDM5QUlsNHR1bm1kOVpSWXpiRk9KSnd2d0tNSXhraDFMY2RGcXBIR3EtNFhlVWpMaV92VVhQU3liTEloeExvOE9vcmtnMw?oc=5",
+      "one_liner": "서클(Circle)이 해외 결제 업체 Tazapay를 4억달러에 인수하기로 합의했다.",
+      "why_it_matters": "스테이블코인 사업자가 크로스보더 결제망을 직접 사들이는 움직임으로, 비자의 온체인 대출 결합과 같은 방향이다.",
+      "confidence": 0.6,
+      "original_title": "[D-BIZ 암호화폐 뉴스] Circle, 해외 결제 업체 Tazapay... \"4억 달러에 인수하기로\" 합의 - 데일리비즈온",
+      "implications": "크로스보더 결제 핀테크 M&A 확대 가능. 인수 마무리 조건과 규제 승인 여부.",
+      "tags": [
+        "서클",
+        "스테이블코인",
+        "M&A",
+        "결제"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
