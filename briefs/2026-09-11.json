@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "date": "2026-09-11",
+  "slot": "am",
+  "generated_at": "2026-09-11T03:41:45.306167+09:00",
+  "top_insight": [
+    "중동 충돌이 '유조선 피격'에서 '미군 자산 직접 타격'과 '홍해 남단 관문 장악전'으로 한 단계 더 올라갔다. 후티의 모카 진입과 바브엘만데브 장악전은 사우디가 호르무즈 우회로로 써 온 홍해 경로를 위협하고, 실제로 사우디 원유 수출은 13년 만의 최저치로 내려앉았다. 여기에 혁명수비대의 미군 무인정 타격 주장과 요르단 기지 전투기 9대 손상 보도(백악관은 부인)가 겹치면서, 시장이 '제한적 충돌'로 소화하던 전제가 흔들리고 있다.",
+    "금융시장은 이 리스크를 금리와 유가의 동반 상승으로 받아 냈다. 어제 재무부 바이백에 실망해 급등했던 미 국채금리가 오늘은 S&P 500을 핵심 지지선 근처로 밀어냈고, 코스피는 외국인 순매도 속에 1.37% 하락하며 삼성전자·SK하이닉스 등 대형주가 밀렸다. 트럼프의 1인당 670만원 '배당금' 공약이 재정·인플레 부담을 키운다는 비판까지 더해져 11일 미 CPI 발표 전까지 채권시장이 위험자산의 방향을 쥐고 있다.",
+    "한국은 파병 논의의 무게중심이 옮겨가고 있다. 청와대가 '기술적 기여'라는 제3안을 검토하고 정부가 임무 종결·철수 기준을 함께 들여다보는 가운데 여당에서도 신중론이 잇따랐다. 오늘 귀국하는 현지조사단의 NSC 보고와 다음주로 검토되는 대통령 기자회견이 파병·개각·개헌을 한꺼번에 정리하는 분기점이 될 수 있다."
+  ],
+  "whats_changed": [
+    "중동: 어제는 이라크 영해·두바이 앞바다 유조선 피격과 혁명수비대의 아라비아해 통제구역 확대 선언이 핵심이었는데, 오늘은 후티의 모카 진입·바브엘만데브 장악전, 혁명수비대의 미군 무인정 타격 주장, 요르단 미군 기지 전투기 9대 손상 보도(트럼프 부인), 사우디 원유 수출 13년 최저가 더해졌다.",
+    "시장: 어제는 재무부 장기물 바이백 60억달러 확대에 실망한 국채금리 급등이었는데, 오늘은 금리·유가 동반 상승으로 S&P 500이 핵심 지지선에 근접했고 코스피가 외국인 순매도 속 1.37% 하락했다.",
+    "비트코인: 어제는 8만달러 회복 실패와 엔화 153엔대 강세에 따른 캐리 청산 우려였는데, 오늘은 알트코인 매수세 회복과 함께 비트코인 쌍고점 비관론이 제기됐고, 사이드체인 리퀴드 네트워크의 3억2천만달러 익스플로잇 사고가 새로 등장했다.",
+    "한국 파병: 어제는 청와대의 호르무즈 파병 검토 확인이었는데, 오늘은 '기술적 기여' 제3안 검토, 임무 종결·철수 기준 검토, 여당 신중론 확산, 다음주 대통령 기자회견 검토로 논의가 출구 쪽으로 이동했다."
+  ],
+  "themes": [
+    "홍해·호르무즈 이중 봉쇄 위험 — 후티 모카 진입·바브엘만데브 장악전에 사우디 원유 수출 13년 최저, 혁명수비대는 미군 무인정 타격 주장",
+    "금리·유가 동반 상승의 주식 압박 — S&P 500 핵심 지지선 근접, 코스피 1.37% 하락·외국인 순매도, 트럼프 1인당 670만원 배당 공약에 재정·인플레 비판",
+    "크립토 규제·인프라 동시 시험 — ESMA의 폴리마켓·칼시 인가 공백 경고, 영국 상원 디지털자산 전략 의무화, 리퀴드 네트워크 3억2천만달러 익스플로잇"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 8월 CPI 발표(11일)",
+    "호르무즈 현지조사단 귀국·NSC 결과 보고(11일)",
+    "이 대통령 기자회견(다음주, 추석 전 검토)",
+    "젤렌스키-트럼프 회담(이달 말 예상)"
+  ],
+  "items": [
+    {
+      "title": "예멘 후티 반군, 요충지 모카 진입…바브엘만데브 장악전 속 사우디 원유 수출 13년 만 최저",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHFRYXNlX0xDYkx5OEE0dmZkdndBX2hSb3lMWnhac3VxOGphcUtzR3dGYVNUWWVqMF93UkRXdWhmc3RZcDlFQi11NlR2LVBEWFpncjFELTEyUWlYRUZnbFVDVk8xVmNCY1N5U3ZkOUdoRi1vSDdpQ2IyVjRMMWhlRkdMcm5qM21lamNUZjkxUUNWOFNi0gGXAUFVX3lxTE5VQjRPem9SV0YwZHVYNHRmN1hpTHdOWnhzS0o5UjgyZ1hCLURQRU5Za09KaUlBUzV5dnp2a1ljbTd3S3dZbnBheFo4Q3hfekZscmNQWVNheVpIT2YybEFiaS1SLUVnX3lOcDVmd0pManNJeDNnaWRzcWxrNEtER21JNnBxaGVlTUpiVFJkQi1qZDFfUWF5UjA?oc=5",
+      "one_liner": "후티 반군이 홍해 입구 요충지 모카에 진입해 바브엘만데브 장악전을 벌이는 가운데, 사우디 석유 수출량이 13년 만의 최저치로 떨어졌다.",
+      "why_it_matters": "호르무즈에 이어 홍해 남단 관문까지 흔들리면 사우디의 호르무즈 우회로가 막히고 세계 원유 공급이 양쪽에서 조여진다.",
+      "confidence": 0.62,
+      "original_title": "예멘 후티 반군, 전략적 요충지 모카 진입 - VOA 한국어 홈페이지",
+      "implications": "정유·해운·항공주와 유가 연동 자산에 영향 / 후티의 '자유항행 안전' 발언이 실제 상선 통항 데이터로 뒷받침되는지 관찰.",
+      "tags": [
+        "중동",
+        "원유",
+        "홍해",
+        "후티"
+      ]
+    },
+    {
+      "title": "이란 혁명수비대 \"호르무즈서 미군 스파이 무인정 타격\"…트럼프는 군용기 손상 보도 '사실무근'",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90dkczRTJ6V2Q2ZDEzd3YzaXVNREhxZWFlSXRVVTUwVmNBM2JENHVYWmdBUDFPU2kzdnZBejFKdmxmMTdyS3dvTWZIclRnYmtCOHAtSXhYZ2p2bTB5THVvckNqVzhHZzQ?oc=5",
+      "one_liner": "이란 혁명수비대가 호르무즈 해협에서 미군 정찰 무인정을 타격했다고 밝혔고, 트럼프는 이란 공습으로 미 군용기가 손상됐다는 보도를 부인했다.",
+      "why_it_matters": "미-이란 충돌이 유조선을 넘어 미군 자산으로 직접 옮겨가고 있어, 시장이 가정하던 '제한적 충돌' 전제가 흔들린다.",
+      "confidence": 0.6,
+      "original_title": "이란 혁명수비대 \"호르무즈서 미군 스파이 무인정 타격\" - 연합뉴스TV",
+      "implications": "유가·달러·안전자산에 영향 / 미국의 대응 수위와 나포된 미 잠수정의 향방을 지켜볼 것.",
+      "tags": [
+        "중동",
+        "이란",
+        "호르무즈",
+        "미국"
+      ]
+    },
+    {
+      "title": "\"이란의 요르단 미군 기지 공습에 F-15·A-10 전투기 9대 손상\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BUmYxVDlQSlhCVGdsR25KejJBVTdNRVpXSUNxMm84SmJyelZGN2MwWDF5VzZfRElwU3dFa0dUc21rSi0waTZfNUNtRWdsdlVVSWs2Y2FlSmo4TGNyblpHYUpXaGswd00?oc=5",
+      "one_liner": "이란의 요르단 미군 기지 보복 공습으로 F-15·A-10 등 전투기 9대가 손상됐다는 보도가 나왔으나 트럼프는 이를 부인했다.",
+      "why_it_matters": "미군 피해 규모를 두고 보도와 백악관의 설명이 엇갈리는 것 자체가 확전 여부를 가늠하기 어렵게 만드는 불확실성 요인이다.",
+      "confidence": 0.55,
+      "original_title": "\"이란의 요르단 미군 기지 공습에 F-15·A-10 전투기 9대 손상\" - 연합뉴스TV",
+      "implications": "방산주·유가에 영향 / 미 국방부의 공식 피해 확인 여부와 추가 보복 발표를 관찰.",
+      "tags": [
+        "중동",
+        "이란",
+        "미군",
+        "요르단"
+      ]
+    },
+    {
+      "title": "청와대, 호르무즈 해협 '기술적 기여' 제3의 방안도 검토…파병 신중론 확산",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsNUdVU0lHc05sZ2prdlM5dENYZUU4M0c5aWhudW5kbnNYU1pEeFBKNU1mdWFMZk1pVVpVeU0xNkZpck4tbmptMUVaMDR2dmtnajN2MUl3SU1iRGsxcmxneDhLN3hGVmFyZ0VFMjl4NkZzdUQ3?oc=5",
+      "one_liner": "청와대가 호르무즈 파병 대신 '기술적 기여'라는 제3의 방안을 검토 중이며, 정부는 파병 임무 종결·철수 기준까지 함께 들여다보고 있다.",
+      "why_it_matters": "외교가의 장기전 전망 속에 여당 의원들까지 신중론을 내면서, 파병 결정의 방향이 '참여 여부'에서 '어떻게 발을 빼나'로 옮겨가고 있다.",
+      "confidence": 0.62,
+      "original_title": "청와대, 호르무즈 해협에 ‘기술적 기여’ 제3의 방안도 검토 - 한겨레",
+      "implications": "한미 관계·국내 정치 일정에 영향 / 오늘 귀국하는 현지조사단의 NSC 보고 결과를 관찰.",
+      "tags": [
+        "한국",
+        "호르무즈",
+        "파병",
+        "청와대"
+      ]
+    },
+    {
+      "title": "\"트럼프 배당금, 1천600조원 매표행위…국가부채·인플레 가중\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82WG5FU2xhQjZURWZEWFp3SFZkY0FjRUJHRTc4MFM1VFlWY1Z2bHIyVDl4Rlp6YWI4UlctRUNmOGxCTkhkMzV5dUpUWXNVVzZtMGI5TmNOc2tRTnM?oc=5",
+      "one_liner": "트럼프가 선거 승리 시 1인당 670만원 지급을 내건 '트럼프 배당금'이 1천600조원 규모의 매표행위이며 국가부채와 인플레이션을 키운다는 비판이 나왔다.",
+      "why_it_matters": "미 장기금리가 이미 불안한 국면에서 대규모 현금 살포 공약은 재정 적자·인플레 기대를 통해 채권시장 부담을 더한다.",
+      "confidence": 0.58,
+      "original_title": "\"트럼프 배당금, 1천600조원 매표행위…국가부채·인플레 가중\" - 연합뉴스",
+      "implications": "미 국채·달러·금에 영향 / 공약의 재원 설명과 채권시장의 기간 프리미엄 반응을 관찰.",
+      "tags": [
+        "미국",
+        "트럼프",
+        "재정",
+        "인플레이션"
+      ]
+    },
+    {
+      "title": "이 대통령, 다음주 기자회견 검토…개헌·개각·파병 입장 밝힐 듯",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IS2h5NGpSME5wdnlhTGV1bDE1cllnd1psUkNHWFgxSmZzbE1fdHBSdjM3aGZhR1ViVDFRVEdpTTByUHdCOXNXRldMMTdYUWMycG5GYlFiLTdDQVQtZVUwMHJicnllMTNzeHg0?oc=5",
+      "one_liner": "이 대통령이 추석 전 기자회견을 검토 중이며 개헌·개각·호르무즈 파병에 대한 입장을 직접 밝힐 것으로 전망된다.",
+      "why_it_matters": "파병·개각 등 시장이 주시하는 현안이 한꺼번에 정리될 수 있는 일정이라 국내 정책 불확실성의 분기점이 된다.",
+      "confidence": 0.6,
+      "original_title": "이 대통령, 다음주 기자회견 검토…개헌·개각·파병 입장 밝힐 듯 - 한겨레",
+      "implications": "국내 정치·방산·외교 관련 자산에 영향 / 기자회견 일정 확정과 파병 관련 발언 수위를 관찰.",
+      "tags": [
+        "한국",
+        "대통령",
+        "기자회견",
+        "파병"
+      ]
+    },
+    {
+      "title": "코스피 1.37% 하락…중동 긴장·호르무즈 인근 공격에 외국인 순매도 지속 (원문: Global Market: South Korean stocks fall over 1% as Middle East tensions weigh on risk sentiment)",
+      "source": "economictimes_indiatimes",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-stocks-fall-over-1-as-middle-east-tensions-weigh-on-risk-sentiment/articleshow/133996774.cms",
+      "one_liner": "코스피가 목요일 1.37% 하락했으며 삼성전자·SK하이닉스·삼성바이오로직스 등 대형주가 밀리고 외국인은 순매도를 이어갔다.",
+      "why_it_matters": "중동 리스크가 국내 대형 기술주와 외국인 수급에 직접 반영되기 시작했다는 신호다.",
+      "confidence": 0.7,
+      "original_title": "Global Market: South Korean stocks fall over 1% as Middle East tensions weigh on risk sentiment",
+      "implications": "국내 반도체·바이오 대형주 보유자에 영향 / 외국인 순매도 지속 여부와 환율 흐름을 관찰.",
+      "tags": [
+        "코스피",
+        "한국증시",
+        "외국인",
+        "중동"
+      ]
+    },
+    {
+      "title": "S&P 500, 금리·유가 동반 급등에 핵심 지지선 근접 (원문: S&P 500 Nears Critical Support Level as Rates and Oil Surge)",
+      "source": "investing_us",
+      "url": "https://www.investing.com/analysis/sp-500-nears-critical-support-level-as-rates-and-oil-surge-200687410",
+      "one_liner": "미 국채금리와 유가가 동시에 오르면서 S&P 500이 핵심 지지선에 다가서고 있다는 시장 분석이 나왔다.",
+      "why_it_matters": "어제의 국채금리 급등이 오늘은 주식 지수의 기술적 지지선 시험으로 이어지고 있어 위험자산 전반의 하방 압력이 커지고 있다.",
+      "confidence": 0.62,
+      "original_title": "S&P 500 Nears Critical Support Level as Rates and Oil Surge",
+      "implications": "미국 주식·달러엔 환율 노출 투자자에 영향 / 지지선 이탈 여부와 미 10년물 금리 방향을 관찰.",
+      "tags": [
+        "S&P500",
+        "미국증시",
+        "금리",
+        "유가"
+      ]
+    },
+    {
+      "title": "리퀴드 네트워크, 3억2천만달러 익스플로잇 후 블록 생성 재개…거래·페그는 여전히 중단 (원문: Liquid Network resumes block production after $320M exploit)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/liquid-network-resumes-block-production-after-320m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "리퀴드 네트워크가 3억2천만달러 규모 익스플로잇 뒤 긴급 소프트웨어 업데이트로 블록 생성을 재개했으나 거래와 페그 운영은 복구 작업 중 중단 상태다.",
+      "why_it_matters": "비트코인 사이드체인 인프라의 대형 사고라 래핑 자산·거래소 준비금 신뢰에 파장이 있을 수 있다.",
+      "confidence": 0.62,
+      "original_title": "Liquid Network resumes block production after $320M exploit",
+      "implications": "L-BTC 보유자·연동 거래소에 영향 / 페그 운영 재개 시점과 손실 보전 방안을 관찰.",
+      "tags": [
+        "크립토",
+        "해킹",
+        "리퀴드",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "유럽 ESMA, 폴리마켓·칼시의 EU 접근에 의문…인가 공백 경고 (원문: Europe’s top regulator questions Polymarket and Kalshi’s EU access, warns of authorization gaps)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
+      "one_liner": "유럽증권시장감독청(ESMA)이 이벤트 계약이 기존 EU 바이너리옵션 금지·MiCA·각국 도박법의 적용을 받을 수 있다며 폴리마켓·칼시의 EU 접근에 의문을 제기했다.",
+      "why_it_matters": "예측시장이 규제 회색지대에서 성장해 온 만큼 EU의 규제 분류 결정은 시장 접근성과 사업 모델을 직접 좌우한다.",
+      "confidence": 0.62,
+      "original_title": "Europe’s top regulator questions Polymarket and Kalshi’s EU access, warns of authorization gaps",
+      "implications": "예측시장 이용자·관련 토큰 보유자에 영향 / ESMA의 후속 지침과 각국 규제기관의 조치를 관찰.",
+      "tags": [
+        "크립토",
+        "규제",
+        "EU",
+        "예측시장"
+      ]
+    },
+    {
+      "title": "영국 상원, 노동당 입장 뒤집고 '디지털자산 전략 의무화' 수정안 지지 (원문: UK House of Lords backs mandatory digital asset strategy over Labour position)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/uk-house-of-lords-backs-mandatory-digital-asset-strategy-in-194138-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "영국 상원이 재무부에 암호자산·스테이블코인·토큰화 증권·디지털 금융 인프라를 아우르는 전략 수립을 의무화하는 수정안을 지지했다.",
+      "why_it_matters": "미국·EU에 이어 영국도 디지털자산을 국가 전략 수준에서 다루도록 입법화하려는 흐름이 확인됐다.",
+      "confidence": 0.6,
+      "original_title": "UK House of Lords backs mandatory digital asset strategy over Labour position",
+      "implications": "영국 내 크립토·토큰화 증권 사업자에 영향 / 하원 재심의와 재무부의 대응을 관찰.",
+      "tags": [
+        "크립토",
+        "영국",
+        "규제",
+        "스테이블코인"
+      ]
+    },
+    {
+      "title": "BIS \"AI가 공격 속도 높여…은행은 몇 주가 아니라 몇 분 안에 취약점 고쳐야\" (원문: Banks Have Minutes, Not Weeks, to Fix Flaws as AI Speeds Up Attacks: BIS)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377902/ai-hacks-shrinking-bank-time-fix-flaws-bis",
+      "one_liner": "국제결제은행(BIS)이 정례 패치 일정이 점점 부적절해지고 있다며 은행이 긴급 수정을 위해 계획된 다운타임을 감수해야 한다는 지침을 인용했다.",
+      "why_it_matters": "AI가 사이버 공격의 속도를 바꾸면서 금융 인프라의 운영 리스크와 보안 투자 부담이 구조적으로 커지고 있다.",
+      "confidence": 0.6,
+      "original_title": "Banks Have Minutes, Not Weeks, to Fix Flaws as AI Speeds Up Attacks: BIS",
+      "implications": "은행·보안 소프트웨어 업종에 영향 / 각국 감독당국의 패치 의무화 지침 채택 여부를 관찰.",
+      "tags": [
+        "BIS",
+        "사이버보안",
+        "은행",
+        "AI"
+      ]
+    },
+    {
+      "title": "OKX, 유럽에 오픈AI·앤스로픽 프리IPO 거래 도입…최대 10배 레버리지 (원문: OKX brings OpenAI and Anthropic bets to Europe as pre-IPO trading grows)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/09/10/okx-brings-openai-and-anthropic-bets-to-europe-as-pre-ipo-trading-grows",
+      "one_liner": "OKX가 유럽에서 비상장 기업 밸류에이션에 최대 10배 레버리지를 제공하는 프리IPO 거래와 100종의 토큰화 주식·ETF를 내놓았다.",
+      "why_it_matters": "비상장 AI 기업 가치에 레버리지로 베팅하는 상품이 유럽 소매 시장에 열리면서 토큰화 증권과 규제의 경계가 다시 시험대에 오른다.",
+      "confidence": 0.58,
+      "original_title": "OKX brings OpenAI and Anthropic bets to Europe as pre-IPO trading grows",
+      "implications": "토큰화 증권·크립토 거래소 이용자에 영향 / EU 규제당국의 프리IPO 파생상품 대응을 관찰.",
+      "tags": [
+        "크립토",
+        "토큰화",
+        "OKX",
+        "AI"
+      ]
+    },
+    {
+      "title": "알트코인 매수세 회복 속 비트코인 '쌍고점' 비관론도 제기",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtM1YtY01VNnJhOTFkdWRhVTJ2dWhUS3I4cGJLTmJVZnNsbjUtb1I1a2JBOUwzanYwdWVIcGFuMnQzaXdlVjhucm93eDQxYVdXb3hWbmRaVUlpTGFJYm5IaEdIVE1GNXJRbXQ0Nw?oc=5",
+      "one_liner": "알트코인 매수세가 회복되는 가운데 비트코인에 대해서는 쌍고점 형성 가능성을 짚는 비관론이 제기됐다.",
+      "why_it_matters": "어제 8만달러 회복에 실패한 비트코인의 차트 해석이 엇갈리면서 11일 CPI 전 방향성 부재가 이어지고 있다.",
+      "confidence": 0.5,
+      "original_title": "알트코인 매수세 회복 속 비트코인 ‘쌍고점’ 비관론도 제기 - 경향게임스",
+      "implications": "비트코인·알트코인 보유자에 영향 / 8만달러 재돌파 여부와 알트 매수세의 지속성을 관찰.",
+      "tags": [
+        "비트코인",
+        "알트코인",
+        "크립토"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
