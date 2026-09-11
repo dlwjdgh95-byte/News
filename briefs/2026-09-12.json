@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "date": "2026-09-12",
+  "slot": "am",
+  "generated_at": "2026-09-12T03:42:15.214247+09:00",
+  "top_insight": [
+    "어제 '채권시장이 위험자산의 방향을 쥐고 있다'고 적었던 그 CPI가 오늘 나왔는데, 결과는 양쪽으로 갈렸다. 헤드라인 3.4%는 예상에 부합했지만 근원이 컨센서스를 웃돌면서 국채금리는 22년 만의 최고치로 올라섰고, 그런데도 미 증시는 상승 전환하고 비트코인은 7만9천달러를 넘었다. 금리 상승이 곧 위험자산 하락이라는 하루 전의 문법이 최소한 하루는 통하지 않은 셈이다.",
+    "다만 그 반등을 심리 지표가 뒷받침해 주지는 않는다. 숏 포지션이 빠지면서 S&P500과 러셀2000의 투자심리가 '극단적 매수' 영역에 다가섰다는 분석이 같은 날 나왔다. 22년 최고 금리와 과열된 심리가 겹친 자리는 작은 악재에도 되돌림이 커지는 자리다. 미국 매물의 42%가 호가를 내렸다는 주택시장 숫자는 고금리가 실물 쪽에서는 이미 작동하고 있음을 보여준다.",
+    "공급 측에서는 압력이 한 방향으로만 쌓이고 있다. 후티가 바브엘만데브 해협의 섬을 장악했다고 주장했고 사우디의 8월 원유 공급량은 30여년 만의 최저로 내려갔는데, 같은 날 OPEC은 2027년 수요 증가 전망을 여섯 배로 올려 잡았다. 우크라이나가 3천km 밖 러시아 가스 시설을 때린 것까지 더하면, 에너지가 물가를 다시 밀어 올릴 경로는 하나가 아니다."
+  ],
+  "whats_changed": [
+    "미 물가: 어제는 'CPI 발표 전까지 채권시장이 방향을 쥐고 있다'였는데, 오늘 8월 CPI가 3.4%로 예상에 부합했고 근원은 컨센서스를 웃돌아 국채금리가 22년 최고치를 찍었다.",
+    "비트코인: 어제는 8만달러 회복 실패였는데, 오늘은 CPI 발표 직후 7만9천달러를 잠시 넘어서며 8만달러 문턱까지 올라왔다.",
+    "중동: 어제는 후티의 모카 진입·바브엘만데브 장악'전'이었는데, 오늘은 섬 장악 주장으로 굳어졌고 사우디 지표도 수출 13년 최저에서 8월 원유 공급량 30여년 최저로 바뀌었다.",
+    "트럼프 공약: 어제는 1인당 670만원 배당의 재정·인플레 부담 비판이었는데, 오늘은 공화당 전대에서 제시된 대미 투자 22조달러가 실제로는 절반 이하라는 검증 보도가 더해졌다."
+  ],
+  "themes": [
+    "근원 물가가 만든 엇갈림 — 헤드라인 CPI 3.4%는 예상에 부합했지만 근원이 컨센서스를 웃돌아 국채금리는 22년 최고, 주식·비트코인은 상승",
+    "공급 측에서만 쌓이는 에너지 압력 — 후티의 바브엘만데브 섬 장악 주장, 사우디 8월 공급량 30여년 최저, OPEC의 2027년 수요 6배 상향, 우크라의 러시아 가스시설 타격",
+    "숫자로 확인되는 고금리의 실물 효과 — 미국 매물 42%가 호가 인하(콜로라도·텍사스·애리조나는 50% 이상), 동시에 미 증시 심리는 '극단적 매수' 근접"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "KRX 애프터마켓 개장 (9/14)",
+    "연준 금리 결정 회의 — 8월 근원 CPI 컨센서스 상회로 인상 논의 부상",
+    "비트와이즈 도지코인 ETF(BWOW) 거래 중단 (10/14)",
+    "BWOW 잔여 주주 현금 지급 (10/22)"
+  ],
+  "items": [
+    {
+      "title": "미국 8월 소비자물가 3.4% 상승…헤드라인은 '예상 부합', 근원은 컨센서스 상회",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX0hORUZNM2pVT3RUNmxOb2t0ZDUyal9HUWk5XzlRT2I3NWN3SUZHRlVNM2hxXzBEUm42R3BkRDZ2djBaNmp1ZUFWNDNrN0pNQUs5WnBpbWZLenh3UUpUdVZLYmd1QjJSREo1X3lfSEhtalhTdk1TVkNUWlRYdlVYSUF3?oc=5",
+      "one_liner": "미 8월 CPI가 전년 대비 3.4% 올라 시장 예상에 부합했지만 근원 CPI가 컨센서스를 웃돌면서 연준의 금리 인상 고민이 깊어졌다.",
+      "why_it_matters": "연준 금리 결정을 앞둔 마지막 물가 지표다. 헤드라인만 보면 무난하지만 근원이 예상을 넘었다는 점이 '인하'가 아니라 '인상' 쪽 논의를 열어 놓았다.",
+      "confidence": 0.85,
+      "original_title": "미국 8월 소비자물가지수 3.4%↑…연준 금리 결정 앞 ‘예상 부합’ - 한겨레",
+      "implications": "채권·주식 모두에 영향 — 금리 경로에 민감한 성장주와 국내 대형 반도체주가 미국 금리 헤드라인을 따라갈 수 있으니 근원 CPI 세부 항목과 연준 위원 발언을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "물가",
+        "연준",
+        "금리"
+      ]
+    },
+    {
+      "title": "\"후티 반군, 바브엘만데브 해협 섬 장악\"…사우디 8월 원유 공급량은 30여년 만의 최저",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNHNUdV80aUJOcVRtYVkyWExHRjBuY2EyNTJvNldQaHRZOFNOcS1oeHJJcDF3NUdIUHQ5TS1iRkN0YV9FVmVYQS1TQzcybXR2M0w5WGxMY2hwTVd0X1dYSmlxWF9YaDc0YUx6MGp5STBaVks5NHBkaGh2SGl5QlktanVR?oc=5",
+      "one_liner": "후티가 홍해 남단 요충지인 바브엘만데브 해협의 섬을 장악했다고 주장했고, 사우디의 8월 원유 공급량은 30여년 만에 가장 낮은 수준으로 내려갔다.",
+      "why_it_matters": "호르무즈에 이어 홍해 남단까지 위협받으면 중동 원유의 두 출구가 동시에 좁아진다. 미국이 '항행의 자유 수호'를 내건 것은 군사적 개입 문턱이 낮아졌다는 뜻이기도 하다.",
+      "confidence": 0.75,
+      "original_title": "“후티 반군, 바브엘만데브해협 섬 장악”…원유 운송 차질 우려↑ - 한겨레",
+      "implications": "유가·해운운임·정유주에 직접 영향 — 미국의 항행 자유 작전이 실제 호위 작전으로 이어지는지, 사우디 공급량이 9월에도 회복되지 않는지 지켜볼 것.",
+      "tags": [
+        "중동",
+        "원유",
+        "홍해",
+        "지정학"
+      ]
+    },
+    {
+      "title": "이재명 대통령 지지율 첫 30%대…전 연령대에서 '부정＞긍정'",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Fd1RQSk9ydmxwZXlUZndyS1psU1VQcmxzRm5IS3JaTXFpT0IwTHNMX2M3SXpqc0pscTdwZktUTngySmtzcXRaR2ZaLVg0Q0tJd2Uzb3k3NC1iZTkwUWhScDRLcVRpa2xKVlR3YzJKbEVUTElDWTVN0gFmQVVfeXFMT3lOMHc1dnR1ZXBfWnllX1hGODVGbGJQRkxDdjlLWC1PbnpuZXZnNHhyNHFOazdzVkM0bVZvNFI3ZVNSY3ZUNGRFZVlvWjNrUkEwY2NVSmJpMUcyT2F6Uy1NT0E3dlJR?oc=5",
+      "one_liner": "갤럽 조사에서 대통령 지지율이 취임 후 처음 30%대로 내려앉았고, 핵심 지지층이던 40·50대에서도 부정 평가가 긍정을 앞질렀다.",
+      "why_it_matters": "3개월여 만에 26%포인트 하락이다. 개각과 부동산 정책이 원인으로 지목되는 만큼, 지지율 자체보다 정책 추진 동력이 꺾이는지가 시장에 더 중요하다.",
+      "confidence": 0.75,
+      "original_title": "李 지지율 첫 30%대로… 전 연령대 ‘부정＞긍정’ - 동아일보",
+      "implications": "부동산·세제 등 국내 정책 민감 자산에 영향 — 대통령이 예고한 대응과 개각 방향, 부동산 대책의 수위 조정 여부를 지켜볼 것.",
+      "tags": [
+        "한국",
+        "정치",
+        "여론조사",
+        "부동산"
+      ]
+    },
+    {
+      "title": "\"대미 투자 22조달러? 실제론 절반 이하\"…공화당 전대 발언 검증",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wQmNHYlBHRVdGbUVieElyLVBJRVhINTUxOFAxVHRGWG1TWmFaWGxsbU5oN1BTSW45TFdwSFFqempNX0pvNkhTbU0ySVZacE5SdjhwMlpCdE5vZjDSAWBBVV95cUxNTDRqWmxTZHFPZWVKdy1Zai1JT19CRXdreFpHcU5COElrSWg0dDFsZEEydHFucERDWU5oel9xYmdtRkluWVNWeVpCLVFEMHRCTzVvelFzeHFCQ0FTS2l4ZnI?oc=5",
+      "one_liner": "공화당 전당대회에서 제시된 22조달러 대미 투자 수치가 실제로는 절반에 못 미친다는 검증 보도가 나왔고, 트럼프의 전 국민 670만원 지급 공약에는 백악관 내부에서도 당황했다는 반응이 전해졌다.",
+      "why_it_matters": "대미 투자 유치 규모는 한국을 포함한 동맹국의 대미 투자 약속과 직결된 숫자다. 여기에 현금 지급 공약이 겹치면 재정·인플레 부담 논쟁이 다시 커진다.",
+      "confidence": 0.65,
+      "original_title": "\"대미투자 22조달러? 실제론 절반이하\"…공화당 전대의 거짓말들 - 연합뉴스",
+      "implications": "미 재정적자와 물가 기대에 영향 — 실제 집행된 대미 투자 규모의 공식 집계와, 현금 지급 공약이 예산안으로 구체화되는지 확인할 것.",
+      "tags": [
+        "미국",
+        "트럼프",
+        "재정",
+        "인플레이션"
+      ]
+    },
+    {
+      "title": "3천㎞ 밖 러시아 가스시설 때린 우크라이나…유럽은 마냥 웃지 못한다",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wQlk4V2dta1ozT21SX2RHUXFfUWtVbnVMWE93X2xRbmRKYVVQc1M1ZjZuU1J1ZmdzeXpoY2tOS1FsdV9OTGVINGRwYlp2S0VWMWIwYzd2S3F5cWvSAWBBVV95cUxPeFRoeWwyTlFMR2hBUVRlVVBoNDdUTGFDOEJ4Tno1cTZfbzBxZkVtQWk0Q2FOR3pZYzEtYUpZVm1qbV8xVVN2WWZtak9wWFcyaGRfb0NXRWR5RUppanFSbW4?oc=5",
+      "one_liner": "우크라이나가 3천km 떨어진 러시아 가스 시설을 타격했지만, 에너지 공급을 걱정해야 하는 유럽은 이를 반기기 어려운 처지다.",
+      "why_it_matters": "전선에서 3천km 떨어진 후방 에너지 인프라까지 사거리에 들어왔다는 것은 전쟁의 성격이 바뀌었다는 뜻이다. 겨울을 앞둔 유럽 가스 수급에 새 변수가 생겼다.",
+      "confidence": 0.65,
+      "original_title": "3천㎞ 밖 러시아 가스시설 때린 우크라에 마냥 못 웃는 유럽(종합) - 연합뉴스",
+      "implications": "유럽 천연가스 가격과 에너지 수입 의존 업종에 영향 — 타격받은 시설의 복구 기간과 유럽 가스 재고 수준을 함께 볼 것.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "천연가스",
+        "유럽"
+      ]
+    },
+    {
+      "title": "김성수 대법관 후보자 \"대법원장 제청권, 대통령 승인 받는 절차면 유명무실\"",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWkQ2NGhKQUFJdzUyVHR1aTFWckE4Rm53VDZjSlRqMzJhYWQ4VE5nVWx0UW5rM204RzFZQkpnTGJRSU9nclVXLVluenhSMVlmRkNhSThvbUFtRzVUN3k2azRuVDl4UlFxOS1MdC1LVTVRSW9lYTVKZm5hNjVLTU5KcEhaX0p1cm8?oc=5",
+      "one_liner": "김성수 대법관 후보자가 인사청문회에서 대법관 임명 사전 협의 관행이 대통령 승인 절차로 운영되면 대법원장의 제청권이 형해화될 우려가 있다고 밝혔다.",
+      "why_it_matters": "사법부 인사권의 실질이 어디에 있는지를 후보자 본인이 공개적으로 문제 삼았다. 재판소원 도입과 대법관 증원 논의가 함께 걸려 있어 사법 제도 개편의 향방과 연결된다.",
+      "confidence": 0.7,
+      "original_title": "김성수 대법관 후보자 \"대법원장 제청권, 대통령 승인 받는 절차면 유명무실\" - 조선일보",
+      "implications": "제도 리스크를 보는 투자자에게는 정책 예측 가능성의 문제 — 대법관 증원·재판소원 입법이 실제로 추진되는지, 청문 절차가 어떻게 마무리되는지 지켜볼 것.",
+      "tags": [
+        "한국",
+        "사법부",
+        "대법관",
+        "제도"
+      ]
+    },
+    {
+      "title": "OPEC, 2027년 원유 수요 증가폭 6배 급증 전망 (원제: OPEC Sees Oil Demand Growth Explode Sixfold in 2027) (원문: OPEC Sees Oil Demand Growth Explode Sixfold in 2027)",
+      "source": "investing_us",
+      "url": "https://www.investing.com/analysis/opec-sees-oil-demand-growth-explode-sixfold-in-2027-200687506",
+      "one_liner": "OPEC이 2027년 원유 수요 증가폭을 기존 대비 여섯 배 수준으로 크게 올려 잡았다.",
+      "why_it_matters": "공급 측 지정학 리스크(홍해·호르무즈)에 수요 전망 상향까지 겹치면 유가의 하단이 올라간다. 산유국 카르텔이 직접 내놓은 수요 전망이라는 점에서 감산·증산 결정의 근거가 된다.",
+      "confidence": 0.6,
+      "original_title": "OPEC Sees Oil Demand Growth Explode Sixfold in 2027",
+      "implications": "에너지·화학·항공 등 유가 민감 업종에 영향 — OPEC 월간 보고서의 실제 수요 증가 수치와 다음 OPEC+ 회의의 생산 결정을 확인할 것.",
+      "tags": [
+        "OPEC",
+        "원유",
+        "WTI",
+        "수요전망"
+      ]
+    },
+    {
+      "title": "숏 포지션 청산 속 S&P500·러셀2000 투자심리, '극단적 매수' 영역 근접 (원제: Sentiment Nears Extreme Buy Territory in Both S&P and Russell 2000 as Shorts Exit) (원문: Sentiment Nears Extreme Buy Territory in Both S&P and Russell 2000 as Shorts Exit)",
+      "source": "investing_us",
+      "url": "https://www.investing.com/analysis/sentiment-nears-extreme-buy-territory-in-both-sp-and-russell-2000-as-shorts-exit-200687505",
+      "one_liner": "공매도 포지션이 빠져나가면서 S&P500과 러셀2000 모두 투자심리 지표가 '극단적 매수' 구간에 가까워졌다.",
+      "why_it_matters": "심리가 한쪽으로 쏠렸다는 것은 되돌림에 취약해졌다는 뜻이다. 금리가 22년 최고인 국면에서 심리만 과열되면 작은 악재에도 낙폭이 커질 수 있다.",
+      "confidence": 0.6,
+      "original_title": "Sentiment Nears Extreme Buy Territory in Both S&P and Russell 2000 as Shorts Exit",
+      "implications": "미 증시에 노출된 투자자는 쏠림 여부를 점검할 시점 — 숏 커버링이 끝난 뒤에도 상승이 이어지는지, 러셀2000 같은 소형주가 먼저 꺾이는지 볼 것.",
+      "tags": [
+        "미국증시",
+        "S&P500",
+        "러셀2000",
+        "투자심리"
+      ]
+    },
+    {
+      "title": "미국 전체 매물의 42%가 가격 인하…서부 거점 도시에서 할인 폭 가장 커 (원제: Record 42% of all listings in the US get price cuts) (원문: Record 42% of all listings in the US get price cuts — as Western hubs see the most dire discounts)",
+      "source": "headtopics",
+      "url": "https://us.headtopics.com/news/record-42-of-all-listings-in-the-us-get-price-cuts-as-87635151",
+      "one_liner": "미국 주택 매물의 42%가 호가를 낮췄고, 콜로라도·텍사스·애리조나에서는 절반이 넘는 매물이 가격을 내렸다.",
+      "why_it_matters": "기록적인 비율이다. 고금리가 실물 자산 가격에 실제로 반영되기 시작했다는 신호이고, 주거비는 근원 물가의 큰 축이라 CPI 경로와도 맞물린다.",
+      "confidence": 0.7,
+      "original_title": "Record 42% of all listings in the US get price cuts — as Western hubs see the most dire discounts",
+      "implications": "미 부동산·건설·리츠 노출 자산에 영향 — 주택 가격 하락이 CPI 주거비 항목으로 언제 넘어오는지, 서부 주들의 재고가 계속 쌓이는지 지켜볼 것.",
+      "tags": [
+        "미국",
+        "부동산",
+        "주택",
+        "물가"
+      ]
+    },
+    {
+      "title": "14일부터 KRX 애프터마켓 개장…퇴근 후 주식거래 가능해진다 (원문: 14일부터 KRX 애프터마켓 열린다... 퇴근 후 주식거래 달라지는 점은?)",
+      "source": "biz_chosun",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/09/11/SC3VJAPNUZCGNF5XJFQM7ADNTY/",
+      "one_liner": "한국거래소의 애프터마켓이 14일부터 열려 정규장 이후 시간대에도 주식을 거래할 수 있게 된다.",
+      "why_it_matters": "국내 개인 투자자의 거래 시간대 자체가 바뀌는 제도 변화다. 밤 사이 나오는 미국 지표·뉴스에 국내 종목이 다음날 아침까지 기다리지 않고 반응할 수 있게 된다.",
+      "confidence": 0.7,
+      "original_title": "14일부터 KRX 애프터마켓 열린다... 퇴근 후 주식거래 달라지는 점은?",
+      "implications": "개인 투자자 전반에 영향 — 거래 가능 종목·호가 방식·유동성이 정규장과 어떻게 다른지, 시행 첫 주 거래량이 어느 정도 붙는지 확인할 것.",
+      "tags": [
+        "한국증시",
+        "KRX",
+        "제도변화"
+      ]
+    },
+    {
+      "title": "인도 상무장관, BRICS에 현지통화 무역·결제시스템 연계 촉구 (원제: Goyal urges Brics to trade in local currencies, link payment systems) (원문: Goyal urges Brics to trade in local currencies, link payment systems)",
+      "source": "business-standard",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/brics-local-currency-trade-upi-payment-systems-piyush-goyal-126091100456_1.html",
+      "one_liner": "인도 고얄 상무장관이 BRICS 국가들에 자국 통화 기반 무역과 결제 시스템 연계를 촉구하고, 시장 접근 완화와 디지털 무역·핵심 광물·공급망 협력 심화를 함께 제안했다.",
+      "why_it_matters": "달러 결제망 바깥의 대안을 만들자는 이야기가 선언이 아니라 결제 인프라 연결이라는 구체적 제안으로 나왔다. 핵심 광물과 공급망이 같은 묶음으로 거론된 점도 눈여겨볼 만하다.",
+      "confidence": 0.65,
+      "original_title": "Goyal urges Brics to trade in local currencies, link payment systems",
+      "implications": "장기적으로 달러 수요와 원자재 교역 경로에 영향 — 실제 결제 시스템 연동 합의가 나오는지, 핵심 광물 협력이 어느 품목으로 구체화되는지 볼 것.",
+      "tags": [
+        "BRICS",
+        "인도",
+        "탈달러",
+        "무역"
+      ]
+    },
+    {
+      "title": "미 CPI 발표에 국채금리 22년 최고…비트코인은 7만9천달러 회복하며 8만달러 눈앞 (원문: Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-spikes-toward-80k-as-us-cpi-data-delivers-new-22-year-high-in-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "CPI가 예상에 부합하자 미 국채금리가 22년 만의 최고치로 올라섰고, 비트코인은 7만9천달러를 잠시 넘어서며 미 증시와 함께 반등했다.",
+      "why_it_matters": "금리가 22년 최고인데도 위험자산이 같이 올랐다는 점이 특이하다. 어제까지 '금리 상승 = 위험자산 압박'으로 읽히던 구도가 하루 만에 흔들린 셈이다.",
+      "confidence": 0.8,
+      "original_title": "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
+      "implications": "암호화폐·주식 보유자에게는 금리 상승을 얼마나 더 소화할 수 있는지가 관건 — 국채 22년 고점 수준이 유지되는지, 비트코인의 8만달러 돌파가 자리를 잡는지 함께 볼 것.",
+      "tags": [
+        "비트코인",
+        "미국채",
+        "금리",
+        "크립토"
+      ]
+    },
+    {
+      "title": "오픈AI, 의회에 \"AI 개발 속도를 늦추는 게 합법인가\" 질의 (원제: OpenAI Asks Congress Whether an AI Slowdown Would Be Legal) (원문: OpenAI Asks Congress Whether an AI Slowdown Would Be Legal)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377990/openai-congress-ai-slowdown-legal",
+      "one_liner": "오픈AI가 AI 개발 속도를 스스로 늦추는 것이 반독점법에 저촉되는지 의회에 명확한 답을 요구했다. 연구자들은 자제를 요구하고 있고, 전문가들은 경쟁이 기업들로 하여금 위험을 간과하게 만든다고 경고한다.",
+      "why_it_matters": "AI 기업들이 안전을 이유로 속도를 늦추고 싶어도 담합으로 몰릴 수 있다는 구조적 문제를 업계 1위가 직접 꺼냈다. 규제의 방향이 '더 하라'가 아니라 '덜 해도 되나'로 뒤집힌 질문이다.",
+      "confidence": 0.6,
+      "original_title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
+      "implications": "AI 반도체·인프라 투자 사이클을 보는 쪽에는 속도 조절 논의 자체가 변수 — 의회의 답변 또는 반독점 당국의 유권해석이 나오는지 확인할 것.",
+      "tags": [
+        "AI",
+        "오픈AI",
+        "규제",
+        "반독점"
+      ]
+    },
+    {
+      "title": "비트와이즈, 도지코인 ETF 상장 1년도 안 돼 청산 (원제: Bitwise to Close Dogecoin ETF Before Its First Anniversary) (원문: Bitwise to Close Dogecoin ETF Before Its First Anniversary)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377973/bitwise-shuts-dogecoin-etf",
+      "one_liner": "비트와이즈의 도지코인 ETF(BWOW)가 10월 14일 거래를 중단하고, 남은 주주에게는 10월 22일 현금이 지급될 예정이다.",
+      "why_it_matters": "알트코인 현물 ETF가 줄줄이 나온 뒤 처음 나온 청산 사례다. 상품이 생기는 것과 자금이 붙는 것은 별개라는 점을 보여준다.",
+      "confidence": 0.75,
+      "original_title": "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
+      "implications": "알트코인 ETF 보유자에게는 직접적인 일정 리스크 — 다른 소형 알트코인 ETF의 운용자산 추이와 추가 청산 공지가 이어지는지 볼 것.",
+      "tags": [
+        "크립토",
+        "ETF",
+        "도지코인",
+        "비트와이즈"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
