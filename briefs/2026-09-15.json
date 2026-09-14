@@ -1,0 +1,259 @@
+{
+  "schema": 1,
+  "date": "2026-09-15",
+  "slot": "am",
+  "generated_at": "2026-09-15T03:42:43.687132+09:00",
+  "top_insight": [
+    "오늘 후보 풀을 관통하는 것은 에너지 설비다. 사우디 송유관 파괴로 세계 원유 공급이 4% 줄고 복구에 최장 6주가 걸린다는 보도가 나온 같은 날, 트럼프는 러·우크라가 에너지 시설 공격을 멈추기로 했다고 말했고, 폴란드 외무는 나토 유럽군만으로 러시아 정유시설 절반을 부술 수 있다고 했다. 한쪽에서는 실제로 부서졌고, 한쪽에서는 안 부수기로 했다고 하고, 다른 쪽에서는 부술 수 있다고 한다.",
+    "그 에너지 축이 국내 정치로 이어진다. 호르무즈 파병은 이번 주 NSC와 한미협의가 분수령이고, 여당 내부에서도 반대가 상당하다는 말이 나온다. 원유 수송로 문제가 통상·전작권과 한 묶음으로 논의되는 구조라, 파병 결정은 안보 결정이면서 동시에 에너지·통상 결정이다.",
+    "크립토 쪽은 가격이 아니라 법안이 뉴스다. 클래리티 법안을 두고 백악관은 대통령이 윤리 권한을 양보했다고 했고, 18개 주 법무장관은 주 감독 약화를 이유로 반대하고, 8개 은행 단체는 스테이블코인 보상 제한을 요구한다. 걸림돌 하나가 치워지자 남은 두 개가 선명해진 모양새다."
+  ],
+  "whats_changed": [
+    "중동: 어제는 이란·UAE 정상급 화해 접촉이 신호였는데, 오늘은 사우디 송유관 파괴와 세계 원유 공급 4% 감소라는 실물 피해가 전면에 나왔다. 접촉 이야기 대신 복구 기간(최장 6주)이 숫자로 잡힌다.",
+    "우크라이나: 어제 다이제스트에 없던 축이다. 트럼프의 '에너지 시설 공격 중단 합의' 발언과 폴란드 외무의 '러 정유시설 절반 파괴 가능' 발언이 같은 날 나란히 나왔다.",
+    "연준: 어제 제목을 덮었던 '긴축 확률 83%'·'골드만삭스 전망 선회'가 오늘 후보 풀에서 사라졌다. 대신 미국발 변수는 관세(구리)와 AI 규제 발언 쪽으로 옮겨갔다.",
+    "크립토: 어제는 연준發 공포가 소재였는데, 오늘은 클래리티 법안 하나로 윤리 조항·주 법무장관·스테이블코인 보상까지 세 갈래가 동시에 올라왔다."
+  ],
+  "themes": [
+    "부서진 에너지 설비 — 사우디 송유관 실물 파괴, 러·우크라 에너지 휴전 주장, 나토의 정유시설 타격 능력 과시가 하루에 겹쳤다",
+    "클래리티 법안의 남은 두 걸림돌 — 윤리 조항은 치워졌다지만 주 감독 권한과 스테이블코인 보상 제한이 남았다",
+    "관세가 만드는 재고 이동 — 미국의 정제 구리 관세 불확실성이 구리 가격을, 캐나다 불매·EU 밀착이 교역 지형을 흔든다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 상원 CLARITY 법안 표결 (임박 — 구체 일자 미확정)",
+    "호르무즈 파병 관련 NSC·한미협의 (이번 주)",
+    "사우디 송유관 복구 (최장 6주 소요 전망)"
+  ],
+  "items": [
+    {
+      "title": "“사우디 송유관 파괴, 복구에 최장 6주”…세계 원유 공급 4% 감소 ‘비상’",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12MG11aWY4eWRXRXVMNkRQSm8zQ2lOYjlKcVpQSGx5V1ktb1p3R2lDN0hqdmpxcllINnR6UGk3MFhsUnh1aE9DdEtlaU1vTDJENlpaV3ZlVGFMUXhJdmNqWDBJR1AwVm1nM05sRlljRWRTUkU?oc=5",
+      "one_liner": "사우디 송유관이 파괴돼 복구에 최장 6주가 걸리고 그 사이 세계 원유 공급이 4% 줄어든다는 보도가 나왔다.",
+      "why_it_matters": "공급 4% 감소는 단일 사고 기준으로 작지 않고, 복구가 주 단위로 걸리면 일시 충격이 아니라 몇 주 이어지는 압력이 된다.",
+      "confidence": 0.75,
+      "original_title": "“사우디 송유관 파괴, 복구에 최장 6주”…세계 원유 공급 4% 감소 ‘비상’ - 한겨레",
+      "implications": "정유·항공·해운 등 원유를 원가로 쓰는 업종에 영향. 지켜볼 것은 복구 진척과 후티의 추가 공격, 사우디 왕세자와 미 중부사령관 협의 결과다.",
+      "tags": [
+        "원유",
+        "중동",
+        "사우디",
+        "지정학"
+      ]
+    },
+    {
+      "title": "트럼프 대통령 “러·우크라, 에너지 시설 공격 중단 합의”",
+      "source": "voakorea.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lSEtObFAtSU93aDN5bFVNeEdPaGZFdXhUUFRST2xyRC05cG1RQWdDOG90dVU3ejZ5ejZONDBRby1WaHd4cjhRaEo3SU54RzlNVkxmWGduM3lRVXlBVHlrM3hMbUVxeUlIX1dSWG9rV0JDd9IBdEFVX3lxTE9CSzQtRHlQNFRaUTlqbGE1dkJJUkY3bVhYdThQZkplY3p1bmRsNG1yUTRGbzREUGNQcmpkbzNTbmJGSHNlU0FqRDF4dGgtZG9HMndJc1VFRG9BZ2J2VFp4QjU5WDhJSy1DR1VFaHpZWEt2TDVl?oc=5",
+      "one_liner": "트럼프 대통령이 러시아와 우크라이나가 에너지 시설 공격을 중단하기로 합의했다고 밝혔고, 젤렌스키는 러시아의 자제가 보장돼야 한다고 했다.",
+      "why_it_matters": "러시아 정유시설과 우크라이나 전력망 타격은 그동안 유가를 흔든 직접 경로였다. 그 경로를 닫겠다는 말이 나온 것 자체가 변수다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 대통령, “러·우크라 ‘에너지 시설 공격 중단’ 합의” - voakorea.com",
+      "implications": "유가 상단 압력이 일부 풀릴 수 있다. 지켜볼 것은 합의가 문서로 확인되는지, 실제로 타격이 멈추는지다.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "에너지",
+        "유가"
+      ]
+    },
+    {
+      "title": "폴란드 외무 “나토 유럽군, 美 없이도 러 정유시설 절반 파괴 가능”",
+      "source": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ajRYOTR4ODJTTHBkWHpnTEpMOENKdHBhMHVOZENzUmwzbEdUTloyU0tCQkZleWpKenZ6dnZfM3lWWUdLczZhdG9IalR3Rkk?oc=5",
+      "one_liner": "폴란드 외무장관이 나토 유럽군만으로도 러시아 정유시설 절반을 파괴할 수 있다고 말했다.",
+      "why_it_matters": "같은 날 나온 '에너지 시설 공격 중단 합의' 발언과 정면으로 어긋나는 신호다. 유럽 쪽에서는 타격 능력을 오히려 과시하고 있다.",
+      "confidence": 0.55,
+      "original_title": "폴란드 외무 \"나토 유럽군, 美 없이 러 정유시설 절반 파괴 가능\" - v.daum.net",
+      "implications": "러시아 정유 능력이 계속 표적으로 거론되는 한 정제마진·유가 변동성은 남는다. 지켜볼 것은 나토 유럽군 훈련 강화와 폴란드의 추가 요구다.",
+      "tags": [
+        "나토",
+        "러시아",
+        "정유",
+        "유럽"
+      ]
+    },
+    {
+      "title": "김병주 “파병, 장병 안전 보장 못 해”…호르무즈 파병 이번 주 분수령",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nTEN0WHRtMzVkcnpJOFc3UE9TUTZvVlI0Q20wUFNyZkJJNE01eFU2UGhNdnpMdksxdFBKa256Z01Zbm5yWmdlYzJ1NGRjdk15a0JyOFdkbTJyS01xVmZ1ekRCV1lfakU3LU9WWVRLSC1aamZY?oc=5",
+      "one_liner": "호르무즈 파병을 놓고 김병주 의원은 장병 안전을 보장할 수 없다며 통상·전작권 문제와 분리해 봐야 한다고 했고, 이번 주 NSC와 한미협의가 고비로 꼽힌다.",
+      "why_it_matters": "중동 원유 수송로에 한국군을 보내느냐의 문제라, 에너지 안보와 한미 통상 협상이 한 테이블에 묶여 있다.",
+      "confidence": 0.7,
+      "original_title": "김병주 “파병, 장병 안전 보장 못 해…통상·전작권 문제와 별개로 봐야” - 한겨레",
+      "implications": "결정이 어느 쪽으로 나든 정유·해운·방산 쪽 심리에 영향. 지켜볼 것은 이번 주 NSC 결론과 여당 내 반대 기류다.",
+      "tags": [
+        "호르무즈",
+        "파병",
+        "한미",
+        "에너지안보"
+      ]
+    },
+    {
+      "title": "나토 수장 “폴란드 접경 때린 러 드론, 우크라 지원 확대로 대응”",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43X2JjRnl1Z0VHQk0zb2JhWGZIeklKRFFqZkhvaUI1dGJlS3EySmVnbVY2SkVCdG9PQVBQREV1UXFQN1h6bGVzX3d4OEdRbGdBcEhzUGNlRjNKMUXSAWBBVV95cUxOMUVNWVZMYWhudkdITDVCdTdQREloTEtFeW9yblJCR1d1RklJbXVtMnJRYWMtcjY0U1dZcUVZM0xfTjFqMWJYcWIxVnFXb2Y2ei1uS2VkQkxLeWF0MjZGNjU?oc=5",
+      "one_liner": "나토 사무총장이 폴란드 접경을 때린 러시아 드론에 대해 우크라이나 지원 확대로 대응하겠다고 밝혔다.",
+      "why_it_matters": "나토 회원국 영토 인근이 직접 피해를 본 사안에 대한 공식 대응 방향이다. 확전이 아니라 지원 확대로 답을 잡았다.",
+      "confidence": 0.55,
+      "original_title": "나토 수장 \"폴란드 접경 때린 러 드론, 우크라 지원 확대로 대응\" - 연합뉴스",
+      "implications": "유럽 방산 수요와 우크라이나 지원 예산에 영향. 지켜볼 것은 지원 확대의 구체 품목과 규모다.",
+      "tags": [
+        "나토",
+        "러시아",
+        "폴란드",
+        "방산"
+      ]
+    },
+    {
+      "title": "“메이드 인 캐나다”…캐나다인 ‘美 불매’ 확산, EU ‘준회원’ 카드까지",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53Y3pEeGdfOTROQTF3aFBWV2FLeGJvdDFRaXctYlMxaEkwcWlZN2gtNi0tcXhiMkcxNEhiUE5HR0dPQmsxSkQyaVRZV1RIUFlnTC1MdTRQLTg0d2t0TkxZdmJYTy15cm55UGM3QXlHMzNIY03SAWZBVV95cUxNZDhWdzEwQlBFR1NLbV90V09vdUtsa0hIN0ZFbjJxNXBXYjhsZVJnV1pFMXZuWHF4Z2ducGpDN1U1VXlGcjI0M0xWak5UcE5GS01SS3dkNkh3WDBaeEhhQjRzOGs1U3c?oc=5",
+      "one_liner": "트럼프에 반발한 캐나다에서 미국산 불매가 번지는 가운데, 캐나다는 EU 준회원 가입을 추진하고 우크라이나 대출 지원 동참도 검토한다.",
+      "why_it_matters": "관세 갈등이 소비자 행동과 동맹 재편으로 번지는 단계다. 트럼프는 '곧 합의'라고 하지만 캐나다는 다른 방향을 보고 있다.",
+      "confidence": 0.68,
+      "original_title": "“메이드 인 캐나다”…트럼프에 뿔난 캐나다인들 ‘美불매’ 확산 - 동아일보",
+      "implications": "북미 교역 비중이 큰 소비재·자동차 쪽에 영향. 지켜볼 것은 캐나다-EU 협의 진척과 미·캐나다 합의 여부다.",
+      "tags": [
+        "캐나다",
+        "관세",
+        "EU",
+        "무역"
+      ]
+    },
+    {
+      "title": "구리, 美 관세 불확실성에 하락세 연장 (원문: Copper extends losses, driven by uncertainties over US tariffs) (원문: Copper extends losses, driven by uncertainties over US tariffs)",
+      "source": "brecorder",
+      "url": "https://www.brecorder.com/news/40439395/copper-extends-losses-driven-by-uncertainties-over-us-tariffs",
+      "one_liner": "런던금속거래소 3개월물 구리가 0313 GMT 기준 0.20% 내린 톤당 14,212달러, 상하이선물거래소 주력 계약은 0.39% 내렸다.",
+      "why_it_matters": "정제 구리에 대한 미국 관세 가능성이 재고 흐름 전망을 흐리면서 지난주 하락이 이어졌다. 관세가 실물 재고를 어디로 옮길지가 가격을 좌우하는 국면이다.",
+      "confidence": 0.85,
+      "original_title": "Copper extends losses, driven by uncertainties over US tariffs",
+      "implications": "전선·건설·전력설비 원가와 구리 생산국 통화에 영향. 지켜볼 것은 미국의 정제 구리 관세 결정과 LME·상하이 재고 이동이다.",
+      "tags": [
+        "구리",
+        "관세",
+        "원자재",
+        "LME"
+      ]
+    },
+    {
+      "title": "하나증권, 업비트 글로벌과 디지털자산 업무협약 (원문: Hana Securities Ties Up With Upbit Global on Digital Assets) (원문: Hana Securities Ties Up With Upbit Global on Digital Assets)",
+      "source": "sedaily",
+      "url": "https://en.sedaily.com/finance/2026/09/14/hana-securities-ties-up-with-upbit-global-on-digital-assets",
+      "one_liner": "하나증권이 업비트 글로벌과 MOU를 맺고 싱가포르를 거점으로 디지털자산 금융을 확대한다. 투자 모델·상품·공동투자가 범위에 들어간다.",
+      "why_it_matters": "국내 증권사가 거래소와 해외 법인 단위로 손잡는 형태다. 규제가 덜 막힌 쪽에서 먼저 형태를 만들어보는 접근이다.",
+      "confidence": 0.75,
+      "original_title": "Hana Securities Ties Up With Upbit Global on Digital Assets",
+      "implications": "증권사–거래소 제휴가 더 나올 수 있다. 지켜볼 것은 MOU가 실제 상품으로 나오는 시점과 싱가포르 인가 구조다.",
+      "tags": [
+        "하나증권",
+        "업비트",
+        "디지털자산",
+        "한국"
+      ]
+    },
+    {
+      "title": "백악관 크립토 고문 “트럼프, 타협안에서 ‘역사적’ 윤리 권한을 내려놨다” (원문: White House crypto adviser says Trump gave up 'historic' ethics powers in compromise) (원문: White House crypto adviser says Trump gave up 'historic' ethics powers in compromise)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/policy/2026/09/14/white-house-crypto-adviser-says-trump-gave-up-historic-ethics-powers-in-compromise",
+      "one_liner": "트럼프 대통령의 디지털자산 고문이 클래리티 법안 새 타협 문구가 공개된 다음 날 워싱턴 행사에서 대통령이 윤리 관련 권한을 양보했다고 말했다.",
+      "why_it_matters": "윤리 조항은 이 법안 처리를 막아온 걸림돌 중 하나였다. 그 하나가 치워졌다는 주장이 백악관 쪽에서 나왔다.",
+      "confidence": 0.75,
+      "original_title": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise",
+      "implications": "법안 통과 확률 재평가로 이어질 수 있다. 지켜볼 것은 타협 문구의 실제 내용과 상원 표결 일정이다.",
+      "tags": [
+        "CLARITY",
+        "규제",
+        "미국",
+        "크립토"
+      ]
+    },
+    {
+      "title": "주 법무장관들, 상원 표결 앞둔 CLARITY 법안에 반대 (원문: CLARITY Act faces state AGs opposition ahead of key Senate vote) (원문: CLARITY Act faces state AGs opposition ahead of key Senate vote)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/clarity-act-faces-new-opposition-ahead-of-key-senate-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "트럼프의 윤리 관련 양보가 걸림돌 하나를 치웠지만, 18개 주 법무장관은 수정 법안이 주(州)의 감독 권한을 약화시킨다며 반대하고 있다.",
+      "why_it_matters": "연방 단일 규제로 가느냐, 주 감독이 남느냐가 이 법안의 실제 쟁점이라는 뜻이다. 통과돼도 소송 전선이 남는다.",
+      "confidence": 0.8,
+      "original_title": "CLARITY Act faces state AGs opposition ahead of key Senate vote",
+      "implications": "미국에서 영업하는 거래소·스테이블코인 발행사의 규제 비용에 영향. 지켜볼 것은 민주당 표와 주 법무장관들의 후속 대응이다.",
+      "tags": [
+        "CLARITY",
+        "규제",
+        "주정부",
+        "크립토"
+      ]
+    },
+    {
+      "title": "은행권, 스테이블코인 보상 제한 요구하며 클래리티 표결 앞두고 공방 확대 (원문: Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote) (원문: Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
+      "one_liner": "8개 은행 단체가 월요일 스테이블코인 보상에 더 엄격한 제한을 요구하며 은행권 대 크립토 업계 대립을 이어갔다.",
+      "why_it_matters": "스테이블코인이 이자 비슷한 보상을 주면 예금이 옮겨간다는 것이 은행권 우려의 핵심이다. 법안의 가장 돈 되는 조항이 여기다.",
+      "confidence": 0.8,
+      "original_title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
+      "implications": "보상 제한 강도에 따라 스테이블코인 발행사 수익 모델이 갈린다. 지켜볼 것은 최종 법안의 보상 조항 문구다.",
+      "tags": [
+        "스테이블코인",
+        "은행",
+        "CLARITY",
+        "규제"
+      ]
+    },
+    {
+      "title": "트럼프 “AI에 필요한 가드레일은 나 하나”…앤스로픽 비판하고 데이터센터 옹호 (원문: Trump Says He's the Only 'Guardrails' AI Needs, Attacks Anthropic and Defends Data Centers) (원문: Trump Says He’s the Only ‘Guardrails’ AI Needs, Attacks Anthropic and Defends Data Centers)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378166/trump-ai-guardrails-attacks-anthropic",
+      "one_liner": "대통령이 AI 통제 강화 요구를 일축했다. 업계 리더들이 개발 속도를 늦추고 안전 문제를 다루자고 압박하는 와중이다.",
+      "why_it_matters": "규제 방향을 두고 행정부와 업계 일부가 반대쪽을 보고 있다. 데이터센터 증설의 정치적 엄호가 유지된다는 신호이기도 하다.",
+      "confidence": 0.72,
+      "original_title": "Trump Says He’s the Only ‘Guardrails’ AI Needs, Attacks Anthropic and Defends Data Centers",
+      "implications": "전력·데이터센터 투자 관련 정책 위험은 당분간 낮게 유지될 수 있다. 지켜볼 것은 업계의 자율 규제 움직임과 의회 쪽 입법 시도다.",
+      "tags": [
+        "AI",
+        "규제",
+        "데이터센터",
+        "미국"
+      ]
+    },
+    {
+      "title": "AI 감속론에 엔비디아·인텔 등 반도체주 하락, 비트코인은 상승 (원문: Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks) (원문: Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378157/bitcoin-climbs-ai-slowdown-nvidia-chip-stocks",
+      "one_liner": "AI 기업 최고경영자들이 역량 경쟁의 속도를 늦추자고 하자 엔비디아·인텔·AMD가 내렸고, 비트코인은 반대로 올랐다는 보도다.",
+      "why_it_matters": "AI 설비투자 기대가 반도체 주가의 축이었다. 그 기대에 금이 가면 자금이 어디로 가는지를 보여주는 하루였다는 해석이다.",
+      "confidence": 0.6,
+      "original_title": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
+      "implications": "반도체 비중이 큰 지수와 크립토의 상관을 다시 볼 대목. 지켜볼 것은 실제 설비투자 계획 수정 여부이지 발언 자체가 아니다.",
+      "tags": [
+        "AI",
+        "반도체",
+        "비트코인",
+        "엔비디아"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "이더리움 ETF에 하루 2,906억원 유입, 비트코인은 나흘 연속 자금 이탈",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nUTNSVUp4WmdnUW9kWnAtY3NSYldSMEFKYTRCVEFXVlFVQXh1TXY4WTdteTVQeUQ1RnlUdjJjRHlQQ1JsMlhlWjVtdGt1Z3lsWGVuZkpR?oc=5",
+      "one_liner": "이더리움 현물 ETF에 하루 2,906억원이 들어온 반면 비트코인 ETF에서는 나흘 연속 자금이 빠졌다.",
+      "why_it_matters": "같은 크립토 안에서도 자금이 갈라지고 있다는 신호다. 비트코인 가격이 버티는 것과 ETF 유출이 같이 가는 중이다.",
+      "confidence": 0.6,
+      "original_title": "이더리움 ETF에 하루 2,906억원 유입, 비트코인은 나흘 연속 자금 이탈 - 위키트리",
+      "implications": "ETF 자금 흐름을 하나로 묶어 보면 안 되는 국면. 지켜볼 것은 유출이 닷새째 이어지는지, 이더리움 유입이 지속되는지다.",
+      "tags": [
+        "ETF",
+        "이더리움",
+        "비트코인",
+        "자금흐름"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
