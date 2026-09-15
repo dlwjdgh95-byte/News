@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "date": "2026-09-16",
+  "slot": "am",
+  "generated_at": "2026-09-16T03:42:25.846017+09:00",
+  "top_insight": [
+    "오늘 후보 풀을 관통하는 것은 미 국채 금리다. 5% 돌파가 비트코인과 주식을 동시에 눌렀고, 재무장관은 금리 급등을 \"글로벌 이슈 탓\"이라며 미 국채를 방어했다. 같은 날 영국에서는 구인건수가 4년 최저로 떨어졌는데 임금은 안 내려갔다 — 금리를 내리기도 올리기도 어려운 조합이다.",
+    "에너지 축에서는 말과 실물이 하루 만에 어긋났다. 어제 트럼프가 발표한 '에너지 시설 공격 중단 합의'는 하루 만에 공격 재개로 뒤집혔고, 위험의 무대는 설비(사우디 송유관)에서 수송로(호르무즈)로 옮겨갔다. 미군이 이란 선박 2척을 파괴한 날, 혁명수비대는 초대형 유조선이 기뢰에 부딪혔다고 했다.",
+    "크립토는 오늘도 가격이 아니라 표결이다. 클로처 표결 당일인데, 법안을 밀어온 루미스 본인이 최종 문안에 민주당 요구가 120건 넘게 들어갔다고 말한다. 통과되더라도 업계가 기대한 그 법은 아닐 수 있다."
+  ],
+  "whats_changed": [
+    "에너지 휴전: 어제는 트럼프의 '공격 중단 합의' 발언이 신호였는데, 오늘은 하루 만에 공격 재개다. 대신 디젤 6달러·한 달간 1억 배럴 증발 위기 같은 숫자가 붙었다.",
+    "중동: 어제의 사우디 송유관(설비 파괴)에서 오늘은 호르무즈(수송로)로 무대가 바뀌었다. 미군의 이란 선박 2척 파괴와 유조선 기뢰 충돌이 같은 날 보고됐다.",
+    "금리: 어제 후보 풀에서 사라졌던 금리가 미 국채 5% 돌파로 전면 복귀했다. 어제 구리 관세가 있던 자리를 오늘은 국채 금리가 차지했다.",
+    "클래리티 법안: 어제는 윤리 조항·주 법무장관 반대·스테이블코인 보상이라는 세 갈래 걸림돌이었는데, 오늘은 실제 클로처 표결 당일이고 최종 문안 내용(민주당 요구 120건 이상 수용)이 쟁점이다."
+  ],
+  "themes": [
+    "국채 5%의 중력 — 미 국채 금리 급등이 비트코인·주식·재무장관 발언·스테이블코인 국채 수요론까지 한 줄로 꿰었다",
+    "말과 실물의 시차 — 에너지 휴전 발언 하루 만에 공격 재개, 호르무즈에서는 실제 교전과 유조선 피해",
+    "광물을 미국과 중앙아시아로 — 라트로브의 미국 마그네슘 공장 계획과 한·우즈베크 광물 MOU가 같은 날 나왔다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "미 상원 클래리티(CLARITY) 법안 클로처 표결 — 화요일 오후(현지시간)",
+    "영란은행(BoE) 금리 결정 — 영국 고용지표 발표 며칠 뒤",
+    "연준 금리 결정 — 클래리티 표결과 같은 주",
+    "ECB 디지털 유로 시범사업 — 2027년 하반기부터 12개월 테스트"
+  ],
+  "items": [
+    {
+      "title": "베선트, 美국채금리 급등에 \"글로벌 이슈 탓…미 국채 세계 최고\"",
+      "source": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qdVplbjNCT0FlWHNTcVA2cTB4T2Q3U2RyNG5fOFJ3SlhRYmVURTN2ZDI5SFRibnAxYTNLQ0lVTDJxR2dwSFpyQWtDMlRjeXM?oc=5",
+      "one_liner": "미 재무장관이 국채금리 급등을 글로벌 요인 탓으로 돌리며 미 국채의 지위를 방어했다.",
+      "why_it_matters": "재무장관이 직접 금리를 언급했다는 것은 금리 상승이 재정·조달 비용 문제로 올라섰다는 신호다. '글로벌 이슈 탓'이라는 프레임은 국내 재정 요인을 부인하는 쪽이다.",
+      "confidence": 0.6,
+      "original_title": "베선트, 美국채금리 급등에 \"글로벌 이슈탓…美국채 세계 최고\" - v.daum.net",
+      "implications": "채권 투자자 — 재무부의 발행 만기 구성(장기물 비중) 변화 여부를 지켜볼 것.",
+      "tags": [
+        "미국채",
+        "베선트",
+        "재무부",
+        "금리"
+      ]
+    },
+    {
+      "title": "러시아·우크라이나 에너지시설 공격 재개…트럼프 '공격 중단 합의' 발언 하루 만",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqVlh5N2VGdUZ6aGFMazQxUl9oTENWUjlLcGJiMVUyQ2ZtRlowNHdibzJQbmhZMVFvb3Y3WDMxWENGRGRoUmMtRVlKc0lILTFLTDZkTDRfSVVIUWNrTEtCVHhCUEVFb0RkRk5mM1FJSHV4UdIBdEFVX3lxTE9TVklJb0h2X1c0T1czOXE3VnItUU5GS3V1WWpIVXJvTVYzczZHS2h0MVItdXZzT01PQzVNZk5mRk5lUDlGVkZRRVlCQzAwUjR0N2Zsd3pVSHJWUWs2TWZHOTczYktmS05MS0lVM2lTaWRXcGhv?oc=5",
+      "one_liner": "트럼프 대통령이 에너지 시설 공격 중단 합의를 발표한 지 하루 만에 양측의 에너지 시설 공격이 다시 시작됐다.",
+      "why_it_matters": "어제 브리핑의 '에너지 휴전'이 하루 만에 뒤집혔다. 발표와 실제 행동 사이의 간극이 유가·정제마진 프리미엄으로 남는다.",
+      "confidence": 0.7,
+      "original_title": "러시아-우크라이나, 에너지시설 공격 재개...‘공격 중단 합의’ 트럼프 대통령 발언 하루 만 - VOA 한국어 홈페이지",
+      "implications": "에너지·정유 관련 자산 보유자 — 디젤 가격과 러시아 정제 능력 복구 속도를 지켜볼 것.",
+      "tags": [
+        "러시아",
+        "우크라이나",
+        "에너지",
+        "유가",
+        "디젤"
+      ]
+    },
+    {
+      "title": "미 중부사령부, 무인수상정 탈취 시도한 이란 혁명수비대 소형 선박 2척 파괴",
+      "source": "newspim.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DRGtRZUt4SGhOWnZBV3RfMVJKSHJsWWpRcVNPQmN0cjNxNklITzg0d2h0SmR4RkdzVmtmUEF0WW5EZkFZQTFvcHkzWU5VZnlIaTZRR0JaR3JuTEJq?oc=5",
+      "one_liner": "미군이 호르무즈에서 미 무인수상정을 나포하려던 이란 선박 2척을 파괴했고, 혁명수비대는 초대형 유조선이 기뢰에 부딪혀 불길에 휩싸였다고 밝혔다.",
+      "why_it_matters": "어제의 에너지 위험이 사우디 송유관이라는 설비 문제였다면 오늘은 수송로 문제다. 호르무즈에서 실제 교전과 유조선 피해가 같은 날 보고됐다.",
+      "confidence": 0.65,
+      "original_title": "미 중부사령부, 무인수상정 탈취 시도 이란 혁명수비대 소형 선박 두 척 파괴 - newspim.com",
+      "implications": "원유·해운 노출 자산 — 호르무즈 통항 선박의 보험료(전쟁위험할증)와 운임 지표를 지켜볼 것.",
+      "tags": [
+        "호르무즈",
+        "이란",
+        "미군",
+        "유조선",
+        "해운"
+      ]
+    },
+    {
+      "title": "트럼프 \"미국 돕지 않은 국가들, 전쟁 끝나면 배상해야\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vX01QTktSTllicHZ6RkRabU1RaW5wT0VYZXZuRkVEYWpWekFwamVhemt2d2xTbm1xZEpOWHVNMUFUQXRpLWxyZHJsVDZwWmxfbW5jV2E1RkFZclg2UTF3TF9meTNlbm8?oc=5",
+      "one_liner": "트럼프 대통령이 이란전에서 미국을 돕지 않은 나라들은 전쟁이 끝나면 미국에 보상해야 한다고 말했고, 이란은 한국 선박을 포함해 77척을 경고했다는 보도가 함께 나왔다.",
+      "why_it_matters": "동맹의 기여를 비용으로 청구하겠다는 발언이라 한국에는 호르무즈 파병 논의와 직접 연결된다. 이란의 선박 경고 목록에 한국이 들어간다면 해운·수출 경로가 곧바로 노출된다.",
+      "confidence": 0.6,
+      "original_title": "트럼프 \"미국 돕지 않은 국가들, 전쟁 끝나면 배상해야\" - 연합뉴스TV",
+      "implications": "수출·해운 기업 — 호르무즈 파병 관련 정부 결정과 이란 측 선박 경고 대상 변화를 지켜볼 것.",
+      "tags": [
+        "트럼프",
+        "이란",
+        "한국",
+        "호르무즈",
+        "해운"
+      ]
+    },
+    {
+      "title": "이 대통령, 한·중앙아시아 정상회의 주재…'서울선언' 발표",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94Zmp3eHEwQ21ycjVTa2JxZUV2enNHaTE2U1dNRFJuYnUzUjNxcUxtNk82aHozSndHUU1wODk1a3VLanpFOWZIT0JENnlSTk02bmtZbXVPRkdFbEk?oc=5",
+      "one_liner": "한·중앙아시아 정상회의에서 서울선언이 발표되고, 한·우즈베크 간 광물·AI 전환·철도 협력 등 MOU 13건이 체결됐다.",
+      "why_it_matters": "광물이 협력 목록 맨 앞에 있다. 핵심광물 조달선을 중앙아시아로 넓히려는 흐름이 정상회의 수준의 문서로 올라왔다.",
+      "confidence": 0.65,
+      "original_title": "이 대통령, 오늘 ‘한·중앙아시아 정상회의’ 주재…‘서울선언’ 발표 - KBS 뉴스",
+      "implications": "배터리·소재 기업 — MOU 13건 중 광물 항목이 실제 계약으로 이어지는지 지켜볼 것.",
+      "tags": [
+        "한국",
+        "중앙아시아",
+        "우즈베키스탄",
+        "핵심광물",
+        "외교"
+      ]
+    },
+    {
+      "title": "서울 시내버스 파업 철회…임금 3.2% 인상 합의로 첫차 2시간여 앞두고 타결",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jVXNCN0pydGhZeVlZN0lXVW5YM25OWFZEWDYwOUl1V2djOWIyUnBpV3F2WkN6Nm92UUpvVHlENXpJOEhWTXVlNjhOeHd6OXQ5WXNvTFFMX1kxaXJUWmROT0ZGajFSQ1dhYlE?oc=5",
+      "one_liner": "결렬됐던 서울 시내버스 노사 협상이 첫차 운행 2시간여를 앞두고 임금 3.2% 인상으로 타결되면서 파업이 철회됐다.",
+      "why_it_matters": "3.2%는 공공 성격 사업장의 올해 임금 기준선 역할을 한다. 대중교통 요금·지자체 재정 부담 논의의 출발점이 되는 숫자다.",
+      "confidence": 0.7,
+      "original_title": "[속보] 서울 시내버스 파업 안 한다…첫차 운행 2시간여 앞두고 협상 타결 - 한겨레",
+      "implications": "물가·임금 흐름을 보는 쪽 — 이 인상률이 다른 공공부문 교섭의 준거로 쓰이는지 지켜볼 것.",
+      "tags": [
+        "서울",
+        "버스",
+        "임금",
+        "노사",
+        "물가"
+      ]
+    },
+    {
+      "title": "네팔·중국 대홍수 사망·실종 7천명 넘어…신원 확인 난항",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoZk1yY1JEMHpPVjZ0X3NzTnNPSlgtbDJwN2dmMWV5Q2xldW80NlF3LVp3dkNMTUl6aTdUZDhpTzJyZUdjY3ZwQW1aMkdsbnMtWV90ZXJ5MTZNb3fSAWBBVV95cUxPemZuMnNuWXY5aENXcldJa09RcjhDUUUxT1VxRTV1amlzdU8ycGpVS09aWHpycWRlMWZzQ1FrZUZlbm4xTzYzLVl4UHVPV1h4UEgtV2g3cUVKN3RwYTVjaUk?oc=5",
+      "one_liner": "네팔·중국 대홍수의 사망·실종자가 7천명을 넘었고, 네팔의 경제적 피해는 약 3조6000억원, 재건 비용은 6조3000억원이 필요한 것으로 집계됐다.",
+      "why_it_matters": "재건 비용이 피해액의 1.75배다. 네팔 경제 규모에 비해 감당하기 어려운 수준이라 국제 지원과 채무 문제로 이어질 가능성이 크다.",
+      "confidence": 0.7,
+      "original_title": "'네팔·중국 대홍수' 사망·실종자 7천명 넘어…신원 확인 난항(종합) - 연합뉴스",
+      "implications": "신흥국 채무·원조 흐름을 보는 쪽 — 재건 재원 조달 방식(국제기구 차관 여부)을 지켜볼 것.",
+      "tags": [
+        "네팔",
+        "중국",
+        "홍수",
+        "재난",
+        "재건"
+      ]
+    },
+    {
+      "title": "비트코인, 상원 클래리티 법안 표결 앞두고 8만 달러 문턱에서 하락 (원문: Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act - CoinDesk)",
+      "source": "google",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMDhZZmdaZnFnU1daUjlPRnQ0aDR3UHliNzVNemRqR3Z5cFFCY1lBVWFWMVN1eEJFQjl4WklNaktZdnR5OWlaVTlFQWFuY1NxMzM0LWV5LXdhc0ZRY1pQQmdTUEhtbkFlejNHOW5SbG9WYS1HemhoMHRyaWJuY3BnUDFoYy1GNWZLNnRqdV9NV3dkNVU5dVJHWUpEcW03UnJxLXdfYk14MFVCYTJpNWsxM1VwZUdwcG9uMERUcjhLamJVRms?oc=5",
+      "one_liner": "상원의 클래리티 법안 표결을 앞두고 비트코인이 8만 달러 근처에서 밀려 7만7천 달러대에 머물렀다.",
+      "why_it_matters": "이번 주 크립토 가격을 움직이는 것은 수급이 아니라 입법·통화정책 일정이다. 같은 주에 연준 결정과 법안 표결이 겹쳐 양방향 변동성이 커진다.",
+      "confidence": 0.75,
+      "original_title": "Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act - CoinDesk",
+      "implications": "크립토 보유자 — 표결 결과와 연준 결정이 같은 주에 나오므로 이벤트 리스크가 겹치는 구간.",
+      "tags": [
+        "비트코인",
+        "클래리티법안",
+        "연준",
+        "규제"
+      ]
+    },
+    {
+      "title": "영국 고용시장 약세 지속…영란은행 금리 결정 앞두고 구인건수 4년 최저 (원문: UK jobs market stays soft before BoE rate call)",
+      "source": "thestar_my",
+      "url": "https://www.thestar.com.my/business/business-news/2026/09/15/uk-jobs-market-stays-soft-before-boe-rate-call",
+      "one_liner": "영국 공식 통계에서 구인건수가 4년 최저로 떨어지고 임금 상승률은 보합을 유지했다고 화요일 발표됐다.",
+      "why_it_matters": "고용은 식는데 임금은 안 내려가는 조합은 중앙은행이 가장 다루기 어려운 형태다. 며칠 뒤 영란은행 결정의 난이도를 그대로 보여준다.",
+      "confidence": 0.8,
+      "original_title": "UK jobs market stays soft before BoE rate call",
+      "implications": "파운드·영국 채권 노출 — 영란은행 결정문의 임금 관련 문구를 지켜볼 것.",
+      "tags": [
+        "영국",
+        "영란은행",
+        "고용",
+        "임금",
+        "금리"
+      ]
+    },
+    {
+      "title": "마이크로소프트 2% 상승…AI 매도세 속에서 MSFT가 오른 이유 (원문: Microsoft stock gains 2%: Why MSFT is rising amid AI selloff)",
+      "source": "economictimes_indiatimes",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/microsoft-stock-gains-2-why-msft-is-rising-amid-ai-selloff/slideshow/134254952.cms",
+      "one_liner": "AI 개발·지출 우려가 재평가되면서 반도체주 약세에도 마이크로소프트 주가가 버텼다.",
+      "why_it_matters": "AI 매도세가 업종 전체를 같은 방향으로 끌고 가지 않는다는 신호다. 자금이 AI 인프라(반도체)에서 수익화 경로(소프트웨어·클라우드)로 옮겨가는 모양새다.",
+      "confidence": 0.7,
+      "original_title": "Microsoft stock gains 2%: Why MSFT is rising amid AI selloff",
+      "implications": "AI 관련 주식 보유자 — 반도체와 소프트웨어의 수익률 격차가 이어지는지 지켜볼 것.",
+      "tags": [
+        "마이크로소프트",
+        "AI",
+        "반도체",
+        "클라우드"
+      ]
+    },
+    {
+      "title": "호주 라트로브 마그네슘, 미국 공장 계획 발표에 주가 급등 (원문: Australia's Latrobe Magnesium surges after outlining US plant plans)",
+      "source": "miningweekly",
+      "url": "https://www.miningweekly.com/article/australias-latrobe-magnesium-surges-after-outlining-us-plant-plans-2026-09-15",
+      "one_liner": "라트로브 마그네슘이 11억~15억 달러 규모 미국 마그네슘 공장 계획을 내놓자 주가가 장중 80%까지 뛰었고 04:20 GMT 기준 50% 상승 중이었다.",
+      "why_it_matters": "북미 시장을 겨냥한 핵심광물 생산 설비 계획 하나에 시가총액이 이 정도로 반응한다는 것은, 관세·공급망 재편 기대가 소재주 가격에 얼마나 크게 반영되는지 보여준다.",
+      "confidence": 0.8,
+      "original_title": "Australia's Latrobe Magnesium surges after outlining US plant plans",
+      "implications": "핵심광물·소재 섹터 — 미국 내 생산 계획 발표가 다른 광물 기업으로 번지는지 지켜볼 것.",
+      "tags": [
+        "마그네슘",
+        "핵심광물",
+        "호주",
+        "리쇼어링",
+        "공급망"
+      ]
+    },
+    {
+      "title": "美 국채 5% 돌파 '비상'…비트코인·주식 동시 압박",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5sSmp1bW9weU5tYm1vZWVuNlBXenF3WXYtVjY3UHlnSnhrQjFQU2Y5ek9RQkI2REVtSEc2cU9vYW95QVpPYzhmTUtB?oc=5",
+      "one_liner": "미 국채 금리가 5%를 넘어서면서 비트코인과 주식이 동시에 눌렸다는 보도.",
+      "why_it_matters": "금리 5%는 위험자산 밸류에이션의 기준선이다. 크립토와 주식이 같은 방향으로 밀렸다는 것은 자산별 개별 재료가 아니라 할인율이 시장을 끌고 있다는 뜻이다.",
+      "confidence": 0.55,
+      "original_title": "美 국채 5% 돌파 '비상'...비트코인(BTC)·주식 동시 압박 - 코인리더스",
+      "implications": "금리에 민감한 성장주·크립토 보유자 — 국채 입찰 결과와 장기물 금리 움직임을 지켜볼 것.",
+      "tags": [
+        "미국채",
+        "금리",
+        "비트코인",
+        "위험자산"
+      ]
+    },
+    {
+      "title": "'비트코인 상원의원' 루미스 \"클래리티 법안, 지금 아니면 없다\" (원문: 'It's Now or Never' for Clarity Act, Says 'Bitcoin Senator' Lummis)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378268/now-or-never-clarity-act-bitcoin-cynthia-lummis",
+      "one_liner": "루미스 의원은 최종 문안이 새 윤리 규정을 포함해 민주당 요구 120건 이상을 수용했다며, 화요일 오후 클로처 표결이 분수령이라고 말했다.",
+      "why_it_matters": "'민주당 요구 120건 이상 수용'은 법안이 통과되더라도 업계가 원한 형태와 상당히 달라졌다는 뜻이다. 통과 여부만큼 통과된 문안의 내용이 중요해졌다.",
+      "confidence": 0.7,
+      "original_title": "'It's Now or Never' for Clarity Act, Says 'Bitcoin Senator' Lummis",
+      "implications": "크립토 사업자 — 최종 문안의 윤리 조항 범위와 주(州) 감독 권한 처리를 지켜볼 것.",
+      "tags": [
+        "클래리티법안",
+        "루미스",
+        "미국상원",
+        "규제"
+      ]
+    },
+    {
+      "title": "영란은행 정책위원 \"스테이블코인 성장이 달러 지배력과 미 국채 수요를 키울 수 있다\" (원문: Stablecoin growth could boost dollar dominance, US Treasury demand: BoE official)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/stablecoins-us-dollar-dominance-treasury-demand-boe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "영란은행 정책 담당자가 디지털 달러는 달러 접근성을 넓히고 스테이블코인 발행사를 더 큰 국채 매입 주체로 만들 수 있다고 말했다.",
+      "why_it_matters": "오늘 풀의 두 축인 미 국채 금리와 크립토 규제가 여기서 만난다. 스테이블코인 발행사가 국채 수요처가 된다면 규제 결과가 곧 채권 수급 변수가 된다.",
+      "confidence": 0.7,
+      "original_title": "Stablecoin growth could boost dollar dominance, US Treasury demand: BoE official",
+      "implications": "채권·스테이블코인 관련 자산 — 클래리티 법안의 스테이블코인 조항이 준비자산 규정을 어떻게 정하는지 지켜볼 것.",
+      "tags": [
+        "스테이블코인",
+        "영란은행",
+        "미국채",
+        "달러"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
