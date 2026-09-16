@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "date": "2026-09-17",
+  "slot": "am",
+  "generated_at": "2026-09-17T03:44:20.214977+09:00",
+  "top_insight": [
+    "오늘의 축은 연준이다. 어제 후보 풀의 결론은 '금리를 낮출 계기가 없다'였는데, 오늘 연준은 낮추지 않은 정도가 아니라 0.25%p를 올렸다 — 2023년 7월 이후 첫 인상이고 밴드는 3.75~4.0%다. 눈에 띄는 건 방향이 아니라 조합이다. 정책금리는 올라갔는데 인상 직후 미 10년물은 4.95% 아래로 내려왔다. 어제 모든 걸 눌렀던 5%짜리 장기금리가, 정작 단기금리가 올라간 날 물러선 것이다.",
+    "크립토는 이틀째 가격이 아니라 표결이었고, 오늘 그 표결이 끝났다 — 부결이다. 어제는 클로처 표결 당일에 법안을 밀어온 쪽조차 최종 문안에 불만을 말하는 상황이었는데, 오늘 CFTC와 SEC는 법이 없어도 기존 권한으로 확실성을 만들겠다고 나섰다. 같은 시기 하원 세제위는 스테이블코인·스테이킹·대출 세제 개편안을 38대 5로 통과시켰다. 시장구조법은 막히고 세법은 뚫린 셈이라, 업계가 다음에 상대할 곳은 의회가 아니라 규제기관과 국세 규칙이 된다.",
+    "에너지에서는 어제 옮겨간 무대가 오늘 한 겹 더 벗겨졌다. 어제 위험이 사우디 설비에서 호르무즈 수송로로 이동했다고 적었는데, 오늘 붙은 설명은 그 호르무즈를 우회하려고 1980년대에 지어 둔 사우디 동서 송유관이 드론 공격 이후 멈춰 있다는 것이다. 보험으로 만든 우회로가 꺼져 있는 상태에서 예멘에서는 사우디와 후티가 공습을 주고받았다."
+  ],
+  "whats_changed": [
+    "금리: 어제는 '미 10년물 5% 돌파'와 '낮출 계기가 없다'가 쟁점이었는데, 오늘은 연준이 실제로 0.25%p 인상해 3.75~4.0%가 됐다. 한미 금리차는 최대 1%p로 벌어졌고, 인상 직후 10년물은 4.95% 아래로 내려왔다.",
+    "클래리티 법안: 어제는 클로처 표결 당일이었고 최종 문안 내용이 불만의 대상이었는데, 오늘은 상원이 법안을 진전시키지 못했다. CFTC·SEC가 기존 권한으로 메우겠다고 밝혔다.",
+    "비트코인: 어제 8만 달러 문턱에서 밀려 7만7천 달러대였는데, 오늘은 4% 더 빠져 7만5,900달러선이다. 7만6천 달러를 일시 반납했다는 보도도 함께 나왔다.",
+    "에너지: 어제의 호르무즈 수송로 위험에, 오늘은 그 호르무즈를 우회하려고 만든 사우디 동서 송유관이 드론 공격으로 가동 중단이라는 사실이 더해졌다."
+  ],
+  "themes": [
+    "연준의 방향 전환 — 2023년 7월 이후 첫 인상인데, 정작 장기금리는 인상 직후 5% 아래로 물러섰다",
+    "입법이 막히자 규제기관으로 — 클래리티 법안은 부결되고 하원 세제위 개편안은 38대 5로 통과했다",
+    "꺼져 있는 우회로 — 호르무즈를 피하려고 지은 사우디 동서 송유관이 드론 공격 이후 멈춰 있다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "국회 본회의 김성수 대법관 후보자 임명동의안 표결 (청문보고서 채택 후 임박)",
+    "트럼프-시진핑 회담 — 이란 외무의 방중이 그 직전에 이뤄졌다",
+    "도이체방크 MiCA 라이선스 취득 전망 (10월) 및 연내 비트코인·이더리움 커스터디 개시",
+    "인도 의회 재정위원회, 가상디지털자산(VDA) 관련 재무부 구두증언 청취",
+    "단고테 정유 IPO — 일반 국민 참여를 목표로 준비 중"
+  ],
+  "items": [
+    {
+      "title": "미 연준 0.25%p 인상에 한미 금리차 최대 1%p로 벌어져",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05cmhNZDdYWG4tUURsbnotbWNxYnVXVGR6R25KRVcyWFptOGtqdXI1NTRENDY1RnJ2RDBjTFBkenotUzRNWTFxdUgzVkIwQ1VwdDlDZjctRFMyd3RTX0FwVVRtbHlLdw?oc=5",
+      "one_liner": "연준 인상으로 한국과 미국의 정책금리 격차가 최대 1%p까지 벌어졌고, 인상 직후 미 10년물 금리는 4.95% 아래로 내려왔다.",
+      "why_it_matters": "같은 인상이 한국에는 금리차 문제로 도착한다. 3년 2개월 만의 긴축 조치라는 점에서 한은이 따라갈지 버틸지가 곧 질문이 된다. 그리고 인상 직후 장기금리가 오히려 내렸다는 점이 눈에 띈다 — 단기는 올리고 장기는 내려간 조합이다.",
+      "confidence": 0.78,
+      "original_title": "[속보] 미 연준 기준금리 0.25%p 인상…한미 금리차 최대 1%p - KBS 뉴스",
+      "implications": "원화와 외국인 자금 흐름을 보는 쪽이 직접 영향권이다. 지켜볼 것은 한은 금통위의 대응 수위와, 10년물이 5% 아래에 머무는지 여부다.",
+      "tags": [
+        "연준",
+        "한미금리차",
+        "한국은행",
+        "국채금리"
+      ]
+    },
+    {
+      "title": "미 국채금리, FOMC 앞두고 경계 속 상승…10년물은 5% 위에서 출발했다",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RMms1MjlIZ2VpckJ5S2d4QnpBZjcwMjFUNnNjOVhaUU9aWEZyaGlxWFBLX0Iya3dEaVZYNkdXclRCcngzUGEtMkF3QklfWVQwRmxEVWkwbTlxQm55V1FTdlRLUmpJUWN4N1VEM2hTM2k?oc=5",
+      "one_liner": "FOMC를 앞둔 미 국채시장은 경계심 속에 움직였고, 10년물 금리가 5%를 넘어선 국면에서 '금리를 낮출 계기가 없다'는 진단이 붙었다.",
+      "why_it_matters": "어제 브리핑을 관통한 게 국채 5%였는데, 그 자리에서 FOMC를 맞았다는 점이 맥락이다. 고금리가 길어질 때의 파급 경로로 AI 투자와 신용시장으로의 전이가 지목됐고, 강세론자로 분류되던 쪽에서도 지수 전망을 내렸다.",
+      "confidence": 0.72,
+      "original_title": "美 국채가, FOMC 앞두고 경계심 속 상승 - 연합인포맥스",
+      "implications": "월배당 미국채 ETF처럼 분배금은 받되 가격에서 깎이는 상품을 든 쪽이 직접 체감한다. 지켜볼 것은 고금리 장기화가 AI 설비투자 자금조달로 번지는지다.",
+      "tags": [
+        "미국채",
+        "장기금리",
+        "AI투자",
+        "신용시장"
+      ]
+    },
+    {
+      "title": "사우디와 후티 반군, 예멘에서 새 공습 주고받아",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TNWRoUkE0Z2JoU0JZQlMtSEFRUmhOYkpubmtqZGZCaUxsNGxMX1BkLV83eThpSjd4aFllME5ZV1lXOHcxV2Q5Z1lUMFVqSDdoRFdJVUM3Q21MN3lGamlwMDhrbkc5eHJFc1VzYVl5dmFCLVRJVmfSAXhBVV95cUxNdGFyVGtYcVp4akVXOFhfQUJ4a3BFSEFDOFRKTnpRU1MwVW5TUWFjRGpYYUZKN1dab2I3eFY4dkw0SjE1QXhHcmRnLVVVcV9iX2dmY2dkOFIzd2d5c3ByUlhnaDAyR0I4bXZIbHRZWTMwQW9MWW5FSk4?oc=5",
+      "one_liner": "사우디와 후티 반군이 예멘에서 공습을 주고받았고, 같은 날 사우디 공급 차질 속에 오를렌이 원유 16건을 확보했다는 보도가 나왔다.",
+      "why_it_matters": "송유관 정지가 설비 문제가 아니라 교전 상황의 일부라는 걸 보여주는 축이다. 후티 측은 사우디 얀부 석유시설과 공군기지를 때렸다고 했고 F-15 격추도 주장했는데, 둘 다 후티의 주장으로 보도된 것이다.",
+      "confidence": 0.65,
+      "original_title": "사우디아라비아와 후티 반군, 예멘에서 새로운 공습 주고받아 - VOA 한국어 홈페이지",
+      "implications": "홍해·사우디 서안 항로를 쓰는 화주가 영향권이다. 지켜볼 것은 얀부 쪽 수출 터미널이 실제로 멈추는지 — 동서 송유관의 종점이 그쪽이다.",
+      "tags": [
+        "예멘",
+        "후티",
+        "사우디",
+        "중동"
+      ]
+    },
+    {
+      "title": "러시아 드론이 우크라이나 버스·열차 공격…승객 5명 사망",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE04MExsdUp6cENfLXd3cExUMm1zYnRYMzhWWHVXd0JYbjlDOVVvUkhGSDFNYXV2YU1fLWI2SGlBNFAyTDZId0RES05RTjdaelNqM1U2UFh2aVdDSmZaaWN2Ty1OSkdQTE0xQ0Fnd1dhd2VSd9IBdEFVX3lxTE1lMHg3WkRYeXFnN1M1U3NXN1gtXzV3ZEJoZnNOc3pueXIwWFdTUjFDZHVXSDFpOW5LNEg2TnU5Nm44NXNxMFlmaC1qSGFyamkzY19yNXlSY1BsWmVJdklBNG5ld0pCaG9UejFCTnE4TUM4bEJW?oc=5",
+      "one_liner": "러시아 드론이 우크라이나 버스와 열차를 공격해 승객 5명이 숨졌고, 철도망 공격이 대폭 강화돼 여객열차까지 잇따라 피격됐다.",
+      "why_it_matters": "어제 브리핑의 '에너지 휴전 하루 만에 공격 재개'가 오늘은 철도망이라는 구체적 표적으로 나타났다. 에너지 시설이 아니라 여객 수송을 때린다는 점에서 표적의 성격이 달라졌다.",
+      "confidence": 0.75,
+      "original_title": "러시아 드론, 우크라이나 버스·열차 공격...승객 5명 사망 - VOA 한국어 홈페이지",
+      "implications": "우크라이나 곡물·물자 육상 수송에 걸리는 부담이 커진다. 지켜볼 것은 휴전 논의가 표적 범위를 두고 다시 열리는지다.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "철도",
+        "휴전"
+      ]
+    },
+    {
+      "title": "미 하원, 이란전 중단 결의 세 번째 가결…공화당 7명 가세",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52ak5YN2g3SnJveDNQcXAxcTdpRTZVcHlSYndKNUhZTmJQX3N3aHNSUm90N2NIT3pfQlNvWDViQXI1ZnpqY3MzTkJFVjlMVEJjS2l4Rk96bWt6NUl1?oc=5",
+      "one_liner": "미 하원이 이란전 중단 결의안을 세 번째로 가결했고 공화당 의원 7명이 찬성에 합류했다. 같은 흐름에서 헤그세스 국방장관 탄핵소추안도 기습 발의됐다.",
+      "why_it_matters": "찬성 공화당 의원이 늘고 있다는 게 핵심이다. 대통령 자신의 당 안에서 이란 문제에 관한 이탈이 반복적으로, 그리고 수를 늘리며 나타나고 있다.",
+      "confidence": 0.75,
+      "original_title": "'이란전 중단 촉구' 결의안 찬성 공화당 의원 늘어…트럼프와 거리두기 심화 - 뉴스핌",
+      "implications": "중동 확전을 전제로 원유를 보는 쪽이 정치적 제약 변수를 하나 더 얹어야 한다. 지켜볼 것은 이탈 규모가 거부권을 넘길 수준까지 커지는지다.",
+      "tags": [
+        "이란",
+        "미국의회",
+        "전쟁권한",
+        "공화당"
+      ]
+    },
+    {
+      "title": "1년 전 폭격당한 가자 건물 결국 붕괴…최소 20명 사망",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VMDlsS2FjdjZNV053MjNWeU9rZXBqRnBtMlZzZ2RwMURTSzVRUDd2RWdaVWhpcF9wZm1Va1lmaG1kNFBnUUgycUtWWDVpX0JremNWM1llcVhBNWxMdExodmhBU0JhZmhuclNTc1NGNUhGSWc?oc=5",
+      "one_liner": "이스라엘 폭격으로 파손됐던 가자지구 아파트가 1년 만에 무너져 최소 20명이 숨지고 다수가 매몰됐다.",
+      "why_it_matters": "교전이 멈춘 자리에서도 이미 가해진 피해가 시차를 두고 인명 피해로 돌아온다는 사례다. 손상된 건물이 얼마나 더 있는지가 곧 질문이 된다.",
+      "confidence": 0.72,
+      "original_title": "1년 전 이스라엘 폭격한 ‘가자 건물’ 결국 붕괴…최소 20명 사망·수십명 실종 - 한겨레",
+      "implications": "가자 재건·구조 역량을 다루는 국제기구가 직접 영향권이다. 지켜볼 것은 매몰 인원 규모인데, 보도마다 숫자가 갈린다.",
+      "tags": [
+        "가자",
+        "이스라엘",
+        "인도적위기"
+      ]
+    },
+    {
+      "title": "[단독] 김승원, 정 판사 재판부 사건 수임…청문회 해명과 배치",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHcjlhVkdNbVVmbU14RTEtR1czVjE1bEh2dlItZEVNV2xLclpYVXVfWERsd3gzTHJvc3JEbDRvTS1KaThzRnk2dUlEZ0RjQTRoaXk1czNsS2xuUmRldU1yWm5jNl9vejFEYUZOend6MXRoZw?oc=5",
+      "one_liner": "김승원 후보자가 정 판사 재판부의 사건을 수임한 사실이 확인돼, 수임하지 않았다는 인사청문회 해명과 어긋난다고 한겨레가 보도했다.",
+      "why_it_matters": "쟁점이 적격성 판단에서 청문회 진술의 사실 여부로 옮겨갔다. 같은 날 여론조사에서 임명 반대가 찬성의 두 배를 넘었고, 당청은 강행 기류라는 보도가 함께 나왔다.",
+      "confidence": 0.7,
+      "original_title": "[단독] 김승원, 정 판사 재판부 사건 수임…“안 했다” 청문회 해명과 배치 - 한겨레",
+      "implications": "국회 본회의 표결을 앞둔 여야 셈법에 직접 걸린다. 지켜볼 것은 강행 시 야권이 예고한 장외 투쟁이 실제로 열리는지다.",
+      "tags": [
+        "김승원",
+        "인사청문회",
+        "대법관",
+        "국회"
+      ]
+    },
+    {
+      "title": "사우디 동서 송유관이 멈췄다…호르무즈 우회로가 사라진 뒤엔 무엇이 오나 (원문: CNA Explains: Saudi Arabia's East-West pipeline is down. With its oil 'insurance policy' offline, what comes next?)",
+      "source": "channelnewsasia",
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-east-west-pipeline-oil-crude-exports-houthis-red-sea-6382731",
+      "one_liner": "호르무즈 해협을 우회하려고 1980년대에 건설된 사우디 동서 송유관이 드론 공격 이후 가동을 멈췄고, 장기화하면 아시아를 포함한 구매국이 타격을 받는다.",
+      "why_it_matters": "어제 위험의 무대가 설비에서 호르무즈 수송로로 옮겨갔다고 정리했는데, 오늘 붙은 설명은 그 호르무즈를 피하려고 만들어 둔 보험이 지금 꺼져 있다는 것이다. 우회로가 없으면 수송로 위험이 그대로 가격이 된다.",
+      "confidence": 0.8,
+      "original_title": "CNA Explains: Saudi Arabia's East-West pipeline is down. With its oil 'insurance policy' offline, what comes next?",
+      "implications": "사우디산 원유를 받는 아시아 정유사가 직접 영향권이다. 지켜볼 것은 가동 중단이 며칠짜리인지 몇 주짜리인지 — 기사가 구분선으로 삼은 게 '장기화' 여부다.",
+      "tags": [
+        "원유",
+        "사우디",
+        "호르무즈",
+        "에너지안보"
+      ]
+    },
+    {
+      "title": "인도 UPI 수수료 개편…6년간 공짜였던 결제망이 바뀐다 (원문: Explainer-India's UPI fee shake-up: What changes and why it matters)",
+      "source": "channelnewsasia",
+      "url": "https://www.channelnewsasia.com/business/explainer-indias-upi-fee-shake-up-what-changes-and-why-it-matters-6388381",
+      "one_liner": "인도가 6년간 규모·유형과 무관하게 무료로 써 온 자국 결제망 UPI에 수수료 체계를 도입하기로 했다.",
+      "why_it_matters": "QR 스캔 결제가 지난 10년간 거의 보편 행동이 된 나라에서 그 무료 전제가 깨진다. 재무부는 UPI 정책이 독립적으로 결정된다며 '외국 영향' 주장을 부인했는데, 그런 해명이 나온다는 것 자체가 반발의 크기를 보여준다.",
+      "confidence": 0.75,
+      "original_title": "Explainer-India's UPI fee shake-up: What changes and why it matters",
+      "implications": "인도에서 결제·핀테크를 하는 쪽의 단가 구조가 바뀐다. 지켜볼 것은 수수료가 소액결제까지 적용되는지 — 보편성이 걸린 지점이 거기다.",
+      "tags": [
+        "인도",
+        "UPI",
+        "결제",
+        "핀테크"
+      ]
+    },
+    {
+      "title": "연준, 2023년 7월 이후 첫 금리 인상…25bp 올려 3.75~4.0% (원문: Fed raises rates by 25 basis points in first hike since July 2023)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/09/16/fed-raises-rates-by-25-basis-points-in-first-hike-since-july-2023",
+      "one_liner": "미 연준이 기준금리를 0.25%p 올려 정책금리 밴드를 3.75~4.0%로 옮겼다. 2023년 7월 이후 첫 인상이다.",
+      "why_it_matters": "2년 넘게 이어진 인하·동결 국면의 방향이 실제로 뒤집혔다. 어제까지 후보 풀의 쟁점은 '금리를 낮출 계기가 없다'였는데, 오늘은 낮추는 게 아니라 올린 쪽으로 결론이 났다. 시장이 거의 만장일치로 가격에 반영해 둔 움직임이라 놀라움보다는 확인에 가깝다.",
+      "confidence": 0.85,
+      "original_title": "Fed raises rates by 25 basis points in first hike since July 2023",
+      "implications": "달러 자금 조달에 기대는 신흥국·고레버리지 자산이 먼저 영향을 받는다. 지켜볼 것은 이번이 한 번짜리 조정인지, 연속 인상의 시작인지를 가를 다음 회의 문구다.",
+      "tags": [
+        "연준",
+        "기준금리",
+        "통화정책",
+        "미국"
+      ]
+    },
+    {
+      "title": "클래리티 법안 부결 뒤 CFTC·SEC \"기존 권한으로 하겠다\" (원문: CFTC and SEC Double Down on Crypto After Clarity Act Defeat)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378408/cftc-sec-double-down-crypto-clarity-act",
+      "one_liner": "상원이 클래리티 법안 처리에 실패하자 마이클 셀리그와 폴 앳킨스가 각 기관의 현행 권한을 써서 크립토 규제 확실성을 제공하겠다고 밝혔다.",
+      "why_it_matters": "어제 이 자리에 있던 건 '클로처 표결 당일'이라는 사실과, 최종 문안에 민주당 요구가 대거 반영됐다는 불만이었다. 오늘은 법안 자체가 진전되지 못했다. 규제 확실성을 만드는 주체가 입법부에서 규제기관 재량으로 넘어갔다는 뜻이다.",
+      "confidence": 0.82,
+      "original_title": "CFTC and SEC Double Down on Crypto After Clarity Act Defeat",
+      "implications": "미국에서 사업하는 거래소·발행사가 직접 영향권이다. 지켜볼 것은 두 기관이 '기존 권한'으로 무엇을 먼저 손대는지 — 그 첫 조치가 사실상의 규칙이 된다.",
+      "tags": [
+        "클래리티법안",
+        "CFTC",
+        "SEC",
+        "크립토규제"
+      ]
+    },
+    {
+      "title": "비트코인 4% 급락해 7만5,900달러선…법안 부결과 금리 인상이 겹쳤다",
+      "source": "Cryptonews",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNnZTeDJHNmpabkdFMmVxbDZkUThaNDctT2Q5QUx4VHRqVUh1T3F5Mzcwam1HNzBUaE56OEV3ZG0xeG5JS2pMQTNvQ3dGSWhyZFNMSF9hZ0V0ZnJtQktuME82ZWhMQVN0eklyb2VZSm82TmdnUEU1Q2pLWWZkbGFtcFJJQQ?oc=5",
+      "one_liner": "비트코인이 4% 떨어져 7만5,900달러선까지 밀렸고, 규제 법안 부결과 금리 인상 우려가 함께 원인으로 지목됐다.",
+      "why_it_matters": "어제는 8만 달러 문턱에서 7만7천 달러대였는데, 오늘은 한 단 더 내려왔다. 악재가 둘이 겹쳤다는 점이 중요하다 — 금리는 거시 쪽, 법안 부결은 크립토 고유 쪽이라 회복 경로가 서로 다르다.",
+      "confidence": 0.7,
+      "original_title": "비트코인 4% 급락하며 75,900달러선…규제 법안 부결과 금리 인상 우려 겹쳐 - Cryptonews",
+      "implications": "레버리지를 쓴 포지션이 먼저 압력을 받는다. 지켜볼 것은 7만6천 달러선의 회복 여부인데, 같은 날 일시 반납했다는 보도도 함께 나왔다.",
+      "tags": [
+        "비트코인",
+        "크립토",
+        "금리",
+        "규제"
+      ]
+    },
+    {
+      "title": "미 하원 세제위, 크립토 세제 개편안 38대 5로 가결 (원문: US House tax committee advances crypto tax overhaul in 38–5 vote)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/house-tax-committee-advances-crypto-tax-overhaul-in-385-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "초당적 표결로 하원 세제위가 스테이블코인·스테이킹·크립토 대출·디지털자산 거래의 연방 세제 규칙을 다시 짜는 법안을 진전시켰다.",
+      "why_it_matters": "상원에서 클래리티 법안이 막힌 바로 그 무렵, 하원에서는 다른 문이 열렸다. 38대 5라는 표차는 이 사안이 당파 쟁점이 아니라는 신호다. 시장구조법이 아니라 세법 쪽이라 접근 경로가 아예 다르다.",
+      "confidence": 0.82,
+      "original_title": "US House tax committee advances crypto tax overhaul in 38–5 vote",
+      "implications": "스테이킹 보상과 스테이블코인을 다루는 쪽의 세무 처리가 바뀔 수 있다. 지켜볼 것은 위원회를 넘은 뒤 본회의 일정이 잡히는지다.",
+      "tags": [
+        "크립토세제",
+        "스테이블코인",
+        "스테이킹",
+        "미국하원"
+      ]
+    },
+    {
+      "title": "저커버그, AI 속도조절 공조에 반대…\"연구소는 각자 움직일 수 있다\" (원문: Zuckerberg Pushes Back on Coordinated AI Slowdown, Says Labs Can Act Alone)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378381/zuckerberg-pushes-back-ai-slowdown",
+      "one_liner": "메타 CEO가 AI 개발 속도를 함께 늦추자는 구상에 반대하며, 경쟁과 잠재적 법적 책임만으로도 개발사가 안전을 우선할 이유가 된다고 말했다.",
+      "why_it_matters": "AI 업계가 속도조절을 말하기 시작한 국면에서 가장 큰 축 하나가 공조를 거부했다. 메타가 Muse를 미룬 결정을 근거로 든 게 논리의 핵심이다 — 합의가 없어도 개별 회사가 알아서 늦출 수 있다는 것.",
+      "confidence": 0.75,
+      "original_title": "Zuckerberg Pushes Back on Coordinated AI Slowdown, Says Labs Can Act Alone",
+      "implications": "AI 규제를 자율에 맡길지 규칙으로 정할지 다투는 쪽에 재료가 된다. 지켜볼 것은 다른 대형 연구소들이 공조안에 남는지 여부다.",
+      "tags": [
+        "AI",
+        "메타",
+        "AI규제",
+        "저커버그"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
