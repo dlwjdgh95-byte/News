@@ -1,0 +1,251 @@
+{
+  "schema": 1,
+  "date": "2026-09-18",
+  "slot": "am",
+  "generated_at": "2026-09-18T03:43:17.041550+09:00",
+  "top_insight": [
+    "어제 연준이 올린 금리의 청구서가 오늘 한국으로 넘어왔다. 한미 금리차가 벌어지면서 한은의 연내 추가 인상 가능성이 커졌다는 관측이 나왔고, 고물가가 겹쳐 내릴 여력은 더 줄었다. 같은 주에 일본은 리플레이션파 경제상을 유임시켜 지출 계획을 그대로 간다고 했다 — 주요국이 한 방향으로 움직이지 않는다.",
+    "입법이 막히면 규제기관이 대신한다던 어제의 예고가 오늘 실물로 나왔다. 클래리티법은 상원 표결에서 밀린 뒤 '죽지는 않았지만 길이 좁아지는' 상태인데, 같은 시기 SEC는 토큰화된 미국 주식 거래에 5년짜리 실험 경로를 열고 합성 주식 토큰은 그 틀 밖에 남겼다. 업계가 상대할 곳이 의회에서 규제기관으로 옮겨 앉았고, 선이 어디에 그어지는지가 다음 쟁점이 됐다.",
+    "멈춘 송유관에 처음 가격표가 붙었다 — 한 달이면 1억 배럴 차질이라는 추산이다. 그 사태를 중재하러 나선 곳은 베이징이었다. 사우디 요청으로 중국이 이란에 후티 자제를 압박했고, 이란과 사우디의 설전 자체가 중국이 연 포럼에서 벌어졌다. 트럼프는 '중대기로'라고만 말하고 중동 동맹의 의견을 듣겠다고 했다."
+  ],
+  "whats_changed": [
+    "금리: 어제는 연준이 0.25%p 올려 3.75~4.0%가 된 것이 쟁점이었는데, 오늘은 그 청구서가 한국으로 넘어왔다 — 한미 금리차 확대에 한은의 연내 추가 인상 가능성이 커졌다는 관측이다.",
+    "규제: 어제 CFTC·SEC가 '기존 권한으로 메우겠다'고만 밝혔는데, 오늘 SEC는 토큰화 미국 주식 거래에 5년 실험 경로를 실제로 열었다. 클래리티법은 표결에서 밀린 뒤 길이 좁아지는 상태다.",
+    "비트코인: 어제 4% 빠져 7만5,900달러선이었는데, 오늘은 소폭 반등해 7만6,500달러 부근에서 횡보했다. 미 주식도 인상 여파에서 반등했다.",
+    "에너지: 어제 '드론 공격으로 가동 중단'이던 사우디 동서 송유관에 오늘 수치가 붙었다 — 한 달 중단이면 1억 배럴 차질이라는 추산이다. 중재자로 중국이 등장해 사우디 요청으로 이란을 압박했다."
+  ],
+  "themes": [
+    "규제기관이 입법을 대신한다 — 클래리티법은 길이 좁아지는데 SEC는 토큰화 주식 5년 실험을 열었다",
+    "인상의 청구서가 한국으로 — 한미 금리차 확대에 한은 추가 인상 가능성, 반대편에서 일본은 지출 유지",
+    "멈춘 송유관의 가격표와 새 중재자 — 한 달이면 1억 배럴, 사우디가 SOS를 보낸 곳은 베이징이다"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "이재명 대통령 기자회견 — 기사 기준 '내일'(2026-09-18)",
+    "한미 외교장관 회담 — 대미투자 합의 발표 가능성이 거론됐다",
+    "미·중 워싱턴 정상회담 — 중국 국방부장의 '관리 모드' 배경으로 거론"
+  ],
+  "items": [
+    {
+      "title": "고물가 속 한미 금리차 확대…한은 연내 추가인상 가능성 커져",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WTUVCdjZ3OFA3eW92Q3NEcGVsOGZzS0RTMjNkZnZwZWJWYkEta3Bkb1hxaUlBVThEbVdUNXpnR2lYS0ViQnE4MFh0N1pTLXZYYjd2Q0NWNXl0R0NIRmhyRnlyVTNmSkEwTnUxNFVGQmtjdw?oc=5",
+      "one_liner": "미 연준 인상으로 한미 금리차가 벌어지면서 한국은행도 연내 추가 인상 압박을 받는다는 관측이 나왔다.",
+      "why_it_matters": "어제 연준의 3년 만의 긴축이 이제 한국 통화정책의 문제로 넘어왔다. 고물가가 겹쳐 금리를 내릴 여력은 더 줄었다.",
+      "confidence": 0.72,
+      "original_title": "고물가 속 한미 금리차 확대…한은 연내 추가인상 가능성 커져 - 한겨레",
+      "implications": "원화 변동금리 대출을 안고 있는 가계·기업에 직접 영향 / 금통위의 연내 일정과 '영향 제한적'이라는 당국 발언이 유지되는지 지켜볼 것.",
+      "tags": [
+        "금리",
+        "한국은행",
+        "연준",
+        "물가"
+      ]
+    },
+    {
+      "title": "중국, 사우디 요청에 \"후티 자제시켜라\" 이란 압박",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16dm0wVjRNZjNEU3NzN1l2S2JKamRXQkxqbVB1eFZoN3RTT2Q4MjBUT09qU3NveGRadDkzRXlVY2M1MFVTUVNFdTluendjQ2NtSDV1b3A2dS1rY3NSRXJYTGd2SHAtRkE?oc=5",
+      "one_liner": "사우디 요청으로 중국이 이란에 후티 자제를 압박했고, 멈춘 송유관은 한 달이면 1억 배럴 차질이라는 추산이 붙었다.",
+      "why_it_matters": "어제 드론 공격으로 멈춘 사우디 동서 송유관의 피해 규모가 처음 수치로 나왔다. 중재자 자리에 미국이 아니라 중국이 앉았다는 점도 새롭다.",
+      "confidence": 0.72,
+      "original_title": "중국, 사우디 요청에 \"후티 자제시켜라\" 이란 압박 - 연합뉴스TV",
+      "implications": "원유 공급과 유가에 노출된 정유·화학·운송 업종 / 송유관 재가동 시점과 중국의 압박이 실제로 후티 공격 빈도를 줄이는지 지켜볼 것.",
+      "tags": [
+        "에너지",
+        "원유",
+        "중동",
+        "중국"
+      ]
+    },
+    {
+      "title": "트럼프 \"이란 전멸 공격 여부 중대기로…중동 동맹 의견 들을 것\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UQXcyYkZqNnpLUDZSalV5SndxbEZPdW5ZUllGTG5tdzk3Y3RZMXFxZUR4aWkwN1NtVnBvXzVPcUxiQWkwN0ctMjNNRFZVTXpRdWFPZ1JnMWZiRE0?oc=5",
+      "one_liner": "트럼프가 이란에 대한 전면 공격 여부를 두고 중대 기로에 있다며 중동 동맹의 의견을 듣겠다고 밝혔다.",
+      "why_it_matters": "미·이란 전쟁이 200일에 접어들며 유가와 해상 수송이 이미 눌린 상태다. 확전이냐 대화냐가 에너지 가격의 갈림길에 놓였다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 \"이란전멸 공격 여부 중대기로…중동 동맹 의견 들을 것\" - 연합뉴스",
+      "implications": "원유·해운·항공 등 에너지 비용에 노출된 업종 전반 / '전멸 공격'과 '전쟁 곧 끝' 사이 어느 쪽으로 기우는지, 중동 6개국 회동이 성사되는지 지켜볼 것.",
+      "tags": [
+        "중동",
+        "이란",
+        "트럼프",
+        "유가"
+      ]
+    },
+    {
+      "title": "여야 합의로 이형일 재경부 장관 후보자 청문보고서 채택",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3NC16WkpyenB1eDZzT2NzOUV6a1ZCLXZ4VHRIV09HUFhnRGJjZGpkaUg0eEtZWVh6cFVuR2JxMFNWRV9DbDFqVFE1Z0NUam9kUGRzUnFkUnRXMWcybnRoTXE0TWFlNk5SS0E?oc=5",
+      "one_liner": "여야 합의로 이형일 재정경제부 장관 후보자의 인사청문보고서가 채택됐고, 국민의힘은 '부적격' 의견을 냈다.",
+      "why_it_matters": "금리차와 고물가가 동시에 걸린 시점에 경제 사령탑이 확정 단계로 넘어갔다. 첫 70년대생 부총리다.",
+      "confidence": 0.78,
+      "original_title": "여야 합의로 이형일 재경부 장관 후보자 청문보고서 채택 - 한겨레",
+      "implications": "물가·에너지 가격 대책의 실무 방향 / 후보자가 말한 \"농축산물·석유류 가격 안정\"과 \"새로운 성장엔진 발굴\"이 정책으로 나오는지, 국민의힘이 제기한 '컨트롤타워' 논의가 이어지는지 지켜볼 것.",
+      "tags": [
+        "재정경제부",
+        "경제정책",
+        "인사청문회"
+      ]
+    },
+    {
+      "title": "IAEA 총회, '북한 핵보유국 지위 불인정' 결의 채택…103개국 찬성",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcnBHOExFTEtsdG02aWs4MzlEQmloM2tTb2FybWg3YzNoZjZJTFh3MnB4bl9Hc01aQ0VveElxRFFYQnZvTVVBNmo2MHI5SDJDUUVpRGlGRXZqRzdZLVh6Mmw5Mk9hRXg4LW1DY3RNZW5MYzJ0T2hpcThDcS1La3FVclRpRkJEd9IBiAFBVV95cUxPTEo3RE9xSWNuZXd1Y0RxdzdDdWk0cVoxVzVERjMwOTlrWG8xa3laaXlrWDhVYmZHckd4N054UDdHT0YxemlEZGdyODFKaVBPVFpLVVQtNGNicHY5eTlhQ1VTUGwyTE5pcUdpTjRWeVpzYUNFaW0tdUlLU0hjc2pGeExIa2Y2OExC?oc=5",
+      "one_liner": "IAEA 총회가 103개국 찬성으로 북한의 핵보유국 지위를 인정하지 않는 결의를 채택했고, 북한은 \"비핵화 망상 치우라\"고 반발했다.",
+      "why_it_matters": "같은 시기 베이징에서 북한이 핵보유국 지위를 주장한 것과 정면으로 부딪친다. 한반도 리스크의 국제적 좌표가 다시 확인됐다.",
+      "confidence": 0.8,
+      "original_title": "IAEA 총회, ‘북한 핵보유국 지위 불인정’ 결의 채택…103개국 찬성 - VOA 한국어 홈페이지",
+      "implications": "한국물 자산에 붙는 지정학 프리미엄 / 김여정 담화 뒤 북한의 추가 행동과 중국의 '수위조절'이 계속되는지 지켜볼 것.",
+      "tags": [
+        "북한",
+        "IAEA",
+        "한반도",
+        "지정학"
+      ]
+    },
+    {
+      "title": "베이징까지 날아든 중동 갈등 — 샹산포럼서 사우디·이란 설전",
+      "source": "서울신문",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZNmtVMGVTbUJoLW05VGZVa3h6MEJTWC1wN2hKQ21iSnpUbmc3dThENDg0MFlBYS1JZEQtTk5lakhfdHVPOWZPZW9SMlEyQndkbC1sbi1YX3h4WWYyQVI2YU9pb3ZBVzYwVEw1MGVxdlB1SHRvT0lB?oc=5",
+      "one_liner": "베이징 샹산포럼에서 사우디와 이란이 미군 철수와 '혁명 수출'을 두고 설전을 벌였고, 중국 국방부장은 미국 비판 수위를 낮췄다.",
+      "why_it_matters": "중동 갈등의 말싸움 무대가 베이징으로 옮겨 앉았다. 중국이 워싱턴 정상회담을 앞두고 '관리 모드'로 도는 모습도 함께 읽힌다.",
+      "confidence": 0.72,
+      "original_title": "베이징까지 날아든 중동 갈등 - 서울신문",
+      "implications": "미·중 정상회담의 의제와 중동 중재 구도 / 중국 국방부장이 대만·남중국해를 계속 언급하지 않는지 지켜볼 것.",
+      "tags": [
+        "중국",
+        "중동",
+        "미중관계",
+        "지정학"
+      ]
+    },
+    {
+      "title": "美전문가 \"한미 외교장관 회담 계기 대미투자 합의 발표 가능성\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZN2tUZXVDb19CeTJKUUE3X09SRnpUYjVlcmpNckFyendVN2poSDZ2UGVad3l3cGpUVnNrajFENnFYek9TQlpCTVlwVjFHN2MyMW9KR2N0VUYyLU9JNl9YYWJwcnVhWWc?oc=5",
+      "one_liner": "미국 전문가가 한미 외교장관 회담을 계기로 대미투자 합의가 발표될 가능성을 거론했다.",
+      "why_it_matters": "한미 금리차와 통상 부담이 동시에 걸린 시점의 협상 카드다. 다만 아직 전문가 관측에 머물러 있다.",
+      "confidence": 0.5,
+      "original_title": "美전문가 \"한미 외교장관 회담 계기 대미투자 합의 발표 가능성\" - 연합뉴스TV",
+      "implications": "대미 투자에 동원될 국내 기업·기금 / 실제 회담 일정과 합의 발표 여부, 투자 규모가 확인되는지 지켜볼 것.",
+      "tags": [
+        "한미관계",
+        "대미투자",
+        "통상"
+      ]
+    },
+    {
+      "title": "인도, 미국의 러시아 제재법 통과 뒤 \"경제 이익 보호에 필요한 모든 조치\" (원문: India to take 'all necessary measures' to protect economic interests after US passes Russia sanctions bill)",
+      "source": "dawn",
+      "url": "https://www.dawn.com/news/2030596/india-to-take-all-necessary-measures-to-protect-economic-interests-after-us-passes-russia-sanctions-bill",
+      "one_liner": "미 의회가 러시아 에너지·방산과 푸틴, 그림자 선단을 겨눈 제재법을 통과시키자 인도는 '다각화된' 공급처에서 원유를 계속 사겠다고 밝혔다.",
+      "why_it_matters": "러시아산 원유의 큰 수요처가 제재를 우회하겠다는 뜻을 공식화했다. 중동 공급이 눌린 상태에서 원유 흐름의 방향이 또 한 번 갈린다.",
+      "confidence": 0.78,
+      "original_title": "India to take 'all necessary measures' to protect economic interests after US passes Russia sanctions bill",
+      "implications": "정유 마진·해상 운임과 러시아산 원유 할인폭 / 법안이 미 대통령에게 준 재량 권한이 인도에 실제로 적용되는지 지켜볼 것.",
+      "tags": [
+        "제재",
+        "러시아",
+        "인도",
+        "원유"
+      ]
+    },
+    {
+      "title": "일본 다카이치 총리, 개각에서 경제상 유임 — 지출 계획은 그대로 (원문: Japan PM retains economy minister in cabinet reshuffle, signals no change in spending plans)",
+      "source": "nst",
+      "url": "https://www.nst.com.my/business/economy/2026/09/1534754/japan-pm-retains-economy-minister-cabinet-reshuffle-signals-no",
+      "one_liner": "다카이치 사나에 총리가 개각에서 리플레이션파 측근 기우치 미노루를 경제상으로 유임시켜 간판 지출 계획에 변화가 없다는 신호를 줬다.",
+      "why_it_matters": "연준이 긴축으로 돌아선 주에 일본은 확장 재정을 유지한다. 주요국 정책이 같은 방향으로 움직이지 않는다는 점이 드러났다.",
+      "confidence": 0.78,
+      "original_title": "Japan PM retains economy minister in cabinet reshuffle, signals no change in spending plans",
+      "implications": "엔화와 일본 국채 금리, 엔 캐리 자금의 방향 / 지출 규모가 실제 예산안으로 확정되는지, 일본은행이 이 조합에 어떻게 반응하는지 지켜볼 것.",
+      "tags": [
+        "일본",
+        "재정정책",
+        "엔화"
+      ]
+    },
+    {
+      "title": "SEC, 토큰화된 미국 주식 거래에 문을 열었다 — 누가 이득을 보나 (원문: SEC opens door to tokenized U.S. stock trading. Here’s who could benefit)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit",
+      "one_liner": "SEC가 5년짜리 실험으로 토큰화 미국 주식 거래의 미국 내 경로를 열었고, 합성 주식 토큰은 그 틀 밖에 남겼다.",
+      "why_it_matters": "입법이 막힌 자리를 규제기관이 메운다던 어제의 예고가 실제 조치로 나왔다. 무엇이 틀 안이고 밖인지 선이 그어졌다는 점이 핵심이다.",
+      "confidence": 0.75,
+      "original_title": "SEC opens door to tokenized U.S. stock trading. Here’s who could benefit",
+      "implications": "DeFi형 거래 플랫폼·토큰화 업체·유동성 공급자가 미국 경로를 얻고, 합성 주식 토큰 사업자는 제외 / 5년 실험의 조건과 어느 사업자가 먼저 들어오는지 지켜볼 것.",
+      "tags": [
+        "SEC",
+        "토큰화",
+        "규제",
+        "크립토"
+      ]
+    },
+    {
+      "title": "클래리티법을 살릴 길이 아직 남아 있나 (원문: Is there any chance left to save the CLARITY Act?)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/magazine/is-there-any-chance-left-to-save-the-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "상원 핵심 표결에서 밀린 뒤에도 법안이 죽지는 않았지만, 시간이 부족하고 민주당이 여전히 수정을 요구해 길이 좁아지고 있다.",
+      "why_it_matters": "어제 클로처 표결이 막힌 뒤의 후속이다. 업계가 기다려온 시장구조 입법이 이번 회기에 나올 확률이 낮아졌다는 신호다.",
+      "confidence": 0.75,
+      "original_title": "Is there any chance left to save the CLARITY Act?",
+      "implications": "미국 내 거래소·토큰 발행자의 규제 지위가 계속 공백에 남는다 / 민주당이 요구하는 수정 항목이 공개되는지, 남은 회기 일정에 법안이 다시 잡히는지 지켜볼 것.",
+      "tags": [
+        "클래리티법",
+        "규제",
+        "크립토",
+        "미국의회"
+      ]
+    },
+    {
+      "title": "비트코인, 연준 인상 뒤 미 주식 반등 속 7만6,500달러선 횡보 (원문: Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-coils-near-765k-as-us-stocks-rebound-from-fed-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인이 소폭 상승하며 7만6,500달러 부근에 머물렀고, 미 주식은 연준 인상 여파에서 반등했다.",
+      "why_it_matters": "어제 4% 밀려 7만5,900달러선까지 갔던 가격이 하루 만에 진정됐다. 인상 자체보다 다음 수가 변수로 남았다는 뜻이다.",
+      "confidence": 0.78,
+      "original_title": "Bitcoin coils near $76.5K as US stocks rebound from Fed rate hike",
+      "implications": "크립토 보유자와 레버리지 포지션에 직접 영향 / 7만6천 달러선 방어와 미 주식과의 동행이 이어지는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "연준",
+        "시장"
+      ]
+    },
+    {
+      "title": "美 '이란 자금책' 암호화폐 거래소 제재…\"호르무즈 통항료 처리\"",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBUUM3Qk03azczVVVkWmdKUUE3NUlZZGVTS2dIYXRjYU13d0RISTdTMHZNbjhreXJhZHVMdzNrUWRrVm5JaFVHUmN5RTRLVDlXZXNLanRQOXfSAV5BVV95cUxNVDhtZnRiLTNleUVxNEFyOTFfcGpoYTJPbk5mN0p4UXMzZ20xUEIzdVdQLTd2OVVnbGcyV0dYSVp6RUdzV05VUDZsVmo5V04taWJITjR6Uy0yMnBpeEFn?oc=5",
+      "one_liner": "미국이 이란의 자금책 역할을 한 암호화폐 거래소 빗뱅크를 제재했고, 호르무즈 통항료를 처리했다는 혐의가 붙었다.",
+      "why_it_matters": "크립토 제재가 에너지 수송로 문제와 직접 맞물린 사례다. 호르무즈가 금융 인프라 쪽에서도 눌리기 시작했다.",
+      "confidence": 0.7,
+      "original_title": "美 '이란 자금책' 암호화폐 거래소 제재…\"호르무즈 통항료 처리\" - 뉴스1",
+      "implications": "이란 연계 자금을 취급하는 거래소·OTC 데스크의 컴플라이언스 부담 / 제재 대상 지갑 주소 공개와 추가 지정이 이어지는지 지켜볼 것.",
+      "tags": [
+        "제재",
+        "크립토",
+        "이란",
+        "호르무즈"
+      ]
+    },
+    {
+      "title": "찰스 국왕, AI 안전 정상회의에 오픈AI·앤스로픽·엔비디아·구글 소집 (원문: King Charles Convenes OpenAI, Anthropic, Nvidia and Google for AI Safety Summit)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378504/king-charles-openai-anthropic-nvidia-google-deepmind-ai-safety",
+      "one_liner": "찰스 국왕이 스코틀랜드 사저에 AI 기업 고위 임원들을 불러 기술을 \"인류에 봉사하도록\" 유지하는 문제를 논의했다.",
+      "why_it_matters": "업계 지도자들이 스스로 속도 조절을 요구한 직후다. AI 거버넌스 논의가 규제기관 밖 무대에서도 열리고 있다.",
+      "confidence": 0.7,
+      "original_title": "King Charles Convenes OpenAI, Anthropic, Nvidia and Google for AI Safety Summit",
+      "implications": "AI 인프라·반도체 수요에 붙는 정책 리스크 / 이 회동에서 구속력 있는 약속이 나오는지, 각국 규제 논의로 이어지는지 지켜볼 것.",
+      "tags": [
+        "AI",
+        "거버넌스",
+        "규제"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
