@@ -1,0 +1,251 @@
+{
+  "schema": 1,
+  "date": "2026-09-19",
+  "slot": "am",
+  "generated_at": "2026-09-19T03:42:19.955578+09:00",
+  "top_insight": [
+    "어제 한국으로 넘어왔다던 연준 인상의 청구서가 오늘 시장에서는 되감겼다. 엔비디아가 2.5% 오르며 기술주를 끌어올렸고 나스닥은 8월 4일 이후 최대 하루 상승폭을 냈다. 인상이라는 사실은 그대로인데 가격만 돌아온 셈이라, 금리 경로와 주가가 다시 벌어지는 국면이다.",
+    "크립토는 규제와 가격이 하루 안에 같은 방향으로 움직였다. CFTC가 자체 규칙안을 백악관에 넘기고 SEC가 토큰화 주식에 유예를 두는 사이 비트코인은 8만1,000달러를 넘었고, 클래리티법 매도세에 밀렸던 코인베이스·스트래티지도 되사졌다. 어제 짚은 '입법이 막히면 규제기관이 대신한다'가 이제 가격에 반영되기 시작했다.",
+    "유가 신호는 하루 안에 뒤집혔다. 12시간 전 인도 증시를 밀어올린 재료는 '유가 진정'이었는데, 몇 시간 뒤 아람코는 송유관 피격 여파로 유럽향 10월 공급을 끊었다. 추산이던 피해가 계약 단위 조치로 넘어간 첫 사례다."
+  ],
+  "whats_changed": [
+    "비트코인: 어제 7만6,500달러 부근 횡보였는데 오늘 8만1,000달러를 넘었다. 다만 12시간 전 집계는 7만6,400달러 기준이라 같은 브리핑 안에 두 숫자가 공존한다.",
+    "송유관: 어제는 '한 달 중단이면 1억 배럴 차질'이라는 추산이었는데, 오늘은 아람코가 유럽향 10월 원유 공급을 실제로 중단했다 — 추산이 실물 조치로 바뀌었다.",
+    "규제: 어제 SEC가 토큰화 미국 주식에 5년 실험 경로를 열었고, 오늘은 CFTC가 자체 암호화폐 규칙안을 백악관에 제출했다. 두 기관이 순차로 움직였다.",
+    "미 증시: 어제 '인상 여파에서 반등'이던 것이 오늘은 나스닥 8월 4일 이후 최대 상승으로 폭을 키웠다."
+  ],
+  "themes": [
+    "규제기관이 순서대로 움직인다 — SEC 토큰화 유예 다음은 CFTC 규칙안, 그 사이 비트코인은 8만1,000달러",
+    "인상은 남고 가격은 되돌았다 — 엔비디아 2.5%, 나스닥은 8월 4일 이후 최대 상승",
+    "유가 신호가 하루 안에 뒤집혔다 — 인도 증시의 '유가 진정' vs 아람코의 유럽 10월 공급 중단"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "국민의힘·이준석 '수도권 주거 포럼' 창립총회(9월 30일)",
+    "CFTC 암호화폐 규정안 백악관 검토 결과 발표",
+    "미 중간선거 — 민주당 '오늘 선거하면 다수당' vs 공화 '최대 225석' 전망 대치"
+  ],
+  "items": [
+    {
+      "title": "사우디 송유관 피격 여파…아람코, 유럽에 10월 원유 공급 중단",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PU0s3cmRmUGtEbWV1S1NLc3ktOXYzeUdqeUR2SDFwZlhwZHNpcGxCM0oyeV9XU2s2NWdPV2ZjQzhpS0xBQ2VmSmNydDhWaG05cGdoYWczNjZlaVk5THp4amhCSWlUVDJCRWhOMzl0cnQ0eHfSAWZBVV95cUxPUGNSWUlaWnhzTFcyRnBIb1lwYXp5cHVZd0x5RmlfV3hOcUpWUWltemlvblJxaVl2OWZpSDh4NC1mTWx1cEx0c01IWm93MVFBTTFFUTNNTGtSSWhjOFI3UC10RzJyemc?oc=5",
+      "one_liner": "아람코가 송유관 피격 여파로 유럽향 10월 원유 공급을 중단했다.",
+      "why_it_matters": "어제까지는 '한 달 중단이면 1억 배럴 차질'이라는 추산이었는데, 오늘은 특정 지역 공급을 실제로 끊는 조치로 넘어갔다. 피해 규모가 추정이 아니라 계약 단위로 드러나기 시작했다.",
+      "confidence": 0.6,
+      "original_title": "사우디 송유관 피격 여파…아람코, 유럽에 10월 원유 공급 중단 - 동아일보",
+      "implications": "유럽 정유사와 대체 산유국 물량이 먼저 영향을 받는다. 10월 선적 계약 재배분과 유럽 정제마진, 그리고 공급 중단이 11월까지 연장되는지를 지켜볼 것.",
+      "tags": [
+        "원유",
+        "사우디",
+        "아람코",
+        "공급망"
+      ]
+    },
+    {
+      "title": "연임·공소취소 선 그은 이 대통령…김승원 임명은 \"결론 못 내려\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EYkVCcmNaN204M3kyWkprVXV0Z0JMT2kxNEdMQTNLcUNaODFOd19jRkkxMjVwNXJLNmtXUnFNa1pHODFPSVNwcURrNXlrTUJBLVg5WEFHSnFVQnNSQXZKWXdDaDF3UkxtbGIw?oc=5",
+      "one_liner": "이재명 대통령이 기자회견에서 연임과 공소취소에 선을 그었고, 김승원 임명에 대해서는 결론을 내리지 못했다고 밝혔다.",
+      "why_it_matters": "대통령이 직접 연임과 공소취소를 부정한 회견이다. VOA 보도에 따르면 같은 자리에서 '전쟁 개입 파병 없다'는 언급도 나왔다.",
+      "confidence": 0.6,
+      "original_title": "연임·공소취소 선 그은 이 대통령…김승원 임명은 “결론 못 내려” - 한겨레",
+      "implications": "여권 내부 반응이 갈리고 있다. 조국 대표가 '김민석부터 분열적 태도 버려야'라고 받은 대목처럼, 회견 이후 여권 결속이 어느 쪽으로 정리되는지를 지켜볼 것.",
+      "tags": [
+        "이재명",
+        "국내정치",
+        "기자회견"
+      ]
+    },
+    {
+      "title": "이 대통령 \"평화를 향한 우리 국민의 바람, 그 바람 다시 일으키겠다\"",
+      "source": "대한민국 정책브리핑",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15NGg0dmdLWWp1T2FSTjZsZ0VWN3JiN1dLTUUzV2JJQVFkaDRZR0VlZGdfNFhMZjVRNmlmX20yWG51SnpyLUJWZWduY0k4MU1uSFotaUpkeURrTzMzYVVCcXMtSjJ2anN6MlBleQ?oc=5",
+      "one_liner": "이재명 대통령이 평화 메시지를 내며 북미관계 진전에 한국의 역할이 있다고 밝혔고, 문재인 전 대통령은 김정은의 화답을 촉구했다.",
+      "why_it_matters": "'북미 대화 사전 조정작업을 계속하고 있다'는 언급이 함께 나왔다. 대통령이 '패싱 우려는 안 해도 된다'고 직접 선을 그은 점이 어제 IAEA 결의 국면과 이어진다.",
+      "confidence": 0.6,
+      "original_title": "이 대통령 \"평화를 향한 우리 국민의 바람, 그 바람 다시 일으키겠다\" - 대한민국 정책브리핑",
+      "implications": "한반도 지정학 리스크 프리미엄에 영향을 준다. 사전 조정작업이 실제 대화 일정으로 이어지는지, 북한이 어떤 반응을 내는지를 지켜볼 것.",
+      "tags": [
+        "남북관계",
+        "북미대화",
+        "지정학"
+      ]
+    },
+    {
+      "title": "이준석, 조정훈·유의동·권영세 등과 정책모임 만든다",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SRUdGbjd5TTdhV2RKTFYzTVRGMEFqSkdlSjZwaFd5WjB0UmN0SEVFX2MyMHhwb2p5b2ktcDh3dktJT1lLVlhKTUJFNTJ5WWxtM2x2eW00Rm1PTHBheVotSFptOVo3WkJBNUxwNTlob2pGc25qMzQ00gFmQVVfeXFMT1hqakVJQ2RIQkFnQXlxaUJnSi1hd2JVZGowMnd2VTZWSjdGSlhEdXNvR3BhS0l4WmFYYmZMWVdwNDdNYVBSRktQV3dWWmROYWM0amF5LXdwUkkzNmNQUkhXYmxNa2NB?oc=5",
+      "one_liner": "이준석 의원이 국민의힘 의원들과 '수도권 주거 포럼'을 만들고 30일 창립총회를 연다.",
+      "why_it_matters": "부동산을 고리로 한 야권 연대의 첫 조직 형태다. 정책모임이라는 형식을 빌렸지만 참여 명단이 국민의힘 중진들이다.",
+      "confidence": 0.6,
+      "original_title": "이준석, 조정훈·유의동·권영세 등과 정책모임 만든다 - 동아일보",
+      "implications": "수도권 부동산 정책이 야권 공동 의제로 올라온다. 30일 창립총회에서 어떤 정책 방향이 제시되는지, 연대가 조직을 넘어 확장되는지를 지켜볼 것.",
+      "tags": [
+        "국내정치",
+        "부동산",
+        "이준석"
+      ]
+    },
+    {
+      "title": "美 민주당, 중간선거 승리 자신감…\"오늘 선거하면 다수당\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3d2wwOGowb3hHeXZIUDU2UkRlZ2lXeWFnQ3laOTB3RlIwaEhJWWtuUEZLTWhKVi1QUHpNQmFSbTRManVDLXlaVU14TXcteHVhekhsYThxVERPaGlwaV9zVkp3T0tlNHc?oc=5",
+      "one_liner": "미 민주당이 중간선거 승리를 자신하는 가운데 공화당은 '최대 225석 하원 다수당'을 주장하며 맞섰다.",
+      "why_it_matters": "양당 전망이 정면으로 엇갈린다. 민주당은 선거에서 이기면 트럼프 일가 수사를 예고했고, 공화당은 '블루웨이브 징후는 없다'고 반박했다.",
+      "confidence": 0.6,
+      "original_title": "美 민주당, 중간선거 승리 자신감…\"오늘 선거하면 다수당\" - 연합뉴스TV",
+      "implications": "관세가 변수로 지목된다. 미 국민 4분의 3이 '트럼프 관세가 물가를 올려 중간선거에 큰 영향을 줄 것'이라 답했다는 조사가 나왔다 — 관세 정책의 정치적 비용을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "중간선거",
+        "관세"
+      ]
+    },
+    {
+      "title": "중수청에 마약수사 전담조직 신설…마약범죄 수사 협업체계 강화",
+      "source": "대한민국 정책브리핑",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05TlRLM2RLRVdudlNkRnVKbUVzTlJkYXB0ZG1PTnc2Tk1FLWRMLTc0RWQ1ZnpqQmNRZ2RZNzUta2k3eF9yTV9WT0swMUp6aXVLU2FlajNDSm81VDd3WlBVLXZNX1lWMndwdUQ0ZA?oc=5",
+      "one_liner": "중대범죄수사청에 마약합동수사과가 신설되고 경찰·관세청과의 공조가 강화된다.",
+      "why_it_matters": "국무조정실장 주재 제3차 마약류대책협의회에서 나온 결정이다. 공소청에는 전담검사가 배치된다.",
+      "confidence": 0.6,
+      "original_title": "중수청에 마약수사 전담조직 신설…마약범죄 수사 협업체계 강화 - 대한민국 정책브리핑",
+      "implications": "중수청 개청에 맞춘 수사권 재배치의 실제 모습이 드러나는 사례다. 개청 이후 경찰·관세청과의 공조가 어떤 형태로 작동하는지를 지켜볼 것.",
+      "tags": [
+        "국내정책",
+        "중수청",
+        "수사권"
+      ]
+    },
+    {
+      "title": "엔비디아 2.5% 상승…AI주가 이끈 월가, 연준발 매도세 딛고 반등 (원문: Nvidia Stock Jumps as AI Shares Lead Wall Street Rebound After Fed-Fuelled Selloff)",
+      "source": "ibtimes",
+      "url": "https://www.ibtimes.co.uk/nvidia-leads-wall-street-rebound-nasdaq-strongest-gain-1820530",
+      "one_liner": "엔비디아가 2.5% 오르며 기술주 전반의 반등을 이끌었고, 나스닥은 8월 4일 이후 최대 하루 상승폭을 냈다.",
+      "why_it_matters": "연준 인상 자체는 되돌려지지 않았는데 가격은 하루 만에 되감겼다. 기사도 금리 우려가 계속된다는 점을 함께 적고 있어, 인상이라는 사실과 주가의 방향이 다시 벌어지는 국면이다.",
+      "confidence": 0.75,
+      "original_title": "Nvidia Stock Jumps as AI Shares Lead Wall Street Rebound After Fed-Fuelled Selloff",
+      "implications": "AI 대형주가 지수를 홀로 끌어올리는 구조가 이어지는지, 반등 폭이 금리 우려를 실제로 덮는지를 지켜볼 것.",
+      "tags": [
+        "엔비디아",
+        "나스닥",
+        "AI",
+        "연준"
+      ]
+    },
+    {
+      "title": "기업 재무 비트코인 매수 급감…평균 매입가 8만500달러로 평가손 (원문: Corporate Treasuries Slow Bitcoin Buying, Leave Holdings Worthless)",
+      "source": "headtopics",
+      "url": "https://us.headtopics.com/news/corporate-treasuries-slow-bitcoin-buying-leave-holdings-87870669",
+      "one_liner": "상장사들이 최근 3개월 동안 5,900 BTC만 추가 매수했고, 평균 매입가 8만500달러 대비 보유분이 평가손 상태다.",
+      "why_it_matters": "가격이 오른 날에도 기관 수요의 뒷면은 약해져 있다는 기록이다. 이 집계 기준가는 7만6,400달러라 오늘 8만1,000달러 돌파 소식과 시점이 어긋난다 — 같은 브리핑 안에 두 숫자가 공존한다.",
+      "confidence": 0.5,
+      "original_title": "Corporate Treasuries Slow Bitcoin Buying, Leave Holdings Worthless",
+      "implications": "상장사 재무의 추가 매수 속도와 평균 매입가 8만500달러 선을 지켜볼 것. 가격이 그 위로 자리 잡으면 평가손 서사 자체가 사라진다.",
+      "tags": [
+        "비트코인",
+        "기업재무",
+        "기관수요"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "무디스, 인도 FY27 성장률 전망 6%→7% 상향 (원문: India Economy Update: Moody’s Lifts FY27 Growth Outlook to 7% Amid Global Uncertainty)",
+      "source": "abplive",
+      "url": "https://news.abplive.com/videos/news/india-india-economy-update-moody-s-lifts-fy27-growth-outlook-to-7-amid-global-uncertainty-1867224",
+      "one_liner": "무디스가 인도의 2026-27 회계연도 GDP 성장률 전망을 6%에서 7%로 올렸다.",
+      "why_it_matters": "대외 불확실성이 큰 국면에서 나온 상향이다. 1분기 실질 GDP가 7.8% 성장한 기록이 근거로 제시됐다.",
+      "confidence": 0.75,
+      "original_title": "India Economy Update: Moody’s Lifts FY27 Growth Outlook to 7% Amid Global Uncertainty",
+      "implications": "인도 비중을 둔 신흥국 자금과 루피·인도 국채 금리를 지켜볼 것. 다른 신용평가사가 같은 방향으로 따라오는지가 확인 지점이다.",
+      "tags": [
+        "인도",
+        "무디스",
+        "성장률",
+        "신흥국"
+      ]
+    },
+    {
+      "title": "센섹스, 유가 진정에 상승…IT·타타 약세가 상단 제한 (원문: Sensex Today (September 18): BSE Sensex Rises as Oil Prices Ease, But IT and Tata Stocks Limit Gains-What Should Investors Watch)",
+      "source": "thesundayguardian",
+      "url": "https://sundayguardianlive.com/business/sensex-today-september-18-bse-sensex-rises-as-oil-prices-ease-but-it-and-tata-stocks-limit-gains-287388/",
+      "one_liner": "인도 증시가 유가 하락과 저가 매수에 힘입어 올랐지만, IT주와 타타그룹 약세가 상승폭을 제한했다.",
+      "why_it_matters": "같은 브리핑 안에서 유가 신호가 엇갈린다. 12시간 전 인도 증시를 밀어올린 재료는 '유가 진정'이었는데, 몇 시간 뒤 아람코는 유럽향 10월 공급을 끊었다.",
+      "confidence": 0.7,
+      "original_title": "Sensex Today (September 18): BSE Sensex Rises as Oil Prices Ease, But IT and Tata Stocks Limit Gains-What Should Investors Watch",
+      "implications": "어느 쪽 신호가 유지되는지가 관건이다. 다음 거래일 인도 증시가 유가를 어떻게 다시 반영하는지, IPO 물량이 계속 수급을 빨아들이는지를 지켜볼 것.",
+      "tags": [
+        "인도",
+        "센섹스",
+        "유가"
+      ]
+    },
+    {
+      "title": "비트코인 8만1000달러 돌파…CFTC 규정안 백악관 검토",
+      "source": "토큰포스트",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNGNzeTlaeU1WZzhINVJsV3V1U1pvbWp6cFBjTWtZeGphSTF6OVoxVVljVHhiNUEtRndlZXIzWWlFNlI3eVNyS2lFSldlZUlUVDJLNFhGSmo?oc=5",
+      "one_liner": "비트코인이 8만1,000달러를 넘었고, CFTC의 암호화폐 규정안은 백악관 검토 단계에 들어갔다.",
+      "why_it_matters": "어제 7만6,500달러 부근에서 횡보하던 가격이 하루 만에 8만1,000달러대로 올라섰다. 같은 날 규제 쪽에서도 CFTC 규정안이 백악관으로 넘어갔다 — 입법이 막힌 자리를 규제기관이 메우는 흐름이 가격과 같은 방향으로 움직였다.",
+      "confidence": 0.6,
+      "original_title": "비트코인 8만1000달러 돌파…CFTC 규정안 백악관 검토 - 토큰포스트",
+      "implications": "백악관 검토를 거치는 규정안의 범위가 거래소·파생상품 업계의 다음 규제 지형을 정한다. 검토 결과 발표 시점과 규정안이 현물·파생 중 어디를 다루는지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "CFTC",
+        "규제",
+        "크립토"
+      ]
+    },
+    {
+      "title": "의회 규제법안 지연 속 CFTC, 자체 암호화폐 규칙 백악관 제출…SEC는 토큰화 주식에 유예",
+      "source": "데일리비즈온",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uTE5jcjBSYnVEMDRXbFRwVXYwNHlSdjc3V254TnNfZzFUSVVrR29jYS13MDFnYVR3T04zdWx3S2xiRG9CQURueC1aVGdQYTV1ZllaNGlaODlpVzk1X2F5RXk1ZDRjZlVMVVBFSw?oc=5",
+      "one_liner": "의회 입법이 지연되는 사이 CFTC는 자체 규칙을 백악관에 제출했고, SEC는 토큰화 주식에 유예를 뒀다.",
+      "why_it_matters": "어제 관측한 '입법이 막히면 규제기관이 대신한다'는 구도가 이틀 연속 실물로 나왔다. SEC의 토큰화 주식 유예에 이어 CFTC의 자체 규칙까지, 두 기관이 순차로 움직였다.",
+      "confidence": 0.6,
+      "original_title": "[D-BIZ 암호화폐 뉴스] 의회 규제법안 지연 속 CFTC, 자체 암호화폐 규칙 백악관 제출…SEC는 토큰화 주식에 유예 - 데일리비즈온",
+      "implications": "업계의 협상 상대가 의회에서 두 규제기관으로 옮겨 앉았다. 두 기관의 관할 경계가 어디에서 겹치고 어디에서 갈리는지를 지켜볼 것.",
+      "tags": [
+        "CFTC",
+        "SEC",
+        "토큰화",
+        "규제"
+      ]
+    },
+    {
+      "title": "클래리티법 매도세 딛고 크립토 관련주 반등 (원문: Crypto stocks rebound after CLARITY Act selloff)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/crypto-stocks-rebound-after-clarity-selloff-as-us-regulators-move-ahead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "CFTC와 SEC가 기존 권한으로 움직이자 코인베이스·스트래티지 등 크립토 관련주가 금요일 반등했다.",
+      "why_it_matters": "법안 지연에 팔렸던 주식이 규제기관의 행동에 되사졌다. 시장이 '입법 없이도 길이 열린다'를 가격으로 인정한 첫 신호다.",
+      "confidence": 0.75,
+      "original_title": "Crypto stocks rebound after CLARITY Act selloff",
+      "implications": "코인베이스·스트래티지 등 규제 민감 종목이 다음 규제 발표에도 같은 방향으로 반응하는지, 반등이 하루짜리인지를 지켜볼 것.",
+      "tags": [
+        "코인베이스",
+        "크립토주",
+        "CFTC",
+        "SEC"
+      ]
+    },
+    {
+      "title": "글래스노드 \"비트코인, 8만3000~8만6000달러 숏 청산 밀집 구간 진입\"",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5USTdYRXJLYlpRRXBUSlJLR3gwMDktNjdZb1d1SVN4TGpEdzM0aGJSNzVqb0RMSnNSclRnbG9xczJfNFRWUnJZWXhIanJSSXRz?oc=5",
+      "one_liner": "글래스노드가 비트코인의 8만3,000~8만6,000달러 구간을 숏 청산이 몰린 자리로 지목했다.",
+      "why_it_matters": "오늘 돌파한 8만1,000달러 바로 위에 청산 물량이 쌓인 구간이 있다는 뜻이다. 다음 가격 움직임이 수급만으로도 증폭될 수 있는 자리를 짚었다.",
+      "confidence": 0.55,
+      "original_title": "글래스노드 \"비트코인(BTC), 8만3000~8만6000달러 숏 청산 밀집 구간 진입\" - 블루밍비트",
+      "implications": "8만3,000달러 접근 시 거래량과 미결제약정 변화를 지켜볼 것. 청산이 실제로 터지는지 아니면 그 아래에서 멈추는지가 갈림길이다.",
+      "tags": [
+        "비트코인",
+        "글래스노드",
+        "파생"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
