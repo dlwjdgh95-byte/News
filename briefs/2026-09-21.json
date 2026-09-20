@@ -1,0 +1,251 @@
+{
+  "schema": 1,
+  "date": "2026-09-21",
+  "slot": "am",
+  "generated_at": "2026-09-21T03:41:27.004975+09:00",
+  "top_insight": [
+    "입법이 막힌 자리를 누가 메우는지가 이틀째 같은 질문이다. 어제는 SEC·CFTC였고 오늘은 비자다 — 클래리티법에서 스테이블코인 규제 강화를 놓친 은행권 대신 JP모건이 챙긴 것이 '밈코인 결제를 디지털 미디어로 코딩하지 못하게 한다'는 카드 네트워크의 사적 규칙이었다. 공적 규칙이 멈추면 사적 규칙이 움직이고, 둘 다 법보다 빨리 바뀐다.",
+    "크립토 헤드라인과 숫자가 같은 날 서로 다른 방향을 가리킨다. '8만 달러 회복'과 'ETF 4억3300만 달러 유입'이 올라온 자리에 자정 시세는 80,811달러이고 시장은 약세로 집계됐다. 어제 자정 8만1570달러에서 내려온 값이다 — 8만 달러는 지금 돌파선이라기보다 왕복 구간에 가깝다.",
+    "AI 자금과 전력이 한 줄로 엮인다. 오픈AI는 2030년까지 2780억 달러를 태우고 3월에 모은 1220억 달러가 2028년에 바닥난다고 자체 추정했는데, 같은 날 2030년 데이터센터 전력 수요 950TWh 전망과 비트코인 채굴업체의 AI 전환 가능성, 그리고 채굴사 테라울프의 강력매수 상향이 함께 올라왔다. 채굴장이 파는 것이 해시가 아니라 이미 확보된 전력이라면 두 뉴스는 같은 거래의 양쪽이다."
+  ],
+  "whats_changed": [
+    "비트코인: 어제 자정 8만1570달러·'8만1000달러 회복'이었는데, 오늘 자정은 80,811달러이고 시장은 약세로 집계됐다. 이더리움은 2,588달러.",
+    "클래리티법 후속: 어제는 부결 뒤 SEC·CFTC가 운전대를 잡았다는 이야기였고, 오늘은 그 부결에서 은행권이 놓친 것을 비자의 가맹점 코드 변경이 부분적으로 메우는 쪽으로 옮겨갔다.",
+    "이란: 어제 이란이 중재국을 통해 종전 조건을 넘기고 트럼프의 답을 기다린다는 단계였는데, 오늘 트럼프가 '대응 결정 중'이며 이란 대통령과 만나는 데 열려 있다고 답했다.",
+    "ETF: 어제는 'FBTC 한 곳이 하루 순유입의 72%'라는 쏠림 지표였고, 오늘은 총 유입액 4억3300만 달러라는 총량이 나왔다 — 분산도는 아직 붙지 않았다."
+  ],
+  "themes": [
+    "법이 멈춘 자리를 규제기관 다음으로 결제 네트워크가 메운다 — 비자의 밈코인 리워드 차단",
+    "AI의 실탄과 전력이 같은 줄에 선다 — 오픈AI 2780억 달러 소진 전망과 데이터센터 950TWh, 채굴업체의 AI 전환",
+    "한국은 제도 전환기에 수장이 비어 있다 — 중수청 개청 2주 앞 법무장관·공소청·경찰청장 공석"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "중수청·공소청 개청 (약 2주 뒤 — 수장 인선 미정)",
+    "잠수함 서희함 진수 (시점 미공개)"
+  ],
+  "items": [
+    {
+      "title": "트럼프 \"대이란 대응 결정중…이란 대통령 만나는 데 열려있다\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93SG5fdFl1WHp3ZlAyRzFGNFVlYjhJMllLR0pPM3lUZVhLY0FzY2dGSXluZmFHYWRnMFpDRk1NaElGaU94Nmk3cnNRNjhHTHZYcXQ5RkJkYnMwOGPSAWBBVV95cUxQeFh5U2UycW9NT2JranJLQWs3RllGMTFJaWNYVV9mUnlkTGU3RDFWVmJzYU9pR1RPWU4wTkVuRUpfdFFFTFlOdkhRWEV5QkhIZV9jM3Y0WHdHOGxoblZnSUc?oc=5",
+      "one_liner": "트럼프가 대이란 대응을 아직 결정하지 않았다고 하면서, 이란 대통령과의 만남에는 열려 있다고 밝혔다.",
+      "why_it_matters": "어제 이란이 중재국을 통해 종전 조건을 넘긴 뒤 나온 첫 반응이다. 압박과 대화가 동시에 테이블에 있다는 신호다.",
+      "confidence": 0.6,
+      "original_title": "트럼프 \"대이란 대응 결정중…이란 대통령 만나는데 열려있다\" - 연합뉴스",
+      "implications": "중동 리스크에 걸린 유가·방산·항공 포지션은 '결정 전' 구간이 길어질 수 있다 — 정상 접촉 여부가 다음 분기점이다.",
+      "tags": [
+        "이란",
+        "트럼프",
+        "중동",
+        "지정학"
+      ]
+    },
+    {
+      "title": "트럼프, 비판 보도한 매체 백악관 출입 금지…CNN도 출입증 박탈",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWTdWWTcyX0t3RG1OQWNnWUFKSDQ3dlNkcW5RQjVYc1lYSV9sRUxTMGJLRmRuR2pmWjVxdEkwcDFtcVBxUzk1N2FBRW9ETHZIRWtkRks1NTV0eUJYVjNwanhaUEJvWXlwdV91T2l0QTVGNU9HQ1ZjMjd5Y1NLUUtMek9HUERGTFYwRHRjR0N4blJXUjl5Z0RneHNmdVpkQQ?oc=5",
+      "one_liner": "트럼프가 필요할 때는 집무실로 불러 인터뷰하고 비판하면 '가짜뉴스'로 규정하는 한편, CNN·MS나우·폴리티코 기자의 백악관 출입을 막았다.",
+      "why_it_matters": "정보가 나오는 창구 자체가 좁아지는 일이다. 행정부 발 뉴스의 검증 경로가 줄어든다는 뜻이기도 하다.",
+      "confidence": 0.7,
+      "original_title": "트럼프, 언론 필요땐 집무실 불러 인터뷰… 비판하면 \"가짜뉴스\"… 백악관 출입 금지 - 조선일보",
+      "implications": "워싱턴발 정책 뉴스를 읽을 때 소스 다양성이 떨어진 상태임을 감안해야 한다.",
+      "tags": [
+        "트럼프",
+        "언론",
+        "백악관"
+      ]
+    },
+    {
+      "title": "[사설] 새 형사체계 코앞인데 법무장관·중수청·공소청·경찰청장 공석",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbnIyZDVwSkZBZHQzcF9nZF9yeDNRakoxcjlZZm9rYUYwWF9JOE1rYkU1UUczMHlKRjRHOEhIb3QyS1Q1WEZ0Vm9rN21yeW9LVE1NcnRIV1V0NHBjOU1mUlkzY3lfUkV3cHFCamJCMEMwZ2tQVTcydlZKaGlBTnZWbjlObnlOZw?oc=5",
+      "one_liner": "중수청 개청을 2주 앞두고 법무장관·중수청장·공소청장·경찰청장 자리가 모두 비어 있다.",
+      "why_it_matters": "새 형사사법체계가 수장 없이 출범할 수 있는 상황이다. 인선 지연의 배경으로 '김지용 카드'를 둘러싼 고심이 함께 보도됐다.",
+      "confidence": 0.65,
+      "original_title": "[사설] 새 형사체계 코앞인데 법무장관·중수청·공소청·경찰청장 공석 - 조선일보",
+      "implications": "수사·기소 체계 전환기의 불확실성은 기업 수사 일정에도 걸린다 — 개청 시점과 인선 발표를 함께 볼 것.",
+      "tags": [
+        "중수청",
+        "공소청",
+        "형사사법",
+        "인선"
+      ]
+    },
+    {
+      "title": "3천600톤급 잠수함 '서희함' 첫 공개…\"디젤 잠수함 중 세계 최장 잠항력\"",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54MVBEQnpzVlBVUDh4OFhoSDZJb2xYaDZKNGVVa0hobU9uVkhjb25qdWFLc2pWYmowc1puRjFvSjBoR1JiblhIMjBHNk9FYll1RDV2czZ1anRSWTh6d090RkltY0xPMThxdjU3WF9uYw?oc=5",
+      "one_liner": "진수를 앞둔 3천600톤급 서희함이 처음 공개됐다. SLBM 발사 능력이 강화됐고 잠항·탐지 성능이 개선됐다고 소개됐다.",
+      "why_it_matters": "거제 조선소가 K-방산 전진기지로 묶여 보도되는 흐름 속에 나온 공개다.",
+      "confidence": 0.65,
+      "original_title": "3천6백톤급 '서희함' 첫 공개...\"디젤 잠수함 중 세계 최장 잠항력\" - YTN",
+      "implications": "방산·특수선 수주 사이클을 보는 쪽은 진수 일정과 후속함 발주를 이어 볼 대목.",
+      "tags": [
+        "방산",
+        "잠수함",
+        "한화오션"
+      ]
+    },
+    {
+      "title": "\"지구 불태우는 '메가 폭주' 멈춰라\"…3대 메가 프로젝트 반대 확산",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hWWx1VkE5c0pyNnhxbHRxU252Vi12Sy1KbFdsTEFwcC1xamVlOThVUkl6YTdPUjVSY2VGLTRRaEZ4cU1OTEFPb0x4VG8yZlJjS0dQTzJaYVp2RjRmZ01rVEdqbXMxRWpTTnE0Vk1pUllpUQ?oc=5",
+      "one_liner": "9·19 기후정의행진을 계기로 3대 메가 프로젝트에 대한 반대가 확산됐고, 광화문 앞에서 시민들이 드러눕는 퍼포먼스가 벌어졌다.",
+      "why_it_matters": "대형 개발·인프라 사업이 환경 반대와 정면으로 붙는 국면이라는 신호다.",
+      "confidence": 0.6,
+      "original_title": "“지구 불태우는 ‘메가 폭주’ 멈춰라”…3대 메가 프로젝트 반대 확산 - 한겨레",
+      "implications": "건설·에너지 대형 프로젝트의 인허가 일정에 사회적 비용이 붙을 수 있다.",
+      "tags": [
+        "기후",
+        "메가프로젝트",
+        "시민사회"
+      ]
+    },
+    {
+      "title": "오픈AI, 2030년까지 2780억 달러 현금 소진 전망…기록적 조달분도 2028년 바닥 (원문: OpenAI Projects $278B Cash Burn: Record Round Runs Dry Before Revenue Catches Up) (원문: OpenAI Projects $278B Cash Burn: Record Round Runs Dry Before Revenue Catches Up)",
+      "source": "techtimes",
+      "url": "https://www.techtimes.com/articles/327752/20260920/openai-projects-278b-cash-burn-record-round-runs-dry-before-revenue-catches.htm",
+      "one_liner": "7월 내부 문서 기준 오픈AI는 2030년까지 2780억 달러의 마이너스 잉여현금흐름을 예상하며, 3월에 모은 1220억 달러가 2028년에 소진된다고 봤다.",
+      "why_it_matters": "매출이 정점에 닿기 2년 전에 실탄이 떨어진다는 자체 추정이다. 그 사이를 메우는 것은 또 한 번의 조달이고, 그 조달 논의가 1조2000억 달러가 넘는 기업가치에서 오간다는 것이 함께 보도됐다.",
+      "confidence": 0.75,
+      "original_title": "OpenAI Projects $278B Cash Burn: Record Round Runs Dry Before Revenue Catches Up",
+      "implications": "AI 인프라에 매출을 기대는 쪽(데이터센터·전력·메모리·GPU)은 이 조달이 실제로 닫히는지를 봐야 한다. IPO 시점 논의도 여기서 출발한다.",
+      "tags": [
+        "OpenAI",
+        "AI",
+        "자본조달",
+        "현금흐름"
+      ]
+    },
+    {
+      "title": "버크셔 해서웨이 CEO, 자사주 매입 전 하워드 버핏과 상의해야 (원문: Berkshire Hathaway's CEO Now Has to Consult Howard Buffett Before Buying Back Stock) (원문: Berkshire Hathaway's CEO Now Has to Consult Howard Buffett Before Buying Back Stock)",
+      "source": "fool",
+      "url": "https://www.fool.com/investing/2026/09/20/berkshire-hathaway-s-ceo-now-has-to-consult-howard-buffett-before-buying-back-stock/",
+      "one_liner": "버크셔의 자사주 매입 결정에 하워드 버핏의 상의 절차가 걸렸다 — 직함은 아들에게 넘어가지만 3650억 달러는 그렇지 않다는 것이 기사 요지다.",
+      "why_it_matters": "승계 이후 버크셔에서 무엇이 넘어가고 무엇이 남는지를 보여주는 구체적 장치다. 자본배분 권한의 분할이 명시적으로 설계됐다.",
+      "confidence": 0.6,
+      "original_title": "Berkshire Hathaway's CEO Now Has to Consult Howard Buffett Before Buying Back Stock",
+      "implications": "버크셔 주주는 자사주 매입 속도가 과거 패턴대로 갈지 지켜볼 대목이다.",
+      "tags": [
+        "버크셔해서웨이",
+        "승계",
+        "자사주매입"
+      ]
+    },
+    {
+      "title": "웰스파고, 테라울프(WULF) 투자의견 '강력매수'로 상향 (원문: TeraWulf (NASDAQ:WULF) Upgraded at Wells Fargo & Company) (원문: TeraWulf (NASDAQ:WULF) Upgraded at Wells Fargo & Company)",
+      "source": "americanbankingnews",
+      "url": "https://www.americanbankingnews.com/2026/09/20/terawulf-nasdaqwulf-upgraded-at-wells-fargo-company.html",
+      "one_liner": "웰스파고가 목요일 오전 리서치 노트에서 비트코인 채굴업체 테라울프를 강력매수로 올렸다고 잭스가 전했다. 윌리엄블레어도 8월 28일 커버리지를 개시했다.",
+      "why_it_matters": "채굴업체에 붙는 밸류에이션이 코인 가격이 아니라 전력·데이터센터 자산 쪽으로 옮겨가는 흐름 속에 나온 상향이다.",
+      "confidence": 0.65,
+      "original_title": "TeraWulf (NASDAQ:WULF) Upgraded at Wells Fargo & Company",
+      "implications": "채굴 섹터를 볼 때 해시레이트보다 확보 전력량·계약 구조를 먼저 봐야 하는 국면인지 확인할 대목.",
+      "tags": [
+        "TeraWulf",
+        "채굴",
+        "애널리스트"
+      ]
+    },
+    {
+      "title": "2030년 데이터센터 전력 950TWh 전망…비트코인 채굴업체, AI 전환 가능성",
+      "source": "토큰포스트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aMmpXdlVOOFNLLWctLWF5QmtaX21JOEYySld0TGRtWUh1SkRXYUI1emZxa19OakUtejljUTI5ZC1pZ0lzVm1pTG9yNGc1dk1p?oc=5",
+      "one_liner": "2030년 데이터센터 전력 수요가 950TWh에 이를 것이라는 전망과 함께, 비트코인 채굴업체가 AI 인프라로 전환할 가능성이 거론됐다.",
+      "why_it_matters": "위 테라울프 상향과 같은 이야기의 다른 쪽 끝이다 — 채굴장이 쥔 것은 코인이 아니라 접속 계약이 끝난 전력이라는 관점.",
+      "confidence": 0.5,
+      "original_title": "2030년 데이터센터 전력 950TWh 전망…비트코인 채굴업체, AI 전환 가능성 - 토큰포스트",
+      "implications": "전력·변압기·냉각 쪽 공급망과 채굴주를 한 묶음으로 볼지 판단할 재료. 다만 이 기사는 제목 수준의 정보만 확인됐다.",
+      "tags": [
+        "데이터센터",
+        "전력",
+        "채굴",
+        "AI"
+      ]
+    },
+    {
+      "title": "미국 SEC·CFTC '구원투수' 역할에 비트코인 8만 달러 회복",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5VDhTZmxDMHhOaHJXUDR5RHFZZnNnZFNuaTdBeTdSZzJNaDNId2NYNzdEWXFBTEppbEJrN3pMUWZnVzBlZlNrMUZjTnU0eUZZNjhfbG4tYmh6MWN5TW1uTThOU3Nvb0U3aGZoYw?oc=5",
+      "one_liner": "클래리티법이 막힌 자리를 SEC와 CFTC가 메우는 모양새가 되면서 비트코인이 8만 달러선을 회복했다는 보도다.",
+      "why_it_matters": "어제 짚은 '입법이 막히면 규제기관이 대신한다'가 가격에 반영된 형태로 다시 나왔다.",
+      "confidence": 0.55,
+      "original_title": "미국 SEC·CFTC ‘구원투수’ 역할에 비트코인 8만 달러 회복 - 경향게임스",
+      "implications": "규제 기대가 행정 규정에 얹혀 있다면 정권 주기와 함께 흔들린다 — 이 전제가 유지되는지가 관전 포인트.",
+      "tags": [
+        "비트코인",
+        "SEC",
+        "CFTC",
+        "규제"
+      ]
+    },
+    {
+      "title": "비자, 밈코인 결제의 신용카드 리워드 구멍 막는다 (원문: Visa Moves to Close Meme Coin Credit Card Rewards Loophole) (원문: Visa Moves to Close Meme Coin Credit Card Rewards Loophole)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378697/visa-close-meme-coin-credit-card-rewards-loophole",
+      "one_liner": "은행권이 클래리티법에서 스테이블코인 규제 강화를 관철하지 못한 뒤, 비자가 밈코인 구매를 일반 '디지털 미디어'로 코딩해 카드 리워드를 받던 관행을 막기로 하면서 JP모건이 좁은 범위의 승리를 챙겼다.",
+      "why_it_matters": "입법이 막힌 자리를 규제기관만 메우는 게 아니라 결제 네트워크의 가맹점 코드 같은 사적 규칙도 메운다는 사례다.",
+      "confidence": 0.7,
+      "original_title": "Visa Moves to Close Meme Coin Credit Card Rewards Loophole",
+      "implications": "카드로 코인을 사던 소매 경로의 비용 구조가 바뀐다 — 거래소·결제사 수수료 라인을 볼 대목.",
+      "tags": [
+        "Visa",
+        "밈코인",
+        "스테이블코인",
+        "클래리티법"
+      ]
+    },
+    {
+      "title": "[자정 시세브리핑] 암호화폐 시장 약세…비트코인 80,811달러, 이더리움 2,588달러",
+      "source": "토큰포스트",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FaWVSZzd4LTBlZGpRMTZwdWU5Q0lpWWRzUkxCX0ZoMEFwbHNMbHZoc0NUX1BuTVo2LXB0ZEUtNjNGSmFUcEs4by1OSHBlS2dpV0lKd1BZRXU?oc=5",
+      "one_liner": "자정 기준 비트코인 80,811달러, 이더리움 2,588달러로 시장은 약세로 집계됐다.",
+      "why_it_matters": "어제 자정 시세 8만1570달러에서 내려온 숫자다. '8만 달러 회복' 헤드라인과 같은 날 함께 있는 수치라는 점이 중요하다.",
+      "confidence": 0.65,
+      "original_title": "[자정 시세브리핑] 암호화폐 시장 약세… 비트코인 80,811달러, 이더리움 2,588달러 - 토큰포스트",
+      "implications": "8만 달러는 지금 돌파선이 아니라 왕복 구간이다 — 회복 헤드라인과 실제 종가를 분리해 볼 것.",
+      "tags": [
+        "비트코인",
+        "이더리움",
+        "시세"
+      ]
+    },
+    {
+      "title": "비트코인 ETF에 4억3300만 달러 유입",
+      "source": "cbci.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ibFh4ejQzNGI1ZllDdFUwWTJTN2YwYjlSOXhsY1M5Ujd6WTZFbks2OXctN1ZlWldjVE0tOWFLTHNCV0lSQWt4MGRmVUZZazI0Mk1KZ01SWXM3aE56d3lLTFVMSjhGMVZQ?oc=5",
+      "one_liner": "비트코인 현물 ETF로 4억3300만 달러가 순유입됐다는 집계다.",
+      "why_it_matters": "어제 'FBTC 한 곳이 하루 순유입의 72%'라는 집계가 나왔던 자리에 이번엔 총액이 붙었다. 올린 힘이 얼마나 넓은지를 묻는 같은 질문의 연장.",
+      "confidence": 0.5,
+      "original_title": "비트코인 쑥쑥 '9' 찍나? 돌파의 힘은?…ETF 4억3300만달러 유입 - cbci.co.kr",
+      "implications": "총액과 분산도를 함께 봐야 한다 — 한 창구에 쏠린 유입은 빠질 때도 한 창구로 빠진다.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "자금유입"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "윙클보스 형제의 제미니, 상장 후 주가 80% 폭락…가상자산 M&A 인수설 재부상",
+      "source": "데일리비즈온",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QemJrSWtHdzFpVTRHUUFsYlU1X0VkRVhpRjlDcXFfd05BNjdWSHQwVmNza1c0MFJyM19SeXBaWW5PLVpYUHJYNFJJc2hrbmtxcG1yLW9EY2RwdmJWQXItd0ZDZmtRWVVONUplbg?oc=5",
+      "one_liner": "제미니 주가가 상장 이후 80% 떨어졌고, 가상자산 M&A 시장에서 인수설이 다시 거론되고 있다.",
+      "why_it_matters": "규제 기대로 올라탄 크립토 상장사들의 공모가 이후 성적이 갈리고 있다는 신호다.",
+      "confidence": 0.5,
+      "original_title": "[D-BIZ 암호화폐 뉴스] ‘윙클보스 형제’의 제미니, 상장 후 주가 80% 폭락… 가상자산 M&A 시장서 ‘인수설’ 다시 부상 - 데일리비즈온",
+      "implications": "거래소·수탁 사업의 상장 밸류에이션을 재평가할 대목. 인수설은 아직 설 단계다.",
+      "tags": [
+        "제미니",
+        "거래소",
+        "M&A",
+        "IPO"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
