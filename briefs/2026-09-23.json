@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "date": "2026-09-23",
+  "slot": "am",
+  "generated_at": "2026-09-23T03:45:53.944951+09:00",
+  "top_insight": [
+    "어제 랠리의 연료였던 유가가 오늘 한 단계 더 내려갔고, 비트코인은 8만6천 달러를 돌파 지점이 아니라 지지선으로 시험하는 자리로 옮겨갔다. 그런데 그 유가를 미는 것은 여전히 수급이 아니라 트럼프의 입이다 — 같은 유엔 연설에서 이란 궤멸을 말하고 중간선거 직후 이란과 합의하겠다고 했다. 압박과 합의가 한 문장 안에 들어 있으니, 위험자산의 방향타도 그 사이에서 흔들린다.",
+    "크립토 쪽은 이틀째 가격이 아니라 배관 이야기다. 어제 하나은행의 유로클리어 디지털 본드였다면 오늘은 캐나다 6대 은행의 은행 간 토큰화 예금이고, 규제는 ECB가 MiCA의 스테이블코인 은행예금 의무를 손보자고 나섰고 SEC는 수탁 경로를 설명하기 시작했다. 정작 오늘 가격을 올린 현물 매수 옆에서 ETF 자금은 빠져나갔다 — 제도권이 들어오는 통로와 실제 돈이 움직이는 방향이 지금은 따로 논다.",
+    "한국의 수장 공백은 오늘 방향을 틀었다. 어제까지 비는 자리가 늘기만 했는데, 오늘 이소영 중기부 장관·이정현 대검 차장 임명이 재가되고 구자현 검찰총장 대행이 53일 만에 퇴임했다. 다만 채워지는 방식 자체가 논란이다 — 이정현 대검 차장의 공소청 지휘를 두고 대통령 사건 공소취소 포석이라는 보도가 같은 날 붙었다."
+  ],
+  "whats_changed": [
+    "유가가 한 단계 더 내려갔다. 어제는 브렌트가 100달러 쪽으로 되밀린 것이 재료였는데, 오늘 기사는 유가가 90달러 아래로 내려갔다고 적는다.",
+    "비트코인은 가격이 아니라 구성이 달라졌다. 어제는 8만6천 달러 돌파 자체가 뉴스였고, 오늘은 현물 매수가 늘어도 ETF에서는 돈이 빠지는 엇갈림이 붙었다.",
+    "한국의 수장 공백이 처음으로 줄었다. 이소영 중기부 장관·이정현 대검 차장 임명이 재가됐고, 구자현 검찰총장 대행이 사의 표명 53일 만에 퇴임했다.",
+    "트럼프의 표적이 언론에서 국가로 옮겼다. 어제는 CNN 등 3사의 백악관 출입금지 소송이었고, 오늘은 유엔 연설에서 이란·쿠바·멕시코를 겨냥하면서 북한은 40분 내내 언급하지 않았다."
+  ],
+  "themes": [
+    "유가가 내려갈수록 위험자산이 오르는데, 그 유가를 쥔 것은 수급이 아니라 트럼프의 이란 발언이다",
+    "크립토의 진전은 이틀째 가격이 아니라 배관에서 나온다 — 캐나다 은행 토큰화 예금, ECB의 MiCA 수정 요구, SEC 수탁 지침",
+    "AI 규율은 선언만 있고 당사자가 없다 — 20개국 'AI를 인간 통제하에' 선언에 미·중 불참"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 중간선거(11월) — 트럼프 \"직후 이란과 합의할 것이라 믿어\"",
+    "트럼프·시진핑 만찬(워싱턴) — 美 거물 CEO들 집결 예정",
+    "미중 무역휴전 연장 — 미국 \"계속 논의 중\"",
+    "앨버니지 호주 총리, 이재명 대통령에게 내년 초 호주 방문 요청",
+    "캐나다 빅6 은행 토큰화 예금 — 은행 간 디지털 상업예금 이동 1차 테스트"
+  ],
+  "items": [
+    {
+      "title": "트럼프, 유엔 연설서 \"쿠바 정권 무너질 것\"…이란·멕시코에도 십자포화",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YWF9DNHUyaXZnSy1NSWhCMWRVSW1XMXVHVFk2UWRDVFM0NjJhbWllOUkxNHBvWlBkZV9VUWNzNzhDUFlMd0FiS1N4a1ZYaHMtUmxBR0lqLTFzYU0?oc=5",
+      "one_liner": "트럼프가 유엔총회 연설에서 쿠바 정권 붕괴와 이란 궤멸을 거론했고, 별도로 미 중간선거 직후 이란과 합의할 것이라고 밝혔다.",
+      "why_it_matters": "같은 연설이 이란을 향해 압박과 합의 시사를 동시에 냈다. 유가와 위험자산이 이 두 신호 사이에서 움직이고 있다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 “완전히 실패한 쿠바 정권 무너질 것…루비오가 협상 중” - KBS 뉴스",
+      "implications": "에너지·방산 익스포저를 가진 투자자는 '합의 시사'가 실제 협상 일정으로 바뀌는지를 지켜봐야 한다. 쿠바·이란 대표단 퇴장은 외교적 진전이 가깝지 않다는 반대 신호다.",
+      "tags": [
+        "트럼프",
+        "유엔총회",
+        "이란",
+        "쿠바",
+        "지정학"
+      ]
+    },
+    {
+      "title": "트럼프 \"그린란드에 초대형 미군기지 2곳 건설 시작\"…미·덴마크·그린란드 협정 서명",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wSnV0bUFkM1ZqM3VmeFJqcHNSVXVraWJfZEMtYVZyQ29GUXFvclJnRVBlMWl3LTNVTFgxeVpGc3hwR3BGX3dXSWVhTE1qZm0wRy11ZVVoVm9mTHJJYVHSAWNBVV95cUxPR0VVR1psVFN4ZFVEellLVlRQbng2dnpTNFBLS0xHRHk2MlBkd0lybXdEMV85SzJyVmVhWEpBZWJGV2tiT3NYU0plUW50bVM4VkxwaFRwSzhmLVdrQnBEMWxWblk?oc=5",
+      "one_liner": "미국이 덴마크·그린란드와 협정을 맺고 그린란드에 군사 거점 2곳을 추가 건설한다고 트럼프가 밝혔다.",
+      "why_it_matters": "합병 발언으로 시작된 사안이 실제 협정과 기지 건설로 넘어갔다. 북극 항로·자원 접근을 둘러싼 대중·대러 견제 구도가 물리적 형태를 갖추는 국면이다.",
+      "confidence": 0.68,
+      "original_title": "트럼프 \"그린란드에 군사기지 구축 시작…초대형 미군기지 2곳 건설\" - 뉴스1",
+      "implications": "북극권 자원·해운 노선에 걸린 기업과 방산 공급망을 지켜볼 일이다. 서명 전날 미국이 북극권 동맹국들을 따로 만난 점은 진영 정리가 함께 간다는 신호다.",
+      "tags": [
+        "그린란드",
+        "북극",
+        "미국",
+        "방산",
+        "지정학"
+      ]
+    },
+    {
+      "title": "트럼프, 40분 유엔 연설서 북한은 한 번도 언급하지 않았다",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBycUt6cFlmZWZZNEFwVm5LZDZSRXJyWmhueHpkZXFwdnBhSTd0Y29QUVBqMEcwazlPTC0ySEdvdENwY3Y1YUNxV0hLdDZPMW5HU1lCLWVjV0RmMnV3ZHRnZ20zQjFiR1E?oc=5",
+      "one_liner": "트럼프가 유엔총회 연설 40분 동안 북한을 거론하지 않은 한편, 미국은 중국과의 무역휴전 연장을 계속 논의 중이라고 밝혔다.",
+      "why_it_matters": "동맹에는 청구서를 내밀면서 시진핑 방미에는 최상급 예우를 준비하는 대비가 같은 날 보도됐다. 미국 외교의 우선순위가 어디에 있는지 드러난 장면이다.",
+      "confidence": 0.65,
+      "original_title": "트럼프, 40분간 유엔총회 연설서 북한 언급 없어 - 연합뉴스TV",
+      "implications": "한반도 리스크 프리미엄보다 미중 관세 일정이 당분간 시장 변수다. 트럼프·시진핑 만찬에 모이는 미 대기업 명단이 어느 업종이 협상 테이블에 있는지 알려준다.",
+      "tags": [
+        "트럼프",
+        "북한",
+        "미중",
+        "무역"
+      ]
+    },
+    {
+      "title": "이 대통령, 이소영 중기부 장관·이정현 대검 차장 임명안 재가",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqREE3TEkxa0RFN0pkQi1xbWk1UnFfekUyXzBqVkJxSTBCNUh0WHpNWm9mS0sxYm1JU08zS1FyckdfcmE1TkIzWnJsSkZMOF9rdl9lWHZmZWd2d2kwR09tdVc2NEJPWlU5dl80?oc=5",
+      "one_liner": "이재명 대통령이 이소영 중소벤처기업부 장관과 이정현 대검 차장 임명안을 재가했고, 같은 날 구자현 검찰총장 대행이 사의 표명 53일 만에 비공개로 퇴임했다.",
+      "why_it_matters": "어제까지 쌓이기만 하던 한국의 수장 공백이 채워지는 쪽으로 방향을 틀었다. 다만 이정현 대검 차장이 공소청을 지휘하는 구도를 두고 대통령 사건 공소취소 포석이라는 논란이 함께 보도됐다.",
+      "confidence": 0.62,
+      "original_title": "이 대통령, 이소영 중기 장관·이정현 대검 차장 임명안 재가 - 한겨레",
+      "implications": "수사·기소 지휘부 인사의 정치적 해석이 이어지면 국정 불확실성이 길어진다. 중기부 장관 취임으로 중소·벤처 정책 라인은 정상화 수순이다.",
+      "tags": [
+        "한국",
+        "인사",
+        "검찰",
+        "국정"
+      ]
+    },
+    {
+      "title": "한-호주 정상회담…에너지 공급망·방산 협력 논의",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tckdFRTlsUmJoOUZoZnViaUllX09YUTZDa054VVRVT3JLc3BiR19LU3djakZEb04tdzB2d05lTjhTS3lIVWxlVGw3Q1ltVWRtUWVGSE5fcWpUZTZ3eEpQaUdiNV9vTG1MTF9RRU9XVl9QWV8xTklMbNIBeEFVX3lxTFBoMENhN3NCbU1Xam9BUEFrcElrZ05NdXJkUDVKX1FWSG1DVGtVOUtCVlBjeVhOemNDVS1hY2dvN3oxRlZvbTQxclBXLTBSQm5XWVhqeHBkMER0aUM3WF9aUjB3WVgxUGlaaWY4amdsMllpb2xwcHNodw?oc=5",
+      "one_liner": "유엔총회를 계기로 열린 한·호주 정상회담에서 양국이 에너지 공급망과 방산 협력을 논의했고, 앨버니지 총리는 내년 초 방문을 요청했다.",
+      "why_it_matters": "유가·에너지가 이번 주 시장의 중심 변수인 상황에서 한국이 공급처 다변화를 외교 의제로 올렸다.",
+      "confidence": 0.6,
+      "original_title": "이 대통령, 한-호주 정상회담‥앨버니지 총리 \"내년 초 호주에 와주시길\" - MBC 뉴스",
+      "implications": "에너지 수입 구조와 방산 수출에 걸린 기업들이 후속 합의 내용을 지켜볼 대목이다. 내년 초 정상 방문이 성사되면 구체적 계약이 붙을 가능성이 있다.",
+      "tags": [
+        "한국",
+        "호주",
+        "에너지",
+        "방산",
+        "공급망"
+      ]
+    },
+    {
+      "title": "유엔 사무총장 \"핵재앙 막았듯 AI 안전장치 필요\"…20개국 선언에 미·중은 빠졌다",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DWmNnWkVTYUp2dGQtekRCVkpvNHgtNHYtQmJ6dW90VE04ZUFlNFo4NnNDcXhQWTBaM2J3TEtsRlZTZjBlMFY1VmRQV2VGSEdxS1NIRVVqeFdVazQ?oc=5",
+      "one_liner": "구테흐스 유엔 사무총장이 미·중에 AI 대화를 촉구했고, 20개국이 'AI를 인간 통제하에' 두자는 선언을 냈지만 미국과 중국은 참여하지 않았다.",
+      "why_it_matters": "AI 규율 논의에서 실제 개발 역량을 가진 두 나라가 빠졌다. 선언의 구속력이 사실상 없다는 뜻이다.",
+      "confidence": 0.62,
+      "original_title": "유엔총장 “핵재앙 막았듯 AI 안전장치 필요”…미중에 대화 촉구 - KBS 뉴스",
+      "implications": "AI 규제 리스크는 당분간 국제 합의보다 개별국 입법에서 온다. 오픈AI가 'AI 국제표준을 미국이 주도해야 한다'고 한 것도 같은 공백을 가리킨다.",
+      "tags": [
+        "AI",
+        "규제",
+        "유엔",
+        "미중"
+      ]
+    },
+    {
+      "title": "스리랑카 대졸 청년 실업률 43%…아시아 최고 (원문: Sri Lanka's Graduate Youth Jobless Rate Hits 43%, Asia's Highest)",
+      "source": "sedaily",
+      "url": "https://en.sedaily.com/international/2026/09/22/sri-lankas-graduate-youth-jobless-rate-hits-43-percent",
+      "one_liner": "IMF 보고서에 따르면 스리랑카의 대학 교육을 받은 청년 실업률이 약 43%로 아시아에서 가장 높았다.",
+      "why_it_matters": "채무 재조정을 거친 신흥국에서 회복이 고용으로 넘어오지 않는다는 지표다. 숫자가 아시아 최고 수준이라는 점에서 개별국 문제로만 보기 어렵다.",
+      "confidence": 0.65,
+      "original_title": "Sri Lanka's Graduate Youth Jobless Rate Hits 43%, Asia's Highest",
+      "implications": "프론티어 신흥국 채권에 노출된 투자자는 재정 지표만이 아니라 고용 회복 속도를 봐야 한다. 청년 실업은 정치 불안으로 이어지는 통로다.",
+      "tags": [
+        "스리랑카",
+        "고용",
+        "IMF",
+        "신흥국"
+      ]
+    },
+    {
+      "title": "액센츄어·구글 클라우드, 볼보와 자동차 소프트웨어 개발 플랫폼 구축 (원문: Accenture and Google Cloud Transform Software Development with Volvo Cars)",
+      "source": "investingnews",
+      "url": "https://investingnews.com/accenture-and-google-cloud-transform-software-development-with-volvo-cars/",
+      "one_liner": "볼보가 액센츄어와 구글 클라우드의 오픈소스 플랫폼 'Horizon'의 선도 산업 파트너가 돼, 안드로이드 오토모티브 OS용 소프트웨어를 개발·테스트·배포한다.",
+      "why_it_matters": "완성차의 소프트웨어 개발이 개별 사내 스택에서 공용 오픈소스 플랫폼으로 넘어가는 사례다. 안드로이드 오토모티브의 영향권이 넓어진다.",
+      "confidence": 0.6,
+      "original_title": "Accenture and Google Cloud Transform Software Development with Volvo Cars",
+      "implications": "차량용 소프트웨어 공급망에서 구글의 위치가 커지고, 자체 OS를 고집하는 완성차의 비용 부담이 상대적으로 드러난다.",
+      "tags": [
+        "볼보",
+        "구글클라우드",
+        "액센츄어",
+        "자동차소프트웨어"
+      ]
+    },
+    {
+      "title": "비트코인, 유가 90달러 하회 속 8만6천 달러를 새 지지선으로 시험 (원문: Bitcoin price seeks $86K as new support after oil dips below $90)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-seeks-86k-as-new-support-after-oil-dips-below-90?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "유가가 90달러 아래로 내려가고 트럼프가 중간선거 이후 이란과의 합의를 약속하면서, 비트코인은 8만6천 달러 아래로의 급락을 면했다.",
+      "why_it_matters": "어제에 이어 이틀째 비트코인 가격의 설명 변수가 크립토 내부 재료가 아니라 유가다. 위험자산의 방향타를 중동 외교가 쥐고 있다는 뜻이다.",
+      "confidence": 0.72,
+      "original_title": "Bitcoin price seeks $86K as new support after oil dips below $90",
+      "implications": "크립토·주식 보유자는 이란 관련 헤드라인과 유가 레벨을 크립토 지표보다 먼저 봐야 한다. 유가가 되반등하면 같은 논리로 되돌림이 온다.",
+      "tags": [
+        "비트코인",
+        "유가",
+        "이란",
+        "위험자산"
+      ]
+    },
+    {
+      "title": "비트코인 8만6천 달러 회복…현물 매수는 늘었지만 ETF에서는 돈이 빠졌다",
+      "source": "블록미디어",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2bk9nU3R5TFppQkRWZEdwTVhvSnVHNUhabDVkR0tZdnFYUGo2Q0NFa09fb1RWZXRkRzJOVzJTZ3RGZjhrdmpJRFNOdFB0Qmc5WGFrbmZGbUg?oc=5",
+      "one_liner": "비트코인이 8만6천 달러를 회복하는 과정에서 현물 매수는 증가했으나 ETF 자금은 오히려 이탈했다.",
+      "why_it_matters": "가격은 같은 방향인데 자금 흐름이 갈렸다. 어제는 '8만6천 돌파'만 뉴스였고 오늘은 그 안의 엇갈림이 드러났다.",
+      "confidence": 0.62,
+      "original_title": "비트코인 8만6000달러 회복…현물 매수 늘었지만 ETF 자금 이탈 - 블록미디어",
+      "implications": "ETF 순유출이 이어지는데 가격이 버티면 기관이 아닌 쪽이 사고 있다는 뜻이다. 다음 며칠 ETF 순유출입이 랠리의 지속성을 가른다.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "자금흐름"
+      ]
+    },
+    {
+      "title": "캐나다 6대 은행, 은행 간 토큰화 예금 공동 사업 착수 (원문: Canada's 'Big Six' banks to launch interbank tokenized deposit initiative)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
+      "one_liner": "캐나다 '빅6' 은행이 참여 기관 사이에서 디지털 상업예금을 이동시키는 것을 1차 목표로 은행 간 토큰화 예금 사업을 시작한다.",
+      "why_it_matters": "어제 하나은행의 유로클리어 디지털 본드에 이어, 제도권 은행이 토큰을 발행하는 게 아니라 정산 배관을 바꾸는 사례가 하루 걸러 나오고 있다.",
+      "confidence": 0.65,
+      "original_title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
+      "implications": "스테이블코인의 경쟁자가 다른 스테이블코인이 아니라 은행 예금 토큰이 되는 구도다. 결제·수탁 인프라에 노출된 사업자의 경쟁 환경이 바뀐다.",
+      "tags": [
+        "토큰화예금",
+        "캐나다",
+        "은행",
+        "결제인프라"
+      ]
+    },
+    {
+      "title": "ECB와 EU 중앙은행들, MiCA의 스테이블코인 최소 은행예금 요건 개정 요구 (원문: ECB, EU cenbanks seek changes in MiCA’s minimum bank deposit for stablecoins)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "ECB와 EU 중앙은행들이 MiCA의 스테이블코인 은행예금 의무를 유동성 기준으로 바꾸자고 요구하며, 급격한 인출이 은행을 압박할 수 있다고 경고했다.",
+      "why_it_matters": "스테이블코인 규제의 초점이 발행자 보호에서 은행 시스템 보호로 옮겨가고 있다. 준비금을 어디에 두느냐가 규제 쟁점의 중심이 됐다.",
+      "confidence": 0.65,
+      "original_title": "ECB, EU cenbanks seek changes in MiCA’s minimum bank deposit for stablecoins",
+      "implications": "유로 스테이블코인 발행사의 준비금 운용 구조가 바뀔 수 있다. 은행 예금 대신 단기 유동자산으로 이동하면 단기금리 시장에 수요가 생긴다.",
+      "tags": [
+        "스테이블코인",
+        "MiCA",
+        "ECB",
+        "규제"
+      ]
+    },
+    {
+      "title": "미 SEC 크립토 태스크포스 수석 법률고문, 수탁 서비스의 방향을 제시하다 (원문: Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
+      "one_liner": "SEC 크립토 태스크포스의 수석 변호사 테일러 린드먼이 기관들이 블록체인 기술과 크립토 자산에 익숙해지도록 만드는 것이 SEC의 목표라고 밝혔다.",
+      "why_it_matters": "규제기관이 금지가 아니라 수탁 경로를 설명하는 쪽으로 말투를 바꿨다. 기관 자금 유입의 병목이 수탁이었다는 점에서 의미가 있다.",
+      "confidence": 0.6,
+      "original_title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
+      "implications": "수탁 지침이 구체화되면 기관 크립토 상품의 문턱이 낮아진다. 다만 오늘 ETF에서는 자금이 빠지고 있어 지침과 실제 자금 흐름은 아직 따로 움직인다.",
+      "tags": [
+        "SEC",
+        "수탁",
+        "규제",
+        "기관자금"
+      ]
+    },
+    {
+      "title": "앤트로픽의 새 클로드 오푸스 5.5, 60% 가격에 페이블급 성능을 주장 (원문: Anthropic’s New Claude Opus 5.5 Matches Fable at 60% the Price)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/378947/anthropic-claude-opus-5-5-fable-price-comparison",
+      "one_liner": "앤트로픽의 새 주력 모델이 페이블 5.1 수준의 성능을 훨씬 낮은 비용에 낸다고 주장했지만, 공개된 벤치마크 두 종에서는 GPT-6 아스트라가 여전히 앞섰다.",
+      "why_it_matters": "프런티어 모델 경쟁의 축이 성능 단독에서 성능 대비 가격으로 옮겨가고 있다. 추론 비용이 내려가면 AI 서비스의 단가 구조가 달라진다.",
+      "confidence": 0.58,
+      "original_title": "Anthropic’s New Claude Opus 5.5 Matches Fable at 60% the Price",
+      "implications": "AI를 쓰는 쪽(애플리케이션 기업)의 원가는 내려가고, 파는 쪽의 마진 압박은 커진다. 벤치마크 우위와 가격 우위가 갈리는 국면이 이어지는지 볼 일이다.",
+      "tags": [
+        "AI",
+        "앤트로픽",
+        "모델경쟁",
+        "추론비용"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
