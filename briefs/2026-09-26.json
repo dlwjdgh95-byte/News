@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "date": "2026-09-26",
+  "slot": "am",
+  "generated_at": "2026-09-26T03:43:52.810311+09:00",
+  "top_insight": [
+    "미중 정상회담이 '연내 두 차례 추가 회동'과 28일 무역 세부안 발표 예고로 마무리됐다. 같은 날 F-35 부품이 중국에 압류됐다는 보도가 나와 휴전 분위기 속 기술 통제 갈등의 불씨도 남았다.",
+    "중동은 두 신호가 엇갈린다. 미·이란 협상으로 호르무즈 재개방 기대가 커지며 유가가 106달러 쪽으로 밀렸지만, UAE가 이란 항공 제재에 동참하고 사우디·튀르키예·파키스탄이 후티 대응 회동을 잡았다.",
+    "크립토는 비트겟 해킹 피해가 3억8700만달러로 불어났고 북한이 용의선상에 올랐다. 트레저리 쪽에서는 스트래티지가 우선주 배당을 매일 주는 구조로 바꾸려 한다."
+  ],
+  "whats_changed": [
+    "미중 정상회담 이후 일정이 11월 중국·12월 미국 추가 회동으로 구체화됐다.",
+    "달러-엔이 160엔 근접에서 구두 개입으로 157엔까지 내려왔다.",
+    "후티의 사우디 공격이 3국 군 수뇌부 회동과 유엔 안보리 규탄 성명으로 번졌다.",
+    "UAE의 이란 항공편 차단에 이란이 보복을 시사하며 맞섰다."
+  ],
+  "themes": [
+    "미중 휴전 관리 — 추가 정상회담 예고, 28일 무역 세부안, F-35 부품 유출",
+    "중동 이중 신호 — 호르무즈 협상 기대와 후티·이란 제재 확전",
+    "크립토 리스크 — 비트겟 3.9억달러 해킹, 트레저리 기업의 자금조달 재설계"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 무역대표, 미·중 무역 협상 세부 사항 발표(9/28)",
+    "케냐 라무 단고테 정유공장 착공식(9/30)",
+    "트럼프·시진핑 추가 정상회담(11월 중국, 12월 미국)"
+  ],
+  "items": [
+    {
+      "title": "트럼프 \"시진핑과 11월 중국·12월 미국에서 또 만날 것\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PNVhWTVA2ZGhRUTY5RXBfWjR2bENvRDVYQ0tJUkQxT2dtYTY4cDRpQUFWS1drUmpSRnFsUXBfdFZFbW1mZFZuQVFNR3FLT2twOEhfS1FGcko2NEnSAWBBVV95cUxNaEwtcFBqaGFaeHA0b1FON0ZTUXRsdzFHRmhLTHp0QVRsMDUyS1dsd1RvV1k1cHlzWDlRbkRtczVITjE0RE9haHFRSmhvVFZoUXY4QkRIRGVvQ25SQllLWjQ?oc=5",
+      "one_liner": "미중 정상회담을 마친 트럼프가 11월 중국, 12월 미국에서 시진핑과 추가 회동하겠다고 밝혔다.",
+      "why_it_matters": "미 무역대표가 무역 협상 세부 사항을 28일에 내놓겠다고 해, 관세·수출통제의 다음 윤곽이 곧 나온다.",
+      "confidence": 0.8,
+      "original_title": "트럼프 \"시진핑과 11월 중국·12월 미국에서 또 만날 것\" - 연합뉴스",
+      "implications": "수출주·반도체 공급망 — 28일 발표될 무역 합의 세부안의 관세·기술 조항.",
+      "tags": [
+        "미중",
+        "무역",
+        "정상회담"
+      ]
+    },
+    {
+      "title": "달러-엔, 日 재무상 구두 개입에 157엔까지 급락",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hQ3E1U1Y3ZEg1amdXcjFxRzZ3TWZQX2Y0dFpTWHFPSkRWd19tVkpZa0RMOFBXaEp1cVpRdjZ5SDhMTUtxbEtLcDhKX1llNDB0TENidHJJN0NGVTlGalBUdGlKb2xqV3NPRTJUX2dJbEE?oc=5",
+      "one_liner": "일본 재무상의 구두 개입에 달러-엔이 1.18% 떨어져 157엔까지 내려왔다.",
+      "why_it_matters": "160엔 근접하던 엔저에 미 재무부도 '기초여건 반영한 엔화 강세 바람직'이라며 사실상 거들었다.",
+      "confidence": 0.8,
+      "original_title": "달러-엔, 日 재무상 구두 개입에 157엔까지 급락…1.18%↓ - 연합인포맥스",
+      "implications": "엔화 캐리 포지션·일본 수출주 — 160엔 재접근 시 실개입 여부.",
+      "tags": [
+        "엔화",
+        "환율",
+        "외환개입"
+      ]
+    },
+    {
+      "title": "후티 공세에 사우디·튀르키예·파키스탄 군 수뇌부 긴급회동 추진",
+      "source": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMW9QUkNybUNuOU5tR1FkVlAtUGxiODlIeTQ5TXdtUFNjOU5BU3pUdWhlN29MS2J6bUMwWkVlTWpsQlBZRnlMc2d2QVRXQ19wWnBTaE1pNDViekRBRzJpZl8yV0JqalNaZ3ZPb3RuOFlBNkRDOHdhSlVZX1R6X3d5VGVjU2pYT2dCYWZfdGh4Q0stS2RPcURnTjNNbG53UdIBsgFBVV95cUxPb1p4alM2X2ZTTnBla0lBOFFkV3o3bXpGeXFrZ0NOd3p2MGRuSzg5ZC0yRUpNOE8xT2dZdlYtd3FfRXNHQkRDd0hYNVNVbGpBNHdrQ1FYdkdSSE42OVM2Mlg3b0h5TVdoZzVxOGxoTzc3eXJIRzFyX3lJSERwVjQ2NjI1OW1yM1ZvUFY3NTZGZVpReVBjTjJrX3Y4cGo2VGtRQS1pRC1BN0hwSmFXNHRyZnhB?oc=5",
+      "one_liner": "연일 이어지는 후티 공세에 사우디·튀르키예·파키스탄 군 수뇌부가 모이기로 했다.",
+      "why_it_matters": "유엔 안보리가 후티의 사우디 공격을 규탄했고, 예멘 정부는 총동원령을 내렸다 — 충돌이 역내 군사 공조로 번지는 중이다.",
+      "confidence": 0.75,
+      "original_title": "후티 공세에… 사우디·튀르키예·파키스탄 군 수뇌부 긴급회동 추진 - 조선비즈 - Chosunbiz",
+      "implications": "유가·해운 보험료 — 3국 회동 결과와 후티의 추가 공격 여부.",
+      "tags": [
+        "중동",
+        "후티",
+        "사우디"
+      ]
+    },
+    {
+      "title": "UAE \"이란 항공편 운항 전면 중단\"…美 제재 동참",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByQ005V2g5WkpqcDBxY2ZieW5DV0IwZjQ4NFZmN25zUmlZcnR3NTJkTDkxeGxpWDR3aEQ5aXJPa3RzbXV3NmF2SVRhd2ZWVjE1YWt3ckVKYldfWkt5?oc=5",
+      "one_liner": "오만·튀르키예·이라크에 이어 역내 최대 교역국 UAE도 이란 항공편을 전면 중단했다.",
+      "why_it_matters": "이란 최고지도자 고문이 동참국 항공편도 막겠다며 보복을 시사해 역내 하늘길 전체가 흔들릴 수 있다.",
+      "confidence": 0.75,
+      "original_title": "UAE \"이란 항공편 운항 전면 중단\"… 오만·튀르키예·이라크 등에 이어 美 제재 동참 - 뉴스핌",
+      "implications": "중동 항공·물류 — 이란의 맞불 조치가 실제 영공 봉쇄로 이어지는지.",
+      "tags": [
+        "이란",
+        "제재",
+        "UAE"
+      ]
+    },
+    {
+      "title": "트럼프 \"AI 대신 수퍼지능(SI) 호칭 합의\"…베선트 차르설은 부인",
+      "source": "hankyung.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hZFRrblFKSVFLZGhZcy1iSjg2WXJleUFyRlVYSHQ2ZVgtTjVDQmFjN29ZejhReU1hQzFyUlppT1owTXoxeUtGU1dfV0RNSTdJNE4wejJWTEtLdw?oc=5",
+      "one_liner": "트럼프가 시진핑과 'SI(수퍼지능)' 호칭에 합의했다고 강조하고, 베선트 재무장관의 AI 차르 임명설은 가짜뉴스라고 했다.",
+      "why_it_matters": "미중이 슈퍼지능 문제에서 '현 상태 유지'에 뜻을 모았다고 밝혀 AI 규제 방향의 신호가 된다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 \"인공지능(AI) 대신 수퍼지능(SI) 호칭 합의\" 강조 [이상은의 워싱턴나우] - hankyung.com",
+      "implications": "AI 기업·규제 — 미중 SI 관련 후속 합의 문구와 차르 인선.",
+      "tags": [
+        "AI",
+        "미중",
+        "규제"
+      ]
+    },
+    {
+      "title": "호주가 수리 위해 美 보낸 F-35 부품, 中 손에 들어가",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnA0YTIzUS10bmN6RmRmbF9CNVVrUjZ5dm8wbk5xZS1TWW1jb1hYZFhXdFpDTUlDU0NjTUNqVFl0YWZqd1VhVW8xRjlvVHJETlZhRHNlTThmenN1VExjQ2lQSDh2UFgxV1A3bXlRcDRibHgxVG5hUVNiTG5oZ2ZTREVGaDVOUVV3R1pQSk4ycW1EWVZqNjV0ZmtSQVlHQQ?oc=5",
+      "one_liner": "호주가 미국으로 보낸 F-35 캐노피와 스텔스 부품이 UPS 배송 중 홍콩으로 전용돼 중국에 압류됐다.",
+      "why_it_matters": "미중 정상회담 직후 불거진 방산 기술 유출 사건이라 수출통제 논의에 불씨가 될 수 있다.",
+      "confidence": 0.7,
+      "original_title": "호주가 수리 위해 美 보낸 F-35 캐노피와 스텔스 부품... 중국 손에 들어갔다 - 조선일보",
+      "implications": "방산·물류 — 미국·호주의 조사 결과와 방산 부품 운송 규정 강화 여부.",
+      "tags": [
+        "방산",
+        "F-35",
+        "중국"
+      ]
+    },
+    {
+      "title": "MS, AI 에이전트용 새 코파일럿 공개…주가 4%↑",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kOThsU0ZaalRxOXZ0MWdkWDlnVXlBV1RVYWYtTVZnd1BMZkRYbEExMk1Vb1lhQy1ZcU1pc2kwYk5tZkYtWGpDTjBmY2VNZmNJUDUwMWdQWFhuOVVGdVE?oc=5",
+      "one_liner": "마이크로소프트가 챗봇을 넘어 'AI 업무 운영체제'를 표방한 통합 코파일럿을 내놓았다.",
+      "why_it_matters": "소비자 AI 대신 기업용에 집중하는 전략 전환으로, 주가는 4% 올라 10개월래 최고가에 근접했다.",
+      "confidence": 0.75,
+      "original_title": "MS도 AI 에이전트 시대 맞아 새 코파일럿 OS 공개 - YTN",
+      "implications": "기업용 소프트웨어 — 코파일럿 과금 확대가 실적으로 이어지는지.",
+      "tags": [
+        "AI",
+        "마이크로소프트",
+        "빅테크"
+      ]
+    },
+    {
+      "title": "미·이란 협상에 호르무즈 재개방 기대…유가 106달러 쪽으로 하락 (원문: Crude oil prices slip toward $106 as US-Iran talks raise hopes of Hormuz reopening)",
+      "source": "thestatesman",
+      "url": "https://www.thestatesman.com/business/crude-oil-prices-slip-toward-106-as-us-iran-talks-raise-hopes-of-hormuz-reopening-1503642820.html",
+      "one_liner": "미국과 이란의 협상이 호르무즈 해협 재개방 기대를 키우며 원유 가격이 배럴당 106달러 부근으로 밀렸다.",
+      "why_it_matters": "공급 차질 우려가 유가를 떠받쳐 온 만큼, 해협 재개방 여부가 유가 방향을 가른다.",
+      "confidence": 0.75,
+      "original_title": "Crude oil prices slip toward $106 as US-Iran talks raise hopes of Hormuz reopening",
+      "implications": "정유·항공·물가 경로 — 미·이란 협상 결과와 해협 통항 재개 시점.",
+      "tags": [
+        "유가",
+        "호르무즈",
+        "이란"
+      ]
+    },
+    {
+      "title": "케냐, 170억달러 단고테 정유공장 30일 착공 (원문: Kenya: Kenya to Break Ground On $17b Dangote Oil Refinery Sept 30)",
+      "source": "allafrica",
+      "url": "https://allafrica.com/stories/202609250011.html",
+      "one_liner": "케냐가 라무에 하루 70만 배럴을 처리할 170억달러 규모 정유공장을 9월 30일 착공한다.",
+      "why_it_matters": "동·중부 아프리카 연료 공급을 겨냥한 대형 프로젝트로 역내 정제유 수입 구조를 바꿀 수 있다.",
+      "confidence": 0.7,
+      "original_title": "Kenya: Kenya to Break Ground On $17b Dangote Oil Refinery Sept 30",
+      "implications": "아프리카 에너지·원유 수요 — 착공식 이후 자금 조달·일정.",
+      "tags": [
+        "정유",
+        "아프리카",
+        "에너지"
+      ]
+    },
+    {
+      "title": "말레이시아 경기선행지수 7월 전년比 1.1% 상승 (원문: DOSM: Labour market stability, high‑tech investments support Malaysia’s economic outlook)",
+      "source": "malaymail",
+      "url": "https://www.malaymail.com/news/money/2026/09/18/dosm-labour-market-stability-hightech-investments-support-malaysias-economic-outlook/235705",
+      "one_liner": "말레이시아 통계청은 7월 경기선행지수가 전년 대비 1.1% 오른 115.3이라고 밝혔다.",
+      "why_it_matters": "통계청은 노동시장 안정과 첨단기술 투자가 경제 전망을 받친다고 평가했다.",
+      "confidence": 0.7,
+      "original_title": "DOSM: Labour market stability, high‑tech investments support Malaysia’s economic outlook",
+      "implications": "아세안 신흥국 — 반도체 투자 흐름이 성장률로 이어지는지.",
+      "tags": [
+        "신흥국",
+        "말레이시아",
+        "경기지표"
+      ]
+    },
+    {
+      "title": "비트겟 해킹 피해 3억8700만달러로 확대…북한 소행 의심 (원문: Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect",
+      "one_liner": "공격자가 내부 이체 요청을 위조해 비트겟의 핫·웜 월렛에서 3억8750만달러를 빼냈다.",
+      "why_it_matters": "CEO가 북한 소행의 흔적이라고 밝혔고, 피해 규모는 첫 발표보다 약 3500만달러 늘었다.",
+      "confidence": 0.8,
+      "original_title": "Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
+      "implications": "거래소 이용자·보안 — 비트겟의 보상 방식과 추가 피해 집계.",
+      "tags": [
+        "크립토",
+        "해킹",
+        "거래소"
+      ]
+    },
+    {
+      "title": "스트래티지, 우선주 배당 일일 지급 전환 주주 승인 요청 (원문: Strategy seeks shareholder approval for daily preferred stock dividends)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "스트래티지가 STRC 등 우선주 4종의 배당을 매일 지급하는 방안을 주주 표결에 부친다.",
+      "why_it_matters": "비트코인 트레저리 기업 스트라이브에 이은 조치로, 트레저리 모델의 자금조달 구조가 바뀌는 흐름이다.",
+      "confidence": 0.75,
+      "original_title": "Strategy seeks shareholder approval for daily preferred stock dividends",
+      "implications": "MSTR·우선주 투자자 — 주총 표결 결과와 우선주 수요.",
+      "tags": [
+        "크립토",
+        "스트래티지",
+        "트레저리"
+      ]
+    },
+    {
+      "title": "오픈AI, 월 500달러 'ChatGPT 프로 맥스' 요금제 준비 정황 (원문: OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379359/openai-500-per-month-chatgpt-pro-max-plan",
+      "one_liner": "유출된 코드와 스크린샷에 ChatGPT 플러스의 25배 가격인 새 등급이 보인다.",
+      "why_it_matters": "더 빠른 응답을 원하는 사용자를 겨냥한 고가 요금제로 AI 수익화 실험이 한 단계 올라간다.",
+      "confidence": 0.6,
+      "original_title": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
+      "implications": "AI 구독 시장 — 공식 발표 여부와 가격대.",
+      "tags": [
+        "AI",
+        "오픈AI",
+        "요금제"
+      ]
+    },
+    {
+      "title": "비트코인 프라이버시 거래 설계 공개…소프트포크 불필요",
+      "source": "토큰포스트",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Od1dfNWNkdy1udi1MMWplU0gxVThVejlnbnZmTEZJUF9GWHBGSGowWFdGd2cyY3pwazdNWmpoYWd3X25rWEI0al9Gb2dTcTRUMUdhVDVoWmU?oc=5",
+      "one_liner": "소프트포크 없이 쓸 수 있는 비트코인 프라이버시 거래 설계가 공개됐다.",
+      "why_it_matters": "프로토콜 변경 없이 구현 가능하다는 점이 제목의 요지다.",
+      "confidence": 0.5,
+      "original_title": "비트코인 프라이버시 거래 설계 공개…소프트포크 불필요 - 토큰포스트",
+      "implications": "비트코인 개발 생태계 — 설계 세부와 개발자 반응.",
+      "tags": [
+        "크립토",
+        "비트코인",
+        "프라이버시"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
