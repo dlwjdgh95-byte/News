@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "date": "2026-09-28",
+  "slot": "am",
+  "generated_at": "2026-09-28T03:43:46.893052+09:00",
+  "top_insight": [
+    "미중 정상회담은 판다 외교 같은 상징만 남기고 실질은 비었다는 평이 우세하다. 백악관 발표에서 북한 비핵화가 빠졌고, 한국은 우크라이나와 북한군 포로 송환을 두고 외교 마찰까지 겪고 있어 한반도 외교 환경이 복잡해졌다.",
+    "미국 안에서는 트럼프 지지율 37%와 농민층 이탈로 중간선거 전망이 나빠지는데, S&P500은 사상 최고치 0.7% 아래까지 올라왔다. 정치 리스크와 주가 낙관이 엇갈린다.",
+    "비트코인은 ETF에 11개월 만의 최대 유입(24억달러)과 50주선 돌파라는 호재가 있지만 가격은 8만4000달러대 혼조다. 코웬의 가짜 돌파 경고와 라이엇의 담보 해제 물량이 변수로 남아 있다."
+  ],
+  "whats_changed": [
+    "어제 호르무즈 협상 이슈 중심이던 국제 뉴스가 미중 정상회담 결과 평가로 옮겨 갔다.",
+    "어제 7거래일 연속 유입으로 소개된 비트코인 ETF 흐름이 24억달러, 11개월 만의 최대 유입으로 확인됐다. 가격은 여전히 8만4000달러대다.",
+    "국내 이슈는 귀국한 대통령의 국내 현안에서 우크라이나와의 북한군 포로 송환 마찰로 옮겨 갔다."
+  ],
+  "themes": [
+    "빈손의 미중 정상회담 — 북 비핵화 누락, 판다 외교만 부각",
+    "미국 정치 리스크 대 주가 낙관 — 지지율 37%, S&P500 전고점 근접",
+    "비트코인 수급 호재와 가격 정체 — ETF 대량 유입, 50주선 돌파, 가짜 돌파 경고"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "미중 정상회담 백악관 발표에 '北 비핵화' 빠져",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDQl9ENXJTd2FjZGtZcTdvOFp5b2pmc0g2T2U5WDNwMHdoazZjUFFIaEEwb1Fydi1Tc29FU2p5eEhOQ1FDQ1VpOTlRN3NVX1FGVnQtdVdJZ3VnQkVNQlVUVHdQN0VLcXc?oc=5",
+      "one_liner": "넉 달 전과 달리 이번 미중 정상회담 백악관 발표문에 북한 비핵화가 들어가지 않았다. 여러 매체가 '빅딜은 없었다'고 평했고, 중국 매체는 8개 성과 합의를 중요한 신호로 소개했다.",
+      "why_it_matters": "미중 정상회담 결과가 한반도 의제에서 후퇴한 것으로 읽힐 수 있어 대북 정책 환경에 변수가 된다.",
+      "confidence": 0.7,
+      "original_title": "넉달 전과 달리 미중정상회담 백악관 발표에 ’北비핵화’ 빠져 - 연합뉴스TV",
+      "implications": "한국 외교·안보 — 후속 미중 실무 협의에서 북한 의제가 다시 오르는지 지켜볼 것.",
+      "tags": [
+        "미중관계",
+        "북한",
+        "정상회담"
+      ]
+    },
+    {
+      "title": "\"공화당 중간선거 전망, '트럼프 역류'로 최악…농민들도 등 돌려\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nX2tlbTVkMWtPQnNwZjV0NFZPNzQyeXBZNm5ydWFkekROLVhTVk0xZ3NKV29udDFuZjBKajE0SlViSGZtZzh0cWttbV9md3gyVm15OE1aNGZZZjDSAWBBVV95cUxPZVItZDV0RXk1dFdhOUxQSVVUMC1iWjhfYVVkc281cm5tcGM3Uk5PNktmRXhyYXUzLUxpVmVIUlNtUnk1dmxnXzkzOVR2Sk45N1ZkenhyVXFYdDJab0tEUUc?oc=5",
+      "one_liner": "트럼프 지지율이 37%로 떨어지며 공화당의 하원 수성에 빨간불이 켜졌다. 관세·고유가에 불만을 품은 농민층의 이탈도 거론된다.",
+      "why_it_matters": "중간선거 판세 변화는 관세·에너지 정책의 지속 가능성에 대한 시장 기대를 바꿀 수 있다.",
+      "confidence": 0.65,
+      "original_title": "\"공화 중간선거 전망, '트럼프 역류'로 최악…농민들도 등돌려\" - 연합뉴스",
+      "implications": "미국 정책 리스크 — 민주당 5~15석 추가 전망이 여론조사로 굳어지는지.",
+      "tags": [
+        "미국정치",
+        "중간선거",
+        "관세"
+      ]
+    },
+    {
+      "title": "청와대, 우크라이나에 북한군 포로 국내 송환 관련 공개 해명·사과 요구",
+      "source": "매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96bmxrZmxxbE1haWd5Z2xmZDFTV0JHRUxUbUc2ZmpRYkEzRTdpc3o2U29YQUpYUUFlUl9PZVhFOFduVzR0NGMxMV80bXloYWh5WjBYTDhB?oc=5",
+      "one_liner": "청와대가 '포로 송환 비공개 합의는 없었다'는 우크라이나 측 발표를 허위 공보라며 강력한 유감과 사과를 요구했다. 젤렌스키 대통령이 북한군 포로의 한국행을 먼저 전한 데서 갈등이 불거졌다.",
+      "why_it_matters": "한-우크라이나 외교 마찰이자 대북 정책을 둘러싼 국내 정쟁으로 번지는 사안이다.",
+      "confidence": 0.7,
+      "original_title": "청와대, 우크라 북한 포로 국내송환 공개 해명·사과 요구 - 매일경제",
+      "implications": "외교·국내 정치 — 우크라이나 측 추가 해명과 포로 송환 일정이 나오는지.",
+      "tags": [
+        "외교",
+        "우크라이나",
+        "북한"
+      ]
+    },
+    {
+      "title": "영국 내 미군 사용 공군기지 인근 폭발물 사건…용의자 5명 체포",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvS1AwSHZnbmloallMVGVrU2dOZ0ZkYnhpdW1iRU1NMzZrQmhJSXVCeGY1dzFQc1FieHRKYWJ1NHluTncyTVIxZ0dXamtMNHpGOU5LTXNha0hSdnlOZHJ3ZmxsVENwQzQ?oc=5",
+      "one_liner": "미 폭격기가 오가는 영국 남부 공군기지 근처에서 폭발물 관련 용의자 5명이 체포됐다. 트럼프 대통령은 이들이 '큰 피해를 입히려 했다'고 말했다.",
+      "why_it_matters": "이란 공격 때 쓰인 기지로 알려진 곳이라 중동 갈등이 유럽 내 안보 사건으로 번질 가능성을 보여 준다.",
+      "confidence": 0.65,
+      "original_title": "트럼프, 美이용 英기지 테러의심 용의자들에 \"큰 타격 기도\" - 연합뉴스TV",
+      "implications": "지정학 리스크 — 수사에서 배후와 이란 연계 여부가 드러나는지.",
+      "tags": [
+        "안보",
+        "영국",
+        "중동"
+      ]
+    },
+    {
+      "title": "미중 '판다 외교' 10년 만에 재시동…핑핑·푸솽 미국 도착",
+      "source": "파이낸셜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RTjZVVWlnWW5BUzVYdnhTZm5xQTMyVjhUdTNrOXJIbDRMRWpsbWtoUHZGWDJabWYxdUJUOW5jME1HRDJCSGxVb29PVnIzLUdmTDJkT0pDUXVIZw?oc=5",
+      "one_liner": "시진핑 주석이 선물한 판다 핑핑과 푸솽이 삼엄한 호위 속에 미국에 도착했다. 미중 판다 외교가 10년 만에 재개됐다.",
+      "why_it_matters": "정상회담 직후 상징적 우호 제스처로, 실질 성과가 적었다는 평가와 대비된다.",
+      "confidence": 0.65,
+      "original_title": "美·中 '판다 외교' 10년 만의 재시동…핑핑·푸솽, 삼엄한 호위 속 미국 상륙 - 파이낸셜뉴스",
+      "implications": "미중 관계 — 상징 외교가 무역·기술 협상 진전으로 이어지는지.",
+      "tags": [
+        "미중관계",
+        "외교"
+      ]
+    },
+    {
+      "title": "초과세수 50조원 넘는다…미래대응기금 200조원대 전망",
+      "source": "khan",
+      "url": "https://www.khan.co.kr/article/202609271541001/",
+      "one_liner": "정부가 반도체 경기 호조를 반영해 다시 추산한 올해 초과세수가 50조원을 넘을 것으로 전해졌다. 내년 미래대응기금 규모도 200조원을 웃돌 가능성이 커졌다.",
+      "why_it_matters": "반도체 호황이 세수로 확인됐다는 뜻이고, 초과세수 활용 방식이 내년 재정 운용과 국채 수급에 영향을 준다.",
+      "confidence": 0.75,
+      "implications": "국채 시장·재정 정책 — 초과세수가 국채 발행 축소나 기금 확대 중 어디로 가는지.",
+      "tags": [
+        "재정",
+        "세수",
+        "반도체"
+      ]
+    },
+    {
+      "title": "제프리스, S&P500 목표 9000 제시…\"모든 게 잘 풀려야 가능\" (원문: Jefferies Sets 9,000 Market Target: Everything Must Go Right)",
+      "source": "seekingalpha",
+      "url": "https://seekingalpha.com/article/4950010-jefferies-sets-9000-market-target-everything-must-go-right",
+      "one_liner": "S&P500이 이번 주 1.2% 올라 7,744.64에 마감했다. 연초 대비 13.1% 상승으로, 8월 13일 사상 최고 종가 7,798.99까지 0.7% 남았다.",
+      "why_it_matters": "미국 증시가 사상 최고치 바로 아래에 있어 낙관적 목표치가 나오지만, 전제 조건이 많다는 경고가 붙었다.",
+      "confidence": 0.7,
+      "original_title": "Jefferies Sets 9,000 Market Target: Everything Must Go Right",
+      "implications": "미국 주식 — 전고점 7,798.99 돌파 여부.",
+      "tags": [
+        "미국증시",
+        "S&P500"
+      ]
+    },
+    {
+      "title": "인도 크립토 사용자 증가, Z세대·중소도시가 이끈다 (원문: Gen Z, smaller cities drive India's crypto user growth)",
+      "source": "daijiworld",
+      "url": "https://daijiworld.com/news/newsDisplay?newsID=1326859",
+      "one_liner": "인도 크립토 시장에서 젊은 투자자와 중소도시 사용자가 신규 가입의 더 큰 비중을 차지하고 있다고 ZebPay 보고서가 밝혔다.",
+      "why_it_matters": "신흥국 리테일 저변이 넓어지는 흐름을 보여 준다.",
+      "confidence": 0.65,
+      "original_title": "Gen Z, smaller cities drive India's crypto user growth",
+      "implications": "신흥국 크립토 — 인도 규제·과세 변화와 거래소 가입 추이.",
+      "tags": [
+        "인도",
+        "크립토",
+        "리테일"
+      ]
+    },
+    {
+      "title": "비트코인 ETF에 24억달러 유입, 11개월 만에 최대",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01SkJCQU01dUNDNWdIMXdKRHY1R244OGxxa01JRTR6TUNzeXpfbFlfQnA1RGRDX0dTZWJSNXhYZnZXdDBnczFfNkpzelhwZUlPV180WGdONm43cFpQcmlOT3pzS2tXYUhETGNEWQ?oc=5",
+      "one_liner": "비트코인 현물 ETF에 24억달러가 몰리며 11개월 만에 최대 유입을 기록했다.",
+      "why_it_matters": "기관 수급이 가격 반등의 근거로 거론되는 가운데 유입 규모가 커지고 있다.",
+      "confidence": 0.6,
+      "original_title": "비트코인 ETF에 24억달러 몰려 ‘11개월 만에 최대’ - 경향게임스",
+      "implications": "크립토 수급 — 유입 흐름이 다음 주에도 이어지는지.",
+      "tags": [
+        "비트코인",
+        "ETF"
+      ]
+    },
+    {
+      "title": "[자정 시세] 암호화폐 혼조…비트코인 84,518달러, 이더리움 2,686달러",
+      "source": "토큰포스트",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CYS1mV2tqcnZ1enNsUzhzT2ZrdjRzTTI0OGc4RVJYbG1hWmJZeGd1MlRWWkp5b09XUjZJVVV1LWJVZ2QwV1RzMl9LZ1Qxc0c3R2p6VHc2bFE?oc=5",
+      "one_liner": "자정 기준 비트코인은 84,518달러, 이더리움은 2,686달러로 시장은 혼조세다.",
+      "why_it_matters": "ETF 대량 유입에도 가격은 뚜렷한 방향 없이 8만4000달러대에 머물러 있다.",
+      "confidence": 0.6,
+      "original_title": "[자정 시세브리핑] 암호화폐 시장 혼조세… 비트코인 84,518달러, 이더리움 2,686달러 - 토큰포스트",
+      "implications": "크립토 가격 — 8만3000~8만5000달러 구간 이탈 방향.",
+      "tags": [
+        "비트코인",
+        "이더리움",
+        "시세"
+      ]
+    },
+    {
+      "title": "8만3000달러 갈림길 선 비트코인…코웬 \"가짜 돌파 경계\"",
+      "source": "글로벌이코노믹",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOHVUSllRc3pncFlKNEp6MklQbXZ3OW1RVWRWZmF2eHlsRUxoX1d1NkVMSVliblZodnNVWVNhZnVfdEhVRHEzNWVPVHIzaUR5QXdLbGxKWkNnUlE2N1BhcTdkdWFTUDhpSXh1c3Y0ek1BdVUxcXNkRl9sczhtUm9hUzVlNG9Sc3c?oc=5",
+      "one_liner": "비트코인이 8만3000달러 갈림길에 선 가운데 코웬은 가짜 돌파를 경계해야 한다고 짚었다.",
+      "why_it_matters": "낙관론이 커지는 와중에 기술적 반락 가능성을 지적하는 반대 목소리다.",
+      "confidence": 0.55,
+      "original_title": "8만3000달러 갈림길 선 비트코인… 코웬 \"가짜 돌파 경계\" - 글로벌이코노믹",
+      "implications": "크립토 트레이더 — 8만3000달러 지지 여부.",
+      "tags": [
+        "비트코인",
+        "기술적분석"
+      ]
+    },
+    {
+      "title": "비트코인, 클래리티법·금리 변수 넘어 '50주 이동평균선' 돌파",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2Q0RGWFFnbWJteVpPc085UGo5ZThwblVRUzM5eVZyQ2ZVeVR2a0I3S28zZXZCUmRkWldWSHo5c19FS0dRc05qWGxYWDZ5TE1ESFB3VHgxNk9XSFZoRjA0QWJYbm53ZjV1YndLcg?oc=5",
+      "one_liner": "비트코인이 클래리티법 무산과 금리 변수를 넘어 50주 이동평균선을 돌파했다는 분석이 나왔다.",
+      "why_it_matters": "중기 추세선 회복은 강세 전환 논거로 쓰이지만, 같은 날 가짜 돌파 경고도 나왔다.",
+      "confidence": 0.55,
+      "original_title": "비트코인, 클라리티·금리 변수 넘어 ‘50주 이동평균선’ 돌파 - 경향게임스",
+      "implications": "크립토 추세 — 주봉 종가가 50주선 위에서 유지되는지.",
+      "tags": [
+        "비트코인",
+        "기술적분석"
+      ]
+    },
+    {
+      "title": "라이엇, 코인베이스 대출 2억달러 상환…비트코인 5,821개 담보 해제",
+      "source": "토큰포스트",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9tZmdFR1RWelByN01yYzcwNmdhUWwxQWdQS25xMmlvYVRFUG45aVNEZXM1X1IzRkx6dmhpazJyUXM5anFJQkJidzU1bkFnTG0wZERQNzBmMEs?oc=5",
+      "one_liner": "채굴업체 라이엇이 코인베이스 대출 2억달러를 갚고 담보로 잡혀 있던 비트코인 5,821개를 풀었다.",
+      "why_it_matters": "풀린 물량이 시장에 매도될지가 관심사로 떠올랐다.",
+      "confidence": 0.6,
+      "original_title": "라이엇, 코인베이스 대출 2억달러 상환…비트코인 5,821개 담보 해제 - 토큰포스트",
+      "implications": "채굴사 수급 — 라이엇 지갑의 거래소 이동 여부.",
+      "tags": [
+        "비트코인",
+        "채굴",
+        "라이엇"
+      ]
+    },
+    {
+      "title": "비트코인의 양자 문제: 연구자들이 찾는 세 가지 해법 (원문: Bitcoin's Quantum Problem: Three Ways Researchers Are Trying to Fix It)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379400/bitcoins-quantum-problem-three-ways-researchers-are-trying-to-fix-it",
+      "one_liner": "이번 주 비용 절감 돌파, 새 프라이버시 설계, 수탁 대응 지침이 나오며 비트코인 양자 대응 논의가 이론에서 실행 단계로 옮겨 가고 있다. Q-Day는 여전히 가설이다.",
+      "why_it_matters": "양자컴퓨팅 위협은 비트코인의 장기 리스크로 거론돼 왔고, 대응이 구체화되고 있다.",
+      "confidence": 0.6,
+      "original_title": "Bitcoin's Quantum Problem: Three Ways Researchers Are Trying to Fix It",
+      "implications": "비트코인 프로토콜 — 양자 내성 관련 BIP 논의 진척.",
+      "tags": [
+        "비트코인",
+        "양자컴퓨팅"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
