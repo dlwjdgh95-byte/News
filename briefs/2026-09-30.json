@@ -1,0 +1,240 @@
+{
+  "schema": 1,
+  "date": "2026-09-30",
+  "slot": "am",
+  "generated_at": "2026-09-30T03:43:41.269522+09:00",
+  "top_insight": [
+    "美 국채금리 급등과 연준 '인상' 베팅이 달러를 밀어 올리며 코스피 약보합·구리 2.3% 하락·비트코인 8만5천 달러 실패로 위험자산 전반을 눌렀다.",
+    "트럼프는 이란전이 곧 끝나 유가가 급락할 것이라 했지만, 영국 기지 테러 모의 배후 논란과 이란 리알화 최저 경신이 겹쳐 중동 변수는 여전히 열려 있다.",
+    "크립토는 ETF 8일 연속 유입·NEAR 현물 ETF·토큰화 옵션 등 제도권 흐름이 이어지는 반면 명확성 법안 부결이 규제 불확실성을 남겼다."
+  ],
+  "whats_changed": [
+    "어제 트럼프의 이란 평화안 거부로 브렌트유 107달러를 넘었는데, 오늘은 트럼프가 '곧 종전·유가 급락'을 공언했다.",
+    "어제 美 10년물 변동성 급등 논의가 오늘 '연준 인상 베팅'으로 번져 구리·코스피까지 압박했다.",
+    "어제 SK하이닉스 5% 급락 뒤 코스피는 6870선 약보합으로 마감했다."
+  ],
+  "themes": [
+    "금리·달러 역풍 — 연준 인상 베팅이 주식·원자재·크립토를 동시 압박",
+    "중동 변수 — 종전 공언 vs 테러 배후 논란·이란 경제 붕괴",
+    "크립토 제도화 — ETF 유입·토큰화 확대 속 명확성 법안 부결"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "비트코인 9월 월봉 마감(9/30)",
+    "브라질 인플레이션·고용·재정 지표 발표"
+  ],
+  "items": [
+    {
+      "title": "트럼프 \"'짧은 소풍' 이란전 곧 끝나고 유가 급락할 것\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rTmFub1ZKUE9kZVFLUGhVb1htYUk5N2VWWXZzRF9VRzAydEpwOU5OU3JwYmZUbEJ5MWpudkhNT0xuVGQ0b1ByUGp4YVhWQVg1M3FmaHZpeERzVU80dFo5VzBnbm5VM00?oc=5",
+      "one_liner": "트럼프가 이란전을 '짧은 소풍'이라 부르며 전쟁이 곧 끝나고 유가가 급락할 것이라고 말했다.",
+      "why_it_matters": "유가 급등 국면에서 美 대통령이 종전·유가 하락을 공언해 에너지 가격 기대에 변수가 된다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 “‘짧은 소풍’ 이란전 곧 끝나고 유가 급락” - 연합뉴스TV",
+      "implications": "정유·항공·물가 경로에 영향 — 실제 협상 진전과 호르무즈 통항 여부로 발언이 검증되는지 지켜볼 것.",
+      "tags": [
+        "이란",
+        "유가",
+        "트럼프"
+      ],
+      "flags": [
+        "unsourced-claim"
+      ]
+    },
+    {
+      "title": "美, 이라크항공 이란 노선 제재 면제…이란 리알화는 또 역대 최저",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fVmJmOUthNUwyRU5jVEx1ZXB5VE5uTjVJRDdoMnZnV1JVTzNXNkF6ZWpaZ3lJc0dzRVl2YkJkTmEzeWRramZBcHZLbTlpMXF3djZDS0lQVHhPYlZ4VnNWTV9n0gFnQVVfeXFMUENFZWNMbUExU1l5M0tOdnpIMWZkNGMzV1hCcjg2Z3dIV0JiNmRkSFgxYkNYdjI0Z1djVE9KUjUyZUNVQ2lYcnNSVkNwRk1Jb19XcGlQNGNUdnhoQmtSbjZTcG91SWt2VQ?oc=5",
+      "one_liner": "미국이 이라크항공의 이란 순례지 노선에 제재 예외를 허용해 10월 운항이 재개되는 가운데, 이란 리알화는 달러당 245만 리알로 또 최저를 경신했다.",
+      "why_it_matters": "제한적 제재 완화 신호와 이란 경제 붕괴 가속이 동시에 나타나 협상 압력의 방향을 보여준다.",
+      "confidence": 0.72,
+      "original_title": "美, 이라크항공 이란 노선에 제재 면제…10월 운항 재개 - 뉴스1",
+      "implications": "중동 리스크 프리미엄에 영향 — 추가 제재 예외 여부와 이란 내부 경제 지표를 지켜볼 것.",
+      "tags": [
+        "이란",
+        "제재",
+        "중동"
+      ]
+    },
+    {
+      "title": "트럼프 \"초지능(SI) 개발 억제하지 않을 것\"…빅테크 수장들과 백악관 AI 회동",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fZVZ6Y1d0Qi1HNjF3SlRlS3BJajVRdlBINWNpdVVHNXcxVGpfeVZWYkJVZzhmNXlKSGRfclZPNV9PTHBlUEpuaHdMNjh4SHVFY3RqcHNCalBIaG1Y?oc=5",
+      "one_liner": "트럼프가 초지능 개발을 억제하지 않겠다고 밝히고, 앤트로픽·오픈AI 등 빅테크 수장들과 백악관에서 AI 회동을 가졌다.",
+      "why_it_matters": "美 정부의 AI 규제 방향이 완화 쪽으로 기울고 있음을 보여준다.",
+      "confidence": 0.66,
+      "original_title": "트럼프 \"초지능(SI) 개발 억제하지 않을 것\" - 뉴스핌",
+      "implications": "AI·반도체 업종에 영향 — 회동 이후 규제 갈등 해소 여부와 정책 발표를 지켜볼 것.",
+      "tags": [
+        "AI",
+        "규제",
+        "트럼프"
+      ]
+    },
+    {
+      "title": "루비오 \"분명한 외국 세력 개입\"…英 미군 이용 기지 테러 모의 배후 지목",
+      "source": "파이낸셜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ONWRfUUdYQnpnYWlLeVFfRTZPc18xODhQdFg0VGJaRDc3SXRiSVlOcUpHbVlRVjE0NTF4c2ZlckNKdWhfWlZpRTdmVFFEMXFuYlJHWG5PWUgxZw?oc=5",
+      "one_liner": "루비오 국무장관이 이란 공습에 쓰인 영국 공군기지 테러 모의에 외국 세력이 개입했다고 밝혔고, 이란은 연관설을 부인했다.",
+      "why_it_matters": "이란전이 역외 테러 우려로 번지며 美·이란 협상 분위기에 부담이 된다.",
+      "confidence": 0.68,
+      "original_title": "\"분명한 외국 세력 개입\"…루비오, '이란 공습' 英 미군기지 테러 배후 지목 - 파이낸셜뉴스",
+      "implications": "중동·유럽 안보 리스크에 영향 — 수사 결과와 美의 대응 수위를 지켜볼 것.",
+      "tags": [
+        "이란",
+        "안보",
+        "미국"
+      ]
+    },
+    {
+      "title": "정은경 \"기초연금 목표수급률, 소득 기준으로 변경 필요\"…여야 '하후상박' 개편안 질타",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tQXpmVl9nTzAwMlBEWTBjbWV2M2RfblJPSnB6bEJGa2VQNVQ0MDVZUFV3bFFta3czcU9lcnMyRmpOT0VuZDFsaDFxQ1pMZ2J4X0lhQkx5QkFES0otX0lSS2JIT09ZQQ?oc=5",
+      "one_liner": "정은경 장관이 기초연금 목표수급률을 소득 기준으로 바꿀 필요가 있다고 밝혔고, 여야는 연금특위에서 정부 개편안의 빈곤 완화 효과가 작다고 한목소리로 비판했다.",
+      "why_it_matters": "기초연금 개편 방향이 재정·노후소득 구조에 직접 영향을 준다.",
+      "confidence": 0.66,
+      "original_title": "정은경 “기초연금 목표수급률, 소득 기준으로 변경 필요” - 한겨레",
+      "implications": "고령층 소득·재정지출에 영향 — 연금특위 논의와 정부 수정안을 지켜볼 것.",
+      "tags": [
+        "연금",
+        "복지",
+        "정책"
+      ]
+    },
+    {
+      "title": "美 금리·유가 급등에 긴축 공포…코스피 6870선 약보합 마감 (원문: 미 금리·유가 급등에 긴축 공포…코스피, 6870선 마감)",
+      "source": "etoday",
+      "url": "https://www.etoday.co.kr/news/view/2630479",
+      "one_liner": "미국채 금리 상승 부담과 국제유가 재상승이 겹쳐 코스피가 약보합으로 6870선에서 마감했다.",
+      "why_it_matters": "금리·유가 두 변수가 동시에 국내 증시 상단을 누르는 구도가 이어지고 있다.",
+      "confidence": 0.78,
+      "original_title": "미 금리·유가 급등에 긴축 공포…코스피, 6870선 마감",
+      "implications": "외국인 수급·성장주에 영향 — 美 10년물 금리와 유가 방향을 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "금리",
+        "유가"
+      ]
+    },
+    {
+      "title": "연준 인상 베팅에 달러 강세…구리 추종 펀드 2.3% 하락 (원문: Copper Tracker Falls 2.3% as Fed Hike Bets Lift Dollar)",
+      "source": "riotimesonline",
+      "url": "https://www.riotimesonline.com/copper-markets-latam-tuesday-september-29-2026/",
+      "one_liner": "연준 금리 인상 베팅이 국채금리와 달러를 끌어올리며 CPER 구리 선물 펀드가 2.29% 내린 39.68달러를 기록했다.",
+      "why_it_matters": "시장이 인하가 아닌 인상 가능성을 가격에 반영하기 시작해 원자재·위험자산 전반에 부담이다.",
+      "confidence": 0.75,
+      "original_title": "Copper Tracker Falls 2.3% as Fed Hike Bets Lift Dollar",
+      "implications": "구리 수출국(칠레·페루)과 원자재주에 영향 — 연준 인사 발언과 달러지수를 지켜볼 것.",
+      "tags": [
+        "구리",
+        "연준",
+        "달러"
+      ]
+    },
+    {
+      "title": "금 현물 4,143달러 시험…지지·저항 공방 (원문: Gold Tests $4,143 as the VC PMI Mean Holds Overhead)",
+      "source": "investing_ph",
+      "url": "https://ph.investing.com/analysis/gold-tests-4143-as-the-vc-pmi-mean-holds-overhead-219437",
+      "one_liner": "금 현물이 온스당 4,143달러 선을 시험하고 있다는 시장 분석이 나왔다.",
+      "why_it_matters": "美 국채금리·달러 강세 국면에서 금이 기술적 저항에 막혀 있다.",
+      "confidence": 0.55,
+      "original_title": "Gold Tests $4,143 as the VC PMI Mean Holds Overhead",
+      "implications": "안전자산 배분에 영향 — 달러지수·10년물 금리와 함께 방향을 지켜볼 것.",
+      "tags": [
+        "금",
+        "원자재"
+      ]
+    },
+    {
+      "title": "비트코인 ETF 8거래일 연속 유입…30일간 29.5억 달러 (원문: Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379575/crypto-etfs-surge-bitcoin-adds-nearly-3-billion",
+      "one_liner": "비트코인 ETF가 월요일까지 8거래일 연속 순유입을 이어가며 30일간 29.5억 달러를 끌어모았다.",
+      "why_it_matters": "명확성법(Clarity Act) 관련 매도 이후 기관 수요가 빠르게 회복됐다는 신호다.",
+      "confidence": 0.72,
+      "original_title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
+      "implications": "BTC 현물 수급에 영향 — ETF 순유입 연속 기록이 이어지는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "크립토"
+      ]
+    },
+    {
+      "title": "비트코인 상승분 반납…장기 보유자 매도에 8만5천 달러 벽 (원문: Bitcoin gives back gains as long-term holder supply keeps $85K out of reach)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-gives-back-gains-long-term-holder-supply-keeps-85k-out-of-reach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인이 8만5천 달러 재도전에 실패했고, 급등한 美 국채금리가 주식·귀금속에도 부담을 줬다.",
+      "why_it_matters": "ETF 유입에도 장기 보유자 공급이 상단을 막아 금리 환경과 함께 가격을 눌렀다.",
+      "confidence": 0.68,
+      "original_title": "Bitcoin gives back gains as long-term holder supply keeps $85K out of reach",
+      "implications": "크립토 단기 방향에 영향 — 8만5천 달러 돌파 여부와 美 국채금리를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "금리"
+      ]
+    },
+    {
+      "title": "美 크립토 '명확성 법안' 민주당 반대로 부결",
+      "source": "데일리비즈온",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtOThvWjhlcW1VNTJzNTJyX0hzZTR5OTBScE9VZjF4eERtRzR3T1ZVQ2pMaEM0aVFUd1B1QkJZUUZRUXQ0aUpjSFZDZ3BoVmRXMk9jRWVQMmVZWG5yUF95czUtSG15QWJoVWZrWA?oc=5",
+      "one_liner": "美 디지털자산 시장구조법(명확성 법안)이 민주당 반대로 부결되자 스콧 의원이 \"국민 아닌 특수이익을 따르나\"라고 비판했다.",
+      "why_it_matters": "미국 크립토 규제 명확화 일정이 늦어져 업계 제도화 기대에 차질이 생겼다.",
+      "confidence": 0.65,
+      "original_title": "[D-BIZ 암호화폐 뉴스] 美「명확성법안」민주당 반대로 부결…스콧 의원 \"국민 아닌 특수이익 따르고 있나\" - 데일리비즈온",
+      "implications": "거래소·알트코인에 영향 — 법안 재상정 일정과 초당적 수정안을 지켜볼 것.",
+      "tags": [
+        "규제",
+        "크립토",
+        "미국의회"
+      ]
+    },
+    {
+      "title": "Cboe·S&P 다우존스, 라이선스 연장으로 토큰화 옵션 계약 검토 (원문: Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/09/29/cboe-s-and-p-dow-jones-may-explore-tokenized-options-contracts-under-extended-licensing-deal",
+      "one_liner": "Cboe와 S&P 다우존스 지수가 라이선스 계약을 연장하면서 토큰화 파생상품 출시 가능성을 열었다.",
+      "why_it_matters": "나스닥·NYSE·DTCC에 이어 파생상품 영역까지 전통시장의 온체인 이전이 확산되고 있다.",
+      "confidence": 0.62,
+      "original_title": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
+      "implications": "거래소·토큰화 인프라에 영향 — 실제 상품 출시 일정과 규제 승인을 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "파생상품",
+        "크립토"
+      ]
+    },
+    {
+      "title": "Bitwise, 美 첫 NEAR 현물 ETF 출시…토큰 한 달 160% 급등 (원문: Bitwise launches first US spot NEAR ETF after token’s recent surge)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/bitwise-launches-first-us-spot-near-etf-after-tokens-recent-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "Bitwise의 NEAR 현물 ETF가 NYSE Arca에서 거래를 시작했고, NEAR는 지난 한 달간 160% 넘게 올랐다.",
+      "why_it_matters": "알트코인 현물 ETF 라인업이 확대되며 기관 접근 경로가 넓어지고 있다.",
+      "confidence": 0.62,
+      "original_title": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
+      "implications": "알트코인 ETF 수급에 영향 — 초기 자금 유입 규모를 지켜볼 것.",
+      "tags": [
+        "ETF",
+        "NEAR",
+        "크립토"
+      ]
+    },
+    {
+      "title": "비트코인, 역대 최고의 9월 눈앞…9월 7.33% 상승 (원문: Is the Red September Curse Over? Bitcoin Set for Best September on Record)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379549/red-september-curse-over-bitcoin-best-returns-record",
+      "one_liner": "비트코인이 9월 한 달 7.33% 올라 월봉 마감 하루를 남기고 2024년을 넘어 역대 최고의 9월을 기록할 참이다.",
+      "why_it_matters": "전통적 약세 달인 9월의 계절성이 깨질지 주목된다.",
+      "confidence": 0.6,
+      "original_title": "Is the Red September Curse Over? Bitcoin Set for Best September on Record",
+      "implications": "크립토 심리에 영향 — 9월 월봉 마감가를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "계절성"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
