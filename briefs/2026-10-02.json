@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "date": "2026-10-02",
+  "slot": "am",
+  "generated_at": "2026-10-02T03:44:14.367616+09:00",
+  "top_insight": [
+    "PCE 하회로 꺾였던 인상 공포가 카시카리의 '올해 한 번 더 인상' 발언과 24년 만의 국채금리 고점으로 되살아났다. 10월 동결 확률은 63%로 동결 우위지만, 장기금리 5%대가 위험자산의 상단을 누르고 있다.",
+    "비트코인은 '업토버' 계절성과 금리 역풍 사이에서 저점 높이기를 방어 중이다.",
+    "미국 크립토 규제는 클래리티법 부결 뒤 주 단위로 움직인다 — 일리노이 과세 연기, 뉴욕·와이오밍 감독 공조."
+  ],
+  "whats_changed": [
+    "어제 PCE 하회로 인상 베팅이 후퇴했지만, 오늘은 카시카리가 추가 인상 필요를 말하며 매파 목소리가 다시 나왔다.",
+    "어제 '멈췄다'던 클래리티법이 오늘은 부결 보도로 이어지며 규제당국 재량 경로가 거론됐다.",
+    "어제 알래스카 LNG가 대미투자에 포함됐는데, 오늘은 방글라데시 석탄 회귀로 LNG 수요 전망에 경고가 나왔다."
+  ],
+  "themes": [
+    "고금리 재점화 — 카시카리 매파 발언·국채 24년 고점·채권 최악의 분기",
+    "크립토 규제의 주(州) 단위 이동 — 클래리티법 부결 뒤 일리노이·뉴욕·와이오밍",
+    "국내 정치·안보 갈등 — 중수청장 인선, 대북 확성기 공방"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 10월 FOMC 금리 결정(시장 동결 확률 63%)",
+    "일리노이 0.2% 디지털자산세 시행 2027-07-01로 연기 요청(법원 판단 대기)"
+  ],
+  "items": [
+    {
+      "title": "美 국채, 연준 인사 연설 대기하며 '스티프닝'…글로벌 채권 2년 만에 최악의 분기",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51dFZBWHFFU182SnlrUjRtVHV5SHVlY0NkXzJjUjhoZzY3UTl6d2M1WFRRdDc5Ty0xdzN6a2VXdk1YdUhldjBDWmRiQ2MyT0Q1ZXkwbkJGYlhIWUNLRkJpV05rYndQWEJuNHQwdy16N2Q?oc=5",
+      "one_liner": "美 국채가 연준 인사 연설을 앞두고 스티프닝을 보였고, 글로벌 채권시장은 2년 만에 최악의 분기를 기록했다.",
+      "why_it_matters": "5%대 장기 국채금리가 증시와 위험자산 전반의 할인율을 끌어올리는 구간이다.",
+      "confidence": 0.75,
+      "original_title": "美 국채, 연준 인사 연설 대기하며 '스티프닝' - 연합인포맥스",
+      "implications": "장기채·성장주·크립토 보유자에게 부담 — 연준 인사 발언과 장기물 금리 방향을 지켜볼 것.",
+      "tags": [
+        "미국채",
+        "금리",
+        "채권"
+      ]
+    },
+    {
+      "title": "'매파' 카시카리 \"물가 잡으려면 금리 얼마나 올릴지가 문제\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yeGJjZHhwRUxLVFZpOTNFTlJ2d1dQemRLUXVQNTQzaUozZWtFOGV6Q216WVNiZlR2MXBVSVBDclJIREdCSHcwblc3ZkhuYXV5M0VHXzFCbFpjUWcteGF5QncwV1RNcTA?oc=5",
+      "one_liner": "카시카리 미니애폴리스 연은 총재가 추가 금리 인상이 필요하다면서도 이달 인상 여부는 불확실하다고 말했다.",
+      "why_it_matters": "PCE 하회 뒤에도 연준 내 매파가 '올해 한 번 더 인상'을 거론해 인상 베팅이 완전히 사라지지 않았다.",
+      "confidence": 0.78,
+      "original_title": "’매파’ 카시카리 “물가 잡기 위해 금리 얼마나 올릴지가 문제“ - 연합뉴스TV",
+      "implications": "금리 민감 자산 전반에 영향 — 10월 FOMC 결정과 다른 연준 인사 발언을 지켜볼 것.",
+      "tags": [
+        "연준",
+        "카시카리",
+        "금리인상"
+      ]
+    },
+    {
+      "title": "서울 아파트값 86주 연속 상승 '역대 최장'…오름폭은 5주째 둔화",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13cFFBUjRXZVNsUkpIVm1mMDBwUU5vV3k1ZTdfdTBxMEY2aW5mZWlHd0pyWjh0bFMzcElReU5fM1p5Y1d5R3ZJZ0E0TDdnNWd5dWllQ1RUZHBGZmNQVHc?oc=5",
+      "one_liner": "서울 아파트 매매가격이 86주 연속 오르며 역대 최장 기록을 세웠지만 오름폭은 5주째 줄었다.",
+      "why_it_matters": "상승 기간은 최장이지만 상승폭 둔화가 이어져 국면 전환 여부를 두고 시각이 갈린다.",
+      "confidence": 0.8,
+      "original_title": "서울 아파트값 86주째 쉬지 않고 올랐다...\"역대 최장\" - YTN",
+      "implications": "주택 실수요자·건설·금융에 영향 — 주간 상승폭 둔화 지속 여부와 세제·금리 변수를 지켜볼 것.",
+      "tags": [
+        "부동산",
+        "서울아파트"
+      ]
+    },
+    {
+      "title": "청와대 \"김지용 '친윤 검사' 아냐\"…여권 반발에도 중수청장 임명 뜻",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoekQtOGhlUXk0NGRVQjkzbTN2aUNWZE1TMjJWczBkWTJVN0RyNERlWnNZV3JpOFBISWdRdVA1U1lPbmRjWlNUQUVObWFDYjBaOVpadFVfREJYUm9aYWtrbHdWU0ZibDJVbm9n?oc=5",
+      "one_liner": "청와대가 김지용 중수청장 후보자를 둘러싼 '친윤 검사' 논란을 반박하며 여권 강경파 반발에도 임명 의사를 밝혔다.",
+      "why_it_matters": "검찰청 폐지 직후 출범하는 중수청 수장 인선을 두고 여권 내부 갈등이 드러났다.",
+      "confidence": 0.75,
+      "original_title": "청 “김지용 ‘친윤 검사’ 아냐”…여권 내 반발에도 임명 뜻 - 한겨레",
+      "implications": "형사사법체계 개편 일정에 영향 — 인사청문 과정과 여당 강경파 대응을 지켜볼 것.",
+      "tags": [
+        "중수청",
+        "인사",
+        "정치"
+      ]
+    },
+    {
+      "title": "국힘 '대북 확성기 재개' 주장에 접경지 주민 \"무책임\" 반발",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XWGF5MVJYZ1NBQ1dzdFBYOER0ckNOa09yNWFpMS1QYkJuSnIxMExFWEFVM3A0c2VkdzRITGxZNHJpUWhkQ2ZlZ2huRHIwMFNyT1VyV2ZzOW9xd9IBX0FVX3lxTE9OS3hWWlY0S3RwWERPQ1EwdWpnTkdtdUtETUg2T0xlSDZKUmFrNmRlMzZvaE5WQ1Jtb0E3SEFfOGJrZjh0aXZVQmVWeExXcG1LckVUcllMR3M3S0lYUW1z?oc=5",
+      "one_liner": "국민의힘의 대북 확성기 방송 재개 주장에 접경지 주민들이 불안을 호소하며 반발했다.",
+      "why_it_matters": "지뢰 폭발 사고 이후 남북 군사 긴장과 대북 대응 수위를 둘러싼 정치 공방이 커지고 있다.",
+      "confidence": 0.72,
+      "original_title": "국힘 ‘대북 확성기 방송 재개’ 주장에 불안한 접경지 주민들…“무책임” 반발 - 경향신문",
+      "implications": "접경지·대북 리스크에 영향 — 정부의 대북 대응 방침과 군사회담 성사 여부를 지켜볼 것.",
+      "tags": [
+        "남북",
+        "대북확성기",
+        "안보"
+      ]
+    },
+    {
+      "title": "도쿄 35일 연속 비…'기상병' 호소에 채소값 급등",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSFY0SnZTQkJCeGJLRjcwdnFUbmY4b3hNNXJkcC1jVVh6cV84VjJ5Q3BDNmpDdURpN0tDSVBRSkE0azZ4LVRFY0lQSHhHZGRNNDJHMkdTR3ZEMEt0T2RWMHJIOXl2RVA1WjdPdG5Ddlh6ZGl1WElWTk5BS3JPM1ZhVnIyVm5PdHZMT3JmRlZlb3JxR2EwTTJnRTREUnozdw?oc=5",
+      "one_liner": "도쿄에 35일 연속 비가 내리며 '기상병' 호소가 나오고 채소값이 급등했다.",
+      "why_it_matters": "이상기후가 일본의 식품 물가를 자극하는 요인으로 번지고 있다.",
+      "confidence": 0.7,
+      "original_title": "35일 연속 비 온 도쿄, 이러다 우울증 걸리겠네 - 조선일보",
+      "implications": "일본 식품 물가와 소비에 영향 — 일본 신선식품 가격과 날씨 정상화 시점을 지켜볼 것.",
+      "tags": [
+        "일본",
+        "이상기후",
+        "물가"
+      ]
+    },
+    {
+      "title": "방글라데시의 석탄 회귀, LNG 수출국에 또 하나의 악재 (원문: Bangladesh's coal turn is a fresh bad sign for LNG exporters)",
+      "source": "miningweekly",
+      "url": "https://www.miningweekly.com/article/bangladeshs-coal-turn-is-a-fresh-bad-sign-for-lng-exporters-2026-10-01",
+      "one_liner": "LNG 수입 인프라에 대규모 투자한 방글라데시가 석탄으로 돌아서며 LNG 성장 시장의 경고 신호가 됐다는 로이터 칼럼이다.",
+      "why_it_matters": "수요 증가·국내 가스 감소라는 전형적 LNG 성장 시장마저 이탈하면 LNG 수요 전망이 약해진다.",
+      "confidence": 0.7,
+      "original_title": "Bangladesh's coal turn is a fresh bad sign for LNG exporters",
+      "implications": "LNG 수출국·프로젝트(알래스카 LNG 등)에 영향 — 신흥국의 연료 선택과 LNG 가격을 지켜볼 것.",
+      "tags": [
+        "LNG",
+        "석탄",
+        "에너지"
+      ]
+    },
+    {
+      "title": "\"중간회랑 교역, 2030년까지 3배 가능\" (원문: Middle Corridor trade could triple by 2030)",
+      "source": "azernews",
+      "url": "https://www.azernews.az/nation/264780.html",
+      "one_liner": "아제르바이잔 경제장관이 중간회랑(카스피해 경유) 교역을 2030년까지 3배로 늘리고 운송 시간을 절반으로 줄일 수 있다고 말했다.",
+      "why_it_matters": "러시아 우회 유라시아 물류 경로의 확대 구상이다.",
+      "confidence": 0.65,
+      "original_title": "Middle Corridor trade could triple by 2030",
+      "implications": "유라시아 물류·인프라에 영향 — 실제 물동량과 투자 집행을 지켜볼 것.",
+      "tags": [
+        "중간회랑",
+        "물류",
+        "아제르바이잔"
+      ]
+    },
+    {
+      "title": "美 10월 금리 동결 확률 63%…비트코인 쏠림 시작되나",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE15SlhvV0ZJT29HTUdDYTJzT1I0QVliWGZVWHFfREVTM2R3akMwR3VSWU50UFZONFVyaURoOGZycXBodzYyUDBYZWZ3?oc=5",
+      "one_liner": "시장이 반영한 美 10월 금리 동결 확률이 63%로 집계됐다.",
+      "why_it_matters": "동결 우위지만 인상 확률도 3분의 1 남짓 남아 있어 위험자산 변동성 요인이다.",
+      "confidence": 0.6,
+      "original_title": "美 10월 금리 동결 확률 63%...비트코인(BTC) 쏠림 시작되나? - 코인리더스",
+      "implications": "크립토·성장주에 영향 — 동결 확률 추이와 FOMC 직전 지표를 지켜볼 것.",
+      "tags": [
+        "연준",
+        "FOMC",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "비트코인, 美 국채금리 24년 만의 고점서 급락하자 상승 추세 방어 (원문: Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-fights-local-uptrend-us-bond-yields-drop-from-new-24-year-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "美 국채금리가 24년 만의 고점에서 목요일 개장 무렵 급락하며 비트코인이 저점 높이기 추세를 지키려 했다.",
+      "why_it_matters": "비트코인이 금리 고점 구간에서 금리 방향에 민감하게 반응하고 있음을 보여준다.",
+      "confidence": 0.68,
+      "original_title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
+      "implications": "크립토 보유자에 영향 — 장기 국채금리 고점 통과 여부와 BTC 저점 지지를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "국채금리"
+      ]
+    },
+    {
+      "title": "'업토버' 시작…비트코인, 기대에 부응할까 (원문: It's the Start of Uptober. Will Bitcoin Live Up to It?)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379833/uptober-will-bitcoin-live-up-to-it",
+      "one_liner": "비트코인이 기록적 속도의 9월을 지나 역사적으로 가장 강한 달에 들어섰지만 연준 인상과 5.3% 국채금리가 시험대다.",
+      "why_it_matters": "계절성 기대와 고금리 역풍이 맞부딪치는 구간이다.",
+      "confidence": 0.62,
+      "original_title": "It's the Start of Uptober. Will Bitcoin Live Up to It?",
+      "implications": "크립토 투자자에 영향 — 10월 FOMC와 국채금리 5%대 유지 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "업토버",
+        "금리"
+      ]
+    },
+    {
+      "title": "美 클래리티 법안 부결…규제당국 권한으로 규제 틀 마련",
+      "source": "데일리비즈온",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xOXp2WVRGZ2t5bG5XY21yWFlRNmVYajlNQ2xJWEtrRzBiWjQ4YV9ucXNKTm94Z1NGaGdEdG1hR25oU3NhVFZRazRBemJDdENpYk42b2VrRFNLZFVRTFdra3JiYnlXTEUzaG9heA?oc=5",
+      "one_liner": "미국 암호화폐 시장구조법(CLARITY) 법안이 부결되고 규제당국 권한으로 규제 틀을 마련하는 방향이 거론됐다.",
+      "why_it_matters": "입법 경로가 막히면 크립토 규제가 SEC·CFTC 등 기관 재량에 의존하게 된다.",
+      "confidence": 0.55,
+      "original_title": "[D-BIZ 암호화폐 뉴스] 美 CLARITY 법안 부결… 규제당국 권한으로 규제 틀 마련 - 데일리비즈온",
+      "implications": "미국 크립토 기업·거래소에 영향 — 규제당국의 후속 가이드라인과 재입법 시도를 지켜볼 것.",
+      "tags": [
+        "크립토규제",
+        "클래리티법"
+      ]
+    },
+    {
+      "title": "일리노이, 소송 속 논란의 0.2% 크립토세 시행 연기 (원문: Illinois Delays Controversial Crypto Tax Amid Industry Lawsuit)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379830/illinois-delays-controversial-crypto-tax",
+      "one_liner": "일리노이 당국과 크립토 업계가 0.2% 디지털자산세 시행을 2027년 1월 1일에서 7월 1일로 미뤄 달라고 법원에 공동 요청했다.",
+      "why_it_matters": "주 단위 크립토 과세가 소송으로 제동이 걸린 첫 사례급 전개다.",
+      "confidence": 0.75,
+      "original_title": "Illinois Delays Controversial Crypto Tax Amid Industry Lawsuit",
+      "implications": "미국 내 크립토 거래소·이용자에 영향 — 소송 결과와 다른 주의 과세 시도를 지켜볼 것.",
+      "tags": [
+        "크립토세",
+        "일리노이"
+      ]
+    },
+    {
+      "title": "뉴욕·와이오밍 규제당국, 크립토 감독 공조 협약 (원문: New York, Wyoming regulators sign pact to coordinate crypto oversight)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/new-york-wyoming-regulators-sign-pact-coordinate-crypto-oversight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "뉴욕과 와이오밍 주 규제당국이 감독 정보 공유·인가 심사 간소화·공동 검사와 집행을 위한 협약을 맺었다.",
+      "why_it_matters": "연방 입법이 멈춘 사이 주 규제당국 간 공조가 규제 공백을 메우는 흐름이다.",
+      "confidence": 0.72,
+      "original_title": "New York, Wyoming regulators sign pact to coordinate crypto oversight",
+      "implications": "두 주에서 인가받은 디지털자산 기업에 영향 — 다른 주의 협약 동참 여부를 지켜볼 것.",
+      "tags": [
+        "크립토규제",
+        "뉴욕",
+        "와이오밍"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
