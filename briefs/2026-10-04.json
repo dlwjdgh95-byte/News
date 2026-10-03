@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "date": "2026-10-04",
+  "slot": "am",
+  "generated_at": "2026-10-04T03:44:24.017212+09:00",
+  "top_insight": [
+    "주말 사이 지정학 리스크가 한꺼번에 커졌다. 예멘에서 폭음이 나고 사우디 아람코 시설에서 화염이 관측됐으며 사우디가 후티 대공세를 준비 중이라는 보도가 나왔다. 북한은 중거리전략미사일을 쏘았다.",
+    "크립토 쪽에서는 북한 해커의 비트겟 3억8,700만 달러 탈취로 북한의 올해 탈취액이 10억 달러를 넘었고, 트럼프 밈코인 만찬이 클래리티법 정체 논란에 다시 불을 붙였다.",
+    "주말이라 시장 지표 뉴스는 적다. 비트코인은 원화로 1억1,500만원대에서 움직였다."
+  ],
+  "whats_changed": [
+    "어제는 美 고용 부진에 따른 금리 기대 반전이 중심이었지만, 오늘은 중동(예멘·사우디)과 북한 미사일 등 지정학 뉴스가 앞으로 나왔다.",
+    "어제 블라스트 폐쇄로 드러난 크립토 구조조정 이슈에 이어 오늘은 비트겟 해킹 북한 소행 확인과 클래리티법 정체 논쟁이 이어졌다.",
+    "어제 김여정 담화에 이어 실제 중거리전략미사일 발사 훈련이 확인됐다."
+  ],
+  "themes": [
+    "중동 리스크 재점화 — 아람코 시설 화염, 사우디 후티 대공세 준비, 플라이두바이 테러 시도",
+    "북한발 리스크 — 중거리미사일 발사·비트겟 해킹으로 올해 크립토 탈취 10억 달러 돌파",
+    "크립토 제도화의 정체 — 트럼프 밈코인 만찬과 클래리티법 리셋 우려 vs 토큰화·채용 확장"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "TRUMP 밈코인 상위 보유자 갈라 만찬(11월 22일)",
+    "OpenPayd 연말 나스닥 상장 목표"
+  ],
+  "items": [
+    {
+      "title": "예멘 수도서 폭음…사우디 아람코 시설에서도 화염",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zX1otcjQ1blBlYk1PcUU1cVpoUmlHWDRfUVZNQWhOR1dBVW1yc1lWUlpvd0s0UDZVUEV2c1RWVnEyQzRwNjVyWFFDUGpWYjIta2RIeFM4bXJyRzg?oc=5",
+      "one_liner": "예멘 수도에서 폭음이 났고 사우디 아람코 시설에서도 화염이 관측됐다. 사우디·예멘 정부군이 후티 반군과 충돌해 최소 72명이 숨졌다는 보도도 함께 나왔다.",
+      "why_it_matters": "사우디가 10만 명 이상을 동원해 후티 공격을 준비 중이라는 보도와 홍해 물류 차질이 겹치며 중동 에너지 인프라가 직접 위험권에 들어왔다.",
+      "confidence": 0.7,
+      "original_title": "예멘 수도서 폭음…사우디 아람코 시설에서도 화염(종합) - 연합뉴스",
+      "implications": "원유·해운 시장에 영향 — 아람코 시설 피해 규모와 사우디 대공세 개시 여부, 홍해 항로 운임을 지켜볼 것.",
+      "tags": [
+        "중동",
+        "사우디",
+        "후티",
+        "유가",
+        "홍해"
+      ]
+    },
+    {
+      "title": "김여정 \"우리 AI 미사일 타격 못 피해\"…한·일 탐지 한계 주장",
+      "source": "hani.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9la0ZraWlpUG5kX3M3NklaY09YTC04RzZfQVpDRm8wLTM0OFVzSHRyZXhmc0tveGQtcm40alhwb2cxX0xwZjVQNWh0al9IN1JVVHpGMVoyZjlGbWRVUzN1VHVkaTZlaU41?oc=5",
+      "one_liner": "북한이 동해상에서 중거리전략미사일 발사 훈련을 했다고 밝혔고, 김여정은 한·일이 자신들의 미사일을 끝까지 추적하지 못한다고 주장했다.",
+      "why_it_matters": "국군의날 직후 전략무기 발사가 이어지며 청와대가 긴급안보상황점검회의를 열었다. 한반도 리스크가 정치 쟁점으로도 번지고 있다.",
+      "confidence": 0.75,
+      "original_title": "김여정 “우리 AI 미사일 타격 못 피해”…한·일 탐지 한계 주장 - hani.co.kr",
+      "implications": "국내 증시·방산주에 영향 — 북한 추가 도발 여부와 한미일 대응 수위를 지켜볼 것.",
+      "tags": [
+        "북한",
+        "미사일",
+        "안보"
+      ]
+    },
+    {
+      "title": "이스라엘행 여객기 '테러' 부기장, 극단주의 성향에 비행정지 전력",
+      "source": "hani.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TZzNNYlBuUHZhT1N4bjFLTjc4NGZsRDhYLWUxLW4xYjFIcVpRSllHalJLUHpyVlJQR1NURzhobUZoMGlnSjc3THprRWJIRWx1NjJ3dG5MVkRYZFZGblBHMmQtQVdsZk1CZEIwcnNTd3ByRW8?oc=5",
+      "one_liner": "플라이두바이 부기장이 이스라엘을 향해 고의 추락을 시도했다고 시인했고, 극단주의 성향과 비행정지 전력이 확인됐다.",
+      "why_it_matters": "트럼프 대통령이 이란 연계 가능성을 언급하면서 개인 범행이 중동 지정학 문제로 번질 소지가 생겼다.",
+      "confidence": 0.7,
+      "original_title": "이스라엘행 여객기 ‘테러’ 부기장, 극단주의 성향에 비행정지 전력 - hani.co.kr",
+      "implications": "항공·보험 업계에 영향 — 이란 연계 여부 조사 결과와 걸프 항공사 조종사 심사 강화를 지켜볼 것.",
+      "tags": [
+        "중동",
+        "항공",
+        "이스라엘",
+        "이란"
+      ]
+    },
+    {
+      "title": "李대통령 사건 재조사 檢미래위에…공소청 감찰부장 \"검사 독립 위협\"",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTktTGJBd2pObTBoUXYxcldyZjhOQUtMX20wX3dRajQ5aE9fUXpRUmU4dUQ1dUZWMnp2SktxZUxRa3lTYVl4c0V5OXZobzNRUDlGeWJuczAwV1A5TnYzamh1MW5Ha3NDYTNKQVh3bVFNRnhtdmxNeEYyTnJvQ0tHREpZZzhBdms?oc=5",
+      "one_liner": "공소청 감찰부장이 검찰미래위 진상조사단의 대통령 사건 재조사 활동을 두고 검사 독립성을 크게 위협한다고 밝혔다.",
+      "why_it_matters": "검찰개혁 이후 신설 기구 사이의 권한 다툼이 내부 반발로 공개 표면화됐다.",
+      "confidence": 0.65,
+      "original_title": "李대통령 사건 재조사 檢미래위에…공소청 감찰부장 \"검사 독립 위협\" - 조선일보",
+      "implications": "정치권에 영향 — 진상조사단 활동 위법성 논란이 국회·법무부 대응으로 번지는지 지켜볼 것.",
+      "tags": [
+        "검찰개혁",
+        "정치"
+      ]
+    },
+    {
+      "title": "장외집회 나선 장동혁 \"우체국도 '좌체국'으로 불러야 할 판\"",
+      "source": "문화일보",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jOTIyanI1dFNSRWlOSEh1aXI1dHF3cHdLc3Jyekxwc0dhWXZXMm96bEdsd19ldm54NUVwTi1sclB4cjJUUGlMaElZUklHWWti?oc=5",
+      "one_liner": "국민의힘이 장외집회에서 북한 미사일 도발을 '안보 참사'로 공세했고, 민주당은 북 도발을 강력 규탄했다.",
+      "why_it_matters": "북한 미사일 발사가 여야 공방 소재가 되면서 안보 이슈가 정국 쟁점으로 커지고 있다.",
+      "confidence": 0.6,
+      "original_title": "거리 나선 장동혁 “우체국도 ‘좌체국’으로 불러야 할 판” - 문화일보",
+      "implications": "정치권에 영향 — 야당 장외투쟁의 지속 여부와 국회 일정 차질을 지켜볼 것.",
+      "tags": [
+        "정치",
+        "국민의힘",
+        "안보"
+      ]
+    },
+    {
+      "title": "머스크·델타항공 또 충돌…머스크 \"델타 CEO 자리 잃을 것\" (원문: Elon Musk and Delta Airlines are fighting again; this time Tesla CEO predicts: Delta will lose a lot of . - The Times of India)",
+      "source": "google",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVTRucXd0aHc2VGplWm1PaF80eklUU0tvN3ZkZmd6dkRzZVJXVDlCNHJjdEZVTHJ2RzVfU1pLV01CUzRfUFpfbGQxNW9PcXU2d19ySGRjZnBhTXVwemJmeElPMWl6S2pJOGRZdWJMYUd5aFh2YklGeUE4OTRfbmNhbXdHSDV3SzlkelBGMlhibDRSdnpCQTAtbmU4S0VEZ0M5TzFXSURJMHk3cjl5dVhlVXJVODM0X0ZDS0lMRlFaVHdfZlpZRjlaWkpFOGY3a0lDV2xLSC1LaXE4d3BMYkRBOGp3bVdsdTh4Q19sUldCWnFSa21IZGJyaVpPMXVnT2NETE1lRGc4b1I1WDJFTFQyWS1GVQ?oc=5",
+      "one_liner": "델타항공이 미국 4대 항공사 중 유일하게 스타링크를 쓰지 않기로 하자 머스크가 델타 CEO가 자리를 잃을 것이라고 경고했다.",
+      "why_it_matters": "유나이티드·아메리칸이 스타링크로 델타 고객을 끌어오려 하면서 기내 와이파이가 항공사 경쟁 요소로 떠올랐다.",
+      "confidence": 0.65,
+      "original_title": "Elon Musk and Delta Airlines are fighting again; this time Tesla CEO predicts: Delta will lose a lot of . - The Times of India",
+      "implications": "항공·위성통신 업계에 영향 — 델타 주가와 스타링크의 항공 계약 확대를 지켜볼 것.",
+      "tags": [
+        "스타링크",
+        "델타항공",
+        "머스크"
+      ]
+    },
+    {
+      "title": "JP모건, 자빌(JBL) 목표주가 425→430달러 상향 (원문: JPMorgan Chase & Co. Forecasts Strong Price Appreciation for Jabil (NYSE:JBL) Stock)",
+      "source": "americanbankingnews",
+      "url": "https://www.americanbankingnews.com/2026/10/03/jpmorgan-chase-co-forecasts-strong-price-appreciation-for-jabil-nysejbl-stock.html",
+      "one_liner": "JP모건이 자빌 목표주가를 425달러에서 430달러로 올리고 '비중확대' 의견을 유지했다.",
+      "why_it_matters": "전자제품 위탁생산(EMS) 업체에 대한 월가 눈높이가 소폭 올라갔다.",
+      "confidence": 0.6,
+      "original_title": "JPMorgan Chase & Co. Forecasts Strong Price Appreciation for Jabil (NYSE:JBL) Stock",
+      "implications": "EMS·AI 하드웨어 공급망 투자자에 영향 — 다른 증권사들의 목표가 조정을 지켜볼 것.",
+      "tags": [
+        "자빌",
+        "목표주가",
+        "미국주식"
+      ]
+    },
+    {
+      "title": "체이널리시스, AI로 3억8,700만 달러 비트겟 해킹을 북한 소행으로 추적 (원문: Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+      "one_liner": "체이널리시스는 9월 24일 비트겟 해킹으로 북한의 2026년 크립토 탈취액이 10억 달러를 넘었다고 밝혔다.",
+      "why_it_matters": "단일 해킹 규모가 3억8,700만 달러에 이르고, 자금이 블록체인 4곳을 넘나들며 세탁됐다는 점에서 거래소 보안 리스크가 다시 부각됐다.",
+      "confidence": 0.75,
+      "original_title": "Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea",
+      "implications": "거래소 이용자·규제당국에 영향 — 동결·회수 규모와 거래소 보안 규제 강화 움직임을 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "해킹",
+        "북한",
+        "비트겟"
+      ]
+    },
+    {
+      "title": "트럼프, 또 밈코인 만찬 연다…TRUMP 상위 185명 초청 (원문: Trump Is Hosting Yet Another Meme Coin Dinner: Here Are the Details)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380002/trump-third-meme-coin-dinner-details",
+      "one_liner": "TRUMP 밈코인 프로젝트가 상위 보유자 185명을 11월 22일 트럼프 대통령과의 갈라 만찬에 초청했다.",
+      "why_it_matters": "트럼프의 크립토 이해충돌 논란이 상원에서 클래리티법(시장구조법) 처리를 멈춰 세운 지 2주 만이다.",
+      "confidence": 0.75,
+      "original_title": "Trump Is Hosting Yet Another Meme Coin Dinner: Here Are the Details",
+      "implications": "크립토 업계에 영향 — 이해충돌 논란이 클래리티법 상원 일정에 다시 부담을 주는지 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "밈코인",
+        "클래리티법",
+        "트럼프"
+      ]
+    },
+    {
+      "title": "크립토 법안의 시시포스 같은 싸움 (원문: Crypto's Sisyphean struggle)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/opinion/2026/10/03/crypto-s-sisyphean-struggle",
+      "one_liner": "케이토연구소 라이언 찬웨이는 새 의회가 출범하면 크립토 법안 논의가 사실상 처음으로 되돌아간다고 썼다.",
+      "why_it_matters": "법안을 이끈 핵심 상원의원들이 다시 선거에 나서지 않아, 이번 회기에 못 넘기면 시장구조법 진척이 리셋될 수 있다.",
+      "confidence": 0.65,
+      "original_title": "Crypto's Sisyphean struggle",
+      "implications": "크립토 기업·투자자에 영향 — 회기 내 상원 표결 일정이 잡히는지 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "규제",
+        "미국의회"
+      ]
+    },
+    {
+      "title": "블랙록이 보여준 토큰화가 투자 포트폴리오를 바꾸는 방식 (원문: BlackRock offers a glimpse of how tokenization may change your investment portfolio)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
+      "one_liner": "토큰화의 다음 단계는 개별 주식·펀드를 넘어 포트폴리오 전체를 온체인에서 거래·리밸런싱하는 것일 수 있다.",
+      "why_it_matters": "세계 최대 자산운용사가 실시간 운용되는 포트폴리오 단위 토큰화를 그리면서 RWA 토큰화 논의의 범위가 넓어지고 있다.",
+      "confidence": 0.6,
+      "original_title": "BlackRock offers a glimpse of how tokenization may change your investment portfolio",
+      "implications": "자산운용·RWA 섹터에 영향 — 블랙록의 실제 상품화 일정을 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "블랙록",
+        "RWA"
+      ]
+    },
+    {
+      "title": "암호화폐 채용 공고 9월 1,200건 넘어 3배 급증…지원자는 감소",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbkx6ZzV0SmlmODVDZDB4MmV6VUtLeDBDOVhpOFpGRjFhWFcwaHJOWHVZWG5KZE40TFlYempUUWhCMnRMT1hDUTRWcG9WYjBROU1jMTAwSmItQnJDeWdWRFlzQmwyM29MaThwR0REUkR1aURKY3dzX3lueHRGYlB6Z2dKT2Jxd05pNjFTalFPUjI0WFA4NkdnR1JfNlp3SGhOMm9UaDJQR0d5ckllOV9WeVhGVUJZbk1HbGRmdmtNcnk?oc=5",
+      "one_liner": "9월 크립토 채용 공고가 1,200건을 넘어 3배로 늘었지만 지원자는 줄었다.",
+      "why_it_matters": "재무·엔지니어링·트레이딩 직군이 수요를 이끌었고, 업계가 다시 확장 국면에 들어섰다는 신호로 읽힌다.",
+      "confidence": 0.65,
+      "original_title": "암호화폐 채용 공고, 9월에 1,200건 이상으로 3배 급증했으나 지원자는 감소 - CoinDesk",
+      "implications": "크립토 기업에 영향 — 인력 확보 비용 상승과 채용 흐름이 4분기에도 이어지는지 지켜볼 것.",
+      "tags": [
+        "크립토",
+        "고용"
+      ]
+    },
+    {
+      "title": "비트코인 1억1,533만원대…돌핀 33%·샌드박스 9% 상승",
+      "source": "제주교통복지신문",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLN3lsSHNFRmItQjU3Mnk5QW5JemRENU5MTG5QZ19GdFZMTFl2V0NQdVUwZ3FWMmVrOUFZUjRxMkxGX0c2ejNGOU9sX1RGVXVQZmhWTzdrbzdaUGpxc1RLdA?oc=5",
+      "one_liner": "국내 시장에서 비트코인이 1억1,533만원대에 거래됐고 돌핀은 33%, 샌드박스는 9% 올랐다.",
+      "why_it_matters": "주말 원화 시장에서 비트코인이 1억1천만원대 중반을 지켰고 일부 알트코인이 큰 폭으로 올랐다.",
+      "confidence": 0.55,
+      "original_title": "비트코인 1억1533만원대…돌핀 33%·샌드박스 9% 상승 - 제주교통복지신문",
+      "implications": "국내 크립토 투자자에 영향 — 알트코인 단기 급등이 이어지는지, 비트코인이 연중 고점 저항을 넘는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "알트코인",
+        "국내시세"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
