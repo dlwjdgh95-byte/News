@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "date": "2026-10-06",
+  "slot": "am",
+  "generated_at": "2026-10-06T03:43:39.156709+09:00",
+  "top_insight": [
+    "미 10년물이 유가 하락과 약한 지표에도 5%를 넘으며 '금리가 금리를 올리는' 국면이라는 진단이 나왔다. 비트코인은 3분기 43% 급등으로 2017년 이후 최고 분기를 보냈지만, 이 금리 수준이 랠리 연장의 걸림돌로 꼽힌다.",
+    "크립토 제도권 편입이 하루에 여러 갈래로 진행됐다. CFTC가 거래소 연방 라이선스안을 냈고, SEC는 3배 레버리지 펀드를 승인했으며, 토큰화 미국주식 60여 종목과 S&P의 대출 볼트 평가가 나왔다.",
+    "통상 압박도 이어졌다. 한국은 '곧 합의 안 하면 두 배'라는 트럼프 압박 속에 15% 관세와 알래스카 LNG 협의가 걸려 있고, 인도는 미국과의 협상이 정체됐다고 밝혔다."
+  ],
+  "whats_changed": [
+    "어제 8만5000달러선 회복 보도에서, 오늘은 8만5,500달러 매도벽과 3분기 43% 급등(2017년 이후 최고) 결산이 나왔다.",
+    "어제 의회 휴회·OCC 소송으로 정체됐던 크립토 제도화가, 오늘은 CFTC가 클래리티법 무산 뒤 기존 권한으로 거래소 규제안을 내는 쪽으로 움직였다.",
+    "이란은 어제 '7대 조건 전 재개방 없음'에서 오늘 '호르무즈 절대 안 연다'로 표현 수위를 높였다.",
+    "미 국채금리는 유가 하락에도 하락세(금리 상승)가 이어져 10년물 5% 돌파 보도가 나왔다."
+  ],
+  "themes": [
+    "금리 5% 시대의 위험자산 — 유가 하락에도 오르는 미 국채금리가 AI 랠리·비트코인 랠리의 상한선으로 거론",
+    "크립토 제도권 편입 가속 — CFTC 거래소 라이선스안·SEC 3배 레버리지 펀드·토큰화 주식·S&P 볼트 평가",
+    "통상·지정학 압박 — 한미 관세·알래스카 LNG, 인도-미 협상 정체, 호르무즈 봉쇄 고수"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "CFTC 크립토 거래소 프레임워크 의견수렴",
+    "10월 FOMC(추가 금리 인상 여부)",
+    "한미 관세 협상 시한(트럼프 '곧 합의' 압박)",
+    "국정감사 진행(대법원장 증인 출석 여부)"
+  ],
+  "items": [
+    {
+      "title": "美 국채가, 유가 하락에도 하락세 지속",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jRGkzdFZvek50MjNiOTBUaHUzbEhDaTdkZHpRbjByRWJ0aGgwb3lYWXZhNzJHMTY0djJIQmFyZFZ4d2dQSFEzcFZ5T216b29iS01nVUhSN1JyNTNBcU9YSzQ3T3hIMVNwYnMzV2VkNG4?oc=5",
+      "one_liner": "유가가 내렸는데도 미 국채 가격 하락(금리 상승)이 이어지며 10년물 5% 돌파 보도가 나왔다.",
+      "why_it_matters": "약한 지표에도 금리가 거꾸로 오르는 '금리가 금리를 올리는' 국면이라는 진단과 함께, 10년물 6%면 AI 랠리가 붕괴한다는 경고까지 관련 보도에 담겼다.",
+      "confidence": 0.8,
+      "original_title": "美 국채가, 유가 하락에도 하락세 지속 - 연합인포맥스",
+      "implications": "주식·크립토 등 위험자산 전반에 영향 — 10년물 5%선 유지 여부와 재무부 대응을 지켜볼 것.",
+      "tags": [
+        "미국채",
+        "금리",
+        "AI랠리"
+      ]
+    },
+    {
+      "title": "\"한국에 알래스카 LNG 투자 권유? 단호히 NO\"",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeXlnOXdQeGUtcnhwckRxNzI1QmlrLVpmM1JPNVFXdHItczZyTFZ5bzAycmNWNy1NRlYwTHlzZVdfMGt4dUZRVjNBTjFHYXJ2SjVjekZqZ2x4T1J0Zm5ub2QyZjIyTVljS0Q4R1FKX1Fvc0dOV3lpT1F5RmtyWkVPRi1kVHRXbkJNbms3bmhpeTlOVnhhQ2VoVlkxVVdmUQ?oc=5",
+      "one_liner": "알래스카 LNG 투자 권유를 단호히 부인하는 발언이 나온 가운데, 미 부통령은 한국과 세부사항 협의가 필요하다고 했다.",
+      "why_it_matters": "트럼프가 '곧 합의 안 하면 두 배'라며 압박해 한국의 15% 관세가 비상이고, 자동차는 미 관세로 10조원 타격이 예상된다는 보도가 함께 나왔다.",
+      "confidence": 0.72,
+      "original_title": "\"한국에 알래스카 LNG 투자 권유? 단호히 NO\" - 조선일보",
+      "implications": "자동차·부품주와 대미 투자 수혜주에 영향 — 한미 관세 협상 시한과 알래스카 LNG 참여 조건을 지켜볼 것.",
+      "tags": [
+        "한미관세",
+        "알래스카LNG",
+        "자동차"
+      ]
+    },
+    {
+      "title": "루비오 \"러시아 '페스트 의심 사망' 예의주시\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kdjVGNGxuR3pHRzdtMGdvdVFCYjFUU3RPV0pfcTdRT0d1ZW5Kai1BejlwTl9jQy1kNjd0RWxEZjZCNDJCODFoRkx0SjZ4WXZrRVhyM2pkQ20tNWl2?oc=5",
+      "one_liner": "러시아 페스트 연구소 유출 의심 사고로 연구원이 원인불명 폐렴으로 숨지자 백악관·EU가 상황을 주시하고 있다.",
+      "why_it_matters": "흑사병 가능성이 거론되며 이머전트 바이오솔루션스 주가가 급등했다는 보도도 함께 나왔다.",
+      "confidence": 0.72,
+      "original_title": "루비오 \"러시아 '페스트 의심 사망' 예의주시 중\" - 뉴스핌",
+      "implications": "백신·바이오방어 관련주에 영향 — 러시아 당국의 원인 발표와 추가 감염 여부를 지켜볼 것.",
+      "tags": [
+        "러시아",
+        "페스트",
+        "바이오"
+      ]
+    },
+    {
+      "title": "메르츠 독일 총리, 키이우 깜짝 방문…\"무기 등 2조원 추가 지원\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BWUJyLVh5UHBKZ1ZCSldGRG1yVi01YnM0ay00NGgyYm42dmdTS0FMeF8xYnVWeTlybkNJV00tT0ZBcGptQVFjRmw3Vld4T3VHNlZqMEs0b0YyX1dB?oc=5",
+      "one_liner": "메르츠 총리가 키이우를 깜짝 방문해 무기 등 2조원 규모 추가 지원을 약속했다.",
+      "why_it_matters": "러시아는 '전력을 다해 싸울 것'이라며 공습을 이어갔고, 민간 겨냥 공습 맞대응 공방이 확산하고 있다.",
+      "confidence": 0.74,
+      "original_title": "독일의 변함없는 우크라 지원… 메르츠 총리, \"무기 등 2조원 추가 지원\" - 뉴스핌",
+      "implications": "유럽 방산주와 에너지 시장에 영향 — 러시아의 보복 공습 강도와 추가 지원국을 지켜볼 것.",
+      "tags": [
+        "독일",
+        "우크라이나",
+        "방산"
+      ]
+    },
+    {
+      "title": "'북한군 지뢰' 매설 추정지 여럿…군 \"모두 제거 원칙\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iX2tlN2hHdnhVLXlMQ0VfREV6ZGVicnYxWlVqWmFhN3dfbk9ub0dkaGVobk5va21wUEIwdUVWT2lkTUctdlZSN1hrb21iaW5nUHU0OWlRVmpENzFQTWs2Ri1QTGI1aDRPU0g0a04tTkJ5RlVu?oc=5",
+      "one_liner": "합참이 25사단 DMZ 지뢰 폭발을 북한이 매설한 지뢰지대로 최종 판단하고 지뢰제거 작전에 나섰다.",
+      "why_it_matters": "합참은 북한에 우리 장병에 대한 사과를 요구했고, 매설 추정지가 여러 곳으로 파악됐다.",
+      "confidence": 0.74,
+      "original_title": "‘북한군 지뢰’ 매설 추정지 여럿…군 “모두 제거 원칙” - 한겨레",
+      "implications": "남북 긴장과 국내 증시 지정학 리스크에 영향 — 북한 반응과 제거 작전 중 충돌 여부를 지켜볼 것.",
+      "tags": [
+        "북한",
+        "지뢰",
+        "DMZ"
+      ]
+    },
+    {
+      "title": "조희대, 국감 증인 불출석…민주 \"그럴거면 사퇴\" 국힘 \"겁박정치\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XaFBrRk1iemVpSWRFWlpXLVJ6UkdzajJyb1c0aDc0c1NKSkpxZFd1aDE0azZ5b0VUVHdpSTFld3JUNkFTdjdFckdyclViV1dLR1lkX2dNVHFXdFFmVzk5NzZlcFBDUGZQU2FLenhvY2J3VGsy?oc=5",
+      "one_liner": "이재명 정부 2년 차 국정감사가 조희대 대법원장의 증인 불출석으로 시작부터 여야 대치에 들어갔다.",
+      "why_it_matters": "조 대법원장이 '기관 증인만' 출석하겠다며 입장을 바꾸면서 국감 첫날부터 전방위 공방이 벌어졌다.",
+      "confidence": 0.72,
+      "original_title": "조희대, 국감 증인 불출석…민주 “그럴거면 사퇴” 국힘 “겁박정치” - 한겨레",
+      "implications": "국감 일정과 입법 처리 속도에 영향 — 대법원장 출석 여부와 민생 현안 검증 진행을 지켜볼 것.",
+      "tags": [
+        "국정감사",
+        "조희대",
+        "여야"
+      ]
+    },
+    {
+      "title": "인도 재무장관 \"미국과 무역협상 정체 국면\" (원문: India, US Have Reached a Plateau in Trade Talks, Indian Finance Minister Says)",
+      "source": "tabla",
+      "url": "https://www.tabla.com.sg/news/india/india-us-have-reached-plateau-trade-talks-indian-finance-minister-says",
+      "one_liner": "시타라만 인도 재무장관이 미국과의 무역협상이 정체기(plateau)에 이르렀다고 말했다.",
+      "why_it_matters": "양측이 핵심 무역협정에서 벽에 부딪혔다는 또 하나의 신호다.",
+      "confidence": 0.78,
+      "original_title": "India, US Have Reached a Plateau in Trade Talks, Indian Finance Minister Says",
+      "implications": "인도 수출업체와 신흥국 통상 흐름에 영향 — 미국의 추가 관세 조치 여부를 지켜볼 것.",
+      "tags": [
+        "인도",
+        "미국",
+        "무역협상"
+      ]
+    },
+    {
+      "title": "베트남 마산하이테크, 텅스텐 증산 위해 5% 사모 배정 추진 (원문: Vietnam's Masan High-Tech seeks approval for 5% private placement to fund tungsten expansion)",
+      "source": "miningweekly",
+      "url": "https://www.miningweekly.com/article/vietnams-masan-high-tech-seeks-approval-for-5-private-placement-to-fund-tungsten-expansion-2026-10-05",
+      "one_liner": "베트남 텅스텐 생산사 마산하이테크머티리얼즈가 광산 확장·하류 가공 자금 마련을 위해 최대 5% 사모 배정 승인을 구한다.",
+      "why_it_matters": "지난달 미 국방부가 지원하는 미국 생산사 엘멧그룹에 지분을 판 데 이은 조치로, 핵심광물 공급망 재편 흐름이다.",
+      "confidence": 0.78,
+      "original_title": "Vietnam's Masan High-Tech seeks approval for 5% private placement to fund tungsten expansion",
+      "implications": "텅스텐 등 핵심광물 공급망에 영향 — 장기 투자자 배정 대상과 미국 측 참여 확대를 지켜볼 것.",
+      "tags": [
+        "텅스텐",
+        "핵심광물",
+        "공급망"
+      ]
+    },
+    {
+      "title": "CFTC, 암호화폐 거래소를 연방 감독 아래 두는 방안 공개 (원문: CFTC Unveils Plan to Bring Crypto Exchanges Under Federal Oversight)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380090/cftc-plan-crypto-exchanges-federal-oversight-leverage",
+      "one_liner": "CFTC가 암호화폐 거래소용 새 연방 라이선스를 만드는 프레임워크에 대한 의견수렴에 나섰다.",
+      "why_it_matters": "레버리지 제공 여부가 감독의 기준이 되며, 의회 클래리티법 표결이 무산된 뒤 CFTC가 기존 법적 권한으로 SEC에 이어 규제에 나선 것이다.",
+      "confidence": 0.82,
+      "original_title": "CFTC Unveils Plan to Bring Crypto Exchanges Under Federal Oversight",
+      "implications": "미국 크립토 거래소·파생상품 플랫폼에 영향 — 의견수렴 기간과 SEC안과의 관할 조정을 지켜볼 것.",
+      "tags": [
+        "CFTC",
+        "크립토규제",
+        "거래소"
+      ]
+    },
+    {
+      "title": "국채금리 5%, 2017년 이후 최고 분기 보낸 비트코인 랠리 연장에 위협 (원문: Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-q3-rally-treasury-yields-fed-rate-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인이 2017년 이후 최고의 분기를 보냈지만 5% 국채금리가 랠리 연장의 걸림돌로 꼽혔다.",
+      "why_it_matters": "부진한 고용 지표로 10월 추가 금리 인상 기대가 줄며 숨통이 트였고, 투자자들은 화폐가치 하락 헤지(디베이스먼트) 거래를 이어가고 있다. 국내 보도는 3분기 43% 급등을 전했다.",
+      "confidence": 0.78,
+      "original_title": "Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017",
+      "implications": "비트코인 보유자·크립토 기업에 영향 — 10월 FOMC 인상 여부와 10년물 금리 방향을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "국채금리",
+        "연준"
+      ]
+    },
+    {
+      "title": "이란 \"호르무즈 절대 안 연다\"…나스닥 던지고 비트코인으로 피난",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5NQV8xSjdySVJ2Y0RySjRnTVRxOC0xT3dkUlJFNDNQbWJsa0QtOUxfeW94N200TjlpUW9jclI0Vnh4YVFpWVUxRkd3?oc=5",
+      "one_liner": "이란의 호르무즈 봉쇄 고수 발언 속에 나스닥에서 비트코인으로 자금이 옮겨갔다는 보도가 나왔다.",
+      "why_it_matters": "중동 리스크가 이어지는 가운데 비트코인이 위험 회피 수요를 일부 흡수하고 있다는 해석이다. 다만 근거는 제목뿐이다.",
+      "confidence": 0.6,
+      "original_title": "이란 \"호르무즈 절대 안 연다\"...나스닥 던지고 '비트코인(BTC)' 피난 - 코인리더스",
+      "implications": "원유·위험자산 전반에 영향 — 호르무즈 해협 재개방 협상과 비트코인 8만5,500달러 매도벽 돌파 여부를 지켜볼 것.",
+      "tags": [
+        "호르무즈",
+        "이란",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "SEC, 비트코인·이더리움 3배 레버리지 펀드 거래 승인 (원문: SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380108/sec-clears-3x-leveraged-bitcoin-ethereum-funds",
+      "one_liner": "SEC가 비트코인·이더리움·금·은·원유·천연가스 일일 변동의 3배를 추종하는 볼러틸리티셰어즈 펀드 6종의 상장을 허용했다.",
+      "why_it_matters": "Cboe 규정 변경을 승인한 것으로, 미국 거래소에서 크립토 3배 레버리지 상품이 처음 열린다.",
+      "confidence": 0.82,
+      "original_title": "SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading",
+      "implications": "크립토 파생·ETF 시장에 영향 — 상장 후 거래량과 변동성 확대 여부를 지켜볼 것.",
+      "tags": [
+        "SEC",
+        "레버리지ETF",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "엔비디아·테슬라 등 미국 주식 60여 종목 온체인 거래 추진 (원문: More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/10/05/more-than-60-u-s-stocks-including-nvidia-and-tesla-are-headed-onchain-here-s-how-it-works",
+      "one_liner": "24시간 거래 플랫폼이 토큰화된 미국 주식 수십 종목을 스테이블코인으로 거래하게 할 계획이다.",
+      "why_it_matters": "전통 호가창 대신 블록체인 유동성 풀을 통해 체결하는 방식이라 주식 거래 구조가 바뀌는 사례다.",
+      "confidence": 0.78,
+      "original_title": "More than 60 U.S. stocks including Nvidia and Tesla are headed onchain. Here’s how it works",
+      "implications": "증권사·스테이블코인 발행사에 영향 — 규제 승인과 실제 거래량을 지켜볼 것.",
+      "tags": [
+        "토큰화주식",
+        "스테이블코인",
+        "RWA"
+      ]
+    },
+    {
+      "title": "S&P글로벌, 성장하는 크립토 대출 볼트에 위험평가 도입 (원문: S&P Global brings risk assessments to growing crypto lending vault sector)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/sp-global-launches-risk-assessments-for-10b-crypto-lending-vault-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "S&P글로벌이 디지털자산 대출 볼트를 6개 위험 범주로 평가하는 프레임워크를 내놨다.",
+      "why_it_matters": "이 부문 예치금이 약 100억 달러로 불어나자 전통 신용평가사가 평가 기준을 들고 들어왔다.",
+      "confidence": 0.75,
+      "original_title": "S&P Global brings risk assessments to growing crypto lending vault sector",
+      "implications": "디파이 대출 프로토콜·기관 투자자에 영향 — 첫 평가 결과와 기관 자금 유입을 지켜볼 것.",
+      "tags": [
+        "S&P글로벌",
+        "디파이",
+        "크립토대출"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
