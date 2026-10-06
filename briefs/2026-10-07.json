@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "date": "2026-10-07",
+  "slot": "am",
+  "generated_at": "2026-10-07T03:44:31.303210+09:00",
+  "top_insight": [
+    "금리 부담이 다시 국내 증시를 눌렀다. 코스피는 반도체 대형주 하락으로 7000선을 내줬지만 코스닥은 소부장·2차전지 랠리로 910선을 되찾아 수급이 대형주에서 중소형주로 갈렸다.",
+    "미 증시는 신고가를 썼고 비트코인은 8만7000달러 쪽으로 올랐다. 규제 쪽에선 재무부가 자체 지갑 보고안을 철회했고, 지캐시 ETF 신청과 한국 토큰화 규정 준비가 이어졌다."
+  ],
+  "whats_changed": [
+    "어제 8만5,500달러 매도벽 보도에서, 오늘은 비트코인이 8만7000달러 쪽으로 올라섰다는 보도가 나왔다.",
+    "어제 CFTC·SEC 중심이던 크립토 제도화 뉴스가, 오늘은 재무부의 자체 지갑 보고안 철회로 이어졌다.",
+    "어제 호르무즈 봉쇄 고수 발언에 이어, 오늘은 미국이 이란 드론 우려로 영국 기지 B-1 폭격기를 철수시켰다는 보도가 나왔다."
+  ],
+  "themes": [
+    "금리 부담과 수급 분화 — 반도체 대형주 약세, 코스닥 소부장·2차전지 강세",
+    "크립토 규제 완화·상품화 — 재무부 지갑 보고안 철회, 지캐시 ETF, 한국 토큰화",
+    "정치·지정학 일정 — 국정감사, 윤 전 대통령 2심, 이란 긴장"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "尹 '명태균 여론조사 무상수수' 2심 선고(10/7)",
+    "국정감사 진행 중",
+    "한국 토큰화 주식·채권·펀드 규정 시행(2027년 2월)"
+  ],
+  "items": [
+    {
+      "title": "美, 이란 드론공격 가능성에 英기지서 B-1 폭격기 12대 철수",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yb2hEZlVKNS1qNDNRNWVOMmxBZ3RmTlhIZ2pBNWZfbkkxZHlyRHpSbmpoTVNpa09GeHZxSnRBS21GbU4zR2hIczR5czB1d25HLUdoc2NrdVJqZ3fSAWBBVV95cUxNYWN4TE9VMGp2R1EyYUtqZjRHMUR0MThDNEgzdXB3b3FIVk1JMC03RzRmZ1drb0c4LUtWWFRGRllFZWwtVnlFUDNDcWpHQU5xam9pNXhIbFFzT2dkcHYxdG0?oc=5",
+      "one_liner": "미국이 이란 드론 공격 우려로 영국 기지에 있던 B-1 폭격기 12대를 철수시켰다는 보도다.",
+      "why_it_matters": "이란과의 긴장이 유럽 내 미군 배치에까지 영향을 주고 있다.",
+      "confidence": 0.65,
+      "original_title": "\"美, 이란 드론공격 가능성에 英기지서 B-1폭격기 12대 철수\" - 연합뉴스",
+      "implications": "중동 리스크와 유가 — 이란 관련 추가 군사 조치를 지켜볼 것.",
+      "tags": [
+        "이란",
+        "미군",
+        "지정학"
+      ]
+    },
+    {
+      "title": "美 \"러 페스트연구소 사고 정보 더 공개하라\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WbHAzS1BuSVE4bkcwWG9JOVd5QXlJeTBMNFQ3a0xuWUE1ZktJMnBkQVNBeU1hSE9rU1k5eERpNmN2UHVxQUVMWVpwbXBOU0hYcUVuX2IyY1h4MEtKMzQtSUJ1d0YyazQ?oc=5",
+      "one_liner": "러시아 페스트 연구소 직원 사망 사고를 두고 미국이 추가 정보 공개를 촉구했다.",
+      "why_it_matters": "WHO는 공중보건 위험이 낮다고 했지만 유출 우려가 국제 이슈로 번졌다.",
+      "confidence": 0.6,
+      "original_title": "美 \"러 페스트연구소 사고 더 많은 정보 공개 촉구\" - 연합뉴스TV",
+      "implications": "방역·바이오 관련 심리 — WHO·러시아의 후속 발표를 볼 것.",
+      "tags": [
+        "러시아",
+        "페스트",
+        "WHO"
+      ]
+    },
+    {
+      "title": "조희대, 국감서 제청권 6분간 강변…민주 \"대통령 임명권 위에 있나\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jM2NtMXA2dTZCQ1ZFTFRaWGg5VjJYZGpqc1BsbDlUcC1nVlVOUTVoVWZGaVJQazFOX3Q4NnVKQ2ZmVzcwRWx1dDRPWnZtZlhZRmpaYzNKY3dubWg0YjNLT1pZRXR6OTZ0WHc?oc=5",
+      "one_liner": "조희대 대법원장이 국정감사에서 선서를 거부하고 대법관 제청권을 강하게 주장했다.",
+      "why_it_matters": "대법관 공석과 제청권을 둘러싼 사법부-여당 갈등이 국감에서 정면으로 붙었다.",
+      "confidence": 0.65,
+      "original_title": "원고 꺼낸 조희대, 제청권 6분간 강변…민주 “대통령 임명권 위에 있나” - 한겨레",
+      "implications": "사법 인사 지연 — 대법관 공석 해소 일정과 여야 공방을 지켜볼 것.",
+      "tags": [
+        "국정감사",
+        "대법원",
+        "조희대"
+      ]
+    },
+    {
+      "title": "尹 '명태균 여론조사 무상수수' 오늘 2심 선고",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aZjFPZGR0dzdXbHI2aUJiUjZPRFR2b1Z0c0xhZmhpVTI3MlQ0V2Y5Z0tNS1ZrRWdUa3g2eDRUV2hfV2xXcUFpcFprY0s3NnI3T2J4UWhISVcyZ0E?oc=5",
+      "one_liner": "윤석열 전 대통령의 명태균 여론조사 무상수수 사건 항소심 선고가 오늘 나온다.",
+      "why_it_matters": "정치권 핵심 사법 일정으로, 결과에 따라 정국 파장이 예상된다.",
+      "confidence": 0.6,
+      "original_title": "尹 ‘명태균 여론조사 무상수수’ 오늘 2심 선고 - KBS 뉴스",
+      "implications": "정치 일정 — 선고 결과와 여야 반응을 볼 것.",
+      "tags": [
+        "윤석열",
+        "명태균",
+        "재판"
+      ]
+    },
+    {
+      "title": "노벨 물리학상, '유령입자' 중성미자 관측 길 연 할젠 단독 수상",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uekUtYUtkV2xXX1ZMdHI0UDVLaHlkblRJclkwZnR6ZDdyWVpjNUw5bUpJTUl4TmVkZnpweHhid1JqcnRiNW9ITW9Sei0xVGd4amg2WDR4c2E1Z0hJZUNsV19Id0ozQTg?oc=5",
+      "one_liner": "남극 얼음 1㎦를 뚫은 아이스큐브로 중성미자를 찾은 프랜시스 할젠이 노벨 물리학상을 받았다.",
+      "why_it_matters": "팔순을 넘긴 수상자는 이번 수상이 다음 연구 채택에 도움이 되길 바란다고 말했다.",
+      "confidence": 0.65,
+      "original_title": "팔순 넘긴 노벨 물리학상 수상자 \"다음 연구 채택 도움 되길\" - 연합뉴스TV",
+      "implications": "기초과학 투자 — 이어지는 노벨상 발표 일정을 볼 것.",
+      "tags": [
+        "노벨상",
+        "물리학"
+      ]
+    },
+    {
+      "title": "금리 부담에 코스피 다시 7000 아래로…코스닥은 910선 탈환 (원문: 금리 부담에 다시 '7000피' 아래로…코스닥은 910선 탈환)",
+      "source": "hankyung",
+      "url": "https://www.hankyung.com/article/2026100658526",
+      "one_liner": "금리 부담으로 코스피가 7000선 아래로 밀렸고, 코스닥은 3개월 만에 910선을 되찾았다.",
+      "why_it_matters": "외국인이 장중 매수에서 매도로 돌아섰고, 반도체 소부장·2차전지주 랠리가 코스닥을 끌어올렸다.",
+      "confidence": 0.75,
+      "original_title": "금리 부담에 다시 '7000피' 아래로…코스닥은 910선 탈환",
+      "implications": "대형 반도체주와 중소형 소부장주 사이 수급 분화 — 외국인 순매매 방향을 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "코스닥",
+        "금리"
+      ]
+    },
+    {
+      "title": "검색 상위 20개 중 16개 상승…삼성전자·SK하이닉스는 동반 하락 (원문: 검색 상위 20개 중 16개 상승… 삼성전자·SK하이닉스는 동반 하락)",
+      "source": "seoul",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/06/20261006500197",
+      "one_liner": "삼성전자는 1.45% 내린 27만2000원, SK하이닉스는 177만3000원에 마감했다.",
+      "why_it_matters": "검색 상위 종목 다수가 오른 가운데 반도체 대장주 둘만 동반 하락해 지수 약세를 이끌었다.",
+      "confidence": 0.75,
+      "original_title": "검색 상위 20개 중 16개 상승… 삼성전자·SK하이닉스는 동반 하락",
+      "implications": "지수 비중이 큰 반도체 대형주 — 금리 부담 속 대형주 차익실현이 이어지는지 볼 것.",
+      "tags": [
+        "삼성전자",
+        "SK하이닉스",
+        "반도체"
+      ]
+    },
+    {
+      "title": "경기 둔화 속 채무조정 재신청 3만 명 육박 (원문: Nearly 30,000 Koreans reapply for debt restructuring amid economic slowdown)",
+      "source": "koreajoongangdaily_joins",
+      "url": "https://www.koreajoongangdaily.com/business/nearly-30000-seek-second-round-of-debt-restructuring-amid-economic-slowdown/12906696",
+      "one_liner": "8월까지 약 3만 명이 채무조정을 다시 신청했다.",
+      "why_it_matters": "장기화된 경기 둔화로 취약 차주의 부채 악순환이 깊어지고 있다는 신호다.",
+      "confidence": 0.7,
+      "original_title": "Nearly 30,000 Koreans reapply for debt restructuring amid economic slowdown",
+      "implications": "서민금융·2금융권 건전성 — 연체율과 정책 지원 확대 여부를 지켜볼 것.",
+      "tags": [
+        "가계부채",
+        "채무조정",
+        "경기"
+      ]
+    },
+    {
+      "title": "미 증시 사상 최고치 속 비트코인 8만7000달러 향해 상승 (원문: Bitcoin grinds toward $87K as US equities hit new record highs)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-grinds-toward-87k-as-us-equities-hit-new-record-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "미국 증시가 신고가를 경신하는 동안 비트코인은 매도 물량에 막히며 8만7000달러 쪽으로 천천히 올랐다.",
+      "why_it_matters": "위험자산 강세에도 비트코인은 상단 매도 유동성에 상승 속도가 제한되고 있다.",
+      "confidence": 0.65,
+      "original_title": "Bitcoin grinds toward $87K as US equities hit new record highs",
+      "implications": "크립토 투자자 — 8만7000달러 부근 매도벽 소화 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "미국증시"
+      ]
+    },
+    {
+      "title": "미 재무부, 1만 달러 이상 자체 지갑 보고 의무안 철회…믹싱 규제안도 폐기",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMikARBVV95cUxNSHZtd3RJeVZiN0hfTExIaEtRLWNLVkNwaTdFZ2dnSGllODdJWVR5dC1jYXE5cGN6VlhGMUpKMVdNNm01a1lZMmM3WnJ0ZXpsd2NzWjR6aHdSU3lzS2VLNDZZUVZiVzAxYUJCODFuS0FfTWh3TlhCSVdnbm00ZEFsZ2hJZENRUXdrb3dmeGdrYkp5amlfOW5oeUVuNkRScUpaeVFRclFSS1ZkY2JubHpIV2VkZHhoNTBLakUzUlJRNXo1emNqc2ZUcWRubnhHRlEwNmRYNkdYS19GQWp5TEx1LUtwOWdNb0pmVGRrQ19SQnZ6dzVaZXRISzBBQ0prSFAzQmNyejhWSGlkSjhDeFc1aTB6MjNqWmRQSC1YXzFJVHl5c0I5R0F4UklwUUd6RzdvZWNkbDlWU19telVLWFNwaVEyY1QtRGJDNi1zeDFNT3dwNjh1WEltcFRuRVExMWtEZmI4YXZPSnBtR2I0VUFJeGxWZThTaFA0Z2NTN1Z2eDhIQUhoSjVyVVBiVUFBSDhnWDJ0WlY2cVd2cGIyZE0tdUN4V0tYdFRmLU1KdjNkZkl2aUp1aFBSZ3NqWXo0VGJzSlhoR21NSGFKd2RrY0d3aWhGeDJKTV9KQm9YMk9VT3dDTjVMb1lTTmNUX1FkQjd4cW5QY1R4eTktZC1ZR1psOS1fNm4wLVg4UUxwSHRkQ18?oc=5",
+      "one_liner": "미 재무부가 1만 달러 이상 자체 보관 지갑 거래 보고 의무안과 암호화폐 믹싱 규제안을 함께 거둬들였다.",
+      "why_it_matters": "개인 지갑·프라이버시 관련 규제 부담이 줄어드는 방향의 조치다.",
+      "confidence": 0.55,
+      "original_title": "미 재무부, 1만 달러 이상 자체 지갑 보고 의무안 전격 철회…암호화폐 믹싱 규제안도 함께 폐기 - Yellow.com",
+      "implications": "자체 보관 지갑 이용자·믹싱 서비스 — 후속 규제 대체안이 나오는지 볼 것.",
+      "tags": [
+        "재무부",
+        "규제",
+        "자체지갑"
+      ]
+    },
+    {
+      "title": "윙클보스 형제, 지캐시 현물 ETF 'WINK' 신청 (원문: Another Zcash ETF Is Coming: Winklevoss Twins File for 'WINK')",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380210/another-zcash-etf-coming-winklevoss-twins-wink",
+      "one_liner": "ZEC를 직접 보유하고 나스닥에 'WINK'로 상장하는 펀드를 신청했으며, 수탁은 제미니가 맡는다.",
+      "why_it_matters": "프라이버시 코인 지캐시에 대한 기관 관심이 이어지는 흐름에 윙클보스 형제가 가세했다.",
+      "confidence": 0.65,
+      "original_title": "Another Zcash ETF Is Coming: Winklevoss Twins File for 'WINK'",
+      "implications": "프라이버시 코인 시장 — SEC 심사 일정과 다른 지캐시 ETF 신청 진행을 볼 것.",
+      "tags": [
+        "지캐시",
+        "ETF",
+        "제미니"
+      ]
+    },
+    {
+      "title": "한국 토큰화 추진에 시큐리타이즈 주가 8% 상승 (원문: Securitize stock jumps 8% amid South Korea tokenization push)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/securitize-lg-cns-south-korea-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "LG CNS와의 제휴로 시큐리타이즈가 한국 토큰화 시장 발판을 마련했다.",
+      "why_it_matters": "한국은 2027년 2월부터 토큰화 주식·채권·펀드 규정을 시행할 준비를 하고 있다.",
+      "confidence": 0.65,
+      "original_title": "Securitize stock jumps 8% amid South Korea tokenization push",
+      "implications": "국내 토큰증권(STO) 관련 기업 — 2027년 2월 규정 시행 세부안을 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "STO",
+        "LG CNS"
+      ]
+    },
+    {
+      "title": "타이거증권, 비트코인 전망 근거로 서클 목표주가 상향",
+      "source": "Investing.com 한국어",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yUDBUUEpUVkUtbGNFWXRLbUIySU9aWktRYlFOVVBLTmtTdGNnbGVzemVlTkJNRk1VNW1yei1DMU5DNm05WnFiYXd5Q0dJZGJ2UUtlRlVRaEZjbjRMN1VCN3c5Q0pTd1o1TzZUR2NlYnVvem5i?oc=5",
+      "one_liner": "타이거증권이 비트코인 전망을 이유로 서클 인터넷의 목표주가를 올렸다.",
+      "why_it_matters": "스테이블코인 발행사 주가가 비트코인 시황과 연동해 평가받고 있음을 보여준다.",
+      "confidence": 0.5,
+      "original_title": "Tiger Securities, 비트코인 전망에 Circle Internet 목표주가 상향 - Investing.com 한국어",
+      "implications": "서클 등 크립토 상장주 — 비트코인 가격과의 동조 여부를 볼 것.",
+      "tags": [
+        "서클",
+        "목표주가"
+      ]
+    },
+    {
+      "title": "미스트랄, 고양이 밈 이름 딴 대형 모델 'Le Chonk' 공개 (원문: Mistral AI Drops 'Le Chonk': A Massive AI Model Named After a Cat Meme)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380192/mistral-ai-drops-le-chonk-massive-ai-model-cat-meme",
+      "one_liner": "파리의 미스트랄이 Large 4를 출시했고, 금융 테스트 하나에선 GPT-6 Astra를 앞섰지만 다른 테스트에선 Claude에 뒤졌다.",
+      "why_it_matters": "유럽 AI 업체가 금융 특화 성능에서 미국 최상위 모델과 경쟁하고 있다.",
+      "confidence": 0.6,
+      "original_title": "Mistral AI Drops 'Le Chonk': A Massive AI Model Named After a Cat Meme",
+      "implications": "AI 모델 경쟁 구도 — 금융 분야 벤치마크 결과의 후속 검증을 볼 것.",
+      "tags": [
+        "AI",
+        "미스트랄"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
