@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "slot": "am",
+  "generated_at": "2026-10-09T03:45:30.529021+09:00",
+  "top_insight": [
+    "AI 반도체 실적은 정점을 찍고 있다. 삼성전자 3분기 영업이익 107.4조 원, TSMC 3분기 매출 사상 최대가 같은 날 나왔지만 삼성 주가는 내렸다.",
+    "금리·유가가 위험자산을 누른다. 미 10년물 5.3% 상회, 유가 100달러 근접 속에 비트코인 ETF에서 하루 4억8490만 달러가 빠졌고 BTC는 8만1000달러 아래로 밀렸다.",
+    "중동은 트럼프의 '중간선거 전 이란 공격 없음' 발언과 국방부 공격 준비 보도가 엇갈리고, 시리아의 사우디 파병 검토로 역내 구도가 넓어지고 있다."
+  ],
+  "whats_changed": [
+    "어제 8만3600달러였던 비트코인이 오늘은 8만1000달러 아래로 더 밀렸다.",
+    "어제 미 정부 압류 BTC 이동 이슈에 이어 오늘은 1만2267 BTC(약 10억 달러)가 미표기 지갑으로 추가 이동했다.",
+    "어제 RBI 인상에 낙폭을 줄였던 인도 증시가 오늘은 1% 안팎 급락했다.",
+    "어제 후티의 리야드 공항 공격 주장이 오늘은 시리아의 2만 명 파병 검토로 이어졌다."
+  ],
+  "themes": [
+    "AI 반도체 실적 — 삼성전자 107.4조, TSMC 사상 최대 매출",
+    "금리·유가 압박 — 美 10년물 5.3%, 유가 100달러 근접, BTC ETF 유출",
+    "중동 긴장 — 트럼프 이란 발언, 사우디·후티·시리아"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 중간선거(11월 3일)"
+  ],
+  "items": [
+    {
+      "title": "삼성전자 3분기 영업이익 107.4조 원 잠정…실적 질주에도 주가는 하락",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CNm03MG9DaldVNXFmaHYtRjhzMEZ4dEpCeWpMQzFnbnJ5ZFVESExWMmltUERnNXM3akdROGwxdDdMSlVlVWdtaDIzWGxCQ3BWQkltcDV6aHlqQQ?oc=5",
+      "one_liner": "삼성전자 3분기 영업이익이 107.4조 원으로 잠정 집계됐지만 주가는 내렸다.",
+      "why_it_matters": "'영업익 100조' 시대를 열었다는 평가와 '107조 벌고도 주가 하락'이라는 반응이 함께 나왔다.",
+      "confidence": 0.82,
+      "original_title": "\"대체 얼마나 벌어야 오르나\"…삼전닉스 개미들 속타는 이유 [분석+] - 한국경제",
+      "implications": "반도체 투자자 — 메모리 수요 지속 전망과 주가 반응 사이 괴리가 좁혀지는지 지켜볼 것.",
+      "tags": [
+        "삼성전자",
+        "반도체",
+        "실적"
+      ]
+    },
+    {
+      "title": "트럼프 \"11월 3일 중간선거 전까지 이란 공격 안 할 것\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CR3RKRlF6bHZidmYxLW91UlVjbEp5NUc4TmFHZHRheWpsMGltT3I5dEtIV1M0S0VILVNkaTZKYUt2MUV1c3h2YVpYM0dLTFhhT1Q0Vnp2bmpfWUXSAWBBVV95cUxOdTNydjh1SGwzLW1Xek9QU1ZKal9Bbnhpd3FxOW5DOTlmSlFmYllJVnkzZ0E2cGxIeGdBcUdaNUM4dFN2QWNIMUVqVjYtSm53OGxabTJDNWVBY3JpLWtPOS0?oc=5",
+      "one_liner": "트럼프 대통령이 중간선거 전까지 이란을 공격하지 않겠다고 밝혔다.",
+      "why_it_matters": "같은 날 폭스뉴스는 미 국방부가 중부사령부에 대이란 공격 준비 완료를 지시했다고 보도해 메시지가 엇갈린다.",
+      "confidence": 0.75,
+      "original_title": "트럼프 \"11월 3일 중간선거 전까지 이란 공격 안할 것\" - 연합뉴스",
+      "implications": "원유·위험자산 — 선거 이후 대이란 정책 변화 가능성을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "이란",
+        "중간선거"
+      ]
+    },
+    {
+      "title": "시리아, 사우디 '후티 격퇴 작전'에 2만 명 파병 검토",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aQ1R5VEx5bEEzODZCUHZHWV84RmlUMVJWXzAzQkFxV1p5VkZXSjkwYllIcnFfMVJab3dkLUVUa01xMVN3UURJTXN6UDFIRGhQOG1fR0FzaVVDUXNpbnRLbFlib3BJOU13bUZDdk43WkFQcm_SAWZBVV95cUxOTTRncEFqREN5NVp2M1Bka3p2M1Fic3loc3R0WEZfNlBUZTNPbEhqdkxQWTVqcTlVR0N1eWJrYUpmYXhCSDZUSFFLSGNCbnotWmNOWTl3Z0tnSnJFM0F4MXRLU2NUdkE?oc=5",
+      "one_liner": "시리아가 사우디의 후티 격퇴 작전에 2만 명 파병을 검토하고 있다.",
+      "why_it_matters": "후티가 사우디 공항 추가 미사일 공격을 주장하는 가운데 중동 갈등이 역내 연합 구도로 번지고 있다.",
+      "confidence": 0.72,
+      "original_title": "시리아, 사우디 ‘후티 격퇴 작전’에 2만명 파병 검토 - 동아일보",
+      "implications": "원유 시장 — 사우디·후티 충돌 확대 여부를 지켜볼 것.",
+      "tags": [
+        "중동",
+        "사우디",
+        "후티"
+      ]
+    },
+    {
+      "title": "정부, 주우크라이나 대사 본국 소환 결정…'외교 단절'까지 염두",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PZk5ra3NJNzZWQ1Z6enBiREszZEpJYWFGaXV5MDZKZHVSTFJuR0FUU3RfZDM5cGgzS1dXb1lXbjdLTUo3bEczWjhvUTFVcV9ReUZad1ltd0Vjc21CUmUyRngxdTFyTlpyTTl0YW84R04zTU9H?oc=5",
+      "one_liner": "외교부가 박기창 주우크라이나 대사의 본국 소환을 결정했다.",
+      "why_it_matters": "'포로 한국행' 문제를 두고 정부가 강경 대응에 나섰고, 우크라이나는 '외교가 감정보다 우선'이라고 반응했다.",
+      "confidence": 0.75,
+      "original_title": "정부 “주우크라 대사 소환”…‘외교 단절’까지 염두 초강수 - 한겨레",
+      "implications": "한·우크라 관계 — 후속 외교 조치 수위를 지켜볼 것.",
+      "tags": [
+        "외교",
+        "우크라이나"
+      ]
+    },
+    {
+      "title": "국산 극초음속 미사일 시험발사 성공…이 대통령 직접 참관",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRNHBTMEFsVXRGWmoyNE5aUlp6b0FiTGdqbkRpd0lELWhjOU85azRpT2VZc2daUm85ajRiaVVCMHJCc19fMXd0dFMwV09yMG1XcFZqc2FOTktjMjBmM1JSaGVEMlBlZ0Zsa0RZ?oc=5",
+      "one_liner": "국산 극초음속 미사일 시험발사가 성공했고 이 대통령이 직접 참관했다.",
+      "why_it_matters": "마하 5 이상 속도의 타격 전력이 전력화 첫 관문을 넘었다.",
+      "confidence": 0.75,
+      "original_title": "이 대통령, 극초음속 미사일 성공에 “자주국방은 기술로 증명된다” - 한겨레",
+      "implications": "방산 업종 — 전력화 일정과 후속 시험을 지켜볼 것.",
+      "tags": [
+        "국방",
+        "방산"
+      ]
+    },
+    {
+      "title": "TSMC 3분기 매출 1조4900억 대만달러로 사상 최대…AI 칩 수요 (원문: TSMC Revenue Surges 50% To Record High On AI Chip Demand)",
+      "source": "businesstoday_my",
+      "url": "https://www.businesstoday.com.my/2026/10/08/tsmc-revenue-surges-50-to-record-high-on-ai-chip-demand/",
+      "one_liner": "TSMC 3분기 매출이 T$1.49조(467억1000만 달러)로 시장 예상을 웃돌았다.",
+      "why_it_matters": "AI 애플리케이션 수요가 세계 최대 파운드리의 성장을 계속 끌고 있다.",
+      "confidence": 0.85,
+      "original_title": "TSMC Revenue Surges 50% To Record High On AI Chip Demand",
+      "implications": "AI 반도체 공급망 — 삼성전자 실적과 함께 AI 수요의 지속성을 확인하는 지표로 볼 것.",
+      "tags": [
+        "TSMC",
+        "AI반도체",
+        "실적"
+      ]
+    },
+    {
+      "title": "인도 센섹스·니프티 1% 안팎 급락…외국인 대형주 매도, 美 10년물 5.3% 상회 (원문: Why BSE Sensex, Nifty50 are crashing on October 8, 2026? Top reasons)",
+      "source": "toi",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-crash-today-why-bse-sensex-nifty50-are-down-on-october-8-2026-top-reasons-for-fall-market-cap-fii-rbi-repo-rate-oil/articleshow/134782249.cms",
+      "one_liner": "니프티50은 245포인트(1.08%) 내린 22,357.85, 센섹스는 691포인트(0.95%) 내린 71,947.85에 거래됐다.",
+      "why_it_matters": "외국인의 대형주 매도와 미 10년물 금리 5.3% 상회가 신흥국 증시를 누르고 있다.",
+      "confidence": 0.78,
+      "original_title": "Why BSE Sensex, Nifty50 are crashing on October 8, 2026? Top reasons",
+      "implications": "신흥국 증시 투자자 — 미국 장기금리와 외국인 수급을 지켜볼 것.",
+      "tags": [
+        "인도",
+        "신흥국",
+        "금리"
+      ]
+    },
+    {
+      "title": "엔비디아 투자 Firmus, IPO 부진 속 수요예측 마감 보도 (원문: Nvidia-Backed Firmus Said to Close Books as IPO Struggles - Bloomberg.com)",
+      "source": "google",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdGxrUDVTc2JTVERpVDhpZ0tCekJVZmRMWjkyRHZWWVpGRWlvbVZxZmZGTUgyZDlxV2MzVUFGSmhjeVc2Qkc4cTlNWnNZaGp3MllmR0FwcjVOV0FLZGRNSVUxZm1VQlFSWE00X1czdkVtaGlWMnFUUC0xM0VVd0ZIWTdrY2xtbUhGY19DTmEwY0VRX2lQQjJ4eUs1SHJwVm5ILTVjVHpYNFAxWVBINzJGOEVQMA?oc=5",
+      "one_liner": "엔비디아가 투자한 Firmus가 IPO 흥행 부진 속 북을 마감한 것으로 전해졌다.",
+      "why_it_matters": "호주 두 번째 규모 상장이 투자자 회의론으로 구조 재조정 압박을 받았다.",
+      "confidence": 0.7,
+      "original_title": "Nvidia-Backed Firmus Said to Close Books as IPO Struggles - Bloomberg.com",
+      "implications": "AI 인프라 공모시장 — AI 관련 IPO 밸류에이션에 대한 투자자 태도를 지켜볼 것.",
+      "tags": [
+        "IPO",
+        "AI인프라",
+        "엔비디아"
+      ]
+    },
+    {
+      "title": "비트코인 현물 ETF 하루 4억8490만 달러 유출…6월 이후 최대 (원문: Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red",
+      "one_liner": "현물 비트코인 ETF에서 하루 만에 4억8490만 달러가 빠져나갔다.",
+      "why_it_matters": "유가 100달러 근접, 2002년 이후 최고 채권금리, 연준 추가 인상 기조가 위험자산 수급을 누르고 있다.",
+      "confidence": 0.8,
+      "original_title": "Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red",
+      "implications": "크립토 투자자 — ETF 순유출이 이어지는지와 장기금리 방향을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "금리"
+      ]
+    },
+    {
+      "title": "비트코인 8만1000달러 아래로 3주 저점 근접…이란 공습 우려에 유가 상승 (원문: Bitcoin nears 3-week low as oil heads higher on Iran strike woes)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-nears-3-week-low-as-oil-heads-higher-on-iran-strike-woes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "미국·이란 군사 충돌 재개 보도에 비트코인은 8만1000달러를 밑돌고 유가는 올랐다.",
+      "why_it_matters": "지정학 리스크가 유가 상승과 크립토 약세로 동시에 전이되고 있다.",
+      "confidence": 0.78,
+      "original_title": "Bitcoin nears 3-week low as oil heads higher on Iran strike woes",
+      "implications": "위험자산 전반 — 중동 관련 보도와 유가 흐름에 따른 변동성을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "유가",
+        "이란"
+      ]
+    },
+    {
+      "title": "미국 정부, 비트파이넥스 해킹 압류 BTC 1만2267개(약 10억 달러) 이체…매도 정황은 없어 (원문: U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
+      "one_liner": "미 정부 지갑이 1만2267 BTC를 거래소가 아닌 미표기 지갑으로 옮겼다.",
+      "why_it_matters": "하루 전 3억8300만 달러가 코인베이스 프라임으로 들어간 데 이어 나온 이동이라 매도 물량 우려를 키운다.",
+      "confidence": 0.8,
+      "original_title": "U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated",
+      "implications": "BTC 수급 — 해당 물량이 거래소로 유입되는지 온체인 흐름을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "미국정부",
+        "온체인"
+      ]
+    },
+    {
+      "title": "'10·10 플래시 크래시' 1주년 앞두고 크립토 약세 (원문: Crypto crumbles as anniversary of flash crash nears)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+      "one_liner": "2025년 10월 10일 비트코인이 약 12만2000달러에서 10만5000달러로 급락한 지 1년을 앞두고 시장이 흔들리고 있다.",
+      "why_it_matters": "당시 하락 대부분은 몇 분 안에 일어났고, 지금도 레버리지 청산이 이어지는 국면이다.",
+      "confidence": 0.65,
+      "original_title": "Crypto crumbles as anniversary of flash crash nears",
+      "implications": "레버리지 트레이더 — 청산 연쇄 가능성을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "변동성"
+      ]
+    },
+    {
+      "title": "IMF \"토큰화 시장, 금융 리스크 증폭할 수 있다\" (원문: IMF warns tokenized markets could amplify financial risks)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/imf-flags-volatility-liquidity-risks-tokenized-markets-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "IMF는 토큰화 주식 시장이 전통 시장보다 유동성은 낮고 변동성은 크다고 분석했다.",
+      "why_it_matters": "24시간 거래 수요가 늘고 있지만 국제기구가 리스크를 공식 경고했다.",
+      "confidence": 0.72,
+      "original_title": "IMF warns tokenized markets could amplify financial risks",
+      "implications": "토큰화 자산 업계 — 규제 논의로 이어지는지 지켜볼 것.",
+      "tags": [
+        "IMF",
+        "토큰화",
+        "규제"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
