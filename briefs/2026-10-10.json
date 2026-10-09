@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "date": "2026-10-10",
+  "slot": "am",
+  "generated_at": "2026-10-10T03:45:03.510989+09:00",
+  "top_insight": [
+    "비트코인은 8만350달러까지 밀리며 8월 이후 최대인 10억9000만 달러 청산을 겪은 뒤 반등했지만, 트레이더들은 10월 안에 더 밀릴 확률을 높게 본다. ETF 환매 속 XRP ETF만 소폭 유입됐다.",
+    "AI 반도체 기대는 꺾이지 않았다. WTO가 AI 붐을 이유로 2026년 교역 전망을 올렸고, 마이크론(목표가 3,000달러)·마벨 목표가 상향과 최태원 회장의 호남 반도체 속도전이 같은 날 나왔다.",
+    "미국 대외정책 리스크가 넓어진다. 이란전 군용기 81대 손실 집계, 대만 무기 판매의 협상카드화 지적, ICC 전면 제재가 겹쳤다."
+  ],
+  "whats_changed": [
+    "어제 8만1000달러 아래로 밀렸던 비트코인이 8만350달러 저점을 찍고 반등했다. 청산 규모는 10억9000만 달러로 8월 이후 최대다.",
+    "어제 삼성전자·TSMC 실적에 이어 오늘은 마이크론·마벨 목표가 상향과 WTO 교역 전망 상향으로 AI 반도체 기대가 이어졌다.",
+    "어제 트럼프의 이란 발언에 이어 오늘은 이란전 미군 피해(군용기 81대, 최대 4.4조 원)가 수치로 나왔다."
+  ],
+  "themes": [
+    "크립토 디레버리징 — BTC 8만350달러, 청산 10.9억 달러, 하방 베팅",
+    "AI 반도체 낙관 지속 — WTO 교역 전망 상향, MU·MRVL 목표가 상향, SK 호남 팹",
+    "미국 대외정책 리스크 — 이란전 비용, 대만 무기 협상카드, ICC 제재"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "최태원 SK 회장 \"호남 반도체, 수요 있으면 더 크게 짓겠다\"",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HRmJSWnhSaHg4WnpOaTRUSFBha0l5Y1NoRm5UbG9GcWJBMk1hbXo1d2MzQlltTTlwcFRZRzBzV3RSZGdTLTJFel9hV1RZbDZDUFNqUFhxQ3JGQQ?oc=5",
+      "one_liner": "최태원 회장이 광주 반도체 부지를 찾아 수요에 따라 규모를 키우고 최대한 빨리 짓겠다고 밝혔다.",
+      "why_it_matters": "800조 원 투자 계획의 속도전 의지를 공개적으로 확인했다.",
+      "confidence": 0.6,
+      "original_title": "최태원 SK 회장 \"호남 반도체, 수요 있으면 더 크게 짓겠다\" - 한국경제",
+      "implications": "SK하이닉스·지역 경제 — 착공 일정과 설비투자 규모 확정을 볼 것.",
+      "tags": [
+        "SK",
+        "반도체",
+        "투자"
+      ]
+    },
+    {
+      "title": "[美특징주] 보잉, 바클레이즈 '매력적 진입 시점' 의견에 상승",
+      "source": "이데일리",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLUlVQWJNNFNtbFdEbldPWmYwd1dVNzhNREs5TFBUUHFpRTlzOUVHdVJTR04zMXFJZTljX2NERVFVeXBsejN6aERKRmoyb0JxUzdGX0tQRnM3MGQwd2ZwX1hOSjJSOGJuckpld1FkT1NqYWRUWUFnN0t6YjZmb0lRTg?oc=5",
+      "one_liner": "바클레이즈가 보잉을 '매력적인 진입 시점'으로 평가하자 주가가 올랐다.",
+      "why_it_matters": "증권사 의견 하나로 대형 항공우주주가 움직였다.",
+      "confidence": 0.55,
+      "original_title": "[美특징주]보잉, '매력적 진입 시점' 바클레이즈 의견에 상승 - 이데일리",
+      "implications": "항공우주 — 보잉 인도량과 생산 정상화 지표를 볼 것.",
+      "tags": [
+        "보잉",
+        "미국증시"
+      ]
+    },
+    {
+      "title": "미군, 이란전서 군용기 81대 손실…피해액 최대 4조4000억원",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSS1WUjBDal8xVnBHMnRiSDJqYV9HU25aemdQd0g0Z01WTllncUJQYWFnNzJ5SzJjR3pOUWh6eVJDY3RRWEtGTWstVkNtNkhtbDZEN25Lb3haWUdWcUxWSlZfZXBQYjZPYk41c0x0X0FJd2xIbFA0UTA5OXU2MlkyZVV5V2dESkM5aHFCUVpUUHYwVHQwaWN5YkdRQmotZw?oc=5",
+      "one_liner": "이란 전쟁 8개월 동안 미군 군용기 81대가 파괴·손상됐고 피해액은 최대 4조4000억 원으로 집계됐다.",
+      "why_it_matters": "전쟁 비용이 의회 보고로 구체화되며 확전 여부 논쟁에 영향을 줄 수 있다.",
+      "confidence": 0.65,
+      "original_title": "미군, 이란전서 군용기 81대 잃어… 피해액 최대 4조4000억원 - 조선일보",
+      "implications": "방산·유가 — 미 의회 추가 예산 논의와 중동 리스크 프리미엄을 볼 것.",
+      "tags": [
+        "이란",
+        "미군",
+        "중동"
+      ]
+    },
+    {
+      "title": "전직 미 고위 관리들 \"트럼프, 대만 무기 판매까지 중국과 협상 카드로\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4RzI1cmVyc01TUW1KV1lSNEZsMmxiRGVaamFoeUVRLVplVU9jVEU4RkNuUjNOX1RDLVNERlNzWXNKazA1VzdVTnhweHhKUWpCUUNVMklYaFlnSWYwOXczMTVUR2tZQVlSdXRVNQ?oc=5",
+      "one_liner": "전직 미 고위 관리들이 트럼프가 대만 무기 판매까지 대중 협상 카드로 쓴다고 지적했다.",
+      "why_it_matters": "중국은 대만의 F-16V 첫 인수에 반발하고 있어 미·중·대만 관계의 변수가 커졌다.",
+      "confidence": 0.6,
+      "original_title": "전직 미 고위 관리들 “트럼프, 대만 무기 판매까지 중국과 협상 카드로” - 한겨레",
+      "implications": "대만·반도체 공급망 — 미·중 협상 결과와 대만 무기 인도 일정을 볼 것.",
+      "tags": [
+        "대만",
+        "미중",
+        "트럼프"
+      ]
+    },
+    {
+      "title": "노벨평화상 필라이 \"법 아닌 힘의 시대 막아야\"…트럼프 행정부, 같은 날 ICC 전면 제재",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLOUJEdlFJSFVHZDZFeWFnQk9Dc0FoZEszbGUxTE52RVhYbUJNVWJ5YkI1NkxWczItM2NVaEVtOVdtWU5Ya1pyX2hiVE5jQTc4d1cyU2tIU05jQVRrSlZNb2FuU2YyQXRHQnY1Sk1B?oc=5",
+      "one_liner": "노벨평화상 수상자 필라이가 법이 아닌 힘의 시대를 막아야 한다고 말했고, 같은 날 트럼프 행정부는 ICC 전면 제재에 나섰다.",
+      "why_it_matters": "국제사법 질서를 둘러싼 미국과 국제사회의 충돌이 노벨상을 계기로 드러났다.",
+      "confidence": 0.6,
+      "original_title": "노벨평화상 필라이, 나치 전범재판 법정서 “법 아닌 힘의 시대 막아야” - 한겨레",
+      "implications": "국제기구·외교 — ICC 제재가 동맹국 반응과 국제 분쟁 재판에 미칠 영향을 볼 것.",
+      "tags": [
+        "노벨평화상",
+        "ICC",
+        "국제정치"
+      ]
+    },
+    {
+      "title": "WTO, AI 붐에 2026년 세계 교역 증가율 전망 대폭 상향 (원문: WTO hikes 2026 trade growth forecast on AI boom)",
+      "source": "thepeninsulaqatar",
+      "url": "https://thepeninsulaqatar.com/article/09/10/2026/wto-hikes-2026-trade-growth-forecast-on-ai-boom",
+      "one_liner": "WTO가 AI 붐을 근거로 2026년 세계 교역 증가율 전망을 크게 올렸다.",
+      "why_it_matters": "상품 교역이 AI 수요를 타고 예상보다 견조하게 버티고 있다는 공식 평가다.",
+      "confidence": 0.7,
+      "original_title": "WTO hikes 2026 trade growth forecast on AI boom",
+      "implications": "수출 비중이 큰 반도체·IT 하드웨어 국가 — 한국·대만 수출 지표에서 AI 교역 효과를 확인할 것.",
+      "tags": [
+        "WTO",
+        "교역",
+        "AI"
+      ]
+    },
+    {
+      "title": "DA 데이비슨, 마이크론 목표주가 2100달러→3000달러 상향 (원문: Micron Technology (NASDAQ:MU) Stock Gets Price Target Boost from DA Davidson)",
+      "source": "themarketsdaily",
+      "url": "https://www.themarketsdaily.com/2026/10/09/micron-technology-nasdaqmu-stock-gets-price-target-boost-from-da-davidson.html",
+      "one_liner": "DA 데이비슨이 마이크론 목표주가를 2,100달러에서 3,000달러로 올리고 매수 의견을 유지했다.",
+      "why_it_matters": "목표가는 현재가 대비 189.62% 상승 여력을 시사한다.",
+      "confidence": 0.7,
+      "original_title": "Micron Technology (NASDAQ:MU) Stock Gets Price Target Boost from DA Davidson",
+      "implications": "메모리 반도체 — 삼성전자·SK하이닉스와 함께 HBM·메모리 가격 사이클 기대치를 볼 것.",
+      "tags": [
+        "마이크론",
+        "메모리",
+        "목표주가"
+      ]
+    },
+    {
+      "title": "RBC, 마벨 테크놀로지 목표주가 360달러→425달러 상향 (원문: Royal Bank Of Canada Forecasts Strong Price Appreciation for Marvell Technology (NASDAQ:MRVL) Stock)",
+      "source": "americanbankingnews",
+      "url": "https://www.americanbankingnews.com/2026/10/09/royal-bank-of-canada-forecasts-strong-price-appreciation-for-marvell-technology-nasdaqmrvl-stock.html",
+      "one_liner": "RBC가 마벨 목표주가를 360달러에서 425달러로 올리고 '아웃퍼폼' 의견을 유지했다.",
+      "why_it_matters": "같은 날 서스퀘하나도 목표가를 265달러에서 340달러로 올리는 등 AI 반도체 목표가 상향이 이어졌다.",
+      "confidence": 0.7,
+      "original_title": "Royal Bank Of Canada Forecasts Strong Price Appreciation for Marvell Technology (NASDAQ:MRVL) Stock",
+      "implications": "AI 네트워킹·커스텀칩 — 다음 실적에서 데이터센터 매출 가이던스를 볼 것.",
+      "tags": [
+        "마벨",
+        "AI반도체",
+        "목표주가"
+      ]
+    },
+    {
+      "title": "비트코인 8만350달러까지 밀려 10억9000만달러 청산…8월 이후 최대",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iLWI4b2ZMNG9RTWFmTy1ONzJPZFNTUF9HUnFvUVN6YTZ4T0lMbG4zeVVBSGRaRElNM2YwbGRCb2QwY3NMbEN1REdybmtaa1FMd2xzN2xR?oc=5",
+      "one_liner": "비트코인이 8만350달러까지 밀리며 10억9000만 달러 규모 청산이 발생했다.",
+      "why_it_matters": "8월 이후 가장 큰 청산 규모로, 레버리지 포지션이 한꺼번에 정리됐다.",
+      "confidence": 0.7,
+      "original_title": "비트코인 8만350달러까지 밀려 10억9000만달러 청산…8월 이후 가장 큰 규모 - 위키트리",
+      "implications": "암호화폐 레버리지 트레이더 — 8만 달러선 지지 여부와 펀딩비 정상화를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "청산",
+        "크립토"
+      ]
+    },
+    {
+      "title": "비트코인 거친 한 주 뒤 반등…트레이더들은 추가 하락에 베팅 (원문: Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380599/bitcoin-rebounds-traders-predict-more-downside",
+      "one_liner": "비트코인이 약 8만 달러까지 떨어졌다가 반등했지만, 10월 안에 더 밀릴 확률을 높게 보는 베팅이 늘고 있다.",
+      "why_it_matters": "반등에도 파생시장 심리는 하방 쪽으로 기울어 있다.",
+      "confidence": 0.65,
+      "original_title": "Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside",
+      "implications": "크립토 투자자 — 10월 말까지 옵션·예측시장의 하방 확률 변화를 볼 것.",
+      "tags": [
+        "비트코인",
+        "시장심리"
+      ]
+    },
+    {
+      "title": "비트코인 주도 크립토 ETF 대규모 환매 속 XRP ETF엔 800만 달러 순유입",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxPSTRzOWhSSVF1elZkRGoxZFBlN2lsbjVsN2ZYNjFMTHhuby1nc19pYmdXM0t3NmVMUWQ4S25Wb0ZMc3hsa1pRSjQ5RGFUVmxMMVZ4UDZkT2ZvUDNQQzZ1eVdwcXVWaXlSaXhjTnlEb01nWExYdHN1cnlpRk4xYWQ1NjdjeTVzbldJa1BVb3dpbXYwUFdfdlBZdTR1dkN2X1VYSlhRZ3pOWDBsYzAxNXdBWnRKcGxqYUM4NWhvWTFJY1JQeHlyVF80T3VVR3VwRXp5N0o3X0xpd1VuZks4YnRNVTNnY2hsdzlFWkk1eEc3cGhmbzJYNHBvNHRCOS1zRHlyenFoaVBqeHhnX0hzdWotcFItMEhoMTFlTE4tOVVKcFRvOUNRR3paeER1QWkxVFNPZkNneUZpYzdERHZFZXdkRF9ham1RbGV5NGFnZ1FrcFp0ZXlad1piSUdoMXVvazh3UDZMQ1AyYlFKblRHSjFGV0x2em9CVDF2MjhTLUEzNE5POEZnckNuYnlR?oc=5",
+      "one_liner": "암호화폐 ETF에서 대규모 환매가 이어지는 가운데 XRP ETF에는 800만 달러가 순유입됐다.",
+      "why_it_matters": "자금 이탈 속에서도 알트코인 ETF로 선별 유입이 나타났다.",
+      "confidence": 0.6,
+      "original_title": "비트코인 주도 암호화폐 ETF 대규모 환매 속 리플(XRP) ETF에 800만달러 순유입 - Yellow.com",
+      "implications": "ETF 자금 흐름 — 비트코인 ETF 유출이 멈추는지, 알트 ETF 유입이 이어지는지 볼 것.",
+      "tags": [
+        "ETF",
+        "XRP",
+        "자금흐름"
+      ]
+    },
+    {
+      "title": "Blockchain.com, 美 CFTC에 예측시장·파생상품 라이선스 신청 (원문: Blockchain.com pursues CFTC approval for prediction markets: CNBC)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/blockchain-cftc-approval-derivatives-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "Blockchain.com이 미 CFTC에 두 가지 라이선스를 신청해 자체 규제 예측시장 운영을 추진한다.",
+      "why_it_matters": "법원이 예측시장 사건을 심리하는 가운데 크립토 업체의 미국 규제권 진입 시도다.",
+      "confidence": 0.6,
+      "original_title": "Blockchain.com pursues CFTC approval for prediction markets: CNBC",
+      "implications": "예측시장·크립토 파생 — CFTC 승인 여부와 관련 판결을 볼 것.",
+      "tags": [
+        "예측시장",
+        "CFTC",
+        "크립토"
+      ]
+    },
+    {
+      "title": "HSBC·앤트디지털, 토큰화 예금으로 AI 에이전트 결제 시험 (원문: HSBC, Ant Digital test AI-agent payments using tokenized deposits)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/hsbc-ant-digital-test-ai-agent-payments-using-tokenized-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "HSBC와 앤트디지털이 토큰화 예금을 이용한 AI 에이전트 소액결제를 기술 시험했다.",
+      "why_it_matters": "실시간 정산과 리스크 점검을 갖춘 은행권 토큰화 예금이 AI 에이전트 결제에 쓰일 수 있음을 보였다.",
+      "confidence": 0.6,
+      "original_title": "HSBC, Ant Digital test AI-agent payments using tokenized deposits",
+      "implications": "은행·결제 — 토큰화 예금과 스테이블코인의 결제 주도권 경쟁을 볼 것.",
+      "tags": [
+        "토큰화예금",
+        "AI에이전트",
+        "HSBC"
+      ]
+    },
+    {
+      "title": "이더리움 L2 스타크넷, L1 전환 검토 밝히자 20% 급등 (원문: Ethereum L2 Starknet Jumps 20% After Saying It Wants to Become an L1)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1",
+      "one_liner": "스타크넷이 독자 블록체인 전환을 적극 검토한다고 밝히자 20% 뛰었다.",
+      "why_it_matters": "2027년까지 최초의 완전 양자내성 네트워크가 되겠다고 주장했다.",
+      "confidence": 0.6,
+      "original_title": "Ethereum L2 Starknet Jumps 20% After Saying It Wants to Become an L1",
+      "implications": "이더리움 L2 생태계 — L2 이탈이 이더리움 정산 수요에 미칠 영향을 볼 것.",
+      "tags": [
+        "스타크넷",
+        "이더리움",
+        "L2"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
