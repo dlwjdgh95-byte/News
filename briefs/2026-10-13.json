@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "slot": "am",
+  "generated_at": "2026-10-13T03:45:22.224591+09:00",
+  "top_insight": [
+    "유가가 다시 시장의 공통 변수다. 트럼프의 '에너지 휴전' 발표에도 러시아의 공격과 이란 관련 공습이 이어지며 유가가 한 달 만의 고점에 다가섰고, 비트코인은 8만4000달러를 지키지 못했다.",
+    "심리 지표가 엇갈린다. 미국은 다우 반등으로 CNN 공포·탐욕 지수가 중립(45)에 들어섰지만, 크립토 지수는 82에서 56으로 내려왔고 코스피는 반도체 대형주 급락으로 6300대까지 밀렸다.",
+    "크립토 기업은 자금 조달 부담이 드러났다. 채굴사는 AI 전환에 500억 달러가 필요하고, 에버노스는 상장 전 SPAC 투자자 80%가 빠져나갔다."
+  ],
+  "whats_changed": [
+    "어제 트럼프 '에너지 휴전' 발표 소식에 이어, 오늘은 러시아 공격이 계속되고 美 상원·EU가 경유 딜에 반대하며 휴전 실효성 의문이 커졌다.",
+    "어제 10월 BTC ETF 순유출로 수급 약점을 짚었다면, 오늘은 유가 상승에 BTC가 2.2% 밀리고 크립토 심리 지수가 8월 저점 수준으로 내려갔다.",
+    "어제 소득 계층 격차 등 국내 거시 통계 중심에서, 오늘은 코스피가 반도체 급락으로 6300대까지 하락했다."
+  ],
+  "themes": [
+    "유가 재상승 — 휴전 발표에도 공습 지속, BTC·위험자산 압박",
+    "심리 분화 — 미국 증시 중립 회복 vs 크립토·코스피 약세",
+    "크립토 기업 자금 부담 — 채굴사 AI 전환·에버노스 상장·스트래티지 우선주"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 대형 기업 3분기 실적 발표 시작(이번 주)",
+    "국정감사 2주차 — 헌법재판소·공수처·경기도청(13일)"
+  ],
+  "items": [
+    {
+      "title": "트럼프 '러-우 에너지 휴전' 일방 발표…러시아는 공격 계속",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZkd4MkVSSTMwVVh1MmNCVjFGcDZjMXgwWHZyR25lU0tvQ2RHUkJHVmdTX0ZVRGNWcm85bzJLeldGaS1xS0Y2dFpVSXBlVEFsZGhjSmhRRmhOMVRqMGhfbXN3U003a0FScTBLR2JjNVRiQ0lRVHBKVmMyRVlyZkV1VGhB?oc=5",
+      "one_liner": "트럼프가 러-우 에너지 휴전을 일방 발표했지만, 러시아의 우크라이나 공격은 이어지고 있다는 보도가 나왔다.",
+      "why_it_matters": "휴전 발표와 실제 전황이 어긋나고, 美 상원의원들은 러시아산 경유 구매 철회를 촉구하는 등 미국 내에서도 반발이 나온다.",
+      "confidence": 0.72,
+      "original_title": "다급한 트럼프 “러-우 에너지 휴전” 일방 발표…선거 부진에 또 무리수 - 한겨레",
+      "implications": "원유·에너지 시장 — 휴전이 실제 공격 중단으로 이어지는지, 러시아산 디젤 제재 완화 논란이 어떻게 정리되는지 볼 것.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "트럼프",
+        "에너지"
+      ]
+    },
+    {
+      "title": "노벨경제학상에 로버트 홀·마이클 우드퍼드…새 케인스주의 모델 구축",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OU1ZwZFhGU3ItQWZXSHBNbXhqQm5kRVBNM05tUE5DX05hR3diRVloN1lJZHJmaGlXY0tKcVhMM2tfUTRNeVVNWmZraGVHaHpqRlU4RkhiNUVXQXhWa1ZyWkRSR1EydjVMNlJocHB1WnVaUQ?oc=5",
+      "one_liner": "올해 노벨경제학상은 기업·가계의 기대심리를 반영한 새 케인스주의 경기 안정화 모델을 만든 홀·우드퍼드 교수에게 돌아갔다.",
+      "why_it_matters": "국내 경제학자들은 두 사람을 '통화정책 교과서를 쓴 인물들'로 평가한다. 오늘날 중앙은행 정책의 이론적 토대와 직결된다.",
+      "confidence": 0.8,
+      "original_title": "노벨경제학상 미 로버트 홀·마이클 우드퍼드…새 케인스주의 모델 구축 - 한겨레",
+      "implications": "통화정책 관찰자 — 기대 관리 중심 통화정책 논의가 다시 주목받는지 볼 것.",
+      "tags": [
+        "노벨경제학상",
+        "통화정책",
+        "케인스"
+      ]
+    },
+    {
+      "title": "우크라 외무, '북 포로 한국행 공개' 논란에 \"종결된 사안\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lNmk1WDFTS0U0MGg2Xzd0VFpFSXZ3WDBGZ1ZoUkp4NXk0Mk42VFdPRjhBSHFrVDVJSzJZU3hCU2JWQTNBZE54VXNUYkZVaWs4YkRfaDc5eG5SMVpKM1IzUTZ1MTJyaG8?oc=5",
+      "one_liner": "우크라이나가 북한군 포로 한국행 공개에 대한 한국 정부의 사과 요구를 사실상 거부했다.",
+      "why_it_matters": "주우크라 대사가 본국 소환돼 외교장관에게 보고했고, 국내에서는 여야 공방으로 번졌다.",
+      "confidence": 0.72,
+      "original_title": "우크라 외무, ’북 포로 한국행 공개’ 논란에 “종결된 사안“ - 연합뉴스TV",
+      "implications": "한-우크라 관계 — 대사 소환 이후 양국 외교 채널이 어떻게 정리되는지 볼 것.",
+      "tags": [
+        "우크라이나",
+        "북한",
+        "외교"
+      ]
+    },
+    {
+      "title": "EU, 러시아의 북한제 미사일 사용 도운 북한 기술자 제재",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PeTE5XzNLWHM2QWotd2tteUNVdVNucWt5N3pXemRpdTBsb2RFY2tTQXRRcGxxMmd6V2ZSTXpneTV5a1lxNVg3Q3diYVhHRk1SSzBuMkNIcnVoNTFGWjlzY2NjX0VCZDA4dTMwekdNM3lReV9VZUZmWjBld9IBfkFVX3lxTE1Od0dIN3dURW44ZVI0MUJjcl9Yd3hvQmRPczFyazZjV0REVEtiVjc2Ty1wTGdRUEtEMTY3QzRPQmhaODBmM0NUVHM4T1RTc0UwTFJmSHl5blRCdXduQ0RXOHpvZGVxREZtZmZ4RmFXeXJObmJnR0lHVHZxa05lUQ?oc=5",
+      "one_liner": "EU가 북러 군사·경제 협력과 관련해 개인 3명·단체 4곳을 추가 제재했다.",
+      "why_it_matters": "북러 '무기-석유 거래'를 겨냥한 조치다. EU는 트럼프에게 러시아와의 경유 딜 대신 새 제재를 부과하라고 요구했다.",
+      "confidence": 0.72,
+      "original_title": "EU, 러시아의 북한제 미사일 사용 지원한 북한 기술자 제재…북러 ‘무기-석유 거래’ 겨냥 - VOA 한국어 홈페이지",
+      "implications": "대북·대러 제재 — 미국과 EU의 대러 제재 방향이 갈라지는지 볼 것.",
+      "tags": [
+        "EU",
+        "북한",
+        "러시아",
+        "제재"
+      ]
+    },
+    {
+      "title": "국감 2주차…헌재·공수처·경기도청 감사, 호남 반도체 전력 논란도 쟁점",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LbjNvczV3M2tadzVJOVVQY29peU9FV3BLXzhaS3JERGd2VUhoZ1hlSnpaSU5FUGJXc3l5dGtIZ0k0NWNtNnc0THRDLXVWczFaR3pna2VCelVYam8?oc=5",
+      "one_liner": "국정감사가 2주차에 들어서 검찰개혁·한미관계·부동산과 호남 반도체 전력 문제를 두고 여야가 맞선다.",
+      "why_it_matters": "호남 반도체 클러스터 전력망 비용 부담 논란이 국감 쟁점으로 올라왔다.",
+      "confidence": 0.65,
+      "original_title": "오늘 헌법재판소·공수처·경기도청 국정감사 - KBS 뉴스",
+      "implications": "반도체·전력 정책 — 전력망 비용 분담 논란이 기업 부담으로 이어지는지 볼 것.",
+      "tags": [
+        "국정감사",
+        "반도체",
+        "전력"
+      ]
+    },
+    {
+      "title": "코스피 6300대로 하락…삼성전자·SK하이닉스 4% 넘게 급락 (원문: [속보]코스피 6300대로 하락…삼전닉스 4% 이상 폭락)",
+      "source": "nocutnews",
+      "url": "https://www.nocutnews.co.kr/news/6590002",
+      "one_liner": "코스피가 6300대로 밀렸고 삼성전자·SK하이닉스가 4% 이상 떨어졌다.",
+      "why_it_matters": "지수 비중이 큰 반도체 대형주 두 종목이 동반 급락하면서 지수 하락을 이끌었다.",
+      "confidence": 0.62,
+      "original_title": "[속보]코스피 6300대로 하락…삼전닉스 4% 이상 폭락",
+      "implications": "국내 주식 투자자 — 반도체 대형주 낙폭이 지수 전체로 번지는지, 외국인 수급이 어떻게 움직이는지 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "반도체",
+        "삼성전자",
+        "SK하이닉스"
+      ]
+    },
+    {
+      "title": "다우 400포인트 넘게 올라 주간 상승…CNN 공포·탐욕 지수 '중립' 진입 (원문: Dow Jumps Over 400 Points, Records Weekly Gain: Investor Sentiment Improves, Fear & Greed Index Moves yo ‘Neutral’ Zone)",
+      "source": "benzinga",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62291207/dow-jumps-over-400-points-records-weekly-gain-investor-sentiment-improves-fear-greed-index-moves-yo-neutral-zone",
+      "one_liner": "금요일 다우가 423포인트 올랐고 CNN 공포·탐욕 지수는 45로 중립 구간에 들어섰다.",
+      "why_it_matters": "주가는 올랐지만 같은 날 소비자심리는 약해졌다는 점이 함께 나왔다.",
+      "confidence": 0.75,
+      "original_title": "Dow Jumps Over 400 Points, Records Weekly Gain: Investor Sentiment Improves, Fear & Greed Index Moves yo ‘Neutral’ Zone",
+      "implications": "미국 주식 투자자 — 이번 주 시작되는 대형사 실적 발표가 심리 회복을 이어 갈지 볼 것.",
+      "tags": [
+        "미국증시",
+        "다우",
+        "투자심리"
+      ]
+    },
+    {
+      "title": "마이클 버리, 패니메이·프레디맥 보통주를 후순위 우선주로 갈아타 (원문: Burry cites treasury dilution risk in shift to Fannie and Freddie preferred stock)",
+      "source": "seekingalpha",
+      "url": "https://seekingalpha.com/news/4651971-burry-cites-treasury-dilution-risk-in-shift-to-fannie-and-freddie-preferred-stock?feed_item_type=news",
+      "one_liner": "버리가 3880억 달러 규모 재무부 전환에 따른 90% 희석 위험을 이유로 보통주를 우선주로 바꿨다.",
+      "why_it_matters": "GSE 민영화 과정에서 정부 지분 전환이 기존 보통주 주주에게 큰 희석을 줄 수 있다는 판단이다.",
+      "confidence": 0.7,
+      "original_title": "Burry cites treasury dilution risk in shift to Fannie and Freddie preferred stock",
+      "implications": "FNMA·FMCC 투자자 — 재무부 지분 전환 조건이 확정되는지 볼 것.",
+      "tags": [
+        "버리",
+        "패니메이",
+        "프레디맥"
+      ]
+    },
+    {
+      "title": "달러/위안, 3년 반 만의 최저 부근…추가 하락 여지 (원문: FxWirePro: USD/ CNY hovered near 3-1/2-year low ,vulnerable to more downside)",
+      "source": "econotimes",
+      "url": "https://econotimes.com/FxWirePro-USD-CNY-hovered-near-3-1-2-year-low-vulnerable-to-more-downside-1754611",
+      "one_liner": "달러/위안 환율이 3년 반 만의 저점 근처에 머물렀다.",
+      "why_it_matters": "중동 분쟁 격화로 투자자가 조심스러운 가운데, 미·중 금리차 확대가 위안 강세를 제한하고 있다.",
+      "confidence": 0.65,
+      "original_title": "FxWirePro: USD/ CNY hovered near 3-1/2-year low ,vulnerable to more downside",
+      "implications": "원화·아시아 통화 — 위안 강세가 이어지는지, 미·중 금리차 흐름을 볼 것.",
+      "tags": [
+        "위안",
+        "환율",
+        "중국"
+      ]
+    },
+    {
+      "title": "비트코인 2.2% 하락…우크라·이란 공습에 유가 한 달 만의 최고치 근접 (원문: Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "유가가 오르면서 비트코인은 8만4000달러 위에 안착하지 못하고 2.2% 떨어졌다.",
+      "why_it_matters": "우크라이나·이란 관련 공습이 유가를 밀어 올렸고, 그 여파가 비트코인 가격에도 미쳤다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
+      "implications": "크립토 투자자 — 유가와 비트코인의 연동이 이어지는지, 8만4000달러 회복 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "유가",
+        "지정학"
+      ]
+    },
+    {
+      "title": "크립토 공포·탐욕 지수, 랠리 전 8월 저점 수준으로 하락 (원문: Bitcoin Spooked? Crypto Fear and Greed Index Drops to Pre-Rally August Lows)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
+      "one_liner": "크립토 공포·탐욕 지수가 8월 고점 82에서 56으로 떨어졌다.",
+      "why_it_matters": "10월 들어 유가·채권금리·ETF 유출이 겹치며 비트코인 심리를 눌렀다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin Spooked? Crypto Fear and Greed Index Drops to Pre-Rally August Lows",
+      "implications": "크립토 투자자 — ETF 유출이 멈추는지, 심리 지수가 중립 아래로 더 내려가는지 볼 것.",
+      "tags": [
+        "비트코인",
+        "투자심리",
+        "ETF"
+      ]
+    },
+    {
+      "title": "비트코인 채굴사, AI 전환 자금 조달 비용 확대…대출기관 심사 강화 (원문: Bitcoin miners face widening AI financing costs as lenders scrutinize deals)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "채굴 업계가 계획한 AI 인프라를 끝내려면 약 500억 달러가 필요하다.",
+      "why_it_matters": "IREN·라이엇·HIVE 등이 큰 자금 공백에 직면했고, 대출기관이 거래를 더 깐깐하게 본다.",
+      "confidence": 0.72,
+      "original_title": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
+      "implications": "채굴주 투자자 — AI 데이터센터 전환 자금 조달 조건과 희석 여부를 볼 것.",
+      "tags": [
+        "비트코인채굴",
+        "AI",
+        "IREN"
+      ]
+    },
+    {
+      "title": "리플 지원 에버노스, 나스닥 상장…보유 XRP 4억7300만 개는 매입가보다 가치 하락 (원문: Ripple-Backed Evernorth Hits Nasdaq Holding 473 Million XRP Worth Far Less Than It Paid)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380728/ripple-backed-evernorth-hits-nasdaq-holding-473-million-xrp",
+      "one_liner": "에버노스(XRPN)가 SPAC 합병을 마치고 월요일 나스닥에서 거래를 시작했다.",
+      "why_it_matters": "SPAC 투자자 80%가 먼저 현금화했고, 보유 XRP 가치는 계약 시점보다 약 40% 낮다.",
+      "confidence": 0.72,
+      "original_title": "Ripple-Backed Evernorth Hits Nasdaq Holding 473 Million XRP Worth Far Less Than It Paid",
+      "implications": "XRP·크립토 트레저리 기업 — 상장 후 주가가 보유 자산 가치 대비 할인되는지 볼 것.",
+      "tags": [
+        "XRP",
+        "에버노스",
+        "SPAC"
+      ]
+    },
+    {
+      "title": "스트래티지, 비트코인 대신 자사 우선주에 1억9240만 달러 투입",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxQbGI3al9QVnRZMlVfdHdVLUMxaWd1VnE4UnVMaU8wSjZzeHhsRkFULVB0M01iYnhVYWVKYThFSmpQdDlTNHBVcHNNVWpUbHVNOG5CQXQwMkNsUkxydlF3em9IejNsWEpIU2cyWXZhSEJxb2hwTV95Y1JSVFgzbU9aOEtQaEkxUFhRMzhkQ2Z3aFdEU1ZnalJvQm9qVWxLb1NldkFuLU1DcjdZV1hXRHhjWExIeWxRakJ3ZmozbWpFLUozVURaSDcyMDR6MFlVdEg4dEI4Z3VqMmJQcmRXWGQ2MjU3dko4XzN1V0ZteFZSa3l3UFdjdGVSeExNR2hORURXOEV0X3VWVGJJY3BBaldmOUhCaUg2NlYxclNKMHlFZDBxTW9CZjAtUGRYX3gyVm5pRW5nTVRWcXlFaWhlYnBYRzdrUlA0OXN5X1hDcmZOUVJyMF9JVGZBazgxWGVQRGExMDJHSlBoNmVaZUt3eVVuQ1kyWUFqZVBZVWh6cW5pM0ZMZ0Jibl9VS1NOVUlCZmswNVNvbDA3SDZfVjJRV0Zyc3VfVHZFTktqZjJmcEF0a2QzazR4WmRj?oc=5",
+      "one_liner": "스트래티지가 비트코인 매입은 소규모에 그치고 자사 우선주에 1억9240만 달러를 썼다.",
+      "why_it_matters": "최대 비트코인 보유 기업의 자금 배분 우선순위가 바뀌었다는 신호로 읽힐 수 있다.",
+      "confidence": 0.6,
+      "original_title": "비트코인엔 ‘쥐꼬리’…자사 우선주에 1억9,240만 달러 쏟아부은 스트래티지 - Yellow.com",
+      "implications": "MSTR·비트코인 — 스트래티지의 비트코인 매입 속도가 계속 줄어드는지 볼 것.",
+      "tags": [
+        "스트래티지",
+        "비트코인",
+        "우선주"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
