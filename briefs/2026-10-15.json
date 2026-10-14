@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "date": "2026-10-15",
+  "slot": "am",
+  "generated_at": "2026-10-15T03:45:30.012905+09:00",
+  "top_insight": [
+    "미국 물가가 3.7%로 나오며 비트코인과 금이 함께 내렸고, 비트코인은 8만2000달러 아래에 머문다. 10월 연준 금리 인상 가능성까지 거론된다.",
+    "가격은 눌렸지만 블랙록 크립토 운용자산 800억달러(분기 +63%), 스탠다드차타드의 UAE 거래 개방 등 기관 쪽 확장은 이어졌다.",
+    "원·달러 환율은 6.8원 내린 1338.3원으로 코스피 급락 다음 날 원화가 강세를 보였다."
+  ],
+  "whats_changed": [
+    "어제 비트코인은 8만1000달러 아래까지 밀렸다 반등했고, 오늘은 미국 물가 발표 뒤 8만2000달러 아래에 머물렀다.",
+    "어제 시장이 기다리던 미국 물가 지표가 3.7%로 나왔다.",
+    "어제 기업 트레저리 매집에서, 오늘은 블랙록·스탠다드차타드 등 금융기관의 크립토 확장으로 초점이 옮겨갔다."
+  ],
+  "themes": [
+    "미국 물가 재부담 — 비트코인·금 동반 하락, 10월 연준 경계",
+    "기관의 크립토 확장 — 블랙록 AUM 급증·은행 직접 거래·스테이블코인 전망",
+    "크립토 규제·인프라 — 디뱅킹·예측시장 감독권·양자내성 전환"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "멜콘·진코스텍 코스닥 상장(10/15)"
+  ],
+  "items": [
+    {
+      "title": "원·달러 환율 6.8원 내린 1338.3원",
+      "source": "fnnews",
+      "url": "https://www.fnnews.com/news/202610141540451756",
+      "one_liner": "14일 원·달러 환율이 전 거래일보다 6.8원(0.51%) 내린 1338.3원에 마감했다.",
+      "why_it_matters": "코스피 급락 다음 날 원화가 강세로 돌아섰다.",
+      "confidence": 0.8,
+      "implications": "수입·수출 기업과 외화자산 보유자 — 원화 강세가 이어지는지 지켜볼 것.",
+      "tags": [
+        "환율",
+        "원달러"
+      ]
+    },
+    {
+      "title": "미국 인플레이션 3.7%…비트코인·금 하락, 10월 연준 금리 인상?",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wbV96RURYZmhDMmYxQ3FZNWZHcXdRclA5SDdCNGZ0WjNyVTkzLUREVTlOUUw1Y3NacmtWbkZoZ3o5c3RwMnBaV0M2c3VTRXNxUmEwb3JhbFFBalFpOV9QOGFuWEtnc2l6czNaZQ?oc=5",
+      "one_liner": "미국 인플레이션이 3.7%로 나오며 비트코인과 금이 함께 내렸고, 10월 연준 금리 인상 가능성이 거론된다.",
+      "why_it_matters": "물가가 다시 위험자산과 금 가격을 동시에 누르는 변수로 떠올랐다.",
+      "confidence": 0.6,
+      "original_title": "미국 인플레이션 3.7%…비트코인·금 하락, 10월 연준 금리 인상? - BeInCrypto",
+      "implications": "금리·크립토 투자자 — 10월 연준 회의를 앞둔 금리 인상 관측이 확산되는지 지켜볼 것.",
+      "tags": [
+        "미국물가",
+        "연준",
+        "비트코인",
+        "금"
+      ]
+    },
+    {
+      "title": "미국 물가에 발목 잡힌 비트코인…8만 2천 달러 밑으로",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rd3pTM3RWcXFvV0dBZHpvdWNCajFmTG1yQy13ZVAwbDlCOXVmbmZWS1YzaHJiNG42Rm1HbFd0TGQ4SC0zZXEtZm5zOHVwWjF2NzlmY1N4b3ZPUFplbzlkcUtkQW5VcFdkMXJieQ?oc=5",
+      "one_liner": "미국 물가 부담에 비트코인이 8만2000달러 아래로 내려갔다.",
+      "why_it_matters": "어제 8만1000달러 아래까지 밀렸다 반등한 뒤에도 물가 변수에 막혀 회복이 더디다.",
+      "confidence": 0.6,
+      "original_title": "미국 물가에 발목 잡힌 비트코인…8만 2천 달러 밑으로 - 경향게임스",
+      "implications": "크립토 투자자 — 8만~8만2000달러 구간 지지 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "미국물가"
+      ]
+    },
+    {
+      "title": "블랙록 3분기 암호화폐 운용자산 800억弗…1분기만 63% 급증",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCdnVVX1lDQ24zZkppZVBfenVtT2oyMXdVLTdNb2NpV3JieDY2UVVMeExjelRiQUQ0d0xRMm9zU3RjbTNfMkZLaERTU2twdFd6?oc=5",
+      "one_liner": "블랙록의 3분기 암호화폐 운용자산이 800억달러로 한 분기 만에 63% 늘었다.",
+      "why_it_matters": "가격 조정과 별개로 기관 상품으로의 자금 유입 규모가 커지고 있다.",
+      "confidence": 0.6,
+      "original_title": "블랙록 3분기 암호화폐 운용자산 800억弗…1분기만 63% 급증 - 블루밍비트",
+      "implications": "크립토 ETF 투자자 — 블랙록 상품 순유입이 4분기에도 이어지는지 지켜볼 것.",
+      "tags": [
+        "블랙록",
+        "ETF",
+        "기관자금"
+      ]
+    },
+    {
+      "title": "스탠다드차타드, 스테이블코인 2조 달러 전망 시점을 2030년으로 미뤄 (원문: Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "스탠다드차타드가 스테이블코인 2조달러 전망 시점을 2030년으로 늦췄다. 거래량은 늘고 있다.",
+      "why_it_matters": "은행은 스테이블코인 시장을 네 갈래로 나눴고, 결제는 USDC가 앞서며 준비금 수익을 둘러싼 경쟁이 거세다고 봤다.",
+      "confidence": 0.75,
+      "original_title": "Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow",
+      "implications": "스테이블코인 발행사·결제 업계 — 준비금 수익 경쟁과 AI 거래 용도 확대를 지켜볼 것.",
+      "tags": [
+        "스테이블코인",
+        "USDC",
+        "스탠다드차타드"
+      ]
+    },
+    {
+      "title": "스탠다드차타드, UAE 부유층 고객에 비트코인·이더리움 거래 개방 (원문: Standard Chartered Opens Bitcoin and Ethereum Trading to Wealthy UAE Clients)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading",
+      "one_liner": "스탠다드차타드가 두바이 규제 승인을 받아 부유층 고객이 은행 계좌에서 BTC·ETH를 바로 사도록 했다.",
+      "why_it_matters": "수탁과 결제를 은행 안에서 처리하는 구조라 전통 은행의 직접 크립토 서비스 사례가 된다.",
+      "confidence": 0.8,
+      "original_title": "Standard Chartered Opens Bitcoin and Ethereum Trading to Wealthy UAE Clients",
+      "implications": "중동 크립토 시장 — 다른 글로벌 은행의 유사 서비스 출시를 지켜볼 것.",
+      "tags": [
+        "스탠다드차타드",
+        "UAE",
+        "은행"
+      ]
+    },
+    {
+      "title": "바이낸스, 비트코인 채굴사업 6년 만에 종료…전통 금융으로 사업 재편",
+      "source": "뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51elFRdDhhM2k3TVFMZDhMbFFaSmcxWGpGbTMzbVZaMmwycHJvaGdCNEJnaUJNVVhmYjQxeU4yZnhhZzVKbXZtQmdMNUxGOU5qZTFSQWdkVkZBY3dIMndha9IBeEFVX3lxTE5KSHN4aDlqRXBYZnQ1c3J2NHdfcFhGd0xnMjJzNFk1VXVlMzUzcWlJd0pqYU5yMndwYXFhbzhKWDVzb0RhUkxhT1BwOHluWEQzSmVBYlh3YmlkU1QtbGV0ejRZc0tqN3JnYjZkTXd0QmE0VDFOclNVWA?oc=5",
+      "one_liner": "바이낸스가 6년 만에 비트코인 채굴 사업을 접고 전통 금융 쪽으로 사업을 재편한다.",
+      "why_it_matters": "최대 거래소의 사업 축이 채굴에서 금융 서비스로 옮겨간다.",
+      "confidence": 0.6,
+      "original_title": "바이낸스, 비트코인 채굴사업 6년 만에 종료…전통 금융으로 사업 재편 - 뉴시스",
+      "implications": "채굴 업계 — 바이낸스 풀 이탈에 따른 해시레이트 분포 변화를 지켜볼 것.",
+      "tags": [
+        "바이낸스",
+        "채굴"
+      ]
+    },
+    {
+      "title": "미 OCC 보고서, 크립토 관련 디뱅킹 정황 확인 (원문: OCC report finds debanking efforts tied to crypto activities)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/occ-trump-debanking-crypto-activities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "미 통화감독청(OCC) 보고서가 크립토 활동과 연결된 디뱅킹(은행 거래 거절)을 언급했다.",
+      "why_it_matters": "보고서는 구체 사례 없이 석유·가스·총기 업종과 나란히 크립토를 거론했다.",
+      "confidence": 0.75,
+      "original_title": "OCC report finds debanking efforts tied to crypto activities",
+      "implications": "크립토 기업 — 은행 접근성 관련 후속 감독 조치를 지켜볼 것.",
+      "tags": [
+        "OCC",
+        "디뱅킹",
+        "규제"
+      ]
+    },
+    {
+      "title": "칼시 CEO \"주 정부 감독 받으면 예측시장은 밀려날 것\" (원문: Kalshi CEO says state-led oversight of U.S. prediction markets would push them out)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out",
+      "one_liner": "칼시의 타렉 만수르 CEO는 예측시장 감독권 소송 결과를 두고 \"꽤 낙관적\"이라고 말했다.",
+      "why_it_matters": "예측시장을 연방과 주 중 누가 규제하느냐가 사업 존속을 가른다.",
+      "confidence": 0.75,
+      "original_title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
+      "implications": "예측시장 업계 — 감독권 소송 판결을 지켜볼 것.",
+      "tags": [
+        "예측시장",
+        "칼시",
+        "규제"
+      ]
+    },
+    {
+      "title": "AI 에이전트 크립토 결제 1억3800만 건…AI 모델 지출은 미국이 압도 (원문: AI agents make 138 million crypto payments as U.S. dominates spending on AI models)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+      "one_liner": "체이널리시스 조사에서 AI 모델 결제의 88% 남짓이 미국 연계 지갑, 중국은 0.1%였다.",
+      "why_it_matters": "AI 에이전트가 크립토 결제의 새 수요처로 집계되기 시작했다.",
+      "confidence": 0.75,
+      "original_title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+      "implications": "결제·스테이블코인 업계 — AI 에이전트 결제 규모 추이를 지켜볼 것.",
+      "tags": [
+        "AI에이전트",
+        "결제",
+        "체이널리시스"
+      ]
+    },
+    {
+      "title": "코인베이스 \"비트코인 양자내성 전환, 지금 시작해야\" (원문: 'It Can Take Years': Coinbase Presses for Bitcoin Quantum Migration to Start Now)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380963/coinbase-bitcoin-quantum-migration-start-now",
+      "one_liner": "코인베이스가 비트코인의 양자내성 암호 전환은 수년이 걸린다며 'Q-Day' 전에 시작해야 한다고 주장했다.",
+      "why_it_matters": "블록 공간·수탁·휴면 코인까지 아우르는 요구사항을 제시했다.",
+      "confidence": 0.75,
+      "original_title": "'It Can Take Years': Coinbase Presses for Bitcoin Quantum Migration to Start Now",
+      "implications": "비트코인 개발자·수탁기관 — 양자내성 전환 제안(BIP) 논의를 지켜볼 것.",
+      "tags": [
+        "양자컴퓨팅",
+        "비트코인",
+        "코인베이스"
+      ]
+    },
+    {
+      "title": "세일러 \"AI 열풍이 비트코인 역풍이었다\"…순풍 전환 선언",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1qdDFMSkRpNVVqd3lvSFp2RmV4TXZIQm9xVmdEX0R1VzJYc3lXMXhfNWNNdkFQdzhIWWZVRGdETmpDQXhHS3FKRXJB?oc=5",
+      "one_liner": "마이클 세일러가 AI 열풍이 비트코인에 역풍이었다며 이제 순풍으로 바뀐다고 말했다.",
+      "why_it_matters": "AI로 쏠렸던 자금 흐름이 비트코인으로 돌아올지에 대한 대형 보유자의 시각이다.",
+      "confidence": 0.55,
+      "original_title": "세일러 \"AI 열풍이 비트코인(BTC) 역풍이었다\"...순풍 전환 선언 - 코인리더스",
+      "implications": "크립토 투자자 — AI 관련주와 비트코인의 자금 흐름 변화를 지켜볼 것.",
+      "tags": [
+        "세일러",
+        "비트코인",
+        "AI"
+      ]
+    },
+    {
+      "title": "아크인베스트 CEO \"비트코인, 상승 전환점 도달\"",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SUVc3UG9lRTMzNG5pVUZQdG9LQm1OaWx2aXdRTHJaVV93U0pZaHJ5VHktZUlOb2hKcHlxZGhkZF9aMDVBWFNqaTlVbFdPYzJx?oc=5",
+      "one_liner": "아크인베스트 CEO가 비트코인이 상승 전환점에 도달했다고 말했다.",
+      "why_it_matters": "물가 부담 속 조정 국면에서 나온 강세 전망이다.",
+      "confidence": 0.5,
+      "original_title": "아크인베스트 CEO \"비트코인, 상승 전환점 도달\" - 블루밍비트",
+      "implications": "크립토 투자자 — 강세 전망과 물가 지표 사이의 괴리를 지켜볼 것.",
+      "tags": [
+        "아크인베스트",
+        "비트코인"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": [
+    "A"
+  ]
+}
