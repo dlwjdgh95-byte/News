@@ -1,0 +1,238 @@
+{
+  "schema": 1,
+  "date": "2026-10-16",
+  "slot": "am",
+  "generated_at": "2026-10-16T03:45:47.786058+09:00",
+  "top_insight": [
+    "CPI 3.7%에 이어 9월 PPI가 예상을 100bp 웃돌며 연준 금리 인상 관측이 되살아났고, 비트코인은 한 달 만에 8만 달러 아래로 내려가며 청산 약 10억 달러(롱 90.6%)가 쏟아졌다.",
+    "국내에서는 반도체 급락에 코스피가 7거래일 하락하며 5500선까지 밀려 서킷브레이커가 발동됐다.",
+    "중동에서는 호르무즈 화물선 침몰과 미국의 이란 시설 MOAB 검토 보도가 겹쳐 유가 변수가 다시 커졌다."
+  ],
+  "whats_changed": [
+    "어제 8만2000달러 아래에 머물던 비트코인이 PPI 발표 뒤 8만 달러 아래로 내려갔다.",
+    "어제 CPI 3.7%에 이어 오늘은 PPI까지 예상을 웃돌며 물가 부담이 겹쳤다.",
+    "어제 블랙록 AUM·스탠다드차타드 등 기관 확장에서 오늘은 마스터카드의 스테이블코인 결제 통합으로 이어졌다.",
+    "코스피 급락이 이어져 서킷브레이커까지 발동됐다."
+  ],
+  "themes": [
+    "물가 재가속 — PPI 서프라이즈, 금리 인상 관측, 크립토 청산",
+    "위험자산 급락 — 코스피 서킷브레이커·비트코인 8만 달러 붕괴",
+    "지정학 재점화 — 호르무즈·이란·우크라이나 정유시설"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "미국 중간선거(약 3주 후)",
+    "루비오 美 국무장관 인도 방문(무역협정 타결 여부)"
+  ],
+  "items": [
+    {
+      "title": "호르무즈서 화물선 침몰…중동 전선 ‘충돌’ 격화",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IWG0xSGVBVmxsbUU0bkcwbmY2aVlrWGRjVnFaV3d1YjRadFlPa1k3d1BOYkZRN2dXR2lzLXpMSnRnVTREX0tGcHoyXzJLTnl1T2NTeUNxd1J5QdIBX0FVX3lxTE1kUUF6N09hY0c0SEdfc1NvdjFEY1hiWHQxeHM2NFd2Q3RZRHN3b1FmXzhvQjJSWnI4SWc2dDRNVkVVUHNadkF1NmVNTnNLTEdCNVFVM3g3RzJWUGVYdGNR?oc=5",
+      "one_liner": "호르무즈 해협에서 컨테이너선이 침몰하는 등 중동 각 전선에서 충돌이 격화됐다.",
+      "why_it_matters": "원유 수송 요충지인 호르무즈에서 다시 충돌이 불붙으며 국제 유가 고공행진 보도가 나왔다.",
+      "confidence": 0.65,
+      "original_title": "호르무즈서 화물선 침몰…중동 전선 ‘충돌’ 격화 - 경향신문",
+      "implications": "에너지·해운 관련 기업과 투자자 — 호르무즈 통항 차질과 유가 흐름을 지켜볼 것.",
+      "tags": [
+        "호르무즈",
+        "중동",
+        "유가"
+      ]
+    },
+    {
+      "title": "美, 이란 핵·에너지 시설 겨냥 10t급 ‘MOAB’ 투하 검토",
+      "source": "천지일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GLXpzVlRkb20wc0RGcktKOURvbVlsU2xMY0pHeDh4SEplMWp2aGx2ZzZkN1pPbFNqQmZLZW9EMkdSWEZxN21XQVloNnJZSW4zZnZnNzV6NVhzMUk1cjJmbXFOWkZ6eURPeVE?oc=5",
+      "one_liner": "미국이 이란 핵·에너지 시설을 겨냥해 10t급 MOAB 투하를 검토하고 있다는 보도가 나왔다.",
+      "why_it_matters": "호르무즈 충돌과 함께 미·이란 긴장이 에너지 시설로까지 번질 수 있다는 신호다.",
+      "confidence": 0.5,
+      "original_title": "美, 이란 핵·에너지 시설 겨냥 10t급 ‘MOAB’ 투하 검토 - 천지일보",
+      "implications": "원유·방산 투자자 — 실제 공격 여부와 이란의 대응을 지켜볼 것.",
+      "tags": [
+        "이란",
+        "미국",
+        "중동"
+      ]
+    },
+    {
+      "title": "젤렌스키 \"트럼프에 배신감 느껴…러 정유시설 다시 공격\"",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUWZOeHBaUl81VFVaU0hnYklmcnpGTW1ocnN3a3VmMmFCS3Mxd2s1djVoNWkzY0tfQlZxWE9wTVlnd3dOYU9jRFpUdWRwYnJOSWFUcmUxQ2RfWVJjVGdWZzd5aUFyc1lER09SNjNTVnNkTUJ0dEpzRExKOXFyVGx6MVM5dlhNeHUyaVdCUFNxTE5nU01ESkdwMEVPYUxOZw?oc=5",
+      "one_liner": "젤렌스키 대통령이 트럼프에 배신감을 표하고 우크라이나가 러시아 정유시설 공격을 재개했으며, 푸틴은 대응을 예고했다.",
+      "why_it_matters": "종전 협상 국면이 흔들리며 러시아 에너지 시설이 다시 표적이 됐다.",
+      "confidence": 0.65,
+      "original_title": "젤렌스키 \"트럼프에 배신감 느껴…러 정유시설 다시 공격\" - 조선일보",
+      "implications": "에너지 시장 — 러시아 정유시설 피해와 유럽의 지원 움직임을 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "트럼프"
+      ]
+    },
+    {
+      "title": "북·중, 신압록강대교 합동 개통식…리창 “양국 관계 새로운 장”",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwUWZFU01GWTRiYVByakhEVlJWR3hsZm1BUzFJMDV1ckg2eVRPNFF5MUZ3WXdwVzNURUlWa2NrYUlwWUxxNDg1M3p1Z21JT2dHUmF5ZEZFRC1SQdIBX0FVX3lxTE54M3dla2RPLXI2RjB2cUd5cDUyR0wxcGlFcFFjajlaRGVEbEI5b2RkSmJRNGZORDZPOGpCYkVDZDNnaXZJZko0M0Z0Z2JidllNcDB6M3JJRzQzNmJBcUpJ?oc=5",
+      "one_liner": "북한과 중국이 완공 12년 만에 신압록강대교를 공식 개통했다.",
+      "why_it_matters": "북·중 최대 물류 통로가 열리며 대북제재가 사실상 무력화된다는 평가가 나온다.",
+      "confidence": 0.65,
+      "original_title": "북·중, 신압록강대교 합동 개통식…리창 “양국 관계 새로운 장” - 경향신문",
+      "implications": "대북제재·한반도 정세 — 북·중 교역량 변화와 미국의 대응을 지켜볼 것.",
+      "tags": [
+        "북한",
+        "중국",
+        "대북제재"
+      ]
+    },
+    {
+      "title": "전작권 전환 “새 기준” 밝힌 미국…국방부 “골대 옮기면 영원히 불가”",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TMXdBbTI3bkhxQjFmaE45Y1BDWmx3N2phSmZyTzljckU5d0tuT3BPSHZUWEhoS0NuNnBQYXk0Z05faFNNZkJWbWFhWUtEdXdXRzVoS3gtVzdfNW0weGd1YTVmNFoyQTlT?oc=5",
+      "one_liner": "미국이 전작권 전환 조건 변화를 언급하자 국방부가 '골대를 옮기면 영원히 불가능하다'고 반발했다.",
+      "why_it_matters": "한미 간 전작권 전환 조건을 둘러싼 이견이 공개적으로 드러났다.",
+      "confidence": 0.6,
+      "original_title": "전작권 전환 “새 기준” 밝힌 미국…국방부 “골대 옮기면 영원히 불가” - 한겨레",
+      "implications": "방산·한미 관계 — 미국의 추가 요구(천무 탑재 미사일 증대 등)와 협의 결과를 지켜볼 것.",
+      "tags": [
+        "전작권",
+        "한미동맹"
+      ]
+    },
+    {
+      "title": "서킷브레이커 발동…코스피, 반도체 급락에 5500선까지 밀려",
+      "source": "etoday",
+      "url": "https://www.etoday.co.kr/news/view/2636289",
+      "one_liner": "코스피가 반도체 급락에 7거래일 하락하며 5500선까지 밀렸고, 매도 사이드카에 이어 서킷브레이커가 발동됐다.",
+      "why_it_matters": "양 시장에서 사이드카와 서킷브레이커가 잇따라 나올 만큼 매도 압력이 커졌다.",
+      "confidence": 0.75,
+      "implications": "반도체 보유자·국내 주식 투자자 — 7거래일 연속 하락이 멈추는지, 5500선이 지켜지는지 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "서킷브레이커",
+        "반도체"
+      ]
+    },
+    {
+      "title": "인도-미국 무역협정, 루비오 방문 앞두고 마무리 임박 (원문: India-US trade pact very close to finalisation ahead of Rubio visit: Sergio Gor)",
+      "source": "bhaskarlive_in",
+      "url": "https://bhaskarlive.in/others/india-us-trade-pact-very-close-to-finalisation-ahead-of-rubio-visit-sergio-gor-2153075",
+      "one_liner": "인도와 미국이 주요 쟁점 대부분을 해소하고 양자 무역협정 타결에 다가섰다.",
+      "why_it_matters": "루비오 방문을 앞두고 남은 협상이 제한적인 것으로 전해졌다.",
+      "confidence": 0.6,
+      "original_title": "India-US trade pact very close to finalisation ahead of Rubio visit: Sergio Gor",
+      "implications": "인도 수출 기업·신흥국 투자자 — 루비오 방문 때 타결 발표가 나오는지 지켜볼 것.",
+      "tags": [
+        "인도",
+        "미국",
+        "무역협정"
+      ]
+    },
+    {
+      "title": "美 생산자물가 4년 만에 최대폭 상승…비트코인 8만 달러 아래로 (원문: Bitcoin slips under $80K after US PPI gains most in four years)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "9월 미국 생산자물가(PPI)가 예상보다 100bp 높게 나와 2022년 3월 이후 최대 월간 상승을 기록했고, 비트코인은 8만 달러 아래로 내려갔다.",
+      "why_it_matters": "어제 CPI 3.7%에 이어 PPI까지 예상을 크게 웃돌며 물가 부담이 겹쳤다.",
+      "confidence": 0.7,
+      "original_title": "Bitcoin slips under $80K after US PPI gains most in four years",
+      "implications": "금리·크립토 투자자 — 8만 달러 지지 여부와 연준 금리 경로 관측을 지켜볼 것.",
+      "tags": [
+        "PPI",
+        "비트코인",
+        "미국물가"
+      ]
+    },
+    {
+      "title": "비트코인, 한 달 만에 8만 달러 붕괴…CPI·PPI 연타에 롱 청산 90.6%",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JanRpbFgyWnVxOWVYWGczcW1EMGFwRkdnYU5GcUVTc2lWTk5rRWtEUTA5Skh1WEZJcUtZSnFROGN6SnBwdzg2aTFsLTBGa2pSMHVQMWJR?oc=5",
+      "one_liner": "CPI와 PPI가 연달아 나온 뒤 비트코인이 한 달 만에 8만 달러 아래로 내려갔고, 청산의 90.6%가 롱 포지션이었다.",
+      "why_it_matters": "청산이 롱에 쏠려 레버리지 매수 포지션이 하락을 키웠다.",
+      "confidence": 0.6,
+      "original_title": "비트코인, 한 달 만에 8만 달러 붕괴…CPI·PPI 연타에 롱 청산 90.6% - 위키트리",
+      "implications": "레버리지 크립토 투자자 — 청산 이후 매수세가 돌아오는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "청산",
+        "미국물가"
+      ]
+    },
+    {
+      "title": "비트코인 급등락…크립토 청산 10억 달러 육박 (원문: Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381044/bitcoin-whipsaws-crypto-liquidations-near-1-billion",
+      "one_liner": "뜨거운 물가 지표로 연준 금리 인상 관측이 되살아나며 크립토 포지션 약 10억 달러가 청산됐다.",
+      "why_it_matters": "물가 지표가 금리 인상 관측으로 이어지며 레버리지 매수 쪽이 대가를 치렀다.",
+      "confidence": 0.6,
+      "original_title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
+      "implications": "크립토 투자자 — 금리 인상 관측이 확산되는지, 변동성이 진정되는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "청산",
+        "연준"
+      ]
+    },
+    {
+      "title": "블랙록 래리 핑크 \"AI 데이터센터 중단 땐 미국 경기침체 올 수도\" (원문: BlackRock’s Larry Fink Warns AI Data Center Halt Could Tip US Into Recession)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381068/blackrock-larry-fink-ai-data-center-halt-recession",
+      "one_liner": "래리 핑크 블랙록 CEO가 3분기 실적 발표 뒤 AI 데이터센터 건설이 멈추면 미국이 경기침체로 기울 수 있다고 경고했다.",
+      "why_it_matters": "AI 인프라 투자가 성장의 중심이 됐고, 데이터센터가 중간선거 쟁점으로 떠올랐다.",
+      "confidence": 0.6,
+      "original_title": "BlackRock’s Larry Fink Warns AI Data Center Halt Could Tip US Into Recession",
+      "implications": "AI 인프라·전력 관련 기업 — 데이터센터 반대 여론과 중간선거 공약을 지켜볼 것.",
+      "tags": [
+        "AI",
+        "데이터센터",
+        "블랙록"
+      ]
+    },
+    {
+      "title": "에드워즈 “AI발 실업이 연준 경로 바꿀 수 있다”…5% 금리서 비트코인은 ‘미지의 영역’",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sOGRfTlc3V2pKUVpzTncxMjRyNlFEa0tvLU51WlNLOHJiUjJLWFJvT0JfdFQzbnNkN0ZkRWQ0SXFQc01TbFA1RXlxM3c2d0RWV09nYjh3?oc=5",
+      "one_liner": "에드워즈는 AI발 실업이 연준 금리 경로를 바꿀 수 있다고 봤고, 5% 금리 환경의 비트코인을 '미지의 영역'이라고 했다.",
+      "why_it_matters": "물가 재부담 속에서 고용 변수가 연준 경로의 또 다른 축으로 거론된다.",
+      "confidence": 0.5,
+      "original_title": "에드워즈 “AI발 실업이 연준 경로 바꿀 수 있다”…5% 금리서 비트코인은 ‘미지의 영역’ - 위키트리",
+      "implications": "금리·크립토 투자자 — 고용 지표와 연준 발언을 지켜볼 것.",
+      "tags": [
+        "연준",
+        "AI",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "마스터카드, 스테이블코인 잔액을 은행·카드 결제에 연결 (원문: Mastercard brings stablecoin balances into traditional banking and card payments)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/mastercard-bvnk-global-money-platform-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "마스터카드가 BVNK 인수 뒤 첫 통합인 'Global Money Platform'을 출시했고, Nuvei와 Marqeta가 첫 도입 기업이 됐다.",
+      "why_it_matters": "카드 네트워크가 스테이블코인을 전통 은행·카드 결제에 직접 끌어들였다.",
+      "confidence": 0.6,
+      "original_title": "Mastercard brings stablecoin balances into traditional banking and card payments",
+      "implications": "결제·핀테크 기업 — 도입 기업이 늘어나는지 지켜볼 것.",
+      "tags": [
+        "스테이블코인",
+        "마스터카드",
+        "결제"
+      ]
+    },
+    {
+      "title": "아크인베스트 \"미국 비트코인 현물 ETF 투자자, 9월 수익 구간 복귀\"",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oalAxaTZDS21SZkR6NUhmM19MU0hnc0tYY0Nwc0poWTN6OTJtbldjYU1VaUJrbVkzNmwxV09wTjRqLVBxMHctR29vZW0yZFR5?oc=5",
+      "one_liner": "아크인베스트는 미국 비트코인 현물 ETF 투자자가 9월에 수익 구간으로 돌아왔다고 밝혔다.",
+      "why_it_matters": "이번 주 8만 달러 붕괴로 이 수익 구간이 다시 시험받고 있다.",
+      "confidence": 0.5,
+      "original_title": "아크인베스트 \"미국 비트코인 현물 ETF 투자자, 9월 수익 구간 복귀\" - 블루밍비트",
+      "implications": "ETF 투자자 — 평균 매입단가 근처에서 자금 유출이 생기는지 지켜볼 것.",
+      "tags": [
+        "비트코인ETF",
+        "아크인베스트"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
