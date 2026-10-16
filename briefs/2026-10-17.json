@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "date": "2026-10-17",
+  "slot": "am",
+  "generated_at": "2026-10-17T03:44:21.409047+09:00",
+  "top_insight": [
+    "PPI 충격 하루 만에 워시 의장이 금리 인상 신호를 피하자 비트코인이 8만2천 달러로 돌아오고 원·달러 환율은 1,331원으로 2년 만의 최저를 다시 썼다 — 위험회피가 하루 만에 되돌려졌다.",
+    "다만 MSCI가 11월 30일부터 비영업 회사를 편입 부적격으로 분류하기로 확정해 스트래티지 등 비트코인 트레저리 기업에는 구조적 부담이 생겼다.",
+    "중동에선 후티가 사우디 리야드·얀부를 공격했고 우크라이나는 요격 미사일 고갈과 정전에 몰려 지정학 변수가 동시에 커지고 있다."
+  ],
+  "whats_changed": [
+    "어제 PPI 발표 뒤 8만 달러 아래로 내려갔던 비트코인이 8만2천 달러를 회복했다.",
+    "어제 서킷브레이커까지 갔던 한국 기술주가 반등했고, 환율은 2년 만의 최저로 내려갔다.",
+    "어제 되살아난 연준 금리 인상 관측이 워시 의장 발언 뒤 누그러졌다.",
+    "중동 긴장의 무대가 어제 호르무즈에서 오늘 후티의 사우디 공격으로 넓어졌다."
+  ],
+  "themes": [
+    "긴축 공포 진정 — 워시 발언 뒤 비트코인 회복·원화 강세",
+    "크립토 제도권 마찰 — MSCI 편출 규정·CFTC 제미니 판결·토큰화 주식",
+    "지정학 다중 전선 — 후티의 사우디 공격·우크라 방공 고갈·스타실드 논란"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "MSCI '비영업 회사' 편입 부적격 규정 적용(11/30)",
+    "테슬라·스페이스X 합병 계획 발표 가능성(12월 전, 바클레이스 전망)"
+  ],
+  "items": [
+    {
+      "title": "달러-원, 뉴욕장서 1,330원 초반대…2년 만에 최저",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UVnZEdFlUWjNTcmE1bnNheHd0MzhiSWNaRVRuem55X1FEck1NQlowQm0ySHc5VDJIZFc1S1RaQmNuaExLRlE2RFAtU19oQTJHa0dOR0c0VXh0azFYZDBhNHV4djVzOWxYY0RCdTNjWXA?oc=5",
+      "one_liner": "원·달러 환율이 외국계 물량 공세에 13원 넘게 급락해 1,331원대로 2년 만의 최저를 다시 썼다.",
+      "why_it_matters": "코스피 7.57% 급락 때 장중 1,353원까지 올랐던 환율이 곧바로 연저점으로 되돌아왔다.",
+      "confidence": 0.72,
+      "original_title": "달러-원, 뉴욕장서 1,330원 초반대 거래 - 연합인포맥스",
+      "implications": "수출주·외화자산 보유자 — 1,330원선이 지지되는지, 외국계 매도 물량이 이어지는지 지켜볼 것.",
+      "tags": [
+        "환율",
+        "원화",
+        "외환"
+      ]
+    },
+    {
+      "title": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82cFpTNGh5ZHgtTGZRckNiR0l6ZkxmRmFCUFE5V3ZKbVVkVm81NEZjWmRWM2RheFBJMXN3eV9oVF90Ym5JTkxVOHhUNTJ2ejhFR2YyZ1hCWUlGTVnSAWBBVV95cUxOSDJYbWZMbzQwdFU1cHpVT19vVTR5aFpFRHFYNmhYRjhGZUlWQkdGQnBjSHd6QnhXbXQ4dUNmUGF3S2t4R0VUTHdfWTExczBMT216ZDV1R3M1djZhUFhudDA?oc=5",
+      "one_liner": "예멘 후티가 사우디 리야드와 얀부, 공항을 집중 공격했다.",
+      "why_it_matters": "같은 시각 국제유가는 미국 원유 재고 감소와 유조선 제재 완화 검토 소식이 맞물려 혼조를 보였다.",
+      "confidence": 0.66,
+      "original_title": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\" - 연합뉴스",
+      "implications": "정유·해운·에너지 투자자 — 사우디 석유 인프라 피해 여부와 유가 반응을 지켜볼 것.",
+      "tags": [
+        "후티",
+        "사우디",
+        "유가"
+      ]
+    },
+    {
+      "title": "우크라 키이우 대규모 정전…패트리엇 바닥난 우크라 사면초가",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xWk0wRVRhQTQwZGJfWmplRTVSR0N5eGFOLVVoaWJvOTFBaVZNdVZ5TkpfYkh3Mk9fQXkzUjBJNXd4bFJoem5IN3hrN2ctMTdIUEY2NnQzNjVkbGfSAWBBVV95cUxNQUlxdlp0UHBQc0V2Vk9LXzc0QmVtOER2ZmdtNmJhSllVSDF3S045bUFLYTRETWpQWDBKRG5hcXFzNDM1OHJDZ0s3dHNXOUItM2F1SXNod2xFcmhIUlpsY2Y?oc=5",
+      "one_liner": "에너지시설 타격 여파로 키이우에 대규모 정전이 발생했다.",
+      "why_it_matters": "요격 미사일이 동나고 미국이 젤렌스키 퇴진을 요구한다는 보도가 겹쳐 우크라이나가 유럽산 대안 마련을 서두르고 있다.",
+      "confidence": 0.64,
+      "original_title": "우크라 키이우에 대규모 정전…에너지시설 타격 여파 - 연합뉴스",
+      "implications": "유럽 방산·에너지 — 러시아의 추가 공습과 유럽산 방공망 조달 속도를 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "방공"
+      ]
+    },
+    {
+      "title": "트럼프 \"우크라 '스타실드' 접근 제한 지시한 적 없다\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGbjNLb3ZzRU5XMmYtemdvTEhYVWpVY1dnMTktTG0wdllJeDM5WHVkUFVTSWtUSldLY25tNGRwSWpGM1F6SE83bmxlcHlCaDl4cjAxVmh2bHpCcjBo?oc=5",
+      "one_liner": "트럼프 대통령이 우크라이나군의 스타실드 이용 제한을 지시한 적 없다고 부인했다.",
+      "why_it_matters": "앞서 스타실드 장애가 의도된 것이며 백악관 지시였다는 보도가 나왔고, 같은 날 유텔샛 주가가 급등했다.",
+      "confidence": 0.62,
+      "original_title": "트럼프 \"우크라 '스타실드' 접근 제한 지시한 적 없다\" - 뉴스핌",
+      "implications": "위성통신·유럽 우주 기업 — 우크라이나의 스타링크 대체 수요가 유텔샛 등으로 옮겨가는지 지켜볼 것.",
+      "tags": [
+        "스타실드",
+        "우크라이나",
+        "유텔샛"
+      ]
+    },
+    {
+      "title": "커지는 한미동맹 파열음… 주목받는 브런슨 '거친 입'",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56Tm5ibWlGd3YzM2lVMF8zQkpBcG1BT09vOGJsWGNNMU9oRTZhTVNISVU4VU5NX1EtSkJ1RDVrUklZeE9oUmZUaDZ4U0dRM0l6WHVnSUJWb2FtSmxDOXNvdVJWVFFZX1drX1pUTUF3VVM1UGVpcUpB0gFmQVVfeXFMTnZhQkpIXzNLNmlRamwtbG55OEd3dXI1REJkRGtudFNNNDZIVW5FZDFEV01CbzZaMjJoYWpnMkw2aFBtbUdVSTJ1YXRJVGxpV29VR2REVUhFczNwb1ppNTZNXzlURW13?oc=5",
+      "one_liner": "브런슨 주한미군사령관 발언을 둘러싸고 한미 간 마찰이 커지고 있다.",
+      "why_it_matters": "정부가 여러 채널로 경고를 검토하고 여당은 DMZ 주권을 문제 삼았으며, 전작권 전환이 쟁점으로 떠올랐다.",
+      "confidence": 0.62,
+      "original_title": "커지는 한미동맹 파열음… 주목받는 브런슨 ‘거친 입’ - 동아일보",
+      "implications": "방산·대외 신인도 — 정부의 공식 대응과 전작권 전환 논의 일정을 지켜볼 것.",
+      "tags": [
+        "한미동맹",
+        "주한미군",
+        "전작권"
+      ]
+    },
+    {
+      "title": "민주, '조희대 탄핵' 논의 공식화…'범여권 결집' 승부수",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9UeDVUc0xBaTdjS2Y2QVF6S3hBNmpTZ2ZpTzdmMWhQcHlnWV9INDUwVF93dEdweUpoNUN0U0FTamRndjFRR0tuRS1DdTV0WTMtM3IzTjZrakxDaE0tSHJNQ2loUXNJZEVYamRXeWJ4clFXUURF?oc=5",
+      "one_liner": "김민석 총리가 조희대 대법원장 탄핵을 당 차원에서 논의하겠다고 공식화했다.",
+      "why_it_matters": "실제 발의 여부는 미지수이며 언론 사설은 일제히 비판적이다.",
+      "confidence": 0.6,
+      "original_title": "민주, ‘조희대 탄핵’ 논의 공식화…‘범여권 결집’ 승부수 띄우나 - 한겨레",
+      "implications": "정치 리스크 — 실제 탄핵안 발의 여부와 사법부 갈등 확산을 지켜볼 것.",
+      "tags": [
+        "대법원장",
+        "탄핵",
+        "정치"
+      ]
+    },
+    {
+      "title": "야당 \"이 대통령 재판 중단, 직무유기\"…서울고법원장 \"헌법 84조 근거\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyZ3o4Vi1zSHpHcjJUM0dhaWYzcmpwQUpNaV9RMnM2OWVxNlQ0N2M4NkJQZUtzanJjSXFCZG0tRkRBd1MxMHpERDJLblJnVXFLWmRLYUVyTVNqQ0QtZ3VMY1BaSTJVdnYwSnlYS2Z6SWxZQQ?oc=5",
+      "one_liner": "국감에서 이재명 대통령 재판 중단을 놓고 여야가 맞붙었다.",
+      "why_it_matters": "서울고법원장은 헌법 84조를 근거로 들었고, 여당은 소추에 재판도 포함된다고 맞섰다.",
+      "confidence": 0.6,
+      "original_title": "야당 “이 대통령 재판 중단, 직무유기”…서울고법원장 “헌법 84조 근거” - 한겨레",
+      "implications": "정국 — 사법부 관련 쟁점이 탄핵 논의와 맞물려 국회 일정을 흔드는지 지켜볼 것.",
+      "tags": [
+        "국정감사",
+        "헌법84조",
+        "재판"
+      ]
+    },
+    {
+      "title": "토니 엘루멜루, 서아프리카 인프라에 150억 달러 투자 파이프라인 지원 (원문: Tony Elumelu backs $15 billion investment pipeline for West African infrastructure)",
+      "source": "nairametrics",
+      "url": "https://nairametrics.com/2026/10/16/tony-elumelu-backs-15-billion-investment-pipeline-for-west-african-infrastructure/",
+      "one_liner": "나이지리아 억만장자 엘루멜루가 서아프리카 인프라 150억 달러 투자 계획을 지지했다.",
+      "why_it_matters": "역내 인프라 부족을 메우기 위한 핵심 사업 자금 조달 계획이다.",
+      "confidence": 0.6,
+      "original_title": "Tony Elumelu backs $15 billion investment pipeline for West African infrastructure",
+      "implications": "신흥국 인프라 투자자 — 실제 자금 집행과 참여 기관이 확정되는지 지켜볼 것.",
+      "tags": [
+        "나이지리아",
+        "인프라",
+        "신흥국"
+      ]
+    },
+    {
+      "title": "테르마도르, 3분기 소폭 성장…향후 몇 달은 신중 (원문: Thermador Groupe: slight growth in the third quarter, caution for the months ahead)",
+      "source": "marketscreener",
+      "url": "https://www.marketscreener.com/news/thermador-groupe-slight-growth-in-the-third-quarter-caution-for-the-months-ahead-ce785cdad980f022",
+      "one_liner": "프랑스 난방·배관 자재 유통사 테르마도르의 3분기 매출이 동일 범위 기준 0.6% 늘었다.",
+      "why_it_matters": "성장이 완만했고 회사는 향후 몇 달에 대해 신중한 입장을 냈다.",
+      "confidence": 0.55,
+      "original_title": "Thermador Groupe: slight growth in the third quarter, caution for the months ahead",
+      "implications": "유럽 건설·주택 경기 — 건자재 유통 수요가 4분기에 더 둔화하는지 지켜볼 것.",
+      "tags": [
+        "유럽",
+        "건자재",
+        "실적"
+      ]
+    },
+    {
+      "title": "워시 연준 의장이 금리 인상 신호를 피하자 비트코인 8만2천 달러 안팎에서 안정 (원문: Bitcoin price steadies around $82K after Fed’s Warsh avoids rate-hike hints)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-steadies-82k-fed-warsh-avoids-rate-hike-hints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인이 8만 달러 위를 지키며 8만2천 달러 부근에서 숨을 골랐다.",
+      "why_it_matters": "한국 기술주가 급락에서 회복하고 트레이더들이 연준 금리 인상 기대를 낮춘 것이 배경으로 제시됐다.",
+      "confidence": 0.68,
+      "original_title": "Bitcoin price steadies around $82K after Fed’s Warsh avoids rate-hike hints",
+      "implications": "크립토·위험자산 투자자 — 연준 인사 발언에서 금리 인상 가능성이 다시 거론되는지 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "연준",
+        "금리"
+      ]
+    },
+    {
+      "title": "비트코인 트레저리 기업 스트래티지, 확정된 MSCI 규정으로 지수 편출 위기 (원문: Bitcoin Treasury Giant Strategy Faces Index Removal Under Finalized MSCI Rules)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381168/bitcoin-treasury-giant-strategy-faces-index-removal-under-finalized-msci-rules",
+      "one_liner": "MSCI가 11월 30일부터 '비영업 회사'를 편입 부적격으로 분류한다.",
+      "why_it_matters": "대차대조표가 단일 자산에 쏠린 기업을 겨냥한 규정이라 비트코인 보유 기업이 직접 해당된다.",
+      "confidence": 0.66,
+      "original_title": "Bitcoin Treasury Giant Strategy Faces Index Removal Under Finalized MSCI Rules",
+      "implications": "MSTR 등 트레저리 기업 주주 — 11월 30일 적용 전후 지수 편출과 패시브 자금 이탈 여부를 지켜볼 것.",
+      "tags": [
+        "MSCI",
+        "스트래티지",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "바클레이스 \"테슬라·스페이스X, 12월 전 합병 계획 발표 가능성\"",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LYWttbFhoSGV0X1JtOHZZSzF0aDExa0Vpa0QxdkxuZFlYbHMyZUQtNzk4bVlfamt0elhBUS0zMUdOSG5BSmZJc0R6MGtNT1lw?oc=5",
+      "one_liner": "바클레이스가 테슬라와 스페이스X가 12월 전에 합병 계획을 발표할 수 있다고 봤다.",
+      "why_it_matters": "증권사 전망 단계로, 회사 측 발표는 아니다.",
+      "confidence": 0.5,
+      "original_title": "바클레이스 \"테슬라·스페이스X, 12월 전 합병 계획 발표 가능성\" - 블루밍비트",
+      "implications": "테슬라 주주 — 12월 전 회사의 공식 발표가 나오는지 지켜볼 것.",
+      "tags": [
+        "테슬라",
+        "스페이스X",
+        "합병"
+      ]
+    },
+    {
+      "title": "크립토 비즈: 월가는 4시에 닫혀도 토큰화 주식은 계속 거래된다 (원문: Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "토큰화 주식이 월가 정규장 밖 시간대 거래를 끌어들이고 있다.",
+      "why_it_matters": "비트코인 채굴자는 비용이 큰 AI 확장에 직면했고, 새 회계 규정은 스테이블코인에 유리할 수 있다.",
+      "confidence": 0.6,
+      "original_title": "Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading",
+      "implications": "거래소·채굴 기업 투자자 — 장외 시간 토큰화 주식 거래량과 채굴사의 AI 전환 비용을 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "스테이블코인",
+        "채굴"
+      ]
+    },
+    {
+      "title": "CFTC가 제미니 500만 달러 합의 철회를 원했지만 판사가 거부 (원문: CFTC Wants to Drop Gemini’s $5M Settlement. A Judge Just Said No)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381149/cftc-wants-drop-gemini-5m-settlement-judge-said-no",
+      "one_liner": "법원이 CFTC의 제미니 합의 재개 요청을 받아들이지 않았다.",
+      "why_it_matters": "CFTC 집행 우선순위 변화와 집행부서 비위 의혹만으로는 재판 몇 주 전 맺은 합의를 다시 열 수 없다고 판단했다.",
+      "confidence": 0.62,
+      "original_title": "CFTC Wants to Drop Gemini’s $5M Settlement. A Judge Just Said No",
+      "implications": "크립토 규제 — 집행 기조가 바뀌어도 기존 합의가 유지되는 선례로 남는지 지켜볼 것.",
+      "tags": [
+        "CFTC",
+        "제미니",
+        "규제"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
