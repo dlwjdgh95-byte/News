@@ -1,0 +1,231 @@
+{
+  "schema": 1,
+  "date": "2026-10-19",
+  "slot": "am",
+  "generated_at": "2026-10-19T03:41:28.385167+09:00",
+  "top_insight": [
+    "코스피 급락이 한 주 3000억원 반대매매로 번졌고, 비트코인 ETF도 2주간 약 10억달러가 빠져 국내외 위험자산 모두 디레버리징 국면이다.",
+    "미국에선 트럼프 지지율 33% 최저와 대러 제재 유예에 대한 초당적 반발이 겹치며 중간선거·대러 정책이 시장 변수로 부상했다.",
+    "젤렌스키가 12월 G20 3자 회담 가능성을 언급해 러·우 협상 일정이 구체화되는 흐름이다."
+  ],
+  "whats_changed": [
+    "어제 젤렌스키의 3자 회담 제안이 오늘은 '12월 G20 때 만날 수도'로 시점이 구체화됐다.",
+    "어제 중동·유가 중심이던 뉴스 흐름이 오늘은 코스피 반대매매·비트코인 ETF 유출 등 위험자산 조정으로 옮겨 갔다.",
+    "어제 월가 토큰화 등 제도권 진입 소식이 주목받았다면 오늘은 스테이블코인 결제 45% 증가 같은 실사용 지표가 나왔다."
+  ],
+  "themes": [
+    "위험자산 디레버리징 — 코스피 반대매매 3000억원, BTC ETF 2주 10억달러 유출",
+    "미국 정치 변수 — 트럼프 지지율 최저, 대러 제재 유예 반발",
+    "크립토 실사용 — 스테이블코인 결제 급증, 라트비아 과세 개편"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "IMF 콜롬비아 실사단 보고타 방문(11월 초)",
+    "G20 정상회의 계기 美·러·우 3자 회담 가능성(12월)"
+  ],
+  "items": [
+    {
+      "title": "코스피 급락에 한 주간 3000억원 강제 청산…'빚투' 비명",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnhwSTRXM0taSTdKY01IanE5M2M2Umx0OFc2OWdIeW11V1FfVnVmS3BqREQzal9ydnE0ZHFLcjhBNE1ZUEZmR3djam96ckhQSW15aWF5ZEhMUDhnYTJNcWJjdVVIVWdmY1ZJYk9EaWR1aGFMa3BrclRqVlM3bjZvWVNvM3BncW1UUVJz?oc=5",
+      "one_liner": "코스피 급락으로 한 주 동안 신용거래 반대매매(강제 청산)가 3000억원 규모로 발생했다.",
+      "why_it_matters": "폭락장 뒤 반등했지만 악재가 여전하다는 보도와 함께, 주식 손실이 소비 위축으로 번질 수 있다는 우려가 나왔다.",
+      "confidence": 0.78,
+      "original_title": "코스피 급락에 한 주간 3000억원 강제 청산… ‘빚투’ 비명 - 조선일보",
+      "implications": "개인 신용투자자·내수 소비 — 이번 주 코스피 향배와 반대매매 추가 발생 여부, 원화 약세(AI발 자금유출) 흐름을 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "반대매매",
+        "빚투",
+        "원화"
+      ]
+    },
+    {
+      "title": "트럼프 대러 제재 면제에 공화·민주 \"푸틴에게 굴복\" 반발",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGZZVTdhNkJDR3ZhMXl4ZV9kUmxoZzJpcU9ZQ2FkV1VXbFZ4UjFuYXZaaFVJWFpoVWtwazBnc25wV1pxWXdWUnYzWnVWVVJBRW9WdWR6eHlxcjRfcTFYZnlqdUduLXhuOHh0MGdMWXZPUnhpanVzcmRMeXNwV1BWZFB6VkY?oc=5",
+      "one_liner": "트럼프가 직접 서명한 러시아 제재법을 유예하자 공화·민주 양당에서 \"독재에 굴복\"이라는 반발이 나왔다.",
+      "why_it_matters": "미 에너지장관은 \"전쟁 끝내기 위한 당근책\", 루비오는 \"세계 경제 영향 분석 위한 유예\"라고 설명해 대러 제재 완화 가능성이 열렸다.",
+      "confidence": 0.78,
+      "original_title": "트럼프의 대러 제재 면제 조치에 공화·민주 \"푸틴에게 굴복\" 반발 - 조선일보",
+      "implications": "러시아산 에너지·원자재 시장 — 제재 완화가 실제 해제로 이어지는지, 의회 대응을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "러시아",
+        "제재",
+        "에너지"
+      ]
+    },
+    {
+      "title": "젤렌스키 \"미 정보공유 재개에 감사…미국 푸틴 편들면 역사적 실수\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nT1Y5bWZIdjZPVU5UVkc5THhjN2xMSXNpY2FsT285bm1WejZXcjBHTGxDSThUYWlCcFh6cUZlOGhqWTNPYlctTGFPT19uVzh5amx2UU9WTnpfTTFMQ1o0RW9mVWx1QXc?oc=5",
+      "one_liner": "젤렌스키가 미국의 정보공유 재개에 감사하면서도 미국이 러시아 편을 들면 역사적 실수라고 경고했다.",
+      "why_it_matters": "젤렌스키는 미국이 푸틴과의 3자 회담을 제안했고 12월 G20 회의 때 만날 수 있다고 밝혀 협상 일정이 구체화되고 있다.",
+      "confidence": 0.78,
+      "original_title": "젤렌스키 \"미 정보공유 재개에 감사…미국 푸틴 편들면 역사적 실수\" - 연합뉴스TV",
+      "implications": "우크라이나 재건·방산 관련 자산 — 12월 G20 3자 회담 성사 여부를 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "협상",
+        "G20"
+      ]
+    },
+    {
+      "title": "트럼프 지지율 33% 최저…중간선거 '빨간불'",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XVXV2eDRuYVludW42WnBJNXZ6VGRrVVVNT185SHF4TEhmLUdnM3ZkSkVwczZDNlZyZGJPSUxsWGRMMHVyaWVJTUd1YzRFYTR0eEVfSTdKSmxxdldDMzhrOFVGcG9wbDA?oc=5",
+      "one_liner": "트럼프 지지율이 33%로 최저치를 기록했고, 경제정책 반대가 70%에 달했다.",
+      "why_it_matters": "하원은 민주당 다수 탈환이 유력하다는 전망이 나왔고, 한은은 민주당이 상·하원을 장악하면 금리·주가·달러가 하락할 것으로 분석했다.",
+      "confidence": 0.75,
+      "original_title": "트럼프 지지율 33% 최저…중간선거 ’빨간불’ - 연합뉴스TV",
+      "implications": "미 국채·달러·주식 — 중간선거 결과에 따른 정책 경로 변화와 시장 반응을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "중간선거",
+        "지지율",
+        "달러"
+      ]
+    },
+    {
+      "title": "국회, 서울중앙공소청 등 국정감사…'공소취소'·'대법원장 탄핵' 쟁점",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZUHBCZmRvcXAyMy1zcVFtYzVvMEhXQUVVdHM0R1kwNUZGRkFUSXBkb015eV9HWWVZUmtyanpWRnpadnNGX0lWaGttRXJrMXktdTk2WHRuR2RWcDA?oc=5",
+      "one_liner": "공소청 출범 후 첫 국정감사에서 공소취소·대법원장 탄핵이 쟁점으로 떠올랐다.",
+      "why_it_matters": "사건 지연 해소안과 공소청장 인선이 주목받는 가운데 현장 혼란 토로도 나왔다.",
+      "confidence": 0.7,
+      "original_title": "국회, 서울중앙공소청 등 국정감사…‘공소취소’·‘대법원장 탄핵’ 쟁점 - KBS 뉴스",
+      "implications": "사법 제도 개편 — 국감 이후 형소법 권한쟁의 등 후속 쟁점을 지켜볼 것.",
+      "tags": [
+        "국정감사",
+        "공소청",
+        "사법개혁"
+      ]
+    },
+    {
+      "title": "트루이스트, 블룸에너지 목표주가 218→240달러 상향 (원문: Bloom Energy (NYSE:BE) Stock Price Expected to Rise, Truist Financial Analyst Says)",
+      "source": "americanbankingnews",
+      "url": "https://www.americanbankingnews.com/2026/10/18/bloom-energy-nysebe-stock-price-expected-to-rise-truist-financial-analyst-says.html",
+      "one_liner": "트루이스트 파이낸셜이 블룸에너지 목표주가를 218달러에서 240달러로 올리고 '보유' 의견을 유지했다.",
+      "why_it_matters": "목표가는 올렸지만 투자의견은 보유에 머물렀다.",
+      "confidence": 0.7,
+      "original_title": "Bloom Energy (NYSE:BE) Stock Price Expected to Rise, Truist Financial Analyst Says",
+      "implications": "연료전지·AI 전력 관련주 — 다른 증권사 목표가 조정 흐름을 지켜볼 것.",
+      "tags": [
+        "블룸에너지",
+        "목표주가",
+        "전력"
+      ]
+    },
+    {
+      "title": "IMF, 콜롬비아 재정적자 3.5%에 경고 (원문: IMF Warns Colombia Over 3.5% Deficit)",
+      "source": "riotimesonline",
+      "url": "https://www.riotimesonline.com/imf-warns-colombia-fiscal-situation-unsustainable-2026/",
+      "one_liner": "IMF가 콜롬비아의 기초재정적자 3.5%와 부채비율 60%가 지속 가능하지도 실행 가능하지도 않다고 경고했다.",
+      "why_it_matters": "IMF 실사단이 11월 초 보고타를 방문할 예정이다.",
+      "confidence": 0.75,
+      "original_title": "IMF Warns Colombia Over 3.5% Deficit",
+      "implications": "신흥국 국채 투자자 — 11월 IMF 실사 결과와 콜롬비아 재정 대응을 지켜볼 것.",
+      "tags": [
+        "IMF",
+        "콜롬비아",
+        "재정",
+        "신흥국"
+      ]
+    },
+    {
+      "title": "중국 '중고 명품' 붐에 서구 브랜드 압박 (원문: Western brands under pressure as 'pre-owned' luxury booms in China)",
+      "source": "thestandard_hk",
+      "url": "https://www.thestandard.com.hk/china/article/345770/Western-brands-under-pressure-as-pre-owned-luxury-booms-in-China",
+      "one_liner": "중국 소비자가 중고 시장이나 신흥 자국 브랜드로 옮겨 가며 글로벌 명품 브랜드가 압박을 받고 있다.",
+      "why_it_matters": "팬데믹 이후 회복이 더딘 중국 경기가 명품 수요에도 반영되고 있다.",
+      "confidence": 0.7,
+      "original_title": "Western brands under pressure as 'pre-owned' luxury booms in China",
+      "implications": "유럽 명품주 — 중국 매출 비중이 큰 브랜드의 실적 가이던스를 지켜볼 것.",
+      "tags": [
+        "중국",
+        "명품",
+        "소비"
+      ]
+    },
+    {
+      "title": "인도 반발에 밴스 \"연한계약 노동자 발언 지나쳤다\" 인정 (원문: Rebuked by India, Vance Admits He Went Too Far with Indentured Servants Rhetoric)",
+      "source": "republicworld",
+      "url": "https://www.republicworld.com/world-news/rebuked-by-india-vance-admits-he-went-too-far-with-indentured-servants-rhetoric-2026-10-18-139173",
+      "one_liner": "인도 외교부의 반발 뒤 밴스 미 부통령이 인도인 관련 발언이 지나쳤다고 인정했다.",
+      "why_it_matters": "인도 외교부는 해당 발언이 미국 경제·혁신에 대한 인도 전문인력의 기여를 무시했다고 밝혔다.",
+      "confidence": 0.68,
+      "original_title": "Rebuked by India, Vance Admits He Went Too Far with Indentured Servants Rhetoric",
+      "implications": "미·인도 관계·전문인력 이동 — 비자 정책 관련 후속 발언을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "인도",
+        "이민"
+      ]
+    },
+    {
+      "title": "비트코인 ETF, 2주간 약 10억달러 유출…'업토버' 적자 지속 (원문: Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
+      "one_liner": "비트코인 ETF에서 이번 주 2억2860만달러가 순유출돼, 전주 6억8110만달러에 이어 2주 누적 약 10억달러가 빠졌다.",
+      "why_it_matters": "통상 강세 계절인 10월이 기관 자금 유출로 적자 구간에 머물고 있다.",
+      "confidence": 0.8,
+      "original_title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
+      "implications": "비트코인 현물 수요 — ETF 순유출이 멈추는지 주간 흐름을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "자금흐름"
+      ]
+    },
+    {
+      "title": "금요일 월가 공포…VIX·비트코인은 \"월요일엔 진정될 수도\" (원문: Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+      "one_liner": "주가 하락으로 금요일 VIX가 급등했지만, 과거 금요일 패닉은 대체로 월요일에 진정됐다는 분석이 나왔다.",
+      "why_it_matters": "계절성과 비트코인의 차분한 흐름도 같은 방향을 가리킨다는 해석이다.",
+      "confidence": 0.65,
+      "original_title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+      "implications": "단기 위험자산 — 월요일 VIX 되돌림 여부를 지켜볼 것.",
+      "tags": [
+        "VIX",
+        "변동성",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "비트코인, 美 물가지수 상승에도 8만달러 방어…관건은 FOMC 동결",
+      "source": "디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Wcno1c284bnc0blNqcndfSngyN0VQNncyUWdMSDE3TTlKSHVmM01YYnZ4TnlqMXJNWWQ3TGotNEFoVmpCNW42ZDlab2dvQmthaWlhNlNuQnNQeWt1dHBnMFl4Y3gwXzdhTGFWZGVpSEFVSXM?oc=5",
+      "one_liner": "미국 물가지수 상승에도 비트코인이 8만달러를 지켰고, 다음 변수로 FOMC 동결 여부가 꼽혔다.",
+      "why_it_matters": "물가 상승이 비트코인 하방 압력으로 거론되는 가운데 8만달러 지지선이 시험받고 있다.",
+      "confidence": 0.6,
+      "original_title": "비트코인, 美 물가지수 상승에도 8만달러 방어…관건은 FOMC 동결 - 디지털투데이",
+      "implications": "크립토 투자자 — FOMC 결정과 8만달러 지지 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "물가",
+        "FOMC"
+      ]
+    },
+    {
+      "title": "스테이블코인 공급은 정체, 결제는 45% 급증…비자·마스터카드·스트라이프 연결 (원문: Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+      "one_liner": "올해 스테이블코인 결제액이 4820억달러로 45% 늘었다고 분석업체 알리움이 밝혔다.",
+      "why_it_matters": "공급은 정체됐지만 카드 결제 급증과 글로벌 결제사의 크립토 레일 추가로 실사용이 커지고 있다.",
+      "confidence": 0.78,
+      "original_title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+      "implications": "결제·핀테크 기업 — 공급 정체 속 결제량 증가가 이어지는지 지켜볼 것.",
+      "tags": [
+        "스테이블코인",
+        "결제",
+        "비자",
+        "마스터카드"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
