@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "date": "2026-10-20",
+  "slot": "am",
+  "generated_at": "2026-10-20T03:39:46.072927+09:00",
+  "top_insight": [
+    "코스피가 10월 주요국 최하위로 밀렸다가 19일 1.76% 반등했고, 뉴욕도 기술주 저가 매수가 들어오며 위험자산 낙폭 되돌리기가 시작됐는지 시험받고 있다.",
+    "그러나 금리 상승으로 AI·데이터센터 기업의 자금 조달이 늦어진다는 보도가 나와, 반등의 지속성은 금리 경로에 달려 있다.",
+    "크립토는 JPM 코인의 이더리움 출시·트레저리 기업 매입 같은 제도권 수요와 국내 과세 유예 논쟁이 동시에 움직인다."
+  ],
+  "whats_changed": [
+    "어제 한 주 3000억원 반대매매가 났던 코스피가 오늘은 1.76% 올라 5768.01로 반등했다.",
+    "어제 젤렌스키의 G20 3자 회담 언급에 이어 오늘은 루비오가 미·중·러 회담 가능성을 열어 뒀다.",
+    "어제 스테이블코인 결제 증가에 이어 오늘은 JP모건 예금 토큰이 이더리움에 올라갔다."
+  ],
+  "themes": [
+    "위험자산 반등 시험 — 코스피 1.76% 반등, 나스닥 저가 매수, 금리 부담은 여전",
+    "크립토 제도화 — JPM 코인 이더리움 출시, CFTC 퍼프 소송, 코인 과세 유예론",
+    "지정학 — 우크라 종전 협상, 김여정 확성기 위협, 북중 교역 확대"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "정부·5대 가상자산 거래소 과세 간담회(10/20)",
+    "프랑스 노란조끼 시위 예고(10/24)",
+    "美 중간선거(11월)"
+  ],
+  "items": [
+    {
+      "title": "뉴욕증시, 기술주 저가 매수에 혼조 출발",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSaHBMczJmNWdDQktRaTlFMWhvb3UxN21aVDJmSFV0bWhEZ0pYNy1ZZDNWb3NDWWJhbFp1eTZaZHhEdzFHUGU4UEFQc0pUYjRGclk1bkl1R244S1UtdDdyczQ1WDN3SU5lTnRPeU1yU2M?oc=5",
+      "one_liner": "뉴욕증시가 기술주 저가 매수로 나스닥은 오르고 다우는 약보합인 혼조세로 출발했다.",
+      "why_it_matters": "기술주 매도 이후 저가 매수세가 유입되는지 가늠할 수 있다.",
+      "confidence": 0.7,
+      "original_title": "뉴욕증시, 기술주 저가 매수에 혼조 출발 - 연합인포맥스",
+      "implications": "미국 기술주 투자자 — 모건스탠리 윌슨의 '11월 위험자산 확대' 견해가 맞을지 지켜볼 것.",
+      "tags": [
+        "뉴욕증시",
+        "나스닥",
+        "기술주"
+      ]
+    },
+    {
+      "title": "루비오 \"트럼프, 미·중·러 회담 등 우크라 종전 방안에 열려 있어\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2d3lwLVNDVnZoNzA3SXRLREltTTNXbkJhUUZMYlVna1pmdmVmSmdnNW5tajFrbnRfaG9iMTNCRExEaGxIcUNDWF9VZGJUNFhxZ0hYLVlxc2lyWE9l?oc=5",
+      "one_liner": "루비오 국무장관이 트럼프가 미·중·러 회담을 포함한 종전 방안에 열려 있다고 말했다.",
+      "why_it_matters": "한편 젤렌스키는 미국이 항복을 압박한다며 스타링크 제한 배후로 백악관을 지목해 미·우 갈등이 드러났다.",
+      "confidence": 0.7,
+      "original_title": "루비오 \"트럼프, 미·중·러 회담 등 우크라 종전 방안에 열려 있어\" - 뉴스핌",
+      "implications": "방산·에너지 — 미·중·러 회담 성사 여부와 미·우 정보공유 차질을 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "루비오",
+        "종전"
+      ]
+    },
+    {
+      "title": "김여정 \"남부 국경 불안정…대남 확성기 방송 재개 검토\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yYTlWcHBJNzdDd2U1UXoxcmRidm80QWhvWlN4My1XOTRfSHl2UVZ2MWhjMW9VT1RUVS11cVlTMjZfNXhHMWFxTi1xWTJkZ0F2dWZXRGotVzRiU1V2Q19GUmo0SG9HSlFoc3hpVzRTVm9UbzFI?oc=5",
+      "one_liner": "김여정이 남부 국경 상황이 매우 불안정하다며 1년 4개월간 멈췄던 대남 확성기 방송 재개를 검토한다고 밝혔다.",
+      "why_it_matters": "남북 긴장이 다시 높아질 수 있다.",
+      "confidence": 0.75,
+      "original_title": "김여정 “남부 국경 상황 불안정…대남 확성기 방송 재개 검토” - 한겨레",
+      "implications": "국내 증시·방산주 — 실제 방송 재개와 우리 정부 대응을 지켜볼 것.",
+      "tags": [
+        "북한",
+        "김여정",
+        "남북관계"
+      ]
+    },
+    {
+      "title": "美 국무부, 신압록강대교 개통에 \"제재 회피 안 돼\"",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ0FJVUxWS1Bfc2lFSHRZNHp1cV9ZZVhfTmJxOWRvdDZ4dW5oVldwX1FUczRFamRrdE5VS25lUjIteWlKUWlXcWY0Y3ByT0tJbDNyczVQTkxNaHlERTN2UDdtWHhmOEQzM2dNcG50cmtialJhVmNlR2ZjWE1rNl9KcFRrcEtyLUHSAYoBQVVfeXFMUDdLVC1WN2xWZUxRc2pzTnBiOHZ1aGdFOHhERUlDbHRhdGZJdjNQS2YwUzlwd2U0R0l2ZXJTSGF4Q2p0WkdvVXVmN2dmOXNERlRnYjdnbGdTeGlXdEQyREJCVXVLdFFEeDVxZUFZOE03ZGVzaXdSTlFMd3hkLU4yeksyQTU3ckx0VHR3?oc=5",
+      "one_liner": "국무부가 신압록강대교 개통과 관련해 대북 제재 회피와 북한 무기 개발 지원은 안 된다고 밝혔다.",
+      "why_it_matters": "1~9월 북중 무역액은 22억7천만달러로 전년보다 18.6% 늘었다.",
+      "confidence": 0.75,
+      "original_title": "국무부, 신압록강대교 개통에 “제재 회피·북한 무기 개발 지원 안 돼” - VOA 한국어 홈페이지",
+      "implications": "대북 제재 — 북중·북러 교역 확대와 미국의 추가 제재 여부를 지켜볼 것.",
+      "tags": [
+        "북중무역",
+        "대북제재",
+        "신압록강대교"
+      ]
+    },
+    {
+      "title": "다카이치 내각 출범 1년…지지율 50%대, 재정·대중 갈등은 시험대",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa3BrcGpCNWZGZ0lHaWFDZklCLXdfX0FGSHNlM1BOVnFCQ0FTbXJPRTJXLWRhckFjaWN3S0xtWUF0d2Z1b0NjRWFCYW50bjhfMXVYaFZrWVVvRVFvZUNKdnFSQi1OVnZyWDJnM3JYRmhZX3N0bEJBN1VQUE1BaExuamZMdS1Ddk1YWHdFNkM0N3BqY3llY0s0bG5wR2o1Zw?oc=5",
+      "one_liner": "출범 1년을 맞은 다카이치 내각이 지지율 50%대를 유지하지만 대중 갈등과 재정 압박이 리스크로 꼽힌다.",
+      "why_it_matters": "'강한 일본'을 내세운 방산 확대와 보조금 정책이 재정 안정과 충돌하고 있다.",
+      "confidence": 0.7,
+      "original_title": "\"강한 일본\" 외치며 방산 진두지휘… 對中 갈등·재정 압박은 리스크 - 조선일보",
+      "implications": "엔화·일본 국채 — 재정 확대 기조와 중일 관계 변화를 지켜볼 것.",
+      "tags": [
+        "일본",
+        "다카이치",
+        "재정"
+      ]
+    },
+    {
+      "title": "美 중간선거 앞두고 백악관 내홍…\"민주당 압승 땐 전력·헬스케어 수혜\"",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ncEpjd3RMaDJxNVFvLUgySHMxMTRmSmI0MzdWeGhQVEJvUEt5dzhRYVBxV3hscEV1X3NfSzJaS1NJUl9sczdfTnRnUFRBcDVGWUUyeV8xSjdUOG9XRFFsTGUzUFRHcXpnM3ZMSFYtdXc4dDNSbGfSAWZBVV95cUxNRmdadlFhaEZrTUtpOFU4RnlMa3h4RHNPMEduMWlkNDhpc1pDYUlWY1lqRlZTSlF6RmJQSG5YWnFzTG5Gd29WLVFSdzdkcjk4blU0dk1PRkx1LUQyUUFHcGtaQmo0Rmc?oc=5",
+      "one_liner": "중간선거 패색 속에 트럼프·공화당 내부 책임 공방과 백악관 권력 암투설이 나온다.",
+      "why_it_matters": "선거 결과에 따라 업종별 수혜가 갈린다는 분석이 나왔다.",
+      "confidence": 0.65,
+      "original_title": "백악관의 궁중 암투설[횡설수설/김준일] - 동아일보",
+      "implications": "미국 업종 투자자 — 중간선거 여론조사와 전력·헬스케어 업종 반응을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "중간선거",
+        "백악관"
+      ]
+    },
+    {
+      "title": "코스피, 10월 주요국 증시 중 수익률 최하위 (원문: Kospi becomes world's worst-performing major stock market in October)",
+      "source": "koreajoongangdaily_joins",
+      "url": "https://www.koreajoongangdaily.com/business/kospi-goes-from-global-outperformer-to-worlds-worst-performer/12927309",
+      "one_liner": "삼성전자·SK하이닉스가 이끈 반도체 급락으로 코스피가 10월 주요국 지수 가운데 가장 부진한 시장이 됐다.",
+      "why_it_matters": "한국 증시 하락이 글로벌 대비 두드러진다는 점이 지표로 확인됐다.",
+      "confidence": 0.8,
+      "original_title": "Kospi becomes world's worst-performing major stock market in October",
+      "implications": "국내 반도체·지수 투자자 — 반도체 대형주 수급과 외국인 매매 방향을 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "반도체",
+        "삼성전자",
+        "SK하이닉스"
+      ]
+    },
+    {
+      "title": "코스피 1.76% 오른 5768.01 마감…코스닥도 1.78% 상승 (원문: 코스피, 1.76% 상승한 5768.01 마감…코스닥 1.78%↑(2보))",
+      "source": "news1_kr",
+      "url": "https://www.news1.kr/finance/market-exr/6324741",
+      "one_liner": "19일 코스피가 전 거래일보다 99.96포인트(1.76%) 올라 5768.01로 마감했다.",
+      "why_it_matters": "10월 급락 이후 하루 반등이 나왔다.",
+      "confidence": 0.85,
+      "original_title": "코스피, 1.76% 상승한 5768.01 마감…코스닥 1.78%↑(2보)",
+      "implications": "단기 트레이더 — 반등이 반대매매 소진 이후 추세 전환으로 이어지는지 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "코스닥",
+        "반등"
+      ]
+    },
+    {
+      "title": "증시 매도·금리 상승에 데이터센터 붐 시험대 (원문: Market selloff, rising rates test data center boom)",
+      "source": "hickoryrecord",
+      "url": "https://hickoryrecord.com/article_a56048de-11eb-5cb7-ab22-18d660c6414c.html",
+      "one_liner": "시장 매도세로 AI 붐을 이끄는 기업들이 자금 조달을 미루거나 더 비싼 자본 비용을 치르고 있다.",
+      "why_it_matters": "투자자들이 금리·컴퓨팅 비용 상승을 감당할 수 있다는 증거를 요구하기 시작했다.",
+      "confidence": 0.75,
+      "original_title": "Market selloff, rising rates test data center boom",
+      "implications": "AI 인프라·데이터센터 관련주 — 회사채·증자 등 자금 조달 일정 연기 여부를 지켜볼 것.",
+      "tags": [
+        "AI",
+        "데이터센터",
+        "금리",
+        "자금조달"
+      ]
+    },
+    {
+      "title": "코인 과세 두 달 앞두고 유예론 확산…여당 첫 유예 법안 발의",
+      "source": "newspim",
+      "url": "http://www.newspim.com/news/view/20261019001021",
+      "one_liner": "내년 1월 가상자산 소득 과세를 앞두고 여당에서 처음 유예 법안이 나왔고 정부는 20일 5대 거래소 의견을 듣는다.",
+      "why_it_matters": "과세 시행 여부가 다시 쟁점이 됐다.",
+      "confidence": 0.8,
+      "implications": "국내 코인 투자자 — 20일 정부·거래소 간담회 결과와 법안 처리 여부를 지켜볼 것.",
+      "tags": [
+        "가상자산",
+        "과세",
+        "유예"
+      ]
+    },
+    {
+      "title": "JP모건 'JPM 코인', 이더리움에 출시 (원문: JPMorgan's JPM Coin Arrives on Ethereum, Putting Bank Dollars on a Public Blockchain)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars",
+      "one_liner": "JP모건이 자사 계좌 달러로 뒷받침되는 JPM 코인을 이더리움에서 기관 고객에게 내놓는다. 결제는 요일 무관 수초 내에 끝난다.",
+      "why_it_matters": "대형 은행 예금 토큰이 퍼블릭 블록체인에 올라간다.",
+      "confidence": 0.8,
+      "original_title": "JPMorgan's JPM Coin Arrives on Ethereum, Putting Bank Dollars on a Public Blockchain",
+      "implications": "ETH 보유자·스테이블코인 발행사 — 다른 은행의 퍼블릭체인 예금 토큰 도입을 지켜볼 것.",
+      "tags": [
+        "JP모건",
+        "이더리움",
+        "예금토큰"
+      ]
+    },
+    {
+      "title": "美 CFTC, 무기한 선물 소송에서 CME 주장 반박 (원문: U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures",
+      "one_liner": "CFTC가 첫 비트코인 무기한 선물을 승인한 뒤, 새 정책이 CME에 피해를 준다는 근거가 없다고 맞섰다.",
+      "why_it_matters": "미국 내 무기한 선물(퍼프)의 존속이 걸린 다툼이다.",
+      "confidence": 0.75,
+      "original_title": "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
+      "implications": "파생상품 거래소·크립토 트레이더 — 법원 판단과 미국 퍼프 상품 확대 여부를 지켜볼 것.",
+      "tags": [
+        "CFTC",
+        "CME",
+        "무기한선물"
+      ]
+    },
+    {
+      "title": "스트라이브, 비트코인 3억3500만달러어치 매입…보유량 3만6818BTC (원문: Strive buys $335M in Bitcoin, boosting holdings to 36,818 BTC)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/strive-buys-335m-in-bitcoin-boosting-holdings-to-36818-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인 트레저리 기업 스트라이브가 1223BTC를 추가로 사 보유량이 3만6818BTC가 됐다.",
+      "why_it_matters": "앞선 매입으로 이미 MARA 보유량을 넘어섰고, 주식 발행으로 매입을 이어 가고 있다.",
+      "confidence": 0.8,
+      "original_title": "Strive buys $335M in Bitcoin, boosting holdings to 36,818 BTC",
+      "implications": "BTC 수급 — 트레저리 기업의 주식 발행·매입 지속 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "스트라이브",
+        "트레저리"
+      ]
+    },
+    {
+      "title": "美 정부, 민간 기관에 딥시크 제거 지시 (원문: US Orders Civilian Agencies to Rip DeepSeek Out of Government Systems)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381347/us-orders-civilian-agencies-rip-deepseek-out-government-systems",
+      "one_liner": "국토안보부가 민간 연방기관에 중국 딥시크와 그 기반 서비스를 제거하고 추가 구매를 금지하라고 지시했다.",
+      "why_it_matters": "민감 정보가 베이징으로 넘어갈 위험을 이유로 들었다.",
+      "confidence": 0.8,
+      "original_title": "US Orders Civilian Agencies to Rip DeepSeek Out of Government Systems",
+      "implications": "미·중 AI 경쟁 — 다른 중국 AI 서비스로 금지가 확대되는지 지켜볼 것.",
+      "tags": [
+        "딥시크",
+        "미중",
+        "AI",
+        "보안"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
