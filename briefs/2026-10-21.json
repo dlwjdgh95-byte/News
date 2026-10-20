@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "date": "2026-10-21",
+  "slot": "am",
+  "generated_at": "2026-10-21T03:41:20.401647+09:00",
+  "top_insight": [
+    "코스피가 하루 만에 3.73% 급락해 5,552.74로 밀렸고 대만 가중지수도 800포인트 넘게 빠져, 전날 반등은 아시아 기술주 약세 속 일시 되돌림에 그쳤다.",
+    "반면 비트코인은 ETF 자금 재유입으로 8만3천달러를 되찾아 주식과 다른 길을 갔다 — 다만 순유입이 블랙록 한 곳에 쏠렸다.",
+    "미국은 트럼프 지지율 31% 역대 최저와 농가 지원 약속이 겹치며 2주 남은 중간선거가 정책 변수로 떠올랐다."
+  ],
+  "whats_changed": [
+    "어제 1.76% 올라 5768.01로 반등했던 코스피가 오늘은 3.73% 내린 5552.74로 반등분을 모두 반납했다.",
+    "어제 JPM 코인 이더리움 출시에 이어 오늘은 스테이블코인 전송액이 8,910억달러로 4배 늘었다는 보고가 나왔다.",
+    "어제 위험자산 반등 시험 국면에서 오늘은 주식(급락)과 비트코인(ETF 유입 반등)이 갈렸다."
+  ],
+  "themes": [
+    "아시아 증시 급락 — 코스피 -3.73%, 대만 TAIEX 800포인트 하락",
+    "크립토 수급 — BTC ETF 최대 유입·트레저리 매수·스테이블코인 결제 확대",
+    "미국 중간선거 — 트럼프 지지율 31%, 선거 앞 농가 지원"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "미국 중간선거(약 2주 후, 11월 초)",
+    "이스라엘 총선(약 8일 후)"
+  ],
+  "items": [
+    {
+      "title": "[사설] 금융위기 때 넘어선 '경매 쓰나미'…고금리·양극화에 짓눌린 민생",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPYkI3T2xBRUlaR1lzZTBhQ2x4RGE0ZjBwZTVibmpIY2sxWF9tOFZ0NUtIai1lcXBFUkRPaDc3OGN5dm4xSnNfWGEwamNkeW1UbzJYc0djS1VOUQ?oc=5",
+      "one_liner": "한국경제 사설은 부동산 경매 물건이 금융위기 때를 넘어섰다며 고금리와 양극화가 민생을 짓누른다고 지적했다.",
+      "why_it_matters": "고금리 부담이 가계의 담보 처분으로 번지고 있다는 신호다.",
+      "confidence": 0.6,
+      "original_title": "[사설] 금융위기 때 넘어선 '경매 쓰나미'…고금리·양극화에 짓눌린 민생 - 한국경제",
+      "implications": "주택 보유자·금융권 — 경매 건수 추이와 대출 연체율을 지켜볼 것.",
+      "tags": [
+        "부동산",
+        "경매",
+        "고금리"
+      ]
+    },
+    {
+      "title": "이 대통령, 3기 신도시 인천 계양 방문…\"공급 전격전\" 용적률 250% 상향",
+      "source": "정책브리핑",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLXZyS1JiV19hWjlwZmVaTnozcjhKV2w4ZXByUGVtbEc5c21tX0Y1azBPUHdsZFFNOTl0WUlrbld4QTdaRDY1S01pTVdMWk4wVFJlU0hpamx0aG8tY2pVRHcxVFhVa1k5QjhrU2lqMmJlTEdFUU1NNV8wQUZXWVdSNlE0dmtIX2FhOUE?oc=5",
+      "one_liner": "이재명 대통령이 3기 신도시 인천 계양지구를 찾아 주택 공급을 최대한 앞당기라고 당부했고, 3기 신도시 용적률이 250%로 상향된다는 보도가 나왔다.",
+      "why_it_matters": "정부가 집값 대응을 공급 속도전으로 잡고 있음을 보여준다.",
+      "confidence": 0.7,
+      "original_title": "이 대통령, 3기 신도시 '인천 계양지구' 방문…주택공급 역량 집중 당부 - 정책브리핑",
+      "implications": "건설·주택 수요자 — 3기 신도시 착공·분양 일정 단축 여부를 지켜볼 것.",
+      "tags": [
+        "부동산",
+        "3기신도시",
+        "주택공급"
+      ]
+    },
+    {
+      "title": "트럼프, 농가 유류비 보전에 80억달러 지원…중간선거 앞 지지층 달래기",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZbTAtM1ZHcWhTUGpjYWVVVlhRak1QVUlYNnh1WFI1SjRRWG9RRHJzdlRnVEh6S1JCOGg0VmMzNDNqOGdfZl9XMDVtckhkYzdCTW0zQk9KczVldDBkNlRseGlxMlFXRFAycnpvMGJfTQ?oc=5",
+      "one_liner": "지지율이 최저로 떨어진 트럼프 대통령이 농촌 지지층의 경윳값 불만에 '수확철 10조원(80억달러)' 지원을 꺼냈다.",
+      "why_it_matters": "선거를 앞둔 재정 지원 약속이 늘어나고 있다.",
+      "confidence": 0.65,
+      "original_title": "지지율 최저 트럼프, ‘우군’ 폭스뉴스 또 저격…“민주당 편드느라 바쁘다” - 한겨레",
+      "implications": "미국 농업·에너지 관련 투자자 — 지원 집행 방식과 재정 부담 논쟁을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "트럼프",
+        "농가지원"
+      ]
+    },
+    {
+      "title": "네타냐후 \"이란 정권 제거가 최우선 과제\"…미 국방장관 이스라엘 비공개 방문",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LdTdmMlQwRzNvZVV5R2JKTnFlM2hQdHNVblRBTk44WnNhU041NS1UM0lKZWZkaGl3S3hiMkxTdWk3RW9ycVJJT2Zsd243WVBxTFRQekxob0Q2dVXSAWBBVV95cUxQSk5EU2J4dUpyRTFXVHhFbExEeU5iVnMzWE5sTG9qdERGQ1ZLRFVLT284ZmtsRTFmNDFaNXJkOVJxRGVsbkYtdmVialB6N2o1NDFYVHpCQUd6QV9ucExQYmk?oc=5",
+      "one_liner": "네타냐후 총리가 이란 정권을 '독 품은 문어 머리'라 부르며 제거를 최우선 과제로 꼽았고, 미 국방장관이 이스라엘을 비공개 방문했다.",
+      "why_it_matters": "이스라엘 총선을 앞두고 대이란 강경론이 다시 커져 중동 리스크가 커졌다.",
+      "confidence": 0.65,
+      "original_title": "네타냐후 \"이란 정권은 독 품은 문어 머리…제거 최우선 과제\" - 연합뉴스",
+      "implications": "유가·방산 투자자 — 대이란 공격 재개 논의 보도와 총선 결과를 지켜볼 것.",
+      "tags": [
+        "이스라엘",
+        "이란",
+        "중동"
+      ]
+    },
+    {
+      "title": "캐나다 앨버타주 분리독립 주민투표 부결…잔류 선택",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yaFlwOTVPMlkwdi1tblc0aVBBOHlIY1FhVGNyV2QwWU9QZGJkbWliY0tVa2V4NnNXMlJiVjk2bTBVc05BbzFhLTJ6aHVSZlhfamEzQ0tiUzgwazjSAWBBVV95cUxOMWw4UjY4V0JDdHhsOTBubDRxN1NuaThnMy1sMHZhaGVVYXA0R2xETnBIbDBMcTMwR19LNWJZQUFGdDBTa1huTWc0RldaWEw3ZGVUcUlvMkJDbzFsTVBoLU4?oc=5",
+      "one_liner": "캐나다 원유 산지인 앨버타주가 분리독립 추진 주민투표를 부결해 캐나다에 남기로 했다.",
+      "why_it_matters": "캐나다 최대 원유 산지의 정치 불확실성이 걷혔다.",
+      "confidence": 0.7,
+      "original_title": "캐나다 앨버타주, 분리독립 추진 주민투표 부결…잔류 선택(종합) - 연합뉴스",
+      "implications": "캐나다 에너지 투자자 — 연방-주 갈등 후속 협상을 지켜볼 것.",
+      "tags": [
+        "캐나다",
+        "앨버타",
+        "원유"
+      ]
+    },
+    {
+      "title": "코스피 3.73% 급락한 5,552.74 마감…상승 업종 하나도 없어 (원문: 코스피 하락 마감, 5,552.74P (-3.73%↓) 코스피 운송장비·부품, 코스피 화학 등 하락 주도)",
+      "source": "mk_kr",
+      "url": "https://www.mk.co.kr/news/stock/12180610",
+      "one_liner": "코스피가 3.73% 내린 5,552.74로 마감했고 운송장비·부품(-6.61%), 화학(-6.14%), 금속(-5.96%)이 하락을 이끌었다.",
+      "why_it_matters": "전날 1.76% 반등분을 하루 만에 두 배 넘게 반납해 반등 지속성 시험이 실패로 기울었다.",
+      "confidence": 0.8,
+      "original_title": "코스피 하락 마감, 5,552.74P (-3.73%↓) 코스피 운송장비·부품, 코스피 화학 등 하락 주도",
+      "implications": "국내 주식 투자자 — 외국인 매도와 반대매매 재개 여부, 경기민감 업종 낙폭을 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "증시",
+        "급락"
+      ]
+    },
+    {
+      "title": "대만 가중지수 800포인트 넘게 급락…매도 압력 확산 (원문: Taiwan Stock Market Today: TAIEX Crashes Over 800 Points as Selling Pressure Mounts; iCatch Technology Surges 10%, H2U Corp Hits Record Low — Check Key Market Highlights)",
+      "source": "thesundayguardian",
+      "url": "https://sundayguardianlive.com/business/taiwan-stock-market-today-taiex-crashes-over-800-points-as-selling-pressure-mounts-icatch-technology-surges-10-h2u-corp-hits-record-low-check-key-market-highlights-308898/",
+      "one_liner": "대만 증시가 화요일 가중지수(TAIEX)가 800포인트 넘게 빠지며 여러 업종에 걸친 매도로 마감했다.",
+      "why_it_matters": "코스피와 같은 날 대만도 크게 밀려 아시아 반도체·기술주 시장 전반의 약세로 읽힌다.",
+      "confidence": 0.75,
+      "original_title": "Taiwan Stock Market Today: TAIEX Crashes Over 800 Points as Selling Pressure Mounts; iCatch Technology Surges 10%, H2U Corp Hits Record Low — Check Key Market Highlights",
+      "implications": "아시아 반도체 투자자 — 한국·대만 동반 약세가 이어지는지, 외국인 자금 이탈 규모를 지켜볼 것.",
+      "tags": [
+        "대만",
+        "TAIEX",
+        "아시아증시"
+      ]
+    },
+    {
+      "title": "트럼프 지지율 31%로 역대 최저…중간선거 앞두고(로이터/입소스) (원문: Trump's approval falls to record low of 31% as midterms near: Reuters/Ipsos poll)",
+      "source": "tbsnews_net",
+      "url": "https://www.tbsnews.net/worldbiz/usa/trumps-approval-falls-record-low-31-midterms-near-reutersipsos-poll-1578161",
+      "one_liner": "로이터/입소스 조사에서 트럼프 대통령 지지율이 2주 전보다 1%포인트 내린 31%로 두 임기 통틀어 최저를 기록했다.",
+      "why_it_matters": "중간선거를 2주가량 앞두고 의회 권력 지형 변화 가능성이 커졌다.",
+      "confidence": 0.8,
+      "original_title": "Trump's approval falls to record low of 31% as midterms near: Reuters/Ipsos poll",
+      "implications": "미국 정책 민감 업종 투자자 — 중간선거 판세와 의회 구성 변화가 재정·관세 정책에 줄 영향을 지켜볼 것.",
+      "tags": [
+        "미국",
+        "트럼프",
+        "중간선거"
+      ]
+    },
+    {
+      "title": "비트코인 현물 ETF, 약 한 달 만에 최대 순유입…블랙록이 전부 담당 (원문: Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381444/bitcoin-etfs-best-day-nearly-month-blackrock-does-most-buying",
+      "one_liner": "미국 비트코인 현물 ETF에 월요일 5억2,670만달러가 들어와 9월 22일 이후 최대였고, 전액이 블랙록 IBIT 몫이었다.",
+      "why_it_matters": "피델리티·그레이스케일에서는 자금이 빠져 수요가 블랙록 한 곳에 쏠렸다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying",
+      "implications": "비트코인 투자자 — ETF 순유입이 며칠 이어지는지와 IBIT 쏠림을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "블랙록"
+      ]
+    },
+    {
+      "title": "지캐시 8.5% 급등…비트코인 8만3천달러 회복하며 크립토 반등 (원문: Zcash Leads Crypto Bounce, Surging 8.5% as Bitcoin Reclaims $83,000)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381424/zcash-crypto-bounce-surging-bitcoin-reclaims",
+      "one_liner": "비트코인이 1.6% 올라 8만3천달러를 되찾았고 지캐시가 24시간 동안 8.5% 오른 1,215.85달러로 반등을 이끌었다.",
+      "why_it_matters": "ETF 자금 재유입과 함께 크립토가 주식과 다른 방향으로 움직였다.",
+      "confidence": 0.7,
+      "original_title": "Zcash Leads Crypto Bounce, Surging 8.5% as Bitcoin Reclaims $83,000",
+      "implications": "크립토 트레이더 — 8만3천달러 지지 여부와 알트코인 순환매를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "지캐시",
+        "크립토"
+      ]
+    },
+    {
+      "title": "스트래티지·비트마인, 비트코인·이더리움 추가 매수",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zTjMyMEUwaTVPV1RQMTY4azNBbU9zZ2ctaU9YMnZ2ZnZBRDJHalZNWFRMRE92ekxSVWp2S3lvakd0T2ttb0NlakxLWGRYYko5ZWoyeTlYRHp6REdiVjliNnFXN2ZFdHlHbTBtNg?oc=5",
+      "one_liner": "스트래티지가 비트코인을, 비트마인이 이더리움을 추가로 사들였다.",
+      "why_it_matters": "트레저리 기업의 매수가 계속돼 제도권 수요가 이어지고 있다.",
+      "confidence": 0.6,
+      "original_title": "스트래티지·비트마인, 비트코인 및 이더리움 추가 매수 - 경향게임스",
+      "implications": "BTC·ETH 보유자 — 트레저리 기업의 매수 속도와 자금 조달 여건을 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "이더리움",
+        "트레저리"
+      ]
+    },
+    {
+      "title": "스테이블코인 전송액 4배 늘어 8,910억달러…미국 은행 도입 확대 (원문: Stablecoin transfers quadruple to $891B as US banks expand adoption: Report)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/stablecoins-move-400m-an-hour-as-73-of-volume-occurs-outside-banking-hours-coinbase-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "코인베이스 보고서에 따르면 스테이블코인 전송액이 4배로 늘어 8,910억달러에 이르렀다.",
+      "why_it_matters": "시가총액은 1년간 거의 그대로인데 은행·기업의 결제 사용은 늘었다.",
+      "confidence": 0.7,
+      "original_title": "Stablecoin transfers quadruple to $891B as US banks expand adoption: Report",
+      "implications": "결제·핀테크 업계 — 은행 채택 확대가 발행량 증가로 이어지는지 지켜볼 것.",
+      "tags": [
+        "스테이블코인",
+        "은행",
+        "결제"
+      ]
+    },
+    {
+      "title": "알파벳·마이크로소프트, OKX-ICE 토큰화 주식 플랫폼에 반대 (원문: Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/alphabet-microsoft-goldman-object-okx-ice-tokenized-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "OKX-ICE 토큰화 주식 플랫폼 초기 제안에 포함된 미국 상장사의 약 25%가 빠지겠다고 요청했다.",
+      "why_it_matters": "발행사 동의 없는 토큰화 주식에 대기업 반발이 커지고 있다.",
+      "confidence": 0.7,
+      "original_title": "Alphabet, Microsoft add objections to OKX-ICE proposed tokenized stock platform",
+      "implications": "토큰화 자산 투자자 — 플랫폼 출범 범위와 규제 당국 입장을 지켜볼 것.",
+      "tags": [
+        "토큰화",
+        "OKX",
+        "ICE"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
