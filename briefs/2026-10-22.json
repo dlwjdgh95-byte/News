@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "slot": "am",
+  "generated_at": "2026-10-22T03:53:24.842166+09:00",
+  "top_insight": [
+    "다음달 APEC을 앞두고 러시아가 푸틴·트럼프·시진핑 3자회담 준비를 공개했고, 11월 미·러·우 협상 재개 동의까지 나와 외교 일정이 한 달 안으로 몰렸다.",
+    "한반도에서는 김여정이 이달 전 국경 대남확성기 가동을 예고해, 외국인 매수로 반등을 노리는 국내 증시에 지정학 변수가 다시 붙었다.",
+    "크립토는 비트코인이 8만4,500달러로 주간 고점을 회복한 가운데 미 OCC 스테이블코인 규칙 확정·영국 FCA 디파이 의견 수렴으로 제도화가 이어졌다."
+  ],
+  "whats_changed": [
+    "어제 8만3천달러를 되찾은 비트코인이 오늘 8만4,500달러 부근으로 주간 고점을 찍었다.",
+    "어제 3.73% 급락한 코스피에 대해 오늘은 장 전 외국인 약 1,400억원 매수 소식(출처 1곳)이 나왔다.",
+    "어제 트럼프 지지율 31% 최저에 이어 오늘은 슈퍼팩 3천240억원 투입과 백악관 내부 갈등 보도가 나왔다."
+  ],
+  "themes": [
+    "미·중·러 정상외교 — 3자회담 준비설, APEC 러·중 회담, 11월 종전 협상",
+    "남북 긴장 — 김여정 대남확성기·DMZ 포병 배치 예고",
+    "크립토 제도화 — OCC 스테이블코인 규칙, 영국 디파이 지침, 비트코인 주간 고점"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "APEC 정상회의(다음달) — 푸틴·트럼프·시진핑 3자회담 추진",
+    "미·러·우 종전 협상 재개(11월)",
+    "미국 중간선거(11월)",
+    "북한 대남확성기 전 국경 가동 예고(10월 중)"
+  ],
+  "items": [
+    {
+      "title": "러시아 \"다음달 푸틴·트럼프·시진핑 3자회담 준비 중\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zd0RCay03WHJ1NW1TMkVyNTYwMXRSNzhiQ3RqOTV6YURjM0VfNUZWWTJTX00yTmlRLWpmLVNQNFpnRlhVbFVvWmFDWmJOOWpUSjNUbWhPeC1TbE3SAWBBVV95cUxNTl9oNVc0SnV1MnhVTnNHZnVYbU91ajlUcGxlbExkaUZKX19QeEdsbi1KWW9jazdaWFcwWGdoUXBHR21JaW5hcEF0blhLazB3T0xqaURxSWVFemJZbEFyTk0?oc=5",
+      "one_liner": "러시아가 다음달 푸틴·트럼프·시진핑 3자 정상회담을 준비 중이라고 밝혔고, 트럼프도 의향을 보였다.",
+      "why_it_matters": "미·중·러 정상이 한자리에 모이면 관세·우크라이나·안보 의제가 한꺼번에 움직일 수 있고, APEC 개최국인 한국 외교가 시험대에 오른다.",
+      "confidence": 0.78,
+      "original_title": "러 \"다음달 푸틴·트럼프·시진핑 3자회담 준비 중\"(종합) - 연합뉴스",
+      "implications": "외교·방산·수출 관련 투자자 — 3자회담 성사 여부와 미국 내 우려 여론, 한국 APEC 의제 조율을 지켜볼 것.",
+      "tags": [
+        "미중러",
+        "APEC",
+        "정상회담"
+      ]
+    },
+    {
+      "title": "푸틴, 中 리창 총리 접견…\"다음달 APEC서 시진핑과 회담 가능성\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLNWgwQ3Q0M2w4TGtoWkdhWWN6VnYxSmx5TE1xcGFkejZydEJyR2pBRy0wOWhINmVRUjJFVE80WWxsT2xHZ1g0a0luX3VQN3ZZYzRPSkN3bzZsZzZINmk5eVM4cE02Zk0?oc=5",
+      "one_liner": "푸틴 대통령이 리창 중국 총리를 만나 다음달 APEC에서 시진핑 주석과 회담할 가능성을 언급했다.",
+      "why_it_matters": "3자회담 준비설과 맞물려 러·중 밀착이 APEC 무대로 이어질 수 있다는 신호다.",
+      "confidence": 0.72,
+      "original_title": "푸틴, 中 리창 총리와 접견…\"다음달 APEC서 시진핑과 회담 가능성\" - 연합뉴스TV",
+      "implications": "대중·대러 노출 기업 — APEC 계기 러·중 정상회담 확정 여부를 지켜볼 것.",
+      "tags": [
+        "러중관계",
+        "APEC"
+      ]
+    },
+    {
+      "title": "러, 구금 미국인 석방…\"11월 미·러·우 협상 재개 원칙적 동의\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tQ2FGcmt5OVU5WnJVVktDSlYyRzBLLTM5YU4yNDJ1dlJDYnN4MkJBRlFQTGoxbXp3VnhxM1BHSVJ4Z1d4Nk8tN3N1bjVTc0hmV3RhbjVGbTBIQnB3c1VCOHdibEhCMXM?oc=5",
+      "one_liner": "미 특사가 우크라이나 종전안을 푸틴에게 전달했고, 러시아는 구금 미국인을 석방하며 11월 미·러·우 협상 재개에 원칙적으로 동의했다.",
+      "why_it_matters": "종전 협상 재개 일정이 잡히면 에너지·원자재 가격과 유럽 안보 리스크 인식이 달라질 수 있다.",
+      "confidence": 0.74,
+      "original_title": "러 구금 미국인 석방…트럼프 \"러 제재했으면 어쩔뻔했나\" 자찬 - 연합뉴스TV",
+      "implications": "에너지·방산 투자자 — 11월 협상 실제 개최 여부와 특사를 둘러싼 공화당 내 비판을 지켜볼 것.",
+      "tags": [
+        "우크라이나",
+        "종전협상",
+        "러시아"
+      ]
+    },
+    {
+      "title": "트럼프 슈퍼팩, 중간선거에 3천240억원 투입…공화 지원 총력전",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hcFNMWXBEcjRIMlY0RnlUbnJLc0YtNF9ZXzBkdl9ueVNJelpuMFkzczN3R2VlYzByTWFJYUFJZmMxcThTelR1YTRRMVRPMjYyZXBYZW51d0phZGPSAWBBVV95cUxPUklWTS02REpHSUNaSFBfekl0OHo1bF9rU3lTUFN6UnozRW0yY1hEbnRad0dQNnJmUTFvbXpraTl4TmVjcXVtQ3lsZF9JTHU1QVhBYmczdmVLMVZoVHdSX0E?oc=5",
+      "one_liner": "트럼프 슈퍼팩이 중간선거에 3천240억원을 투입하며 공화당 지원에 나섰고, CNN은 참패 전망 속 백악관 내부 갈등을 전했다.",
+      "why_it_matters": "물가와 데이터센터가 표심 변수로 거론되며 선거 결과가 재정·관세·에너지 정책 방향에 영향을 줄 수 있다.",
+      "confidence": 0.76,
+      "original_title": "트럼프 슈퍼팩, 중간선거에 3천240억원 투입…공화 지원 총력전 - 연합뉴스",
+      "implications": "미국 정책 민감 업종 — 선거 막판 여론 흐름과 물가·데이터센터 쟁점을 지켜볼 것.",
+      "tags": [
+        "미국중간선거",
+        "트럼프"
+      ]
+    },
+    {
+      "title": "김여정 \"10월 중 대남확성기 전 국경서 가동\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnSnNUX3lUeHhxSWFHak1pY3hfdDdheHBvNWJ6SnB3LUdrWTBiWFRIbzVnaEZ1b1JiWGhxaWMxa2NSUUd2WXFpaXlpak9FRzNCZWpsbjVSdF91Q0owOFJxTm9PVEtIcW9M?oc=5",
+      "one_liner": "김여정이 이달 모든 국경선에서 대남확성기를 가동하겠다고 밝히고 군 지휘부와 남부 국경선을 시찰했다.",
+      "why_it_matters": "북한이 요새화 완성·DMZ 포병대 배치를 예고해 남북 관계가 '강 대 강'으로 치달을 수 있고, 이는 국내 증시의 지정학 할인 요인이다.",
+      "confidence": 0.8,
+      "original_title": "김여정 “10월 중 대남확성기 전 국경서 가동할 것” - 한겨레",
+      "implications": "국내 주식·원화 투자자 — 확성기 실제 가동과 군 대응 수위, 외국인 수급 반응을 지켜볼 것.",
+      "tags": [
+        "북한",
+        "남북관계",
+        "지정학"
+      ]
+    },
+    {
+      "title": "캐나다 앨버타주 분리독립 주민투표 부결…잔류 선택",
+      "source": "서울신문",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1adUNqamtxakpMQWNtQi1UY2pLN2k2akxCbkNsOG43X3c4UnZwWXkyRFZBSTNfbkpYQV91elE4RTM5V29fTzNNU2lkQ0VPdUlLcDlkSWtvT3U1ZVhjMFF5Mm5pYUV4ZDdyeDZHUEU2UGYyVkUtMXdn?oc=5",
+      "one_liner": "캐나다 앨버타주 분리독립 주민투표가 부결돼 잔류로 결론났다.",
+      "why_it_matters": "산유 지역인 앨버타의 잔류로 카니 총리가 트럼프와의 협상에서 힘을 얻었다는 평가가 나온다.",
+      "confidence": 0.78,
+      "original_title": "캐나다 앨버타주 분리독립 추진 부결 - 서울신문",
+      "implications": "캐나다 에너지·통화 노출 투자자 — 미·캐나다 무역 협상에서 카니 정부의 태도 변화를 지켜볼 것.",
+      "tags": [
+        "캐나다",
+        "분리독립",
+        "주민투표"
+      ]
+    },
+    {
+      "title": "외국인 매수에 한국 증시 반등 시도…반도체주 주도 (원문: Foreign buying lifts Korean stocks as chipmakers drive gains)",
+      "source": "econotimes",
+      "url": "https://econotimes.com/Foreign-buying-drives-Korean-stock-rebound-TV-commentator-says-1758613",
+      "one_liner": "외국인이 10월 21일 장 시작 전 약 1,400억원어치 한국 주식을 사들였다는 한국경제TV 해설자 발언이 전해졌다.",
+      "why_it_matters": "전날 3.73% 급락 뒤 외국인 매수가 반도체를 중심으로 반등을 이끌지가 다음 방향을 가른다.",
+      "confidence": 0.55,
+      "original_title": "Foreign buying lifts Korean stocks as chipmakers drive gains",
+      "implications": "국내 반도체·대형주 투자자 — 외국인 순매수가 장중·이틀 이상 이어지는지 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "외국인수급",
+        "반도체"
+      ],
+      "flags": [
+        "single-unnamed-source"
+      ]
+    },
+    {
+      "title": "인도 루피, 달러 대비 29파이사 오른 94.62 (원문: Rupee rises 29 paise to 94.62 against US dollar in early trade)",
+      "source": "dailyexcelsior",
+      "url": "https://www.dailyexcelsior.com/rupee-rises-29-paise-to-94-62-against-us-dollar-in-early-trade/",
+      "one_liner": "인도 루피가 수요일 초반 거래에서 달러 대비 29파이사 오른 94.62를 기록했다.",
+      "why_it_matters": "국내 증시 호조와 RBI의 달러 수요 억제 개입이 겹쳐 신흥국 통화 약세가 잠시 숨을 돌렸다.",
+      "confidence": 0.72,
+      "original_title": "Rupee rises 29 paise to 94.62 against US dollar in early trade",
+      "implications": "신흥국 통화·채권 투자자 — RBI 개입 지속 여부와 달러 흐름을 지켜볼 것.",
+      "tags": [
+        "인도루피",
+        "환율",
+        "RBI"
+      ]
+    },
+    {
+      "title": "비트코인 주간 최고치…크립토 시장 반등 (원문: Bitcoin Hits Weekly High as Crypto Market Rebounds)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381555/bitcoin-price-weekly-high-crypto-rebounds",
+      "one_liner": "비트코인이 8만4,500달러 부근으로 돌아왔고 XRP와 지캐시가 10월 하락 뒤 광범위한 반등을 이끌었다.",
+      "why_it_matters": "전날 8만3천달러 회복에 이어 주간 고점을 경신하며 주식과 다른 흐름이 이어지고 있다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
+      "implications": "크립토 투자자 — 8만5천달러 안팎 저항과 ETF 자금 흐름 지속 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "크립토",
+        "반등"
+      ]
+    },
+    {
+      "title": "베선트 재무장관 \"GENIUS법은 링컨 시대 은행 개혁급\"…OCC 스테이블코인 규칙 확정 (원문: Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/occ-finalizes-stablecoin-rules-genius-act-bessent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "OCC가 스테이블코인 준비금·상환 규칙을 확정했고 베선트 장관은 GENIUS법을 '미국 금융의 분수령'이라 불렀다.",
+      "why_it_matters": "스테이블코인 발행의 연방 규칙이 확정되면서 은행·핀테크의 발행 경쟁과 미 국채 수요에 영향을 줄 수 있다.",
+      "confidence": 0.78,
+      "original_title": "Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform",
+      "implications": "스테이블코인 발행사·은행 — OCC 규칙 시행 일정과 신규 발행 신청을 지켜볼 것.",
+      "tags": [
+        "스테이블코인",
+        "GENIUS법",
+        "규제"
+      ]
+    },
+    {
+      "title": "미국 암호화폐 시장은 축소·캐나다는 확대…\"거래 44%가 스테이블코인\"",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5Ga3FwTWMzTHRrV2RDNXBRR25mQUREY1h6dXBxdmx3eGZsNDhucVZkTzhFQWdlejNvdkhVMVNXLW1IUkJVdXZ2TG1B?oc=5",
+      "one_liner": "미국 암호화폐 시장은 줄고 캐나다는 커졌으며 거래의 44%가 스테이블코인이라는 분석이 나왔다.",
+      "why_it_matters": "스테이블코인이 거래의 절반 가까이를 차지할 만큼 결제 수단으로 자리잡아 간다는 신호다.",
+      "confidence": 0.6,
+      "original_title": "美 암호화폐 시장은 축소·캐나다는 커졌다...\"거래 44%가 스테이블코인\" - 코인리더스",
+      "implications": "스테이블코인·거래소 관련 투자자 — 북미 지역별 거래량 추이를 지켜볼 것.",
+      "tags": [
+        "스테이블코인",
+        "암호화폐시장"
+      ]
+    },
+    {
+      "title": "英 금융감독청, 디파이 지침·크립토 법규 의견 수렴 착수 (원문: UK financial watchdog opens consultations for DeFi guidance, crypto laws)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/uk-fca-consultations-defi-crypto-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "영국 FCA가 새 크립토 규제 체계 신청 접수 몇 주 만에 디파이 지침과 크립토 법규 의견 수렴을 열었다.",
+      "why_it_matters": "미국 GENIUS법·EU MiCA에 이어 영국도 디파이까지 규제 틀을 넓히고 있다.",
+      "confidence": 0.72,
+      "original_title": "UK financial watchdog opens consultations for DeFi guidance, crypto laws",
+      "implications": "디파이·거래소 사업자 — FCA 의견 수렴 범위와 최종 지침 시점을 지켜볼 것.",
+      "tags": [
+        "영국",
+        "FCA",
+        "디파이규제"
+      ]
+    },
+    {
+      "title": "스페이스X·테슬라 합병, 머스크 AI 제국을 어떻게 바꾸나 (원문: How a SpaceX and Tesla Merger Would Reshape Musk’s AI Empire)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381543/elon-musk-spacex-tesla-merger-ai-empire",
+      "one_liner": "두 회사 이사회가 그록·X·스타링크·궤도 데이터센터·칩 공장·옵티머스를 한 지붕 아래 두는 합병을 검토 중이다.",
+      "why_it_matters": "합병 시 비트코인 보유량 3만221개로 상장사 6위가 된다는 분석도 나왔으나 아직 탐색 단계다.",
+      "confidence": 0.66,
+      "original_title": "How a SpaceX and Tesla Merger Would Reshape Musk’s AI Empire",
+      "implications": "테슬라 주주·AI 인프라 투자자 — 이사회 검토 결과와 지배구조 문제 제기를 지켜볼 것.",
+      "tags": [
+        "테슬라",
+        "스페이스X",
+        "합병"
+      ]
+    },
+    {
+      "title": "JP모건 \"비트코인 장기 수익률, 미국 주식·금 웃돌 것\"",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hVFR5ZmZxSTZyVEhsS3NyLV96RngyOHdLa2ZYcG1yc1VJTzU3M0JIS0ZpTTRUZ0RCdFlTSFF5blNQZF94cGJVdlppQ0VjYk55ZHFQN0VKUlI2elhDUVZzTzVURkIzcWVJX3N3Rg?oc=5",
+      "one_liner": "JP모건이 비트코인의 장기 수익률이 미국 주식과 금을 웃돌 것이라고 전망했다.",
+      "why_it_matters": "대형 은행의 장기 전망이 기관 자금의 자산배분 논리를 뒷받침할 수 있다.",
+      "confidence": 0.55,
+      "original_title": "제이피모건, “비트코인 장기 수익률, 미국 주식·금 웃돌 것” - 경향게임스",
+      "implications": "자산배분 투자자 — 전망의 전제(변동성·기간)를 원문으로 확인할 것.",
+      "tags": [
+        "JP모건",
+        "비트코인",
+        "전망"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
