@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "slot": "am",
+  "generated_at": "2026-10-23T03:40:22.018987+09:00",
+  "top_insight": [
+    "브렌트유가 111달러를 넘어 5개월 최고로 오르고 AI·반도체주가 밀리면서 코스피가 3.52% 하락하는 등 위험자산이 함께 눌렸다.",
+    "트럼프의 이란 군사행동 언급이 증시와 비트코인을 동시에 끌어내렸고, 인도·콜롬비아 사례처럼 에너지 수입국 부담이 커지고 있다.",
+    "한은 총재는 긴축 기조 유지를 언급했고 원·달러 환율은 1,320원대에서 안정적이다."
+  ],
+  "whats_changed": [
+    "어제 외국인 매수로 반등을 시도하던 코스피가 오늘 3.52% 하락한 5,533.77P로 마감했다.",
+    "어제 8만4,500달러로 주간 고점을 찍은 비트코인이 하루 3% 밀려 8만1,500달러 부근으로 내려왔다."
+  ],
+  "themes": [
+    "유가 급등 — 브렌트 111달러, 인도 원유 수입액 급증, 콜롬비아 가스 경고",
+    "AI주 조정 — 엔비디아·메타 약세, 코스피 반도체 급락, 테슬라 이익 감소",
+    "크립토 — 비트코인 지정학 하락, 코인베이스 유럽 제재, ETH 매집 해석"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "테슬라 사이버캡 고객 인도 목표(연내)",
+    "코인베이스 아일랜드 벌금 — 고등법원 승인 절차"
+  ],
+  "items": [
+    {
+      "title": "중국 티베트서 규모 6.7~7.0 강진",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDTGlIVjBaRkpMWmZac25rbUo5S3VPZGV1eE1qei1neFdBb1otOEZ3aXpvdURadWNqdmU5ZTJNXzljYTdZWXlIYXphejhQNWN4Wmp1Tlh6cXgxMmhVSjh5T1NlT1ZvY2M?oc=5",
+      "one_liner": "중국 티베트 나취시 바칭현에서 규모 7.0(초기 6.7) 지진이 발생했고 진원 깊이는 10㎞다.",
+      "why_it_matters": "얕은 진원의 강진이라 인명·인프라 피해 규모 확인이 필요하다.",
+      "confidence": 0.8,
+      "original_title": "[속보] \"중국 티베트에서 규모 6.7 지진\" - 연합뉴스TV",
+      "implications": "중국 서부 인프라·구호 — 피해 집계와 여진을 지켜볼 것.",
+      "tags": [
+        "지진",
+        "중국",
+        "티베트"
+      ]
+    },
+    {
+      "title": "북한 IT 인력 국내 기업 위장취업 첫 확인…경찰 수사",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44bGdJRmszRFBPck4wUkttX3cxbFdXZ1lyYmRZZGxiTjRGR2xjZUNDTjRPd2hERFVaMUV5MS1FUkJNaEJkVjZxeFhkbzBzMGxGWS1ja1d6eWlUVmRSVjhQU3M1Z1oxMjg?oc=5",
+      "one_liner": "북한 IT 인력이 신분을 속이고 국내 기업에 위장 취업해 개발 업무를 한 정황이 확인돼 경찰이 수사 중이다.",
+      "why_it_matters": "해외에서 경고되던 북한 IT 인력 위장취업이 국내에서 처음 확인됐다.",
+      "confidence": 0.8,
+      "original_title": "북한 IT 인력 국내 위장취업…경찰 수사 - 연합뉴스TV",
+      "implications": "국내 IT·크립토 기업 — 원격 채용 신원 검증 강화 여부를 지켜볼 것.",
+      "tags": [
+        "북한",
+        "보안",
+        "사이버"
+      ]
+    },
+    {
+      "title": "베트남서 국내 항공사 여행 기록 2,480만건 노출…9년 치 여권번호 포함",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYSkEwMXd2cjF4a184eV92UXA4R1RfTnFnUzVtcE84akpXRUtEa3BzUWxBdkVJY2kyRHgxNmN5cDFzSS0zTkpPdVd3a2VaNUxOU2dWOFZ0RldPcUd6d084Yg?oc=5",
+      "one_liner": "국내 항공사 승객 여행 기록 2,480만건이 베트남에서 노출됐고 9년 치 여권번호 등이 포함됐다(제목 기준).",
+      "why_it_matters": "대규모 개인정보 노출로 항공사 책임과 2차 피해 우려가 커진다.",
+      "confidence": 0.6,
+      "original_title": "[단독] 베트남서 국내 항공사 여행 기록 2480만건 노출…9년 치 승객 여권번호 등 - 한겨레",
+      "implications": "항공사·승객 — 노출 경위 조사와 당국 제재를 지켜볼 것.",
+      "tags": [
+        "개인정보",
+        "항공",
+        "보안"
+      ],
+      "flags": [
+        "title-only"
+      ]
+    },
+    {
+      "title": "코스피 3.52% 내린 5,533.77 마감…SK하이닉스·LG에너지솔루션 약세 (원문: 코스피 마감, 5,533.77P (-3.52%↓) SK하이닉스, LG에너지솔루션등 하락세)",
+      "source": "mk_kr",
+      "url": "https://www.mk.co.kr/news/stock/12182895",
+      "one_liner": "코스피가 전일 대비 3.52% 하락한 5,533.77P로 장을 마쳤고 SK하이닉스·LG에너지솔루션 등이 하락세를 보였다.",
+      "why_it_matters": "전날 외국인 매수로 반등을 시도하던 국내 증시가 반도체 대형주 중심으로 다시 크게 밀렸다.",
+      "confidence": 0.8,
+      "original_title": "코스피 마감, 5,533.77P (-3.52%↓) SK하이닉스, LG에너지솔루션등 하락세",
+      "implications": "국내 반도체·2차전지 대형주 투자자 — AI주 약세가 이어지는지와 외국인 수급 방향을 지켜볼 것.",
+      "tags": [
+        "코스피",
+        "반도체",
+        "증시"
+      ]
+    },
+    {
+      "title": "한은 총재 \"통화긴축 기조 계속 이어가야\" (원문: 한은 총재 “통화긴축 기조 계속 이어가야”[일문일답])",
+      "source": "hani",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1283644.html",
+      "one_liner": "한국은행 총재가 통화긴축 기조를 계속 이어가야 한다고 밝혔다(제목 기준).",
+      "why_it_matters": "증시 급락 속에서도 통화당국이 완화 전환보다 긴축 유지를 언급해 금리 경로 기대에 영향을 준다.",
+      "confidence": 0.6,
+      "original_title": "한은 총재 “통화긴축 기조 계속 이어가야”[일문일답]",
+      "implications": "채권·대출 차주 — 다음 금통위 전 추가 발언과 시장 금리 반응을 지켜볼 것.",
+      "tags": [
+        "한국은행",
+        "통화정책",
+        "금리"
+      ],
+      "flags": [
+        "title-only"
+      ]
+    },
+    {
+      "title": "원·달러 환율 1원 내린 1,324.2원…3거래일 연속 1,320원대 (원문: 원·달러 환율, 1원 내린 1324.2원)",
+      "source": "chosun",
+      "url": "https://www.chosun.com/economy/economy_general/2026/10/22/MMZGKMJTGFRGEZDDMQZTQZBRMQ/",
+      "one_liner": "원·달러 환율이 22일 오후 3시 30분 1,324.2원으로 주간 거래를 마쳐 직전 거래일보다 1원 내렸다.",
+      "why_it_matters": "증시 급락에도 환율은 1,320원대에서 안정적으로 움직이고 있다.",
+      "confidence": 0.85,
+      "original_title": "원·달러 환율, 1원 내린 1324.2원",
+      "implications": "수출입 기업·외화자산 보유자 — 1,320원 초반 하향 돌파 여부를 지켜볼 것.",
+      "tags": [
+        "환율",
+        "원달러"
+      ]
+    },
+    {
+      "title": "일본 투자자, 5주 연속 해외채권 순매도…4년 만의 최장 (원문: Japanese investors sell foreign bonds for fifth straight week, eye home market)",
+      "source": "channelnewsasia",
+      "url": "https://www.channelnewsasia.com/business/japanese-investors-sell-foreign-bonds-fifth-straight-week-eye-home-market-6481706",
+      "one_liner": "일본 투자자들이 5주 연속 해외채권을 팔아 4년 만에 가장 긴 매도 행진을 이어갔다.",
+      "why_it_matters": "자국 금리 상승으로 일본 자금이 국채로 돌아오면 글로벌 채권 수요 구도가 바뀔 수 있다.",
+      "confidence": 0.8,
+      "original_title": "Japanese investors sell foreign bonds for fifth straight week, eye home market",
+      "implications": "미 국채·글로벌 채권 투자자 — 일본계 자금 본국 회귀가 장기 금리에 주는 영향을 지켜볼 것.",
+      "tags": [
+        "일본",
+        "채권",
+        "자금흐름"
+      ]
+    },
+    {
+      "title": "인도 9월 원유 수입액 47% 급증한 154억 달러 (원문: India's Crude Oil Import Bill Spikes 47% to $15.4 Billion In September)",
+      "source": "timesnownews",
+      "url": "https://www.timesnownews.com/business-economy/economy/indias-crude-oil-import-bill-spikes-47-to-15-4-billion-in-september-article-156382358",
+      "one_liner": "인도의 9월 원유 수입액이 47% 늘어난 154억 달러로, 석유·가스 순지출도 전년 대비 약 40% 증가했다.",
+      "why_it_matters": "고유가가 대형 수입국의 무역수지를 직접 압박하고 있다.",
+      "confidence": 0.8,
+      "original_title": "India's Crude Oil Import Bill Spikes 47% to $15.4 Billion In September",
+      "implications": "신흥국 통화·경상수지 — 유가 100달러 이상이 이어질 때 루피 압력을 지켜볼 것.",
+      "tags": [
+        "인도",
+        "원유",
+        "무역"
+      ]
+    },
+    {
+      "title": "콜롬비아 전력업계 \"수입 가스 MMBtu당 30달러까지\" 경고 (원문: Colombia Power Chiefs Warn of US$30 Gas)",
+      "source": "riotimesonline",
+      "url": "https://www.riotimesonline.com/colombia-power-chiefs-el-nino-gas-us30-tariffs-2026/",
+      "one_liner": "콜롬비아 전력업계가 엘니뇨로 전기요금이 오르고 수입 가스가 MMBtu당 5달러에서 25~30달러까지 오를 수 있다고 경고했다.",
+      "why_it_matters": "엘니뇨와 에너지 수입 의존이 겹치면 신흥국 물가에 충격이 된다.",
+      "confidence": 0.75,
+      "original_title": "Colombia Power Chiefs Warn of US$30 Gas",
+      "implications": "남미 유틸리티·LNG 시장 — 엘니뇨 강도와 수입 가스 가격을 지켜볼 것.",
+      "tags": [
+        "콜롬비아",
+        "가스",
+        "엘니뇨"
+      ]
+    },
+    {
+      "title": "유가 배럴당 111달러 돌파…AI주 급락에 S&P500·글로벌 증시 동반 하락 (원문: Oil Climbs Above $111 as AI Stocks Slide, Dragging the S&#038;P 500 and Global Markets With Them)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381613/oil-climbs-above-111-as-ai-stocks-slide-dragging-the-sp-500-and-global-markets-with-them",
+      "one_liner": "브렌트유가 5개월 최고치를 찍는 사이 엔비디아·메타·반도체주가 떨어져 아시아 지수가 최대 3.5% 하락했다.",
+      "why_it_matters": "유가 급등과 AI주 조정이 동시에 오며 위험자산 전반이 압박을 받고 있다.",
+      "confidence": 0.8,
+      "original_title": "Oil Climbs Above $111 as AI Stocks Slide, Dragging the S&#038;P 500 and Global Markets With Them",
+      "implications": "에너지 수입국·성장주 투자자 — 브렌트 100달러 이상 지속 여부와 AI 반도체 실적 반응을 지켜볼 것.",
+      "tags": [
+        "유가",
+        "AI주",
+        "글로벌증시"
+      ]
+    },
+    {
+      "title": "테슬라 분기 순이익 43% 감소…로봇·자율주행 투자 급증 (원문: Tesla's Profit Drops 43% as Musk Starts Building Robots and Plans to Sell Driverless Cabs)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381624/teslas-profit-drops-musk-robots-driverless-cabs",
+      "one_liner": "테슬라 순이익이 13억7천만 달러에서 7억8,700만 달러로 줄었고, 옵티머스 생산과 연내 사이버캡 인도를 내걸었다.",
+      "why_it_matters": "AI·로봇 전환 비용이 실적을 누르고 있어 성장 서사와 이익의 괴리가 커졌다.",
+      "confidence": 0.8,
+      "original_title": "Tesla's Profit Drops 43% as Musk Starts Building Robots and Plans to Sell Driverless Cabs",
+      "implications": "테슬라·전기차 투자자 — 연내 사이버캡 인도 약속 이행 여부를 지켜볼 것.",
+      "tags": [
+        "테슬라",
+        "실적",
+        "로봇"
+      ]
+    },
+    {
+      "title": "비트코인, 트럼프 이란 발언에 3% 하락…ETF 평균 매입단가 8만1,500달러 근처 (원문: Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "트럼프 대통령의 이란 군사행동 언급으로 미 증시가 밀리자 비트코인이 하루 3% 하락해 8만1,500달러 부근으로 내려왔다.",
+      "why_it_matters": "전날 주간 고점을 찍은 비트코인이 지정학 뉴스에 곧바로 되밀렸다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
+      "implications": "크립토 투자자 — ETF 원가선(8만1,500달러) 지지 여부를 지켜볼 것.",
+      "tags": [
+        "비트코인",
+        "지정학",
+        "이란"
+      ]
+    },
+    {
+      "title": "아일랜드 중앙은행, 코인베이스 현지법인에 360만 달러 벌금 (원문: Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/ireland-central-bank-coinbase-oversight-safeguard-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "아일랜드 중앙은행이 감독·고객자산 보호 실패로 코인베이스 아일랜드에 벌금을 부과했고, 고등법원 승인 후 확정된다.",
+      "why_it_matters": "유럽 MiCA 체제에서 거래소 고객자산 보호 집행이 실제 제재로 이어지고 있다.",
+      "confidence": 0.8,
+      "original_title": "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures",
+      "implications": "유럽 영업 거래소 — 고등법원 승인과 추가 제재 여부를 지켜볼 것.",
+      "tags": [
+        "코인베이스",
+        "규제",
+        "유럽"
+      ]
+    },
+    {
+      "title": "이더리움, 5년 전과 같은 2,500달러…그때는 매도·지금은 '매집'",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5OcXJfcFNoaW9jR2dhRzhRdThGaF9GZHNvenZpU29MbnprRUdiQThjNmRsOE1RdEdJODR1UUhyRk5MQjkwU2xXUnhn?oc=5",
+      "one_liner": "이더리움이 5년 전과 같은 2,500달러 선에 있지만 투자자 행태는 매도에서 매집으로 바뀌었다는 보도다(제목 기준).",
+      "why_it_matters": "같은 가격대에서 수급 성격이 달라졌다는 해석이 나온다.",
+      "confidence": 0.55,
+      "original_title": "5년 전과 같은 2,500달러인데...이더리움(ETH), 그떄는 매도·지금은 '매집' - 코인리더스",
+      "implications": "ETH 보유자 — 매집 주체와 거래소 잔고 변화를 지켜볼 것.",
+      "tags": [
+        "이더리움",
+        "수급"
+      ],
+      "flags": [
+        "title-only"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
