@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "date": "2026-10-24",
+  "slot": "am",
+  "generated_at": "2026-10-24T03:41:39.852566+09:00",
+  "top_insight": [
+    "호르무즈 유조선 피격으로 브렌트유가 3월 이후 최고로 오르자 비트코인은 8만1천달러 아래로 밀렸고, 현물 ETF에서는 이달 최대 유출이 나왔다 — 유가발 위험회피가 크립토 수급에 바로 닿는 하루였다.",
+    "국내 증시는 미국 기술주 급락 뒤에도 코스피 5550선에서 소폭 반등했다. 열흘 남은 美 중간선거와 규제(SEC 토큰화 검사·초광역특구법)가 다음 주 정책 변수다."
+  ],
+  "whats_changed": [
+    "어제는 메타 실적발 기술주 급락이 중심이었고, 오늘은 호르무즈 유조선 피격과 유가 급등이 위험자산을 누르는 축으로 바뀌었다.",
+    "코스피는 어제 반도체 충격 우려에서 오늘 5550.30(+0.30%)으로 소폭 반등 마감했다."
+  ],
+  "themes": [
+    "유가·지정학 — 호르무즈 긴장이 브렌트유와 위험자산을 동시에 흔든다",
+    "크립토 수급 — ETF 유출·가격 하락·규제 우선순위 변화",
+    "미국 정치 — 중간선거 D-10, 트럼프 지지율 최저"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 중간선거(D-10, 11월 3일)"
+  ],
+  "items": [
+    {
+      "title": "호르무즈 유조선 피격에 기름 유출 비상…트럼프 \"이란 자작극\" vs 이란 \"신형 무인기 공개\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WZzg4M1dadEllR29UX1d1c1BGRmtXVktGRllxSDhsMUZ2WVphZmRJNHhaNnNHZUdVOEpwMnI3VnZZdjFDRTVnMVVIUE9Vc25qalFlODRNeE9nZ2fSAWBBVV95cUxQeWt1UjZxMTdYSnFoTWVKbFZTR0k3U0M2ajdLc1R2U1VBMnBqXzBIV3pUakpqOUM0WlVVY1c4anBWRzdzM2kxTldCNjY5ZFhDYXNRd09qR191N3V6REM3Rko?oc=5",
+      "one_liner": "UAE 연안 호르무즈 해협에서 피격된 유조선에서 기름이 대량 유출돼 해변이 폐쇄됐고, 미·이란이 책임 공방을 벌이고 있다.",
+      "why_it_matters": "원유 수송 요충지의 군사 긴장이 유가 상승 압력으로 직결된다.",
+      "confidence": 0.75,
+      "original_title": "호르무즈 유조선 공격에 기름띠 '비상'…환경 재앙 우려 - 연합뉴스",
+      "implications": "정유·해운·항공 업종 — 호르무즈 통항 차질 여부와 미·이란 추가 대응.",
+      "tags": [
+        "중동",
+        "유가",
+        "지정학"
+      ]
+    },
+    {
+      "title": "美 중간선거 D-10…'트럼프 몰표' 5개 주도 초접전",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdE5Oc3pfS2toQXo5QTRCeTM1SXVWV1BBTmM1cDJLNlI1VDFJazFkSVpFRFYxeHlBa1pUZExSRXlBQzAxQWZfUXJGeHR4dFA4RVYzbzQ1aDJKbVlUTTJ1THpad1BMSVVJSHMyWnZXTDF0ZVE2bVV3elFHTDNfVFlNbzlRVG8?oc=5",
+      "one_liner": "중간선거를 열흘 앞두고 트럼프 지지 기반이던 5개 주가 초접전이고, 민주당이 여론조사에서 10%p 앞선다는 보도가 나왔다.",
+      "why_it_matters": "의회 주도권 변화는 재정·관세·규제 정책 경로를 바꿀 수 있다. CNN 조사에서 트럼프 지지율은 32%로 최저치였다.",
+      "confidence": 0.75,
+      "original_title": "美 중간선거 D-10… ‘트럼프에 10년 몰표’ 5개州, 이번엔 초접전 - 조선일보",
+      "implications": "미국 정책 민감 업종 — 의회 다수당 전망 변화와 선거 전후 변동성.",
+      "tags": [
+        "미국",
+        "중간선거",
+        "정치"
+      ]
+    },
+    {
+      "title": "국정원 \"SNS 확산 김정은 사망설은 허위\"",
+      "source": "동아일보",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xekRpQ0hSWHFYQnZKWlRkTVV2RFhoOXd5X0VNYm9QWlJRMUZBOW4ySGlfNHZONHozb3NUSk5qX3dya3NVTlZLZTVaVjVyalZCVkl3Zlp0dGliek4zRFJmaEpUeHBCZDUyYkxoQTJRblpUbVYxSnA40gFmQVVfeXFMTXpVV0EwcHJJQ3k1NmNnN3V4QkhNQTRCZFA1UjNTWENYV09fNE1Fd3NkcE1kME1kV3ZCZU5Uc2RmdFg2Q3RqRS1ETU1ZYzVkcXZfc09vUEVqQUVOdHluSjVBZjBfckNR?oc=5",
+      "one_liner": "국정원이 국회 정보위에 최근 SNS에 퍼진 김정은 사망설은 허위라고 보고했다.",
+      "why_it_matters": "근거 없는 소문에 관련 테마주가 상한가를 기록하는 등 시장이 출렁였다. 북한 인터넷 장애는 디도스 공격 때문이라는 분석도 나왔다.",
+      "confidence": 0.75,
+      "original_title": "국정원 “최근 SNS 확산 김정은 사망설은 허위” - 동아일보",
+      "implications": "테마주 투자자 — 루머성 급등 종목의 되돌림.",
+      "tags": [
+        "북한",
+        "안보",
+        "테마주"
+      ]
+    },
+    {
+      "title": "트럼프 \"우크라 스타링크 문제 있으면 내가 해결\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pb1o2eXY5d0pSRkpEZXlOOWwyOEl5U1lOWjh3WDc1dkFraG02RjBJZkl0a1dpWGtFUlhna2o3ckxvLU1JWnVQTW9SZkVtd09kTGwwNlN2c3h2b05v?oc=5",
+      "one_liner": "우크라이나 군용 스타실드 접속 제한 논란에 트럼프가 바로잡겠다고 밝혔고, 머스크에게 속도 제한 해제를 요청했다는 보도가 나왔다.",
+      "why_it_matters": "민간 위성망에 대한 군사 의존이 종전 협상 국면의 변수로 떠올랐다. 팔란티어는 유럽 불안 진화에 나섰다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 \"우크라 스타링크 문제 있으면 내가 해결\" - 뉴스핌",
+      "implications": "방산·우주 업종 — 스타링크 군사 이용 정책과 유럽의 대체망 논의.",
+      "tags": [
+        "우크라이나",
+        "스타링크",
+        "지정학"
+      ]
+    },
+    {
+      "title": "정부, '초광역특구법' 제정 추진…역대 최대 320여 개 규제특례",
+      "source": "대한민국 정책브리핑",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OZTdwOFE2dlVNaWU0Y2VEZU90eTQ5U1FqcGJ5SjNhRllHc3g1eWI4MHNmdV9NODVFR180RnJ6eXhWVVNWMUpvdlplcWdhbVlFTEluNGJUcHZEcW1MVjlEUTJTUlNCNDA5OE00Rw?oc=5",
+      "one_liner": "정부가 역대 최대인 320여 개 규제특례를 담은 초광역특구법 제정을 추진하고, 경제계는 신속 입법을 요구했다.",
+      "why_it_matters": "지역 신산업 투자 환경을 바꿀 수 있는 규제 개편이다. 반도체 주 52시간 예외 논의도 함께 거론됐다.",
+      "confidence": 0.7,
+      "original_title": "정부, '초광역특구법 제정' 추진…역대 최대 320여개 규제특례 담는다 - 대한민국 정책브리핑",
+      "implications": "지역 개발·신산업 기업 — 법안 국회 처리 일정과 특례 범위.",
+      "tags": [
+        "규제",
+        "정책",
+        "지역경제"
+      ]
+    },
+    {
+      "title": "코스피 5550.30(+0.30%) 마감, 원·달러 환율 1324.7원 (원문: [속보]코스피 5550.30(▲16.53p, 0.30%) 마감, 원·달러 환율 1324.7원)",
+      "source": "mbn",
+      "url": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5226728",
+      "one_liner": "코스피가 16.53p 오른 5550.30에 마감했고 원·달러 환율은 1324.7원을 기록했다.",
+      "why_it_matters": "전날 미국 기술주 급락에도 국내 증시는 소폭 반등으로 마감했다.",
+      "confidence": 0.7,
+      "original_title": "[속보]코스피 5550.30(▲16.53p, 0.30%) 마감, 원·달러 환율 1324.7원",
+      "implications": "국내 주식 투자자 — 반도체 실적 우려 속 지수 방향과 환율 흐름.",
+      "tags": [
+        "국내증시",
+        "코스피",
+        "환율"
+      ]
+    },
+    {
+      "title": "인도 10월 HSBC 플래시 PMI, 4개월 만에 최고…물가 압력 완화 (원문: India’s private sector activity hits four-month high as inflation cools: HSBC Flash India PMI)",
+      "source": "livemint",
+      "url": "https://www.livemint.com/economy/hsbc-flash-india-pmi-india-business-activity-manufacturing-services-composite-pmi-inflation-new-orders-11792735174480.html",
+      "one_liner": "인도 민간 부문 활동이 제조업·서비스 동반 개선으로 4개월 최고를 기록했고 물가 압력은 누그러졌다. 고용 증가는 올해 가장 약했다.",
+      "why_it_matters": "신흥국 성장 모멘텀을 보여 주는 선행 지표다.",
+      "confidence": 0.75,
+      "original_title": "India’s private sector activity hits four-month high as inflation cools: HSBC Flash India PMI",
+      "implications": "신흥국 투자자 — 인도 고용 둔화가 내수로 번지는지.",
+      "tags": [
+        "인도",
+        "PMI",
+        "신흥국"
+      ]
+    },
+    {
+      "title": "영국, AI 금융 안내를 따르는 성인 38만명…자산 474억파운드 (원문: AI directing over £47bn of assets)",
+      "source": "financialplanningtoday_co_uk",
+      "url": "https://www.financialplanningtoday.co.uk/news/ai-directing-over-%C2%A347bn-of-assets",
+      "one_liner": "자문사 없이 AI 도구의 금융 안내를 따르는 영국 성인이 약 38만2천 명이고, 이들의 자산은 474억파운드라는 조사가 나왔다.",
+      "why_it_matters": "AI가 대형 자문 네트워크에 맞먹는 규모의 자산 배분에 영향을 주기 시작했다.",
+      "confidence": 0.7,
+      "original_title": "AI directing over £47bn of assets",
+      "implications": "자산운용·자문업 — AI 금융 안내에 대한 규제 논의.",
+      "tags": [
+        "AI",
+        "자산관리",
+        "영국"
+      ]
+    },
+    {
+      "title": "비트코인, 브렌트유 3월 이후 최고치 속 8만1천달러 지지선 시험 (원문: Bitcoin seeks support above $81K as Brent crude oil hits highest level since March)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-seeks-support-above-81k-as-brent-crude-oil-hits-highest-level-since-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "주가 하락과 브렌트유 급등 속에 비트코인이 8만1천달러 아래로 밀리며 50일 이동평균선이 관심사로 떠올랐다.",
+      "why_it_matters": "유가 상승과 위험자산 약세가 동시에 나타나 크립토가 거시 변수에 다시 묶이는 모습이다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
+      "implications": "크립토·에너지 투자자 — 브렌트유 추가 상승 여부와 비트코인 50일선 지지 확인.",
+      "tags": [
+        "크립토",
+        "유가",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "비트코인 현물 ETF, 하루 6억3600만달러 유출…10월 순유출 전환 (원문: Bitcoin ETFs Bleed $636 Million as October Turns Red Again)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381700/bitcoin-etfs-bleed-october-turns-red-again",
+      "one_liner": "목요일 현물 비트코인 ETF에서 이달 최대인 6억3560만달러가 빠져 10월 누적 흐름이 약 1억7600만달러 순유출로 돌아섰다.",
+      "why_it_matters": "기관 수요의 지표인 ETF 자금이 다시 빠지며 가격 약세를 뒷받침한다. 이더리움·솔라나 펀드도 유출됐다.",
+      "confidence": 0.8,
+      "original_title": "Bitcoin ETFs Bleed $636 Million as October Turns Red Again",
+      "implications": "크립토 투자자 — ETF 자금 흐름이 다시 순유입으로 돌아서는지.",
+      "tags": [
+        "크립토",
+        "ETF",
+        "자금흐름"
+      ]
+    },
+    {
+      "title": "SEC, 2027년 검사 우선순위에 토큰화를 고위험 분야로 지정 (원문: SEC flags tokenization as high-risk area in 2027 market examinations)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "SEC가 2027년 시장 검사 우선순위에서 토큰화를 신흥 위험 분야로 꼽았고, 암호화폐는 독립 검사 항목에서 빠졌다.",
+      "why_it_matters": "실물자산 토큰화 사업자에 대한 규제 감독이 강화될 수 있다는 신호다.",
+      "confidence": 0.75,
+      "original_title": "SEC flags tokenization as high-risk area in 2027 market examinations",
+      "implications": "토큰화·RWA 사업자 — SEC 검사 범위와 후속 지침.",
+      "tags": [
+        "크립토",
+        "규제",
+        "토큰화"
+      ]
+    },
+    {
+      "title": "비트코인 ETF에 사흘새 1.4조원 유입됐지만 가격은 하락",
+      "source": "뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYUUZrdnF3UEVhdndMOG4yeU1tTGtZVW1lZ0VFc1NQRXpDeGI2MlZYSGpTUkh0RW9JNWk0Y3pFdGpsTGpUa2FHQmh5SGdTTUxTOG9QSTNnUjM2VG1pLUl4QdIBeEFVX3lxTE02T3hNZmVLdXN0amtiSjBNUWYtMmRZbXlYSFI3SkdvSUxLbTdWaS1rV1ppUDBQazJBT21KdUZ6eEZjNlFsVjNNQUZieDIyZ2N1aWhqdmpDeUcyMF9CclI3QUxYZVVvTEVUWndIWE8wQnlQZnlRSS1IQw?oc=5",
+      "one_liner": "비트코인 ETF에 사흘 동안 1.4조원이 들어왔는데도 비트코인 가격은 오히려 떨어졌다.",
+      "why_it_matters": "ETF 유입이 가격을 떠받치지 못한 흐름이다. 목요일 대규모 유출과 함께 보면 수급이 엇갈린다.",
+      "confidence": 0.6,
+      "original_title": "비트코인 ETF엔 사흘새 1.4조원 몰렸는데…비트코인은 오히려 떨어져 - 뉴시스",
+      "implications": "크립토 투자자 — ETF 흐름과 현물 가격의 괴리 해소 여부.",
+      "tags": [
+        "크립토",
+        "ETF"
+      ]
+    },
+    {
+      "title": "비트코인 코어, AI가 쉽게 찾는 버그는 엠바고 없이 즉시 패치 (원문: Bitcoin Core Rewrites Its Security Policy for a World Where AI Finds Bugs in One Prompt)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381715/bitcoin-core-security-policy-ai-threats",
+      "one_liner": "비트코인 코어 개발자들이 '쉽게 발견되는' 취약점은 긴 엠바고 없이 곧바로 수정·배포하도록 보안 정책을 바꿨다.",
+      "why_it_matters": "AI로 취약점 탐색이 쉬워지면서 오픈소스 보안 공개 관행이 바뀌고 있다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin Core Rewrites Its Security Policy for a World Where AI Finds Bugs in One Prompt",
+      "implications": "노드 운영자·거래소 — 긴급 릴리스 빈도 증가와 업데이트 대응 속도.",
+      "tags": [
+        "크립토",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "title": "CME그룹, 3분기 가상자산 파생상품 명목거래 4695억달러",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fa21MQVlNY18xbkZwTlN0SzVvUGR5aVNkU3NaRVhrc0M0T0VGbVZDU3ByX284SXN0SU1NcHQyZHlYYnJwMlhOdmg5Z1pRbHlP?oc=5",
+      "one_liner": "CME그룹의 3분기 가상자산 파생상품 거래 명목금액이 4695억달러를 기록했다.",
+      "why_it_matters": "규제 거래소의 크립토 파생 거래 규모로 기관 참여 정도를 가늠할 수 있다.",
+      "confidence": 0.6,
+      "original_title": "CME그룹, 3분기 가상자산 파생상품 거래 명목금액 4695억달러 기록 - 블루밍비트",
+      "implications": "기관 투자자 — CME 미결제약정과 베이시스 추이.",
+      "tags": [
+        "크립토",
+        "파생상품",
+        "기관"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
