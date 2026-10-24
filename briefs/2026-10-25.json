@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "slot": "am",
+  "generated_at": "2026-10-25T03:40:48.700456+09:00",
+  "top_insight": [
+    "중동 전선이 호르무즈에서 사우디 본토로 넓어졌다. 후티가 리야드 공항·동서 송유관을 쳤다고 주장하고 미국이 중동 대피에 나서자, 주말 크립토 시장에서 비트코인이 8만달러 아래로 밀리며 2억달러 청산이 나왔다.",
+    "국내에서는 신현송 총재가 초저금리 복귀는 어렵다며 고금리 대비를 언급했다. 유가 상승 압력과 맞물려 금리 인하 기대가 더 줄 수 있다."
+  ],
+  "whats_changed": [
+    "어제는 호르무즈 유조선 피격이 중심이었고, 오늘은 후티-사우디 교전과 아람코 대피령으로 분쟁 범위가 사우디 원유 인프라까지 넓어졌다.",
+    "비트코인은 어제 8만1천달러 아래에서 오늘 8만달러 아래로 한 단계 더 내려가 한 달여 만의 최저를 기록했다."
+  ],
+  "themes": [
+    "중동 확전 — 후티·사우디 교전, 이스라엘 서안 작전, 미국 대피",
+    "크립토 약세 — 8만달러 이탈·청산·해킹 자금 세탁",
+    "통화정책 — 한은 고금리 장기화 시사"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "이스라엘 총선(이번 주)",
+    "美 중간선거(11월 3일)",
+    "스웨덴 정부청사 챗GPT·클로드 차단 시행(월요일)"
+  ],
+  "items": [
+    {
+      "title": "사우디-후티 반군, 주요 거점 난타전…사망자 속출",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IOTZnUTgyLVVIS0pSS3IxbFdzQnBPcG5DVS1hNW8xN2R2VVBiYXdtSThLcVdxX3ZNZ3FHRHpwN2h1czQ1OWJPR3pUb09lOEZkSm85UV9sRmZhdnPSAWBBVV95cUxPcnU5OFE4ZlZCYTR3ODUtZEFVOWtlMjJCMy04QnQyazhQako0ODFCRWlSZERlN2s4NkRiZnFJdjg5MHFBaU01V0tYajlYRlZsN1Jsa1M1bjlTQVVBYUhYbTc?oc=5",
+      "one_liner": "후티 반군이 리야드 공항·동서 송유관 등 사우디 주요 거점을 타격했다고 주장했고, 사우디도 보복 공습에 나서 사망자가 잇따르고 있다.",
+      "why_it_matters": "아람코 대피령 보도까지 나오며 호르무즈에 이어 사우디 원유 인프라까지 분쟁 범위에 들어왔다.",
+      "confidence": 0.78,
+      "original_title": "사우디-후티 반군, 주요 거점 난타전…사망자 속출(종합) - 연합뉴스",
+      "implications": "원유·에너지 투자자 — 동서 송유관 피해 여부와 트럼프의 추가 공습 경고가 실제 행동으로 이어지는지.",
+      "tags": [
+        "중동",
+        "사우디",
+        "후티",
+        "유가"
+      ]
+    },
+    {
+      "title": "신현송 \"초저금리 시대 돌아가기 어려워…고성장·고금리 대비\"",
+      "source": "세계일보",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBcU9CaFQzT2V4U3dKcFZOTjNXMGNKcWItMHM0ZWNVVjVsd3pDY1hrUVZxMnljSjJqT0FFMU9QcDdqcFB3ZHhTU1JZbkVlSTEyYi1jeGxaNlbSAVRBVV95cUxQSVotWmd1eXB1NTFmVzBiZDZvT0FSNTNFdzdBeG1aLVB4N2NEVHFQdVNmUGhYbVBEU1p1UENGTFcwWnVzRndwbThZS3hxcHdjXzNCQ1g?oc=5",
+      "one_liner": "신현송 총재는 과거 같은 초저금리 시대로 돌아가기 어렵다며 고성장·고금리 상황에 대비한 정책을 펴겠다고 밝혔다.",
+      "why_it_matters": "한은이 물가·집값 경계 속 기준금리를 동결한 직후라 앞으로의 금리 경로를 가늠할 발언이다.",
+      "confidence": 0.74,
+      "original_title": "신현송 “과거 같은 초저금리 시대 돌아가기 어려워…고성장·고금리 대비해 정책 펼 것” - 세계일보",
+      "implications": "채권·부동산 투자자 — 한은의 긴축 속도 조절과 환율 되돌림 흐름.",
+      "tags": [
+        "한국은행",
+        "금리",
+        "통화정책"
+      ]
+    },
+    {
+      "title": "김정은, 단둥서 中 권력서열 4위 왕후닝 만나…당일치기 방중",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rT0tYVDZwX2hwWTYzbkJRYks5eDdVSXZoZjVOOURwWmxITk9ZYnNuWGlfQ3h5eWRmZG5HY193emZxWEFLeGtWVDgzd1V0dWdQdmJPZmZILUlyUnlTU0pHUVd5SFhtZGhY?oc=5",
+      "one_liner": "김정은 위원장이 단둥에서 중국 권력서열 4위 왕후닝을 만난 뒤 당일 평양으로 돌아갔다.",
+      "why_it_matters": "신압록강대교 개통과 함께 북중 경제협력 확대가 언급됐고, 북미대화 재개 가능성에도 시선이 쏠린다.",
+      "confidence": 0.72,
+      "original_title": "김정은, 단둥서 중국 권력서열 4위 만나…“신압록강대교까지 배웅 받아” - 한겨레",
+      "implications": "대북·방산 관련 투자자 — 북중 교역 확대와 트럼프의 대북 메시지.",
+      "tags": [
+        "북한",
+        "중국",
+        "외교"
+      ]
+    },
+    {
+      "title": "이스라엘군, 요르단강 서안 군사작전…주민 1,500명 쫓겨나",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84OGxzZVNYQVBhdFhpcUFsN3FvNFlVdkN3bjZCckhhT3NnaWJQNjFNWjJGVU0wcmtLdnpqcXdUR3BjZ2MyOUhxQjhXdy10YmxXMmxvV2RGcFB4aUV3Tm80VkFoVTY1Rkk?oc=5",
+      "one_liner": "총선 나흘 앞 총격 테러로 군인 2명이 숨진 뒤 이스라엘군이 서안을 봉쇄하고 군사작전에 나서 주민 1,500명이 쫓겨났다.",
+      "why_it_matters": "이스라엘 총선 직전 안보 변수가 커지며 중동 긴장이 한 겹 더 쌓였다.",
+      "confidence": 0.72,
+      "original_title": "이스라엘군, 요르단강 서안서 군사작전…주민 1,500명 쫓겨나 - 연합뉴스TV",
+      "implications": "중동 리스크 관찰자 — 총선 결과와 서안 작전 확대 여부.",
+      "tags": [
+        "이스라엘",
+        "중동",
+        "총선"
+      ]
+    },
+    {
+      "title": "프랑스 전역 고물가 항의 시위…경찰 7만명 투입",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01OU5PSkVob2g1ZzBMa0pWZmFxVHI5N0ZYaGFDRXFwQkExdy1tR3E0MjZ2UU8ycWlSNnMzZm96Z0tFUmpWWHRoSWlkSkpNQU84c3JmY3NaeUtMM0NPYXRBVVl6RFNqdmM?oc=5",
+      "one_liner": "프랑스 전역에서 고물가 항의 시위가 열려 경찰 7만명이 투입됐고 산발적 충돌이 있었다.",
+      "why_it_matters": "생활물가 부담이 유럽에서 대규모 거리 시위로 번지고 있다.",
+      "confidence": 0.7,
+      "original_title": "프랑스 전역서 고물가 항의 시위 열려…대규모 경찰 투입 - 연합뉴스TV",
+      "implications": "유럽 투자자 — 프랑스 정부의 물가 대책과 재정 부담.",
+      "tags": [
+        "프랑스",
+        "물가",
+        "시위"
+      ]
+    },
+    {
+      "title": "'2심 무죄' 오세훈, 민주당 '조희대 탄핵' 추진에 \"자제 촉구\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sbUxHVVZIb2dSRzkyLWJtVHNZU2xPN1J1Y0JmZUtaTWxVUFNRY2JZbzhHZXdlR1MxSWRlc1dfU25za29lYkp4YUFiQlllWHdSMDlTQTR4dzlXMGlDVVJnUHM1X1dPZ3Jla2NzcmVKSi1tdw?oc=5",
+      "one_liner": "2심에서 무죄를 받은 오세훈 시장이 민주당의 조희대 대법원장 탄핵 추진에 자제를 촉구했다.",
+      "why_it_matters": "판결이 여야 정국과 보궐선거 구도에 영향을 주고 있다.",
+      "confidence": 0.68,
+      "original_title": "‘2심 무죄’ 오세훈, 민주 ‘조희대 탄핵’ 추진에 “자제 촉구” - 한겨레",
+      "implications": "정책 관찰자 — 사법부 탄핵 논의가 국회 일정에 미치는 영향.",
+      "tags": [
+        "정치",
+        "오세훈",
+        "사법"
+      ]
+    },
+    {
+      "title": "주말 압박 속 비트코인 8만달러 아래로…미국 중동 대피 여파 (원문: Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+      "one_liner": "미국의 중동 대피 조치 소식에 비트코인이 8만달러 아래로 밀리며 한 달여 만의 최저 수준으로 내려갔다.",
+      "why_it_matters": "지정학 긴장이 주말 유동성이 얇은 크립토 시장에 먼저 반영되고 있다.",
+      "confidence": 0.75,
+      "original_title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+      "implications": "크립토 투자자 — 8만달러 회복 여부와 월요일 현물 ETF 자금 흐름.",
+      "tags": [
+        "비트코인",
+        "크립토",
+        "중동"
+      ]
+    },
+    {
+      "title": "비트코인 8만달러 하락…레버리지 2억달러 청산",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1taldqUjVVUzluTUNSenJ3djk4WmJJb2dLRTFxOU1Zb1VYM2w3NHFvY3RtYWc4czFPUnhxUkVIckFvR0lCclVOUWxqSU00akQya1lMTUN0Z3M2Qk1HdEk4WWVDMEYtTkI4NWQ0R1NRNXEzcE1G?oc=5",
+      "one_liner": "비트코인이 8만달러로 밀리면서 2억달러 규모의 레버리지 포지션이 청산됐다.",
+      "why_it_matters": "가격 하락이 강제 청산으로 증폭되는 구간에 들어섰다.",
+      "confidence": 0.62,
+      "original_title": "비트코인 $8만 하락…$2억 레버리지 청산 - BeInCrypto",
+      "implications": "파생상품 트레이더 — 추가 청산 연쇄 여부와 펀딩비 변화.",
+      "tags": [
+        "비트코인",
+        "청산",
+        "파생상품"
+      ]
+    },
+    {
+      "title": "스트래티지·스트라이브, 비트코인 매입과 우선주 배당 사이 줄타기 (원문: Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+      "one_liner": "우선주로 조달한 자금이 약 13만6천 BTC 매입에 쓰였고, 이제 배당 부담과 추가 매입 사이의 균형이 과제가 됐다.",
+      "why_it_matters": "분석가들은 이 조달 통로가 더 큰 ETF 시장을 보완할 것으로 본다.",
+      "confidence": 0.7,
+      "original_title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
+      "implications": "MSTR 투자자 — BTC 하락기 우선주 배당 재원과 매입 속도.",
+      "tags": [
+        "스트래티지",
+        "비트코인",
+        "우선주"
+      ]
+    },
+    {
+      "title": "그레이스케일 지캐시 ETF, 30일 만에 10억달러…프라이버시 수요 몰려",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9fTFFuWUNsTDE0cDVLYjhYWlVEbllNSElodTJORTJTSHZnODNiY3B5X1cwSVozUmZnVlluYnhqXy1HM2JLbndCekpR?oc=5",
+      "one_liner": "그레이스케일의 지캐시 ETF가 출시 30일 만에 10억달러 규모에 도달했다.",
+      "why_it_matters": "비트코인 약세 속에서도 프라이버시 코인 상품에는 돈이 들어왔다.",
+      "confidence": 0.62,
+      "original_title": "그레이스케일 지캐시 ETF, 30일 만에 10억 달러…프라이버시 수요 몰렸다 - 코인리더스",
+      "implications": "알트코인 투자자 — 프라이버시 코인 규제 반응과 추가 알트 ETF 유입.",
+      "tags": [
+        "지캐시",
+        "ETF",
+        "크립토"
+      ]
+    },
+    {
+      "title": "비트겟 해커, 나흘간 52건 1,948만달러 이동…세탁 시작 관측",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE81LUdUX3JuWWlPWTVacHllUmN5MWNMN3kzMkNBcjlTUkU3clIyaXV2Yk1CUDh1Z0JEUENjX1gwaWdTRV9pUWNrLXBR?oc=5",
+      "one_liner": "비트겟 해킹 자금이 나흘 동안 52건에 걸쳐 1,948만달러 이동했고, 99%가 비트코인이었다.",
+      "why_it_matters": "자금 세탁이 시작된 것으로 관측돼 회수 가능성이 줄고 있다.",
+      "confidence": 0.64,
+      "original_title": "비트겟 해커, 나흘간 52건에 1,948만 달러 이동…세탁 시작 관측 - 코인리더스",
+      "implications": "거래소 이용자 — 비트겟 보상 절차와 거래소 보안 점검.",
+      "tags": [
+        "비트겟",
+        "해킹",
+        "크립토"
+      ]
+    },
+    {
+      "title": "스웨덴 정부청사, 챗GPT·클로드 차단…MS 코파일럿만 허용 (원문: Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude",
+      "one_liner": "스웨덴 정부청사가 월요일부터 직원 PC에서 챗GPT와 클로드를 막고 보안 심사를 통과한 MS 코파일럿만 쓰게 한다.",
+      "why_it_matters": "정부 조달에서 AI 보안 심사가 공급사를 가르는 기준이 되고 있다.",
+      "confidence": 0.72,
+      "original_title": "Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot",
+      "implications": "AI 업종 투자자 — 다른 유럽 정부의 유사 조치 여부.",
+      "tags": [
+        "AI",
+        "스웨덴",
+        "마이크로소프트"
+      ]
+    },
+    {
+      "title": "구글, 개인정보 정책 조용히 변경…지메일·포토 데이터로 광고 맞춤 (원문: Google Quietly Updates Privacy Policy to Let Gmail and Photos Data Feed Ads)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads",
+      "one_liner": "10월 16일 발효된 정책 변경으로 연결된 지메일·드라이브·포토 데이터가 AI 기능을 통해 광고 개인화에 쓰일 수 있게 됐다.",
+      "why_it_matters": "구글의 오랜 약속에 예외를 둔 것이라 규제 당국의 반응이 나올 수 있다.",
+      "confidence": 0.7,
+      "original_title": "Google Quietly Updates Privacy Policy to Let Gmail and Photos Data Feed Ads",
+      "implications": "빅테크 투자자 — 유럽·미국 규제 당국의 대응.",
+      "tags": [
+        "구글",
+        "개인정보",
+        "광고"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
