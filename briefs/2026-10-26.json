@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "date": "2026-10-26",
+  "slot": "am",
+  "generated_at": "2026-10-26T03:41:02.123614+09:00",
+  "top_insight": [
+    "트럼프가 '오늘이라도 이란 공습'을 언급하자 비트코인이 8만달러에 턱걸이하며 하루 8억달러 청산이 났다. 현물 ETF 자금은 빠지는데 선물 매수만 남아 있어 이번 주 연준 회의와 110억달러 만기가 방향을 가를 수 있다.",
+    "유럽에서는 고물가 항의 시위가 프랑스 41만명 규모로 커졌고 푸틴은 '지도자 무능'이라며 러시아 배후설을 반박했다. 트럼프는 알래스카 LNG에서 러시아와의 거래 가능성까지 열어 한국의 대미 투자 구도도 흔들린다."
+  ],
+  "whats_changed": [
+    "어제는 후티-사우디 교전이 중심이었고, 오늘은 트럼프가 이란을 직접 공습할 수 있다고 언급하며 미국 개입 가능성으로 초점이 옮겨졌다.",
+    "비트코인은 어제 8만달러 아래로 밀렸다가 오늘 8만달러 선에 턱걸이했고, 청산 규모는 어제 2억달러에서 하루 8억달러로 커졌다.",
+    "김정은 방중은 왕후닝 면담에 더해 승용차 국경 통과·자동차 공장 시찰 등 세부가 나왔다."
+  ],
+  "themes": [
+    "지정학·크립토 — 이란 공습 시사와 비트코인 8만달러 공방",
+    "유럽 불안 — 프랑스 41만명 시위와 러시아 배후설 공방",
+    "미국 정치·에너지 — 중간선거 D-10, 알래스카 LNG 러시아 변수"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "FOMC(이번 주)",
+    "110억달러 규모 크립토 만기(이번 주)",
+    "호남 반도체 노동특례 당정 협의(10/29)",
+    "美 중간선거(D-10)"
+  ],
+  "items": [
+    {
+      "title": "佛 41만명 다시 거리로…루브르 문 닫고 명품 매장들 방어벽",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ubWpZTUdTbkdmcHZadzQxMV8tVG1famd1THlTSWdyVmZfcWdya1JwWl9uVEVla0x1UnV3VjZyQ09KRHhCUXVXeDNRbGdPTlJUblRpNEtoTG5Cdw?oc=5",
+      "one_liner": "프랑스 전역에서 41만명이 반정부 시위에 나서 1천명이 체포됐고, 루브르가 문을 닫았으며 로마 콜로세움도 뚫렸다.",
+      "why_it_matters": "교육 문제·고물가 항의가 유럽 곳곳으로 번지며 경찰 7만명 투입에도 진정되지 않고 있다.",
+      "confidence": 0.75,
+      "original_title": "佛 41만명 다시 거리로…루브르 문 닫고, 명품 매장들 방어벽 세워 - 한국경제",
+      "implications": "유럽 소비·관광주 투자자 — 시위 장기화가 명품·관광 매출과 정치 불안으로 이어지는지.",
+      "tags": [
+        "프랑스",
+        "유럽",
+        "시위",
+        "고물가"
+      ]
+    },
+    {
+      "title": "푸틴, 파리 등 유럽 소요 사태에 \"지도자 무능 때문\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByNThtUGRmdTBCcTM5akZTZDBrWWVqWnBHUC1NQ0FTTXQ1aVdUZHVRYU8tRk5UUG5HeFJ5VTZKYWU2VmZPRDdfUEUweGNFS0lKTHNiZVd3RWZiZDDSAWBBVV95cUxQbkwxcFI3VFNGbGtvZlNPVUJDbkdDR3RRY2txS3ZfSGxFemNDT19hRmo5QkMxaGdCUTJzMTZmaWhjYXhZUmI2VWc2UE1WZkdnbDdFUHBoX0xTbXNDalQwVVA?oc=5",
+      "one_liner": "푸틴 대통령은 유럽 대규모 시위가 지도자 무능 탓이라며 러시아 배후설은 과장이자 책임 회피라고 반박했다.",
+      "why_it_matters": "서방이 러시아 개입을 의심하는 가운데 유럽 시위가 러-유럽 갈등의 새 쟁점이 됐다.",
+      "confidence": 0.7,
+      "original_title": "푸틴, 파리 등 유럽 소요 사태에 \"지도자 무능 때문\" - 연합뉴스",
+      "implications": "유럽 정세 관찰자 — 서방의 러시아 배후설 공식 제기와 러시아의 '대응' 조치.",
+      "tags": [
+        "러시아",
+        "유럽",
+        "시위"
+      ]
+    },
+    {
+      "title": "韓 압박하면서 러 에너지 기업과 거래…트럼프, 알래스카 LNG '양다리'",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd3lTendsem5jZzBVWFNsNngyeEF5d1BoaVRFUFBhbXltZnZiREJyVWhGV3p4MGxCeVNBbjFiQUNUWUl6dzM0QXB2SGtlYnFEMFpOMWxXUlRrbHZOb2paU2lsTGpLck5fT0RfdDlNdnZvZTVjMUF6RFJBR3YxN1dJdk9ZLWExTkY2Z1BvNDY5bV9neFo4M3V2clBiVXY3QQ?oc=5",
+      "one_liner": "트럼프는 알래스카 LNG에 러시아 투자를 묻자 전쟁이 끝나면 러시아와도 거래하겠다고 답했다.",
+      "why_it_matters": "한국에 대미 투자를 압박해 온 알래스카 LNG 사업에 러시아 자금이 들어갈 가능성이 거론되며 사업 구도가 흔들린다.",
+      "confidence": 0.7,
+      "original_title": "韓 압박하면서 러 에너지 기업과 거래… 트럼프, 알래스카 LNG 사업 ‘양다리’ - 조선일보",
+      "implications": "에너지·조선 업종 투자자 — 한국의 알래스카 LNG 참여 조건과 우크라 종전 협상 진전.",
+      "tags": [
+        "알래스카LNG",
+        "트럼프",
+        "러시아",
+        "대미투자"
+      ]
+    },
+    {
+      "title": "앙숙 트럼프·오바마, 중간선거 막판 \"네가 무능\" 정면충돌",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84VnNqcmowQnBvMEg0eE4ycTNDSUZrQWp2dGE5TXdEb19FLWJReHE0U1c2dTFNdTg5QVFJbXpyNE9uejFPX1pkeHAwYm9XOWRLc3ZiZzJJSHE0Um_SAWBBVV95cUxNbkUyV2RJN3M4c2J1ZVZqM3RYakM3Y3VNblZWTWotc2RuZDRFd3B6RWZCR3dzdkxJY2JsM2FvTm9ESjZ3MEhDQ1pPSlFLRkZ6NDRvT1ZLYU1MNTBaTUt1MFE?oc=5",
+      "one_liner": "중간선거를 열흘 앞두고 오바마가 전격 등판해 트럼프와 맞불 유세를 벌였다.",
+      "why_it_matters": "전현직 대통령이 직접 맞붙으며 중간선거가 막판 총력전으로 들어갔다.",
+      "confidence": 0.75,
+      "original_title": "앙숙 트럼프·오바마, 중간선거 막판 \"네가 무능\" 정면충돌 - 연합뉴스",
+      "implications": "미국 정책 민감 업종 투자자 — 선거 결과에 따른 의회 구도와 정책 방향.",
+      "tags": [
+        "미국",
+        "중간선거",
+        "트럼프",
+        "오바마"
+      ]
+    },
+    {
+      "title": "김정은 '전례 없는' 방중…시진핑 대신 서열 4위, 차 타고 당일치기",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyX01fNmdWMFpyd1Uzb3l0RS1jNVFnazR5S3VoUmE3YTlLYnBrNFhuTFpvM0VXa1h4aDBzQTdTdFVXUldzLXZRWmNER180UW5NeHNqZElnUk9XWGEtM3NrdWtYcmZ6UWpvb1J1NDJtRnY5Mldm?oc=5",
+      "one_liner": "김정은 위원장이 승용차로 국경을 넘어 왕후닝을 만나고 항미원조기념관·자동차 공장을 시찰한 뒤 당일 돌아갔다.",
+      "why_it_matters": "신압록강대교 개통 9일 만의 방중으로 북중 밀착이 부각되고, 국내에서는 군사회담 제의를 놓고 여야가 맞섰다.",
+      "confidence": 0.75,
+      "original_title": "김정은 ‘전례 없는’ 방중…시진핑 대신 서열 4위·차 타고 당일치기 - 한겨레",
+      "implications": "대북 관련주·외교 관찰자 — 북중 경협 후속 조치와 북미 접촉 여부.",
+      "tags": [
+        "북한",
+        "중국",
+        "김정은",
+        "북중관계"
+      ]
+    },
+    {
+      "title": "이 대통령 '주52시간 특례' 발언에…\"죽도록 일해 돈 벌라는 정책\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15MTVUeUgwNDNieXZfZ09BWXE1aGlFY29Lbko3RG1kT1RyeHBxeHY4TkRZcmVpNFhObHlITDJqVDkwYVUxc0pEa1JmLWRuRzAwSzd0M1ZmMG45c3NGSFNaeEZHZ2I?oc=5",
+      "one_liner": "주52시간 특례 발언에 노동계 반발이 나온 가운데 정부는 초광역특구 320개 특례로 기업 투자를 유도한다.",
+      "why_it_matters": "호남 반도체 노동특례·인허가가 29일 당정 협의에서 시험대에 오르며 규제 완화의 범위가 결정된다.",
+      "confidence": 0.7,
+      "original_title": "이 대통령 ‘주52시간 특례’ 발언에…“죽도록 일해 돈 벌라는 정책” - 한겨레",
+      "implications": "반도체·지역개발 관련 기업 — 29일 당정 협의에서 노동특례 확정 여부.",
+      "tags": [
+        "주52시간",
+        "규제특례",
+        "반도체",
+        "노동"
+      ]
+    },
+    {
+      "title": "국수본→중수청→국수본…'금융권 AI 해킹' 3주간 수사 핑퐁",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObWJ5UGUwZGtmbnpOWjdBMkI1cUlnWFZuSXhzWU1FTy1xMElGb2xBckFKbXQ3U204a1V4bV9DWWNzWXEtSmpfMWhJbUQ5aXhPMHhjdVBqaTFaWEpGU0QxVWdfWGJTUnZROE5lOUNYcFpuVDBldFpYUE45ZGJWMjBVaVlLZ0JhSGJYTUs3VmEwbko?oc=5",
+      "one_liner": "금융권 AI 해킹 사건이 수사 주체를 정하지 못한 채 3주간 경찰과 중수청을 오가다 다시 경찰로 돌아왔다.",
+      "why_it_matters": "수사기관 개편 뒤 첫 대형 사이버 사건에서 관할 공백이 드러났다.",
+      "confidence": 0.7,
+      "original_title": "국수본→중수청→국수본… ‘금융권 AI 해킹’ 3주간 핑퐁 - 조선일보",
+      "implications": "금융권·보안 업종 — 수사 착수 지연이 피해 대응과 보안 투자 논의에 미치는 영향.",
+      "tags": [
+        "금융보안",
+        "해킹",
+        "수사권"
+      ]
+    },
+    {
+      "title": "웰스파고, PG&E 목표가 24달러→14달러로 대폭 하향 (원문: Pacific Gas & Electric (NYSE:PCG) Stock Price Target Cut by Wells Fargo & Company)",
+      "source": "americanbankingnews",
+      "url": "https://www.americanbankingnews.com/2026/10/25/pacific-gas-electric-nysepcg-stock-price-target-cut-by-wells-fargo-company.html",
+      "one_liner": "웰스파고가 PG&E 목표주가를 24달러에서 14달러로 낮추고 비중 중립 의견을 냈다.",
+      "why_it_matters": "목표가를 40% 넘게 깎은 이례적 하향으로 유틸리티 업종 리스크 재평가를 시사한다.",
+      "confidence": 0.7,
+      "original_title": "Pacific Gas & Electric (NYSE:PCG) Stock Price Target Cut by Wells Fargo & Company",
+      "implications": "유틸리티 투자자 — PG&E 하향 배경과 다른 증권사 후속 조정.",
+      "tags": [
+        "PG&E",
+        "유틸리티",
+        "목표가"
+      ]
+    },
+    {
+      "title": "트럼프 \"오늘이라도 이란 공습\" 발언에 비트코인 8만달러 턱걸이…하루 8억달러 청산",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10WEFkWEZ6blNuaXpiY3J5UHJmWmVTb2ZzMFhaT0VVTHZ5NVdzOWVDZDFiUklreURQcVR6NGRYdThGYTRBNjdpODVMYm9UZlA3dGRIeVlR?oc=5",
+      "one_liner": "트럼프의 이란 공습 시사 발언 뒤 비트코인이 8만달러 선에 겨우 걸쳤고 하루 청산액이 8억달러에 달했다.",
+      "why_it_matters": "중동 확전 우려가 주말 내내 크립토 레버리지 포지션을 털어내고 있어 8만달러가 단기 지지선 시험대가 됐다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 “오늘이라도 이란 공습” 발언에 비트코인 8만 달러 턱걸이…하루 8억 달러 청산 - 위키트리",
+      "implications": "크립토 투자자 — 미국의 대이란 실제 공습 여부와 8만달러 지지 유지 여부.",
+      "tags": [
+        "비트코인",
+        "이란",
+        "청산",
+        "지정학"
+      ]
+    },
+    {
+      "title": "연준 주간, 주식·비트코인·달러지수 충돌…110억달러 만기 앞둬",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fUEhraGhTbTNURmptQ0FqdzVqMGo2U3ZwLXpLcmN2WVhIdmxTeUNhbGRJb3lSSlFKT1pMNEJ6TkQ2SnUtNWRaazBuOWJod0pOSm5kcF96aGx5U2VoSDhJVnJULWhGTnZYdVhCbVA0TWVIZUE?oc=5",
+      "one_liner": "이번 주 연준 회의를 앞두고 주식·비트코인·달러지수가 엇갈린 가운데 110억달러 규모 만기가 다가온다.",
+      "why_it_matters": "통화정책 이벤트와 대규모 만기가 같은 주에 겹쳐 변동성이 커질 수 있다.",
+      "confidence": 0.6,
+      "original_title": "연준 주간, 주식·비트코인·DXY 충돌…110억 달러 만기 앞둬 - BeInCrypto",
+      "implications": "위험자산 투자자 — 연준 결정과 만기 전후 가격 흐름.",
+      "tags": [
+        "연준",
+        "비트코인",
+        "달러",
+        "만기"
+      ]
+    },
+    {
+      "title": "비트코인 현물 ETF 자금 빠지는데 선물 매수세는 유지",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UdmVlcW4zVUFlNEZGb0gyRDBxWldmdWZhbkY3eGlFUFFtQmN0eGQ2YUE3dUdjTl91LVM1a19xdVdJbUZpTGg4cFRYVlpEcFh1NVc1M0h1SzAzM29hRVlzR09VNl9UOG9UaDBiTg?oc=5",
+      "one_liner": "비트코인 현물 ETF에서는 자금이 빠지고 있지만 선물 시장 매수세는 이어지고 있다.",
+      "why_it_matters": "현물 수요와 파생 포지션이 엇갈려 현재 가격대의 지지 기반이 약할 수 있다.",
+      "confidence": 0.6,
+      "original_title": "비트코인 현물 ETF 자금 빠지는데 선물 매수세는 유지 - 경향게임스",
+      "implications": "크립토 투자자 — ETF 순유출 지속 여부와 선물 미결제약정 변화.",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "선물"
+      ]
+    },
+    {
+      "title": "우선주로 비트코인 13만6천개 매입…배당 부담에 트레저리 기업 '균형 잡기' 시험대",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UQ2k5SjBiaXpfOWdkMk9BTVliVzU3TVlGa0lOaWlvOXNHa1BrWFNnMS1HLXYzejU2cHhoanNnZW9tR0taS0kxdk5B?oc=5",
+      "one_liner": "우선주 발행으로 비트코인 13만6천개를 사들인 트레저리 기업이 배당 부담과 씨름하고 있다.",
+      "why_it_matters": "가격이 약세일 때 우선주 배당 부담이 트레저리 기업의 매수 여력을 좁힐 수 있다.",
+      "confidence": 0.6,
+      "original_title": "우선주로 비트코인 13만 6,000개 매입…배당 부담에 트레저리 기업 '균형 잡기' 시험대 - 코인리더스",
+      "implications": "비트코인 트레저리 기업 주주 — 배당 재원 조달 방식과 추가 매수 속도.",
+      "tags": [
+        "비트코인",
+        "트레저리",
+        "우선주"
+      ]
+    },
+    {
+      "title": "웰스파고·시스코·인튜이트 등 6곳 추가, 토큰화 주식 반대 (원문: Wells Fargo, Cisco, Intuit Among 6 More Companies Objecting to Tokenized Stocks)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks",
+      "one_liner": "OKX-ICE 토큰화 주식 거래소에서 자사 주식 거래에 반대한 기업이 22곳으로 늘었다.",
+      "why_it_matters": "발행 기업들의 반발이 커지며 토큰화 주식 시장의 출범 범위가 좁아지고 있다.",
+      "confidence": 0.75,
+      "original_title": "Wells Fargo, Cisco, Intuit Among 6 More Companies Objecting to Tokenized Stocks",
+      "implications": "토큰화·거래소 관련 투자자 — 반대 기업 증가와 OKX-ICE 출범 일정 조정 여부.",
+      "tags": [
+        "토큰화",
+        "주식",
+        "OKX",
+        "ICE"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
