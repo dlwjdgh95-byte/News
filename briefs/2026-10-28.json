@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "date": "2026-10-28",
+  "slot": "am",
+  "generated_at": "2026-10-28T03:43:37.422709+09:00",
+  "top_insight": [
+    "앤트로픽 IPO발 위험선호가 호주까지 번졌지만, 비트코인은 10월 -6%로 '업토버'가 빗나가며 위험자산 안에서도 온도 차가 크다.",
+    "스테이블코인이 브라질 선거일 피난처, 콜롬비아 결제망, 이번 주 연준·일본은행 앞 대기 자금으로 동시에 쓰이며 크립토 인프라의 무게가 코인에서 달러 토큰으로 옮겨 가는 모습이다.",
+    "한국은 3분기 GDP 1% 깜짝 성장에도 민간소비가 약해 반도체 쏠림 논란이 커졌고, 가상자산 과세 유예 논의가 국내 투자자의 단기 변수다."
+  ],
+  "whats_changed": [
+    "어제 앤트로픽 IPO 기대로 상승 출발 전망 → 오늘 호주 ASX 200 7주 최고까지 확산",
+    "어제 KB '무게중심은 아래에' GDP 전망 → 실제 3분기 GDP 1% 깜짝 성장 발표"
+  ],
+  "themes": [
+    "스테이블코인 확산 — 신흥국 피난처·결제망·유동성 대기 자금",
+    "선거와 지정학 — 미 중간선거 D-7 러 경유 논란, 후티의 사우디 공격, 프랑스 시위",
+    "성장의 쏠림 — 한국 GDP 깜짝 성장 대 민간소비 부진, GPU 공급난"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "민주당 당정 협의 — 가상자산 과세 유예 논의(오늘)",
+    "연준·일본은행 통화정책 결정(이번 주)",
+    "美 중간선거(D-7)"
+  ],
+  "items": [
+    {
+      "title": "3분기 GDP 1% '깜짝 증가'",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tSGRBOVNFTV81R3U0Z3QwNUVzQnhCTDNHNXFEX2RaLXRPUThBaDRlaUVuWFZRaDhIZ1o2MUVrQUlWZ2pHSDlYU1k0TktfN1h1aVdJU2VHWDN5dw?oc=5",
+      "one_liner": "3분기 GDP가 1% 깜짝 성장했지만 민간소비는 하락세라는 보도가 함께 나왔다.",
+      "why_it_matters": "헤드라인 성장률과 체감 경기의 괴리가 반도체 쏠림의 그늘로 지적되며 한은 전망 신뢰도 논란까지 불렀다.",
+      "confidence": 0.8,
+      "original_title": "3분기 GDP 1% '깜짝 증가' - 한국경제",
+      "implications": "한은 통화정책·내수주 투자자 — 민간소비 지표와 반도체 수출 비중을 지켜볼 것",
+      "tags": [
+        "거시",
+        "한국",
+        "GDP"
+      ]
+    },
+    {
+      "title": "민주당, 오늘 당정 협의서 가상자산 과세 '유예' 논의",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PZy1MMXVoS0plU2JVZEtCZ3RqTVBnNElCZzd3T1FDcm9ScGFPaUhaSjNDRVR4LTNDR1FoU2FheDFjc0swWlhGcGcyUV9OSzdUNndQZFlhekw2clU?oc=5",
+      "one_liner": "민주당이 당정 협의에서 가상자산 과세 유예를 논의한다.",
+      "why_it_matters": "과세 시점이 바뀌면 국내 코인 투자자의 세후 수익 계산과 거래소 영업 환경이 달라진다.",
+      "confidence": 0.78,
+      "original_title": "민주당, 오늘 당정 협의서 가상자산 과세 ‘유예’ 논의 - KBS 뉴스",
+      "implications": "국내 가상자산 투자자·거래소 — 당정 협의 결론과 교육세 논란에 대한 정부 해명",
+      "tags": [
+        "크립토",
+        "세제",
+        "정책"
+      ]
+    },
+    {
+      "title": "美 중간선거 앞두고 러 유조선 3척 뉴욕행…제재 선박 포함 논란",
+      "source": "파이낸셜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jbTZ1dTV4akpKN3E3MnU2c3JDSWtaOHByVDQzWUVIMndnT1VYNHpISTBfc2VtcUEzWk1DU1RCSmZFQjZpdEM4TEV1XzJvZ1VHMnpQTk5mSnFzdw?oc=5",
+      "one_liner": "러시아 경유를 실은 유조선 3척이 미국으로 향하며 제재 대상 선박 포함으로 논란이 커졌다.",
+      "why_it_matters": "중간선거 D-7에 민주당이 트럼프의 '러시아 경유 딜'을 정조준하며 에너지 정책이 선거 쟁점으로 떠올랐다.",
+      "confidence": 0.75,
+      "original_title": "美 중간선거 앞두고 러 유조선 3척 뉴욕행…제재 선박 포함에 논란 더 거세져 - 파이낸셜뉴스",
+      "implications": "정유·에너지 섹터와 선거 베팅 — 중간선거 결과와 대러 제재 집행 변화",
+      "tags": [
+        "미국",
+        "중간선거",
+        "에너지",
+        "러시아"
+      ]
+    },
+    {
+      "title": "메카 3국·이란 회담 다음날…후티 \"사우디 국방부 등 공격\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xSlpTaWl2QmJCSWZDY1hTdXZ6Z283U1poNEtMb2xNRHFpa3NJWTJwVFlYdE5xNlhLNGpYcHBVM3FUUzdRejBpRktZbXIwcmFRVnd0UmY1WnllaWvSAWBBVV95cUxPb05WSlR5clVqVTU4OGZEN1ByQ0xPY3lDWWx6bTRtYkIydVFqVjFCX0xSNVU0Y2kyVVVoeUp5czVGMWEyclAzckNYNm9rVzJoQmUyRVQwZVdJdGszWjZPY3g?oc=5",
+      "one_liner": "예멘 후티가 사우디 국방부 청사·공항 등을 공격했다고 주장했다.",
+      "why_it_matters": "사우디 수도 하늘길이 다시 막힐 수 있다는 보도가 나오며 중동 리스크가 재부각됐다.",
+      "confidence": 0.72,
+      "original_title": "메카 3국·이란 회담 다음날…후티 \"사우디 국방부 등 공격\" - 연합뉴스",
+      "implications": "유가·항공·방산 — 사우디 공항 운영 재개 여부와 원유 시설 피해 보도",
+      "tags": [
+        "중동",
+        "지정학",
+        "유가"
+      ]
+    },
+    {
+      "title": "프랑스 정부, 시위 막으려 SNS 차단까지 검토",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wQ05SN29QVTd5TnBaOE1hT0lHdzVLWTRWdzNvLVMyNE1UM2xWY2dEVXlhTW5MSnJEZkJOUFBiLTg3WHEzVEZCUE1JVF9PRzI1U0RlQVk5WTFoMmPSAWBBVV95cUxPbHJQc2h0SVBzWk1jby1NZml4bTQ5YTI1WFdWbms0bFBDd3dDQjFSRWpmeUM2VGNtaGV5ajUteFNqcDI0WDg2SEM5eEpjNlZKQnc0RVhCSWNCcDlMZmkwLVg?oc=5",
+      "one_liner": "한 달 넘은 학생 시위에 프랑스 정부가 SNS·모바일 인터넷 차단을 검토한다.",
+      "why_it_matters": "사회 불안이 재정불안과 겹치며 유로존 위기로 번질 수 있다는 우려가 제기됐다.",
+      "confidence": 0.72,
+      "original_title": "프랑스 정부, 시위 막으려 SNS 차단까지 검토 - 연합뉴스",
+      "implications": "유럽 국채·유로화 — 프랑스 국채 스프레드와 시위 확산 여부",
+      "tags": [
+        "유럽",
+        "프랑스",
+        "정치",
+        "재정"
+      ]
+    },
+    {
+      "title": "그래픽카드 제조사, 엔비디아에 RTX 5090용 GB202 칩 주문 불가",
+      "source": "GameGPU",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNkwyOU01ZGhxaHFTZ1lsWVVFUno2THFGNWhZV0xsVkpQUFNIR05qOUxtRU1MYmxqeVVjR1FlcDU2a004OHJfYkUzZndkUlNzVDJZeTRNRFRfR0hVLXhBdjVCdl9TbHV2ZDkzSTBRMFR2VWJVZl9WeDlnVzQ0WXg0RHQtWlFCbEV2LXlzR09nLXdxZU9NQWZYTUZDUXpBZjRiTk1uTzBzRGNzc213SFoyM1RzMWd3OHJkWVE?oc=5",
+      "one_liner": "엔비디아는 RTX 5090 단종설을 부인했지만 제조사 신규 주문은 막혔다는 보도다.",
+      "why_it_matters": "소비자용 GPU 공급이 줄며 RTX 5080 소매가가 2500달러까지 치솟는 등 가격이 뛰고 있다.",
+      "confidence": 0.65,
+      "original_title": "그래픽 카드 제조업체들은 더 이상 NVIDIA로부터 RTX 5090용 GB202 칩을 주문할 수 없습니다. - GameGPU",
+      "implications": "엔비디아·PC 부품 — 데이터센터 우선 배분 여부와 소비자 GPU 가격",
+      "tags": [
+        "반도체",
+        "엔비디아",
+        "GPU"
+      ]
+    },
+    {
+      "title": "BHP·리오틴토 견인, 호주 증시 7주 최고 (원문: Mining giants BHP and Rio Tinto propel Australian sharemarket to seven-week high)",
+      "source": "thewest",
+      "url": "https://thewest.com.au/business/mining-giants-bhp-and-rio-tinto-propel-australian-sharemarket-to-seven-week-high-c-23078878",
+      "one_liner": "광산주 강세로 ASX 200이 7주 최고치에 올랐다.",
+      "why_it_matters": "앤트로픽 IPO가 만든 월가 강세가 아시아 증시로 번지는 흐름이다.",
+      "confidence": 0.75,
+      "original_title": "Mining giants BHP and Rio Tinto propel Australian sharemarket to seven-week high",
+      "implications": "원자재·아시아 증시 — 앤트로픽 IPO 이후 위험선호 지속 여부",
+      "tags": [
+        "증시",
+        "호주",
+        "원자재",
+        "IPO"
+      ]
+    },
+    {
+      "title": "대형 보험사 메디케어 어드밴티지 축소…2026 보장 지형 불균등 (원문: Major Insurers Cut Medicare Advantage Plans, Sparking Uneven Coverage Changes in 2026)",
+      "source": "headtopics",
+      "url": "https://us.headtopics.com/news/major-insurers-cut-medicare-advantage-plans-sparking-89237950",
+      "one_liner": "주요 보험사가 여러 카운티에서 메디케어 어드밴티지 플랜을 철수했다.",
+      "why_it_matters": "비용 상승과 고정된 메디케어 지급액 사이의 긴장이 드러났고 농촌 지역 타격이 가장 크다.",
+      "confidence": 0.7,
+      "original_title": "Major Insurers Cut Medicare Advantage Plans, Sparking Uneven Coverage Changes in 2026",
+      "implications": "미국 건강보험주(UNH·HUM 등) — 지급률 조정과 가입자 이동",
+      "tags": [
+        "미국",
+        "헬스케어",
+        "보험"
+      ]
+    },
+    {
+      "title": "인텔·오라클·IBM, OKX–ICE 토큰화 주식 계획에 반대 합류 (원문: Intel, Oracle, IBM join growing list of firms objecting to OKX–ICE tokenized stock plans)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
+      "one_liner": "OKX–ICE 합작사의 토큰화 주식 계획에 대한 반대 의견이 26건으로 늘었다.",
+      "why_it_matters": "SEC의 블록체인 주식 거래 새 프레임워크가 첫 시험대에서 상장사들의 저항에 부딪혔다.",
+      "confidence": 0.72,
+      "original_title": "Intel, Oracle, IBM join growing list of firms objecting to OKX–ICE tokenized stock plans",
+      "implications": "토큰화 증권 사업자·거래소 — SEC 심사 결과와 추가 반대 기업",
+      "tags": [
+        "크립토",
+        "토큰화",
+        "SEC"
+      ]
+    },
+    {
+      "title": "브라질 기업들, 선거일 통화 폭락 피하려 스테이블코인으로 (원문: Brazilian companies turned to stablecoins on election day to dodge a currency crash)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
+      "one_liner": "브라질 선거일 메르카도 비트코인의 USDT 거래량이 약 800% 급증했다.",
+      "why_it_matters": "신흥국 통화 불안 때 스테이블코인이 실제 피난처로 쓰인 사례다.",
+      "confidence": 0.72,
+      "original_title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "implications": "신흥국 통화·스테이블코인 발행사 — 헤알화 흐름과 USDT/BRL 거래량",
+      "tags": [
+        "크립토",
+        "스테이블코인",
+        "브라질",
+        "신흥국"
+      ]
+    },
+    {
+      "title": "비트코인 지갑 제조사 키스톤, 공장 키 탈취로 기기 회수 (원문: Bitcoin Wallet Maker Keystone Pulls Devices as Stolen Key Opens Door to Fakes)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381983/bitcoin-wallet-keystone-devices-destroyed-stolen-key",
+      "one_liner": "키스톤의 정품 인증 공장 키가 탈취돼 구매자 기록 25,964건이 영향을 받았다.",
+      "why_it_matters": "하드웨어 지갑 위조품이 정품으로 통할 수 있는 공급망 보안 사고다. 회사는 복구 문구·개인키는 무관하다고 밝혔다.",
+      "confidence": 0.75,
+      "original_title": "Bitcoin Wallet Maker Keystone Pulls Devices as Stolen Key Opens Door to Fakes",
+      "implications": "하드웨어 지갑 사용자 — 기기 정품 여부 확인과 회사 후속 조치",
+      "tags": [
+        "크립토",
+        "보안"
+      ]
+    },
+    {
+      "title": "서클, 콜롬비아 USDC 결제로 중남미 확장 (원문: Circle Pushes Deeper Into Latin America With USDC Settlement in Colombia)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381982/circle-pushes-deeper-latin-america-usdc-settlement-colombia",
+      "one_liner": "서클이 ACI 월드와이드와 콜롬비아 즉시결제망에 USDC 결제를 시범 도입한다.",
+      "why_it_matters": "스테이블코인이 국가 즉시결제 인프라에 들어가는 사례가 늘고 있다.",
+      "confidence": 0.7,
+      "original_title": "Circle Pushes Deeper Into Latin America With USDC Settlement in Colombia",
+      "implications": "서클(CRCL)·결제 인프라 — 시범 운영 규모와 다른 중남미 국가 확장",
+      "tags": [
+        "크립토",
+        "스테이블코인",
+        "결제"
+      ]
+    },
+    {
+      "title": "스테이블코인, 연준·일본은행 연타 앞 공급량↑…비트코인 실탄 줄었나?",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0yUV9lQVRTYVhTRlUtWUdOYjU0WDJkc3FtVm85QTYyUnRld0VRaTF6cm1jQUNaZ1RCUWdLY29GQ0dJbUFNeTdBVDFn?oc=5",
+      "one_liner": "연준·일본은행 결정을 앞두고 스테이블코인 공급량이 늘었다는 분석이다.",
+      "why_it_matters": "이번 주 두 중앙은행 결정이 크립토 유동성의 변수로 꼽힌다.",
+      "confidence": 0.6,
+      "original_title": "스테이블코인, 연준·일본은행 연타 앞 공급량↑...비트코인(BTC) 실탄 줄었나? - 코인리더스",
+      "implications": "BTC 투자자 — 연준·일본은행 결정과 스테이블코인 순발행",
+      "tags": [
+        "크립토",
+        "유동성",
+        "통화정책"
+      ]
+    },
+    {
+      "title": "비트코인 '업토버' 기대 빗나가나…10월 수익률 -6%",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhWDFlT1puZ0UxVGNINXJXNGktdFNjSF85R0NYbGR1aGNfZzNpaHRXX0VqS015cDROWHJvQ3FmZnRfYW90eG4zMkcyeHJyOTY3dkdXUkp0ajB1eGtqMm5xZDFobC1MWGZ5VFZQbg?oc=5",
+      "one_liner": "비트코인의 10월 수익률이 마이너스 6%를 기록 중이다.",
+      "why_it_matters": "통상 강세 달로 여겨지는 10월 계절성이 올해는 맞지 않고 있다.",
+      "confidence": 0.6,
+      "original_title": "비트코인 ‘업토버’ 기대 빗나가나…10월 수익률 마이너스 6% - 경향게임스",
+      "implications": "BTC 투자자 — 월말 종가와 11월 흐름",
+      "tags": [
+        "크립토",
+        "비트코인",
+        "계절성"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
