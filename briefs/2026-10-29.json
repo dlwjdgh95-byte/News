@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "date": "2026-10-29",
+  "slot": "am",
+  "generated_at": "2026-10-29T03:40:48.064709+09:00",
+  "top_insight": [
+    "연준이 동결했지만 인상 소수의견 2표가 나와 12월 인상이 살아 있다. 비트코인은 보합, 장기 보유자 매물대가 상단을 누른다.",
+    "같은 날 코스피는 SK하이닉스의 '2030년까지 공급부족' 전망에 6.63% 뛰어 6천을 되찾았다. 금리 부담보다 반도체 실적 기대가 앞선 장이다.",
+    "미 중간선거 D-6 상원은 초박빙이고 크립토 업계는 1억 7,600만달러를 쏟아부었다. 선거 결과가 크립토 규제의 다음 변수다."
+  ],
+  "whats_changed": [
+    "어제 이번 주 연준 앞 대기 자금 → 오늘 연준 10-2 동결, 인상 소수의견 2명",
+    "어제 반도체 쏠림 논란 → 오늘 코스피 6.63% 급등으로 6,012 마감, 하이닉스 TR 10.89%",
+    "어제 후티의 사우디 공격 → 오늘 아덴 공항 공격까지 확대, 유가 상승"
+  ],
+  "themes": [
+    "매파적 동결 — 연준 인상 소수의견과 12월 인상 가능성",
+    "반도체 슈퍼사이클 — 하이닉스 공급부족 전망과 코스피 6천",
+    "선거와 크립토 — 중간선거 박빙과 업계 정치자금"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "코인베이스 3분기 실적 발표",
+    "지오 플랫폼 2분기 실적 이사회(10/30)",
+    "美 중간선거(11/3)",
+    "젤렌스키 제안 3자 회담(11/6~10)"
+  ],
+  "items": [
+    {
+      "title": "하이닉스 \"2030년까지 반도체 공급부족\"…4분기 영업익 100조 전망도",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00RUxjTWZVMUZlVXBmT2U5LVpKRmNrd2VyNlpiSkdmTDduajBVVjNmMjVFTlVSVE1XdFRkRDZWWXRrYjZZQUVpTEdXMjhJSnJtbGVFOGdTdWpJMzFHeTctZ09xT3pHbVowV3c?oc=5",
+      "one_liner": "SK하이닉스가 2030년까지 공급부족을 전망했고 HBM·D램이 2029년까지 다 팔렸다고 밝혔다.",
+      "why_it_matters": "메모리 공급부족 장기화 전망과 주당 2만원 배당이 코스피 6천 탈환의 재료가 됐다.",
+      "confidence": 0.75,
+      "original_title": "하이닉스 “2030년까지 반도체 공급부족”…4분기 ‘영업익 100조’ 전망도 - 한겨레",
+      "implications": "반도체·장비주 — 메모리 가격과 증설 계획",
+      "tags": [
+        "SK하이닉스",
+        "반도체",
+        "HBM"
+      ]
+    },
+    {
+      "title": "美 중간선거 상원 판세, 7개 경합지 중 5곳서 민주당 근소 우세",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0UkhsRVM4MTloenBJdXpuc1NSQUFQdUVfUk1aRzRHenprZWd4QlFsZENzbkN6cFNXcGdFWTRnemRUWlY0TTRmQjRoSlBrZXJhQkcwelItXzJhejFv?oc=5",
+      "one_liner": "상원 7대 격전지가 5%p 안 박빙이며 민주당 후보가 5곳에서 근소하게 앞선다.",
+      "why_it_matters": "D-6 상원 다수당 향방이 안갯속이고 개표 지연·불복 우려까지 거론된다.",
+      "confidence": 0.7,
+      "original_title": "[美중간선거 상원 판세] 7개 경합지 중 5곳서 민주당 후보 근소 우세 - 뉴스핌",
+      "implications": "미국 정책 민감 업종 — 개표 지연 시 변동성",
+      "tags": [
+        "미국",
+        "중간선거",
+        "정치"
+      ]
+    },
+    {
+      "title": "후티 반군, 예멘 아덴 공항·사우디 국방부 공격",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0ZkxiemZEbWJzVnQyN3hwenRBTVVIRmRpYTlkOW50endPamlQSmhRTTJ1WmVxcjZQVjRwUjQyaTU0N2VCcndCX3haQlNua3RVc201QWhoTVU0N1dfNUJ5bGU5SjFNaHVYNm1Va291clpnQWtk0gF0QVVfeXFMTkpKYi1DZVpXSGVsVlZXVU1NTmtfWkpmd3hGQlZ6bkZtUDJWeHZialNyLWMwb2hCOTdEM01xVXBPVF9HWjlzMmlINkNheDBpNmhQU1RYUkhISi1NSS1IcVhZZnlhSmxiWmMzRE5vRjMzR1hNSk8?oc=5",
+      "one_liner": "후티가 아덴 공항을 공격하고 사우디 국방부에 미사일을 쐈다고 주장했다.",
+      "why_it_matters": "중동 4국 회담 다음 날 공격이 나와 외교 노력에 그림자가 드리웠고 유가가 올랐다.",
+      "confidence": 0.7,
+      "original_title": "\"후티 반군, 예멘 정부군 임시 수도 아덴 공항 공격\" - MBC 뉴스",
+      "implications": "원유·해운 — 사우디 대응과 홍해 리스크",
+      "tags": [
+        "중동",
+        "후티",
+        "유가"
+      ]
+    },
+    {
+      "title": "젤렌스키 \"3자 회담, 내달 6∼10일 내 열어야\"…크렘린은 신중",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kUWh2NFpmbEdDZXVYY1pMbE5WbHdyaGJWZWFUcmxPdld5cTlzMTNFNU5MYTFfVXJuUkt0UmMwYnVwNlAzNEdpcy1zaHpiRmJ5OG9LS0dsbmFLU0XSAWBBVV95cUxNU19FS0RpZWstU01wUUpFVEV6Wi1jeHZValJCWlpEblFHRTVRUE1vY0tsckpRb1F6Q3VJS2pQTW5ZLXlVYnkyQXBaOVJhZ1V2OHlXSlpDVVdtcTBDZDE4cUo?oc=5",
+      "one_liner": "젤렌스키가 다음 달 6~10일 3자 회담을 요구했고 크렘린은 신중한 입장이다.",
+      "why_it_matters": "트럼프도 11~12월 러·우 회담을 언급해 종전 협상 일정이 구체화되는 중이다.",
+      "confidence": 0.7,
+      "original_title": "젤렌스키 \"3자 회담, 내달 6∼10일 내 열어야\"…크렘린은 신중 - 연합뉴스",
+      "implications": "유럽 방산·에너지 — 회담 성사 여부",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "종전"
+      ]
+    },
+    {
+      "title": "'전작권 환수 시기 결정' 한-미 안보협의회의 내년 초 개최",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwVlpwVUxzTVZpbFI2MHJWZENuV3FnNGdGTDdnWk5SR0x0R2RNbVYwSmpSUVkweENZMWxqOGg5ZDFOTVZfTmdRRXFIek1pR05qWk9aVzhlV3gyczllM1R3WVppM1YzLW9h?oc=5",
+      "one_liner": "한미가 전작권 전환 시기를 다룰 SCM을 내년 초에 열고 국방장관은 12월에 한 번 더 만난다.",
+      "why_it_matters": "전작권 전환 일정이 동맹 비용·방위 분담 논의와 맞물린다.",
+      "confidence": 0.7,
+      "original_title": "‘전작권 환수 시기 결정’ 한-미 안보협의회의 내년 초 개최 - 한겨레",
+      "implications": "방산주 — 국방 예산과 전환 일정",
+      "tags": [
+        "한미동맹",
+        "전작권",
+        "안보"
+      ]
+    },
+    {
+      "title": "[속보] 선관위특검 \"추가분석 필요한 투표지 상당수 선별\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWkZZWmdtam16MWIyNU1PYkxLeFNMR185Y216cWFwQTBTWVpWN1VaREhUSFlEeWg4N3JaNlg4OTJLVjZFT3NNU3VxR1p2LVNIT1NZck1YanpRNy1kajNlVFZqcnJtMXM?oc=5",
+      "one_liner": "특검이 송파 투표지 247만 장 검증을 마치고 추가 분석이 필요한 투표지를 상당수 골라냈다.",
+      "why_it_matters": "투표함 이송을 둘러싼 밤샘 대치까지 벌어져 정치 갈등이 커지고 있다.",
+      "confidence": 0.65,
+      "original_title": "[속보] 이태한 선관위특검 \"추가분석 필요한 투표지 상당수 선별\" - 연합뉴스TV",
+      "implications": "국내 정치 — 추가 분석 결과 발표 시점",
+      "tags": [
+        "특검",
+        "선거",
+        "정치"
+      ]
+    },
+    {
+      "title": "코스피 6,012.44 마감, 6.63% 급등…SK하이닉스 TR 10.89% (원문: 코스피 마감, 6,012.44P (6.63%↑) SK스퀘어, SK하이닉스등 상승세)",
+      "source": "mk_kr",
+      "url": "https://www.mk.co.kr/news/stock/12188455",
+      "one_liner": "코스피가 6.63% 올라 6,012.44에 마감했고 SK하이닉스 TR 지수가 10.89% 뛰었다.",
+      "why_it_matters": "하루 6%대 상승으로 6천 선을 되찾았고 반도체 대형주가 상승을 이끌었다.",
+      "confidence": 0.85,
+      "original_title": "코스피 마감, 6,012.44P (6.63%↑) SK스퀘어, SK하이닉스등 상승세",
+      "implications": "국내 증시 — 반도체 쏠림 지속과 원·달러 환율(1,337.7원) 흐름",
+      "tags": [
+        "코스피",
+        "반도체",
+        "증시"
+      ]
+    },
+    {
+      "title": "메르세데스, 중국 판매 부진에 이익 전망 하향 (원문: Mercedes cuts profit outlook as China sales fall) (원문: Mercedes cuts profit outlook as China sales fall)",
+      "source": "hurriyetdailynews",
+      "url": "https://www.hurriyetdailynews.com/mercedes-cuts-profit-outlook-as-china-sales-fall-228690",
+      "one_liner": "메르세데스-벤츠가 중국 여건 악화와 4분기 원가 상승을 이유로 2026년 이익 전망을 낮췄다.",
+      "why_it_matters": "독일 완성차의 중국 의존 리스크가 실적 전망으로 드러났다.",
+      "confidence": 0.8,
+      "original_title": "Mercedes cuts profit outlook as China sales fall",
+      "implications": "유럽 자동차주 — 중국 판매와 원자재 비용",
+      "tags": [
+        "자동차",
+        "중국",
+        "실적"
+      ]
+    },
+    {
+      "title": "지오 플랫폼 10월 28일 상장, 30일 2분기 실적 이사회 (원문: Jio Platforms IPO Listing on 28 Oct 2026 | Board Meeting on 30 Oct for Q2 & H1 Results) (원문: Jio Platforms IPO Listing on 28 Oct 2026 | Board Meeting on 30 Oct for Q2 & H1 Results)",
+      "source": "psuconnect_in",
+      "url": "https://www.psuconnect.in/ipo/jio-platforms-ipo-listing-on-28-oct-2026",
+      "one_liner": "릴라이언스 자회사 지오 플랫폼이 최종 상장 승인을 받아 28일 거래를 시작했다.",
+      "why_it_matters": "인도 대형 통신 플랫폼 상장으로 인도 증시 수급이 쏠릴 수 있다.",
+      "confidence": 0.75,
+      "original_title": "Jio Platforms IPO Listing on 28 Oct 2026 | Board Meeting on 30 Oct for Q2 & H1 Results",
+      "implications": "인도 증시·릴라이언스 — 30일 실적 발표",
+      "tags": [
+        "인도",
+        "IPO",
+        "통신"
+      ]
+    },
+    {
+      "title": "연준 동결, 비트코인 보합…12월 인상 가능성은 열려 (원문: Fed Stands Pat, Bitcoin Holds Steady—But a December Rate Hike Is in Play)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+      "one_liner": "연준이 10-2 표결로 금리를 동결했고 쿡 이사·해맥 총재는 인상을 주장했다.",
+      "why_it_matters": "동결 속 인상 소수의견 2표가 나와 다음 행보가 인하가 아니라 인상 쪽으로 기울어 있음을 보여 준다.",
+      "confidence": 0.8,
+      "original_title": "Fed Stands Pat, Bitcoin Holds Steady—But a December Rate Hike Is in Play",
+      "implications": "채권·크립토 — 12월 FOMC 인상 확률과 인플레이션 지표",
+      "tags": [
+        "연준",
+        "금리",
+        "비트코인"
+      ]
+    },
+    {
+      "title": "스트래티지 주주, 우선주 일일 배당 승인…찬성 99.3% (원문: Strategy Shareholders Approve Daily Dividends on Preferred Stock, With 99.3% in Favor) (원문: Strategy Shareholders Approve Daily Dividends on Preferred Stock, With 99.3% in Favor)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382066/strategy-shareholders-approve-daily-dividends-on-preferred-stock-with-99-3-in-favor",
+      "one_liner": "STRC가 11월부터 매일 배당을 지급하고 STRF·STRK·STRD는 1월부터 뒤따른다.",
+      "why_it_matters": "최대 비트코인 트레저리 기업이 배당 구조를 바꿔 우선주 수요를 끌어들이려 한다.",
+      "confidence": 0.8,
+      "original_title": "Strategy Shareholders Approve Daily Dividends on Preferred Stock, With 99.3% in Favor",
+      "implications": "MSTR·비트코인 트레저리주 — 우선주 발행과 BTC 매수 여력",
+      "tags": [
+        "스트래티지",
+        "비트코인",
+        "배당"
+      ]
+    },
+    {
+      "title": "코인베이스 실적 앞두고 월가 의견 갈려…로빈후드 크립토 매출 55% 급감 (원문: Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%) (원문: Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+      "one_liner": "로빈후드 크립토 매출이 55% 줄어든 뒤 코인베이스 거래 반등 여부를 두고 애널리스트 의견이 갈린다.",
+      "why_it_matters": "거래소 실적이 크립토 거래 활동의 체온계다.",
+      "confidence": 0.75,
+      "original_title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+      "implications": "COIN·HOOD — 거래 매출과 스테이블코인 수익",
+      "tags": [
+        "코인베이스",
+        "실적",
+        "크립토"
+      ]
+    },
+    {
+      "title": "중간선거에 암호화폐 자금 1억 7,600만달러 유입…코인베이스·리플 최대 기부",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBuTGRiUkp4aExOYjBaamlLdk1rODFaUzJlQmdtSndNbERBaGFNZWFtUm1RSl9MSGg2NmFXTUZORV9YWFFlOHBuZ3p3?oc=5",
+      "one_liner": "미 중간선거에 크립토 업계 자금 1억 7,600만달러가 들어갔고 코인베이스·리플이 최대 기부자다.",
+      "why_it_matters": "크립토 업계가 선거 결과를 규제 지형의 변수로 보고 있다는 신호다.",
+      "confidence": 0.65,
+      "original_title": "중간선거에 암호화폐 1억 7,600만달러 유입...코인베이스(COIN)·리플 최대 기부 - 코인리더스",
+      "implications": "크립토 규제 법안 — 선거 후 의회 구성",
+      "tags": [
+        "크립토",
+        "중간선거",
+        "정치자금"
+      ]
+    },
+    {
+      "title": "비트코인 장기 보유자 손실 확대…8만5000달러 회복 시 매도 압력 우려",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBODl0QnBBS2JWOUJBeklBbzVDWEJPM3U3R0xlR2Z3SUh1dnFBQjFRQjNzVF82d094ZC0wWUlRVG1mUGJMUFd6YmVrUDdWcGJn?oc=5",
+      "one_liner": "BTC 장기 보유자 손실이 커져 8만5천달러 회복 구간에서 매도 압력이 나올 수 있다는 분석이다.",
+      "why_it_matters": "연준 동결에도 비트코인이 보합에 머문 배경으로 상단 매물대가 거론된다.",
+      "confidence": 0.6,
+      "original_title": "비트코인(BTC) 장기 보유자 손실 확대…8만5000달러 회복 시 매도 압력 우려 - 블루밍비트",
+      "implications": "비트코인 — 8만5천달러 저항선",
+      "tags": [
+        "비트코인",
+        "온체인"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
