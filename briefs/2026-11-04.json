@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "date": "2026-11-04",
+  "slot": "am",
+  "generated_at": "2026-11-04T03:42:50.092785+09:00",
+  "top_insight": [
+    "미 중간선거 개표가 시작되는 날이다. 하버드대 분석은 민주당 하원 96%·상원 78%를 제시했지만 사상 최대 감시단·주방위군 투입으로 결과 수용 문제가 새 변수가 됐다.",
+    "바이낸스 해킹의 침투 경로가 가짜 채용 면접으로 드러났고, 브라질 메르카도 비트코인 해킹과 이재명 대통령의 사이버보안 기구 언급까지 보안 이슈가 크립토를 짓누른다. 비트코인은 7만7,500달러 부근에서 선거 이후를 기다린다.",
+    "이란 공습과 카타르 종전 중재, 러-우크라 3자회담 재개가 동시에 진행돼 지정학 변수는 협상 쪽으로 기울고 있지만 공습도 계속된다."
+  ],
+  "whats_changed": [
+    "어제 해킹 자금 28억5천만달러 동결 집계 → 오늘 침투 경로가 가짜 면접 악성코드로 확인, 바이낸스 BTC 보유 50% 급감 보도",
+    "어제 8만달러 아래 손절 → 오늘 7만7,500달러 부근까지 밀림",
+    "어제 이란 '이틀 안에 호르무즈 개방' 조건 제시 → 오늘 미국의 이란 방공시설 타격과 카타르 종전안 중재",
+    "어제 7개 접전지 승부 전망 → 오늘 하버드대 민주 하원 96%·상원 78%, 감시단·주방위군 투입"
+  ],
+  "themes": [
+    "미 중간선거 개표 — 민주 우세 전망과 결과 수용 리스크",
+    "크립토 보안 위기 — 바이낸스 침투 경로 공개와 해킹 연쇄",
+    "협상과 공습의 병행 — 이란 종전안과 러-우크라 3자회담"
+  ],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 중간선거 개표(11/4 KST)",
+    "SK텔레콤·Peabody·Westlake 3분기 실적(11/4 미 장전)",
+    "El Pollo Loco 3분기 실적(11/5 미 장후)",
+    "미·러·우크라 3자 실무회담 아부다비(11/10~11)"
+  ],
+  "items": [
+    {
+      "title": "하버드대 \"민주당 하원 승리 확률 96%, 상원 78%\"",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ndlZzZTZtbF9LTWQwbmdwOHV5SDNSZG9BSGVOcXRzQTdkcG1FclRLci1pQW15cFd2ZHlWbzJsell2SGxzQzVaVFI0M3BKS2Y2QnRNbEp3UjRqZXVUMmtQQTNZY0pMczQ?oc=5",
+      "one_liner": "미 중간선거 당일, 하버드대 분석은 민주당의 하원 승리 확률을 96%, 상원을 78%로 제시했다.",
+      "why_it_matters": "격전지에서 민주당 우세 격차가 벌어졌다는 보도가 이어지지만 '샤이 트럼프' 결집 변수도 함께 거론된다.",
+      "confidence": 0.72,
+      "original_title": "하버드대 \"민주당 하원 승리 확률 96%, 상원 78%\" - 연합뉴스TV",
+      "implications": "미 증시·정책 민감 업종 — 의회 권력 구도 확정 뒤 재정·관세 정책 기대 변화",
+      "tags": [
+        "미국",
+        "중간선거",
+        "민주당"
+      ]
+    },
+    {
+      "title": "트럼프 \"호르무즈 공습은 소규모 공격\"…카타르 \"미·이란 종전안 검토\"",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vVkVuNVRxZjVhVzI1REtmOUhwLW5qUmt3UXpUV0J4NmlKMVN5WVM5RGhoSTM5SVNkMkdldkUybkUydTZZY3pKUlJWYUZDMnlW0gFTQVVfeXFMTmJ3VHhTdGUtSjdzUHdFSHZsam9MVll5WUJBMEV0cGJZdkg3bHgzUU9qd2ljc3RtaWQ4elVyMmpqWHQ3anpxdi1kSkJqdDdMNVlSSTA?oc=5",
+      "one_liner": "트럼프는 이란 방공시설 타격을 소규모 공격이라 했고, 카타르는 미·이란 종전안 중재에 나섰다.",
+      "why_it_matters": "선거 D-1에 미국이 이란 케슘섬을 공격한 가운데 종전 협상 중재가 동시에 진행돼 호르무즈 리스크가 양방향으로 열려 있다.",
+      "confidence": 0.7,
+      "original_title": "트럼프 \"호르무즈 공습은 소규모 공격\"...카타르 \"미·이란 종전안 검토\" - VOA 한국어 홈페이지",
+      "implications": "유가·해운 — 종전안 진척 여부와 호르무즈 통항 재개 시점",
+      "tags": [
+        "이란",
+        "호르무즈",
+        "중동"
+      ]
+    },
+    {
+      "title": "北해커, 바이낸스 직원 가짜면접해 컴퓨터에 악성코드 심었다",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGN0swTTlScW54TmxOOVdRX3BGR1Z6TzNES2M3Y2VCXzRVSlFvR2lyenNjWlhETXYxM25MV29RQlg0QTRCYTRTbEFNb09kTVpDbEJuS0Z1OUlkQzDSAWBBVV95cUxOa212WllzNkxEU3hjbVo1bTNjaTFIdUZ5WFZweDhXZHlYQzVUaHk1WFJVampsWEtidU9Gd2FjcTVoRVRyWEwtSzdhYWlJcV8wUVEwNUw5Z3U2bEFqd25LZ3M?oc=5",
+      "one_liner": "북한 해커가 가짜 채용 면접으로 바이낸스 직원 컴퓨터에 악성코드를 심어 내부 시스템에 침투한 것으로 나타났다.",
+      "why_it_matters": "바이낸스는 해킹 보상에 비트코인 7,499개를 투입해 보유량이 50% 급감했다는 보도가 나왔다.",
+      "confidence": 0.72,
+      "original_title": "北해커, 바이낸스 직원 가짜면접해 컴퓨터에 악성코드 심었다 - 연합뉴스",
+      "implications": "거래소·보안 업계 — 직원 단말·채용 절차를 노린 공격 대응, 바이낸스 준비금 변화",
+      "tags": [
+        "바이낸스",
+        "북한",
+        "해킹"
+      ]
+    },
+    {
+      "title": "중간선거에 긴장감 높아진 美…정부 감시단 파견에 州방위군 투입도",
+      "source": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2d6b3Zrb19xZFZKcVh5UmF1V2ZVUzBpR09JcEVBblp2ZzN5VW9wcXpFSk5qN010ZnV5cnNXMGxPa2NCRER2WTRubDhMbFNqYUh1MGFnY3lrMW9fNl9oWE16VW54SENST2N2WXpqYmhsNFdrTDZ6RU5BeUgwNEUzWjJKSWV0ODBkRFlTZXNvMF9IQjZDaFVTQUZ2dGZpUdIBsgFBVV95cUxQRlBQM3JSNms4SmZ0QVNVQkpKaVl0S1NMMXM0YnlWR0MxdTFKWWhOSTkybEdLZmNNdnJQM3RNS2JnRnl3YmJ6amtXZ2RKcUM3S2J5ZjZvWTg1bm1FekZJaVlXVklfNm9GMU5iU1BpWFpnOUlnaTlxNHozLXhsUkxKOHhRejFrZTdTc21HbHRPMlhaYTlkY2VQOExscFBMYWsxOWEyZVVRYksyLUpSUF80ekFn?oc=5",
+      "one_liner": "미 법무부가 사상 최대 감시단을 50개 주에 파견했고 워싱턴 등 7개 주는 주방위군을 투입했다.",
+      "why_it_matters": "투표 현장 병력 배치에 유권자 위축 논란이 일면서 선거 결과 수용 문제가 변수로 떠올랐다.",
+      "confidence": 0.68,
+      "original_title": "중간선거에 긴장감 높아진 美…정부 감시단 파견에 州방위군 투입도 - Chosunbiz",
+      "implications": "미 정치 리스크 — 개표 지연·결과 불복 소송 가능성",
+      "tags": [
+        "미국",
+        "중간선거",
+        "선거관리"
+      ]
+    },
+    {
+      "title": "미국-우크라-러시아 '3자 회담' 10일 재개…공습은 계속",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Xek54ejZBMng3aFZHc191cThySXhMaU5YQlBCZENIME92OEFiRjdNcE9Salhad0d1SUdZMmw3MlNpZHlaQU0yRHZJWXE4cXFKYkRYT2VWTUZQX0dsUEdFMHo5bXYwaUFTQXFsZVln?oc=5",
+      "one_liner": "미국 중재로 러시아·우크라이나 3자 실무회담이 10~11일 아부다비에서 열린다.",
+      "why_it_matters": "러시아도 메딘스키를 단장으로 대표단 파견을 확인했고, 젤렌스키는 푸틴과 직접 회담할 준비가 돼 있다고 했다.",
+      "confidence": 0.7,
+      "original_title": "미국-우크라-러시아 ‘3자 회담’ 10일에 시작…공습은 계속 - 한겨레",
+      "implications": "유럽 에너지·방산 — 실무회담 진척과 휴전 범위 확대 여부",
+      "tags": [
+        "우크라이나",
+        "러시아",
+        "종전협상"
+      ]
+    },
+    {
+      "title": "GTX-A 삼성역 무정차 통과 내년 상반기로…동탄 집주인들 '술렁'",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GYVZqTUR6NHVVMEpjUzNYTTdESXRtbEZBZGY5MUJNLWFabGU0amd6QjY4aHAwY2dHNVgyR09CNWlFN0xDTWFLdzhSSTNjNlNOQ3I2Mk5xallUZw?oc=5",
+      "one_liner": "철근 누락 문제로 GTX-A 삼성역 무정차 통과가 내년까지 이어질 전망이며 재시공도 검토된다.",
+      "why_it_matters": "GTX 효과를 기대했던 동탄 부동산 시장이 개통 지연에 흔들리고 있다.",
+      "confidence": 0.68,
+      "original_title": "\"GTX만 기다렸는데\"…미소 짓던 동탄 집주인들 '술렁' - 한국경제",
+      "implications": "수도권 남부 부동산 — 국토부 보강안 확정 시점과 동탄 집값",
+      "tags": [
+        "GTX",
+        "부동산",
+        "동탄"
+      ]
+    },
+    {
+      "title": "영국·폴란드·덴마크 등 유럽 곳곳서 여객기 폭탄 위협으로 긴급 착륙",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tOW1iQjJrelhxelMzQ0x6UDV2MVdDcHhDNVR0VVQ0QXBGQVNIOW5sWEJTRW93RUZxcHR6bTRNY25EYWxXUHdrZmZjblFTR2xzSmI4bTFMS2lJRWw0?oc=5",
+      "one_liner": "유럽에서 여객기 7대가 폭발물 위협 신고로 긴급 착륙·회항했고 이스라엘행 크루즈선도 수색했다.",
+      "why_it_matters": "유럽 하늘길 불안이 커지면서 항공 운항 차질이 이어지고 있다.",
+      "confidence": 0.66,
+      "original_title": "영국·폴란드·덴마크 등 유럽 곳곳서 여객기 폭탄 위협으로 긴급 착륙·대피 - 뉴스핌",
+      "implications": "유럽 항공·여행주 — 위협 배후 규명과 운항 차질 확산 여부",
+      "tags": [
+        "유럽",
+        "항공",
+        "안보"
+      ]
+    },
+    {
+      "title": "SK텔레콤, 4일 장 개시 전 3분기 실적 발표 (원문: SK Telecom (SKM) Set to Release Quarterly Earnings on Wednesday)",
+      "source": "watchlistnews",
+      "url": "https://www.watchlistnews.com/sk-telecom-skm-set-to-release-quarterly-earnings-on-wednesday/11290522.html",
+      "one_liner": "SK텔레콤은 4일 개장 전 3분기 실적을 발표하며, 시장은 주당 0.682달러, 매출 32억7천만달러를 예상한다.",
+      "why_it_matters": "통신 대형주의 실적이 국내 배당·방어주 흐름을 가늠하게 한다.",
+      "confidence": 0.64,
+      "original_title": "SK Telecom (SKM) Set to Release Quarterly Earnings on Wednesday",
+      "implications": "통신·배당주 투자자 — 컨센서스 대비 실적과 배당 정책",
+      "tags": [
+        "SK텔레콤",
+        "실적",
+        "통신"
+      ]
+    },
+    {
+      "title": "이재명 대통령 \"바이낸스 63억달러 해킹 이후 '사이버보안 총괄' 필요\" (원문: South Korea's president says country needs a ‘cybersecurity czar’ following $6.3 billion Binance hack)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/tech/2026/11/03/south-korea-s-president-says-country-needs-a-cybersecurity-czar-following-usd6-3-billion-binance-hack",
+      "one_liner": "이재명 대통령은 정부 차원의 사이버 공격 전담 기구가 필요하다고 밝혔다.",
+      "why_it_matters": "AI 확산으로 금융기관·핵심 인프라의 보안 우려가 커진 가운데 정책 대응이 예고됐다.",
+      "confidence": 0.68,
+      "original_title": "South Korea's president says country needs a ‘cybersecurity czar’ following $6.3 billion Binance hack",
+      "implications": "국내 보안·금융 IT — 범정부 사이버보안 기구 신설 논의와 예산 배정",
+      "tags": [
+        "사이버보안",
+        "한국",
+        "정책"
+      ]
+    },
+    {
+      "title": "美 중간선거 앞두고 가상자산 투자심리 악화…비트코인 7만7500달러 부근",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE90RUhobWhpR3ZSQjB2Z1htZTY2amRYSk1lXzVCWlNJNTJ1V3FmdEJIXzZWaWFBaW80amU3MmlTS05IMUh0dHdKN0FLdHRCNjla?oc=5",
+      "one_liner": "중간선거를 앞두고 가상자산 투자심리가 나빠지며 비트코인이 7만7,500달러 부근에 머물렀다.",
+      "why_it_matters": "어제 8만달러 아래 손절 흐름에 이어 선거 불확실성이 매수를 더 미루게 하고 있다.",
+      "confidence": 0.62,
+      "original_title": "美 중간선거 앞두고 가상자산 투자심리 악화…비트코인(BTC) 7만7500달러 부근 - 블루밍비트",
+      "implications": "크립토 투자자 — 선거 결과 확정 뒤 위험선호 회복 여부",
+      "tags": [
+        "비트코인",
+        "투자심리",
+        "중간선거"
+      ]
+    },
+    {
+      "title": "마르쿠스 틸렌 \"월가가 비트코인의 폭발적 랠리를 없앴다\" (원문: Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/magazine/wall-street-killed-bitcoins-wild-rallies-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "10x 리서치의 틸렌은 비트코인 연말 9만달러를 전망하면서도 기관 ETF 수요에는 의문을 제기했다.",
+      "why_it_matters": "기관 편입이 변동성을 줄였다는 시각으로, 이더리움은 보유자에게 더 많은 것을 돌려줘야 한다고 지적했다.",
+      "confidence": 0.62,
+      "original_title": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
+      "implications": "BTC·ETH 보유자 — ETF 자금 흐름과 이더리움 가치 환원 논의",
+      "tags": [
+        "비트코인",
+        "이더리움",
+        "ETF"
+      ]
+    },
+    {
+      "title": "테슬라·스페이스X도 OKX-ICE 토큰화 주식 거래 거부 (원문: Elon Musk’s Tesla and SpaceX Block Their Stock From OKX-ICE Tokenized Venue)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382458/elon-musk-tesla-spacex-block-okx-ice-tokenized-stock",
+      "one_liner": "아마존·테슬라·스페이스X·넷플릭스 등이 OKX-ICE 토큰화 주식 거래에 반대해 반대 기업이 56곳으로 늘었다.",
+      "why_it_matters": "초기 종목의 약 80%가 빠지면서 토큰화 주식 사업의 출범 자체가 흔들린다.",
+      "confidence": 0.7,
+      "original_title": "Elon Musk’s Tesla and SpaceX Block Their Stock From OKX-ICE Tokenized Venue",
+      "implications": "토큰화 자산(RWA) 업계 — 발행사 동의 없는 토큰화의 한계, 마감 시한 이후 거래 종목 수",
+      "tags": [
+        "토큰화",
+        "OKX",
+        "ICE"
+      ]
+    },
+    {
+      "title": "브라질 최대 비트코인 거래소, 4천만달러 해킹 피해 고객에 환불 약속 (원문: Brazil's Biggest Bitcoin Exchange Says It Will Refund Users After a $40 Million Hack)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382459/brazil-mercado-bitcoin-will-refund-users-40-million-hack",
+      "one_liner": "메르카도 비트코인은 수천만 달러 해킹 피해를 고객에게 떠넘기지 않겠다고 밝혔다.",
+      "why_it_matters": "출금은 여전히 동결돼 있고 재개 날짜도 없다. 바이낸스에 이어 거래소 해킹이 잇따른다.",
+      "confidence": 0.68,
+      "original_title": "Brazil's Biggest Bitcoin Exchange Says It Will Refund Users After a $40 Million Hack",
+      "implications": "중남미 크립토 이용자 — 출금 재개 시점과 거래소 보안 신뢰",
+      "tags": [
+        "해킹",
+        "거래소",
+        "브라질"
+      ]
+    },
+    {
+      "title": "저스틴 선, 트럼프 연계 월드리버티파이낸셜 UAE 관계 은폐 제재 요청 (원문: Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/policy/2026/11/03/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
+      "one_liner": "트론 창업자 저스틴 선은 월드리버티가 UAE 관계를 소송 몇 달 뒤에야 공개했다며 제재를 요청했다.",
+      "why_it_matters": "4,500만달러어치 WLFI 토큰을 둘러싼 소송으로, 트럼프 일가 연계 크립토 사업의 공시 문제가 부각됐다.",
+      "confidence": 0.66,
+      "original_title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
+      "implications": "WLFI·트럼프 연계 프로젝트 — 법원의 제재 판단과 공시 리스크",
+      "tags": [
+        "월드리버티",
+        "저스틴선",
+        "소송"
+      ]
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
