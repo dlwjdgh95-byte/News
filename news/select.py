@@ -79,13 +79,17 @@ def _heuristic_order(articles: List[Article]) -> List[int]:
     return [i for i, _, _ in scored]
 
 
-def _apply_caps(ordered_ids: List[int], articles: List[Article], max_items: int) -> List[Article]:
+def _apply_caps(ordered_ids: List[int], articles: List[Article], max_items: int,
+                *, max_per_source: int | None = None) -> List[Article]:
+    """다양성 캡을 지키며 ``ordered_ids`` 순서대로 최대 ``max_items``건을 고른다.
+    ``max_per_source``를 주지 않으면 최종 선별 캡(config.MAX_PER_SOURCE)."""
+    source_cap = config.MAX_PER_SOURCE if max_per_source is None else max_per_source
     per_source: dict[str, int] = defaultdict(int)
     per_cluster: dict[object, int] = defaultdict(int)
     chosen: List[Article] = []
     for i in ordered_ids:
         a = articles[i]
-        if per_source[a.source_name] >= config.MAX_PER_SOURCE:
+        if per_source[a.source_name] >= source_cap:
             continue
         cid = a.cluster_id if a.cluster_id is not None else f"u{i}"
         if per_cluster[cid] >= config.MAX_PER_CLUSTER:

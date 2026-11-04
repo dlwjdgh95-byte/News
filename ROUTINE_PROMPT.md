@@ -60,8 +60,9 @@
    `pip install -r requirements.txt` 실행.
 
 1) `python run.py --prepare` 실행하고 출력 JSON을 확인하라.
-   - "mode"가 "prepare-failed"이면(수집 실패 또는 지표 관련 기사 0건) → `python run.py --fallback`
-     실행 후 종료.
+   - "mode"가 "prepare-failed"이면(수집 실패) → `python run.py --fallback` 실행 후 종료.
+   - "quiet": true이면(지표·보유 종목 관련 기사 0건 — 조용한 날) → 2·3단계를 건너뛰고 바로
+     4단계 `python run.py --finalize`를 실행하라. 0건 정상 브리핑이 기록된다(폴백 금지).
    - 그 외에는 반드시 진행하라(빈 폴백으로 새지 말 것). `state/candidates.json`만 읽어라
      (`state/pool.json`은 머신 전용 — 읽지 말 것; 다른 레포 파일 탐색도 불필요).
      최상위: max_items(기본 8), diversity_caps, indicator_keys(쓸 수 있는 지표 키).
@@ -71,19 +72,21 @@
 
 2) 후보 풀 전체를 한 번에 검토해 **핵심 지표나 보유 종목을 움직이는 정치·경제 뉴스**만
    최대 max_items(기본 8)건 골라 각각 한 줄로 요약하라.
-   - 다양성 캡: 한 매체(source)당 최대 2건.
+   - 다양성 캡: 한 매체(source)당 최대 2건(후보에는 한 매체가 3건까지 있을 수 있다).
    - 근거 강제: 제공된 title + snippet만 근거로 하라. 스니펫 범위를 넘는 추론 금지.
    - one_liner: 무엇이 일어났는지 한 문장. 해설·전망은 쓰지 마라.
    - 번역: 한국어가 아닌 기사는 title에 한국어 번역 제목을 넣어라(파이썬이 "번역 (원문: 원제)"로 병기).
    - indicators: 이 뉴스가 움직일 지표 키를 indicator_keys 안에서만 골라라. 후보의 태그를 그대로
-     써도 되고 고쳐도 된다. 생략하면 파이썬이 결정론 태그를 쓴다.
+     써도 되고 고쳐도 된다. 빈 목록 []은 "지표 없음"(결정론 태그를 지움), 생략하면 파이썬이
+     결정론 태그를 쓴다.
    - 미근거 단정(likely/clearly/will definitely 등)은 flags에 "unsourced-claim" 추가.
    - 신뢰도: 근거가 약하면 confidence를 낮춰라(0.45 미만은 페이지 제외, 아카이브).
    - events: *앞으로 예정된* 일정(지표·FOMC/금통위·실적·만기·표결 등)을 최대 5개 한 줄로. 없으면 [].
    - why_it_matters·implications·top_insight·whats_changed·themes·market_mood는 쓰지 않는다
      (선택 필드 — 있으면 렌더되지만 토큰 목표상 생략이 기본).
 
-3) 결과를 `state/selection.json`에 아래 형식으로 저장하라(id는 candidates의 id, 중요도 순):
+3) 결과를 `state/selection.json`에 아래 형식으로 저장하라(id는 candidates의 id, 중요도 순 —
+   페이지 IR의 items가 이 순서 그대로 나가고 다운스트림이 앞 N건을 쓴다):
    {"selected":[{"id":0,"title":"한국어 제목","one_liner":"한 줄 요약","indicators":["ust10y"],
      "confidence":0.8,"flags":[]}],
     "events":["美 10월 CPI 발표(11/13 22:30 KST)"]}

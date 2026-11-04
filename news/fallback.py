@@ -1,8 +1,9 @@
 """Deterministic fallback path — no LLM, no translation, no insight.
 
-This is the safety net. If the main agent pipeline fails, times out, or returns
-empty, this guarantees a minimal briefing still reaches Telegram, prefixed with
-"[폴백 모드]".
+This is the safety net. If the main agent pipeline fails, times out, or collects
+nothing, this guarantees a minimal briefing still exists, prefixed with
+"[폴백 모드]". (A quiet day — articles collected but none relevant — is not a
+failure and does not come here; see pipeline.py.)
 
 Even without an LLM it applies the cheap deterministic hygiene the main path uses
 — keyword pre-filter (drop 연예/스포츠) and multi-stage de-duplication — so a

@@ -12,8 +12,10 @@ Two ways to run the intelligence (selection + summary) step:
     model) writes state/selection.json with the single-pass selection+summary;
     `run_finalize` renders and archives. See ORCHESTRATION.md.
 
-Any failure / timeout / empty result switches to the deterministic fallback so a
-minimal briefing always exists for the day.
+Any failure / timeout / empty collection switches to the deterministic fallback
+so a minimal briefing always exists for the day. A *quiet* day — collection
+worked but no article touches an indicator or holding — is not a failure: it
+produces a normal (non-degraded) brief with 0 items and ``quiet: true``.
 
 Output is two files per day in briefs/:
   · <date>.md   — markdown archive, read by invest-wiki's collect_news.py
@@ -75,12 +77,14 @@ def _build_candidates() -> Tuple[List[Article], List[str], int]:
     """Collect -> normalize -> prefilter -> dedup -> relevance -> drop already-sent
     -> pool cap. Returns (pool, failed_sources, irrelevant_dropped).
 
-    Only a genuinely empty collection raises (that is what the fallback is for)
-    — and, since the indicator-centric redesign, a day where *no* article
-    touches an indicator or holding keyword. Each transform is guarded so one
-    bad article can't crash the run, and if the sent-log filter removes
-    everything we keep the best relevant items rather than forcing a fallback
-    — a slightly-repeated item beats an ugly fallback."""
+    Only a genuinely empty collection raises (that is what the fallback is for).
+    An empty pool after the relevance filter is a *quiet day*, not a broken one:
+    it returns ``[]`` and the callers write a 0-item, non-degraded brief
+    (``quiet: true``) instead of falling back to the irrelevant headlines we just
+    filtered out. Each transform is guarded so one bad article can't crash the
+    run, and if the sent-log filter removes everything we keep the best relevant
+    items rather than forcing a fallback — a slightly-repeated item beats an
+    ugly fallback."""
     config.ensure_dirs()
     raw, failed = _collect_all()
     if not raw:
@@ -99,7 +103,7 @@ def _build_candidates() -> Tuple[List[Article], List[str], int]:
     except Exception as exc:  # noqa: BLE001 - a scoring bug must not kill the day
         print(f"[pipeline] relevance stage error ({exc}); passing unscored items")
     if not reps:
-        raise RuntimeError("지표·보유 종목 관련 기사 0건 (모든 기사가 관련도 필터에서 제외)")
+        return [], failed, irrelevant  # 조용한 날 — 폴백이 아니다
     log = state.load_sent_log()
     fresh = [a for a in reps if not state.already_sent(log, a.canonical_url)]
     if not fresh:
@@ -110,13 +114,15 @@ def _build_candidates() -> Tuple[List[Article], List[str], int]:
 
 def _cap_pool(arts: List[Article], cap: int) -> List[Article]:
     """Bound the candidate pool that reaches the LLM/agent: 관련도 점수순(동점이면
-    confidence + recency)으로 줄 세운 뒤 기존 다양성 캡(매체당·클러스터당)을 그대로
-    적용해 상위 ``cap``건만 남긴다. 캡에 걸리는 기사는 어차피 최종 선별에 못
-    들어가므로 풀에서도 빼 토큰을 아낀다.
+    confidence + recency)으로 줄 세운 뒤 다양성 캡(매체당 POOL_MAX_PER_SOURCE=3,
+    클러스터당 MAX_PER_CLUSTER)을 적용해 상위 ``cap``건만 남긴다. 풀의 매체당 캡은
+    최종 캡(2)보다 하나 넉넉하다 — 점수가 2.0에서 자주 동점이라, 같으면 한 매체의
+    차순위 기사가 풀에서 먼저 잘려 에이전트가 고를 여지가 준다.
 
     (2026-11-04 이전에는 소스 태그 A/B/C 라운드로빈으로 균형을 맞췄다. 지표 중심
     설계에서는 태그 균형보다 점수가 우선이다.)"""
-    return select._apply_caps(select._heuristic_order(arts), arts, cap)
+    return select._apply_caps(select._heuristic_order(arts), arts, cap,
+                              max_per_source=config.POOL_MAX_PER_SOURCE)
 
 
 def _deliver(ir: dict, markdown: str, selected: List[Article], *, persist: bool):
@@ -162,12 +168,16 @@ def run_pipeline(persist: bool = True) -> dict:
     """Execute the full autonomous pipeline. Raises on unrecoverable failure so
     run() can switch to the fallback path."""
     fresh, failed, irrelevant = _build_candidates()
-    selected, sel_method = select.select(fresh, max_items=MAX_ITEMS)
-    sum_method = summarize.summarize(selected)
-    _tg, markdown, stats = render.render_briefing(selected, failed_sources=failed)
-    ir = render.render_ir(selected, failed_sources=failed)
+    quiet = not fresh
+    if quiet:
+        selected, sel_method, sum_method = [], "quiet", "quiet"
+    else:
+        selected, sel_method = select.select(fresh, max_items=MAX_ITEMS)
+        sum_method = summarize.summarize(selected)
+    _tg, markdown, stats = render.render_briefing(selected, failed_sources=failed, quiet=quiet)
+    ir = render.render_ir(selected, failed_sources=failed, quiet=quiet)
     brief_path, ir_path = _deliver(ir, markdown, selected, persist=persist)
-    return {
+    out = {
         "mode": "main",
         "selection": sel_method,
         "summary": sum_method,
@@ -177,6 +187,9 @@ def run_pipeline(persist: bool = True) -> dict:
         "ir_path": ir_path,
         **stats,
     }
+    if quiet:
+        out["quiet"] = True
+    return out
 
 
 # --------------------------------------------------------------------------
@@ -228,16 +241,21 @@ def run_prepare() -> dict:
     """Build the candidate pool. Writes two files:
     - state/candidates.json — slim agent view (no URLs, 120-char snippets,
       category + indicators), the only file the lead agent should read;
-    - state/pool.json — full Articles for --finalize to round-trip."""
+    - state/pool.json — full Articles for --finalize to round-trip.
+
+    조용한 날(관련 기사 0건)에도 실패가 아니다: 두 파일 모두 ``quiet: true`` +
+    빈 후보로 쓰고, 에이전트는 선별 없이 바로 --finalize를 돌린다(0건 브리핑)."""
     fresh, failed, irrelevant = _build_candidates()
+    quiet = not fresh
     agent_view = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "failed_sources": failed,
-        "diversity_caps": {"per_source": config.MAX_PER_SOURCE,
-                           "per_cluster": config.MAX_PER_CLUSTER},
+        "diversity_caps": {"per_source": config.MAX_PER_SOURCE},
         "max_items": MAX_ITEMS,
         "indicator_keys": list(relevance.INDICATOR_KEYS),
     }
+    if quiet:
+        agent_view["quiet"] = True
     digest = _yesterday_digest()
     if digest:
         agent_view["yesterday_digest"] = digest
@@ -247,18 +265,23 @@ def run_prepare() -> dict:
         "failed_sources": failed,
         "candidates": [{"id": i, **a.to_dict()} for i, a in enumerate(fresh)],
     }
+    if quiet:
+        machine["quiet"] = True
     config.ensure_dirs()
     CANDIDATES_PATH.write_text(_dump_agent_view(agent_view), encoding="utf-8")
     POOL_PATH.write_text(json.dumps(machine, ensure_ascii=False,
                                     separators=(",", ":")), encoding="utf-8")
-    return {"mode": "prepare", "candidates": len(fresh), "failed_sources": failed,
-            "irrelevant_dropped": irrelevant, "path": str(CANDIDATES_PATH)}
+    out = {"mode": "prepare", "candidates": len(fresh), "failed_sources": failed,
+           "irrelevant_dropped": irrelevant, "path": str(CANDIDATES_PATH)}
+    if quiet:
+        out["quiet"] = True
+    return out
 
 
-def _load_candidates() -> Tuple[List[Article], List[str]]:
+def _load_candidates() -> Tuple[List[Article], List[str], bool]:
     data = json.loads(POOL_PATH.read_text(encoding="utf-8"))
     arts = [Article.from_dict(c) for c in data.get("candidates", [])]
-    return arts, data.get("failed_sources", [])
+    return arts, data.get("failed_sources", []), bool(data.get("quiet"))
 
 
 def _apply_agent_selection(candidates: List[Article]) -> Optional[List[Article]]:
@@ -330,7 +353,15 @@ def run_finalize(persist: bool = True) -> dict:
     did not provide a selection."""
     if not POOL_PATH.exists():
         raise RuntimeError("state/pool.json missing; run --prepare first")
-    candidates, failed = _load_candidates()
+    candidates, failed, quiet = _load_candidates()
+    if quiet and not candidates:
+        # 조용한 날: 0건이지만 정상 브리핑(degraded 아님). selection.json은 볼 것이 없다.
+        _tg, markdown, stats = render.render_briefing([], failed_sources=failed, quiet=True)
+        ir = render.render_ir([], failed_sources=failed, quiet=True)
+        brief_path, ir_path = _deliver(ir, markdown, [], persist=persist)
+        return {"mode": "finalize", "selection": "quiet", "quiet": True,
+                "failed_sources": failed, "brief_path": brief_path,
+                "ir_path": ir_path, **stats}
     if not candidates:
         raise RuntimeError("no candidates to finalize")
 

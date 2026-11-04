@@ -398,7 +398,10 @@ def test_cap_pool_bounded_by_score_with_diversity_caps():
     assert len(capped) == 12
     assert [a.score for a in capped] == sorted((a.score for a in arts), reverse=True)[:12]
     same = [_a(f"같은 매체 {i}", f"https://s.com/{i}", source_name="BigOutlet") for i in range(5)]
-    assert len(pipeline._cap_pool(same, 12)) == 2, "per-source cap still applies in the pool"
+    # 풀 단계 매체당 캡은 3(최종 선별 캡 2보다 하나 넉넉하게 — 점수 동점이 흔하다).
+    assert len(pipeline._cap_pool(same, 12)) == 3, "pool-stage per-source cap is 3"
+    chosen, _ = select.select(pipeline._cap_pool(same, 12), max_items=8)
+    assert len(chosen) == 2, "final selection keeps the per-source cap of 2"
 
 
 def test_digest_strips_links_and_archive():

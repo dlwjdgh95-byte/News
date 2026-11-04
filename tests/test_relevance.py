@@ -86,6 +86,11 @@ def test_unknown_indicator_key_in_config_is_rejected():
            "weights": {}, "category_priority": list(relevance.CATEGORIES)}
     with pytest.raises(ValueError):
         relevance.Config(bad)
+    dangling = {"rules": [{"name": "금리", "category": "central_bank", "indicators": [],
+                           "keywords": ["금리 인하"], "unless": ["@없는 규칙"]}],
+                "weights": {}, "category_priority": list(relevance.CATEGORIES)}
+    with pytest.raises(ValueError):
+        relevance.Config(dangling)
 
 
 # --- 분류·지표 부착 ----------------------------------------------------------
@@ -141,6 +146,205 @@ def test_irrelevant_lifestyle_entertainment_sports_dropped():
     assert dropped == len(noise)
 
 
+# --- 한국어 부분 문자열 충돌 (리뷰 지적, 실제 지난 기사 포함) ----------------------
+def _rules(title, summary=""):
+    """requires_any(지정학 조건)와 무관하게, 키워드가 맞은 규칙 이름 집합."""
+    cfg = relevance.load()
+    fields = (("title", cfg.mask(title)), ("body", cfg.mask(summary)))
+    return {r.name for r in cfg.rules if r.place(fields)}
+
+
+@pytest.mark.parametrize("title,rule", [
+    ("트럼프, 40분 유엔 연설서 북한은 한 번도 언급하지 않았다", "한국은행"),
+    ("트럼프 대통령 방한은 이번이 두 번째", "한국은행"),
+    ("美 금리 인하 기대…시한은 12월", "한국은행"),
+    ("대출 상한은 그대로", "한국은행"),
+    ("수입 제한은 없다", "한국은행"),
+    ("감독 권한은 금융위로", "한국은행"),
+    ("연내 타결될 것이란 전망", "지정학"),
+    ("하락한 이유가 뭘까", "유가"),
+    ("표현의 자유가 위축됐다", "유가"),
+    ("자금 여유가 생겼다", "유가"),
+    ("외국인 보유가 늘었다", "유가"),
+    ("국제 금융시장 불안 확대", "금"),
+    ("국제 금리 하락세", "금"),
+    ("지금 가격이 싸다", "금"),
+    ("지금 시세로는 손해", "금"),
+    ("추경호 원내대표 기자회견", "재정"),
+    ("공급망 다원화 전략", "원달러"),
+    ("창구 일원화 추진", "원달러"),
+    ("행사 참가자 모집", "지정학"),
+    ("코스피 종전 최고치 경신", "지정학"),
+    ("거래소, 워시트레이딩 적발", "연준"),
+])
+def test_korean_substring_collisions_do_not_hit(title, rule):
+    assert rule not in _rules(title), (title, _rules(title))
+
+
+def test_north_korea_un_speech_is_not_bok_news():
+    # 실제 지난 기사: '북한은'의 '한은' 때문에 central_bank/bok_rate 5.0점이었다.
+    a = _scored("트럼프, 40분 유엔 연설서 북한은 한 번도 언급하지 않았다")
+    assert a.rel_category == "" and a.indicators == []
+
+
+def test_deadline_word_does_not_strip_fed_tags():
+    # '시한은'의 '한은'이 일반 금리 규칙의 unless에 걸려 연준 태그가 빠지던 버그.
+    a = _scored("美 금리 인하 기대…시한은 12월")
+    assert a.rel_category == "central_bank"
+    assert {"fed_upper", "fomc_cut"} <= set(a.indicators) and "bok_rate" not in a.indicators
+
+
+@pytest.mark.parametrize("title,rule", [
+    ("한은, 기준금리 동결", "한국은행"),
+    ("[한은] 금리 결정 앞두고", "한국은행"),
+    ("\"한은 연내 추가 인상\"", "한국은행"),
+    ("국제유가 급등", "유가"),
+    ("고유가 장기화", "유가"),
+    ("저유가 시대 끝나나", "유가"),
+    ("유가 급락에 정유주 약세", "유가"),
+    ("이란 공습", "지정학"),
+    ("美, '이란 핵시설' 타격", "지정학"),
+    ("대이란 제재 강화", "지정학"),
+    ("친이란 무장세력 공격", "지정학"),
+    ("금값 사상 최고", "금"),
+    ("국제 금값 4천달러", "금"),
+    ("금 현물 4,143달러 시험", "금"),
+    ("金값 급등", "금"),
+    ("금 가격 고공행진", "금"),
+    ("정부, 추경 편성 착수", "재정"),
+    ("원화 약세 지속", "원달러"),
+    ("원화값 급락", "원달러"),
+    ("이스라엘, 가자지구 공습", "지정학"),
+    ("가자 휴전 협상 재개", "지정학"),
+    ("우크라 종전 협상 급물살", "지정학"),
+    ("이란 \"美에 종전 조건 전달\"", "지정학"),
+    ("워시 연준 의장 발언", "연준"),
+])
+def test_korean_intended_matches_still_hit(title, rule):
+    assert rule in _rules(title), (title, _rules(title))
+
+
+# --- 해외 중앙은행·일반 영문 낱말 ----------------------------------------------
+@pytest.mark.parametrize("title", ["영란은행 금리 인하", "호주중앙은행 금리 인상",
+                                   "RBI cuts interest rates", "ECB holds interest rates",
+                                   "Bank of England rate cut bets rise"])
+def test_foreign_central_banks_do_not_get_fed_tags(title):
+    a = _scored(title)
+    assert a.rel_category == "central_bank", (title, a.rel_category)
+    assert a.indicators == ["dxy"], (title, a.indicators)
+
+
+def test_fed_still_tagged_when_foreign_bank_also_named():
+    a = _scored("Fed and ECB both cut interest rates")
+    assert {"fed_upper", "fomc_cut", "dxy"} <= set(a.indicators)
+
+
+@pytest.mark.parametrize("title,absent", [
+    ("India increases growth forecast for fiscal year", "ust10y"),
+    ("Company marks 10-year anniversary", "ust10y"),
+    ("Stocks hit two-year high", "ust2y"),
+    ("Colombia trade deficit narrows", "ust10y"),
+    ("Palm oil prices surge on export curbs", "wti"),
+    ("Korea wins gold medal in archery", "gold"),
+    ("日 외환개입 경계감", "usdkrw"),
+    ("Corporate Treasuries Slow Bitcoin Buying", "ust10y"),   # 크립토 '트레저리' ≠ 미 국채
+    ("Bitmine Expands ETH Treasury", "ust10y"),
+    ("Startup lands billion-dollar valuation", "dxy"),
+    ("시중은행 대출금리 인상", "fed_upper"),
+])
+def test_generic_english_words_narrowed(title, absent):
+    assert absent not in _scored(title).indicators, (title, _scored(title).indicators)
+
+
+@pytest.mark.parametrize("title,present", [
+    ("Congress weighs fiscal stimulus", "ust10y"),
+    ("Budget deficit widens to record", "ust10y"),
+    ("10-year Treasury yield tops 4.6%", "ust10y"),
+    ("Two-year yields jump after CPI", "ust2y"),
+    ("Crude oil slips as OPEC meets", "wti"),
+    ("Gold hits record as dollar slides", "gold"),
+    ("외환당국 개입에 원/달러 환율 급락", "usdkrw"),
+])
+def test_intended_english_and_fx_matches_still_hit(title, present):
+    assert present in _scored(title).indicators, (title, _scored(title).indicators)
+
+
+# --- 대소문자 -------------------------------------------------------------------
+@pytest.mark.parametrize("title,category,key", [
+    ("U.S. Dollar Slides After Jobs Data", "data", "dxy"),
+    ("Korean Won Weakens Past 1,450", "data", "usdkrw"),
+    ("Gold ETF Inflows Jump", "data", "gold"),
+    ("NASDAQ Hits Record High", "data", "vix"),
+    ("Senate Advances Clarity Act", "policy", None),
+    ("BITMINE ADDS MORE ETH", "holding", None),
+])
+def test_title_case_and_all_caps_headlines_match(title, category, key):
+    a = _scored(title)
+    assert a.rel_category == category, (title, a.rel_category)
+    if key:
+        assert key in a.indicators
+
+
+@pytest.mark.parametrize("title", ["Travel Tips For A Winter Getaway",   # TIPS ≠ Tips
+                                   "Back in the hood for the holidays",  # HOOD ≠ hood
+                                   "Lifting weights for 30 sec intervals",  # SEC ≠ sec
+                                   "Ethics committee opens probe"])      # ETH ≠ Ethics
+def test_case_sensitive_acronyms_stay_strict(title):
+    assert _scored(title).rel_category == "", title
+
+
+# --- 규칙별 mask·unless ----------------------------------------------------------
+def test_customs_office_mention_does_not_disable_tariff_rule():
+    # 예전 unless는 기사 전체를 봤다 — '관세청'만 스쳐도 관세 규칙이 꺼졌다.
+    assert "관세·무역" in _rules("관세청 집계…美 관세 부과 뒤 대미 수출 급감")
+    assert "관세·무역" not in _rules("관세청, 10월 수출입 동향 발표")   # 관세청 ⊃ 관세는 지운다
+
+
+def test_unless_is_per_field():
+    # 스니펫에 한은이 나와도 제목의 '美 금리 인하'는 연준 지표를 단다.
+    a = _scored("美 금리 인하 기대 확산", summary="한은도 연내 인하를 검토 중이다.")
+    assert {"fed_upper", "fomc_cut", "bok_rate"} <= set(a.indicators)
+    # 제목에 한은이 있으면 제목의 '금리 동결'은 연준으로 새지 않는다.
+    assert _scored("한은, 금리 동결").indicators == ["bok_rate"]
+
+
+# --- 선거 규칙 축소 -------------------------------------------------------------
+@pytest.mark.parametrize("title", ["특검, 선거법 항소심 선고", "지방선거 공천 갈등 격화",
+                                   "There's an election at the school board"])
+def test_minor_elections_are_not_policy_news(title):
+    assert _scored(title).rel_category == "", title
+
+
+@pytest.mark.parametrize("title", ["美 중간선거 D-10, 상원 초접전", "대선 후보 TV 토론",
+                                   "Japan calls snap election", "US midterms: what markets expect"])
+def test_national_elections_are_policy_news(title):
+    assert _scored(title).rel_category == "policy", title
+
+
+# --- 놓치던 기사 회귀 표본 (리뷰어 예시) -----------------------------------------
+@pytest.mark.parametrize("title,category,must_have", [
+    ("Dollar inches up as markets weigh Iran sanctions, Treasury buybacks",
+     "geopolitics", {"dxy", "ust10y"}),
+    ("美 7월 구인 727만 건…노동시장 냉각", "data", {"claims"}),
+    ("채권시장이 힘을 과시하는 이유", "data", {"ust10y"}),
+    ("트럼프 '클래리티법' 압박…", "policy", set()),
+    ("美 연방부채 40조 달러", "policy", {"ust10y"}),
+    ("JOLTS job openings fall to 7.2 million", "data", {"claims"}),
+    ("美 국채 5% 돌파 '비상'", "data", {"ust10y"}),
+])
+def test_previously_missed_articles_are_kept(title, category, must_have):
+    a = _scored(title)
+    assert a.rel_category == category, (title, a.rel_category, a.indicators)
+    assert must_have <= set(a.indicators), (title, a.indicators)
+
+
+@pytest.mark.parametrize("title", ["Bitcoin tops $90K as ETF inflows return",
+                                   "비트코인, 8만 달러 회복", "BTC 반등에 알트코인 동반 상승"])
+def test_bitcoin_counts_as_crypto_holding_proxy(title):
+    # 🪙 섹션이 늘 비던 원인 — 지난 크립토 기사 291건 중 165건이 비트코인만 언급해 빠졌다.
+    assert _scored(title).rel_category == "holding", title
+
+
 # --- 점수 구성 ---------------------------------------------------------------
 def test_score_components():
     base = _scored("연준 금리 동결").score
@@ -162,8 +366,27 @@ def test_clean_indicators():
     assert relevance.clean_indicators(["usdkrw", "ust10y", "bogus"]) == ["ust10y", "usdkrw"]
     assert relevance.clean_indicators("wti") == ["wti"]
     assert relevance.clean_indicators(None) is None
-    assert relevance.clean_indicators([]) is None
+    # 명시적 빈 목록 = "움직일 지표 없음" → 결정론 태그를 지운다.
+    assert relevance.clean_indicators([]) == []
+    # 유효 키가 하나도 없으면(오타뿐) 결정론 태그 유지.
     assert relevance.clean_indicators(["bogus"]) is None
+
+
+def test_llm_can_clear_or_keep_deterministic_tags():
+    from news import summarize
+
+    def applied(item):
+        a = _scored("원·달러 환율 1,450원 돌파")
+        assert a.indicators == ["usdkrw"]
+        summarize.apply_item(a, {"title": a.title, "one_liner": "요약", "confidence": 0.8,
+                                 "flags": [], **item})
+        return a.indicators
+
+    assert applied({"indicators": []}) == []              # 명시적 빈 목록 → 지운다
+    assert applied({}) == ["usdkrw"]                      # 키 없음 → 유지
+    assert applied({"indicators": None}) == ["usdkrw"]    # null → 유지
+    assert applied({"indicators": ["bogus"]}) == ["usdkrw"]  # 유효 키 0 → 유지
+    assert applied({"indicators": ["ust10y"]}) == ["ust10y"]
 
 
 # --- 후보 풀 / 에이전트 뷰 ----------------------------------------------------
@@ -342,3 +565,147 @@ def test_fallback_gather_orders_relevant_first_without_dropping(monkeypatch):
     items = fallback._gather([("feed", "https://feed")], SOURCE_A, 10)
     assert [a.title for a in items] == ["연준 금리 동결", "가을 단풍 명소 추천"]
     assert items[0].rel_category == "central_bank" and items[1].rel_category == ""
+
+
+# --- 조용한 날 = 정상 0건 브리핑 (폴백 아님) ---------------------------------------
+_NOISE = ["가을 단풍 명소 추천", "주말 맛집 탐방 성수동", "신작 게임 출시 소식", "반려견 산책 요령"]
+
+
+def _no_fallback(monkeypatch):
+    def boom(reason, persist=True):
+        raise AssertionError(f"quiet day must not fall back: {reason}")
+    monkeypatch.setattr(pipeline, "run_fallback_path", boom)
+
+
+def _assert_quiet_outputs(ir, md):
+    assert ir["quiet"] is True and ir["items"] == []
+    assert "degraded" not in ir
+    assert render.QUIET_LINE in md
+    assert "관련 기사 없음" in md and "발송 기준(신뢰도) 미달" not in md
+    for t in _NOISE:
+        assert t not in md, "filtered-out headlines must not resurface"
+
+
+def test_quiet_day_hybrid_prepare_then_finalize(hybrid_paths, monkeypatch):
+    noise = [_a(t, source_name=f"생활{i}") for i, t in enumerate(_NOISE)]
+    monkeypatch.setattr(pipeline, "_collect_all", lambda: (noise, []))
+    _no_fallback(monkeypatch)
+
+    out = pipeline.run_prepare()
+    assert out["mode"] == "prepare" and out["quiet"] is True and out["candidates"] == 0
+    assert out["irrelevant_dropped"] == len(_NOISE)
+    view = json.loads(pipeline.CANDIDATES_PATH.read_text(encoding="utf-8"))
+    assert view["quiet"] is True and view["candidates"] == []
+
+    # 에이전트가 빈(혹은 엉뚱한) selection을 써도 조용한 날 브리핑이 나온다.
+    _write_selection({"selected": [], "events": []})
+    result = pipeline.run_finalize_safe(persist=True)
+    assert result["mode"] == "finalize" and result["quiet"] is True
+    _assert_quiet_outputs(*_finalize_outputs(result))
+
+
+def test_quiet_day_autonomous_run(hybrid_paths, monkeypatch):
+    noise = [_a(t, source_name=f"생활{i}") for i, t in enumerate(_NOISE)]
+    monkeypatch.setattr(pipeline, "_collect_all", lambda: (noise, []))
+    _no_fallback(monkeypatch)
+    result = pipeline.run(persist=True)
+    assert result["mode"] == "main" and result["quiet"] is True
+    assert result["selected"] == 0
+    _assert_quiet_outputs(*_finalize_outputs(result))
+
+
+def test_empty_collection_still_falls_back(hybrid_paths, monkeypatch):
+    monkeypatch.setattr(pipeline, "_collect_all", lambda: ([], ["A", "B", "C"]))
+    called = {}
+    monkeypatch.setattr(pipeline, "run_fallback_path",
+                        lambda reason, persist=True: called.setdefault("reason", reason))
+    pipeline.run(persist=True)
+    assert "no articles" in called["reason"]
+
+
+def test_candidates_view_drops_per_cluster_cap(hybrid_paths, monkeypatch):
+    monkeypatch.setattr(pipeline, "_collect_all",
+                        lambda: ([_a("환율 1,450원 돌파", source_tag=SOURCE_B)], []))
+    pipeline.run_prepare()
+    view = json.loads(pipeline.CANDIDATES_PATH.read_text(encoding="utf-8"))
+    assert view["diversity_caps"] == {"per_source": config.MAX_PER_SOURCE}
+    assert "quiet" not in view
+
+
+# --- IR 순서 = selected 순서 -----------------------------------------------------
+def test_ir_items_follow_agent_rank_not_source_tag(hybrid_paths):
+    _write_pool(_sample_pool())   # 0:B 1:B 2:A 3:C
+    _write_selection({"selected": [
+        {"id": 3, "title": "비트마인, 이더리움 추가 매입", "one_liner": "추가 매입", "confidence": 0.9, "flags": []},
+        {"id": 2, "title": "이란 긴장에 유가 급등", "one_liner": "유가 급등", "confidence": 0.9, "flags": []},
+        {"id": 0, "title": "美 10년물 금리 4.6% 돌파", "one_liner": "금리 돌파", "confidence": 0.9, "flags": []},
+    ]})
+    ir, _md = _finalize_outputs(pipeline.run_finalize(persist=True))
+    assert [i["one_liner"] for i in ir["items"]] == ["추가 매입", "유가 급등", "금리 돌파"]
+
+
+def test_ir_items_follow_score_rank_on_heuristic_path():
+    arts = [_a(f"환율 소식 {i}", source_name=f"매체{i}", source_tag=tag, confidence=0.9)
+            for i, tag in enumerate([SOURCE_C, SOURCE_A, SOURCE_B, SOURCE_A])]
+    for i, a in enumerate(arts):
+        a.score = float(i)
+        a.one_liner = a.title
+        a.evidence = "근거"
+    chosen, _ = select.select(arts, max_items=8)
+    ir = render.render_ir(chosen)
+    assert [i["title"] for i in ir["items"]] == ["환율 소식 3", "환율 소식 2", "환율 소식 1", "환율 소식 0"]
+
+
+# --- md 분류 표식 · 빈 섹션 문구 ---------------------------------------------------
+def test_md_carries_category_marker_after_indicator_line(hybrid_paths):
+    _write_pool(_sample_pool())
+    _write_selection({"selected": [
+        {"id": 0, "title": "美 10년물 금리 4.6% 돌파", "one_liner": "금리 돌파", "confidence": 0.9, "flags": []},
+        {"id": 3, "title": "비트마인, 이더리움 추가 매입", "one_liner": "추가 매입", "confidence": 0.9, "flags": []},
+    ]})
+    ir, md = _finalize_outputs(pipeline.run_finalize(persist=True))
+    lines = md.splitlines()
+    i = lines.index("지표: ust10y")            # 지표 줄 형식은 그대로
+    assert lines[i + 1] == "분류: data"
+    assert "분류: holding" in lines             # 지표가 없어도 분류 줄은 단다
+    assert [it["category"] for it in ir["items"]] == ["data", "holding"]
+    import re
+    marker = re.compile(r"(?:분류|카테고리|category):\s*([A-Za-z_가-힣]+)")   # Miner 파서
+    assert [m.group(1) for m in marker.finditer(md)] == ["data", "holding"]
+
+
+def test_empty_section_text_distinguishes_nothing_relevant_from_archived():
+    econ = _a("환율 1,450원 돌파", source_tag=SOURCE_B, confidence=0.9)
+    econ.one_liner, econ.evidence = "환율 상승", "근거"
+    _tg, md, _ = render.render_briefing([econ])
+    world = md.split("**🌐 시사·국제**")[1].split("**🪙")[0]
+    assert "· 관련 기사 없음" in world and "발송 기준" not in world
+
+    weak = _a("이란 공습에 유가 급등", source_tag=SOURCE_A, confidence=0.2)
+    weak.one_liner = "유가 급등"
+    _tg, md, _ = render.render_briefing([econ, weak])
+    world = md.split("**🌐 시사·국제**")[1].split("**🪙")[0]
+    assert "발송 기준(신뢰도) 미달 — 아카이브 참고" in world
+
+
+# --- 휴리스틱 외국어 기사 · 요약 토큰 ------------------------------------------------
+def test_heuristic_non_korean_article_does_not_repeat_title():
+    from news import summarize
+    a = _a("Oil jumps as Iran tensions flare", language="en", confidence=0.7,
+           source_tag=SOURCE_A)
+    summarize._heuristic_one(a)
+    assert a.title == "Oil jumps as Iran tensions flare (원문 미번역)"
+    assert a.one_liner == ""
+    ko = _a("국제유가 급등", language="ko")
+    summarize._heuristic_one(ko)
+    assert ko.one_liner == "국제유가 급등"
+    _tg, md, _ = render.render_briefing([a])
+    block = md.split("**🌐 시사·국제**")[1].split("**🪙")[0]   # 기사 블록(헤드라인 3줄 제외)
+    assert block.count("Oil jumps as Iran tensions flare") == 1
+
+
+def test_summary_max_tokens_scales_with_items():
+    from news import summarize
+    assert summarize._max_tokens(8) == 2000
+    assert summarize._max_tokens(14) > summarize._max_tokens(8)
+    assert summarize._max_tokens(100) == 4000

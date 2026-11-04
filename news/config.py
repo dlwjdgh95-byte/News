@@ -41,6 +41,10 @@ TIME_SPLIT_HOURS = 12  # >= this gap + a status-change cue => keep as separate f
 # Selection diversity caps.
 MAX_PER_SOURCE = 2
 MAX_PER_CLUSTER = 2
+# 후보 풀(LLM·에이전트 입력) 단계의 매체당 캡. 관련도 점수가 2.0에서 자주 동점이라
+# 최종 캡(2)과 같게 두면 한 매체의 다음 기사가 풀에서 먼저 잘려 에이전트가 고를 여지가
+# 준다. 최종 선별에는 여전히 MAX_PER_SOURCE가 걸린다.
+POOL_MAX_PER_SOURCE = 3
 
 # Token discipline (지표 중심 설계, 2026-11-04): LLM 입력 ≈ 후보 20건 × (제목 +
 # 스니펫 120자), 출력 ≈ 한 줄 요약 8개. 후보 풀은 관련도 점수순으로 자르고

@@ -12,8 +12,9 @@ Hard rules pushed into the prompt:
 - Flag unsourced certainty words ("likely/clearly/will definitely") not
   attributable to the source.
 
-Heuristic fallback (no LLM): 제목을 그대로 한 줄 요약으로 쓰고, 낮은 신뢰
-표식("(LLM 미사용)" evidence)을 붙인다 — 분석을 지어내지 않는다.
+Heuristic fallback (no LLM): 한국어 기사는 제목을 그대로 한 줄 요약으로 쓰고, 낮은
+신뢰 표식("(LLM 미사용)" evidence)을 붙인다 — 분석을 지어내지 않는다. 번역할 수
+없는 외국어 기사는 한 줄 요약을 비운다(원문 제목만 "(원문 미번역)"으로 보인다).
 """
 
 from __future__ import annotations
@@ -44,6 +45,12 @@ def _payload(articles: List[Article]) -> str:
     return "[\n" + ",\n".join(rows) + "\n]"
 
 
+def _max_tokens(n: int) -> int:
+    """요약 응답 토큰 상한: 기사당 ~200(번역 제목 + 한 줄 요약 + 태그) + 여유 400.
+    8건이면 2000, 상한 4000."""
+    return min(4000, 400 + 200 * max(1, n))
+
+
 def _llm_summarize(articles: List[Article]) -> bool:
     user = (
         f"{len(articles)}건의 기사를 한 줄씩 요약하세요. 각 행: id/title/source/snippet/"
@@ -52,8 +59,9 @@ def _llm_summarize(articles: List[Article]) -> bool:
         '출력 형식: {"items": [{"id": 0, "title": "한국어 제목", "one_liner": "한 줄 요약", '
         '"indicators": ["ust10y"], "confidence": 0.0~1.0, "flags": []}]}'
     )
-    # Output is 8 one-liners — keep generation tight.
-    result = llm.complete_json(_SUM_SYSTEM, user, max_tokens=1500)
+    # Output is ≤ max_items one-liners — keep generation tight, but scale with
+    # the item count so a larger NEWS_MAX_ITEMS doesn't truncate the JSON.
+    result = llm.complete_json(_SUM_SYSTEM, user, max_tokens=_max_tokens(len(articles)))
     if not result or "items" not in result:
         return False
     by_id = {}
@@ -121,16 +129,20 @@ def _apply_translation(a: Article, translated_title: str) -> None:
 
 
 def _heuristic_one(a: Article) -> None:
-    """No-LLM structuring: 제목을 그대로 한 줄 요약으로 쓴다. 스니펫 너머 추론 금지."""
-    a.one_liner = a.title
+    """No-LLM structuring: 한국어 기사는 제목을 그대로 한 줄 요약으로 쓴다. 스니펫
+    너머 추론 금지. 외국어 기사는 번역이 없으니 한 줄 요약을 비운다 — 제목을
+    그대로 넣으면 "(원문 미번역)" 제목 아래 같은 영문 줄이 한 번 더 찍힌다."""
     a.why_it_matters = ""  # cannot assert importance without analysis
     if not a.tags:
         a.tags = [a.category] if a.category else []
     a.evidence = "원문 제목 (LLM 미사용)"
     if a.language and a.language != "ko":
         # No translation available offline: keep original, mark it.
+        a.one_liner = ""
         if "원문:" not in a.title:
             a.title = f"{a.original_title} (원문 미번역)"
+    else:
+        a.one_liner = a.title
 
 
 def summarize(articles: List[Article]) -> str:

@@ -12,14 +12,25 @@
   · score        — 지표 키워드 적중 + 보유 종목 보너스 + 복수 매체 보너스
                    (related ≥ 2) + 공식·통신사 보너스 − 경과 시간 감점
 
-키워드 매칭 규칙:
-  · 한글이 섞인 키워드는 부분 문자열로 맞춘다(소문자화한 본문 기준).
+키워드 매칭 규칙(``news/indicator_keywords.json``):
+  · 한글이 섞인 키워드는 부분 문자열로 맞춘다. 짧은 한국어 낱말은 표식으로 경계를
+    건다 — 앞에 ``^``: 한글 음절(또는 한글에 붙은 닫는 따옴표·괄호) 바로 뒤에서는
+    안 맞는다('^한은'은 '한은'·'[한은]'에 맞고 '북한은'·'시한은'·'권한은'에는 안
+    맞는다). 뒤에 ``$``: 한글 음절이 바로 이어지면 안 맞는다('^가자$'는 '가자 휴전'에
+    맞고 '가자에서'·'참가자'에는 안 맞는다). 조사가 붙는 낱말에는 ``$``를 쓰지 않는다.
   · 영문 키워드는 영숫자 경계로 맞춘다 — 'oil'이 'turmoil'에, 'eth'가 'ethics'에
     걸리지 않는다. 한글 조사가 바로 붙어도('FOMC는') 맞는다(``\\b``는 한글을 단어
     문자로 봐서 이 경우를 놓친다).
-  · 영문 키워드에 대문자가 하나라도 있으면 대소문자를 구분한다(약어·티커·고유명사:
-    TIPS ≠ tips, HOOD ≠ hood). 전부 소문자면 구분하지 않는다.
-  · ``mask`` 낱말(유가족·유가증권 등)은 매칭 전에 지운다.
+  · 대소문자는 기본으로 무시한다 — 제목식 대문자('U.S. Dollar', 'Clarity Act',
+    'Gold ETF')와 전부 대문자('NASDAQ')도 맞는다. 예외는 JSON 최상위
+    ``case_sensitive`` 목록의 약어뿐이다: 소문자로 쓰면 흔한 다른 낱말이 되는 것
+    (TIPS≠tips, HOOD≠hood, Fed≠fed up, SEC≠sec, QT·QE, ISM≠-ism)과 늘 대문자로만
+    쓰는 티커 ETH. 이들은 정확히 그 표기로만 맞는다.
+  · 전역 ``mask`` 낱말(유가족·유가증권·palm oil·gold medal 등)은 모든 매칭 전에
+    지운다. 규칙별 ``mask``는 그 규칙의 키워드를 맞추기 전에만 지운다(관세청 ⊃ 관세).
+  · 규칙별 ``unless``는 그 낱말이 보이는 필드(제목/스니펫)에서 그 규칙을 건너뛴다
+    (한은·해외 중앙은행 기사의 '금리 인하'가 연준 지표로 새지 않게). ``@규칙이름``은
+    그 규칙의 키워드 전부를 뜻한다.
 """
 
 from __future__ import annotations
@@ -46,45 +57,83 @@ INDICATOR_KEYS: Tuple[str, ...] = (
 CATEGORIES: Tuple[str, ...] = ("central_bank", "data", "policy", "geopolitics", "holding")
 _KEY_ORDER = {k: i for i, k in enumerate(INDICATOR_KEYS)}
 
+# 한국어 경계 표식 — ``^``(앞)·``$``(뒤). 앞 경계는 한글 음절 바로 뒤가 아니고, 한글에
+# 붙은 닫는 따옴표·괄호 바로 뒤도 아니어야 한다("'긴축'이란"의 '이란'은 조사다).
+# 여는 따옴표 뒤(" '이란 핵시설'")는 낱말의 시작이라 맞는다.
+_HANGUL = "가-힣"
+_LEFT = rf"(?<![{_HANGUL}])(?<![{_HANGUL}][\"'’”」』)\]])"
+_RIGHT = rf"(?![{_HANGUL}])"
+_ASCII_LEFT = r"(?<![0-9A-Za-z])"
+_ASCII_RIGHT = r"(?![0-9A-Za-z])"
 
-def _alternation(terms: Sequence[str], flags: int = 0):
-    """영문 키워드 묶음 → 영숫자 경계 정규식. 긴 키워드부터 시도한다."""
+
+def _pattern(term: str) -> str:
+    """키워드 하나 → 정규식 조각. 영문은 영숫자 경계, 한글은 표식(^·$)대로."""
+    if term.isascii():
+        # 경계는 키워드 가장자리가 영숫자일 때만 — 'NASDAQ:'(마스크)는 뒤에 티커가 붙어도 맞는다.
+        return ((_ASCII_LEFT if term[0].isalnum() else "") + re.escape(term)
+                + (_ASCII_RIGHT if term[-1].isalnum() else ""))
+    left = term.startswith("^")
+    right = term.endswith("$")
+    core = term[1 if left else 0:len(term) - 1 if right else len(term)]
+    return (_LEFT if left else "") + re.escape(core) + (_RIGHT if right else "")
+
+
+def _alternation(terms: Sequence[str], flags: int):
     if not terms:
         return None
-    body = "|".join(re.escape(t) for t in sorted(set(terms), key=len, reverse=True))
-    return re.compile(rf"(?<![0-9A-Za-z])(?:{body})(?![0-9A-Za-z])", flags)
+    body = "|".join(_pattern(t) for t in sorted(set(terms), key=len, reverse=True))
+    return re.compile(body, flags)
 
 
 class _Matcher:
     """키워드 목록 하나를 컴파일한 매처. 규칙은 모듈 docstring 참고."""
 
-    __slots__ = ("_cased", "_uncased", "_sub")
+    __slots__ = ("_cased", "_uncased")
+
+    def __init__(self, terms: Iterable[str], case_sensitive: frozenset = frozenset()):
+        terms = [t.strip() for t in terms if t and t.strip()]
+        self._cased = _alternation([t for t in terms if t in case_sensitive], 0)
+        self._uncased = _alternation([t for t in terms if t not in case_sensitive],
+                                     re.IGNORECASE)
+
+    def search(self, text: str) -> bool:
+        if self._cased is not None and self._cased.search(text):
+            return True
+        return self._uncased is not None and self._uncased.search(text) is not None
+
+
+class _Masker:
+    """mask 낱말을 지우는 치환기(대소문자 무시, 영문은 영숫자 경계)."""
+
+    __slots__ = ("_re",)
 
     def __init__(self, terms: Iterable[str]):
-        terms = [t.strip() for t in terms if t and t.strip()]
-        ascii_terms = [t for t in terms if t.isascii()]
-        self._cased = _alternation([t for t in ascii_terms if t != t.lower()])
-        self._uncased = _alternation([t for t in ascii_terms if t == t.lower()])
-        self._sub = tuple(sorted({t.lower() for t in terms if not t.isascii()}))
+        self._re = _alternation([t.strip() for t in terms if t and t.strip()], re.IGNORECASE)
 
-    def search(self, raw: str, low: str) -> bool:
-        """raw는 마스크만 지운 원문, low는 그 소문자판."""
-        if self._cased is not None and self._cased.search(raw):
-            return True
-        if self._uncased is not None and self._uncased.search(low):
-            return True
-        return any(t in low for t in self._sub)
+    def __call__(self, text: str) -> str:
+        return self._re.sub(" ", text) if self._re is not None and text else text
 
 
 class _Rule:
-    __slots__ = ("name", "category", "indicators", "match", "unless", "requires_any")
+    __slots__ = ("name", "category", "indicators", "match", "unless", "mask",
+                 "requires_any")
 
-    def __init__(self, spec: dict):
+    def __init__(self, spec: dict, case_sensitive: frozenset, keywords_of: dict):
         self.name = str(spec.get("name", ""))
         self.category = spec["category"]
         self.indicators = tuple(spec.get("indicators") or ())
-        self.match = _Matcher(spec["keywords"])
-        self.unless = _Matcher(spec["unless"]) if spec.get("unless") else None
+        self.match = _Matcher(spec["keywords"], case_sensitive)
+        unless: List[str] = []
+        for t in spec.get("unless") or ():
+            if t.startswith("@"):
+                if t[1:] not in keywords_of:
+                    raise ValueError(f"규칙 '{self.name}': unless가 가리키는 규칙 {t!r}이 없다")
+                unless.extend(keywords_of[t[1:]])
+            else:
+                unless.append(t)
+        self.unless = _Matcher(unless, case_sensitive) if unless else None
+        self.mask = _Masker(spec.get("mask") or ())
         self.requires_any = frozenset(spec.get("requires_any") or ())
         unknown = (set(self.indicators) | self.requires_any) - set(INDICATOR_KEYS)
         if unknown:
@@ -92,17 +141,31 @@ class _Rule:
         if self.category not in CATEGORIES:
             raise ValueError(f"규칙 '{self.name}': 모르는 분류 {self.category!r}")
 
+    def place(self, fields: Sequence[Tuple[str, str]]) -> Optional[str]:
+        """처음 맞은 필드 이름("title"/"body") 또는 None. unless는 필드마다 따진다 —
+        스니펫에 '한은'이 스쳐도 제목의 '美 금리 인하'는 그대로 맞는다."""
+        for name, text in fields:
+            if not text:
+                continue
+            if self.unless is not None and self.unless.search(text):
+                continue
+            if self.match.search(self.mask(text)):
+                return name
+        return None
+
 
 class Config:
     """indicator_keywords.json을 컴파일한 결과."""
 
     def __init__(self, data: dict):
-        self.masks = tuple(m for m in data.get("mask", []) if m)
-        self.rules = tuple(_Rule(r) for r in data["rules"])
-        self.holdings = tuple((str(h["name"]), _Matcher(h["keywords"]))
+        cs = frozenset(data.get("case_sensitive", ()))
+        self.mask = _Masker(data.get("mask", ()))
+        keywords_of = {str(r.get("name", "")): list(r["keywords"]) for r in data["rules"]}
+        self.rules = tuple(_Rule(r, cs, keywords_of) for r in data["rules"])
+        self.holdings = tuple((str(h["name"]), _Matcher(h["keywords"], cs))
                               for h in data.get("holdings", []))
         # 매체명은 대소문자 표기가 제각각이라(NewsData source_id는 전부 소문자) 늘 무시.
-        self.official = _Matcher(t.lower() for t in data.get("official_sources", []))
+        self.official = _Matcher(data.get("official_sources", []))
         self.weights = dict(data["weights"])
         self.priority = tuple(data["category_priority"])
         if set(self.priority) != set(CATEGORIES):
@@ -117,35 +180,20 @@ def load(path: str = str(KEYWORDS_PATH)) -> Config:
     return Config(json.loads(Path(path).read_text(encoding="utf-8")))
 
 
-def _mask(text: str, masks: Sequence[str]) -> str:
-    for m in masks:
-        if m in text:
-            text = text.replace(m, " ")
-    return text
-
-
 def score_article(a: Article, *, now: Optional[datetime] = None,
                   cfg: Optional[Config] = None) -> Article:
     """기사 하나에 indicators·rel_category·score를 붙인다(제자리 수정, 같은 객체 반환)."""
     cfg = cfg or load()
     w = cfg.weights
-    t_raw = _mask(a.title or "", cfg.masks)
-    b_raw = _mask(a.summary or "", cfg.masks)
-    t_low, b_low = t_raw.lower(), b_raw.lower()
+    fields = (("title", cfg.mask(a.title or "")), ("body", cfg.mask(a.summary or "")))
 
     def where(m: _Matcher) -> Optional[str]:
-        if m.search(t_raw, t_low):
-            return "title"
-        if m.search(b_raw, b_low):
-            return "body"
-        return None
+        return next((name for name, text in fields if text and m.search(text)), None)
 
     hits: List[Tuple[_Rule, str]] = []
     deferred: List[Tuple[_Rule, str]] = []
     for rule in cfg.rules:
-        if rule.unless is not None and where(rule.unless):
-            continue
-        place = where(rule.match)
+        place = rule.place(fields)
         if place is None:
             continue
         (deferred if rule.requires_any else hits).append((rule, place))
@@ -168,8 +216,8 @@ def score_article(a: Article, *, now: Optional[datetime] = None,
     category = next((c for c in cfg.priority if c in cats), "")
 
     multi = w["multi_source"] if len(a.related) >= w["multi_source_min_related"] else 0.0
-    src = (a.source_name or "").lower()
-    official = w["official_source"] if src and cfg.official.search(src, src) else 0.0
+    src = a.source_name or ""
+    official = w["official_source"] if src and cfg.official.search(src) else 0.0
     age_penalty = 0.0
     if a.published_at is not None:
         now = now or datetime.now(timezone.utc)
@@ -200,14 +248,18 @@ def filter_relevant(articles: List[Article], *,
 def clean_indicators(value) -> Optional[List[str]]:
     """LLM이 준 indicators 정리: 알려진 키만 남기고 INDICATOR_KEYS 순서로 정렬한다.
 
-    키가 없거나(null 포함) 유효 키가 하나도 없으면 None — 호출자는 결정론 채점이
-    붙인 indicators를 그대로 둔다."""
+    · 명시적인 빈 목록(``[]``) → ``[]`` — 모델이 "움직일 지표 없음"이라고 판정한 것이라
+      결정론 태그를 지운다.
+    · 키가 없거나(null 포함) 목록에 유효 키가 하나도 없으면(오타·모르는 키뿐) None —
+      호출자는 결정론 채점이 붙인 indicators를 그대로 둔다."""
     if value is None:
         return None
     if isinstance(value, str):
         value = [value]
     if not isinstance(value, (list, tuple)):
         return None
+    if not value:
+        return []
     keys = {str(v).strip() for v in value} & set(INDICATOR_KEYS)
     if not keys:
         return None
