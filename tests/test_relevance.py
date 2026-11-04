@@ -293,6 +293,11 @@ def test_case_sensitive_acronyms_stay_strict(title):
     assert _scored(title).rel_category == "", title
 
 
+def test_bok_mixed_case_acronym():
+    a = _scored("BoK raises interest rates")
+    assert a.rel_category == "central_bank" and a.indicators == ["bok_rate"]   # 연준 키 없음(unless)
+
+
 @pytest.mark.parametrize("title,absent", [
     ("Inflation data jolts markets", "claims"),   # JOLTS ≠ jolts
     ("Bok choy prices soar", "bok_rate"),         # BOK ≠ Bok
@@ -347,6 +352,29 @@ def test_claims_tagged_for_us_labour_data(title):
 def test_claims_context_can_come_from_snippet():
     a = _scored("노동시장 냉각 신호", summary="미국 7월 구인 건수가 줄었다.")
     assert "claims" in a.indicators
+
+
+@pytest.mark.parametrize("title", ["美 고용 부진", "미국 고용 둔화", "미 고용 둔화", "美 고용 호조에 달러 강세"])
+def test_us_employment_trend_phrases_tag_claims(title):
+    assert "claims" in _scored(title).indicators, (title, _scored(title).indicators)
+
+
+def test_claims_context_must_share_the_field_with_the_match():
+    # 제목의 '국내 고용시장'은 스니펫의 '미국 관세'로 미국 노동시장 기사가 되지 않는다.
+    a = _scored("국내 고용시장 한파", summary="미국 관세 영향으로 제조업 채용이 줄었다.")
+    assert "claims" not in a.indicators
+    # 제목의 맥락은 스니펫에도 통한다.
+    assert "claims" in _scored("美 경제 지표 점검", summary="노동시장 냉각이 이어졌다.").indicators
+    # 'Latin American'은 미국 맥락이 아니다.
+    assert "claims" not in _scored("Latin American labor market tightens").indicators
+
+
+def test_mask_keeps_leading_boundary_unless_marked():
+    # 'ether treasury' 같은 마스크가 'Tether Treasury' 안에서 'Treasury'를 지우면 안 된다.
+    assert "ust10y" in _scored("Tether Treasury bills holdings top $130 billion").indicators
+    # '*billion-dollar'처럼 표시한 마스크만 앞 경계 없이 지운다.
+    assert "dxy" not in _scored("Firm signs multibillion-dollar deal").indicators
+    assert "dxy" not in _scored("Firm signs multimillion dollar deal").indicators
 
 
 @pytest.mark.parametrize("title", ["Australian dollar slides", "Taiwan dollar hits record",

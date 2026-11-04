@@ -29,15 +29,18 @@
     표기로만 맞는다.
   · 전역 ``mask`` 낱말(유가족·유가증권·palm oil·gold medal 등)은 모든 매칭 전에
     지운다. 규칙별 ``mask``는 그 규칙의 키워드를 맞추기 전에만 지운다(관세청 ⊃ 관세).
-    mask는 앞쪽 영숫자 경계를 따지지 않는다('billion-dollar'가 'multibillion-dollar'
-    안에서도 지워진다). 거래소 티커 표기(``NASDAQ:MU``·``(NYSE: BRK)``)는 코드의
-    고정 패턴으로 지운다 — 대문자 거래소명 + 콜론 + 대문자 티커일 때만.
+    영문 키워드·mask 앞에 ``*``를 붙이면 앞쪽 영숫자 경계를 따지지 않는다
+    ('*billion-dollar'는 'multibillion-dollar' 안에서도 지워진다). 거래소 티커
+    표기(``NASDAQ:MU``·``(NYSE: BRK)``)는 코드의 고정 패턴으로 지운다 — 대문자
+    거래소명 + 콜론 + 대문자 티커일 때만.
   · 규칙별 ``unless``(한은·해외 중앙은행 → 연준 키 금지): 제목에 보이면 그 기사
     전체에서, 스니펫에만 보이면 스니펫에서만 규칙을 건너뛴다 — '이창용 …' 제목의
     스니펫 '금리 인하'도 연준으로 새지 않고, '美 금리 인하' 제목은 스니펫에 '한은'이
     스쳐도 연준 지표를 단다. ``@규칙이름``은 그 규칙의 키워드 전부를 뜻한다.
-  · 규칙별 ``context``: 기사(제목+스니펫) 어디엔가 이 낱말이 있어야 규칙이 선다
-    (노동시장·구인 같은 일반 낱말은 美·미국·연준 등 미국 맥락일 때만 claims).
+  · 규칙별 ``context``: 키워드가 맞은 필드에 이 낱말도 있어야 규칙이 선다(제목의
+    맥락은 스니펫에도 통한다 — 제목이 기사의 주어다). 노동시장·구인 같은 일반 낱말은
+    美·미국·연준 등 미국 맥락일 때만 claims이고, '국내 고용시장' 제목은 스니펫에
+    '미국 관세'가 나와도 claims가 아니다.
 """
 
 from __future__ import annotations
@@ -75,24 +78,26 @@ _ASCII_RIGHT = r"(?![0-9A-Za-z])"
 
 
 def _pattern(term: str) -> str:
-    """키워드 하나 → 정규식 조각. 영문은 영숫자 경계, 한글은 표식(^·$)대로."""
+    """키워드 하나 → 정규식 조각. 영문은 영숫자 경계(앞에 ``*``면 앞 경계 없음),
+    한글은 표식(^·$)대로."""
     if term.isascii():
-        # 경계는 키워드 가장자리가 영숫자일 때만 — 'NASDAQ:'(마스크)는 뒤에 티커가 붙어도 맞는다.
-        return ((_ASCII_LEFT if term[0].isalnum() else "") + re.escape(term)
-                + (_ASCII_RIGHT if term[-1].isalnum() else ""))
+        free_left = term.startswith("*")
+        if free_left:
+            term = term[1:]
+        # 경계는 키워드 가장자리가 영숫자일 때만 건다.
+        return ((_ASCII_LEFT if term[0].isalnum() and not free_left else "")
+                + re.escape(term) + (_ASCII_RIGHT if term[-1].isalnum() else ""))
     left = term.startswith("^")
     right = term.endswith("$")
     core = term[1 if left else 0:len(term) - 1 if right else len(term)]
     return (_LEFT if left else "") + re.escape(core) + (_RIGHT if right else "")
 
 
-def _alternation(terms: Sequence[str], flags: int, *, ascii_left: bool = True):
+def _alternation(terms: Sequence[str], flags: int):
     if not terms:
         return None
-    pats = (_pattern(t) for t in sorted(set(terms), key=len, reverse=True))
-    if not ascii_left:
-        pats = (p[len(_ASCII_LEFT):] if p.startswith(_ASCII_LEFT) else p for p in pats)
-    return re.compile("|".join(pats), flags)
+    body = "|".join(_pattern(t) for t in sorted(set(terms), key=len, reverse=True))
+    return re.compile(body, flags)
 
 
 # 거래소 티커 표기 — 'NASDAQ:MU'·'(NYSE: BRK.B)'. 종목 기사의 꼬리표일 뿐 미 증시
@@ -124,8 +129,7 @@ class _Masker:
     __slots__ = ("_re", "_tickers")
 
     def __init__(self, terms: Iterable[str], *, tickers: bool = False):
-        self._re = _alternation([t.strip() for t in terms if t and t.strip()],
-                                re.IGNORECASE, ascii_left=False)
+        self._re = _alternation([t.strip() for t in terms if t and t.strip()], re.IGNORECASE)
         self._tickers = tickers
 
     def __call__(self, text: str) -> str:
@@ -170,9 +174,8 @@ class _Rule:
         unless: 제목에 보이면 기사 전체에서 건너뛴다(제목이 한은·해외 중앙은행
         기사면 스니펫의 '금리 인하'도 그 은행 얘기다). 스니펫에만 보이면 스니펫만
         건너뛴다 — 제목의 '美 금리 인하'는 스니펫에 '한은'이 스쳐도 맞는다."""
-        if self.context is not None and not any(
-                text and self.context.search(text) for _, text in fields):
-            return None
+        title_ctx = (self.context is not None and bool(fields) and bool(fields[0][1])
+                     and self.context.search(fields[0][1]))
         for i, (name, text) in enumerate(fields):
             if not text:
                 continue
@@ -180,8 +183,12 @@ class _Rule:
                 if i == 0:
                     return None
                 continue
-            if self.match.search(self.mask(text)):
-                return name
+            if not self.match.search(self.mask(text)):
+                continue
+            # context: 맞은 필드에 맥락이 있거나, 제목에 맥락이 있을 때만.
+            if self.context is not None and not (title_ctx or self.context.search(text)):
+                continue
+            return name
         return None
 
 
