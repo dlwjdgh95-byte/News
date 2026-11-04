@@ -293,6 +293,15 @@ def test_case_sensitive_acronyms_stay_strict(title):
     assert _scored(title).rel_category == "", title
 
 
+@pytest.mark.parametrize("title,absent", [
+    ("Inflation data jolts markets", "claims"),   # JOLTS ≠ jolts
+    ("Bok choy prices soar", "bok_rate"),         # BOK ≠ Bok
+    ("Ohtani adds 2 rbi in win", "dxy"),          # RBI ≠ rbi (야구 타점)
+])
+def test_case_sensitive_acronyms_added_in_review(title, absent):
+    assert absent not in _scored(title).indicators, (title, _scored(title).indicators)
+
+
 # --- 규칙별 mask·unless ----------------------------------------------------------
 def test_customs_office_mention_does_not_disable_tariff_rule():
     # 예전 unless는 기사 전체를 봤다 — '관세청'만 스쳐도 관세 규칙이 꺼졌다.
@@ -306,6 +315,64 @@ def test_unless_is_per_field():
     assert {"fed_upper", "fomc_cut", "bok_rate"} <= set(a.indicators)
     # 제목에 한은이 있으면 제목의 '금리 동결'은 연준으로 새지 않는다.
     assert _scored("한은, 금리 동결").indicators == ["bok_rate"]
+
+
+@pytest.mark.parametrize("title,summary,expected", [
+    ("이창용 '금리 인하 신중'", "시장에서는 내년 초 금리 인하를 점치고 있다.", ["bok_rate"]),
+    ("RBA hikes to 18-year high", "Interest rates rose by 25 basis points.", ["dxy"]),
+    ("영란은행, 금리 인하", "금리 인하 폭은 0.25%p다.", ["dxy"]),
+])
+def test_unless_in_title_also_blocks_snippet(title, summary, expected):
+    # 제목이 한은·해외 중앙은행 기사면 스니펫의 일반 금리 낱말도 그 은행 얘기다 — 연준 키 금지.
+    a = _scored(title, summary=summary)
+    assert a.rel_category == "central_bank"
+    assert a.indicators == expected, (title, a.indicators)
+
+
+# --- 고용·달러·기타 좁히기 (2차 리뷰) ------------------------------------------
+@pytest.mark.parametrize("title", ["재고용 확대", "삼성전자 미국 공장 고용 1500명",
+                                   "영국 고용시장 약세 지속", "UK jobs market stays soft",
+                                   "DOSM: Labour market stability supports Malaysia's outlook"])
+def test_claims_not_tagged_for_hiring_or_non_us_labour_news(title):
+    assert "claims" not in _scored(title).indicators, (title, _scored(title).indicators)
+
+
+@pytest.mark.parametrize("title", ["미 8월 고용 16만2천 명 증가", "부진한 美 고용지표에 국채금리 하락",
+                                   "비트코인, 8월 고용 서프라이즈에 8만 달러 붕괴",
+                                   "Fed watches cooling labor market", "美 신규 고용 15만 명"])
+def test_claims_tagged_for_us_labour_data(title):
+    assert "claims" in _scored(title).indicators, (title, _scored(title).indicators)
+
+
+def test_claims_context_can_come_from_snippet():
+    a = _scored("노동시장 냉각 신호", summary="미국 7월 구인 건수가 줄었다.")
+    assert "claims" in a.indicators
+
+
+@pytest.mark.parametrize("title", ["Australian dollar slides", "Taiwan dollar hits record",
+                                   "Startup raises cash in multibillion-dollar deal",
+                                   "Dollar-backed stablecoins grow", "Hong Kong dollar peg tested"])
+def test_foreign_dollars_and_dollar_adjectives_do_not_tag_dxy(title):
+    assert "dxy" not in _scored(title).indicators, (title, _scored(title).indicators)
+
+
+def test_us_dollar_still_tags_dxy():
+    assert "dxy" in _scored("US dollar rises after jobs data").indicators
+
+
+def test_more_korean_boundaries_from_review():
+    assert "wti" not in _scored("카드사 회원유치 경쟁 과열").indicators
+    assert "wti" in _scored("국제 원유 공급 감소").indicators
+    assert _scored("현금 ETF로 자금 몰려").rel_category == ""
+    assert _scored("금 ETF 자금 유입 사상 최대").rel_category in ("holding", "data")
+    assert _scored("대선배 기업인의 조언").rel_category == ""
+
+
+def test_ticker_notation_masked_but_plain_nasdaq_matches():
+    assert _scored("Micron Technology (NASDAQ:MU) Stock Gets Price Target").rel_category == ""
+    assert _scored("Vanguard ETF (NASDAQ: VGLT) hits 52-week low").rel_category == ""
+    a = _scored("Stocks rise on the Nasdaq: Apple up 2%")
+    assert a.rel_category == "data" and "vix" in a.indicators
 
 
 # --- 선거 규칙 축소 -------------------------------------------------------------
@@ -709,3 +776,64 @@ def test_summary_max_tokens_scales_with_items():
     assert summarize._max_tokens(8) == 2000
     assert summarize._max_tokens(14) > summarize._max_tokens(8)
     assert summarize._max_tokens(100) == 4000
+
+
+# --- 관련도 단계 예외 통과 · 모의 LLM 요약 -------------------------------------------
+def test_relevance_exception_passes_articles_through_unharmed(hybrid_paths, monkeypatch):
+    # 채점 버그가 하루를 죽이면 안 된다 — 예외면 채점 없이 그대로 다음 단계로.
+    arts = [_a("가을 단풍 명소 추천", source_name="생활"),
+            _a("환율 1,450원 돌파", source_name="연합뉴스", source_tag=SOURCE_B)]
+    monkeypatch.setattr(pipeline, "_collect_all", lambda: (arts, []))
+
+    def boom(*a, **k):
+        raise RuntimeError("scoring bug")
+    monkeypatch.setattr(relevance, "filter_relevant", boom)
+
+    out = pipeline.run_prepare()
+    assert out["mode"] == "prepare" and out["candidates"] == 2
+    assert out["irrelevant_dropped"] == 0 and "quiet" not in out
+    pool = json.loads(pipeline.POOL_PATH.read_text(encoding="utf-8"))["candidates"]
+    assert {c["title"] for c in pool} == {"가을 단풍 명소 추천", "환율 1,450원 돌파"}
+    assert all(c["url"].startswith("https://n.com/") for c in pool)
+
+
+def test_fallback_gather_survives_scoring_exception(monkeypatch):
+    from news import fallback, http
+    entries = [SimpleNamespace(title="연준 금리 동결", link="https://f.com/9", source_name="연합뉴스",
+                               summary="", published=NOW)]
+    monkeypatch.setattr(http, "fetch_feed", lambda url, name: entries)
+    monkeypatch.setattr(relevance, "score_all", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("x")))
+    items = fallback._gather([("feed", "https://feed")], SOURCE_A, 10)
+    assert [a.title for a in items] == ["연준 금리 동결"]
+
+
+def test_llm_summarize_with_new_response_shape(monkeypatch):
+    from news import llm, summarize
+    arts = [_scored("美 국채 10년물 금리 4.6% 돌파", language="ko"),
+            _scored("Oil jumps as Iran tensions flare", language="en"),
+            _scored("원·달러 환율 1,450원 돌파", language="ko")]
+    calls = {}
+
+    def fake_complete(system, user, *, max_tokens):
+        calls["max_tokens"] = max_tokens
+        calls["user"] = user
+        return {"items": [
+            {"id": 0, "title": "美 10년물 금리 4.6% 돌파", "one_liner": "10년물 금리가 4.6%를 넘었다.",
+             "indicators": ["ust10y", "not_a_key"], "confidence": 0.82, "flags": []},
+            {"id": 1, "title": "이란 긴장에 유가 급등", "one_liner": "유가가 뛰었다.",
+             "indicators": [], "confidence": 0.7, "flags": ["unsourced-claim"]},
+            # id 2 누락 → 휴리스틱(제목 = 한 줄 요약, 결정론 태그 유지)
+        ]}
+    monkeypatch.setattr(llm, "available", lambda: True)
+    monkeypatch.setattr(llm, "complete_json", fake_complete)
+
+    assert summarize.summarize(arts) == "llm"
+    assert calls["max_tokens"] == summarize._max_tokens(3)
+    assert "indicators" in calls["user"] and "ust10y" in calls["user"]
+    a0, a1, a2 = arts
+    assert a0.one_liner == "10년물 금리가 4.6%를 넘었다." and a0.indicators == ["ust10y"]
+    assert a0.confidence == 0.82
+    assert a1.title == "이란 긴장에 유가 급등 (원문: Oil jumps as Iran tensions flare)"
+    assert a1.indicators == [] and "unsourced-claim" in a1.flags   # 명시적 [] → 지움
+    assert a2.one_liner == a2.title and a2.indicators == ["usdkrw"]
+    assert a2.evidence.endswith("(LLM 미사용)")

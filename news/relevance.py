@@ -24,13 +24,20 @@
   · 대소문자는 기본으로 무시한다 — 제목식 대문자('U.S. Dollar', 'Clarity Act',
     'Gold ETF')와 전부 대문자('NASDAQ')도 맞는다. 예외는 JSON 최상위
     ``case_sensitive`` 목록의 약어뿐이다: 소문자로 쓰면 흔한 다른 낱말이 되는 것
-    (TIPS≠tips, HOOD≠hood, Fed≠fed up, SEC≠sec, QT·QE, ISM≠-ism)과 늘 대문자로만
-    쓰는 티커 ETH. 이들은 정확히 그 표기로만 맞는다.
+    (TIPS≠tips, HOOD≠hood, Fed≠fed up, SEC≠sec, QT·QE, ISM≠-ism, JOLTS≠jolts,
+    BOK≠bok choy, RBI≠rbi, US≠us)과 늘 대문자로만 쓰는 티커 ETH. 이들은 정확히 그
+    표기로만 맞는다.
   · 전역 ``mask`` 낱말(유가족·유가증권·palm oil·gold medal 등)은 모든 매칭 전에
     지운다. 규칙별 ``mask``는 그 규칙의 키워드를 맞추기 전에만 지운다(관세청 ⊃ 관세).
-  · 규칙별 ``unless``는 그 낱말이 보이는 필드(제목/스니펫)에서 그 규칙을 건너뛴다
-    (한은·해외 중앙은행 기사의 '금리 인하'가 연준 지표로 새지 않게). ``@규칙이름``은
-    그 규칙의 키워드 전부를 뜻한다.
+    mask는 앞쪽 영숫자 경계를 따지지 않는다('billion-dollar'가 'multibillion-dollar'
+    안에서도 지워진다). 거래소 티커 표기(``NASDAQ:MU``·``(NYSE: BRK)``)는 코드의
+    고정 패턴으로 지운다 — 대문자 거래소명 + 콜론 + 대문자 티커일 때만.
+  · 규칙별 ``unless``(한은·해외 중앙은행 → 연준 키 금지): 제목에 보이면 그 기사
+    전체에서, 스니펫에만 보이면 스니펫에서만 규칙을 건너뛴다 — '이창용 …' 제목의
+    스니펫 '금리 인하'도 연준으로 새지 않고, '美 금리 인하' 제목은 스니펫에 '한은'이
+    스쳐도 연준 지표를 단다. ``@규칙이름``은 그 규칙의 키워드 전부를 뜻한다.
+  · 규칙별 ``context``: 기사(제목+스니펫) 어디엔가 이 낱말이 있어야 규칙이 선다
+    (노동시장·구인 같은 일반 낱말은 美·미국·연준 등 미국 맥락일 때만 claims).
 """
 
 from __future__ import annotations
@@ -79,11 +86,19 @@ def _pattern(term: str) -> str:
     return (_LEFT if left else "") + re.escape(core) + (_RIGHT if right else "")
 
 
-def _alternation(terms: Sequence[str], flags: int):
+def _alternation(terms: Sequence[str], flags: int, *, ascii_left: bool = True):
     if not terms:
         return None
-    body = "|".join(_pattern(t) for t in sorted(set(terms), key=len, reverse=True))
-    return re.compile(body, flags)
+    pats = (_pattern(t) for t in sorted(set(terms), key=len, reverse=True))
+    if not ascii_left:
+        pats = (p[len(_ASCII_LEFT):] if p.startswith(_ASCII_LEFT) else p for p in pats)
+    return re.compile("|".join(pats), flags)
+
+
+# 거래소 티커 표기 — 'NASDAQ:MU'·'(NYSE: BRK.B)'. 종목 기사의 꼬리표일 뿐 미 증시
+# 기사가 아니다. 대문자 거래소명 + 콜론 + 대문자 티커만 지워서 '…on the Nasdaq: Apple
+# up 2%'의 Nasdaq은 그대로 미 증시 규칙에 맞는다.
+_TICKER = re.compile(r"(?<![A-Za-z])(?:NASDAQ|NYSE)\s?:\s?[A-Z]{1,5}(?![A-Za-z])")
 
 
 class _Matcher:
@@ -106,18 +121,24 @@ class _Matcher:
 class _Masker:
     """mask 낱말을 지우는 치환기(대소문자 무시, 영문은 영숫자 경계)."""
 
-    __slots__ = ("_re",)
+    __slots__ = ("_re", "_tickers")
 
-    def __init__(self, terms: Iterable[str]):
-        self._re = _alternation([t.strip() for t in terms if t and t.strip()], re.IGNORECASE)
+    def __init__(self, terms: Iterable[str], *, tickers: bool = False):
+        self._re = _alternation([t.strip() for t in terms if t and t.strip()],
+                                re.IGNORECASE, ascii_left=False)
+        self._tickers = tickers
 
     def __call__(self, text: str) -> str:
-        return self._re.sub(" ", text) if self._re is not None and text else text
+        if not text:
+            return text
+        if self._tickers:
+            text = _TICKER.sub(" ", text)
+        return self._re.sub(" ", text) if self._re is not None else text
 
 
 class _Rule:
     __slots__ = ("name", "category", "indicators", "match", "unless", "mask",
-                 "requires_any")
+                 "context", "requires_any")
 
     def __init__(self, spec: dict, case_sensitive: frozenset, keywords_of: dict):
         self.name = str(spec.get("name", ""))
@@ -134,6 +155,8 @@ class _Rule:
                 unless.append(t)
         self.unless = _Matcher(unless, case_sensitive) if unless else None
         self.mask = _Masker(spec.get("mask") or ())
+        self.context = (_Matcher(spec["context"], case_sensitive)
+                        if spec.get("context") else None)
         self.requires_any = frozenset(spec.get("requires_any") or ())
         unknown = (set(self.indicators) | self.requires_any) - set(INDICATOR_KEYS)
         if unknown:
@@ -142,12 +165,20 @@ class _Rule:
             raise ValueError(f"규칙 '{self.name}': 모르는 분류 {self.category!r}")
 
     def place(self, fields: Sequence[Tuple[str, str]]) -> Optional[str]:
-        """처음 맞은 필드 이름("title"/"body") 또는 None. unless는 필드마다 따진다 —
-        스니펫에 '한은'이 스쳐도 제목의 '美 금리 인하'는 그대로 맞는다."""
-        for name, text in fields:
+        """처음 맞은 필드 이름("title"/"body") 또는 None. fields는 (제목, 스니펫) 순.
+
+        unless: 제목에 보이면 기사 전체에서 건너뛴다(제목이 한은·해외 중앙은행
+        기사면 스니펫의 '금리 인하'도 그 은행 얘기다). 스니펫에만 보이면 스니펫만
+        건너뛴다 — 제목의 '美 금리 인하'는 스니펫에 '한은'이 스쳐도 맞는다."""
+        if self.context is not None and not any(
+                text and self.context.search(text) for _, text in fields):
+            return None
+        for i, (name, text) in enumerate(fields):
             if not text:
                 continue
             if self.unless is not None and self.unless.search(text):
+                if i == 0:
+                    return None
                 continue
             if self.match.search(self.mask(text)):
                 return name
@@ -159,7 +190,7 @@ class Config:
 
     def __init__(self, data: dict):
         cs = frozenset(data.get("case_sensitive", ()))
-        self.mask = _Masker(data.get("mask", ()))
+        self.mask = _Masker(data.get("mask", ()), tickers=True)
         keywords_of = {str(r.get("name", "")): list(r["keywords"]) for r in data["rules"]}
         self.rules = tuple(_Rule(r, cs, keywords_of) for r in data["rules"])
         self.holdings = tuple((str(h["name"]), _Matcher(h["keywords"], cs))

@@ -91,14 +91,15 @@
      "confidence":0.8,"flags":[]}],
     "events":["美 10월 CPI 발표(11/13 22:30 KST)"]}
 
-4) `python run.py --finalize` 실행. 출력의 "delivered"가 0/N이면(전송 실패) `python run.py --fallback`
-   실행. selection.json이 없거나 비면 finalize가 자동으로 휴리스틱 선별로 대체한다.
+4) `python run.py --finalize` 실행. 출력의 brief_path·ir_path가 찍히는지 확인하라(발송 단계는
+   없다 — "delivered" 키도 없다). mode가 "fallback"이면 렌더·기록 단계가 실패해 폴백이 돈 것이니
+   마지막 보고에 적어라. selection.json이 없거나 비면 finalize가 자동으로 휴리스틱 선별로 대체한다.
 
 5) 상태 영속화: `git add state/sent_log.json briefs/ && git commit -m "chore: briefing $(date -u +%F)"`
    후 기본 브랜치로 푸시하라(루틴 권한에서 "Allow unrestricted branch pushes"를 켜야 main 푸시 가능).
    재발송 방지(sent_log)와 아카이브가 다음 실행에 반영되려면 이 단계가 필요하다.
 
-성공/실패와 발송 건수를 마지막에 한 줄로 보고하라.
+성공/실패(fallback·quiet 여부)와 기록 건수(selected·pushed)를 마지막에 한 줄로 보고하라.
 ```
 
 ## 백업 스케줄러
