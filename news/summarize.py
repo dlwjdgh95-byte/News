@@ -1,7 +1,8 @@
 """Single-call structured summarisation with evidence enforcement + translation.
 
-Per spec, for the selected articles we make ONE batched LLM call producing, per
-article: 제목 / 한줄요약 / 왜 중요한지 / 태그 / confidence / evidence.
+지표 중심 설계(2026-11-04): 선별된 기사마다 ONE batched LLM call로
+제목(번역) / 한줄요약 / indicators / confidence / flags 만 만든다. 예전 필드
+(왜 중요한지·함의·태그·근거)는 선택 — 응답에 있으면 받고, 없으면 비워 둔다.
 
 Hard rules pushed into the prompt:
 - Reason ONLY from the provided title + summary snippet; if the source gives no
@@ -11,9 +12,9 @@ Hard rules pushed into the prompt:
 - Flag unsourced certainty words ("likely/clearly/will definitely") not
   attributable to the source.
 
-Heuristic fallback (no LLM): use the source snippet verbatim as the one-liner,
-keep the original title, attach a low confidence and an "no-llm" evidence note —
-never inventing analysis.
+Heuristic fallback (no LLM): 한국어 기사는 제목을 그대로 한 줄 요약으로 쓰고, 낮은
+신뢰 표식("(LLM 미사용)" evidence)을 붙인다 — 분석을 지어내지 않는다. 번역할 수
+없는 외국어 기사는 한 줄 요약을 비운다(원문 제목만 "(원문 미번역)"으로 보인다).
 """
 
 from __future__ import annotations
@@ -21,16 +22,16 @@ from __future__ import annotations
 import json
 from typing import List
 
-from . import config, llm
+from . import config, llm, relevance
 from .model import Article
 
 _SUM_SYSTEM = (
-    "당신은 한국어 뉴스 브리핑 편집자입니다. 각 기사에 대해 제공된 제목과 요약 스니펫만 "
-    "근거로 사용하세요. 스니펫 범위를 넘는 추론은 금지합니다. 본문이 없으면 제목+요약 "
-    "한도 내에서만 작성하세요. 한국어가 아닌 기사는 제목을 한국어로 번역하되 원문 제목을 "
-    "보존하세요. 'likely/clearly/will definitely'처럼 출처에 귀속되지 않는 단정 표현은 "
-    "flags에 'unsourced-claim'으로 표시하세요. 사실과 의견을 구분하고 과장하지 마세요. "
-    "반드시 JSON만 출력하세요."
+    "당신은 한국어 아침 뉴스 브리핑 편집자입니다. 핵심 지표나 보유 종목을 움직이는 "
+    "정치·경제 뉴스만 다룹니다. 각 기사에 대해 제공된 제목과 요약 스니펫만 근거로 "
+    "한 줄 요약을 쓰세요. 스니펫 범위를 넘는 추론은 금지합니다. 한국어가 아닌 기사는 "
+    "제목을 한국어로 번역하세요(원문 보존은 파이썬이 처리). 'likely/clearly/will "
+    "definitely'처럼 출처에 귀속되지 않는 단정 표현은 flags에 'unsourced-claim'으로 "
+    "표시하세요. 사실과 의견을 구분하고 과장하지 마세요. 반드시 JSON만 출력하세요."
 )
 
 
@@ -44,17 +45,23 @@ def _payload(articles: List[Article]) -> str:
     return "[\n" + ",\n".join(rows) + "\n]"
 
 
+def _max_tokens(n: int) -> int:
+    """요약 응답 토큰 상한: 기사당 ~200(번역 제목 + 한 줄 요약 + 태그) + 여유 400.
+    8건이면 2000, 상한 4000."""
+    return min(4000, 400 + 200 * max(1, n))
+
+
 def _llm_summarize(articles: List[Article]) -> bool:
     user = (
-        f"{len(articles)}건의 기사를 구조화하세요. 각 행: id/source/title(+원문이 다르면 "
-        f"original_title)/snippet/기존 flags.\n\n{_payload(articles)}\n\n"
-        '각 기사에 대해 다음 JSON을 출력하세요:\n'
-        '{"items": [{"id": 0, "title": "한국어 제목(원문 보존은 파이썬이 처리)", '
-        '"one_liner": "한줄요약", "why_it_matters": "왜 중요한지", "tags": ["태그"], '
-        '"confidence": 0.0~1.0, "evidence": "인용한 원문 구절 + 출처", '
-        '"flags": ["unsourced-claim 등"]}]}'
+        f"{len(articles)}건의 기사를 한 줄씩 요약하세요. 각 행: id/title/source/snippet/"
+        f"category/indicators(결정론 태그).\n\n{_payload(articles)}\n\n"
+        f"indicators는 이 키 중에서만 고르세요: {', '.join(relevance.INDICATOR_KEYS)}.\n"
+        '출력 형식: {"items": [{"id": 0, "title": "한국어 제목", "one_liner": "한 줄 요약", '
+        '"indicators": ["ust10y"], "confidence": 0.0~1.0, "flags": []}]}'
     )
-    result = llm.complete_json(_SUM_SYSTEM, user, max_tokens=4096)
+    # Output is ≤ max_items one-liners — keep generation tight, but scale with
+    # the item count so a larger NEWS_MAX_ITEMS doesn't truncate the JSON.
+    result = llm.complete_json(_SUM_SYSTEM, user, max_tokens=_max_tokens(len(articles)))
     if not result or "items" not in result:
         return False
     by_id = {}
@@ -70,21 +77,43 @@ def _llm_summarize(articles: List[Article]) -> bool:
         if not item:
             _heuristic_one(a)
             continue
-        translated = (item.get("title") or "").strip()
-        a.one_liner = (item.get("one_liner") or "").strip()
-        a.why_it_matters = (item.get("why_it_matters") or "").strip()
-        tags = item.get("tags") or []
-        a.tags = [str(t) for t in tags][:5]
-        try:
-            a.confidence = max(0.0, min(1.0, float(item.get("confidence", a.confidence))))
-        except (ValueError, TypeError):
-            pass
-        a.evidence = (item.get("evidence") or "").strip()
-        for f in (item.get("flags") or []):
-            if f and f not in a.flags:
-                a.flags.append(str(f))
-        _apply_translation(a, translated)
+        apply_item(a, item)
     return True
+
+
+def _text(v) -> str:
+    return str(v).strip() if v is not None else ""
+
+
+def apply_item(a: Article, item: dict) -> None:
+    """선별·요약 항목 하나를 기사에 반영한다 — selection.json의 ``selected`` 행과
+    자율 경로 LLM 응답의 ``items`` 행이 같은 모양이라 둘 다 이 함수를 쓴다.
+
+    필수: title, one_liner, confidence, flags. ``indicators``가 없거나 유효 키가
+    없으면 결정론 채점이 붙인 값을 유지한다. 구형 필드(why_it_matters·
+    implications·tags·evidence)는 있으면 받고, 없으면 빈 값이다."""
+    a.one_liner = _text(item.get("one_liner"))
+    a.why_it_matters = _text(item.get("why_it_matters"))
+    a.implications = _text(item.get("implications"))
+    tags = item.get("tags") or []
+    if isinstance(tags, str):
+        tags = [tags]
+    a.tags = [str(t) for t in tags if str(t).strip()][:5]
+    try:
+        a.confidence = max(0.0, min(1.0, float(item.get("confidence", a.confidence))))
+    except (ValueError, TypeError):
+        pass
+    a.evidence = _text(item.get("evidence"))
+    flags = item.get("flags") or []
+    if isinstance(flags, str):
+        flags = [flags]
+    for f in flags:
+        if f and str(f) not in a.flags:
+            a.flags.append(str(f))
+    indicators = relevance.clean_indicators(item.get("indicators"))
+    if indicators is not None:
+        a.indicators = indicators
+    _apply_translation(a, _text(item.get("title")))
 
 
 def _apply_translation(a: Article, translated_title: str) -> None:
@@ -100,17 +129,20 @@ def _apply_translation(a: Article, translated_title: str) -> None:
 
 
 def _heuristic_one(a: Article) -> None:
-    """No-LLM structuring: never infer beyond the provided snippet."""
-    snippet = a.summary.strip()
-    a.one_liner = snippet[:160] if snippet else a.title
+    """No-LLM structuring: 한국어 기사는 제목을 그대로 한 줄 요약으로 쓴다. 스니펫
+    너머 추론 금지. 외국어 기사는 번역이 없으니 한 줄 요약을 비운다 — 제목을
+    그대로 넣으면 "(원문 미번역)" 제목 아래 같은 영문 줄이 한 번 더 찍힌다."""
     a.why_it_matters = ""  # cannot assert importance without analysis
     if not a.tags:
         a.tags = [a.category] if a.category else []
-    a.evidence = "원문 스니펫 (LLM 미사용)"
+    a.evidence = "원문 제목 (LLM 미사용)"
     if a.language and a.language != "ko":
         # No translation available offline: keep original, mark it.
+        a.one_liner = ""
         if "원문:" not in a.title:
             a.title = f"{a.original_title} (원문 미번역)"
+    else:
+        a.one_liner = a.title
 
 
 def summarize(articles: List[Article]) -> str:

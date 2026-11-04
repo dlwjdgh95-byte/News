@@ -58,6 +58,12 @@ class Article:
     cluster_id: Optional[int] = None             # dedup cluster membership
     related: List[str] = field(default_factory=list)       # "관련 보도" urls merged into this rep
 
+    # 지표 중심 관련도 (relevance 단계가 채움 — LLM 앞단 결정론 채점)
+    indicators: List[str] = field(default_factory=list)    # 움직일 지표 키 (Miner briefing/indicators.yaml)
+    rel_category: str = ""                       # 필수 분류: central_bank/data/policy/geopolitics/holding
+                                                 # (수집 단계의 category와 별개 — 산출물에선 "category")
+    score: float = 0.0                           # 관련도 점수 (풀 정렬·휴리스틱 선별 기준)
+
     # Structured summary fields (filled by the summarize stage)
     one_liner: str = ""                          # 한줄요약
     why_it_matters: str = ""                     # 왜 중요한지
@@ -98,28 +104,19 @@ class Article:
             d["published_at"] = self.published_at.astimezone(timezone.utc).isoformat()
         return d
 
-    def to_llm_dict(self, idx: int, *, snippet_chars: int | None = 400) -> dict:
-        """Compact view for LLM/agent prompts. Only fields that inform
-        selection/summarisation are included; URLs (Google News links run to
-        hundreds of characters), related[] and key_entities are deliberately
-        excluded — the model refers to articles by ``id`` only. Empty fields
-        are omitted. ``snippet_chars=None`` drops the snippet (selection needs
-        titles only)."""
+    def to_llm_dict(self, idx: int, *, snippet_chars: int | None = 120) -> dict:
+        """Compact view for LLM/agent prompts (candidates.json 한 행).
+
+        지표 중심 슬림 뷰: id, title, source + 있을 때만 snippet(절단), age_h,
+        category(관련도 분류 = rel_category), indicators, related_count. URL·
+        related[]·key_entities·confidence·flags 등은 넣지 않는다 — 모델은 ``id``로만
+        기사를 가리키고, 나머지는 pool.json을 읽는 --finalize가 복원한다.
+        ``snippet_chars=None`` drops the snippet (selection needs titles only)."""
         d = {
             "id": idx,
-            "tag": self.source_tag,
-            "source": self.source_name,
             "title": self.title,
-            "confidence": round(self.confidence, 2),
+            "source": self.source_name,
         }
-        if self.original_title and self.original_title != self.title:
-            d["original_title"] = self.original_title
-        if self.language:
-            d["lang"] = self.language
-        if self.category:
-            d["category"] = self.category
-        if self.sentiment:
-            d["sentiment"] = self.sentiment
         if snippet_chars:
             snippet = self.summary[:snippet_chars].strip()
             if snippet:
@@ -127,10 +124,10 @@ class Article:
         if self.published_at is not None:
             age_h = (datetime.now(timezone.utc) - self.published_at).total_seconds() / 3600.0
             d["age_h"] = max(0, round(age_h, 1))
-        if self.cluster_id is not None:
-            d["cluster_id"] = self.cluster_id
-        if self.flags:
-            d["flags"] = self.flags
+        if self.rel_category:
+            d["category"] = self.rel_category
+        if self.indicators:
+            d["indicators"] = list(self.indicators)
         if self.related:
             d["related_count"] = len(self.related)
         return d

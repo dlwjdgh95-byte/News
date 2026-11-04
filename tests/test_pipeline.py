@@ -386,16 +386,22 @@ def test_llm_dict_excludes_urls_and_truncates():
     assert "snippet" not in d2, "selection payload must be snippet-free"
 
 
-def test_cap_pool_bounded_and_balanced():
+def test_cap_pool_bounded_by_score_with_diversity_caps():
+    # 2026-11-04: 태그 라운드로빈 대신 관련도 점수순 + 기존 다양성 캡(매체당 2).
     from news import pipeline
-    arts = ([_a(f"시사 {i}", f"https://a.com/{i}", source_tag=SOURCE_A) for i in range(30)]
-            + [_a(f"경제 {i}", f"https://b.com/{i}", source_tag=SOURCE_B) for i in range(30)]
-            + [_a(f"크립토 {i}", f"https://c.com/{i}", source_tag=SOURCE_C) for i in range(30)])
+    arts = []
+    for i, tag in enumerate([SOURCE_A, SOURCE_B, SOURCE_C] * 10):
+        a = _a(f"기사 {i}", f"https://n.com/{i}", source_tag=tag, source_name=f"Outlet{i}")
+        a.score = float(i)
+        arts.append(a)
     capped = pipeline._cap_pool(arts, 12)
     assert len(capped) == 12
-    tags = {a.source_tag for a in capped}
-    assert tags == {SOURCE_A, SOURCE_B, SOURCE_C}, "no tag may be crowded out"
-    assert pipeline._cap_pool(arts[:5], 12) == arts[:5], "under-cap pool untouched"
+    assert [a.score for a in capped] == sorted((a.score for a in arts), reverse=True)[:12]
+    same = [_a(f"같은 매체 {i}", f"https://s.com/{i}", source_name="BigOutlet") for i in range(5)]
+    # 풀 단계 매체당 캡은 3(최종 선별 캡 2보다 하나 넉넉하게 — 점수 동점이 흔하다).
+    assert len(pipeline._cap_pool(same, 12)) == 3, "pool-stage per-source cap is 3"
+    chosen, _ = select.select(pipeline._cap_pool(same, 12), max_items=8)
+    assert len(chosen) == 2, "final selection keeps the per-source cap of 2"
 
 
 def test_digest_strips_links_and_archive():
@@ -412,12 +418,12 @@ def test_digest_strips_links_and_archive():
 def test_agent_view_dump_is_valid_compact_json():
     import json
     from news import pipeline
-    payload = {"max_items": 14, "yesterday_digest": "요약",
+    payload = {"max_items": 8, "yesterday_digest": "요약",
                "candidates": [_a("t1", "https://n.com/1").to_llm_dict(0),
                               _a("t2", "https://n.com/2").to_llm_dict(1)]}
     out = pipeline._dump_agent_view(dict(payload, candidates=list(payload["candidates"])))
     parsed = json.loads(out)
-    assert parsed["max_items"] == 14 and len(parsed["candidates"]) == 2
+    assert parsed["max_items"] == 8 and len(parsed["candidates"]) == 2
     assert "  " not in out.replace("\n  ", "\n"), "no indentation overhead"
 
 

@@ -9,6 +9,15 @@ Sections (per spec):
 
 Push vs archive: low-confidence or weak-evidence items are archived (kept in the
 markdown file) but NOT pushed to Telegram.
+
+지표 중심 설계(2026-11-04): 기사마다 ``지표: ust10y, usdkrw`` 줄과 그 바로 아래
+``분류: central_bank`` 줄이 붙고(키는 Miner briefing/indicators.yaml, 분류는
+relevance의 필수 분류), IR 항목에는 ``indicators``·``category``가 붙는다. 섹션·헤딩
+구조는 그대로다 — 기사 수(최대 8)와 줄 수만 줄었다. IR ``items``는 ``selected``
+순서(에이전트 순위, 휴리스틱이면 점수순)라 소비자가 앞 N건을 그대로 쓴다.
+
+조용한 날(관련 기사 0건)은 고장이 아니다: md에 ``QUIET_LINE`` 한 줄, IR에
+``quiet: true`` + 빈 items(``degraded``는 없음).
 """
 
 from __future__ import annotations
@@ -43,6 +52,7 @@ def _html_to_md(s: str) -> str:
     return _html.unescape(s)
 
 PUSH_CONFIDENCE_MIN = 0.45  # below this => archive only
+QUIET_LINE = "오늘은 지표와 관련된 필수 뉴스가 없습니다."
 
 # Forward-looking schedule cues for the "오늘 주목할 이벤트" section. We only want
 # items that point at something *upcoming*, not reports of past events, so the
@@ -95,7 +105,11 @@ def market_mood(economy: List[Article]) -> str:
 def _split_push_archive(arts: List[Article]) -> Tuple[List[Article], List[Article]]:
     push, archive = [], []
     for a in arts:
-        weak_evidence = (not a.evidence) or a.evidence.endswith("(LLM 미사용)")
+        # 새 selection 계약에는 evidence가 없다 — 근거가 약하다는 표식은 휴리스틱
+        # 경로의 "(LLM 미사용)" 꼬리표, 또는 요약도 근거도 없는 경우뿐이다. 에이전트가
+        # 쓴 한 줄 요약은 confidence 하나로 판정한다.
+        weak_evidence = (a.evidence.endswith("(LLM 미사용)")
+                         or (not a.evidence and not a.one_liner))
         if a.confidence < PUSH_CONFIDENCE_MIN or (weak_evidence and a.confidence < 0.6):
             archive.append(a)
         else:
@@ -112,12 +126,19 @@ def _fmt_article(a: Article, idx: int) -> str:
     else:
         head = f"<b>{idx}. {title}</b>"
     lines = [head]
-    if a.one_liner:
+    if a.one_liner and a.one_liner != a.title:  # 휴리스틱은 제목=한줄요약 — 중복 생략
         lines.append(_esc(a.one_liner))
     if a.why_it_matters:
         lines.append(f"💡 <i>{_esc(a.why_it_matters)}</i>")
     if a.implications:
         lines.append(f"▸ 함의: {_esc(a.implications)}")
+    if a.indicators:
+        # 고정 형식 — 위키 수집기·다운스트림이 이 줄을 그대로 파싱할 수 있게 한다.
+        lines.append(f"지표: {', '.join(a.indicators)}")
+    if a.rel_category:
+        # 지표 줄은 건드리지 않고 바로 다음 줄에 분류를 단다(Miner 위키 ingest가
+        # `(?:분류|카테고리|category):\s*([A-Za-z_가-힣]+)`로 읽는다).
+        lines.append(f"분류: {a.rel_category}")
     meta = []
     if a.tags:
         meta.append(" ".join("#" + _esc(t) for t in a.tags))
@@ -133,10 +154,16 @@ def _fmt_article(a: Article, idx: int) -> str:
     return "\n".join(lines)
 
 
-def _section(header: str, arts: List[Article], *, source_failed: bool = False) -> List[str]:
+def _section(header: str, arts: List[Article], *, source_failed: bool = False,
+             archived: int = 0) -> List[str]:
     out = [f"<b>{header}</b>"]
     if not arts:
-        out.append("· 데이터 수집 실패" if source_failed else "· 발송 기준(신뢰도) 미달 — 아카이브 참고")
+        if source_failed:
+            out.append("· 데이터 수집 실패")
+        elif archived:
+            out.append("· 발송 기준(신뢰도) 미달 — 아카이브 참고")
+        else:
+            out.append("· 관련 기사 없음")
         return out
     for i, a in enumerate(arts, 1):
         out.append(_fmt_article(a, i))
@@ -155,11 +182,14 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
                     events: List[str] | None = None,
                     top_insight: List[str] | None = None,
                     whats_changed: List[str] | None = None,
-                    themes: List[str] | None = None) -> Tuple[str, str, dict]:
+                    themes: List[str] | None = None,
+                    quiet: bool = False) -> Tuple[str, str, dict]:
     """Return (telegram_text, markdown_archive, stats).
 
     telegram_text contains only push-worthy items; markdown_archive contains
-    everything (push + archived) for the committed briefs/ file.
+    everything (push + archived) for the committed briefs/ file. ``quiet=True``
+    (관련 기사 0건인 날) adds QUIET_LINE under the date; the sections still
+    render, each with "관련 기사 없음".
     """
     now = now or datetime.now(KST)
     date_str = now.astimezone(KST).strftime("%Y-%m-%d (%a) · %H:%M KST")
@@ -178,6 +208,8 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
     headlines = [f"{_CIRCLED[i]} {_esc(a.one_liner or a.title)}" for i, a in enumerate(head_pool)]
 
     tg: List[str] = [f"📅 <b>오늘의 뉴스 브리핑</b>", _esc(date_str), ""]
+    if quiet:
+        tg += [f"📭 {_esc(QUIET_LINE)}", ""]
 
     # --- Insight blocks (agent-generated) ---------------------------------
     insight_lines = _bullets(top_insight, 3)
@@ -202,17 +234,20 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
     tg += headlines if headlines else ["· 핵심 헤드라인 없음"]
     tg.append("")
 
-    tg += _section("💹 경제·시장", push_b, source_failed=SOURCE_B in failed_sources)
+    tg += _section("💹 경제·시장", push_b, source_failed=SOURCE_B in failed_sources,
+                   archived=len(arch_b))
     tg.append("")
     tg.append(f"📊 <b>시장 분위기</b> · {_esc(market_mood(by_tag[SOURCE_B]))}")
     if SOURCE_B in failed_sources:
         tg.append("· (경제 소스 일부 실패 — 대체 소스 사용)")
     tg.append("")
 
-    tg += _section("🌐 시사·국제", push_a, source_failed=SOURCE_A in failed_sources)
+    tg += _section("🌐 시사·국제", push_a, source_failed=SOURCE_A in failed_sources,
+                   archived=len(arch_a))
     tg.append("")
 
-    tg += _section("🪙 크립토 (보조)", push_c, source_failed=SOURCE_C in failed_sources)
+    tg += _section("🪙 크립토 (보조)", push_c, source_failed=SOURCE_C in failed_sources,
+                   archived=len(arch_c))
     tg.append("")
 
     # Events: prefer the lead agent's curated list; else derive deterministically.
@@ -249,6 +284,8 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
         "archived": len(archived),
         "failed_sources": failed_sources,
     }
+    if quiet:
+        stats["quiet"] = True
     return telegram_text, markdown, stats
 
 
@@ -260,7 +297,14 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
 # emit a channel-neutral dict. Only push-worthy items go in: the page shows
 # what the briefing would have pushed, and the low-confidence remainder stays
 # in the markdown archive where invest-wiki's collect_news.py already reads it.
-IR_SCHEMA = 1
+#
+# 스키마 이력 — 필드는 더하기만 하고 이름은 바꾸지 않는다(Miner가 읽는다):
+#   1: 최초
+#   2 (2026-11-04): 항목에 indicators(지표 키 목록)·category(필수 분류) 추가.
+#      why_it_matters·implications·top_insight·whats_changed·themes는 새 계약에서
+#      비어 있을 수 있다. items는 selected 순서(중요도순)다. 관련 기사가 0건인
+#      날은 최상위 quiet: true + 빈 items(degraded 아님).
+IR_SCHEMA = 2
 
 
 def _ir_item(a: Article) -> dict:
@@ -273,6 +317,8 @@ def _ir_item(a: Article) -> dict:
         "one_liner": a.one_liner,
         "why_it_matters": a.why_it_matters,
         "confidence": round(a.confidence, 3),
+        "indicators": list(a.indicators),
+        "category": a.rel_category,
     }
     if a.original_title and a.original_title != a.title:
         item["original_title"] = a.original_title
@@ -288,8 +334,14 @@ def render_ir(selected: List[Article], *, now: datetime | None = None,
               events: List[str] | None = None,
               top_insight: List[str] | None = None,
               whats_changed: List[str] | None = None,
-              themes: List[str] | None = None) -> dict:
+              themes: List[str] | None = None,
+              quiet: bool = False) -> dict:
     """Return the report-page IR for the same selection render_briefing gets.
+
+    ``items`` keep the order of ``selected`` (the agent's importance rank, or the
+    relevance-score rank on the heuristic path) — consumers take the first N as
+    the most important (Miner market_brief takes items[:3]). The md keeps its
+    per-source sections; only the IR is flat.
 
     ``synthesis`` is deliberately absent — the integrated routine adds it to
     this file later, after invest-wiki ingest. The renderer skips the section
@@ -300,14 +352,10 @@ def render_ir(selected: List[Article], *, now: datetime | None = None,
     for a in selected:
         by_tag.get(a.source_tag, by_tag[SOURCE_A]).append(a)
 
-    push: List[Article] = []
-    archived = 0
-    for tag in (SOURCE_A, SOURCE_B, SOURCE_C):
-        p, arch = _split_push_archive(by_tag[tag])
-        push.extend(p)
-        archived += len(arch)
+    push, arch = _split_push_archive(selected)  # 순서 보존
+    archived = len(arch)
 
-    return {
+    ir = {
         "schema": IR_SCHEMA,
         "date": now.strftime("%Y-%m-%d"),
         "slot": "am" if now.hour < 12 else "pm",
@@ -321,6 +369,9 @@ def render_ir(selected: List[Article], *, now: datetime | None = None,
         "archived_count": archived,
         "failed_sources": failed_sources or [],
     }
+    if quiet:
+        ir["quiet"] = True
+    return ir
 
 
 def _str_cap(items, cap: int) -> List[str]:
@@ -350,7 +401,9 @@ def fallback_ir(items: List[Article], *, now: datetime | None = None,
         "events": [],
         "items": [{"title": a.title, "source": a.source_name, "url": a.url,
                    "one_liner": "", "why_it_matters": "",
-                   "confidence": round(a.confidence, 3)} for a in items],
+                   "confidence": round(a.confidence, 3),
+                   "indicators": list(a.indicators),
+                   "category": a.rel_category} for a in items],
         "archived_count": 0,
         "failed_sources": [],
     }
