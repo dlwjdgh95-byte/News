@@ -9,6 +9,11 @@ Even without an LLM it applies the cheap deterministic hygiene the main path use
 fallback day still avoids the two most visible problems (celebrity/sports noise
 and duplicate stories). Output is headline+link only, formatted with HTML for
 readability.
+
+지표 중심 설계(2026-11-04) 이후에도 폴백은 **아무것도 버리지 않는다** — 안전망이라
+관련도 필터로 비면 안 된다. 대신 관련도 채점(news/relevance.py)을 붙여 지표·보유
+종목 관련 기사를 점수순으로 앞에 세우고, 나머지는 최신순으로 뒤를 채운다. IR
+항목에도 indicators·category가 실린다.
 """
 
 from __future__ import annotations
@@ -18,7 +23,7 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError as FTimeout
 from datetime import datetime, timezone, timedelta
 from typing import List, Optional
 
-from . import config, http, feeds, state, dedup, normalize, prefilter
+from . import config, http, feeds, state, dedup, normalize, prefilter, relevance
 from .model import Article, SOURCE_A, SOURCE_B, SOURCE_C
 
 KST = timezone(timedelta(hours=9))
@@ -55,7 +60,14 @@ def _gather(feed_list, tag: str, n: int, sent_log: Optional[dict] = None) -> Lis
     reps = dedup.deduplicate(arts)                  # drop duplicates
     if sent_log is not None:
         reps = [a for a in reps if not state.already_sent(sent_log, a.canonical_url)]
-    reps.sort(key=lambda a: a.published_at or _EPOCH, reverse=True)
+    try:
+        relevance.score_all(reps)
+    except Exception:  # noqa: BLE001 - the safety net must never fail on scoring
+        pass
+    # 관련 기사(점수순) → 나머지(최신순). 관련도는 정렬에만 쓰고 거르지 않는다.
+    reps.sort(key=lambda a: (bool(a.rel_category),
+                             a.score if a.rel_category else 0.0,
+                             a.published_at or _EPOCH), reverse=True)
     return reps[:n]
 
 

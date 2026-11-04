@@ -3,8 +3,9 @@
 Two ways to run the intelligence (selection + summary) step:
 
   * Autonomous (run_pipeline): collect -> normalize -> prefilter -> dedup ->
-    drop-sent -> select (1 LLM call + caps) -> summarize (1 LLM call) -> render
-    -> archive. Used by the GitHub Actions path.
+    relevance (지표·보유 키워드 채점, 무관 기사 제거) -> drop-sent -> pool cap
+    (점수순 20건) -> select (1 LLM call + caps) -> summarize (1 LLM call) ->
+    render -> archive. Used by the GitHub Actions path.
 
   * Hybrid (run_prepare + run_finalize): `run_prepare` does everything up to the
     candidate pool and writes state/candidates.json; a lead agent (subscription
@@ -35,7 +36,8 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError as FTimeout
 from datetime import datetime, timezone, timedelta
 from typing import List, Optional, Tuple
 
-from . import config, state, normalize, prefilter, dedup, select, summarize, render
+from . import (config, state, normalize, prefilter, dedup, relevance, select,
+               summarize, render)
 from .model import Article, SOURCE_A, SOURCE_B, SOURCE_C
 
 KST = timezone(timedelta(hours=9))
@@ -46,7 +48,7 @@ COLLECT_TIMEOUT = 90  # seconds per source
 CANDIDATES_PATH = config.STATE_DIR / "candidates.json"
 POOL_PATH = config.STATE_DIR / "pool.json"
 SELECTION_PATH = config.STATE_DIR / "selection.json"
-MAX_ITEMS = 14
+MAX_ITEMS = config.MAX_ITEMS  # 최종 기사 수 (기본 8, env NEWS_MAX_ITEMS)
 
 
 def _collect_all() -> Tuple[List[Article], List[str]]:
@@ -69,13 +71,16 @@ def _collect_all() -> Tuple[List[Article], List[str]]:
     return results, failed
 
 
-def _build_candidates() -> Tuple[List[Article], List[str]]:
-    """Collect -> normalize -> prefilter -> dedup -> drop already-sent.
+def _build_candidates() -> Tuple[List[Article], List[str], int]:
+    """Collect -> normalize -> prefilter -> dedup -> relevance -> drop already-sent
+    -> pool cap. Returns (pool, failed_sources, irrelevant_dropped).
 
-    Only a genuinely empty collection raises (that is what the fallback is for).
-    Each transform is guarded so one bad article can't crash the run, and if the
-    sent-log filter removes everything we keep the freshest deduped items rather
-    than forcing a fallback — a slightly-repeated item beats an ugly fallback."""
+    Only a genuinely empty collection raises (that is what the fallback is for)
+    — and, since the indicator-centric redesign, a day where *no* article
+    touches an indicator or holding keyword. Each transform is guarded so one
+    bad article can't crash the run, and if the sent-log filter removes
+    everything we keep the best relevant items rather than forcing a fallback
+    — a slightly-repeated item beats an ugly fallback."""
     config.ensure_dirs()
     raw, failed = _collect_all()
     if not raw:
@@ -87,32 +92,31 @@ def _build_candidates() -> Tuple[List[Article], List[str]]:
     except Exception as exc:  # noqa: BLE001 - never fall back over a bad title
         print(f"[pipeline] hygiene stage error ({exc}); using raw normalized items")
         reps = normalize.normalize(raw)
+    # 지표 중심 필터: 핵심 지표·보유 종목 키워드에 안 걸리는 기사는 LLM 앞에서 버린다.
+    irrelevant = 0
+    try:
+        reps, irrelevant = relevance.filter_relevant(reps)
+    except Exception as exc:  # noqa: BLE001 - a scoring bug must not kill the day
+        print(f"[pipeline] relevance stage error ({exc}); passing unscored items")
+    if not reps:
+        raise RuntimeError("지표·보유 종목 관련 기사 0건 (모든 기사가 관련도 필터에서 제외)")
     log = state.load_sent_log()
     fresh = [a for a in reps if not state.already_sent(log, a.canonical_url)]
     if not fresh:
-        # Everything was sent before — don't fall back; keep the freshest few.
-        fresh = reps[:MAX_ITEMS]
-    return _cap_pool(fresh, config.MAX_CANDIDATES), failed
+        # Everything was sent before — don't fall back; keep the best few.
+        fresh = _cap_pool(reps, MAX_ITEMS)
+    return _cap_pool(fresh, config.MAX_CANDIDATES), failed, irrelevant
 
 
 def _cap_pool(arts: List[Article], cap: int) -> List[Article]:
-    """Bound the candidate pool that reaches the LLM/agent. Within each source
-    tag articles are kept in heuristic (confidence+recency) order, then tags are
-    drained round-robin so no tag can crowd out the others."""
-    if len(arts) <= cap:
-        return arts
-    order = select._heuristic_order(arts)
-    by_tag: dict[str, List[Article]] = {SOURCE_A: [], SOURCE_B: [], SOURCE_C: []}
-    for i in order:
-        by_tag[arts[i].source_tag].append(arts[i])
-    queues = [q for q in (by_tag[SOURCE_A], by_tag[SOURCE_B], by_tag[SOURCE_C]) if q]
-    out: List[Article] = []
-    while len(out) < cap and queues:
-        for q in queues:
-            if q and len(out) < cap:
-                out.append(q.pop(0))
-        queues = [q for q in queues if q]
-    return out
+    """Bound the candidate pool that reaches the LLM/agent: 관련도 점수순(동점이면
+    confidence + recency)으로 줄 세운 뒤 기존 다양성 캡(매체당·클러스터당)을 그대로
+    적용해 상위 ``cap``건만 남긴다. 캡에 걸리는 기사는 어차피 최종 선별에 못
+    들어가므로 풀에서도 빼 토큰을 아낀다.
+
+    (2026-11-04 이전에는 소스 태그 A/B/C 라운드로빈으로 균형을 맞췄다. 지표 중심
+    설계에서는 태그 균형보다 점수가 우선이다.)"""
+    return select._apply_caps(select._heuristic_order(arts), arts, cap)
 
 
 def _deliver(ir: dict, markdown: str, selected: List[Article], *, persist: bool):
@@ -157,7 +161,7 @@ def _deliver(ir: dict, markdown: str, selected: List[Article], *, persist: bool)
 def run_pipeline(persist: bool = True) -> dict:
     """Execute the full autonomous pipeline. Raises on unrecoverable failure so
     run() can switch to the fallback path."""
-    fresh, failed = _build_candidates()
+    fresh, failed, irrelevant = _build_candidates()
     selected, sel_method = select.select(fresh, max_items=MAX_ITEMS)
     sum_method = summarize.summarize(selected)
     _tg, markdown, stats = render.render_briefing(selected, failed_sources=failed)
@@ -168,6 +172,7 @@ def run_pipeline(persist: bool = True) -> dict:
         "selection": sel_method,
         "summary": sum_method,
         "failed_sources": failed,
+        "irrelevant_dropped": irrelevant,
         "brief_path": brief_path,
         "ir_path": ir_path,
         **stats,
@@ -195,7 +200,10 @@ def _digest_text(text: str, limit: int) -> str:
 
 def _yesterday_digest() -> str:
     """Yesterday's committed briefing as a link-free digest (for day-over-day
-    continuity). Empty string if none exists."""
+    continuity). Empty string if none exists or the budget is 0 (the default
+    since whats_changed became optional)."""
+    if config.YESTERDAY_DIGEST_CHARS <= 0:
+        return ""
     y = (datetime.now(KST) - timedelta(days=1)).strftime("%Y-%m-%d")
     p = config.BRIEFS_DIR / f"{y}.md"
     if not p.exists():
@@ -218,20 +226,23 @@ def _dump_agent_view(payload: dict) -> str:
 
 def run_prepare() -> dict:
     """Build the candidate pool. Writes two files:
-    - state/candidates.json — slim agent view (no URLs, truncated snippets),
-      the only file the lead agent should read;
+    - state/candidates.json — slim agent view (no URLs, 120-char snippets,
+      category + indicators), the only file the lead agent should read;
     - state/pool.json — full Articles for --finalize to round-trip."""
-    fresh, failed = _build_candidates()
+    fresh, failed, irrelevant = _build_candidates()
     agent_view = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "failed_sources": failed,
         "diversity_caps": {"per_source": config.MAX_PER_SOURCE,
                            "per_cluster": config.MAX_PER_CLUSTER},
         "max_items": MAX_ITEMS,
-        "yesterday_digest": _yesterday_digest(),
-        "candidates": [a.to_llm_dict(i, snippet_chars=config.SNIPPET_CHARS)
-                       for i, a in enumerate(fresh)],
+        "indicator_keys": list(relevance.INDICATOR_KEYS),
     }
+    digest = _yesterday_digest()
+    if digest:
+        agent_view["yesterday_digest"] = digest
+    agent_view["candidates"] = [a.to_llm_dict(i, snippet_chars=config.SNIPPET_CHARS)
+                                for i, a in enumerate(fresh)]
     machine = {
         "failed_sources": failed,
         "candidates": [{"id": i, **a.to_dict()} for i, a in enumerate(fresh)],
@@ -241,7 +252,7 @@ def run_prepare() -> dict:
     POOL_PATH.write_text(json.dumps(machine, ensure_ascii=False,
                                     separators=(",", ":")), encoding="utf-8")
     return {"mode": "prepare", "candidates": len(fresh), "failed_sources": failed,
-            "path": str(CANDIDATES_PATH)}
+            "irrelevant_dropped": irrelevant, "path": str(CANDIDATES_PATH)}
 
 
 def _load_candidates() -> Tuple[List[Article], List[str]]:
@@ -253,7 +264,11 @@ def _load_candidates() -> Tuple[List[Article], List[str]]:
 def _apply_agent_selection(candidates: List[Article]) -> Optional[List[Article]]:
     """Apply the lead agent's state/selection.json. Returns selected+summarised
     articles, or None if the file is missing/invalid (caller falls back to the
-    autonomous select+summarize)."""
+    autonomous select+summarize).
+
+    새 계약(2026-11-04)의 행은 id·title·one_liner·indicators·confidence·flags뿐이다.
+    구형 행(why_it_matters·implications·tags·evidence 포함)도 그대로 받는다 —
+    해석은 summarize.apply_item 한 곳."""
     if not SELECTION_PATH.exists():
         return None
     try:
@@ -272,21 +287,9 @@ def _apply_agent_selection(candidates: List[Article]) -> Optional[List[Article]]
         except (KeyError, ValueError, TypeError):
             continue
         a = by_id.get(cid)
-        if a is None:
+        if a is None or not isinstance(item, dict):
             continue
-        a.one_liner = (item.get("one_liner") or "").strip()
-        a.why_it_matters = (item.get("why_it_matters") or "").strip()
-        a.implications = (item.get("implications") or "").strip()
-        a.tags = [str(t) for t in (item.get("tags") or [])][:5]
-        try:
-            a.confidence = max(0.0, min(1.0, float(item.get("confidence", a.confidence))))
-        except (ValueError, TypeError):
-            pass
-        a.evidence = (item.get("evidence") or "").strip()
-        for f in (item.get("flags") or []):
-            if f and f not in a.flags:
-                a.flags.append(str(f))
-        summarize._apply_translation(a, (item.get("title") or "").strip())
+        summarize.apply_item(a, item)
         ordered_ids.append(cid)
 
     if not ordered_ids:
@@ -302,9 +305,10 @@ def _str_list(v) -> List[str]:
 
 
 def _load_agent_meta() -> dict:
-    """Read the optional briefing-level fields the lead agent may add to
-    selection.json: events, top_insight (관전 포인트), whats_changed (연속성),
-    themes (핵심 테마)."""
+    """Read the briefing-level fields the lead agent may add to selection.json:
+    events (새 계약의 유일한 브리핑 레벨 필드), and — optional, old format —
+    top_insight (관전 포인트), whats_changed (연속성), themes (핵심 테마).
+    빠진 키는 빈 목록이 되고 렌더가 해당 섹션을 생략한다."""
     empty = {"events": [], "top_insight": [], "whats_changed": [], "themes": []}
     if not SELECTION_PATH.exists():
         return empty

@@ -9,6 +9,10 @@ Sections (per spec):
 
 Push vs archive: low-confidence or weak-evidence items are archived (kept in the
 markdown file) but NOT pushed to Telegram.
+
+지표 중심 설계(2026-11-04): 기사마다 ``지표: ust10y, usdkrw`` 줄이 붙고(키는
+Miner briefing/indicators.yaml), IR 항목에는 ``indicators``·``category``가 붙는다.
+섹션·헤딩 구조는 그대로다 — 기사 수(최대 8)와 줄 수만 줄었다.
 """
 
 from __future__ import annotations
@@ -95,7 +99,11 @@ def market_mood(economy: List[Article]) -> str:
 def _split_push_archive(arts: List[Article]) -> Tuple[List[Article], List[Article]]:
     push, archive = [], []
     for a in arts:
-        weak_evidence = (not a.evidence) or a.evidence.endswith("(LLM 미사용)")
+        # 새 selection 계약에는 evidence가 없다 — 근거가 약하다는 표식은 휴리스틱
+        # 경로의 "(LLM 미사용)" 꼬리표, 또는 요약도 근거도 없는 경우뿐이다. 에이전트가
+        # 쓴 한 줄 요약은 confidence 하나로 판정한다.
+        weak_evidence = (a.evidence.endswith("(LLM 미사용)")
+                         or (not a.evidence and not a.one_liner))
         if a.confidence < PUSH_CONFIDENCE_MIN or (weak_evidence and a.confidence < 0.6):
             archive.append(a)
         else:
@@ -112,12 +120,15 @@ def _fmt_article(a: Article, idx: int) -> str:
     else:
         head = f"<b>{idx}. {title}</b>"
     lines = [head]
-    if a.one_liner:
+    if a.one_liner and a.one_liner != a.title:  # 휴리스틱은 제목=한줄요약 — 중복 생략
         lines.append(_esc(a.one_liner))
     if a.why_it_matters:
         lines.append(f"💡 <i>{_esc(a.why_it_matters)}</i>")
     if a.implications:
         lines.append(f"▸ 함의: {_esc(a.implications)}")
+    if a.indicators:
+        # 고정 형식 — 위키 수집기·다운스트림이 이 줄을 그대로 파싱할 수 있게 한다.
+        lines.append(f"지표: {', '.join(a.indicators)}")
     meta = []
     if a.tags:
         meta.append(" ".join("#" + _esc(t) for t in a.tags))
@@ -260,7 +271,13 @@ def render_briefing(selected: List[Article], *, now: datetime | None = None,
 # emit a channel-neutral dict. Only push-worthy items go in: the page shows
 # what the briefing would have pushed, and the low-confidence remainder stays
 # in the markdown archive where invest-wiki's collect_news.py already reads it.
-IR_SCHEMA = 1
+#
+# 스키마 이력 — 필드는 더하기만 하고 이름은 바꾸지 않는다(Miner가 읽는다):
+#   1: 최초
+#   2 (2026-11-04): 항목에 indicators(지표 키 목록)·category(필수 분류) 추가.
+#      why_it_matters·implications·top_insight·whats_changed·themes는 새 계약에서
+#      비어 있을 수 있다.
+IR_SCHEMA = 2
 
 
 def _ir_item(a: Article) -> dict:
@@ -273,6 +290,8 @@ def _ir_item(a: Article) -> dict:
         "one_liner": a.one_liner,
         "why_it_matters": a.why_it_matters,
         "confidence": round(a.confidence, 3),
+        "indicators": list(a.indicators),
+        "category": a.rel_category,
     }
     if a.original_title and a.original_title != a.title:
         item["original_title"] = a.original_title
@@ -350,7 +369,9 @@ def fallback_ir(items: List[Article], *, now: datetime | None = None,
         "events": [],
         "items": [{"title": a.title, "source": a.source_name, "url": a.url,
                    "one_liner": "", "why_it_matters": "",
-                   "confidence": round(a.confidence, 3)} for a in items],
+                   "confidence": round(a.confidence, 3),
+                   "indicators": list(a.indicators),
+                   "category": a.rel_category} for a in items],
         "archived_count": 0,
         "failed_sources": [],
     }

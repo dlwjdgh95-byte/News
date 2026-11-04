@@ -5,8 +5,9 @@ LLM in ONE call and have it pick the final set. Enforce diversity caps:
   - at most MAX_PER_SOURCE (2) per outlet,
   - at most MAX_PER_CLUSTER (2) per topic cluster.
 
-If the LLM is unavailable/fails, fall back to a deterministic heuristic
-(confidence + recency) that respects the same caps.
+If the LLM is unavailable/fails, fall back to a deterministic heuristic that
+respects the same caps: 관련도 점수(news/relevance.py) 순, 동점이면
+confidence + recency.
 """
 
 from __future__ import annotations
@@ -21,8 +22,9 @@ from .model import Article
 
 _SELECT_SYSTEM = (
     "당신은 한국어 아침 뉴스 브리핑의 편집장입니다. 후보 기사 풀 전체를 한 번에 검토하여 "
-    "가장 중요하고 신뢰도 높은 기사들만 선별합니다. 연예·스포츠는 이미 제외되었습니다. "
-    "추측·과장 없이, 영향력·시의성·신뢰도를 기준으로 선택하세요. "
+    "핵심 지표(indicators)나 보유 종목을 움직이는 정치·경제 뉴스만 선별합니다. "
+    "후보는 이미 관련도 점수순이며 무관한 기사는 제외되었습니다. "
+    "추측·과장 없이, 지표 영향력·시의성·신뢰도를 기준으로 선택하세요. "
     "다양성 규칙: 한 매체당 최대 2건, 한 주제 클러스터당 최대 2건. "
     "반드시 JSON만 출력하세요."
 )
@@ -40,8 +42,9 @@ def _candidate_payload(articles: List[Article]) -> str:
 def _llm_select(articles: List[Article], max_items: int) -> List[int] | None:
     user = (
         f"후보 기사 풀(총 {len(articles)}건). 최대 {max_items}건을 선별하세요.\n"
-        f"매체(source)당 최대 {config.MAX_PER_SOURCE}건, cluster_id당 최대 {config.MAX_PER_CLUSTER}건.\n"
-        f"경제·시사·국제·크립토의 균형을 맞추세요. age_h는 발행 후 경과 시간(시간 단위).\n\n"
+        f"매체(source)당 최대 {config.MAX_PER_SOURCE}건.\n"
+        f"category·indicators를 참고해 지표·보유 종목 영향이 큰 순으로 고르세요. "
+        f"age_h는 발행 후 경과 시간(시간 단위).\n\n"
         f"{_candidate_payload(articles)}\n\n"
         '출력 형식: {"selected": [기사 id 목록(중요도 순)]}'
     )
@@ -68,9 +71,12 @@ def _recency_score(a: Article) -> float:
 
 
 def _heuristic_order(articles: List[Article]) -> List[int]:
-    scored = [(i, 0.6 * a.confidence + 0.4 * _recency_score(a)) for i, a in enumerate(articles)]
-    scored.sort(key=lambda t: t[1], reverse=True)
-    return [i for i, _ in scored]
+    """관련도 점수 내림차순, 동점이면 confidence + recency. 채점 전 기사(score 0)만
+    있으면 예전 순서(confidence + recency)와 같다."""
+    scored = [(i, a.score, 0.6 * a.confidence + 0.4 * _recency_score(a))
+              for i, a in enumerate(articles)]
+    scored.sort(key=lambda t: (t[1], t[2]), reverse=True)
+    return [i for i, _, _ in scored]
 
 
 def _apply_caps(ordered_ids: List[int], articles: List[Article], max_items: int) -> List[Article]:
@@ -92,7 +98,7 @@ def _apply_caps(ordered_ids: List[int], articles: List[Article], max_items: int)
     return chosen
 
 
-def select(articles: List[Article], max_items: int = 14) -> tuple[List[Article], str]:
+def select(articles: List[Article], max_items: int = 8) -> tuple[List[Article], str]:
     """Return (selected_articles, method) where method is 'llm' or 'heuristic'."""
     if not articles:
         return [], "heuristic"

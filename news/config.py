@@ -42,12 +42,15 @@ TIME_SPLIT_HOURS = 12  # >= this gap + a status-change cue => keep as separate f
 MAX_PER_SOURCE = 2
 MAX_PER_CLUSTER = 2
 
-# Token discipline: cap the candidate pool that reaches the LLM/agent (balanced
-# across source tags) and the per-article snippet length in LLM payloads.
-MAX_CANDIDATES = int(os.environ.get("NEWS_MAX_CANDIDATES", "40"))
-SNIPPET_CHARS = int(os.environ.get("NEWS_SNIPPET_CHARS", "400"))
-# Yesterday-digest budget for day-over-day continuity (chars, links stripped).
-YESTERDAY_DIGEST_CHARS = int(os.environ.get("NEWS_YESTERDAY_DIGEST_CHARS", "1500"))
+# Token discipline (지표 중심 설계, 2026-11-04): LLM 입력 ≈ 후보 20건 × (제목 +
+# 스니펫 120자), 출력 ≈ 한 줄 요약 8개. 후보 풀은 관련도 점수순으로 자르고
+# (news/relevance.py), 최종 기사 수는 MAX_ITEMS.
+MAX_CANDIDATES = int(os.environ.get("NEWS_MAX_CANDIDATES", "20"))
+MAX_ITEMS = int(os.environ.get("NEWS_MAX_ITEMS", "8"))
+SNIPPET_CHARS = int(os.environ.get("NEWS_SNIPPET_CHARS", "120"))
+# 어제 브리핑 다이제스트(링크 제거, 글자 수). whats_changed가 선택 필드가 되면서
+# 기본은 0 = candidates.json에 넣지 않음. 연속성 인사이트가 필요하면 env로 켠다.
+YESTERDAY_DIGEST_CHARS = int(os.environ.get("NEWS_YESTERDAY_DIGEST_CHARS", "0"))
 
 # Fallback: ~10 freshest headlines per feed group.
 FALLBACK_ITEMS = 10
