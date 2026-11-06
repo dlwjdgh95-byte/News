@@ -1,0 +1,115 @@
+{
+  "schema": 2,
+  "date": "2026-11-06",
+  "slot": "am",
+  "generated_at": "2026-11-06T10:13:42.383230+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "유조선 공격 재개로 유가 상승, 주간 기준 큰 폭 하락 예상 - Investing.com 한국어",
+      "source": "Investing.com 한국어",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5Y2RUelFmWkVqN0hHdGxiZ2RhTC1WYzdjYS1FSnd1WXdUQURtSW9UVTBIZHZmeTUtTzZwU3JyRUtHTnhCTU1KdUoySU9SV2h0X18zUTNTMWxqT2pCZVhmSVRMVHJnaDZRMTNJdXg0bw?oc=5",
+      "one_liner": "유조선 공격 재개로 유가 상승, 주간 기준 큰 폭 하락 예상 - Investing.com 한국어",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "core_yoy",
+        "core_3m",
+        "wti",
+        "brent"
+      ],
+      "category": "policy",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "title": "[블루쓰나미 긴급진단] \"데이터센터 규제 우려 과도…반도체 비중 확대 기회\" - 연합인포맥스",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Mcktkb3kyU2pEQ1l2cnN0RElPV09pRzluMl9CTXktVEU4MDdHejZVS0lULTdObFFuQXJrOUZpMDA5M2Q4N1VNV2lQQnprbkZFdi1aVEl3UDhfWjJyYmF6Qkptd0pQLXF0aE9JaDg3YWw?oc=5",
+      "one_liner": "[블루쓰나미 긴급진단] \"데이터센터 규제 우려 과도…반도체 비중 확대 기회\" - 연합인포맥스",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "core_yoy",
+        "kr_exports",
+        "vix",
+        "usdkrw"
+      ],
+      "category": "policy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "title": "美 신임 주지사 94% “데이터센터 규제”⋯ 최대 입지 텍사스도 제동 - 국민일보",
+      "source": "국민일보",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEXzEtQ3g5VjZVZ0xVVV80ZHp2MVNmSkdWWDdRbHRLbE5EcUJjN3pKcDFqZDhWc0RQMnY0VEkxcWNLWHVNTVg4REFyUHJNT3NXZFhtSXBsa1o?oc=5",
+      "one_liner": "美 신임 주지사 94% “데이터센터 규제”⋯ 최대 입지 텍사스도 제동 - 국민일보",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "core_yoy",
+        "kr_exports",
+        "vix",
+        "usdkrw"
+      ],
+      "category": "policy",
+      "tags": [
+        "politics"
+      ]
+    },
+    {
+      "title": "증시 변동성이 달러선물로…주식시장 헤지 수요에 환율도 출렁 - 연합인포맥스",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2dk0xYnRmZlBMbFlJWFlMTUdrUkZ5cEJxXzhMQVVSX1ZCRnBEZ2cwUEItM2N3Q2xGMWpiRmRPVUVEUnhxY1doVGhlV1d3NlFVc25FOU1uNjByYnFJS1U5dlh2aUhTRzRQTG5kWHBnOWg?oc=5",
+      "one_liner": "증시 변동성이 달러선물로…주식시장 헤지 수요에 환율도 출렁 - 연합인포맥스",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "usdkrw"
+      ],
+      "category": "data",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "title": "[속보] ’검은 금요일’ 코스피 장중 8% 폭락 - 연합뉴스TV",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RTkZWdl9IeWpCdXF5TmNkeUhPa1VkaGNxVURabGlTS3Jrd0ltVjgyZG1ObWJsUHI4TnZLVE1WSGp3bGxKTWpiUmUwdUV1S19DRi1QRkVwQldnU3Q1a0dBY05nX2hHb3c?oc=5",
+      "one_liner": "[속보] ’검은 금요일’ 코스피 장중 8% 폭락 - 연합뉴스TV",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "title": "이란, 미국에 핵 협상안 전달…“7개 조건 먼저 이행” - 경향신문",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqQWRWWjNKOXF2TFhBV0JiOUJHY0dXdlVlbXlvVUxYQ0ZTb3lmQ2xjMXJXNUZjWGlHRVVCVk4zZXlPY0U5b053UE1pTEg0c2xYX2VnajNYU1FqZw?oc=5",
+      "one_liner": "이란, 미국에 핵 협상안 전달…“7개 조건 먼저 이행” - 경향신문",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "tags": [
+        "world"
+      ]
+    }
+  ],
+  "archived_count": 2,
+  "failed_sources": []
+}
