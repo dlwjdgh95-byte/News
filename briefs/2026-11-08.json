@@ -1,0 +1,118 @@
+{
+  "schema": 2,
+  "date": "2026-11-08",
+  "slot": "am",
+  "generated_at": "2026-11-08T03:40:08.282164+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "고위당정 — 가상자산 과세 유예 후속 조치 논의(11/8)"
+  ],
+  "items": [
+    {
+      "title": "전 세계 시총 하루 만에 4800조원 증발…미국 중간선거 후폭풍",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZTNfU1NCaDlXejNBWEtMUHNDYk9QZEZWdTVzTW1NNGlTWmpCRjVBRDhkRklTV1BqTUZEMklUZlotZU9wY2NBT25Yb3lyOU1CMHBpOUJodnpUaG9RNVp3ZEIta2VvajJXWnVaeGk3RmFwX1NCc0VDR3JFWHZnR2N4enJ4MA?oc=5",
+      "one_liner": "'블루웨이브 쇼크'로 세계 증시 시가총액이 하루 만에 4800조원 줄었고, 이후 미 증시 급락세는 진정됐다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "vix"
+      ],
+      "category": "policy",
+      "original_title": "전 세계 시총 하루 만에 4800조원 증발...미국 중간선거 후폭풍 - 조선일보"
+    },
+    {
+      "title": "미, 트럼프 선거 참패 뒤 첫 호르무즈 공습…\"경미한 것\"",
+      "source": "한겨레",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUkZHTl9tdGtnTmNhWjhxd282VDhhVVlXeHZuVGhrbFcxeDl0dlg4V3JfUFg2aXItd1ZWMnRGakRLUURza1NIUG9mdkVTbzVrUWZvcVBmeUdOaUVucUlYVjY0UUEtSGlXeDNzMEtxRk5qd2xjOHdSazNZLW5lLXlhMzN3?oc=5",
+      "one_liner": "미국이 이란과 협상 중 호르무즈 일대 방공시설을 타격했고, 추가 공격설도 나온다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "미, 트럼프 선거 참패 뒤 첫 호르무즈 공습…“경미한 것” - 한겨레"
+    },
+    {
+      "title": "이란 연계 선박 4척, '공격 위협' 후 해저케이블 주변 포착",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90WUxNQ2hkZDl5dmJ3SDA2WWtBNVZBWUxMdVkxbXQtTHZEUzBfWTdaSkF1WWtjWDhWdE02MHppVkkyLXhLUkQteUpRc3NDWVZzaTRmWUt4MzJvRW_SAWBBVV95cUxOb3NkdnVxSV9MTDRyNGtPaFJhX1EtNlV5N0c1SkJZRi1FNzVZY2JydW5zS3BZZV9NM2xETV9OR2JVdHFfT0FSYjdwVVg4UmlPc1VUNFJhQXlJSUpoVzlaaG8?oc=5",
+      "one_liner": "IRGC는 미허가 경로로 호르무즈를 통과하려던 유조선 2척이 기뢰에 충돌했다고 주장했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "이란 연계 선박 4척, '공격 위협' 후 해저케이블 주변 포착 - 연합뉴스"
+    },
+    {
+      "title": "후티 \"사우디 국제공항·아람코 석유 저장탱크 타격\"",
+      "source": "Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQTU2QjZnUkNBbEMzOHVMRm5ncVppaHQ3SkktUkk5dTZHM1h5WXJyakZ6bmhMQmtaWVY1SmFXdnNFTVB0cC1ibmVOa3hqSlVIT0RwZTVkM2pWOXJNdFBQLXVCNUhyWjgtcHpSVlRPTUxBekdCTDlHcnBVM2M3VVFuWXhvRTNQTjk3Tk9EMGh6OG82U2NNQWl6bV85Yk9sQdIBsgFBVV95cUxNdXJzLUpBdkFzNXV5bnBxUzVXNXJvc3c4NFlxbmQydFdYc2NGbFl2MTBMcUxPazU4OUVCZnZFQ3dqb29JSjRERjdvVWdBWHdXbl8xZHpBRGJ2MXpUelMzd2xKYmgtWEg2dk43M2VWN21MM2p2NjJJU0lVa3lKSGZEZ0swdnhob2s3VGpwNVhUMU9IN1VwVy03MElsckUxbXYzNnRJYkV5ZDdaNUEya1hPbTZn?oc=5",
+      "one_liner": "예멘에서 사우디·후티 간 공습 공방이 이어지며 후티가 아람코 석유 저장탱크 타격을 주장했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "예멘서 잇단 인명 피해…후티 “사우디가 마을 공습, 22명 사망” - Chosunbiz"
+    },
+    {
+      "title": "월가 헤지펀드도 美증시 급락에 직격탄…투자 철수·감원 (원문: 월가 헤지펀드도 美증시 급락에 직격탄···투자 철수·감원 나섰다)",
+      "source": "mk_kr",
+      "url": "https://www.mk.co.kr/news/stock/12201467",
+      "one_liner": "중간선거 민주당 압승 여파로 AI 관련주가 급락하며 헤지펀드들이 기술주 포지션을 접고 감원에 나섰다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "vix"
+      ],
+      "category": "policy",
+      "original_title": "월가 헤지펀드도 美증시 급락에 직격탄···투자 철수·감원 나섰다"
+    },
+    {
+      "title": "\"민주당이 이겼지만 트럼프 폭주할까 더 무서워\"…동남아 덮친 '관세 불안'",
+      "source": "매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVMHBEX3huOEloOVdrY2Y1WnJfNk9ZeDgtSmRta2Y0UHk5SFc5TngtX2hPWWx1U0wzalBUX1Jka1lQS3BoaHR4ZWxMeTQ3emtVREE?oc=5",
+      "one_liner": "트럼프가 중간선거 참패에도 관세·대이란 강경책을 고수하면서 동남아에 관세 불안이 커졌다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "“민주당이 이겼지만 트럼프 폭주할까 더 무서워”…동남아 덮친 ‘관세 불안’ - 매일경제"
+    },
+    {
+      "title": "고위당정, 가상자산 과세 유예 후속 조치 논의 전망",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53c2toSnRkUU43OHJ4ekRDRC1qSXVfQ0hYNkdKM3RVY1RJalI4NlhTOEZwU3k5V3l0MlpxY1NSWnFOLXZyeHZBWkJCajNKRXd6SjluTGw4T0UxV0c0cmc?oc=5",
+      "one_liner": "코인 과세 2029년 시행·거래자료 제출 내년부터를 담은 정부안이 발의된 가운데 당정이 후속 조치를 논의한다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "오늘 고위당정...가상자산 과세 유예 후속 조치 논의 전망 - YTN"
+    },
+    {
+      "title": "비트코인(BTC) 7만6000달러 재돌파 공방",
+      "source": "CBC뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IaDlrUkp3STNYVzJNaWdRMkhrbmxGRkJVT0lzYzJIWFo0QXVkQXVnbEtxR3VrWEtlQ1RfT2VJQUpDZndNMFVvb3dyX21QejF1UWZrMkgwTUtxSmlCeUU4ZWtDZzZxVzdn?oc=5",
+      "one_liner": "비트코인이 7만6000달러선 재돌파를 놓고 공방을 벌이고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "[속보]비트코인(BTC) 7만6000달러 재돌파 공방 - CBC뉴스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
