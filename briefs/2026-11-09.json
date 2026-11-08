@@ -1,0 +1,119 @@
+{
+  "schema": 2,
+  "date": "2026-11-09",
+  "slot": "am",
+  "generated_at": "2026-11-09T03:40:10.379602+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 CPI 등 주요국 물가·고용 지표 발표(이번 주)",
+    "국회 예결위 820조 규모 내년도 예산안 심사 착수(11/9)"
+  ],
+  "items": [
+    {
+      "title": "중간선거가 꺾은 AI 랠리…월가 매도·레버리지 청산에 시장 공포 증폭 (원문: 중간선거가 꺾은 AI 랠리⋯월가 매도ㆍ레버리지 청산에 시장 공포 증폭)",
+      "source": "etoday",
+      "url": "https://www.etoday.co.kr/news/view/2645442",
+      "one_liner": "미국 증시 시가총액이 하루 만에 3.2조달러 증발했고 개인투자자는 2시간 만에 3.9억달러를 순매도했다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "vix"
+      ],
+      "category": "policy",
+      "original_title": "중간선거가 꺾은 AI 랠리⋯월가 매도ㆍ레버리지 청산에 시장 공포 증폭"
+    },
+    {
+      "title": "중간선거 참패한 트럼프, 이란전 갈피 못 잡아…美, 이란 방공시설 공습",
+      "source": "한국일보",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90TkxHTU43T3lId2tOX2ZleDNYM0ZzTlJvQm1lS2lZSFp0VXJvdl9yT2xrbHJNdWR0bmI0ZGszZS1Tc2FUNFQ0anJ0eXVjekVzY3ZzVHpSenZLeXdRMGdIUTVsNlBrVExvczF1VnpR0gFzQVVfeXFMUEhUNTFRaFVrMTBsdklBa2x5RGd0RkZkWE9iU1Bvb2hCMG1iQlM5YlZYQzRmZU5xTjRqZy1JbXBqM0wwV194YWhJNUtpNl8wX015VkdpQTl0NC1tNkItSVJKTzUwUV9XMTczV0pnZy1ROTVVVQ?oc=5",
+      "one_liner": "중간선거 후 첫 군사행동으로 미국이 이란 방공시설을 공습했고, 백악관 참모들은 협상과 공습을 두고 대립 중이다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "policy",
+      "original_title": "중간선거 참패한 트럼프, 이란전 갈피 못 잡아… 백악관 이견에 고심 - 한국일보"
+    },
+    {
+      "title": "사우디 수도 금융지구 피격…후티 공격에 아람코 타워 파손",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vZ2JVdDBGQmhnWjZaekFVa28zMjJwcHJKbnlRV0pHOXpKM2hHX3p1SlFLMGRRRTNkV1dBMlBrbnBEUVhqQVRjZmpZTFUxWmhVaWFNbGFZUlFOVWRLME02WjRfUnR2MEE?oc=5",
+      "one_liner": "후티가 사우디 수도 리야드의 금융지구를 공격해 아람코 타워가 파손됐다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "사우디 ’심장부’ 금융지구 피격…“후티 공격에 아람코타워 파손“ - 연합뉴스TV"
+    },
+    {
+      "title": "'블루 웨이브 쇼크'에 코스피 5000선도 아슬아슬…이번 주 관건은?",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mdTEzaGVhZlZ3RkswQWgzNnVyWGN0cUpVWFFZYi03SUx5X1RmdlpvZTZxU0lEYnRIRDdiNnFDMVZZbFFpLWlrSVRUZFBWLURXYkQyQ0JRbmNaUdIBX0FVX3lxTE02TS1KOXNNeG1wZndaa3ZNdDlKcWRvM1plNWxWUmFTRENOSXRHQ3hwUFVCSzNOZTQwcDVuZTJxeXZual9NOE1qYXZoVFozQmhuaFI2VDR1cGxPYjM0blRz?oc=5",
+      "one_liner": "민주당 압승 충격으로 코스피가 5000선 부근까지 밀렸고, 5000선 아래는 언더슈팅이라 패닉셀 할 때는 아니라는 시각이 나온다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data",
+      "original_title": "‘블루 웨이브 쇼크’에 코스피 5000선도 아슬아슬···이번 주 관건은? - 경향신문"
+    },
+    {
+      "title": "최근 반등했던 미국 물가, 다소 진정될 전망 (원문: US Inflation Set to Simmer Down Some After Recent Pickup - Bloomberg.com)",
+      "source": "google",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHB3c0hUZDUwNkFjQmh3VW9PTGE3dmpzRkUwRWI2d25MZWhOcmRPOHhmaVdBNGp0YTF3WU9IaVQ0NVNtVG1nZDZTbXlYRVNWdmdpcUJ3cVdVcE5mMUltMWdwZE10Q3lmcFdHR2RINEtlcW54RW56ZkY1MnNsell5b3VLanVoTnh1Y0FKUVhZampkZ2xWUHJPOWxhSWVxa0VFRWhPbzdITTdjRzA?oc=5",
+      "one_liner": "블룸버그는 최근 오름세를 보였던 미국 인플레이션이 이번 발표에서 다소 진정될 것으로 내다봤다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "core_yoy",
+        "core_3m"
+      ],
+      "category": "central_bank",
+      "original_title": "US Inflation Set to Simmer Down Some After Recent Pickup - Bloomberg.com"
+    },
+    {
+      "title": "비트코인 ETF, 올해 순유입 전부 지워져…중간선거 뒤 롱 청산 11억 달러",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tRXotUlozNmNNQmVETGppRjJjeHpRakZfZjJIMFlJV0JwcU1vNThfNm5hemxDeFNxUkZRMGE1YmlwRXFoeTBuVHQzQW8xbHFTZWVOSlBB?oc=5",
+      "one_liner": "중간선거 뒤 11억 달러 규모 롱 포지션이 청산되면서 비트코인 ETF의 올해 순유입이 모두 사라졌다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "비트코인 ETF, 올해 순유입 전부 지워졌다…중간선거 뒤 롱 청산 11억 달러 - 위키트리"
+    },
+    {
+      "title": "민주당 양원 장악에 암호화폐 입법 먹구름…워터스, SEC 중심 시장구조법 구상",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rMjJQTkM2U0xsdjNBNkFMRV9XbVMwQlQzb1BMVUYwWnBucGY0cFRzNUtEdFAyaS1SMG9iV0xYMFQ1VTFkZENTbkdacGtlZDVZSE82aUVB?oc=5",
+      "one_liner": "민주당이 양원을 장악하면서 암호화폐 입법 전망이 어두워졌고, 워터스 의원은 SEC 중심의 시장구조법을 구상하고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "민주당 양원 장악에 암호화폐 입법 먹구름…워터스는 SEC 중심 시장구조법 구상한다 - 위키트리"
+    },
+    {
+      "title": "비트코인, 평균 매입가격까지 밀리며 단기 투자자 매도 압력 커져",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hazhvaFBhMjctcllYUHE0aU51VEJjRjY0SkgwMC16NnBoZzlLTlBvLTBwSXFoSmlvdGhEUXp2WFdNLVpBS0QtSllQdDQwbWVXQ3VMYjZDSzdtRHZzVmhXSFlGeWRjOTNoUm12ZA?oc=5",
+      "one_liner": "비트코인이 단기 보유자 평균 매입가 수준까지 밀리면서 단기 투자자 매도 압력이 커지고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "비트코인 평균 매입가격까지 밀리며 단기 투자자 매도 압력 커져 - 경향게임스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
