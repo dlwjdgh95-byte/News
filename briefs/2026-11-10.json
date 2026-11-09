@@ -1,0 +1,108 @@
+{
+  "schema": 2,
+  "date": "2026-11-10",
+  "slot": "am",
+  "generated_at": "2026-11-10T03:39:58.712901+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "트럼프, 핵심 중재자와 회동 예정…미국, 해상 이어 육상 경계로 이란 봉쇄 확대"
+  ],
+  "items": [
+    {
+      "title": "코스피 5018.85 마감(▼40.84p, 0.81%), 원·달러 환율 1347.1원 (원문: [속보] 코스피 5018.85(▼40.84p, 0.81%) 마감, 원·달러 환율 1347.1원)",
+      "source": "mbn",
+      "url": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5229831",
+      "one_liner": "코스피가 40.84p(0.81%) 내린 5018.85에 마감했고 원·달러 환율은 1347.1원이었다.",
+      "why_it_matters": "",
+      "confidence": 0.9,
+      "indicators": [
+        "usdkrw",
+        "kospi"
+      ],
+      "category": "data",
+      "original_title": "[속보] 코스피 5018.85(▼40.84p, 0.81%) 마감, 원·달러 환율 1347.1원"
+    },
+    {
+      "title": "트럼프, 핵심 중재자와 회동 예정…미국, 해상 이어 육상 경계로 이란 봉쇄 확대",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qaDF0bGtPZDFacF94aG1lRzFnX3Z5M29ONGRyXzR5czhIUkJGRllGUGZNY2s1ZFZWdmRoU0Z6ZXVHeGhuVTg3ZFo3d0ZhMnFkNThKUFZKVnVKdmlNMEVaMXhEeUXSAWdBVV95cUxQRUtPR253SnVxeGVSMkEyLTNHUVdidkhRSUVpblJuM0hGYVE5OXZzQmE0OTd0VzhuTlBhUEY0REU2UWhUSHJGWFJnMDRpNXJNRUZRT2VpT29pbHFqcnBvdlRQT0dxY3RF?oc=5",
+      "one_liner": "미국이 대이란 봉쇄를 해상에서 육상 경계로 넓혔고, 트럼프는 재공격 가능성은 매우 낮다면서도 봉쇄 압박을 강화했다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "geopolitics",
+      "original_title": "트럼프 대통령, 핵심 중재자와 회동 예정...미국, 해상 이어 육상 경계로 이란 봉쇄 확대 - VOA 한국어 홈페이지"
+    },
+    {
+      "title": "비탈릭 부테린, '울트라사운드 머니' 내려놓고 ETH의 가치는 안정성이라고 말해 (원문: Vitalik Buterin Moves On From ‘Ultrasound Money,’ Says ETH’s Value Is Stability)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382837/vitalik-buterin-moves-on-from-ultrasound-money-says-eths-value-is-stability",
+      "one_liner": "부테린은 ETH의 가치가 수수료 소각이 아니라 탈중앙화·검열 저항 등 안정성에서 나온다고 밝혔다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Vitalik Buterin Moves On From ‘Ultrasound Money,’ Says ETH’s Value Is Stability"
+    },
+    {
+      "title": "톰 리의 비트마인, 2천만 달러어치 이더리움 추가 매수 (원문: Tom Lee’s Bitmine Adds $20M in Ethereum, Seizing on Vitalik’s 'ETH Is Money' Declaration)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382854/tom-lee-bitmine-adds-20m-ethereum-vitalik-eth-money",
+      "one_liner": "비트마인 보유량이 607만 ETH(공급량의 4.97%)로 목표 5%의 99%에 도달했다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Tom Lee’s Bitmine Adds $20M in Ethereum, Seizing on Vitalik’s 'ETH Is Money' Declaration"
+    },
+    {
+      "title": "비트코인·기술주, 엔비디아 약세 딛고 반등…분석가는 6만8천 달러 목표 거론 (원문: Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "비트코인이 11주 저점인 7만3,500달러 부근에서 반등했고, 엔비디아 매도에도 나스닥 종합지수는 올랐다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "data",
+      "original_title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target"
+    },
+    {
+      "title": "스트래티지, 보통주 2억8,380만 달러 매각분 중 8,190만 달러만 비트코인 매수에 투입",
+      "source": "위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jTnhzNER6eC1wVjl5VS1kekx3dnNTN0ZuMjJIVDFzRWRzSXVpRktZYTRYZVJKVHZSVHdhdHRTQThpUVVVNlluX3hxb3dydmY1VmhOczd3?oc=5",
+      "one_liner": "스트래티지가 보통주 매각 대금 2억8,380만 달러 가운데 8,190만 달러를 비트코인 매수에 썼다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "스트래티지, 보통주 매각 2억 8,380만 달러 중 비트코인 매수엔 8,190만 달러 투입 - 위키트리"
+    },
+    {
+      "title": "PNC은행, USDC 결제를 달러 예금으로 전환하는 시범 운영 (원문: PNC Bank tests turning USDC payments into dollar deposits)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/pnc-bank-launches-usdc-payment-pilot-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "적격 기업·기관 고객이 이더리움 기반 USDC를 받으면 토큰당 1달러 예금으로 전환하는 시범 서비스다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "data",
+      "original_title": "PNC Bank tests turning USDC payments into dollar deposits"
+    },
+    {
+      "title": "청해부대 기뢰전력 추가 배치…이란 \"한국, 호르무즈 파병 자제하라\"",
+      "source": "민주신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RbzN6d0FLS3ZOUEdiVFhJQW5yZVRqVGdjcV9qSDZhWlNWUy01eUhWcGE4X1BZSUYydmVDbW16NnJnYlRTOG1fbnFkWTBzcUp5TjE3M2ZiRVVhT0pJLUhaT1VTZjBkTEJZ?oc=5",
+      "one_liner": "국방부가 유사시 대비로 청해부대에 기뢰전력을 추가한다고 밝혔고, 이란은 한국에 호르무즈 역내 파병 자제를 요구했다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "geopolitics",
+      "original_title": "강신철 \"청해부대 기뢰전력 추가, 유사 시 위협 대비 차원\" - 민주신문"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
