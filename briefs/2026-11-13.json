@@ -1,0 +1,113 @@
+{
+  "schema": 2,
+  "date": "2026-11-13",
+  "slot": "am",
+  "generated_at": "2026-11-13T03:40:19.144791+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "후티 반군 \"사우디 동서 송유관·얀부 석유시설 타격\"",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QMTJXQ0N2UWx0MzM0WFJkb0ZDajBVLUNZejhnX2x2ZzdwOXlEY0xOa1hhbVZZcGwxOTlCQmczdld1V0FvNzd6QnlXMG5kRUJDOFhMVDJGRVJDT2c?oc=5",
+      "one_liner": "후티 반군이 사우디 동서 송유관과 얀부 석유시설을 타격했다고 주장했다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "후티 반군 “사우디 동서 송유관·석유시설 타격” - KBS 뉴스"
+    },
+    {
+      "title": "'유조선 무덤' 된 호르무즈…기름 범벅 환경재앙 현실화",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01cmVZU01vcU9Ba2pjam5KOVlmYWhxc1huNmtzaDRweDhYcURNUkNKenRLeDlyMHV3UEcyWnFhZWF4UkRRM195eEhHTjVrTGZoZlhOdkxIZDZsdEHSAWBBVV95cUxOd2NBQjBVR1FYQnJNWFY0NG5QRVAzelFRYzB0c0FPVi0ycjV1MWFwWUV3eHA4RG9PLVBZMW5uaGwzNFB3VFoteXR2U3Y0ZEVqV1ppalZoeTc2bHFpVkcyako?oc=5",
+      "one_liner": "호르무즈 해협 선박 피격이 이어지며 기름 유출 환경 피해가 현실화했고, 이란은 오만 내 항행지원 시설도 타격했다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "'유조선 무덤' 된 호르무즈…기름 범벅 환경재앙 현실화 - 연합뉴스"
+    },
+    {
+      "title": "트럼프, 밴스 부통령에게 이란 협상 대신 美 내 부패 척결 집중 요청",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTTJVUVJndzNQQUFKSFAzT1pYemZUbUtGR0NRUmV2cF9MQlVoOXVOaURFelVZdmx6alN6ZV9WTlpPWlFiX2NNZlBSOTY2RHltcmFaSVNlbzZRTHVzTml1bnJPS3JpdEpmMWxoWFVlOC1hUXNLSGRONUJvc2JyZFlfSnBMWW5McXZQWUxfeFZWa1ZSdEhWZ3FLeExKaFRqOTBVWVJmLW8yXzY5X2RJVXN2SFM1RjVWampn0gG7AUFVX3lxTE9jalhMYlVIT1ZhbDdvcmRPTXNIRmNZUkhiZmx0QUxra0NiUzROZkp3LXg2YTR2dkZxU2liXzhMYXh6bW5GRm1seWpaTExpZmdjQk1aWGlzTTJaRGJWeUhaMjF1Y3hBM3UtS0lfR00xT0ZfYm1vWmU2REkzTFF2MDN4aTdLODVSXzJQWWR6dEdhLXF1U2tob3RDNW5naklzeEJ2VE5rTlpsYnFtdlV3UFZudHgyV1hlUTJpbVk?oc=5",
+      "one_liner": "트럼프가 이란 협상이 불필요하다는 취지로 밴스에게 국내 부패 척결 집중을 요청했고, 美 국채가가 이에 반응했다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "ust10y"
+      ],
+      "category": "geopolitics",
+      "original_title": "트럼프, 밴스 부통령에게 이란 협상 대신 미국 내 부패 척결에 집중 요청 - VOA 한국어 홈페이지"
+    },
+    {
+      "title": "'젠슨 황 리스크' 코스피 0.61% 하락 마감…코스닥 1.22%↓ (원문: '젠슨 황 리스크' 코스피, 0.61% 하락 마감…코스닥 1.22%↓(2보))",
+      "source": "news1_kr",
+      "url": "https://www.news1.kr/finance/market-exr/6352144",
+      "one_liner": "12일 코스피는 32.63p(0.61%) 내린 5342.73, 코스닥은 8.57p(1.22%) 하락 마감했다.",
+      "why_it_matters": "",
+      "confidence": 0.85,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data",
+      "original_title": "'젠슨 황 리스크' 코스피, 0.61% 하락 마감…코스닥 1.22%↓(2보)"
+    },
+    {
+      "title": "비트코인 7.1만 달러 향해 하락…젠슨 황 사임에 엔비디아 급락 (원문: Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "엔비디아 CEO 젠슨 황 사임 뒤 기술주가 밀리며 비트코인이 8월 20일 이후 최저 수준으로 떨어졌다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down"
+    },
+    {
+      "title": "[美특징주] 스트래티지, 지수 편출 결정·비트코인 하락에 급락",
+      "source": "이데일리",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ2lHbUdCNGdhQkUwUEtST29PQlVhN0N2WUNwOXAzbEZzVDlsSU1sOXpHbDM0X0lhd0UyUWRGaE96aUZqa25uSlRMVFByZ1gzdmIwem9VcURvNXo4X0VMUjVyTnNxd0l3NlJuNFpHelZaZ0pscXg3RDJHc2xSck5VVQ?oc=5",
+      "one_liner": "스트래티지 주가가 지수 편출 결정과 비트코인 하락이 겹치며 급락했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "[美특징주]스트래티지, 급락…지수 편출 결정에 비트코인 하락까지 - 이데일리"
+    },
+    {
+      "title": "비트코인 연말 하락 대비 확산에 파생시장 양방향 청산 '경고'",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wdEVVNVl3ekhra2wzcngzZEFFTTJIOXAwR0l5VnBkZFBkdVh0Zk5KNjl4QnJWNTcwS1V0U2l0NU9tVnJTWk1aV0dmYXp2LVByWGJyOGFMeXFOTVRwbzdaTXl1SnlJYWtTV2FzOQ?oc=5",
+      "one_liner": "비트코인 연말 하락 대비 포지션이 늘며 파생시장 양방향 청산 위험 경고가 나왔다.",
+      "why_it_matters": "",
+      "confidence": 0.55,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "비트코인 연말 하락 대비 확산에 파생시장 양방향 청산 ‘경고’ - 경향게임스"
+    },
+    {
+      "title": "DTCC, 월가 토큰화 계획에 솔라나 추가…2027년 도입 목표 (원문: DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+      "one_liner": "DTCC가 토큰화 주식·ETF·미 국채를 솔라나에 올리는 계획을 밝혔고 2027년 도입을 목표로 한다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "data",
+      "original_title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
