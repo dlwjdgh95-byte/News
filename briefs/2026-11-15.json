@@ -1,0 +1,98 @@
+{
+  "schema": 2,
+  "date": "2026-11-15",
+  "slot": "am",
+  "generated_at": "2026-11-15T03:39:58.492435+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "비트코인, 3개월 만의 최저치 6만5천 달러로 밀려…애널리스트 '네 번째 항복 매도 파동' 지목 (원문: Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+      "one_liner": "비트코인이 3개월 최저치인 6만5천 달러까지 밀렸고, 제임스 체크는 매도자들이 석 달 전 잡았어야 할 가격에 팔고 있다고 썼다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave"
+    },
+    {
+      "title": "블랙록 비트코인·이더리움 ETF 닷새간 1조 3,457억 원 순유출…IBIT서만 9,688억 원",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE01YjJNMUh6X1NhMVBDa1h1TFdNUk41YUFtTjlhREZ4MkREWmZIMlIxZDFpcm9UbV9EVzBzTTNrSDJtekljTlUza2dR?oc=5",
+      "one_liner": "블랙록의 비트코인·이더리움 ETF에서 닷새 동안 1조 3,457억 원이 순유출됐고, 그중 IBIT에서만 9,688억 원이 빠졌다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "블랙록 비트코인(BTC)·이더리움(ETH) ETF 닷새간 1조 3,457억 원 순유출…IBIT서만 9,688억 원 - 코인리더스"
+    },
+    {
+      "title": "비트코인 6만5000달러선 근처까지 밀려…리플·이더리움 동반 하락",
+      "source": "CBC뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuMUNjVjRrdnBuenhWeUNxQ0ppMlZZdjFBNFVtR00xajFkTmh4SDBoeVBXS2ZzazdLOGh4QVFIc19qVjRxMHJSMm1uLXBpeVZEaVdLSTNyd0ZvbFV2UVFsZ3gzWHhUZTJu?oc=5",
+      "one_liner": "비트코인이 6만5000달러선 근처까지 밀리며 리플·이더리움도 함께 하락했다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "[속보] 비트코인 6만5000달러선 근처까지 밀려…리플·이더리움 동반 하락 - CBC뉴스"
+    },
+    {
+      "title": "호르무즈 해협 선박 공격 횟수 '역대 최다'… 위협 고조",
+      "source": "파이낸셜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zRzhjLVBlQnMxdF9pUjZ0ZHdmWFRmTHVKQ3BMSWpUR3FrOFJhMklnX1B3TVdqZlIybS1jdWxsaC1IVzNRc1Z0UlZUdG1YMC1obGtxWnBZTWVTZw?oc=5",
+      "one_liner": "호르무즈 해협 선박 공격이 10월 37건으로 역대 최다를 기록했고, 이란은 바레인의 미 조기경보 레이더를 타격했다고 주장했다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "호르무즈 해협 선박 공격 횟수 '역대 최다'... 위협 고조 - 파이낸셜뉴스"
+    },
+    {
+      "title": "후티 반군, 사우디 아람코·송유관 시설 추가 공격 주장",
+      "source": "VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRZ05fOV8zT21iR05IaTEwUWpZZ2g2MnBESGtVdk04LXRfVUFzcUJ5ZTZyV2pCUVl4STlKMmFSZzBraWhvUEdWNVJHWmFwcEdf0gFTQVVfeXFMT0MwOE5GUUdDekY0M21KMFNKUkN5Zjl5MF9vMnpCek51bFNyZ2NPWnEwSEEtNlg1REQ5eF80M3ZkVUJWV3BJMUg4TlozRTRtQzdjNk0?oc=5",
+      "one_liner": "후티 반군이 사우디 동서 송유관과 얀부 석유시설을 타격했다고 주장했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "후티 반군, 사우디 아람코∙송유관 시설 추가 공격 주장 - VOA 한국어 홈페이지"
+    },
+    {
+      "title": "트럼프 \"불법 이민자 안 막으면 멕시코 관세 2배로\"",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ1VHalpSWDFLbkFjbWxLRDV5WEQyaGtZTVBoQ194VVpUOHBTelg0dS00UVp4UlBPQ05sdnlUTUxubmQ4OEFTYVo0MDRHWVZkT1g4Sm04V1ZNU3loYkNiYTBvMVl4eWstT0JuQXlsM2hUa3BVUVZsVjBtSmM3TmtkTEY4a1k?oc=5",
+      "one_liner": "트럼프가 이민 행렬을 막지 않으면 멕시코 관세를 2배로 올리겠다고 위협했고, 멕시코 대통령은 국경으로 향하는 이민 행렬이 없다고 반박했다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "트럼프 \"불법 이민자 안 막으면, 멕시코 관세 2배로\" - 조선일보"
+    },
+    {
+      "title": "이더리움 확장 프로젝트 MegaETH, AI 사업 추진하며 인력 20% 감축 (원문: Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "one_liner": "MegaETH가 AI 사업을 추진하며 인력을 20% 줄였고, 이 네트워크의 디파이 예치금은 2억 4,500만 달러 이상에서 880만 달러로 급감했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
