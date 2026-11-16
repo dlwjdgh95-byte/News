@@ -1,0 +1,114 @@
+{
+  "schema": 2,
+  "date": "2026-11-17",
+  "slot": "am",
+  "generated_at": "2026-11-17T03:40:02.320671+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "엔비디아 3분기 실적 발표(이번 주)"
+  ],
+  "items": [
+    {
+      "title": "코스피 3.59% 하락한 5100.50 마감…코스닥 4.86%↓ (원문: 코스피, 3.59% 하락한 5100.50 마감…코스닥 4.86%↓(2보))",
+      "source": "news1_kr",
+      "url": "https://www.news1.kr/finance/general-stock/6355584",
+      "one_liner": "16일 코스피는 190.03p(3.59%) 내린 5100.50, 코스닥은 34.01p(4.86%) 하락 마감했다.",
+      "why_it_matters": "",
+      "confidence": 0.9,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data",
+      "original_title": "코스피, 3.59% 하락한 5100.50 마감…코스닥 4.86%↓(2보)"
+    },
+    {
+      "title": "외국인 매도 폭탄에 코스피 3%대 급락해 5100선 '턱걸이'",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrQkY4M1Y1Rk5uZUJ4cEZvRW1pNV8wNkRGUG9EX3VEU3V0eC1fS1lJY25KYnNjYjB1ZWlrWFFHblhSUTRHMW9pc1UwWm1tcklTanVqQ25OeVRSdw?oc=5",
+      "one_liner": "외국인 매도로 코스피가 3%대 급락해 5100선에 턱걸이했다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "kr_foreign"
+      ],
+      "category": "data",
+      "original_title": "외국인 매도 폭탄에…코스피 3%대 급락해 5100선 '턱걸이' - 한국경제"
+    },
+    {
+      "title": "연준, AI '초지능' 시나리오 모델링…일자리 감소·증시 하락 포함 (원문: Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
+      "one_liner": "워시 연준 의장은 직원들이 AI가 가져올 세 가지 경제 시나리오를 연구 중이라고 밝혔다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [
+        "fed_upper"
+      ],
+      "category": "central_bank",
+      "original_title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump"
+    },
+    {
+      "title": "BOJ 매파 다카타 위원, 조속한 금리 인상 촉구 (원문: Hawkish BOJ policymaker Takata calls for swift hike in rates to 'good' position)",
+      "source": "thestandard_hk",
+      "url": "https://www.thestandard.com.hk/finance/article/348614/Hawkish-BOJ-policymaker-Takata-calls-for-swift-hike-in-rates-to-good-position",
+      "one_liner": "다카타 BOJ 위원은 정책금리를 이른 시기에 '좋은' 수준까지 올려 커지는 물가 압력에 대응해야 한다고 말했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "central_bank",
+      "original_title": "Hawkish BOJ policymaker Takata calls for swift hike in rates to 'good' position"
+    },
+    {
+      "title": "트럼프, 이란과 협상도 공격도 보류…경제제재로 굴복 압박",
+      "source": "노컷뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pZmxUbXJ2Y2RlMXJfakJaYTI3T0ltY2NfNkNZQWtfYlJXcWFYaHJBMEx3eUFMLXEweTRZZFJyendDRkR1MkI1ZXV2VUJHVE9ybHc?oc=5",
+      "one_liner": "트럼프 대통령이 이란에 대해 협상·공격 없이 경제제재로 압박하는 쪽을 택했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "트럼프, 이란과 협상도 공격도 보류…경제제재로 굴복 압박 - 노컷뉴스"
+    },
+    {
+      "title": "비트코인 6만2006달러로 7월 이후 최저…ETF 이탈에 반등 여력 제한",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9jejlOZ3FPY2ZQbndLUTY0UEh1N2piZS00Wm1KTlBzakd6N0VBM24tSWM5UXVoUnh4MWxVNXVKLWc3bmZmQUNVN2JB?oc=5",
+      "one_liner": "비트코인이 6만2006달러까지 내려 7월 이후 최저를 기록했고 ETF 자금 이탈이 반등을 제한하고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "비트코인(BTC), 6만 2,006달러로 7월 이후 최저…ETF 이탈에 반등 여력 제한 - 코인리더스"
+    },
+    {
+      "title": "세일러의 스트래티지, 하락 중에도 비트코인 추가 매수 (원문: Saylor’s Strategy Keeps Buying Bitcoin, Adding 'A Little Orange' Through the Dip)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383347/saylor-strategy-buying-bitcoin-adding-little-orange-dip",
+      "one_liner": "스트래티지가 소규모 매수로 보유량을 850,849 BTC로 늘렸다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Saylor’s Strategy Keeps Buying Bitcoin, Adding 'A Little Orange' Through the Dip"
+    },
+    {
+      "title": "트럼프 \"젠슨 황 엔비디아 복귀 반대 안 해\"",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85X0ZURElJR2FmUXlUa18xSUtPZGEtTTlLcEp6ZWJkQmxoc0huWHFxZWluaW1vdDlEd0lHNnpjSTZsUnNaak1pTUx1MkZvMUtTUXpjYjQ1Szk4Wmo2dXZHSFVxcXI5a25Oem1QMThYODQ?oc=5",
+      "one_liner": "트럼프 대통령이 젠슨 황의 엔비디아 복귀에 반대하지 않는다고 말했다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "트럼프 \"젠슨 황 엔비디아 복귀 반대 안해…많은 사람이 요구\"(종합) - 연합인포맥스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
