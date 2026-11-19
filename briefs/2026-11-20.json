@@ -1,0 +1,97 @@
+{
+  "schema": 2,
+  "date": "2026-11-20",
+  "slot": "am",
+  "generated_at": "2026-11-20T03:41:32.133867+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "[수출 1조弗 금자탑] 日도 못 넘은 벽 훌쩍...1인당 '국민소득 4만 달러' 시대 활짝",
+      "source": "ajunews",
+      "url": "https://www.ajunews.com/view/20261119153550491",
+      "one_liner": "한국 올해 수출액이 사상 처음 1조 달러를 돌파했고, 반도체 중심 수출 호황 속 1인당 국민소득도 처음 4만 달러를 넘을 것으로 전망된다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "kr_exports"
+      ],
+      "category": "central_bank"
+    },
+    {
+      "title": "이더리움 Glamsterdam 업그레이드, 호환성 우려로 2027년 5월로 밀릴 수도 (원문: Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "이더리움 개발자들이 기존 스마트컨트랙트를 깨뜨릴 수 있는 가스 가격 제안 변경을 검토하면서 Glamsterdam 일정이 2027년 5월로 늦춰질 수 있다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns"
+    },
+    {
+      "title": "이더, 급락 뒤 안정… ETF 자금 유출은 여전히 부담 (원문: Ether Stabilises After Sharp Sell-Off As ETF Outflows Remain A Drag)",
+      "source": "menafn",
+      "url": "https://menafn.com/1111989162/Ether-Stabilises-After-Sharp-Sell-Off-As-ETF-Outflows-Remain-A-Drag",
+      "one_liner": "이더가 급락 이후 안정을 찾았지만 ETF 자금 유출이 계속 가격에 부담이 되고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Ether Stabilises After Sharp Sell-Off As ETF Outflows Remain A Drag"
+    },
+    {
+      "title": "앤트로픽 나스닥 상장에도 비트코인 외면… ANT 주가 100달러 아래로 (원문: Bitcoin price ignores Anthropic debut as ANT share price dips below $100)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "앤트로픽이 나스닥에 상장해 주당 115달러 고점을 찍었다가 100달러 아래로 내려온 사이 비트코인은 6만2,000달러 세 번째 재시험 쪽으로 밀렸다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "data",
+      "original_title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100"
+    },
+    {
+      "title": "크립토 트레이더 vs 월가: OKX의 앤트로픽 시장, IPO 가격 시험대 (원문: Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test",
+      "one_liner": "OKX가 토큰화된 앤트로픽 주식 출시를 계획하는 가운데 상장 전 선물은 회사 측 가격보다 약 24% 높게 거래됐다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "data",
+      "original_title": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test"
+    },
+    {
+      "title": "트럼프의 민주당 몫 SEC 위원 지명자 \"토큰화 정책은 정식 규칙 절차 거쳐야\" (원문: Trump's Democratic SEC pick suggests tokenization policy deserves full rule process)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process",
+      "one_liner": "美 상원 은행위원회가 SEC 위원 지명자 두 명의 인준 청문회를 열었고, 민주당 몫 지명자는 토큰화 정책에 정식 규칙 제정 절차가 필요하다는 입장을 내비쳤다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process"
+    },
+    {
+      "title": "아제리 라이트 원유, 배럴당 97.62달러 (원문: Azeri Light crude sells for $97.62 per barrel)",
+      "source": "report_az",
+      "url": "https://report.az/en/energy/azeri-light-crude-sells-for-97-62-per-barrel",
+      "one_liner": "아제르바이잔 아제리 라이트 원유 가격이 1.17달러(1.18%) 올라 배럴당 97.62달러를 기록했다.",
+      "why_it_matters": "",
+      "confidence": 0.55,
+      "indicators": [
+        "brent"
+      ],
+      "category": "data",
+      "original_title": "Azeri Light crude sells for $97.62 per barrel"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": [
+    "A"
+  ]
+}
