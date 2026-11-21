@@ -1,0 +1,113 @@
+{
+  "schema": 2,
+  "date": "2026-11-22",
+  "slot": "am",
+  "generated_at": "2026-11-22T03:40:01.952790+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 물가 지표 발표·한국은행 금통위(이번 주)",
+    "월요일 美 증시 개장(비트코인 트레이더 주시)"
+  ],
+  "items": [
+    {
+      "title": "코스피 5,000선 회복할까…미국 물가·금통위 주목",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VT0FuSE5Xc1pWMnBlV2I0aTV1RThJRGNSUkFRZzNsb1BqZnp6MmkxUkZCTjlQNGV0bnNYVzFDMEJfenhDalk0X1g4T19rU2d1QVBuNi1QeWkySGN1UEE?oc=5",
+      "one_liner": "코스피가 공세적 연준과 AI 악재 충격에 5%대 급락하며 사흘 만에 5,000선 아래로 내려갔고, 시장은 미국 물가와 금통위를 주목한다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "fed_upper",
+        "bok_rate",
+        "kospi"
+      ],
+      "category": "central_bank",
+      "original_title": "코스피 5,000선 회복할까...미국 물가·금통위 주목 - YTN"
+    },
+    {
+      "title": "비트코인, 2년 최저점에서 9% 반등해 6만 달러 회복…트레이더들은 월요일 증시 개장 주시 (원문: Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+      "one_liner": "비트코인이 2년 최저점에서 9% 반등해 6만 달러를 되찾았고, 앞선 급락으로 주로 상승 베팅인 레버리지 포지션 18억 달러가 청산됐다.",
+      "why_it_matters": "",
+      "confidence": 0.85,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open"
+    },
+    {
+      "title": "이더리움 트레저리 기업 BTCS, 5,400만 달러 Aave 대출 청산 가능성 SEC에 경고 (원문: Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+      "one_liner": "BTCS가 열흘 새 Aave 부채를 약 1,000만 달러 줄였지만 이더 가격 하락으로 담보 여건이 불안하다고 SEC에 밝혔다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated"
+    },
+    {
+      "title": "호르무즈 선박 통항 1주 새 15% 감소…유조선 52척→37척",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uNWJzQ1pZemVfcUtSQWlnT2xyTGh0ZzU2RGc1dDJEc2o3ckMzS1ZGMjN3TXdWLUcxZGFPWWxqbnFlckpOdHJjRzRpcWZRX2FhM1E2TEN6WFZRX2ZMOVR1eWxn?oc=5",
+      "one_liner": "호르무즈 해협 유조선 통항이 1주 새 52척에서 37척으로 15% 줄었고, 미확인 발사체에 유조선이 잇따라 피격됐다는 보도가 나왔다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "호르무즈 선박 통항 1주 새 15% 감소…유조선 52척→37척 - 뉴스1"
+    },
+    {
+      "title": "AI 버블 꺼지나? 엔비디아 48% 폭락에 월가 경고 (원문: Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
+      "one_liner": "앤트로픽 상장과 엔비디아 리더십 위기 이후 기술주가 흔들리고 비트코인도 밀렸다는 보도다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "data",
+      "original_title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm"
+    },
+    {
+      "title": "한 달 28% 하락한 비트코인…역대 8.4%뿐인 구간 진입",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE45a2VscnJmVnFkRWNiNEZ5cjc2aVM5OU9CUTNDR3JUOWNqSHlhUGM2SjBkai14QnBxbDNiblRCZE1JTU1sMk1uRWpn?oc=5",
+      "one_liner": "비트코인이 한 달 새 28% 떨어져 역사적으로 8.4%에 불과한 구간에 들어섰다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "한 달 28% 털린 비트코인…역대 8.4%뿐인 구간 진입 - 코인리더스"
+    },
+    {
+      "title": "골드만삭스 공포지수 9점…의미는?",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBabVRUX0hCNmwtTE92M3RhWjFNQmFQaWtLY3BKcjNOQ1R2ZXVXX19RTlduMEh4dmRrSS1IaHY5ZEVUa0pqbmVUQlU0cTZRTVVDa0Q3TkMzWWdkOWhaQ3NnejFaVDF2azNTTThQTF9aX0V6LVRVN2VpYlRscw?oc=5",
+      "one_liner": "골드만삭스 공포지수가 9점을 기록했다.",
+      "why_it_matters": "",
+      "confidence": 0.55,
+      "indicators": [],
+      "category": "data",
+      "original_title": "골드만삭스 공포지수 9점…의미는? - BeInCrypto"
+    },
+    {
+      "title": "반토막 비트코인…반에크 '이미 바닥 쳤을 가능성'",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBXSDUyUHVKU0dLdXZQNEtXU0E0QkJSR2NJdzVhbE9PQmlnTGdfbnIzajdXOFAyMkhRSUY3Z2FvNmFoOFFnamNBTUx3?oc=5",
+      "one_liner": "반에크가 반토막 난 비트코인이 이미 바닥을 쳤을 가능성을 제기했다.",
+      "why_it_matters": "",
+      "confidence": 0.55,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "반토막 비트코인…반에크 ‘이미 바닥 쳤을 가능성’ - 코인리더스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
