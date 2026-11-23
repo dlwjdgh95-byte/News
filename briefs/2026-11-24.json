@@ -1,0 +1,111 @@
+{
+  "schema": 2,
+  "date": "2026-11-24",
+  "slot": "am",
+  "generated_at": "2026-11-24T03:39:55.076831+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "트럼프 \"이란은 말만 해\"…합의 불발 시 새해 공격 경고",
+      "source": "경향신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93dXNnWDFJZ1I5SDRkLXh6bDFJX1I4LTV2OGt1Y0VvRUF1eWpzQnBTbHZZSzcyWGZDc1cwR0lzdUJOTlE1WTlQTHFCNm5yMlFJRDhDakhiX2ZRUdIBX0FVX3lxTFBGakx5bjZNR2lxY3lxUVZ4cE9LVGh1VTFnZGc5ZzFJMnh6ZU1TWXBHYXI5R29xcmM2QThBNFozM2xMN3dGbU51UzY4TjlzMmJVUXQ5RGJhVWZhV3gwV2dn?oc=5",
+      "one_liner": "트럼프 대통령이 이란을 '전문 탭 댄서들'이라 비판하며 합의가 불발되면 새해에 공격하겠다고 경고했다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "트럼프 “이란 항상 말만 해, 전문 탭 댄서들”···합의 불발 시 새해 공격 경고 - 경향신문"
+    },
+    {
+      "title": "바레인 \"이란, 민간시설 공습해 2명 부상\"",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWm1lSHZoZmltTGpSNGFKenhjRXpQaTBoTXpXbDVyNEVaeWpIaTBRZzJwTTZGbVB1eWZfM1lxZEFkaEdfZl9SWHJvbkhDT1pfWEZpOUpfQUgxU1HSAWBBVV95cUxPRV90aXEzaDlQd3EyRjdUSE5HVkZ0eHpRSUV2VmY4VmxtS0NfSDVmS0RTYkFkenNmeWUtMV85czBydUhKSk9GZGYxcmRqdS1DakRmZlI1Y0dSZm1URjM5UUI?oc=5",
+      "one_liner": "바레인은 이란이 정유시설 섬 등 민간시설을 공습해 2명이 다쳤다고 밝혔고, 이란은 페르시아만에서 미국 F-16을 공격했다고 주장했으나 미군은 부인했다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "바레인 \"이란, 민간시설 공습해 2명 부상…범죄적 공격\" - 연합뉴스"
+    },
+    {
+      "title": "젠슨 황 복귀에 엔비디아 35% 급등…비트코인 반등, 앤트로픽은 하락 (원문: Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383801/bitcoin-rallies-anthropic-sinks-as-nvidia-surges-35-on-jensen-huangs-return",
+      "one_liner": "엔비디아가 젠슨 황 CEO 복귀로 급등하며 반도체주가 치솟았고, 급락 뒤였던 비트코인도 반등했다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return"
+    },
+    {
+      "title": "비트코인, 5만5천달러 저점서 17% 반등…엔비디아 랠리에 5억달러 청산 (원문: Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "젠슨 황 복귀로 위험자산이 급등하면서 비트코인이 6만4,500달러까지 올랐고 암호화폐 청산이 5억달러에 달했다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations"
+    },
+    {
+      "title": "비트코인(BTC), 6만2000달러 일시 반납",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTeFAyOHBuLTN1R3gxOUtJVWxmRFEzOFFlSEZ3Y3pSYmRYTXFQTlNZUklaaTAtbHFtRXZYUEh4OGtXUjVMQlM2eFlOOWFhQzdE?oc=5",
+      "one_liner": "비트코인이 반등 후 6만2,000달러를 일시 내줬다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "비트코인(BTC), 6만2000달러 일시 반납 - 블루밍비트"
+    },
+    {
+      "title": "코스피 4,708.54 마감(-3.31%)…전 업종 하락 (원문: 코스피 마감, 4,708.54P (-3.31%↓) 삼성생명, KB금융등 하락세)",
+      "source": "mk_kr",
+      "url": "https://www.mk.co.kr/news/stock/12216172",
+      "one_liner": "코스피가 3.31% 내린 4,708.54에 마감했고 상승 업종이 하나도 없었으며 건설(-6.91%)·보험(-5.12%)이 크게 빠졌다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data",
+      "original_title": "코스피 마감, 4,708.54P (-3.31%↓) 삼성생명, KB금융등 하락세"
+    },
+    {
+      "title": "톰 리 \"이더리움, 비트코인만큼 희소\"…비트마인 ETH 추가 매수 (원문: Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more",
+      "one_liner": "톰 리 의장은 2025년 중반 이후 ETH 공급이 연 0.90% 늘어 비트코인(0.82%)과 비슷하다고 주장했고 비트마인은 ETH를 더 샀다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More"
+    },
+    {
+      "title": "코인베이스 \"비트코인 반등하려면 6만8천달러 회복해야\"",
+      "source": "경향게임스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpUWRwZFpYMGxQaS1tMlVXa2ZHWG5fRTgtRmpZQ0s2dlh5WHF1MWRjSW5RcUFPWXplYTlsSTJ1TG9qbk9rV1N4b3oyWkhUVWhROTVLNGU1Y1RvSW0zdGlPenZudjFPVjBwaFlHTw?oc=5",
+      "one_liner": "코인베이스는 비트코인이 반등하려면 6만8,000달러를 회복해야 한다고 봤다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "코인베이스, “비트코인 반등하려면 6만 8천 달러 회복해야” - 경향게임스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
