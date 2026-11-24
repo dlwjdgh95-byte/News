@@ -1,0 +1,109 @@
+{
+  "schema": 2,
+  "date": "2026-11-25",
+  "slot": "am",
+  "generated_at": "2026-11-25T03:39:29.217808+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [],
+  "items": [
+    {
+      "title": "이란 \"호르무즈서 유조선 2척 기뢰 충돌\"…UAE 인근서 화물선 피격",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92TGN6MmllMHNVSGwzZTRXaWp0bUZJX2NMRjFwUTktQ2hGOERrejQ3aTRRY01jTUY3ZU5LNjdUNUVsWnhlNjRET0lHQkVWVGZNRmxkUDVUMDFZRUdwemd6UWV2bW1zeVU?oc=5",
+      "one_liner": "이란이 호르무즈 해협에서 유조선 2척이 기뢰에 충돌했다고 밝혔고, UAE 인근에서는 화물선이 피격됐다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "이란 \"호르무즈서 유조선 2척 기뢰 충돌\"…UAE 인근서 화물선 피격 - 연합뉴스TV"
+    },
+    {
+      "title": "코스피, 젠슨 황 복귀에 6%대 급등 마감…5000선 탈환",
+      "source": "newsis",
+      "url": "https://www.newsis.com/view/NISX20261124_0003881317",
+      "one_liner": "젠슨 황 엔비디아 CEO 복귀 소식에 24일 코스피가 전일 대비 297.49포인트(6.32%) 올라 5000선을 되찾았다.",
+      "why_it_matters": "",
+      "confidence": 0.85,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data"
+    },
+    {
+      "title": "뉴욕증시, 기술주 차익실현 속 하락 출발",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DY2k0QktKbXktZDRCVktYZTFTbHlzV0NZOGFCMVNPbm1icnVLSzZsSzR1OGVTSG1hYVFfcTRxRDhNTDlXR0o1RmdkcDQwNk1CaGFudExCX0JuVWfSAWBBVV95cUxQUml6Vl8xN3cxSTdEMS1mSFJTbTNDZVczNEtEMnB5c3hjRkR2RDg5WmFIcGtPckc5dmkyNF9oRDd0VmNnMm9vQ2NVU3pILThpNnRUVnJNRkZFLUNNWTdyZXA?oc=5",
+      "one_liner": "뉴욕증시가 기술주 차익실현으로 하락 출발했고, 엔비디아는 전날 '젠슨 황 복귀' 랠리를 일부 반납하며 3%대 하락했다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [],
+      "category": "data",
+      "original_title": "뉴욕증시, 기술주 차익실현 속 하락 출발 - 연합뉴스"
+    },
+    {
+      "title": "월가와 크립토 모두 '극단적 공포'…투자자를 겁주는 것은 (원문: Wall Street and Crypto Are in 'Extreme Fear'. What's Spooking Investors?)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383898/wall-street-crypto-extreme-whats-spooking-investors",
+      "one_liner": "엔비디아 반등이 사그라들고 비트코인이 하락하면서 주식·크립토 공포탐욕지수가 모두 극단적 공포를 가리키고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [
+        "vix"
+      ],
+      "category": "central_bank",
+      "original_title": "Wall Street and Crypto Are in 'Extreme Fear'. What's Spooking Investors?"
+    },
+    {
+      "title": "美 관세 우려에 비트코인 하락…앤트로픽, 공모가 아래로 (원문: Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "관세 우려가 미국 증시를 누르며 비트코인이 6만 달러 위 상승분을 반납했고, 앤트로픽 주가는 76달러 아래 신저가를 기록했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price"
+    },
+    {
+      "title": "미국 추가 제재에 이란 리알화 또 급락…암시장 환율 5% 치솟아",
+      "source": "KBS 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MbXNXb2sySXBIVGhXekJFS3JzNEZXZkppcVpqV1ZnWFN5enBJUEZrNFF0SkhmeWhCVTVrMlg5SENGaWZwanVnT2VSWTVla3AyOGF2RTdTRmVyTEk?oc=5",
+      "one_liner": "미국이 이란 해외 결제망을 제재하자 이란 암시장 달러 환율이 하루 새 5% 급등했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "geopolitics",
+      "original_title": "미국 추가 제재에 이란 리알화 또 급락…암시장 환율 5% 치솟아 - KBS 뉴스"
+    },
+    {
+      "title": "글래스노드 \"비트코인, 6만달러 지지선 붕괴 시 5만3200달러까지 하락 가능\"",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4b0hkQ05RWlRKQ0F3Mm1HOXh1by1IUkFpRTZfdlFoQTVqSmtQNi1ycDdwMU55ZVl6bU5oRzB4M3J0bFVOM29UdldSajA5V0l5?oc=5",
+      "one_liner": "글래스노드는 비트코인이 6만 달러 지지선을 잃으면 5만3200달러까지 밀릴 수 있다고 분석했다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "글래스노드 \"비트코인, 6만달러 지지선 붕괴 시 5만3200달러까지 하락 가능\" - 블루밍비트"
+    },
+    {
+      "title": "ETF는 4주째 빠지는데…비트코인 차트엔 '바닥 신호'",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBqWjZtZjlsZVB5eklxZEJQWmg1Z3M5dFBVX3VVWV9QLTBJN19sb3BzYVpZUGhZcmRPekQ4T2dQOXBrU01HVnZDMEJ3?oc=5",
+      "one_liner": "비트코인 ETF 자금이 4주째 빠지는 가운데 차트에서는 바닥 신호가 나타났다는 분석이 나왔다.",
+      "why_it_matters": "",
+      "confidence": 0.55,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "ETF는 4주째 빠지는데…비트코인 차트엔 ‘바닥 신호’ - 코인리더스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
