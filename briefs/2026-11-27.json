@@ -1,0 +1,118 @@
+{
+  "schema": 2,
+  "date": "2026-11-27",
+  "slot": "am",
+  "generated_at": "2026-11-27T03:39:47.787036+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "美 12월 FOMC 회의"
+  ],
+  "items": [
+    {
+      "title": "한은, 연말에도 긴축 선택… 기준금리 3.25%로 상향",
+      "source": "jemin",
+      "url": "https://www.jemin.com/news/articleView.html?idxno=848511",
+      "one_liner": "한국은행 금통위가 올해 마지막 회의에서 기준금리를 3.25%로 올렸다. 반도체 중심 회복 속 물가 상승 압력 대응으로 해석된다.",
+      "why_it_matters": "",
+      "confidence": 0.85,
+      "indicators": [
+        "bok_rate",
+        "core_yoy"
+      ],
+      "category": "central_bank"
+    },
+    {
+      "title": "이란 혁명수비대 \"호르무즈 해협서 유조선 2척 기뢰에 부딪혀 폭발\"",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvWkhJa3U0UjNMZ2hYVTFCTG11WW9UZVQ0T21pUGJFVlZBOWtWeU9zN0Z6dlJqb2M5cEJQWEtscHktWWZMbldOZm85NDk0Z0pyX2lsdzJQNXZGY2ZyTV9Cand3?oc=5",
+      "one_liner": "이란 혁명수비대가 호르무즈 해협에서 유조선 2척이 기뢰에 부딪혀 폭발했다고 밝혔다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "이란 혁명수비대 \"호르무즈 해협서 유조선 2척 기뢰에 부딪혀 폭발\" - 뉴스1"
+    },
+    {
+      "title": "사우디 정유시설 피격으로 1명 사망…가동 일시 중단",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83SkJxdUVleUo2dml3eXMwZGMwRzBwemYxRUIzeHhFRTJpU3QyWnFxYksxOWYwajgydnB1Vl9uYlFuOExrb2FPSmhnc3B4Si0tN0pzZ3dxSUxZdmfSAWBBVV95cUxPUHJqYldFTkpFck05RE1UODhSV2VJMXhtSVNEUEJUUDlWRGRDdGRyZEpTbVJxRTNzWWloS1JleDVWOEl5UTJMZDJPaThNazlqQ2VpSGRDSzRXamI3TG1UNjI?oc=5",
+      "one_liner": "사우디 정유시설이 피격돼 1명이 숨지고 가동이 일시 중단됐다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "사우디 정유시설 피격으로 1명 사망…가동 일시 중단 - 연합뉴스"
+    },
+    {
+      "title": "한국 콕 집어 \"미국에 피해\"…'약속 어기면' 관세 25%?",
+      "source": "JTBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9TYnRZX25yaEMzUGlWdHpPZVBtTlRvUWR2R2lBR2JYakJKaUF4Q0xyc0QyRi1LWHVfeTRKM0EtZlFCNU9kckE4WFpxYVk4X3lPZFl0Vg?oc=5",
+      "one_liner": "미국이 한국을 지목해 약속 불이행 시 관세 25% 가능성을 거론했다. 새 관세 시행 시 평균관세율은 13.9%로 보도됐다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [
+        "kr_exports",
+        "usdkrw"
+      ],
+      "category": "policy",
+      "original_title": "한국 콕 집어 \"미국에 피해\"…‘약속 어기면’ 관세 25%? - JTBC"
+    },
+    {
+      "title": "매파 연준, 12월 '붕괴' 위험에 암호화폐 경계 (원문: Crypto on notice as hawkish Fed risks December ‘meltdown’)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "경제학자 로빈 브룩스가 연준이 비둘기파 신호를 주지 않으면 주식시장에 심각한 결과가 올 수 있다고 경고했다.",
+      "why_it_matters": "",
+      "confidence": 0.55,
+      "indicators": [
+        "fomc_cut"
+      ],
+      "category": "central_bank",
+      "original_title": "Crypto on notice as hawkish Fed risks December ‘meltdown’"
+    },
+    {
+      "title": "비트코인 6만 달러 위 유지…데드크로스가 추수감사절 반등에 그림자 (원문: Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
+      "one_liner": "비트코인과 주요 알트코인이 추수감사절에 소폭 올랐지만 데드크로스가 약세 지속을 시사한다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery"
+    },
+    {
+      "title": "비트코인 휴면 공급 증가…과거 약세장 바닥 국면에서 보인 행태 (원문: Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases)",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases",
+      "one_liner": "가격이 고점 대비 약 50% 낮은 6만 달러 부근에 머무는 가운데 온체인에서 움직이지 않는 비트코인이 늘고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases"
+    },
+    {
+      "title": "BIS 총재 파블로 에르난데스 데 코스, 차기 ECB 총재 유력: FT (원문: BIS chief Pablo Hernández de Cos set to become next ECB president: FT)",
+      "source": "Cointelegraph.com News",
+      "url": "https://cointelegraph.com/news/bis-chief-pablo-hernndez-de-cos-next-ecb-president?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "one_liner": "스테이블코인의 지급 수단 활용에 의문을 제기해 온 스페인 경제학자가 차기 ECB 총재로 지명될 전망이라고 FT가 보도했다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "central_bank",
+      "original_title": "BIS chief Pablo Hernández de Cos set to become next ECB president: FT"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
