@@ -1,0 +1,114 @@
+{
+  "schema": 2,
+  "date": "2026-11-28",
+  "slot": "am",
+  "generated_at": "2026-11-28T03:39:53.750480+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "말레이시아 첫 비트코인 현물 ETF 출시(12/2)"
+  ],
+  "items": [
+    {
+      "title": "코스피 4.34% 올라 4900선 마감…코스닥 8.13% 급등 (원문: [속보] 코스피, 4.34% 올라 4900선 마감⋯코스닥 8.13% 껑충)",
+      "source": "kmib",
+      "url": "https://www.kmib.co.kr/article/20261127500645",
+      "one_liner": "27일 코스피가 204.47포인트(4.34%) 올라 4900선을 회복했고 코스닥도 8% 넘게 뛰어 700선을 넘었다.",
+      "why_it_matters": "",
+      "confidence": 0.9,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data",
+      "original_title": "[속보] 코스피, 4.34% 올라 4900선 마감⋯코스닥 8.13% 껑충"
+    },
+    {
+      "title": "뉴욕증시, AI주 저가 매수에 3대 지수 강세 마감",
+      "source": "연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWNzBHTWNnQVpoXzhtVGlvOVFLcWd5SGFRYU5TZzNDbVdSS2RmOEN0YnJmV0tHQnZNaUxCZjZBTHJSM0ZRTWk1eGpma25zSXNNT0I0MnBzRWdXSVFScGtLQTNzOTBvMW1Wd1ktMHo3X1M?oc=5",
+      "one_liner": "AI·기술주 반등으로 뉴욕 3대 지수가 일제히 올랐고 나스닥은 2.3% 상승했다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "vix"
+      ],
+      "category": "data",
+      "original_title": "[뉴욕증시-1보] AI株 저가 매수에 훈풍…3대 지수 강세 마감 - 연합인포맥스"
+    },
+    {
+      "title": "국제유가 3주 하락세 마감…중동 긴장 악화에 공급 우려",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYcy1SUkZ2ckxoMkFLTGN6YzhER0hyMnVEUmNDcTRPT0hYSHhETDQ5X2xLbmhCc05kOGx0YjcwMTFzZV9lcm9OcVp6aGUtYk1UaXR4RktMVXlCdWdVZldmM2xrUW90UVU?oc=5",
+      "one_liner": "사우디 정유시설 피격 등 중동 긴장이 커지며 국제유가가 3주 연속 하락을 멈추고 다시 올랐다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "국제유가 3주 하락세 마침표…중동긴장 악화에 공급 우려 - 연합뉴스TV"
+    },
+    {
+      "title": "비트코인 한때 6만2000달러 탈환…11월 20% 하락으로 4년여 만에 최악 성적 눈앞",
+      "source": "중앙일보",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jM3FpYXMxT1l6LWhHWVJvQm85WEdHSXZ1bWtDZFJMcktzR0NXWUg3bm1hc3lfa3JFQ3NudmJuYmJVdjlENGR3Q29XaDVxWF9weEdwT1BFeHBsRUU?oc=5",
+      "one_liner": "비트코인이 한때 6만2000달러를 되찾았지만 11월 한 달 20% 빠져 4년여 만의 최악 월간 성적을 앞두고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "비트코인, 한때 6만2000 달러 탈환…11월 20% 빠져 4년여 만에 최악 성적 눈앞｜Global Money Club - 중앙일보"
+    },
+    {
+      "title": "비트코인 옵션 70억 달러어치 만기 (원문: $7 Billion in Bitcoin Options Just Expired: Here’s What It Means)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
+      "one_liner": "이달 최대 규모인 70억 달러 상당 비트코인 옵션이 만기를 맞았고, 트레이더들은 추가 하락에 대비한 보호 수요를 늘리고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means"
+    },
+    {
+      "title": "말레이시아, 첫 비트코인 현물 ETF 승인…12월 2일 출시",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PT04xM215NWhxNjd3WGZSWk8zQVVCbkY1SlRFRWZtMXFVZVpVdTA2aDlqb0tuSGc4TTZxVXhER2tiVzlqY01ZUjNVamxZT256?oc=5",
+      "one_liner": "말레이시아가 첫 비트코인 현물 ETF를 승인했고 12월 2일 상장한다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "말레이시아, 첫 비트코인 현물 ETF 승인…12월 2일 출시 - 블루밍비트"
+    },
+    {
+      "title": "SK하이닉스, 자사주 일일 매수 주문량 2배로 확대",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00SG5MbVVoeUVXU3YwRnJWdGdHUm4xTm1oOW5MU0hYVU1VMG83WE5wM2lxdGhUOFpkWmFxd0ZWeVYxcWlxYXRPYVRMSkV0b0x2dWQ3QUh0QktZYWfSAWBBVV95cUxQMURjWllvS1l6dXpwbzBRVHFnUDlyZlotcGFwSzhFbnR5SW5tQ1N6Y3ItX283cl92N1ROMEIwS3RBU2E1Z2U1MF9TdWJtLUVmUTFLSmwtMGppUDdMWUFhaDA?oc=5",
+      "one_liner": "SK하이닉스가 주주가치 제고를 위해 자사주 일일 매수 주문량을 2배로 늘렸다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [
+        "kospi"
+      ],
+      "category": "data",
+      "original_title": "SK하이닉스, 자사주 일일 매수 주문량 2배로…주주가치 제고 - 연합뉴스"
+    },
+    {
+      "title": "튜더 존스, 비트코인 ETF 보유 2배로 늘려…비중은 1% 미만",
+      "source": "코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nbnpDUXpQOGJFcU1YNmdUMVpzc2F3U3NHVzc5TTNiZWFyZjVBcFpsT25nejNMaTJjMG9WMlMxUjFIVXJFSDNQOHZR?oc=5",
+      "one_liner": "폴 튜더 존스가 비트코인 ETF 보유를 2배로 늘렸지만 포트폴리오 비중은 1%에 못 미친다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "튜더 존스, 비트코인 ETF 2배 늘렸다…비중은 1%도 안 돼 - 코인리더스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
