@@ -1,0 +1,113 @@
+{
+  "schema": 2,
+  "date": "2026-11-29",
+  "slot": "am",
+  "generated_at": "2026-11-29T03:41:44.644055+09:00",
+  "top_insight": [],
+  "whats_changed": [],
+  "themes": [],
+  "market_mood": "감성 데이터 없음 (제목·요약 기준 참고)",
+  "events": [
+    "트럼프미디어 전환사채 조기상환일(11/30)",
+    "말레이시아 샤리아 비트코인 ETF 상장(12/2)",
+    "국회 예산안 처리 법정 시한(12/2)"
+  ],
+  "items": [
+    {
+      "title": "미 중부사령부, 대이란 해상봉쇄 돌파하려던 상선 무력화",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CYnhqdFFBZnREYzdrUGNITWE2SHlFTkJzdlBCOUdiUzUwam9ERF91ZU9vNDVDWXZiTDlUZTBuOXVqVS1oQ3htY1JocUZreVV5b2NMamkzWnJmWFFn?oc=5",
+      "one_liner": "미군이 이란 봉쇄 위반을 시도한 상선을 무력화했고, 호르무즈 해협에 다시 긴장이 높아졌다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "미 중부사령부, 대이란 해상봉쇄 돌파하려던 상선 무력화 - 뉴스핌"
+    },
+    {
+      "title": "'유조선의 무덤' 된 호르무즈…이란 반복 공격에 해운 정상화 난망",
+      "source": "YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xUURVdG5Zak1RcU85eHFwLTl1VnBWUWtLeWxzNFBTdVdPSEMzNVhxRWYzTWo4U3hfa21weFFhd2gwVlAtX2dCQTUxSTM0dnJDWUZ2VWdzeFFGU3hjRVE?oc=5",
+      "one_liner": "이란의 호르무즈 선박 반복 공격으로 해운업계는 정상화가 어렵다고 보고, OPEC+는 원유 공급 논의를 앞두고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.75,
+      "indicators": [
+        "wti",
+        "brent"
+      ],
+      "category": "geopolitics",
+      "original_title": "'유조선의 무덤' 된 호르무즈...해양 오염 어쩌나? - YTN"
+    },
+    {
+      "title": "우크라, 러 정유시설 3곳 타격…러시아 항공유 수출 금지 내년 3월까지 연장",
+      "source": "연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45Qmh2bTFaYmxyd0FLQjNMVmw0NEd5bGxRaHJ5N2JWNTZ3eXhDdVFNTHE1cE1ldEM2cGEyYWNOUkNLamhKNV9lQXEwdWs5eFJRNTdZTEpiQU1lcWU3aWMwOFY5NjFrSUU?oc=5",
+      "one_liner": "우크라이나가 러시아 정유시설 3곳을 타격했고 러시아는 항공유 수출 금지를 내년 3월까지 연장했다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "data",
+      "original_title": "우크라, 러 정유시설 3곳 타격…에너지 수급 ’불안’ - 연합뉴스TV"
+    },
+    {
+      "title": "비트코인 현물 ETF, 출시 이후 최대 월간 순유출…XRP만 순유입 전환",
+      "source": "매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5jMEx4SEhTcE5jSl9XaUhhNllZNEcwdjlEVXRUQWxVcHlDUmN3OEVXTGJjSHJKZDRJbDNraV9CNEFtbVR3ekNNNkUzdVdKSXF5VUk4?oc=5",
+      "one_liner": "비트코인 현물 ETF가 출시 이후 최대 규모의 월간 순유출을 기록했고 XRP만 순유입으로 돌아섰다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "비트코인 현물 ETF, 출시 이후 최대 월간 순유출…XRP만 나 홀로 순유입 전환 | 엠블록 - 매일경제"
+    },
+    {
+      "title": "비트코인, 5만9000달러 하회",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhcnRkd2g0QnEzeEdwMUw1UVUxZkJZQ2ZsR1p5U0VKLUFobXdINjZnZDNFYVF6emRZMklDcTdlOHdkODk5TGllcDhfWXdzYnBr?oc=5",
+      "one_liner": "비트코인 가격이 5만9000달러 아래로 내려갔다.",
+      "why_it_matters": "",
+      "confidence": 0.8,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "비트코인, 5만9000달러 하회 - 블루밍비트"
+    },
+    {
+      "title": "트럼프미디어, 30일 전환사채 조기상환일…비트코인 매도 여부 주목",
+      "source": "블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5faXNWRG1JNVdzTWlheXZxVGFZaW45TXRNZXh0c21GdGFFby1TeENaWmtmV2ZyLThNRTlzZnc1a0FocTZBXzFqd3BYcWRVcmR3?oc=5",
+      "one_liner": "트럼프미디어의 전환사채 조기상환일이 30일로 다가와 보유 비트코인 매도 여부에 관심이 쏠린다.",
+      "why_it_matters": "",
+      "confidence": 0.7,
+      "indicators": [],
+      "category": "holding",
+      "original_title": "트럼프미디어, 오는 30일 전환사채 조기상환일…비트코인 매도 여부 주목 - 블루밍비트"
+    },
+    {
+      "title": "일본은행, 스테이블코인·토큰화 금융의 기존 은행권 편입 검토 (원문: Bank of Japan Explores Bringing Stablecoins and Tokenized Finance Into Traditional Banking)",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/384221/bank-of-japan-stablecoins-tokenized-finance-banking",
+      "one_liner": "일본은행이 블록체인 기반 화폐를 기존 결제 시스템과 연동하는 방안을 검토하고 있다.",
+      "why_it_matters": "",
+      "confidence": 0.65,
+      "indicators": [],
+      "category": "central_bank",
+      "original_title": "Bank of Japan Explores Bringing Stablecoins and Tokenized Finance Into Traditional Banking"
+    },
+    {
+      "title": "예산안 처리 시한 D-4, 미래대응기금 의결 모두 보류",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mYmdJYVczWHRvUDU4MzFES1p1UW52VWNiQlhPTktDc2xpTld0QmlXUWwxcjZoekpaSUdQZHNZR09Bei1XMTRHS3p1dmxyLVhuNy1ZVnEtWWoySklSUjgycTd2QnJqVHJHR05LSE9IUjhvT3Rva1ktU9IBeEFVX3lxTFBmQ1ZmWjlEaTl6R2VPMUxXU21ER3BvM3VBSFhGWUk2MFYzcDVsMFRNLV80bUJBN1FxZzEyWFlYQkJNcE51b182SlZER0dhWGRTZTZRNnRVVzlRai01bGFqalFBaHZCOEctQ2tEOUtjVmtETUxsYm1JSA?oc=5",
+      "one_liner": "국회 예산안 처리 시한을 4일 앞두고 미래대응기금 의결이 모두 보류돼 주말까지 공방이 이어진다.",
+      "why_it_matters": "",
+      "confidence": 0.6,
+      "indicators": [],
+      "category": "policy",
+      "original_title": "예산안 시한 D-4, 미래대응기금 의결 모두 보류‥주말까지 공방 - MBC 뉴스"
+    }
+  ],
+  "archived_count": 0,
+  "failed_sources": []
+}
